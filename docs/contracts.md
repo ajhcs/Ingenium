@@ -4,7 +4,7 @@ Version 1, frozen for initial independent lanes. Changes require integrator reco
 
 ## Package and runtime
 
-Canonical root plugin.json; skills/ingenium/SKILL.md; no MCP/hooks/server. Node >=22 for optional helpers, ES modules, built-in node:test. Root package/locks belong to integrator. Node packages only for a concrete adapter. Project license remains unset pending owner selection. Original synthetic inputs only.
+Canonical root plugin.json; skills/ingenium/SKILL.md; no MCP/hooks/server. Node >=22 for optional helpers, ES modules, built-in node:test. Root package/locks belong to integrator. Node packages only for a concrete adapter. Project license is MIT, selected by the owner. Original synthetic inputs only.
 
 ## Records lane
 

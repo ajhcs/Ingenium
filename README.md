@@ -11,18 +11,19 @@ The portable entrypoint is `plugin.json`; the workflow is `skills/ingenium/SKILL
 Optional Node helpers target Node 22 or newer. The declared optional Sharp dependency supports a bounded static SVG-to-PNG export while preserving the editable SVG source:
 
 ```sh
-npm install --ignore-scripts
+npm ci --ignore-scripts
 node bin/ingenium.mjs capabilities
-node bin/ingenium.mjs check examples/records/example.json
-node bin/ingenium.mjs render examples/svg/study.svg work/preview.png
+node bin/ingenium.mjs check examples/records/poster.json
+mkdir -p work
+node bin/ingenium.mjs render examples/svg/clipped-orbit.svg work/preview.png
 npm test
 ```
 
-Use actual example filenames present in the completed records and SVG lanes; those lanes are under integration. An explicit `--sharp-module /path/to/sharp/entry.cjs` selects an existing installation without silently installing one. Missing or errored tools remain unavailable; editable source and prose work can continue. Output directories should be user-selected or private.
+Create the output directory before rendering. An explicit `--sharp-module /path/to/sharp/entry.cjs` selects an existing installation without silently installing one. Missing or errored tools remain unavailable; editable source and prose work can continue. Output directories should be user-selected or private.
 
 ## Development status
 
-Slice 1 is in progress. Record and SVG workers have exclusive paths under the frozen `docs/contracts.md`. Full suite, actual render inspection, independent behavioral/code review and installed-client checks remain pending until recorded against the assembled candidate. Test counts or an export alone do not establish user acceptance, design quality or engineering adequacy.
+Slice 1 has assembled record and SVG helpers, project-local locked dependencies and a portable package. Validation covers record preservation/refusal, CLI wiring through npm binary symlinks, an actual renderer probe, source-preserving exports and an isolated packed installation. See [validation scope](docs/validation.md) for evidence and limits. Installed-client discovery and invocation remain untested. Test counts or an export alone do not establish user acceptance, design quality or engineering adequacy.
 
 For behavioral evaluation, `tests/fixtures/requests.json` includes direct, implicit, partial-output, contradictory-feedback, reuse and negative requests. These are evaluation cases, not an executable router or a claim of tested LLM behavior.
 
