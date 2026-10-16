@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "id": "project-poster",
+  "revision": 0,
+  "purpose": "Explore an original poster for a fictional night garden event.",
+  "evidence": [
+    {"id": "e-color", "statement": "The synthetic brief requests indigo and warm yellow.", "source": "Original synthetic brief"},
+    {"id": "e-shape", "statement": "The synthetic brief requests one large botanical silhouette."}
+  ],
+  "interpretations": [
+    {"id": "i-mood", "statement": "A quiet mood may fit the night garden theme.", "status": "tentative", "evidenceIds": ["e-color"]}
+  ],
+  "decisions": [
+    {"id": "d-palette", "question": "Which palette should this exploration use?", "scope": "First poster exploration only", "status": "chosen", "choice": "Indigo background with warm yellow accents", "evidenceIds": ["e-color"], "interpretationIds": ["i-mood"]},
+    {"id": "d-layout", "question": "Where should the title sit?", "scope": "First poster exploration only", "status": "open", "choice": null, "evidenceIds": ["e-shape"], "interpretationIds": []}
+  ],
+  "artifacts": [
+    {"id": "a-study", "description": "Planned editable silhouette study; no file existence claim.", "path": "studies/garden.svg", "evidenceIds": ["e-shape"], "decisionIds": ["d-palette", "d-layout"]}
+  ]
+}
