@@ -6,7 +6,7 @@ The skill is independently invocable as Ingenium. Begin with a question, an exis
 
 ## Package
 
-The portable entrypoint is `plugin.json`; the workflow is `skills/ingenium/SKILL.md`. There is no required server, backend or account connection. Install through a client-supported local plugin source, then verify actual discovery and invocation in a fresh conversation. This repository does not claim installed-client qualification yet.
+The portable entrypoint is `plugin.json`; the workflow is `skills/ingenium/SKILL.md`. There is no required server, backend or account connection. Install through a client-supported local plugin source, then verify actual discovery and invocation in a fresh conversation. Local CLI discovery has been observed; desktop discovery remains unverified.
 
 Optional Node helpers target Node 22 or newer. The declared optional Sharp dependency supports a bounded static SVG-to-PNG export while preserving the editable SVG source:
 
@@ -19,11 +19,11 @@ node bin/ingenium.mjs render examples/svg/clipped-orbit.svg work/preview.png
 npm test
 ```
 
-Create the output directory before rendering. An explicit `--sharp-module /path/to/sharp/entry.cjs` selects an existing installation without silently installing one. Missing or errored tools remain unavailable; editable source and prose work can continue. Output directories should be user-selected or private.
+Create the output directory before rendering. For a copied plugin without dependencies, follow [optional renderer setup](skills/ingenium/references/renderer-setup.md). Install Sharp explicitly into a user-owned directory and pass `--renderer-dir` to both capabilities and render; no development checkout or plugin-cache write is required. `--sharp-module` remains an advanced alternative. Missing or errored tools remain unavailable; editable source and prose work can continue. Output directories should be user-selected or private.
 
 ## Development status
 
-Slice 1 has assembled record and SVG helpers, project-local locked dependencies and a portable package. Validation covers record preservation/refusal, CLI wiring through npm binary symlinks, an actual renderer probe, source-preserving exports and an isolated packed installation. See [validation scope](docs/validation.md) for evidence and limits. Installed-client discovery and invocation remain untested. Test counts or an export alone do not establish user acceptance, design quality or engineering adequacy.
+Slice 1 has assembled record and SVG helpers, project-local locked dependencies and a portable package. Validation covers record preservation/refusal, CLI wiring through npm binary symlinks, an actual renderer probe, source-preserving exports and an isolated packed installation. See [validation scope](docs/validation.md) for evidence and limits. Observed fresh CLI cases include direct and implicit invocation and two negative requests. Desktop discovery remains unverified. Test counts or an export alone do not establish user acceptance, design quality or engineering adequacy.
 
 For behavioral evaluation, `tests/fixtures/requests.json` includes direct, implicit, partial-output, contradictory-feedback, reuse and negative requests. These are evaluation cases, not an executable router or a claim of tested LLM behavior.
 

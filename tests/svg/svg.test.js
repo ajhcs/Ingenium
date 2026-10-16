@@ -40,7 +40,11 @@ test('a callable module that fails the render probe is errored', async t => {
   const { dir } = await workspace(t);
   const broken = join(dir, 'probe.cjs');
   await writeFile(broken, 'module.exports = Object.assign(() => { throw new Error("probe fails") }, {versions:{sharp:"synthetic"}})');
-  assert.deepEqual(await discoverCapabilities({ sharpModule: broken }), { sharp: { status: 'errored', version: 'synthetic', reason: 'Sharp SVG-to-PNG probe failed' } });
+  const result = await discoverCapabilities({ sharpModule: broken });
+  assert.equal(result.sharp.status, 'errored');
+  assert.equal(result.sharp.version, 'synthetic');
+  assert.equal(result.sharp.reason, 'Sharp SVG-to-PNG probe failed');
+  assert.equal(result.sharp.setup.package, 'sharp@0.35.4');
 });
 
 test('refuses overwrite, existing outputs, symlinks and hard links while preserving bytes', async t => {
@@ -93,7 +97,7 @@ for (const [name, input] of rejected) {
   test(`refuses ${name} before resolving a renderer`, async t => {
     const paths = await workspace(t);
     await writeFile(paths.sourcePath, input);
-    await assert.rejects(exportSvg({ ...paths, sharpModule: '@ingenium-test/definitely-missing' }), error => error.code !== 'MODULE_NOT_FOUND');
+    await assert.rejects(exportSvg({ ...paths, sharpModule: '@ingenium-test/definitely-missing' }), error => !['MODULE_NOT_FOUND', 'INGENIUM_RENDERER_ABSENT'].includes(error.code));
     assert.equal(await readFile(paths.sourcePath, 'utf8'), input);
     await assert.rejects(readFile(paths.outputPath), { code: 'ENOENT' });
   });

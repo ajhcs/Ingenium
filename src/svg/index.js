@@ -90,30 +90,49 @@ function staticSubset(bytes) {
   if (references.some(id => !ids.has(id))) fail('Unresolved local SVG reference');
 }
 
-async function loadSharp(locator) {
+const rendererSetup = {
+  package: 'sharp@0.35.4',
+  install: 'npm install --prefix "<renderer-directory>" --save-exact --include=optional --ignore-scripts sharp@0.35.4',
+  next: 'Pass --renderer-dir "<renderer-directory>" to capabilities or render. Choose a user-owned directory outside the plugin cache.',
+  documentation: 'skills/ingenium/references/renderer-setup.md',
+};
+
+function rendererError(message, code) {
+  return Object.assign(new Error(message), { code, setup: { ...rendererSetup } });
+}
+
+async function loadSharp({ sharpModule: locator, rendererDir } = {}) {
+  if (locator !== undefined && rendererDir !== undefined) fail('Choose either sharpModule or rendererDir, not both');
   if (locator !== undefined && (typeof locator !== 'string' || !locator.trim())) fail('sharpModule must be a module locator string');
+  if (rendererDir !== undefined && (typeof rendererDir !== 'string' || !rendererDir.trim())) fail('rendererDir must be a directory string');
+  // An explicit npm boundary must never fall back to an ancestor's dependencies.
+  const target = rendererDir === undefined ? locator ?? 'sharp' : resolve(rendererDir, 'node_modules/sharp');
   let resolved;
-  try { resolved = require.resolve(locator ?? 'sharp'); }
-  catch (error) { error.ingeniumMissingLocator = error.code === 'MODULE_NOT_FOUND'; throw error; }
-  const module = require(resolved);
-  if (typeof module !== 'function' || !module.versions?.sharp) fail('Sharp module does not expose the supported API');
+  try { resolved = require.resolve(target); }
+  catch (error) {
+    throw rendererError('Sharp could not be resolved. Optional PNG rendering needs a local renderer installation.', error.code === 'MODULE_NOT_FOUND' ? 'INGENIUM_RENDERER_ABSENT' : 'INGENIUM_RENDERER_LOAD');
+  }
+  let module;
+  try { module = require(resolved); }
+  catch { throw rendererError('Sharp could not be loaded. Check Node/platform compatibility and that npm installed optional binary dependencies.', 'INGENIUM_RENDERER_LOAD'); }
+  if (typeof module !== 'function' || !module.versions?.sharp) throw rendererError('Selected module does not expose the supported Sharp API.', 'INGENIUM_RENDERER_INCOMPATIBLE');
   return module;
 }
 
 export async function discoverCapabilities(options = {}) {
   let sharp;
-  try { sharp = await loadSharp(options.sharpModule); }
+  try { sharp = await loadSharp(options); }
   catch (error) {
-    return { sharp: { status: error.ingeniumMissingLocator ? 'absent' : 'errored', reason: error.ingeniumMissingLocator ? 'Sharp module could not be resolved' : 'Sharp module could not be loaded' } };
+    return { sharp: { status: error.code === 'INGENIUM_RENDERER_ABSENT' ? 'absent' : 'errored', reason: error.message, ...(error.setup ? { setup: error.setup } : {}) } };
   }
   try {
     const probe = await sharp(Buffer.from('<svg xmlns="http://www.w3.org/2000/svg" width="2" height="3"><rect width="2" height="3" fill="red"/></svg>'), { limitInputPixels: MAX_PIXELS }).png().toBuffer({ resolveWithObject: true });
     if (probe.info.width !== 2 || probe.info.height !== 3 || probe.info.format !== 'png') fail('Unexpected Sharp probe result');
     return { sharp: { status: 'present', version: sharp.versions.sharp, versions: { ...sharp.versions }, probe: { format: 'png', width: 2, height: 3 } } };
-  } catch { return { sharp: { status: 'errored', version: sharp.versions.sharp, reason: 'Sharp SVG-to-PNG probe failed' } }; }
+  } catch { return { sharp: { status: 'errored', version: sharp.versions.sharp, reason: 'Sharp SVG-to-PNG probe failed', setup: { ...rendererSetup } } }; }
 }
 
-export async function exportSvg({ sourcePath, outputPath, sharpModule } = {}) {
+export async function exportSvg({ sourcePath, outputPath, sharpModule, rendererDir } = {}) {
   if (typeof sourcePath !== 'string' || typeof outputPath !== 'string') fail('sourcePath and outputPath are required');
   const source = resolve(sourcePath);
   const output = resolve(outputPath);
@@ -135,7 +154,7 @@ export async function exportSvg({ sourcePath, outputPath, sharpModule } = {}) {
     bytes = await sourceHandle.readFile();
   } finally { await sourceHandle.close(); }
   staticSubset(bytes);
-  const sharp = await loadSharp(sharpModule);
+  const sharp = await loadSharp({ sharpModule, rendererDir });
   const renderer = { name: 'sharp', version: sharp.versions.sharp, versions: { ...sharp.versions } };
   const pipeline = sharp(bytes, { limitInputPixels: MAX_PIXELS, failOn: 'warning' });
   const metadata = await pipeline.metadata();

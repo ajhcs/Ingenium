@@ -21,3 +21,7 @@ Integrator owns skills/ingenium/SKILL.md, other domain references, CLI, package/
 ## Evidence and public delivery
 
 Private tests/review receipts under ignored work/. Public sources/examples use original synthetic content; public validation reports contain no user records or machine paths. An independent evaluator gets realistic tasks without intended answers. Integrator reviews complete staged diff and third-party rights before non-force push/PR. Installation/discovery in an actual client remains separately pending until tested.
+
+## Optional renderer setup reconciliation
+
+The integrator extends both SVG APIs with optional `rendererDir`, mutually exclusive with `sharpModule`. It names a user-owned npm installation directory; resolve only its `node_modules/sharp`, with no fallback into the checkout or another ancestor. Normal package-relative resolution remains the default. CLI capabilities and render accept the same selector. Missing/load/probe failures retain honest absent/errored status and provide portable setup guidance. Setup is an explicit npm operation performed by the user or an authorized task, never an automatic discovery/export side effect. No plugin-cache modification or persistent configuration is required.

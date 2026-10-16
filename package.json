@@ -24,7 +24,8 @@
     "THIRD_PARTY.json"
   ],
   "scripts": {
-    "test": "node --test tests/*.test.mjs tests/records/*.test.mjs tests/svg/*.test.js"
+    "test": "node --test tests/*.test.mjs tests/records/*.test.mjs tests/svg/*.test.js",
+    "test:installed-renderer": "node --test tests/installed/*.test.mjs"
   },
   "optionalDependencies": {
     "sharp": "0.35.4"
