@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "originalCode": {
+    "license": "MIT",
+    "owner": "ajhcs and contributors"
+  },
+  "components": [
+    {
+      "name": "sharp",
+      "version": "0.35.4",
+      "use": "Optional unmodified static SVG-to-PNG renderer",
+      "source": "https://github.com/lovell/sharp",
+      "license": "Apache-2.0",
+      "distribution": "Resolved by npm; not vendored in this repository",
+      "qualification": "Runtime availability and export tests reported per environment; transitive binary libraries retain their own notices"
+    }
+  ],
+  "guidance": [
+    {
+      "source": "https://developers.openai.com/plugins/build/plugins",
+      "use": "Portable manifest structure"
+    },
+    {
+      "source": "https://developers.openai.com/plugins/build/skills",
+      "use": "Skill structure and routing guidance"
+    }
+  ],
+  "assets": "Examples are original synthetic content; no font files, private source documents or user preference records are redistributed."
+}

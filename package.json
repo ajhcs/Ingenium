@@ -1,0 +1,32 @@
+{
+  "name": "@ajhcs/ingenium",
+  "version": "0.1.0",
+  "description": "Experimental portable creative design plugin and optional SVG export helper",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "ingenium": "./bin/ingenium.mjs"
+  },
+  "files": [
+    "plugin.json",
+    "skills/",
+    "src/",
+    "bin/",
+    "examples/",
+    "docs/",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "THIRD_PARTY.json"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs tests/records/*.test.mjs tests/svg/*.test.mjs"
+  },
+  "optionalDependencies": {
+    "sharp": "0.35.4"
+  }
+}
