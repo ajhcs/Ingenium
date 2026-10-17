@@ -1,0 +1,44 @@
+{
+  "package": "@radix-ui/colors",
+  "version": "3.0.0",
+  "registryIntegrity": "sha512-FUOsGBkHrYJwCSEtWRCIfQbZG7q1e6DgxCIOe1SUQzDe/7rXXeA47s8yCn6fuTNQAj1Zq4oTFi9Yjp3wzElcxg==",
+  "tarball": "https://registry.npmjs.org/@radix-ui/colors/-/colors-3.0.0.tgz",
+  "tarballSha256": "f6cec1ff1fcc58a45eeefc25d0e6aa1f1659845dbd198963617a86e43d21f3d1",
+  "scriptsExecuted": false,
+  "integrityVerified": true,
+  "files": [
+    {
+      "path": "package/LICENSE",
+      "sha256": "9c400881b9139571aa7acc3bd6e422a4f05223b4519169fb661298fb44bf228e",
+      "bytes": 1062
+    },
+    {
+      "path": "package/blue-dark.css",
+      "sha256": "6a27324f2ad7d53649d40bddfd397db276d4fad8626945fd54d903190ba58c23",
+      "bytes": 1014
+    },
+    {
+      "path": "package/blue.css",
+      "sha256": "01862cc2b3c61bc4d7724d764b919124ae83fb2b00c0aaa55bf9c7d94557459f",
+      "bytes": 1038
+    },
+    {
+      "path": "package/gray-dark.css",
+      "sha256": "f6b0d39917f70f87bfc208ed0cedb407314669e3ca298d34a750ec0da6e99bc1",
+      "bytes": 1028
+    },
+    {
+      "path": "package/gray.css",
+      "sha256": "254092c943058abe44b2405b97385737d8577b52195569e35830b8830bf288bb",
+      "bytes": 1043
+    },
+    {
+      "path": "package/package.json",
+      "sha256": "836b70c17a1bb19ce23db54ae8f24ed4a5a3a3a06d048a1cbd9d53d8597bbf94",
+      "bytes": 802
+    }
+  ],
+  "documentation": "https://www.radix-ui.com/colors/docs/overview/installation",
+  "sourceRepository": "https://github.com/radix-ui/colors",
+  "selection": "Only blue and gray opaque light/dark scales. API extracts exact first-block sRGB hex declarations; original CSS retained including P3 overrides."
+}

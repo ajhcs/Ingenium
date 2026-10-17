@@ -27,6 +27,8 @@ Create the output directory before rendering. For a copied plugin without depend
 
 ## Development status
 
+Browse the [example progression](examples/README.md) for early studies, the 2026-10-17 four-case tranche and retained technical sources. [Resource-library status](docs/resource-library-status.md) distinguishes implemented local tools from missing catalogs and unverified provider acquisition.
+
 Slice 1 has assembled record and SVG helpers, project-local locked dependencies and a portable package. Validation covers record preservation/refusal, CLI wiring through npm binary symlinks, an actual renderer probe, source-preserving exports and an isolated packed installation. See [validation scope](docs/validation.md) for evidence and limits. Observed fresh CLI cases include direct and implicit invocation and two negative requests. Desktop discovery remains unverified. Test counts or an export alone do not establish user acceptance, design quality or engineering adequacy.
 
 For behavioral evaluation, `tests/fixtures/requests.json` includes direct, implicit, partial-output, contradictory-feedback, reuse and negative requests. These are evaluation cases, not an executable router or a claim of tested LLM behavior.
@@ -40,3 +42,5 @@ The [foundation helpers](skills/ingenium/references/checks.md) add pure layout c
 ## Rights and provenance
 
 Original code and synthetic artwork use [MIT](LICENSE). The [four worked studies](examples/worked/README.md) include three selected unmodified DejaVu font files with their own notices and hashes. See [third-party notices](THIRD_PARTY_NOTICES.md) and `THIRD_PARTY.json` for component rights. No private reading, annotation or user preference record is distributed.
+
+Selected resource helpers cover fonts, symbols, shapes, palettes, illustrations, textures and small UI components. Start with [resource libraries](skills/ingenium/references/resource-libraries.md) for actual commands and [qualification limits](docs/resource-library-status.md). Full-design/template libraries are excluded.

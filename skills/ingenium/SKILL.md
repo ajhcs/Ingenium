@@ -25,7 +25,7 @@ For outputs:
 - SVG studies and PNG exports: read [SVG support](references/svg.md). The optional helper preserves source and creates a separate export.
 - Checking available local helpers: read [capabilities](references/capabilities.md). Discovery must observe the actual environment; available source files do not prove installed-client routing.
 - Constructing layouts or checking owned local delivery fixtures: read [layout and accessibility checks](references/checks.md). Keep complete measured evidence and review candidates separate from visual judgment; use compact changed-issue summaries for iteration.
-- Finding a selected icon or font candidate: read [optional assets](references/assets.md). Keep queries public, inspect asset-specific rights, and distinguish offline fixtures from live qualification.
+- Finding or editing symbols, shapes, fonts, colors, illustrations, textures or small UI components: read [resource libraries](references/resource-libraries.md), then the relevant linked API. Inspect a small candidate set and actual source/rights before selection; preserve original and edited bytes. Use these resources to develop the brief's organizing idea, and inspect the rendered result. Full-design/template libraries are excluded. The older [remote asset adapter](references/assets.md) has separate qualification limits.
 - Physical or formal engineering work: read [domain boundaries](references/domains.md) when consequential claims arise.
 - A request for a usable original font: read [the optional font interface](references/fonts.md); a letter-shaped drawing or outlined existing font is not a qualified typeface.
 

@@ -111,6 +111,34 @@
       "license": "Bitstream Vera font license; DejaVu changes public domain",
       "distribution": "Selected Sans regular/Bold and Serif regular files under examples/worked/fonts; exact hashes and full retained notice beside them",
       "qualification": "Local font metadata, cmap, embedded-byte identity and scoped browser previews checked; arbitrary client rendering and print production untested"
+    },
+    {
+      "name": "@radix-ui/colors",
+      "version": "3.0.0",
+      "use": "Four selected blue/gray light/dark scales",
+      "source": "https://github.com/radix-ui/colors",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2021 Radix",
+      "distribution": "Four exact CSS files, full package LICENSE and provenance under src/palettes/source; no JavaScript imported",
+      "qualification": "Exact opaque sRGB tokens inspected; P3 declarations retained but not exposed as API tokens"
+    },
+    {
+      "name": "@iconify/utils",
+      "version": "3.1.7",
+      "use": "Explicit local pure selected-icon conversion helpers",
+      "source": "https://github.com/iconify/iconify",
+      "license": "MIT",
+      "distribution": "Not vendored or automatically installed; full separately acquired package retains own notice",
+      "qualification": "Only explicit pure getIconData/iconToSVG/iconToHTML closure; tool rights do not determine artwork rights"
+    },
+    {
+      "name": "bulma",
+      "version": "1.0.4",
+      "use": "Exact stylesheet for three original native component wrappers",
+      "source": "https://github.com/jgthms/bulma",
+      "license": "MIT",
+      "distribution": "Not vendored; explicit local pinned data package required; selected export copies unchanged CSS and full notice",
+      "qualification": "Ingenium authors markup and behavior; no upstream JavaScript/full-site templates"
     }
   ],
   "guidance": [
@@ -123,5 +151,5 @@
       "use": "Skill structure and routing guidance"
     }
   ],
-  "assets": "Examples contain original synthetic MIT artwork and original limited font sources, plus three selected unmodified DejaVu font files with separate retained notices/hashes. No private brief, annotations or benchmark references are distributed."
+  "assets": "Examples contain original synthetic MIT artwork and original limited font sources, plus three selected unmodified DejaVu font files with separate retained notices/hashes. No private brief, annotations or benchmark references are distributed. Four selected Radix Colors CSS scales are bundled with exact MIT notice/provenance. Optional local Fontsource/Iconify/Fluent/Hero sources and Bulma CSS are not vendored; selected exports retain their applicable notices and scoped evidence."
 }
