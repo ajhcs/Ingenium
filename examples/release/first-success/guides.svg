@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+<title>Listening Garden — editable layout guides</title>
+<desc>Companion study: cyan columns and insets, amber text baselines, pink inherited spans and motif overhang.</desc>
+<g id="artwork">
+<rect id="ground" width="1000" height="1200" fill="#242249"/>
+<g id="sound-garden" transform="translate(-14 1)" fill="none" stroke="#F4EAD4" stroke-width="2" opacity="0.7">
+<circle cx="810" cy="415" r="144"/>
+<circle cx="810" cy="415" r="112"/>
+<circle cx="810" cy="415" r="80"/>
+<circle cx="810" cy="415" r="48"/>
+<path d="M810 558 Q748 690 825 790 M815 665 Q737 605 695 649 M810 704 Q885 628 931 684"/>
+<path d="M695 649 Q700 707 810 704 M931 684 Q910 735 810 739"/>
+</g>
+<g fill="#F4EAD4">
+<text id="series" x="76" y="104" font-family="sans-serif" font-size="16" font-weight="400">FIELD NOTES / 01</text>
+<text id="title" x="72" y="344" font-family="serif" font-size="96" font-weight="400"><tspan x="72">Listening</tspan><tspan x="72" dy="104">Garden</tspan></text>
+<path id="title-rule" d="M76 504 L284 504" stroke="#F4EAD4" stroke-width="2"/>
+<text id="subtitle" x="76" y="560" font-family="sans-serif" font-size="28" font-weight="400"><tspan x="76">A quiet outdoor</tspan><tspan x="76" dy="40">sound-art study.</tspan></text>
+</g>
+<rect id="details-panel" x="76" y="824" width="724" height="272" rx="8" fill="#F4EAD4"/>
+<g id="event-details" fill="#242249">
+<text id="event-disclosure" x="104" y="872" font-family="sans-serif" font-size="20" font-weight="400">FICTIONAL EVENT / JOIN US</text>
+<text id="date-time" x="104" y="920" font-family="sans-serif" font-size="36" font-weight="700">18 June 2030 · 18:30–20:00</text>
+<text id="location" x="104" y="968" font-family="sans-serif" font-size="32" font-weight="400">Moss Court, North Gate</text>
+<rect id="access-band" x="104" y="992" width="668" height="76" rx="4" fill="#242249"/>
+<g fill="#F4EAD4"><text id="access" x="124" y="1040" font-family="sans-serif" font-size="28" font-weight="700">Free entry · Seating available</text></g>
+</g>
+</g>
+<g id="layout-guides">
+<rect x="76" y="76" width="128" height="1020" fill="#62D4F2" fill-opacity="0.07" stroke="#62D4F2" stroke-opacity="0.55" stroke-width="1"/>
+<rect x="220" y="76" width="128" height="1020" fill="#62D4F2" fill-opacity="0.07" stroke="#62D4F2" stroke-opacity="0.55" stroke-width="1"/>
+<rect x="364" y="76" width="128" height="1020" fill="#62D4F2" fill-opacity="0.07" stroke="#62D4F2" stroke-opacity="0.55" stroke-width="1"/>
+<rect x="508" y="76" width="128" height="1020" fill="#62D4F2" fill-opacity="0.07" stroke="#62D4F2" stroke-opacity="0.55" stroke-width="1"/>
+<rect x="652" y="76" width="128" height="1020" fill="#62D4F2" fill-opacity="0.07" stroke="#62D4F2" stroke-opacity="0.55" stroke-width="1"/>
+<rect x="796" y="76" width="128" height="1020" fill="#62D4F2" fill-opacity="0.07" stroke="#62D4F2" stroke-opacity="0.55" stroke-width="1"/>
+<path d="M56 104 H944" stroke="#FFC96E" stroke-width="1" stroke-dasharray="4 8"/>
+<path d="M56 344 H944" stroke="#FFC96E" stroke-width="1" stroke-dasharray="4 8"/>
+<path d="M56 448 H944" stroke="#FFC96E" stroke-width="1" stroke-dasharray="4 8"/>
+<path d="M56 560 H944" stroke="#FFC96E" stroke-width="1" stroke-dasharray="4 8"/>
+<path d="M56 600 H944" stroke="#FFC96E" stroke-width="1" stroke-dasharray="4 8"/>
+<path d="M56 872 H944" stroke="#FFC96E" stroke-width="1" stroke-dasharray="4 8"/>
+<path d="M56 920 H944" stroke="#FFC96E" stroke-width="1" stroke-dasharray="4 8"/>
+<path d="M56 968 H944" stroke="#FFC96E" stroke-width="1" stroke-dasharray="4 8"/>
+<path d="M56 1040 H944" stroke="#FFC96E" stroke-width="1" stroke-dasharray="4 8"/>
+<path d="M104 824 V1096 M124 992 V1068" stroke="#62D4F2" stroke-width="1" stroke-dasharray="8 4"/>
+<rect x="652" y="272" width="288" height="288" fill="none" stroke="#F59AD6" stroke-width="2"/>
+<path d="M76 810 H800 M76 804 V816 M800 804 V816" fill="none" stroke="#F59AD6" stroke-width="2"/>
+<path d="M104 1112 H772 M104 1106 V1118 M772 1106 V1118" fill="none" stroke="#F59AD6" stroke-width="2"/>
+<g fill="#62D4F2" font-family="sans-serif" font-size="16">
+<text x="76" y="156">6 columns: 128 wide / 16 gutter / content 76–924</text>
+<text x="76" y="184">Cyan: columns + insets / Amber: actual text baselines</text>
+<text x="76" y="212">Pink: retained spans + motif overhang / module: 4</text>
+</g>
+<g fill="#F59AD6" font-family="sans-serif" font-size="16">
+<text x="76" y="800">panel 724 / inherited +4 at right</text>
+<text x="104" y="1140">band 668 / panel padding 28 / date-place baselines 48 apart</text>
+</g>
+</g>
+</svg>

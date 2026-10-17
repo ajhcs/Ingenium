@@ -1,0 +1,86 @@
+[
+  {
+    "text": "Turn an idea into something you can see, edit and discuss.",
+    "startMs": 0,
+    "endMs": 5000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Start with a question, an existing artifact, or a direction you can't quite describe.",
+    "startMs": 5000,
+    "endMs": 12000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Ask for a useful study. See what feels right. Keep the source open for revision.",
+    "startMs": 12000,
+    "endMs": 20000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "A publication cover turns a theme into type, color and a relationship between shapes.",
+    "startMs": 20000,
+    "endMs": 28000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "A responsive website carries the same intent into layout, interaction and a smaller screen.",
+    "startMs": 28000,
+    "endMs": 36000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "An identity study tests a mark, its variations, and an event poster in the same visual language.",
+    "startMs": 36000,
+    "endMs": 44000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "A wayfinding study makes destinations and directions visible. Real-world use needs its own checks.",
+    "startMs": 44000,
+    "endMs": 51000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Run the included composition example, then use the optional helper to export a PNG.",
+    "startMs": 51000,
+    "endMs": 59000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "The clean SVG stays editable. A companion guide view makes the layout choices inspectable.",
+    "startMs": 59000,
+    "endMs": 67000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Keep earlier studies. Compare their choices. A later revision isn't proof of a better design.",
+    "startMs": 67000,
+    "endMs": 76000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Say what to keep and what to change. A choice belongs to this study, not to a permanent taste score.",
+    "startMs": 76000,
+    "endMs": 83000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Explore the editable examples. Bring a question. Develop a direction with Ingenium.",
+    "startMs": 83000,
+    "endMs": 90000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

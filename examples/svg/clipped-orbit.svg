@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240">
+  <title>Clipped orbit study</title>
+  <desc>Original editable geometry: a clipped, rotated ring with an even-odd hole.</desc>
+  <defs>
+    <clipPath id="window"><rect x="30" y="25" width="260" height="175" rx="18"/></clipPath>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#20b4ad"/><stop offset="1" stop-color="#3155a6"/></linearGradient>
+  </defs>
+  <rect width="320" height="240" fill="#faf4e7"/>
+  <g clip-path="url(#window)">
+    <g transform="translate(160 112) rotate(-18)">
+      <path id="orbit-with-hole" fill="url(#ink)" fill-rule="evenodd" d="M -145 -65 H 145 V 65 H -145 Z M -80 -30 V 30 H 80 V -30 Z"/>
+      <circle id="signal" cx="104" cy="0" r="15" fill="#ef9262"/>
+    </g>
+  </g>
+  <text id="editable-caption" x="30" y="222" font-size="13" fill="#25364c">Orbit / 01</text>
+</svg>

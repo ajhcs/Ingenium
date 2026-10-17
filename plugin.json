@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ingenium",
+  "version": "0.1.0",
+  "description": "Develop creative direction and editable design studies with optional, selectively loaded design resources.",
+  "author": {
+    "name": "ajhcs"
+  },
+  "repository": "https://github.com/ajhcs/Ingenium",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "creative-workflow",
+    "editable-artifacts"
+  ]
+}

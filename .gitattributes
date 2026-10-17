@@ -1,0 +1,4 @@
+# Pinned data and notices must retain exact upstream bytes across checkouts.
+src/resources/** -text whitespace=-blank-at-eol
+src/palettes/source/** -text
+src/resources/packs/*/icons.data -diff

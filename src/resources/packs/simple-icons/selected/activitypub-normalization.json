@@ -1,0 +1,10 @@
+{
+  "schema": "ingenium-selected-presentation/1",
+  "entry": "activitypub",
+  "originalSHA256": "a41bdb8c760d0c5ddc8920e71c44aa28f63e8c1783fde7155a685ab736b595a1",
+  "preparedSHA256": "7f4ee7328f44e56efd6a22c752ec2a96fd0521551cb22e5ea68601b318f2f5fc",
+  "changes": [
+    "Removed exact root role=img; path data, viewBox and paints unchanged"
+  ],
+  "scope": "Exact selected source presentation preparation; original retained. Explicit upstream per-icon declaration CC0-1.0, full CC0 notice retained. No trademark endorsement inferred."
+}

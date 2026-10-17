@@ -1,0 +1,41 @@
+# Optional original font and vector tools
+
+Original font construction is independent of selecting existing faces. For installed or user-local fonts, use [resource routes](resource-libraries.md); their selected acquisition is supported separately from the older remote asset API. Historical denied API endpoints remain held. This original demonstration uses project sources under MIT and no upstream font file.
+
+The optional `src/font-vector/index.mjs` exports `runFontVector({python,operation?,sourcePath?,outputDir?})`. It is inert on import. Select an absolute existing isolated Python interpreter. Without one it returns `not-run`; missing tools return `not-run`, incompatible tools/build/native errors return `error`, and successful scoped operations return `pass` plus actual versions/artifact identities. No automatic install, server, fetch or global font registration. Operations are `capabilities`, `font-demo`, `compile-font`, `normalize`, `boolean`. Source operations require a bounded owned source and a new output directory; existing output is refused. Failed new output can remain for inspection.
+
+Use a separately authorized project-local Python environment, then install the optional [locked wheel closure](../../../tools/font-vector/requirements-linux-py312.lock) with `pip install --only-binary=:all: --require-hashes -r ...`. This lock qualifies CPython3.12/Linux x86_64; other platforms need separately reviewed wheel hashes. Direct tools are ufoLib2 0.19.1 (Apache-2.0), ufo2ft 3.9.1 (MIT), FontTools4.67.0 (MIT), skia-pathops0.9.2 (BSD-3-Clause), picosvg0.23.0 (Apache-2.0) and uharfbuzz0.56.3 (Apache-2.0, bundled HarfBuzz retains its own notices). Transitive packages and embedded native libraries retain their own distributed licenses. They are installed separately, not vendored in the npm package. Fontmake is deferred: one static master has no family/variable build-controller requirement.
+
+```js
+import { runFontVector } from './src/font-vector/index.mjs';
+const result = await runFontVector({
+  python: '/your/isolated/environment/bin/python',
+  operation: 'font-demo', outputDir: '/your/existing-parent/new-proof'
+});
+```
+
+Or run `node examples/font-vector/build-study.mjs NEW_DIRECTORY EXISTING_PYTHON` to produce the font and vector proofs together. The installed package includes the Python helpers, lock, original patterns, feature sources and example inputs. No Python dependency is required for ordinary Ingenium records, layout or prose.
+
+## Limited original demonstration face
+
+Ingenium Grid Proof Regular is a static geometric grid demonstration, not a general text family or production typography claim. Exact supported repertoire: uppercase `A–Z`, digits `0–9`, space, `. , - ! ?`, lowercase `f` and `i`, and combining U+0301 acute (positioning qualified on A). There are45 encoded characters and48 glyphs including `.notdef`, unencoded `f_i` and an editable unencoded `Aacute` component specimen. No general lowercase, all-Latin, all-language, precomposed-accent or paragraph/bidi coverage is promised. The proof deliberately uses supported text. One regular master, no interpolation or variable axis.
+
+Original editable pattern data and feature sources generate UFO3. The UFO, standalone features, compiled TTF, license, metric/cmap report, shaping report and HTML proof are separate artifacts with hashes. FontTools/ufo2ft compile using explicit features, disabled dynamic filters/writers, and the PathOps overlap backend. The bounded `compile-font` path is for this owned demonstration UFO contract, not arbitrary fonts or a secure font-upload service. It rejects changed fixed metrics/identities, missing mappings/required glyphs, malformed/cyclic components, nonfinite coordinates, external feature includes and symlink paths. Outline edits still require fresh visual review; checks cannot judge glyph quality.
+
+UPM1000; cap height700; x-height500; ascent900/descent−200/line gap100. Full-size capital advances620, space340; other supported characters have explicit widths. A/V groups and feature source specify−80 units; `liga` substitutes f+i with a shared-crossbar `f_i`; compatible A `top` and acute `_top` anchors drive explicit `mark` placement. Features, anchors and kerning/groups are retained in editable sources, rather than inferred from drawings. Actual HarfBuzz shaping tests the delivered TTF with kern/liga/mark on/off: A advance620→540 before V, two glyphs→`f_i`, and acute advance0 with offsets(−310,740). No altered probe font is substituted.
+
+FontTools decompiles all compiled tables and checks required cmap/metrics/tables; this is not sanitation. OTS and Fontspector executables were absent and their checks are explicitly **not-run**. uharfbuzz uses HarfBuzz14.6.0 in the qualified wheel; separate hb-shape/hb-view CLIs are absent. Chromium's internal sanitizer/render acceptance is bounded target-runtime evidence, not a replacement for independent OTS/Fontspector. The proof embeds exact TTF bytes; browser CDP inspection must confirm every proof node uses only the expected custom font/PostScript identity, alongside byte hashes and cmap coverage. Font readiness alone is insufficient.
+
+Inspect actual16/24/48/96 CSS-pixel proofs. No hinting, small-size audience study, production spacing/kerning refinement or aesthetic acceptance is claimed. The declared line metrics keep the supported acute within ascent; other unsupported marks/languages may fall back and must not be presented as supported.
+
+## Bounded vector qualification
+
+`normalize` reads a maximum1MiB SVG and preserves `original.svg` beside `normalized.svg`. A secure no-network XML parse rejects DTD/entities, scripts, foreign content, external resources, CSS, text, images/use, masks/filters and unsupported element/attribute values before picosvg. Input is limited to2048 nodes/24 levels, bounded finite geometry and explicit solid paints/fill rules. Only a single rectangular user-space clip in defs is qualified; complex clips refuse. Transform/stroke behavior is scoped to tested features, not a general SVG interpreter. Both parsed input and output are checked. picosvg runs with `drop_unsupported=False`; no silent semantic flattening of unsupported features. It rounds coordinates to3 decimals, explicitly recorded.
+
+`boolean` consumes JSON `{operation:'union'|'intersection'|'difference',left:{d,fillRule},right:{d,fillRule}}`. Both operands require explicit `nonzero` or `evenodd`. A conservative complete command/arity/finite-coordinate validator precedes established path parsing and skia-pathops. Results preserve original JSON, path data, area/bounds, fill rule and observed input nonmutation. Export viewBox derives from actual result bounds, including negative/outside-default and empty results. Holes/winding are tested separately. No Canvas or library-bug inference follows from an earlier difference probe.
+
+Native work runs in an isolated Python subprocess with25s wall timeout,15s CPU,512MiB address-space and4MiB per-file ceilings on the qualified Linux host. These practical limits are not a full security sandbox or protection from malicious same-authority filesystem writers. No untrusted Python/plugin execution or unrestricted SVG interpreter is provided.
+
+The original transformed/clipped/stroked fixture was compared at800×560. Pixel equality initially failed and was preserved. Independent analysis found116 changed pixels/274 channels solely on four rounded stroke edges: quadratic outline approximation plus antialiasing (sampled radial deviation≈0.05px at4×). Holes, interiors, straight edges and clipping boundaries had no changed pixels. The regression checks spatial confinement to radius16±1px corner rings plus empirical residual guards; it does not claim pixel identity or an all-size error bound. Other inputs, stroke styles and sizes need their own qualification.
+
+Primary projects: [ufoLib2](https://github.com/fonttools/ufoLib2), [ufo2ft](https://github.com/googlefonts/ufo2ft), [FontTools](https://github.com/fonttools/fonttools), [skia-pathops](https://github.com/fonttools/skia-pathops), [picosvg](https://github.com/googlefonts/picosvg), [uharfbuzz](https://github.com/harfbuzz/uharfbuzz). Keep optional tool readiness, deterministic evidence, actual visual inspection and owner acceptance separate.

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "explicit",
+    "request": "Use Ingenium to explore a distinctive magazine cover for a fictional neighborhood observatory.",
+    "expected": "invoke"
+  },
+  {
+    "id": "implicit",
+    "request": "This bookshelf concept feels dull. Help me discover a different organizing idea.",
+    "expected": "invoke"
+  },
+  {
+    "id": "single-output",
+    "request": "Use Ingenium to make just one editable SVG study for a quiet fictional exhibition invitation.",
+    "expected": "invoke"
+  },
+  {
+    "id": "contradictory",
+    "request": "Keep our chosen radial composition, but this still feels too corporate. Help me work out why.",
+    "expected": "invoke"
+  },
+  {
+    "id": "reuse",
+    "request": "Use our agreed Ingenium direction for another spread. Preserve the chosen identity.",
+    "expected": "invoke"
+  },
+  {
+    "id": "negative-fact",
+    "request": "What is 17 multiplied by 8?",
+    "expected": "do not invoke"
+  },
+  {
+    "id": "negative-implementation",
+    "request": "Fix the off-by-one loop without changing the existing UI design.",
+    "expected": "do not invoke"
+  }
+]

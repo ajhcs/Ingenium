@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1000,
+    "height": 1200
+  },
+  "task": "Study whether a quiet asymmetric event card makes attendance details findable.",
+  "audience": "Hypothetical interested attendee; no audience research supplied.",
+  "medium": "Fixed-size 1000 by 1200 screen study; smaller sharing and print remain unqualified.",
+  "hierarchy": [
+    "event title",
+    "date and time",
+    "place",
+    "entry and seating",
+    "supporting context"
+  ],
+  "grid": {
+    "left": 76,
+    "right": 924,
+    "columns": 6,
+    "columnWidth": 128,
+    "gutter": 16,
+    "module": 4
+  },
+  "palette": {
+    "ground": "#242249",
+    "ink": "#F4EAD4"
+  },
+  "type": {
+    "series": {
+      "size": 16,
+      "weight": 400,
+      "x": 76,
+      "baseline": 104
+    },
+    "title": {
+      "size": 96,
+      "weight": 400,
+      "x": 72,
+      "baseline": 344,
+      "leading": 104
+    },
+    "subtitle": {
+      "size": 28,
+      "weight": 400,
+      "x": 76,
+      "baseline": 560,
+      "leading": 40
+    },
+    "disclosure": {
+      "size": 20,
+      "weight": 400,
+      "x": 104,
+      "baseline": 872
+    },
+    "date": {
+      "size": 36,
+      "weight": 700,
+      "x": 104,
+      "baseline": 920
+    },
+    "place": {
+      "size": 32,
+      "weight": 400,
+      "x": 104,
+      "baseline": 968
+    },
+    "access": {
+      "size": 28,
+      "weight": 700,
+      "x": 124,
+      "baseline": 1040
+    }
+  },
+  "panel": {
+    "x": 76,
+    "y": 824,
+    "width": 724,
+    "height": 272,
+    "radius": 8
+  },
+  "accessBand": {
+    "x": 104,
+    "y": 992,
+    "width": 668,
+    "height": 76,
+    "radius": 4
+  },
+  "motif": {
+    "center": [
+      796,
+      416
+    ],
+    "radii": [
+      144,
+      112,
+      80,
+      48
+    ]
+  },
+  "exceptions": [
+    {
+      "element": "title",
+      "reason": "Text origin is 4 units left of the content axis for optical alignment of serif capitals; inspect glyphs in the actual renderer."
+    },
+    {
+      "element": "details-panel",
+      "reason": "Retained 724-unit width ends at800, 4 beyond the sixth column start796; content-fit inheritance takes precedence over forcing a grid span."
+    },
+    {
+      "element": "sound-garden",
+      "reason": "Ring bounds652..940 start at column5; extend16 beyond the924 right content axis to counterbalance the large title."
+    },
+    {
+      "element": "access",
+      "reason": "20-unit inset from band edge preserves a distinct inner text role; not every text origin follows a column."
+    }
+  ],
+  "openQuestions": [
+    "FIELD NOTES / 01 has no established series purpose; retained as supplied content, not validated editorial meaning.",
+    "The access band remains a strong visual region even with smaller type. Intended hierarchy requires a reader task test.",
+    "Generic serif and sans-serif metrics may vary by renderer; no font installation is required or assumed.",
+    "Meaning, aesthetic quality, originality and audience acceptance are not determined by geometry."
+  ],
+  "measurements": {
+    "panelInset": 28,
+    "relatedBaselineStep": 48,
+    "subtitleLeading": 40,
+    "titleLeading": 104,
+    "ringSteps": [
+      32,
+      32,
+      32
+    ]
+  }
+}

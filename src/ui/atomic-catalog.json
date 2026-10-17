@@ -1,0 +1,783 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "daisyui",
+    "version": "5.7.50",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2020 Pouya Saadeghi",
+    "repository": "https://github.com/saadeghi/daisyui",
+    "documentation": "https://daisyui.com/components/",
+    "tarball": "https://registry.npmjs.org/daisyui/-/daisyui-5.7.50.tgz",
+    "integrity": "sha512-+/LRqnTCoc7s/bJEKKwtJSwzeXCVdAmRdNmZeZzgHCaQ9PJyl7j+2V2U32GQDMyD+VDkP9e/+JGoC72Y1hLk7w=="
+  },
+  "coverage": {
+    "sourceComponentStyleFiles": 61,
+    "sourceThemeStyleFiles": 35,
+    "selectedRecipes": 26,
+    "selectedComponentStyleFiles": 26,
+    "meaning": "CSS file counts are exact distribution inventory; source files, documentation pages and authored recipes are different units."
+  },
+  "files": {
+    "package.json": {
+      "sha256": "a87f7fed739ef85709c88bf3c4b08b7ad3d4ea2ce39b69568d1d23601b49474f",
+      "bytes": 2282
+    },
+    "LICENSE": {
+      "sha256": "8709e3ac65c84637c422dc8082b893d9997fce093751c77b2f1983bf29dbf9ea",
+      "bytes": 1071
+    },
+    "base/reset.css": {
+      "sha256": "333deafaf5a06970129fdf6bf68dabc12e788aa890f608991fb48c8f58c784c0",
+      "bytes": 1386
+    },
+    "base/rootcolor.css": {
+      "sha256": "2e7398fbd8cfb9aa9ce869d43f0c5ca1ab998ed4dd55aa39a9714d8413174b4b",
+      "bytes": 256
+    },
+    "base/properties.css": {
+      "sha256": "66db3a0d3a906acb78a75f77c73a9762886c04acd509b632b42e9b9b25e18630",
+      "bytes": 208
+    },
+    "theme/light.css": {
+      "sha256": "1e61c19080e6aed3d07fa18a58622b2ccfb8fe61a3d9ec6de1a71886b4337ee4",
+      "bytes": 1156
+    },
+    "theme/dark.css": {
+      "sha256": "a2ff83ec8041171b26228614c9c4afb4801837ca4722b5805147c733e6507f47",
+      "bytes": 1186
+    },
+    "components/alert.css": {
+      "sha256": "eed18cbd74bb30b328d3e55c94568151e990e115a103403eba184ef188091ce1",
+      "bytes": 14829
+    },
+    "components/avatar.css": {
+      "sha256": "369f2939a1fb4bae97ba3a6fbda49f786165311f6120097445f576752469f4d2",
+      "bytes": 5925
+    },
+    "components/badge.css": {
+      "sha256": "9a2db673cefc560caec464850946ac76feed7245889afd127ac9087ad4c03b4b",
+      "bytes": 14943
+    },
+    "components/breadcrumbs.css": {
+      "sha256": "7ba76b16f04acb2cffffa90b9ffa632ab04528fb78ad37a67840f22547ae9ada",
+      "bytes": 5229
+    },
+    "components/button.css": {
+      "sha256": "4d07575e606c449516855782ed0011bc5dce76027e72e719971d2a5040cef9eb",
+      "bytes": 45219
+    },
+    "components/checkbox.css": {
+      "sha256": "c4d6737608155f6710d122baeb42017fdc4d86789fdf723cb7af8fa508fcfb31",
+      "bytes": 19809
+    },
+    "components/collapse.css": {
+      "sha256": "11a58c75208412d5f3f1ebf6e01c38bd884cb9222ca3ffe0274bbd018098e324",
+      "bytes": 32979
+    },
+    "components/divider.css": {
+      "sha256": "c685637b95aa3b1ac9e2f8572a90e39d4d628b57e437d486b5ae5f9b27f7db4a",
+      "bytes": 10023
+    },
+    "components/dropdown.css": {
+      "sha256": "f44997641ccb93657694287673703e398c429fd8d6d3aee426433ac0e4249c00",
+      "bytes": 22813
+    },
+    "components/fieldset.css": {
+      "sha256": "5525ccdc33db6f860ac5859fb0fb618edbf2cf40dc41146dc9d37e08c112014c",
+      "bytes": 3423
+    },
+    "components/fileinput.css": {
+      "sha256": "af72cf712c240fa1077074144cd313218b66b68e952962d48e49aa3664d654df",
+      "bytes": 38157
+    },
+    "components/input.css": {
+      "sha256": "11616d2db0b5299e62bca15ecbdfad77ccfd43605dee045576aeacd9f1fddf6e",
+      "bytes": 29115
+    },
+    "components/kbd.css": {
+      "sha256": "48321e9d0e46fe1f6684215247a0900b91ab742a34e251b7e985eedcc4087362",
+      "bytes": 5925
+    },
+    "components/link.css": {
+      "sha256": "010cc81a626c4a7701291aa7c5374f5e8e683656d297b36b91ce2703c3d531e6",
+      "bytes": 9717
+    },
+    "components/loading.css": {
+      "sha256": "b119b4a0c7c23c6223f374548f80c53f3225f05bd95ebed506cd496c026b0286",
+      "bytes": 12648
+    },
+    "components/menu.css": {
+      "sha256": "7b8f597815cabf28784437f5615e58de2c11f17cb61b8abecfb05a903b816b6b",
+      "bytes": 57483
+    },
+    "components/progress.css": {
+      "sha256": "d06bd11921a9097351e4fe2bd6de519ebb2c9b50a3fd4e9c37182dacaef78340",
+      "bytes": 11570
+    },
+    "components/radio.css": {
+      "sha256": "27e4373cd4cafe3373df84c3fbb343d67f1a6861af292e92112c1d28900c6290",
+      "bytes": 14062
+    },
+    "components/range.css": {
+      "sha256": "dd1b0720304a857add75fd473bae0355ae81c82ae6010eb52791ee9b08e5ce27",
+      "bytes": 26583
+    },
+    "components/select.css": {
+      "sha256": "172c79b3ef3a55d4394e472455ddec3a4a7282f9b2c424852778dae8705cb810",
+      "bytes": 39699
+    },
+    "components/skeleton.css": {
+      "sha256": "ef43bbedb0d1c34d46534c279f4a4350d7109e77a61249596fc5842baf6a67fa",
+      "bytes": 970
+    },
+    "components/stat.css": {
+      "sha256": "440f15980caf732e09ad08611b6d735562f6e01d0704be36f90126abd647e4bf",
+      "bytes": 8313
+    },
+    "components/status.css": {
+      "sha256": "419272a72485aebab881c300ea6e9787baf546d734cc41c7ac373a89b94b1bb1",
+      "bytes": 9735
+    },
+    "components/table.css": {
+      "sha256": "b4bfc009c7530e1f07d2dbd883c69bb4907e79fac00feae250c84851ed45ca6a",
+      "bytes": 14211
+    },
+    "components/textarea.css": {
+      "sha256": "d0ad07e927385cf8c1d3ba5975776e954da2eafc37c84490847add438a2d934e",
+      "bytes": 20673
+    },
+    "components/toggle.css": {
+      "sha256": "364d340b8b826f2bf4b1505f39141275d9826609c03fc1cc270c483f49ff5f54",
+      "bytes": 25779
+    },
+    "utilities/join.css": {
+      "sha256": "3548d647d65c08dc6a08f5f0b0b63b3927f22961b7bcd21cc364e7e9c690efc6",
+      "bytes": 10239
+    }
+  },
+  "components": [
+    {
+      "id": "button",
+      "title": "Button",
+      "category": "Actions",
+      "tags": [
+        "action",
+        "button",
+        "submit"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "activate",
+      "styles": [
+        "components/button.css"
+      ],
+      "controls": [
+        "label",
+        "theme",
+        "size",
+        "tone",
+        "disabled"
+      ],
+      "documentation": "https://daisyui.com/components/button/"
+    },
+    {
+      "id": "disclosure",
+      "title": "Disclosure",
+      "category": "Actions",
+      "tags": [
+        "disclosure",
+        "accordion",
+        "details",
+        "summary"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-disclosure",
+      "styles": [
+        "components/collapse.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme"
+      ],
+      "documentation": "https://daisyui.com/components/collapse/"
+    },
+    {
+      "id": "dropdown",
+      "title": "Dropdown",
+      "category": "Actions",
+      "tags": [
+        "dropdown",
+        "action",
+        "choice",
+        "menu"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-disclosure-choice",
+      "styles": [
+        "components/dropdown.css",
+        "components/button.css",
+        "components/menu.css"
+      ],
+      "controls": [
+        "label",
+        "theme",
+        "size",
+        "tone",
+        "disabled",
+        "items"
+      ],
+      "documentation": "https://daisyui.com/components/dropdown/"
+    },
+    {
+      "id": "input",
+      "title": "Input",
+      "category": "Forms",
+      "tags": [
+        "text",
+        "input",
+        "required",
+        "field"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-form",
+      "styles": [
+        "components/input.css",
+        "components/button.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size",
+        "tone",
+        "disabled"
+      ],
+      "documentation": "https://daisyui.com/components/input/"
+    },
+    {
+      "id": "textarea",
+      "title": "Textarea",
+      "category": "Forms",
+      "tags": [
+        "multiline",
+        "textarea",
+        "required",
+        "field"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-form",
+      "styles": [
+        "components/textarea.css",
+        "components/button.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size",
+        "tone",
+        "disabled"
+      ],
+      "documentation": "https://daisyui.com/components/textarea/"
+    },
+    {
+      "id": "select",
+      "title": "Select",
+      "category": "Forms",
+      "tags": [
+        "select",
+        "options",
+        "choice",
+        "field"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-form",
+      "styles": [
+        "components/select.css",
+        "components/button.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size",
+        "tone",
+        "disabled",
+        "items",
+        "activeIndex"
+      ],
+      "documentation": "https://daisyui.com/components/select/"
+    },
+    {
+      "id": "checkbox",
+      "title": "Checkbox",
+      "category": "Forms",
+      "tags": [
+        "checkbox",
+        "boolean",
+        "choice"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-check",
+      "styles": [
+        "components/checkbox.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size",
+        "tone",
+        "disabled",
+        "checked"
+      ],
+      "documentation": "https://daisyui.com/components/checkbox/"
+    },
+    {
+      "id": "radio",
+      "title": "Radio",
+      "category": "Forms",
+      "tags": [
+        "radio",
+        "exclusive",
+        "choice",
+        "group"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-choice",
+      "styles": [
+        "components/radio.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size",
+        "tone",
+        "disabled",
+        "items",
+        "activeIndex"
+      ],
+      "documentation": "https://daisyui.com/components/radio/"
+    },
+    {
+      "id": "toggle",
+      "title": "Toggle",
+      "category": "Forms",
+      "tags": [
+        "switch",
+        "toggle",
+        "boolean"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-check",
+      "styles": [
+        "components/toggle.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size",
+        "tone",
+        "disabled",
+        "checked"
+      ],
+      "documentation": "https://daisyui.com/components/toggle/"
+    },
+    {
+      "id": "range",
+      "title": "Range",
+      "category": "Forms",
+      "tags": [
+        "range",
+        "slider",
+        "numeric"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-range",
+      "styles": [
+        "components/range.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size",
+        "tone",
+        "disabled",
+        "value"
+      ],
+      "documentation": "https://daisyui.com/components/range/"
+    },
+    {
+      "id": "file-input",
+      "title": "File Input",
+      "category": "Forms",
+      "tags": [
+        "file",
+        "input",
+        "local",
+        "filename"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-file",
+      "styles": [
+        "components/fileinput.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size",
+        "tone",
+        "disabled"
+      ],
+      "documentation": "https://daisyui.com/components/file-input/"
+    },
+    {
+      "id": "fieldset",
+      "title": "Fieldset",
+      "category": "Forms",
+      "tags": [
+        "fieldset",
+        "grouped",
+        "choices",
+        "legend"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-check-group",
+      "styles": [
+        "components/fieldset.css",
+        "components/checkbox.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size",
+        "tone",
+        "disabled",
+        "items",
+        "activeIndex"
+      ],
+      "documentation": "https://daisyui.com/components/fieldset/"
+    },
+    {
+      "id": "alert",
+      "title": "Alert",
+      "category": "Feedback",
+      "tags": [
+        "alert",
+        "notice",
+        "status",
+        "message"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "static-status",
+      "styles": [
+        "components/alert.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size",
+        "tone"
+      ],
+      "documentation": "https://daisyui.com/components/alert/"
+    },
+    {
+      "id": "progress",
+      "title": "Progress",
+      "category": "Feedback",
+      "tags": [
+        "progress",
+        "completion",
+        "value"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "native-progress",
+      "styles": [
+        "components/progress.css"
+      ],
+      "controls": [
+        "label",
+        "theme",
+        "size",
+        "tone",
+        "value"
+      ],
+      "documentation": "https://daisyui.com/components/progress/"
+    },
+    {
+      "id": "loading",
+      "title": "Loading",
+      "category": "Feedback",
+      "tags": [
+        "loading",
+        "waiting",
+        "status"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "static-status",
+      "styles": [
+        "components/loading.css"
+      ],
+      "controls": [
+        "label",
+        "theme",
+        "size"
+      ],
+      "documentation": "https://daisyui.com/components/loading/"
+    },
+    {
+      "id": "skeleton",
+      "title": "Skeleton",
+      "category": "Feedback",
+      "tags": [
+        "skeleton",
+        "placeholder",
+        "loading"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "static-status",
+      "styles": [
+        "components/skeleton.css"
+      ],
+      "controls": [
+        "label",
+        "theme"
+      ],
+      "documentation": "https://daisyui.com/components/skeleton/"
+    },
+    {
+      "id": "status",
+      "title": "Status",
+      "category": "Feedback",
+      "tags": [
+        "status",
+        "state",
+        "indicator"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "static-status",
+      "styles": [
+        "components/status.css"
+      ],
+      "controls": [
+        "label",
+        "theme",
+        "size",
+        "tone"
+      ],
+      "documentation": "https://daisyui.com/components/status/"
+    },
+    {
+      "id": "badge",
+      "title": "Badge",
+      "category": "Feedback",
+      "tags": [
+        "badge",
+        "label",
+        "count"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "static",
+      "styles": [
+        "components/badge.css"
+      ],
+      "controls": [
+        "label",
+        "theme",
+        "size",
+        "tone"
+      ],
+      "documentation": "https://daisyui.com/components/badge/"
+    },
+    {
+      "id": "avatar",
+      "title": "Avatar",
+      "category": "Data",
+      "tags": [
+        "avatar",
+        "initials",
+        "identity"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "static",
+      "styles": [
+        "components/avatar.css"
+      ],
+      "controls": [
+        "label",
+        "theme",
+        "tone"
+      ],
+      "documentation": "https://daisyui.com/components/avatar/"
+    },
+    {
+      "id": "table",
+      "title": "Table",
+      "category": "Data",
+      "tags": [
+        "table",
+        "rows",
+        "columns",
+        "data"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "static",
+      "styles": [
+        "components/table.css"
+      ],
+      "controls": [
+        "label",
+        "theme",
+        "size",
+        "items",
+        "activeIndex"
+      ],
+      "documentation": "https://daisyui.com/components/table/"
+    },
+    {
+      "id": "kbd",
+      "title": "Kbd",
+      "category": "Data",
+      "tags": [
+        "keyboard",
+        "shortcut",
+        "key"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "static",
+      "styles": [
+        "components/kbd.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "size"
+      ],
+      "documentation": "https://daisyui.com/components/kbd/"
+    },
+    {
+      "id": "stat",
+      "title": "Stat",
+      "category": "Data",
+      "tags": [
+        "stat",
+        "metric",
+        "value"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "static",
+      "styles": [
+        "components/stat.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "tone",
+        "value"
+      ],
+      "documentation": "https://daisyui.com/components/stat/"
+    },
+    {
+      "id": "breadcrumbs",
+      "title": "Breadcrumbs",
+      "category": "Navigation",
+      "tags": [
+        "breadcrumbs",
+        "hierarchy",
+        "links"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "local-links",
+      "styles": [
+        "components/breadcrumbs.css",
+        "components/link.css"
+      ],
+      "controls": [
+        "label",
+        "description",
+        "theme",
+        "items",
+        "activeIndex"
+      ],
+      "documentation": "https://daisyui.com/components/breadcrumbs/"
+    },
+    {
+      "id": "menu",
+      "title": "Menu",
+      "category": "Navigation",
+      "tags": [
+        "menu",
+        "action",
+        "list",
+        "navigation"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "authored-choice",
+      "styles": [
+        "components/menu.css"
+      ],
+      "controls": [
+        "label",
+        "theme",
+        "disabled",
+        "items",
+        "activeIndex"
+      ],
+      "documentation": "https://daisyui.com/components/menu/"
+    },
+    {
+      "id": "pagination",
+      "title": "Pagination",
+      "category": "Navigation",
+      "tags": [
+        "pagination",
+        "pages",
+        "navigation"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "authored-pagination",
+      "styles": [
+        "components/button.css",
+        "utilities/join.css"
+      ],
+      "controls": [
+        "label",
+        "theme",
+        "size",
+        "tone",
+        "disabled",
+        "items",
+        "activeIndex"
+      ],
+      "documentation": "https://daisyui.com/components/pagination/"
+    },
+    {
+      "id": "divider",
+      "title": "Divider",
+      "category": "Layout",
+      "tags": [
+        "divider",
+        "separator",
+        "grouping"
+      ],
+      "tagOrigin": "Ingenium-authored semantic tags; not upstream supplied tags",
+      "behavior": "static",
+      "styles": [
+        "components/divider.css"
+      ],
+      "controls": [
+        "label",
+        "theme"
+      ],
+      "documentation": "https://daisyui.com/components/divider/"
+    }
+  ]
+}
