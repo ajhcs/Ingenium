@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f0e8">
+  <meta name="description" content="Make the next creative choice clearer. Ingenium is a portable workflow for creative direction, editable studies and scoped decisions.">
+  <meta property="og:title" content="Ingenium — Make the next creative choice clearer">
+  <meta property="og:description" content="Explore a direction. Make something you can react to. Keep the choices that matter.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://raw.githubusercontent.com/ajhcs/Ingenium/refs/heads/codex/ingenium-slice1/site/assets/demos/comparison-cover.png">
+  <meta property="og:image:alt" content="Two preserved historical Common Ground publication cover studies, with their V1 and V3 labels.">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="1140">
+  <title>Ingenium — Make the next creative choice clearer</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/DejaVuSerif.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header wrap">
+  <a class="brand" href="./" aria-label="Ingenium home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2v28M2 16h28M6 6l20 20M26 6 6 26"/></svg><span>ingenium</span></a>
+  <nav aria-label="Main navigation"><a href="#studies">Studies</a><a href="#workflow">How it works</a><a href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/docs/user-guide.md">Guide</a><a href="https://github.com/ajhcs/Ingenium/tree/codex/ingenium-slice1">GitHub <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></nav>
+  <a class="button small header-cta" href="#start">Start a study <span aria-hidden="true">↗</span></a>
+</header>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <h1 id="hero-title"><span>Make the next</span> <span>creative choice</span> <span class="last-line">clearer<em>.</em></span></h1>
+      <p class="lead">A portable creative workflow for exploring a direction, making editable studies, and keeping the choices that matter.</p>
+      <div class="actions"><a class="button" href="#start">Start a study <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a><a class="text-link" href="#studies">Explore the work <span aria-hidden="true">↓</span></a></div>
+      <p class="hero-note">No required backend or account connection.<br>Optional local tools.</p>
+    </div>
+    <figure class="hero-art"><div class="hero-stage"><img src="assets/demos/cover.png" width="1680" height="2240" alt="Common Ground publication cover study with navy type and blue and rust forms on yellow."></div><figcaption><span>Common Ground <span class="caption-light">/ V3 cover study</span></span><a href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/examples/release/cover/cover.svg">Editable source <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></figcaption></figure>
+    <p class="hero-foot">A study is something to react to.<br><span>Not a verdict.</span></p>
+  </section>
+
+  <section class="workflow wrap section-space" id="workflow" aria-labelledby="workflow-title">
+    <div class="section-heading"><p class="index">01 / The workflow</p><h2 id="workflow-title">From a hunch to something<br>you can point to.</h2></div>
+    <div class="steps">
+      <article><span class="step-number">01</span><h3>Intent</h3><p>Start with what matters: the audience, the medium, the question. An uncertain impression is welcome.</p><p class="example">“This should feel quieter.”</p></article>
+      <article><span class="step-number">02</span><h3>Study</h3><p>Make a useful comparison, a visual fragment, or one editable artifact. Give the idea something to stand on.</p><p class="example">“Show two different hierarchies.”</p></article>
+      <article><span class="step-number">03</span><h3>Review</h3><p>Look at the actual result. Notice what works, what feels unresolved, and which choice is worth exploring next.</p><p class="example">“Keep this layout. Soften the type.”</p></article>
+      <article><span class="step-number">04</span><h3>Preserve</h3><p>Keep the source, the chosen direction and its scope. Leave a clear way back when the project changes.</p><p class="example">“For this poster, use the first study.”</p></article>
+    </div>
+    <p class="workflow-bottom">A question can be enough. So can one study.<br><a href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/skills/ingenium/SKILL.md">Read the portable workflow <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></p>
+  </section>
+
+  <section class="studies section-space" id="studies" aria-labelledby="studies-title">
+    <div class="wrap">
+      <div class="section-heading heading-row"><div><p class="index">02 / In the work</p><h2 id="studies-title">Real studies.<br>Editable sources.</h2></div><p class="section-intro">Different formats. Different questions.<br>Original fictional studies, with their sources<br>and limits left in view.</p></div>
+      <div class="study-tabs" role="group" aria-label="Choose a study"><button type="button" data-study="cover" aria-pressed="true">Publication</button><button type="button" data-study="fieldwork" aria-pressed="false">Website</button><button type="button" data-study="identity" aria-pressed="false">Identity</button><button type="button" data-study="wayfinding" aria-pressed="false">Wayfinding</button><button type="button" data-study="poster" aria-pressed="false">Poster</button></div>
+      <div class="study-view">
+        <figure class="study-image"><img id="study-image" src="assets/demos/cover.png" width="1680" height="2240" alt="Common Ground publication cover study."></figure>
+        <div class="study-detail"><p class="index" id="study-label">Historical study / V3</p><h3 id="study-title">Common <br>Ground</h3><p id="study-description">A publication cover built around a bold editorial hierarchy and two open forms in conversation. The type and artwork remain editable.</p><p class="study-limit" id="study-limit">A cover study for review. Print production and editor import remain untested.</p><a class="text-link" id="study-source" href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/examples/release/cover/cover.svg">Inspect the source <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a><a class="text-link live-study" id="live-study" href="studies/fieldwork/" hidden>Open the interactive website <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a><a class="archive-link" href="assets/demos/editable-studies.zip" download>Download editable studies (.zip)</a><p class="live-status" id="study-status" aria-live="polite"></p></div>
+      </div>
+      <details class="comparison"><summary><span>Different studies, different choices.</span><span class="summary-action">Open the comparison <span aria-hidden="true">+</span></span></summary><div class="comparison-inner"><img src="assets/demos/comparison-cover.png" width="1600" height="1140" loading="lazy" alt="Side-by-side presentation of preserved historical Ingenium studies."><p>Preserved historical studies make the decisions visible. These are different artifacts with different scopes, not a controlled before/after comparison or a claim that one is better.</p><a href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/examples/progression/README.md">Explore the study timeline <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></div></details>
+    </div>
+  </section>
+
+  <section class="watch wrap section-space" id="watch" aria-labelledby="watch-title">
+    <div class="section-heading heading-row"><div><p class="index">03 / A closer look</p><h2 id="watch-title">See the workflow.</h2></div><p class="section-intro">From intent to an editable result.<br>A walkthrough using the actual studies.</p></div>
+    <div class="video-frame"><video controls playsinline preload="metadata" poster="assets/video/poster.jpg" width="1920" height="1080"><source src="assets/video/ingenium-demo.mp4" type="video/mp4"><track kind="captions" src="assets/video/captions.vtt" srclang="en" label="English"><p>Your browser cannot play this video. <a href="assets/video/ingenium-demo.mp4">Download the walkthrough</a>.</p></video></div>
+    <div class="media-links"><a href="assets/video/transcript.txt">Read the transcript</a><a href="assets/video/ingenium-demo.mp4" download>Download the walkthrough</a><a href="assets/video/teaser.mp4" download>Short version</a><a href="assets/video/portrait.mp4" download>Portrait version</a><a href="assets/video/voiceover-script.md">Voiceover script</a><a href="assets/video/video-source.zip" download>Editable video source (.zip)</a></div>
+  </section>
+
+  <section class="start section-space" id="start" aria-labelledby="start-title">
+    <div class="wrap">
+      <div class="section-heading heading-row"><div><p class="index">04 / Begin here</p><h2 id="start-title">Your first<br>useful result.</h2></div><p class="section-intro">No grand brief required.<br>Pick one uncertainty. Make one useful thing.</p></div>
+      <div class="start-grid"><div class="install-steps"><article><span>1</span><div><h3>Get the portable plugin.</h3><p><a href="https://github.com/ajhcs/Ingenium/tree/codex/ingenium-slice1">Get the development branch</a> or <a href="https://github.com/ajhcs/Ingenium/archive/refs/heads/codex/ingenium-slice1.zip">download the source archive</a>. Keep its files together. To clone, use <code>--branch codex/ingenium-slice1</code>.</p></div></article><article><span>2</span><div><h3>Connect it through your client.</h3><p>Use a documented local-plugin or local-skill source route. Open a fresh conversation and verify Ingenium is discovered.</p></div></article><article><span>3</span><div><h3>Ask a specific question.</h3><p>Say what you are making, what matters, and which uncertainty a study should help resolve.</p></div></article><a class="button light" href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/docs/quickstart.md">Read the quickstart <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></div>
+      <div class="prompt-panel"><div class="prompt-label"><span>A first prompt</span><button id="copy-prompt" type="button">Copy prompt <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="7" y="3" width="10" height="11" rx="1"/><path d="M13 17H4a1 1 0 0 1-1-1V7"/></svg></button></div><p id="prompt-text">Use Ingenium. I am making a poster for a fictional evening garden event. It should feel quiet and welcoming, with a title, a date and a short invitation. Show two different organizing ideas as editable SVG studies. Keep the wording the same so I can compare the hierarchy. Do not use image generation or external references.</p><div class="prompt-footer"><span>Try one. React. Refine.</span><span id="copy-status" role="status" aria-live="polite"></span></div></div></div>
+      <details class="helper-details"><summary>Want the optional local tools? <span aria-hidden="true">+</span></summary><div class="helper-body"><p>Node 22+ is required for helpers. From a cloned checkout:</p><pre><code>npm ci --ignore-scripts
+node bin/ingenium.mjs capabilities
+node bin/ingenium.mjs check examples/records/poster.json
+mkdir -p work/first-study
+node bin/ingenium.mjs render examples/svg/clipped-orbit.svg work/first-study/orbit.png</code></pre><p>Choose a fresh output filename. PNG export requires optional Sharp; an absent or errored renderer stays unavailable. This example check validates a record, not a design.</p><a href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/skills/ingenium/references/renderer-setup.md">Separate renderer setup</a><span aria-hidden="true"> · </span><a href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/docs/user-guide.md#local-tarball-for-node-helpers">Local tarball route</a></div></details>
+      <p class="install-note">Experimental package 0.1.0 · Package declares private: true.<br>Portable package structure checked. Verify discovery in your client.<br>Desktop discovery unverified. Client installation routes vary.</p>
+    </div>
+  </section>
+
+  <section class="boundaries wrap section-space" aria-labelledby="boundaries-title"><div class="section-heading"><p class="index">05 / Useful boundaries</p><h2 id="boundaries-title">Room to explore.<br>Something to keep.</h2></div><div class="boundary-list"><article><h3>Optional by design</h3><p>The workflow can begin with a question. Resources and local helpers join when they serve the task. Missing tools are reported honestly.</p></article><article><h3>Keep the source</h3><p>Editable originals, separate exports, scoped choices and relevant notices make the result easier to revise and reuse.</p></article><article><h3>Checks have a scope</h3><p>A render, a contrast result or a layout check can answer a narrow question. It cannot decide taste, acceptance or engineering adequacy.</p></article></div><a class="text-link" href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/docs/user-guide.md">Explore the user guide <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></section>
+
+  <section class="closing wrap"><svg class="closing-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2v28M2 16h28M6 6l20 20M26 6 6 26"/></svg><h2>Bring an<br>unfinished idea.</h2><p>Start with a question, an artifact, or the feeling<br>that something is almost right.</p><div class="actions"><a class="button" href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/docs/quickstart.md">Read the quickstart <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a><a class="text-link" href="https://github.com/ajhcs/Ingenium/tree/codex/ingenium-slice1">Get the source <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></div></section>
+</main>
+<footer class="site-footer wrap"><a class="brand" href="./">ingenium</a><p>MIT code and original artwork.<br><a href="assets/fonts/FONT-NOTICES.txt">Font notices</a> · <a href="https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/THIRD_PARTY_NOTICES.md">Third-party notices</a></p><p>No tracking.<br>Experimental, and open to revision.</p><a href="https://github.com/ajhcs/Ingenium/tree/codex/ingenium-slice1">GitHub <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></footer>
+</body>
+</html>

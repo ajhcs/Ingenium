@@ -1,0 +1,31 @@
+{
+  "title": "Ingenium — from idea to editable study",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration": 90,
+  "audio": "Silent by design. Optional recording script supplied separately.",
+  "scenes": [
+    {"id":"hook","start":0,"end":5,"eyebrow":"INGENIUM / CREATIVE DESIGN PLUGIN","title":"An idea.\nSomething you can see.","caption":"Turn an idea into something you can see, edit and discuss.","visual":"collage"},
+    {"id":"idea","start":5,"end":12,"eyebrow":"01 / START WITH AN INTENTION","title":"You don't need\na perfect brief.","caption":"Start with a question, an existing artifact, or a direction you can't quite describe.","visual":"prompt"},
+    {"id":"study","start":12,"end":20,"eyebrow":"02 / MAKE THE QUESTION VISIBLE","title":"Make a study.\nGet a reaction.","caption":"Ask for a useful study. See what feels right. Keep the source open for revision.","visual":"garden"},
+    {"id":"cover","start":20,"end":28,"eyebrow":"PUBLICATION / ORIGINAL SYNTHETIC STUDY","title":"Give an idea\na clear form.","caption":"A publication cover turns a theme into type, color and a relationship between shapes.","visual":"cover"},
+    {"id":"web","start":28,"end":36,"eyebrow":"WEB / ORIGINAL INTERACTIVE STUDY","title":"Build something\nyou can explore.","caption":"A responsive website carries the same intent into layout, interaction and a smaller screen.","visual":"web"},
+    {"id":"identity","start":36,"end":44,"eyebrow":"IDENTITY / ORIGINAL SYNTHETIC STUDY","title":"Find a system.\nLet it travel.","caption":"An identity study tests a mark, its variations, and an event poster in the same visual language.","visual":"identity"},
+    {"id":"wayfinding","start":44,"end":51,"eyebrow":"WAYFINDING / DESIGN STUDY","title":"Make relationships\neasier to read.","caption":"A wayfinding study makes destinations and directions visible. Real-world use needs its own checks.","visual":"wayfinding"},
+    {"id":"cli","start":51,"end":59,"eyebrow":"FIRST SUCCESS / ACTUAL LOCAL HELPER RUN","title":"Try one\neditable example.","caption":"Run the included composition example, then use the optional helper to export a PNG.","visual":"cli"},
+    {"id":"output","start":59,"end":67,"eyebrow":"CLEAN ARTWORK + COMPANION GUIDES","title":"See the result.\nKeep the structure.","caption":"The clean SVG stays editable. A companion guide view makes the layout choices inspectable.","visual":"guides"},
+    {"id":"comparison","start":67,"end":76,"eyebrow":"HISTORICAL STUDIES / V1 AND V3","title":"Compare choices.\nName what matters.","caption":"Keep earlier studies. Compare their choices. A later revision isn't proof of a better design.","visual":"comparison"},
+    {"id":"edit","start":76,"end":83,"eyebrow":"CONTINUE THE CONVERSATION","title":"A useful next edit\nstarts with a reaction.","caption":"Say what to keep and what to change. A choice belongs to this study, not to a permanent taste score.","visual":"reaction"},
+    {"id":"close","start":83,"end":90,"eyebrow":"INGENIUM / EXPERIMENTAL PORTABLE PLUGIN","title":"See it. Edit it.\nTalk about it.","caption":"Explore the editable examples. Bring a question. Develop a direction with Ingenium.","visual":"close"}
+  ],
+  "teaser": ["hook","cover","identity","close"],
+  "portrait": ["hook","cover","study","close"],
+  "shareCaptions": {
+    "hook": "Turn an idea into something you can see and edit.",
+    "cover": "Original studies. Real editable sources.",
+    "identity": "Explore a direction across a whole visual system.",
+    "study": "Make a study. Get a reaction. Keep the source.",
+    "close": "Bring a question. Develop a direction with Ingenium."
+  }
+}

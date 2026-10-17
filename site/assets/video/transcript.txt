@@ -1,0 +1,40 @@
+Ingenium — silent captioned demo
+90 seconds. No recorded narration or music.
+
+00:00:00–00:00:05
+Turn an idea into something you can see, edit and discuss.
+
+00:00:05–00:00:12
+Start with a question, an existing artifact, or a direction you can't quite describe.
+
+00:00:12–00:00:20
+Ask for a useful study. See what feels right. Keep the source open for revision.
+
+00:00:20–00:00:28
+A publication cover turns a theme into type, color and a relationship between shapes.
+
+00:00:28–00:00:36
+A responsive website carries the same intent into layout, interaction and a smaller screen.
+
+00:00:36–00:00:44
+An identity study tests a mark, its variations, and an event poster in the same visual language.
+
+00:00:44–00:00:51
+A wayfinding study makes destinations and directions visible. Real-world use needs its own checks.
+
+00:00:51–00:00:59
+Run the included composition example, then use the optional helper to export a PNG.
+
+00:00:59–00:01:07
+The clean SVG stays editable. A companion guide view makes the layout choices inspectable.
+
+00:01:07–00:01:16
+Keep earlier studies. Compare their choices. A later revision isn't proof of a better design.
+
+00:01:16–00:01:23
+Say what to keep and what to change. A choice belongs to this study, not to a permanent taste score.
+
+00:01:23–00:01:30
+Explore the editable examples. Bring a question. Develop a direction with Ingenium.
+
+Examples are original synthetic work. The command excerpt is from an actual installed local helper run. Desktop client discovery remains unverified.

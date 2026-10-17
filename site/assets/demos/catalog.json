@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "license": "Original synthetic artwork: MIT. Embedded and supplied fonts retain their accompanying notices.",
+  "items": [
+    {
+      "id": "cover",
+      "title": "Common Ground",
+      "label": "Publication cover \u00b7 V3",
+      "preview": "cover.png",
+      "sourceLink": "examples/release/cover/cover.svg",
+      "editableZIP": "editable-studies.zip",
+      "alt": "A yellow editorial cover with blue and rust forms facing each other.",
+      "width": 1680,
+      "height": 2240,
+      "previewSha256": "7b8215d0485ba3a26bb3403c116f64c3d8198028b135ff6687f4df0a30f9ff34"
+    },
+    {
+      "id": "fieldwork-desktop",
+      "title": "Fieldwork",
+      "label": "Interactive website \u00b7 V2",
+      "preview": "fieldwork-desktop.png",
+      "sourceLink": "examples/release/fieldwork/index.html",
+      "editableZIP": "editable-studies.zip",
+      "alt": "A responsive fictional public-space collective website, desktop view.",
+      "width": 1440,
+      "height": 900,
+      "previewSha256": "252c87a1572796de5d15493d25900b7b04effa107490e522ff2d9c9d36400108"
+    },
+    {
+      "id": "fieldwork-mobile",
+      "title": "Fieldwork on mobile",
+      "label": "Responsive website \u00b7 V2",
+      "preview": "fieldwork-mobile.png",
+      "sourceLink": "examples/release/fieldwork/index.html",
+      "editableZIP": "editable-studies.zip",
+      "alt": "The same Fieldwork website arranged in one mobile column.",
+      "width": 390,
+      "height": 844,
+      "previewSha256": "3ce1aab290354ed0024bbdf6878794d4778148c32c83ac296e9a086910aa41d7"
+    },
+    {
+      "id": "identity",
+      "title": "Manyfold",
+      "label": "Identity system \u00b7 V3",
+      "preview": "identity.png",
+      "sourceLink": "examples/release/identity/identity-sheet.svg",
+      "editableZIP": "editable-studies.zip",
+      "alt": "A folded-paper identity with three color applications and small marks.",
+      "width": 1200,
+      "height": 900,
+      "previewSha256": "9a0e45756c72eaaa35742a05ab7216feff5013cdf0cb0e460737178a296ad491"
+    },
+    {
+      "id": "poster",
+      "title": "Open Studio",
+      "label": "Identity application \u00b7 V3",
+      "preview": "poster.png",
+      "sourceLink": "examples/release/identity/open-studio-A3.svg",
+      "editableZIP": "editable-studies.zip",
+      "alt": "A fictional Open Studio event poster using the Manyfold identity.",
+      "width": 891,
+      "height": 1260,
+      "previewSha256": "7a0a5f92c949f5411d510ca6c5b213ab6335259cf106f996b5b96cbc44a9a124"
+    },
+    {
+      "id": "wayfinding",
+      "title": "Junction House",
+      "label": "Wayfinding study \u00b7 V3",
+      "preview": "wayfinding.png",
+      "sourceLink": "examples/release/wayfinding/sources/lobby-directory.svg",
+      "editableZIP": "editable-studies.zip",
+      "alt": "A directory, directional signs and destination plates for a fictional venue.",
+      "width": 1240,
+      "height": 1140,
+      "previewSha256": "81d538b501648ac1c695309d456f34ae9260a49e5ffb571eaf29166ba4aad377"
+    },
+    {
+      "id": "comparison-cover",
+      "title": "Common Ground: two studies",
+      "label": "Historical comparison \u00b7 V1 / V3",
+      "preview": "comparison-cover.png",
+      "sourceLink": "examples/release/comparison/README.md",
+      "editableZIP": "editable-studies.zip",
+      "alt": "Earlier V1 and later V3 Common Ground covers, with clear historical revision labels.",
+      "width": 1600,
+      "height": 1140,
+      "previewSha256": "59e165057e26bdfebb7ea26997eb23844a71ada99a7124477031d0e71d5e7d5b"
+    }
+  ],
+  "archive": {
+    "path": "editable-studies.zip",
+    "bytes": 3284062,
+    "sha256": "c91bb707c55b3e512a36747c08c075adc2e16c4d43169d213ceb4905f8c27d43"
+  }
+}

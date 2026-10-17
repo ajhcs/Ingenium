@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "title": "Ingenium \u2014 from idea to editable study",
+  "audio": "Intentionally silent; authored burned captions and separate sidecars. Optional natural-voice recording script supplied.",
+  "encoding": "H.264 High, yuv420p, constant30fps, MP4 fast start",
+  "videos": [
+    {
+      "path": "ingenium-demo.mp4",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationSeconds": 90.0,
+      "frames": 2700,
+      "audioStreams": 0,
+      "bytes": 14632040,
+      "sha256": "4d3fca05e03be151b5be6a69529876d1ba14003c687d5a612e1d770347465d60"
+    },
+    {
+      "path": "teaser.mp4",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationSeconds": 20.0,
+      "frames": 600,
+      "audioStreams": 0,
+      "bytes": 3935327,
+      "sha256": "cc8304ec01fadabfa03cf1d6e433f7511af35332d7a77f6a67b819f0746883c8"
+    },
+    {
+      "path": "portrait.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "durationSeconds": 20.0,
+      "frames": 600,
+      "audioStreams": 0,
+      "bytes": 4424683,
+      "sha256": "3f5deb772c6a9e1a8fd8e8d74b55e21a76d1bdd1978799185967fde38f9e1f4d"
+    }
+  ],
+  "assets": [
+    {
+      "path": "captions.json",
+      "bytes": 2419,
+      "sha256": "9c4a517e0b5538293277dad3c7d9e433f191b68bdf236cb1280279ec3917b6f5"
+    },
+    {
+      "path": "captions.srt",
+      "bytes": 1452,
+      "sha256": "cccac5fe25e0ed3bbf7e1ef198f4dd8f00f5ecc58ae366ac618ab27e5132795e"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 1433,
+      "sha256": "51aa039911e28afb938eb5c57a45ed42ff9df188bfc5e488d46e8dc24ab1349a"
+    },
+    {
+      "path": "ingenium-demo.mp4",
+      "bytes": 14632040,
+      "sha256": "4d3fca05e03be151b5be6a69529876d1ba14003c687d5a612e1d770347465d60"
+    },
+    {
+      "path": "portrait-captions.json",
+      "bytes": 644,
+      "sha256": "e557e6a372064d4af988b4e47dc446eff72f161bc54cac42661b0c3b84a77e47"
+    },
+    {
+      "path": "portrait-captions.srt",
+      "bytes": 322,
+      "sha256": "3e43d677197e2b2a94633aafca713d24569835a789161a2b9ee06dad860a1035"
+    },
+    {
+      "path": "portrait-captions.vtt",
+      "bytes": 322,
+      "sha256": "2ae467437a5ea290820df402181078cf63635bc8868ea602382a0368da8ba113"
+    },
+    {
+      "path": "portrait.mp4",
+      "bytes": 4424683,
+      "sha256": "3f5deb772c6a9e1a8fd8e8d74b55e21a76d1bdd1978799185967fde38f9e1f4d"
+    },
+    {
+      "path": "poster.jpg",
+      "bytes": 185802,
+      "sha256": "fe9ef2c92e848611c8630187076db7f62b101da2f7f79231fd1efbfe680e93ed"
+    },
+    {
+      "path": "teaser-captions.json",
+      "bytes": 647,
+      "sha256": "143e4f6a78ea8357d3a33480aa0cfb094d4fd9146319a3375b094eb6800549c7"
+    },
+    {
+      "path": "teaser-captions.srt",
+      "bytes": 325,
+      "sha256": "9c23f555bed65708fb8d60085a397bf24956133b3ef94d2b3fe02d1e4bcbd3c6"
+    },
+    {
+      "path": "teaser-captions.vtt",
+      "bytes": 325,
+      "sha256": "1369c184b2cedaca0e663fa3d3bb4db49bf6ab8d663e743f007097bbd2cf9958"
+    },
+    {
+      "path": "teaser.mp4",
+      "bytes": 3935327,
+      "sha256": "cc8304ec01fadabfa03cf1d6e433f7511af35332d7a77f6a67b819f0746883c8"
+    },
+    {
+      "path": "transcript.txt",
+      "bytes": 1535,
+      "sha256": "6d90ca25ff24dd6b335fc754b13c38eb21460a689a58b73cec9883725402ceee"
+    },
+    {
+      "path": "video-source.zip",
+      "bytes": 4347706,
+      "sha256": "8ee5244347922eae031de23520ccfcd6e83b53847c3f26ed138337a82bba57fe"
+    },
+    {
+      "path": "voiceover-script.md",
+      "bytes": 2722,
+      "sha256": "b507d776f3c469df326a2cf4091c596ba7ad649d1e8fc5025d5d88fb72ad5ede"
+    }
+  ],
+  "limitations": [
+    "Original synthetic studies; no audience acceptance or taste claim.",
+    "Actual installed local helper demonstrated; desktop client discovery unverified.",
+    "Historical V1/V3 comparison is not a controlled performance experiment."
+  ]
+}

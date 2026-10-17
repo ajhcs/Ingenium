@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+<title>Listening Garden — fictional event layout study</title>
+<desc>Listening Garden, a fictional quiet outdoor sound-art study. 18 June 2030, 18:30 to 20:00, Moss Court, North Gate. Free entry and seating available. Cream lettering and a botanical listening-ring motif on indigo.</desc>
+<g id="artwork">
+<rect id="ground" width="1000" height="1200" fill="#242249"/>
+<g id="sound-garden" transform="translate(-14 1)" fill="none" stroke="#F4EAD4" stroke-width="2" opacity="0.7">
+<circle cx="810" cy="415" r="144"/>
+<circle cx="810" cy="415" r="112"/>
+<circle cx="810" cy="415" r="80"/>
+<circle cx="810" cy="415" r="48"/>
+<path d="M810 558 Q748 690 825 790 M815 665 Q737 605 695 649 M810 704 Q885 628 931 684"/>
+<path d="M695 649 Q700 707 810 704 M931 684 Q910 735 810 739"/>
+</g>
+<g fill="#F4EAD4">
+<text id="series" x="76" y="104" font-family="sans-serif" font-size="16" font-weight="400">FIELD NOTES / 01</text>
+<text id="title" x="72" y="344" font-family="serif" font-size="96" font-weight="400"><tspan x="72">Listening</tspan><tspan x="72" dy="104">Garden</tspan></text>
+<path id="title-rule" d="M76 504 L284 504" stroke="#F4EAD4" stroke-width="2"/>
+<text id="subtitle" x="76" y="560" font-family="sans-serif" font-size="28" font-weight="400"><tspan x="76">A quiet outdoor</tspan><tspan x="76" dy="40">sound-art study.</tspan></text>
+</g>
+<rect id="details-panel" x="76" y="824" width="724" height="272" rx="8" fill="#F4EAD4"/>
+<g id="event-details" fill="#242249">
+<text id="event-disclosure" x="104" y="872" font-family="sans-serif" font-size="20" font-weight="400">FICTIONAL EVENT / JOIN US</text>
+<text id="date-time" x="104" y="920" font-family="sans-serif" font-size="36" font-weight="700">18 June 2030 · 18:30–20:00</text>
+<text id="location" x="104" y="968" font-family="sans-serif" font-size="32" font-weight="400">Moss Court, North Gate</text>
+<rect id="access-band" x="104" y="992" width="668" height="76" rx="4" fill="#242249"/>
+<g fill="#F4EAD4"><text id="access" x="124" y="1040" font-family="sans-serif" font-size="28" font-weight="700">Free entry · Seating available</text></g>
+</g>
+</g>
+</svg>

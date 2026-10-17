@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "scope": "Original synthetic editable release studies and selected unchanged fonts with full notices. Historical comparisons are not controlled experiments.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1079,
+      "sha256": "cf0749c76303222ba5cdf97e6d2fd75b60adf6027f9b7e9c031899e583727fa6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1714,
+      "sha256": "b141d5c6141fadbb7ee5b9713c1650e2e7a5b45329d69ec0d34b81c5b3a62dfc"
+    },
+    {
+      "path": "comparison/FONT-NOTICES.txt",
+      "bytes": 3857,
+      "sha256": "e81d9dced49fea2a7d576cbea283873de58563c5d488f954deb282843c3ea79c"
+    },
+    {
+      "path": "comparison/README.md",
+      "bytes": 520,
+      "sha256": "9d4c92a4cca62cd7f9a6841d52ba6c651c0e4d8bd4a5b7cebe5f746ba59a7ad9"
+    },
+    {
+      "path": "comparison/cover-v1.svg",
+      "bytes": 2468372,
+      "sha256": "f39c4f936365c2f8001a0954d2fc4ae4bb7cb6cf7930e33d9dc0a348ac2778a6"
+    },
+    {
+      "path": "comparison/cover-v3.svg",
+      "bytes": 57700,
+      "sha256": "45cc07c6fe7000cd604451548e6b7986edc8dc09b6569256b266f796a7dcb693"
+    },
+    {
+      "path": "cover/cover.svg",
+      "bytes": 57700,
+      "sha256": "45cc07c6fe7000cd604451548e6b7986edc8dc09b6569256b266f796a7dcb693"
+    },
+    {
+      "path": "cover/resources/fraunces/LICENSE.txt",
+      "bytes": 4504,
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e"
+    },
+    {
+      "path": "cover/resources/fraunces/font.css",
+      "bytes": 276,
+      "sha256": "fd79ca72815a2687fc63e82dcacb70915db289edaedfd6619d667d298c554de1"
+    },
+    {
+      "path": "cover/resources/fraunces/font.woff2",
+      "bytes": 18096,
+      "sha256": "3a1de7711d147bad4422825045f87597fd77cca72e7c96d3b0a81735d00dda82"
+    },
+    {
+      "path": "cover/resources/inter/LICENSE.txt",
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "cover/resources/inter/font.css",
+      "bytes": 273,
+      "sha256": "91cbdf87d0710717f3d135ac30dcb659faa74443f401a37d16c78206a0e20b7f"
+    },
+    {
+      "path": "cover/resources/inter/font.woff2",
+      "bytes": 23664,
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "fieldwork/app.js",
+      "bytes": 1146,
+      "sha256": "54feaf206871b6615c67cdf44e7840946404e4af657b4b4d3786ec78ca838da6"
+    },
+    {
+      "path": "fieldwork/font-400/LICENSE.txt",
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "fieldwork/font-400/font.css",
+      "bytes": 273,
+      "sha256": "91cbdf87d0710717f3d135ac30dcb659faa74443f401a37d16c78206a0e20b7f"
+    },
+    {
+      "path": "fieldwork/font-400/font.woff2",
+      "bytes": 23664,
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "fieldwork/font-600/LICENSE.txt",
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "fieldwork/font-600/font.css",
+      "bytes": 273,
+      "sha256": "3218b1fbb2903251667beb8858e1bcfa0944ac2b989e79c33c25c4710212795e"
+    },
+    {
+      "path": "fieldwork/font-600/font.woff2",
+      "bytes": 24452,
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+    },
+    {
+      "path": "fieldwork/index.html",
+      "bytes": 3806,
+      "sha256": "4f2f82f17eaa6ee0b4e31d5844b1bd10778d03d52884888406e562e8c1f49e1e"
+    },
+    {
+      "path": "fieldwork/styles.css",
+      "bytes": 7552,
+      "sha256": "21c6ee4291f5c3dcb17fed20bf3f4e4a70c6f66daed42826d0e40945c0846278"
+    },
+    {
+      "path": "first-success/README.md",
+      "bytes": 1505,
+      "sha256": "47da75007189c3022575f208ee4bd1011c99a5acc001e8e159ad6429a008d2bb"
+    },
+    {
+      "path": "first-success/actual-cli.txt",
+      "bytes": 1743,
+      "sha256": "738054e60217405c8230bd87ac08f5a6b8fa33ee3f2522ada718c0ece2ff366d"
+    },
+    {
+      "path": "first-success/clean.svg",
+      "bytes": 2213,
+      "sha256": "71a3bbd36c8bf1d8213249dc833f50b5d8970427b52869cb2f39ee0d1d9dc3c2"
+    },
+    {
+      "path": "first-success/guides.svg",
+      "bytes": 4621,
+      "sha256": "9e39821becfb705449cfbabc7d6ee816b8041f4d52683d0ebb9da6562391aed9"
+    },
+    {
+      "path": "first-success/layout.json",
+      "bytes": 3177,
+      "sha256": "e9e48aad3ea45d90779116d720faa67cd4e47d0c6ac77a6849d580b7c16d0ce2"
+    },
+    {
+      "path": "fonts/DejaVuSans-Bold.ttf",
+      "bytes": 708920,
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    {
+      "path": "fonts/DejaVuSans.ttf",
+      "bytes": 759720,
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+    },
+    {
+      "path": "fonts/DejaVuSerif.ttf",
+      "bytes": 380660,
+      "sha256": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab"
+    },
+    {
+      "path": "fonts/FONT-NOTICES.txt",
+      "bytes": 3857,
+      "sha256": "e81d9dced49fea2a7d576cbea283873de58563c5d488f954deb282843c3ea79c"
+    },
+    {
+      "path": "identity/identity-sheet.svg",
+      "bytes": 61293,
+      "sha256": "6a103036a7bda84afabde7dc71d5fefc121aab2f8659902da07e6fe20231f2e1"
+    },
+    {
+      "path": "identity/mark-32.svg",
+      "bytes": 56321,
+      "sha256": "50a358c592165386fe98a72d9682e50c99eccc045b46d13249f88a29f986bcc4"
+    },
+    {
+      "path": "identity/mark-one-color.svg",
+      "bytes": 56315,
+      "sha256": "56b4c10b16d7b9e6b85460d4c6216e0dac8b826538b6e5e4baa85a280643c81b"
+    },
+    {
+      "path": "identity/open-studio-A3.svg",
+      "bytes": 58461,
+      "sha256": "068a0f5ac0f7bee620c295730eb8de90f375c81350e0323bae18a8275cae58dd"
+    },
+    {
+      "path": "identity/resources/fraunces/LICENSE.txt",
+      "bytes": 4504,
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e"
+    },
+    {
+      "path": "identity/resources/fraunces/font.css",
+      "bytes": 276,
+      "sha256": "fd79ca72815a2687fc63e82dcacb70915db289edaedfd6619d667d298c554de1"
+    },
+    {
+      "path": "identity/resources/fraunces/font.woff2",
+      "bytes": 18096,
+      "sha256": "3a1de7711d147bad4422825045f87597fd77cca72e7c96d3b0a81735d00dda82"
+    },
+    {
+      "path": "identity/resources/inter/LICENSE.txt",
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "identity/resources/inter/font.css",
+      "bytes": 273,
+      "sha256": "91cbdf87d0710717f3d135ac30dcb659faa74443f401a37d16c78206a0e20b7f"
+    },
+    {
+      "path": "identity/resources/inter/font.woff2",
+      "bytes": 23664,
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "identity/variant-01.svg",
+      "bytes": 56801,
+      "sha256": "faa31e5a60822deeafbc937c8919bf760bdf31059e5a984ed128602a935c5fd1"
+    },
+    {
+      "path": "identity/variant-02.svg",
+      "bytes": 56801,
+      "sha256": "0cf749506cc9b815bcee34d0d1b18b04a216c4b53b7f9449e71bebd45f78bc57"
+    },
+    {
+      "path": "identity/variant-03.svg",
+      "bytes": 56801,
+      "sha256": "50f5e5f127e05d3f3295ca05bd6e591fde17e9b429d397fcda6bec745ab812ca"
+    },
+    {
+      "path": "wayfinding/resources/inter-500/LICENSE.txt",
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "wayfinding/resources/inter-500/font.css",
+      "bytes": 273,
+      "sha256": "3b10709bfaad38ae34c13b171a8d65cfa053a08851287e51cfe2924d8e4336cf"
+    },
+    {
+      "path": "wayfinding/resources/inter-500/font.woff2",
+      "bytes": 24272,
+      "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+    },
+    {
+      "path": "wayfinding/resources/inter-600/LICENSE.txt",
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "wayfinding/resources/inter-600/font.css",
+      "bytes": 273,
+      "sha256": "3218b1fbb2903251667beb8858e1bcfa0944ac2b989e79c33c25c4710212795e"
+    },
+    {
+      "path": "wayfinding/resources/inter-600/font.woff2",
+      "bytes": 24452,
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+    },
+    {
+      "path": "wayfinding/resources/inter-700/LICENSE.txt",
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "wayfinding/resources/inter-700/font.css",
+      "bytes": 273,
+      "sha256": "574862b10b3ef14fbbee89d2fd2d82569ce341c0ad1e4bbd69209545e10b11a8"
+    },
+    {
+      "path": "wayfinding/resources/inter-700/font.woff2",
+      "bytes": 24356,
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+    },
+    {
+      "path": "wayfinding/sources/destination-cafe.svg",
+      "bytes": 98716,
+      "sha256": "0a2c8545e902bff072cd10209dee72d0282e1ba778630968fbbcdf33a3443d40"
+    },
+    {
+      "path": "wayfinding/sources/destination-hall.svg",
+      "bytes": 98717,
+      "sha256": "944feb37caa0f84962c1378dc79d72c02dd5ff3ad537e13a707a4fec1ff691e6"
+    },
+    {
+      "path": "wayfinding/sources/destination-toilets.svg",
+      "bytes": 98712,
+      "sha256": "43c854086b3abeadafa66e7a1265711672754554233053e204f45ad286ec6178"
+    },
+    {
+      "path": "wayfinding/sources/destination-workshop.svg",
+      "bytes": 98685,
+      "sha256": "fc92452fe936cbe9e78c58cf498fc2f1c80a9254bdcb5fc604a719a7aa36a14e"
+    },
+    {
+      "path": "wayfinding/sources/east-direction.svg",
+      "bytes": 99570,
+      "sha256": "c6445ea29b426a1b0a2b04402f67366aa180cfb87979bbde5d75ae4ae935794a"
+    },
+    {
+      "path": "wayfinding/sources/lobby-directory.svg",
+      "bytes": 102958,
+      "sha256": "2c289d834e483fbb52079be96225420ffb290ab7958236a967670818bc6c8406"
+    },
+    {
+      "path": "wayfinding/sources/west-direction.svg",
+      "bytes": 99507,
+      "sha256": "34ae1d00f3607383284e07326bd2a229101decb0c856dd9e6a991bb1b31334b0"
+    }
+  ]
+}
