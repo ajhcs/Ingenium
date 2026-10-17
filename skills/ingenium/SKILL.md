@@ -11,7 +11,7 @@ When alternatives help, vary their organizing ideas—hierarchy, relationships, 
 
 Match rigor to the intended use and the user's requested depth: a quick study, measured refinement or deeper delivery review. Adapt as feedback arrives. Use representative content and editable sources; preserve originals and make edits/exports separate. Build only the requested artifact types. Honor withheld references and templates; do not consult worked examples or full-design libraries to reconstruct a direction the user asked to develop independently.
 
-Render or preview the relevant result, inspect it at its intended size or interaction state, fix observed problems, and recheck the affected parts. Retain concise evidence of what changed. Stop when the requested outcome and relevant checks are satisfied; a new defect or unresolved claim can justify more work. Report an unavailable renderer or unsupported operation precisely while continuing useful source/text work. Numeric checks and model critique do not establish taste, user acceptance, complete accessibility or engineering adequacy.
+Render or preview the relevant result, inspect it at its intended size or interaction state, fix observed problems, and recheck the affected parts. Before reporting a file as delivered, verify its exact path exists and is nonempty, and open or parse it as appropriate. Confirm any export succeeded; stale files and later successful commands do not establish that. Build delivery lists from verified outputs and mark failed or omitted exports unavailable. Retain concise evidence of what changed. Stop when the requested outcome and relevant checks are satisfied; a new defect or unresolved claim can justify more work. Report an unavailable renderer or unsupported operation precisely while continuing useful source/text work. Numeric checks and model critique do not establish taste, user acceptance, complete accessibility or engineering adequacy.
 
 Read a reference only when its task applies:
 
@@ -19,6 +19,7 @@ Read a reference only when its task applies:
 | --- | --- |
 | Find or adapt fonts, symbols, colors, surfaces or UI parts | [Resource routes](references/resource-libraries.md), then the selected route only |
 | Develop hierarchy, spacing, type roles or useful guides | [Measured composition](references/composition.md) |
+| Controlled study with worked sources withheld | [Conceptual composition only](references/composition-concepts.md); read this file directly instead of loading or slicing the worked reference |
 | Discover local helpers or export SVG to PNG | [Capabilities](references/capabilities.md) or [SVG](references/svg.md) |
 | Measure layout, contrast or owned local browser states | [Scoped checks](references/checks.md) |
 | Create an original font or perform supported vector operations | [Font/vector tools](references/fonts.md) |

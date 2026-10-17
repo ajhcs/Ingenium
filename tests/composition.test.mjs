@@ -1,6 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
 import { buildStudy, layout } from '../examples/composition/listening-garden.mjs';
+
+test('controlled composition resource preserves the conceptual text without the worked-source suffix', async () => {
+  const ordinary = await readFile(new URL('../skills/ingenium/references/composition.md', import.meta.url));
+  const concepts = await readFile(new URL('../skills/ingenium/references/composition-concepts.md', import.meta.url));
+  const boundary = ordinary.indexOf('## Worked source');
+  assert.ok(boundary > 0, 'ordinary guidance still retains its worked source');
+  assert.equal(concepts.toString(), ordinary.subarray(0, boundary).toString().trimEnd() + '\n');
+});
 
 test('clean and guide sources retain identical editable artwork', () => {
   const { clean, guides } = buildStudy();
