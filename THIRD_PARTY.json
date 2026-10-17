@@ -48,6 +48,60 @@
       "source": "https://github.com/lddubeau/xmlchars",
       "license": "MIT",
       "distribution": "Not vendored; retain installed license"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.67.0",
+      "license": "MIT",
+      "source": "https://github.com/fonttools/fonttools",
+      "use": "Explicit optional original font/vector subsystem",
+      "distribution": "Separate isolated Python environment; not vendored or installed on import",
+      "qualification": "Exact locked CPython3.12/Linux wheel tested; transitive and native bundled licenses remain separate"
+    },
+    {
+      "name": "picosvg",
+      "version": "0.23.0",
+      "license": "Apache-2.0",
+      "source": "https://github.com/googlefonts/picosvg",
+      "use": "Explicit optional original font/vector subsystem",
+      "distribution": "Separate isolated Python environment; not vendored or installed on import",
+      "qualification": "Exact locked CPython3.12/Linux wheel tested; transitive and native bundled licenses remain separate"
+    },
+    {
+      "name": "skia-pathops",
+      "version": "0.9.2",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/fonttools/skia-pathops",
+      "use": "Explicit optional original font/vector subsystem",
+      "distribution": "Separate isolated Python environment; not vendored or installed on import",
+      "qualification": "Exact locked CPython3.12/Linux wheel tested; transitive and native bundled licenses remain separate"
+    },
+    {
+      "name": "ufo2ft",
+      "version": "3.9.1",
+      "license": "MIT",
+      "source": "https://github.com/googlefonts/ufo2ft",
+      "use": "Explicit optional original font/vector subsystem",
+      "distribution": "Separate isolated Python environment; not vendored or installed on import",
+      "qualification": "Exact locked CPython3.12/Linux wheel tested; transitive and native bundled licenses remain separate"
+    },
+    {
+      "name": "ufoLib2",
+      "version": "0.19.1",
+      "license": "Apache-2.0",
+      "source": "https://github.com/fonttools/ufoLib2",
+      "use": "Explicit optional original font/vector subsystem",
+      "distribution": "Separate isolated Python environment; not vendored or installed on import",
+      "qualification": "Exact locked CPython3.12/Linux wheel tested; transitive and native bundled licenses remain separate"
+    },
+    {
+      "name": "uharfbuzz",
+      "version": "0.56.3",
+      "license": "Apache License 2.0",
+      "source": "https://github.com/harfbuzz/uharfbuzz",
+      "use": "Explicit optional original font/vector subsystem",
+      "distribution": "Separate isolated Python environment; not vendored or installed on import",
+      "qualification": "Exact locked CPython3.12/Linux wheel tested; transitive and native bundled licenses remain separate"
     }
   ],
   "guidance": [
@@ -60,5 +114,5 @@
       "use": "Skill structure and routing guidance"
     }
   ],
-  "assets": "Examples are original synthetic content; no font files, private source documents or user preference records are redistributed."
+  "assets": "Examples contain original synthetic MIT artwork and original limited font sources; no third-party font file, private brief or annotations are redistributed."
 }
