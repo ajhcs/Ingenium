@@ -1,0 +1,132 @@
+{
+  "schema": "ingenium-readme-comparisons/1",
+  "illustrativeNotCausal": true,
+  "pairs": [
+    {
+      "id": "website",
+      "without": {
+        "path": "docs/assets/comparisons/website-without.png",
+        "sha256": "91c4f98d709c9d2fce924801a2f5de2cb06ef9093de76280afd0d2cb087eb461",
+        "dimensions": [
+          1440,
+          900
+        ],
+        "snapshot": "native P2 candidate-01"
+      },
+      "with": {
+        "path": "site/assets/demos/fieldwork-desktop.png",
+        "sha256": "252c87a1572796de5d15493d25900b7b04effa107490e522ff2d9c9d36400108",
+        "dimensions": [
+          1440,
+          900
+        ],
+        "snapshot": "V2 P2 approved public preview"
+      },
+      "comparison": {
+        "path": "docs/assets/comparisons/website-comparison.png",
+        "sha256": "15b1e402f03196fc13b271b9340e5124354db6582e0ea5920d6c2cc01683721d",
+        "width": 1760,
+        "scaling": "equal-width proportional contain; complete source image; no cropping"
+      }
+    },
+    {
+      "id": "cover",
+      "without": {
+        "path": "docs/assets/comparisons/cover-without.png",
+        "sha256": "b8e89a4cd73f33e8392e4c43a490bd5beb09904a96e5788a709a0eb13dc3a480",
+        "dimensions": [
+          2100,
+          2800
+        ],
+        "snapshot": "native P1 candidate-01"
+      },
+      "with": {
+        "path": "site/assets/demos/cover.png",
+        "sha256": "7b8215d0485ba3a26bb3403c116f64c3d8198028b135ff6687f4df0a30f9ff34",
+        "dimensions": [
+          1680,
+          2240
+        ],
+        "snapshot": "V3 P1 approved public preview"
+      },
+      "comparison": {
+        "path": "docs/assets/comparisons/cover-comparison.png",
+        "sha256": "eac08af3dd9104e90fbe3d240f9770c444cf85ece8a66bd05b9a9f4c7b332ba1",
+        "width": 1760,
+        "scaling": "equal-width proportional contain; complete source image; no cropping"
+      }
+    },
+    {
+      "id": "identity",
+      "without": {
+        "path": "docs/assets/comparisons/identity-without.png",
+        "sha256": "0e9d707d12382a7dcf4207296d9196deaaa6628b2aaf2fe3cfc4f4587ff18a84",
+        "dimensions": [
+          1200,
+          900
+        ],
+        "snapshot": "native P3 candidate-01"
+      },
+      "with": {
+        "path": "site/assets/demos/identity.png",
+        "sha256": "9a0e45756c72eaaa35742a05ab7216feff5013cdf0cb0e460737178a296ad491",
+        "dimensions": [
+          1200,
+          900
+        ],
+        "snapshot": "V3 P3 approved public preview"
+      },
+      "comparison": {
+        "path": "docs/assets/comparisons/identity-comparison.png",
+        "sha256": "2f32c084b65ef4995b4fe2577e3c44df0850885710511aa1dd78d19c1f30ae61",
+        "width": 1760,
+        "scaling": "equal-width proportional contain; complete source image; no cropping"
+      }
+    },
+    {
+      "id": "wayfinding",
+      "without": {
+        "path": "docs/assets/comparisons/wayfinding-without.png",
+        "sha256": "cc69540be64928cca4567d7c0487957ae0974dbe381fc47da8ef32c648f4f331",
+        "dimensions": [
+          800,
+          1200
+        ],
+        "snapshot": "native P4 candidate-01 complete lobby directory"
+      },
+      "with": {
+        "path": "docs/assets/comparisons/wayfinding-with.png",
+        "sha256": "b154c1e6477bee533396ad104b6b37fb75a585ddd05a734d998ebffd40a2eb1a",
+        "dimensions": [
+          800,
+          1200
+        ],
+        "snapshot": "V3 P4 approved public preview complete lobby directory"
+      },
+      "comparison": {
+        "path": "docs/assets/comparisons/wayfinding-comparison.png",
+        "sha256": "8336f12d561493338587205b15cb6cad70a3911d75abe25cea75c5aa957eefd2",
+        "width": 1760,
+        "scaling": "equal-width proportional contain; complete source image; no cropping"
+      }
+    }
+  ],
+  "supplemental": [
+    {
+      "path": "docs/assets/comparisons/wayfinding-sheet-without.png",
+      "sha256": "96c502157b61b5617e034817339d2b83cf394d17c34ce30d2b43f68c8a5f39e9",
+      "dimensions": [
+        1320,
+        880
+      ]
+    },
+    {
+      "path": "site/assets/demos/wayfinding.png",
+      "sha256": "81d538b501648ac1c695309d456f34ae9260a49e5ffb571eaf29166ba4aad377",
+      "dimensions": [
+        1240,
+        1140
+      ]
+    }
+  ]
+}

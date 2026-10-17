@@ -2,15 +2,31 @@
 
 **Turn a rough idea into a design you can keep working on.**
 
-Explore distinct directions, refine the one you choose, and keep the editable files and decisions together. Ingenium is a creative skill for Codex and Claude, with a guided route for ChatGPT. Bring a poster, a website, an identity, a diagram—or an idea that is almost there.
+A creative skill for Codex and Claude, with a guided route for ChatGPT. Explore directions, refine the one you choose, and keep editable files.
 
-[![Common Ground publication cover studies](site/assets/demos/comparison-cover.png)](https://ajhcs.github.io/Ingenium/#studies)
+[Install](#start-in-your-client) · [Setup by client](docs/install.md) · [Live demos](https://ajhcs.github.io/Ingenium/) · [Editable studies](examples/release/README.md)
 
-[Explore the live demos](https://ajhcs.github.io/Ingenium/) · [Editable sources](examples/release/README.md) · [Watch the walkthrough](https://ajhcs.github.io/Ingenium/#watch) · [Setup guide](docs/install.md)
+## Without Ingenium / With Ingenium
 
-- **Compare ideas you can react to.** Explore hierarchy, composition and character through useful studies.
-- **Refine without starting over.** Keep the layout you chose while changing the title, spacing or another specific part.
-- **Keep something useful.** Retain editable SVG, HTML or other source files, separate previews and a short account of the choices that matter.
+Same fictional briefs, preserved screenshots. These historical runs used different resources and revisions; they are illustrative comparisons. [How they were made](docs/readme-comparisons.md). Click any image for full size.
+
+**Website · Fieldwork**
+
+[![Without Ingenium on the left; with Ingenium V2 on the right. Both Fieldwork website screenshots use a 1440 by 900 viewport.](docs/assets/comparisons/website-comparison.png)](docs/assets/comparisons/website-comparison.png)
+
+**Publication cover · Common Ground**
+
+[![Without Ingenium on the left; with Ingenium V3 on the right. Complete Common Ground publication covers.](docs/assets/comparisons/cover-comparison.png)](docs/assets/comparisons/cover-comparison.png)
+
+**Identity · Manyfold**
+
+[![Without Ingenium on the left; with Ingenium V3 on the right. Complete Manyfold identity sheets.](docs/assets/comparisons/identity-comparison.png)](docs/assets/comparisons/identity-comparison.png)
+
+**Wayfinding · Junction House lobby directory**
+
+[![Without Ingenium on the left; with Ingenium V3 on the right. Complete lobby directories from the two Junction House sign systems.](docs/assets/comparisons/wayfinding-comparison.png)](docs/assets/comparisons/wayfinding-comparison.png)
+
+[Full-size originals and methodology](docs/readme-comparisons.md) · [Try the website](https://ajhcs.github.io/Ingenium/studies/fieldwork/)
 
 ## Start in your client
 
@@ -57,17 +73,6 @@ Then refine a choice:
 > Keep the first study's layout and wording for this poster. Make only the title feel less formal. Save a new editable version and keep the previous files.
 
 Ask for as much or as little as you need. A single study, a text comparison or a useful question can be enough. [Continue the first-study walkthrough](docs/quickstart.md).
-
-## Made with Ingenium
-
-Original fictional studies with editable sources:
-
-| Publication | Website | Identity |
-| --- | --- | --- |
-| [![Common Ground cover](site/assets/demos/cover.png)](examples/release/cover/cover.svg) | [![Fieldwork website](site/assets/demos/fieldwork-desktop.png)](https://ajhcs.github.io/Ingenium/studies/fieldwork/) | [![Open Studio identity](site/assets/demos/identity.png)](examples/release/identity/identity-sheet.svg) |
-| [Cover source](examples/release/cover/cover.svg) | [Try the website](https://ajhcs.github.io/Ingenium/studies/fieldwork/) · [Source](examples/release/fieldwork/) | [Identity source](examples/release/identity/identity-sheet.svg) |
-
-[Wayfinding and poster studies](examples/release/README.md) · [Download editable studies](https://ajhcs.github.io/Ingenium/assets/demos/editable-studies.zip) · [Preserved revisions](examples/progression/README.md)
 
 ## Optional local tools
 
