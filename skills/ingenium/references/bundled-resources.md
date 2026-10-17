@@ -1,38 +1,57 @@
-# Compact bundled resources
+# Installed resources and selected downloads
 
-Use `src/resources/index.mjs` relative to the installed package. Importing it does not fetch, install, register fonts, execute upstream code or admit every listed SVG. Start with `discoverResources()`, then open one provider with `openResourceLibrary({id, parserDir?, iconUtilsDir?})`. Query a small page; never print the complete metadata files into context.
+Use `src/resources/index.mjs` relative to the installed plugin. `discoverResources()` reads compact provider summaries. It does not fetch, execute upstream code, register fonts or admit every catalog entry. Choose a provider and use the matching route below; factories return different interfaces.
 
-`ingenium resources discover` lists provider summaries. `ingenium resources search google-fonts REQUEST.json` pages directory metadata. `ingenium resources details google-fonts REQUEST.json` retrieves one selected family with paged file listings. Requests support query, category, offset and limit1..32; details uses entryId. Font and stock directories provide source links and declared file/notice paths. Linked asset rights remain source-specific; no directory-wide font license is inferred. HTML template links remain held. Google Fonts, Nerd Fonts and free-font payload collections are not bundled. Nerd's72 directories include55 with actual font blobs and17 metadata-only directories.
+| Provider ID | Retained scope | Next operation |
+| --- | --- | --- |
+| `simple-icons` | 3,466 records at 16.35.0; only ActivityPub artwork bundled | `openResourceLibrary` for that selected pack; [brand download](brand-download.md) for any pinned original |
+| `lobe-icons` | 950 SVGs at 1.95.1; Adobe has retained preparation | `openResourceLibrary`, then [SVG pack](svg-packs.md) search/inspect/acquire |
+| `minimal-icons` | 100 SVGs at snapshot `99bfaad`; ic-add has retained preparation | Same SVG pack route |
+| `ionicons` | 1,357 SVGs at 8.1.0; add has class/unit preparation | Same SVG pack route |
+| `remixicon-apache` | 3,058 SVGs at 4.6.0 with its full Apache notice | Same SVG pack route |
+| `remixicon-current` | 3,229 metadata records at 4.9.1, actual Remix Icon License 1.0 | Same factory for metadata search; payload acquisition refuses |
+| `tabler` | 6,286 icons + 194 aliases from Iconify JSON 1.2.42 | `openResourceLibrary`, then [catalog](catalog.md); explicit parser/utils selectors |
+| `hack` | v3.003 regular/bold WOFF2, full combined notice | `openResourceLibrary`, then [font packs](font-packs.md) |
+| `hack-index` | Source-foundry/Hack family metadata, one entry | Directory search/details; use `hack` for bundled faces |
+| `google-fonts` | 2,039 families / 3,921 TTF file records | Directory search/details; optional selected font downloader |
+| `nerd-fonts` | 72 directories: 55 with font blobs, 17 metadata-only | Directory search/details; optional selected font downloader |
+| `free-font` | 1,048 font file records | Directory search/details; optional selected font downloader |
+| `awesome-stock-resources` | 188 resource links + 3 other links; six template links held | Directory search/details only |
+| `voxel-icon` | 30 PNG metadata entries, no bundled pixels | [Local assets](local-assets.md) via `openResourceDownloader` |
+| `atomic-ui` | Selected DaisyUI 5.7.50 CSS, 26 authored native recipes | `openResourceLibrary`, then [UI](ui.md) |
+| `materials` | Open Props 1.7.23: 30 gradients + five noise declarations | `openResourceLibrary`, then [materials](materials.md) |
 
-Bundled runtime routes:
+The twelve source repositories include Remix once despite its two release routes. UI/material sources and [original textures](textures.md) are additional capabilities. Counts describe retained catalogs, not complete admission or rendering coverage. Provider summaries retain exact source identities and limits.
 
-| Provider id | Route and scope |
-| --- | --- |
-| lobe-icons |950 source SVGs; selected Adobe has explicit presentation preparation, original and receipt. Other entries still require selected static admission. |
-| ionicons |1357 distinct SVGs from dist/svg; selected add has explicit class/unit preparation. |
-| minimal-icons |100 SVGs; selected ic-add retains its original and presentation receipt. |
-| remixicon-apache |3058 SVGs from pinned4.6.0 under its exact Apache2.0 notice. This is a different release from current4.9.1. |
-| remixicon-current |3229 current4.9.1 metadata records with its actual Remix Icon License1.0, not the stale Apache label in npm metadata. No current-release SVG payload bundled. |
-| simple-icons |3466 metadata records, full source declarations/disclaimer. One explicitly CC0 ActivityPub selected SVG, original and preparation receipt bundled; remaining3465 metadata-only. Individual license and branding declarations vary; no blanket CC0 claim. |
-| tabler |Reused @iconify-json/tabler1.2.42 JSON:6286 icons+194 aliases, full pinned MIT notice. Optional pure Iconify utils and saxes remain separate. |
-| hack |Exact v3.003 regular/bold WOFF2 and full combined MIT/Bitstream Vera/DejaVu notice; bytes remain unchanged. |
-| atomic-ui |26 original native recipes against selected DaisyUI5.7.50 CSS; two themes, full MIT notice. No upstream JS or Tailwind runtime. |
-| materials |All30 Open Props1.7.23 gradients and five noise declarations; exact MIT notice. Finite edits only. |
-| voxel-icon |30 PNG metadata records; no bundled pixels. Explicit selected user-local acquisition with full custom terms and immutable byte checks; default network off. See [local assets](local-assets.md). |
-
-SVG sources use one concatenated data file per pack with exact selected offset/length/SHA256. Metadata is paged; acquisition reads only the selected range, performs the existing strict static policy, and creates a new output directory with original/safe/derived SVG, complete notice and provenance. Supported controls are size, currentColor substitution and existing stroke widths; fixed source fills are preserved. An unsupported selected entry refuses. View original/prepared/derived differences before treating a prepared asset as suitable. No general SVG importer, script support, path rewriting, glyph editing or source-wide compatibility claim.
-
-For example:
+For font/stock directory metadata, use `searchResourceDirectory({id,query,category,offset,limit})`, then `detailsResourceDirectory({id,entryId,offset,limit})`. Limits are 1..32, default 12; details pages a family's files separately. Use returned IDs and `nextOffset`. A category/license-bucket hint is not a font-specific license; stock-directory CC0 does not license linked assets. Held template links stay withheld.
 
 ```js
-const api = await import('/absolute/installed/package/src/resources/index.mjs');
-const icons = await api.openResourceLibrary({id:'ionicons', parserDir:'/existing/parser/npm-directory'});
-await icons.search({query:'add',limit:4});
-await icons.acquire({id:'add',selected:true,customize:{width:96,height:96,color:'#006c70',strokeWidth:16},outputDir:'/new/output'});
+import { searchResourceDirectory, detailsResourceDirectory } from './src/resources/index.mjs';
+const page = await searchResourceDirectory({id:'google-fonts', query:'Abel', limit:4});
+if (page.entries.length) {
+  const detail = await detailsResourceDirectory({
+    id:'google-fonts', entryId:page.entries[0].id, limit:4,
+  });
+  console.log(detail);
+}
 ```
 
-See [font packs](font-packs.md), [catalog](catalog.md), [UI](ui.md), [materials](materials.md) and [textures](textures.md) only when that task needs them. Local acquisition and browser inspection provide technical evidence; licensing decisions, trademarks, taste and user acceptance remain distinct.
+Equivalent CLI: `ingenium resources discover`, `ingenium resources search google-fonts REQUEST.json`, and `ingenium resources details google-fonts REQUEST.json`. Search request: `{"query":"Abel","limit":4}`. Details request: `{"entryId":"ofl/abel","limit":4}`. These commands serve directory providers only; they do not search SVG/UI packs.
 
-For one bounded live example each from Google Fonts, Nerd Fonts and free-font, use [selected provider font acquisition](font-download.md). It defaults offline and retains exact independently pinned full font notices, then emits a manifest usable by the local font-pack API for separate typography edits and offline previews. The three example TTFs total2,878,168 bytes; broader directories remain metadata. CLI: `ingenium font-download search CONFIG.json REQUEST.json`, then explicitly selected `acquire CONFIG.json REQUEST.json NEW_OUTPUT_DIR`. Config must explicitly set allowNetwork:true for live acquisition; no implicit fallback/download on browse.
+For bundled SVGs, pass `parserDir` only when using an existing optional saxes installation; Tabler also accepts `iconUtilsDir`. Inspect before acquiring:
 
-For all3466 Simple Icons source originals, use [selected brand acquisition](brand-download.md), separate from bundled redistribution. `openResourceDownloader({id:'simple-icons',allowNetwork:true})` returns that explicit local route; default is offline. Exact original, complete project notice/disclaimer and individual source/license/guideline declarations travel together. An individual declaration is distinguished from obtaining its full separate notice. No additional trademark approval gate is invented. The narrow selected presentation operation preserves path data and records explicit size/fill changes under its own source-format policy; it does not broaden static-icon-v1. Other downloader IDs are google-fonts/nerd-fonts/free-font and voxel-icon; bundled sources use openResourceLibrary.
+```js
+import { openResourceLibrary } from './src/resources/index.mjs';
+const icons = await openResourceLibrary({id:'ionicons', parserDir:'/existing/parser/npm-directory'});
+await icons.search({query:'add', limit:4});
+await icons.inspect({id:'add'});
+await icons.acquire({id:'add', selected:true,
+  customize:{width:96, height:96, color:'#006c70', strokeWidth:16},
+  outputDir:'/existing-parent/new-icon'});
+```
+
+Selected admission can refuse other entries. Preserve original/prepared/derived distinctions; no automatic preparation or general path editing is implied. Fixed fills remain fixed in the SVG pack route.
+
+`openResourceDownloader({id,allowNetwork:false})` supports `simple-icons`, `voxel-icon`, `google-fonts`, `nerd-fonts` and `free-font`. Choose `allowNetwork:true` only for an intended download. The three font IDs return the same downloader containing three built-in selections; filter its `search` by repository (`provider:'google/fonts'`, for example). Directory search results are not download descriptors. Read [font download](font-download.md) for additional explicitly pinned selections.
+
+Keep source declarations/aliases separate from inferred spelling and authored UI/texture tags. Inspect full available notices and the selected preview; technical evidence does not supply trademark permission, user acceptance or all-catalog qualification. Actual desktop-client discovery remains untested.

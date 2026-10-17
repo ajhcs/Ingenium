@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ingenium",
   "version": "0.1.0",
-  "description": "Discover and develop creative intent through useful questions, comparisons and editable design studies.",
+  "description": "Develop creative direction and editable design studies with optional, selectively loaded design resources.",
   "author": {
     "name": "ajhcs"
   },

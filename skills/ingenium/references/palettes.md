@@ -12,7 +12,7 @@ All exports are synchronous; selection, customization, generation and export are
 import {
   discoverPalettes, inspectPalette, selectPalette, customizePalette,
   generatePalette, paletteContrast, contrastCandidates, exportPalette,
-} from './src/palettes/index.mjs'; // relative to an Ingenium checkout
+} from './src/palettes/index.mjs'; // relative to the installed plugin root
 
 discoverPalettes({ query: 'blue', mode: 'light' });
 const source = inspectPalette('radix-blue-light');
@@ -50,6 +50,14 @@ const svg = exportPalette(derivative, { format: 'svg' });
 `paletteContrast(palette,{foreground,background,fontSizePx,fontWeight,target?,scope?})` resolves existing token names into the checks component's opaque solid-pair AA text check. Authored final text metrics are required; missing metrics return `error`. It reports exact unrounded ratios and normal/large text thresholds. Gradients, transparency, images, composition, rendering color management and overall accessibility require separate work. `contrastCandidates(palette,{background,minimum=4.5})` returns all qualifying tokens ordered by measured ratio, without automatically choosing one or claiming taste.
 
 `exportPalette(palette,{format='json',prefix='palette'})` returns text: JSON record; CSS custom properties inside `:root`; or a standalone editable SVG swatch sheet. Each retains license/provenance; derivative history is retained. CSS output deliberately uses opaque sRGB only, so it cannot silently pick the original P3 overrides. Prefixes/IDs/token names are bounded lowercase identifiers; tokens are 1..64 opaque six-digit hex values. The SVG labels are black on white independently of swatches. Caller-owned file writing should preserve original files and put derivatives/exports in separate paths.
+
+## Shapes
+
+For original geometry, `src/shapes/index.mjs` exports `discoverShapes`, `createShape`, `customizeShape` and `exportShape`. IDs are circle, ellipse, rectangle, triangle, hexagon and star. Discovery lists finite controls; customization preserves input and records its parent hash. This is a constructor library, not a downloaded shape catalog.
+
+CLI: `ingenium shapes discover` or `ingenium shapes create PARAMETERS.json NEW_OUTPUT_DIR`. A complete parameter example is `{"id":"star","width":200,"height":200,"fill":"#006c70","stroke":"#17283a","strokeWidth":2,"starPoints":7}`. Dimensions are 8..2048; paints are six-digit hex or none; starPoints is 3..12. Inspect the exported editable SVG at delivery size.
+
+Palette CLI: `ingenium palettes discover blue`, `ingenium palettes inspect radix-blue-light`, or `ingenium palettes export SPEC.json NEW_OUTPUT_DIR`. A complete spec is `{"id":"radix-blue-light","select":{"tokens":["blue-1","blue-9","blue-12"]},"customize":{"id":"study-teal","replacements":{"blue-9":"#006c70"}}}`. The CLI writes separate JSON/CSS/SVG with provenance. Existing destinations refuse.
 
 ## Qualification and limits
 

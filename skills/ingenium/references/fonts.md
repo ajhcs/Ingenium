@@ -1,6 +1,6 @@
 # Optional original font and vector tools
 
-Original font construction is independent of finding or fetching existing fonts. Fontsource live file acquisition remains **unavailable** until file/version/license binding is verified; the earlier provider HTTP403 requests must not be retried without new explicit authorization. The demonstration here uses only original project sources under MIT, no upstream font file.
+Original font construction is independent of selecting existing faces. For installed or user-local fonts, use [resource routes](resource-libraries.md); their selected acquisition is supported separately from the older remote asset API. Historical denied API endpoints remain held. This original demonstration uses project sources under MIT and no upstream font file.
 
 The optional `src/font-vector/index.mjs` exports `runFontVector({python,operation?,sourcePath?,outputDir?})`. It is inert on import. Select an absolute existing isolated Python interpreter. Without one it returns `not-run`; missing tools return `not-run`, incompatible tools/build/native errors return `error`, and successful scoped operations return `pass` plus actual versions/artifact identities. No automatic install, server, fetch or global font registration. Operations are `capabilities`, `font-demo`, `compile-font`, `normalize`, `boolean`. Source operations require a bounded owned source and a new output directory; existing output is refused. Failed new output can remain for inspection.
 
