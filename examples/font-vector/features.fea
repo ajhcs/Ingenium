@@ -1,0 +1,8 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+@KERN_LEFT = [A];
+@KERN_RIGHT = [V];
+markClass acutecomb <anchor 0 0> @TOP;
+feature kern { pos @KERN_LEFT @KERN_RIGHT -80; } kern;
+feature liga { sub f i by f_i; } liga;
+feature mark { pos base A <anchor 310 740> mark @TOP; } mark;

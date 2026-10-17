@@ -1,0 +1,11 @@
+{
+  "name": "Ingenium Grid Proof",
+  "version": 1,
+  "license": "MIT",
+  "author": "ajhcs and contributors",
+  "scope": "Original static demonstration face. Uppercase ASCII, digits, limited punctuation, lowercase f/i, combining acute only. No general lowercase or language coverage.",
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,-!?fí",
+  "proof": "AVATAR OFFICE 0123456789 fi Á",
+  "metrics": {"unitsPerEm":1000,"ascender":900,"descender":-200,"lineGap":100,"capHeight":700,"xHeight":500},
+  "features": {"kern":"A/V -80 units, explicit groups","liga":"f+i to f_i; shared crossbar retains separate i stem for this grid design","mark":"A plus combining acute; compatible top/_top anchors"}
+}
