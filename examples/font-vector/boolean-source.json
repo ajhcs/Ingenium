@@ -1,0 +1,5 @@
+{
+ "operation":"difference",
+ "left":{"d":"M20 20H120V120H20Z M45 45H95V95H45Z","fillRule":"evenodd"},
+ "right":{"d":"M85 40H170V105H85Z","fillRule":"nonzero"}
+}
