@@ -17,6 +17,8 @@ Make studies tangible with representative content and enough fidelity to answer 
 
 Capture a short reusable specification or decision record when it helps continuity, handoff or requested reuse. Use [the record contract](references/record-contract.md) for machine-readable records; ordinary concise prose is enough when persistence adds no value. Preserve uncertainty and choice scope, not a transcript of every conversation.
 
+Keep process notes and review provenance in supporting records unless they help the artifact's audience understand or use it; retain disclosures needed to avoid misleading viewers.
+
 For outputs:
 - SVG studies and PNG exports: read [SVG support](references/svg.md). The optional helper preserves source and creates a separate export.
 - Checking available local helpers: read [capabilities](references/capabilities.md). Discovery must observe the actual environment; available source files do not prove installed-client routing.
