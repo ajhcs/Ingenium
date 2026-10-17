@@ -27,6 +27,8 @@ Slice 1 has assembled record and SVG helpers, project-local locked dependencies 
 
 For behavioral evaluation, `tests/fixtures/requests.json` includes direct, implicit, partial-output, contradictory-feedback, reuse and negative requests. These are evaluation cases, not an executable router or a claim of tested LLM behavior.
 
+For a concrete layout study, [measured composition](skills/ingenium/references/composition.md) describes content-fit guides, spacing/type roles and intentional exceptions. Run `node examples/composition/listening-garden.mjs work/listening-garden` with a new output directory to create editable clean/guide SVGs and a layout record. Optional PNG rendering uses the existing helper. The original synthetic poster demonstrates measurable structure; audience findability, small-screen readability and aesthetic acceptance remain untested.
+
 Formal engineering views retain their authoritative model and semantic renderer. Font engineering is an optional interface and fixture specification only; this slice installs no font dependencies.
 
 ## Rights and provenance

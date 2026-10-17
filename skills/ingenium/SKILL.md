@@ -15,6 +15,8 @@ Keep expressed facts, observations, interpretations and scoped chosen decisions 
 
 Make studies tangible with representative content and enough fidelity to answer the current question. Prefer editable sources appropriate to the medium. Inspect the actual preview or interaction before claiming it works, and distinguish an unrendered description from an inspected visual. Report tool errors and unknowns in the same scope as the claim.
 
+When developing a composition, turn the intended reading order into deliberate alignment, spacing, typography and color roles before polishing. Use actual guides or measurements to expose the chosen structure and its exceptions; inspect a clean view as well. For layout studies or deeper visual review, read [measured composition](references/composition.md). A settled small correction needs only the checks relevant to that correction.
+
 Capture a short reusable specification or decision record when it helps continuity, handoff or requested reuse. Use [the record contract](references/record-contract.md) for machine-readable records; ordinary concise prose is enough when persistence adds no value. Preserve uncertainty and choice scope, not a transcript of every conversation.
 
 Keep process notes and review provenance in supporting records unless they help the artifact's audience understand or use it; retain disclosures needed to avoid misleading viewers.
