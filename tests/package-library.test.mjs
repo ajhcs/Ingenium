@@ -91,3 +91,16 @@ test('selected symbol edits preserve original bytes and refuse absent paint/inje
   assert.throws(() => customizeSymbol(result.svg, { color: '#ffffff' }, { parserDir }), /currentColor/);
   assert.throws(() => customizeSymbol(original, { rotate: 1 }, { parserDir }), /supported/);
 });
+
+test('selected collection discovery reads larger bounded icon data without admitting other large metadata', async () => {
+  const { root } = await fixture(), pkg = join(root, 'large-icons'); await mkdir(pkg);
+  await writeFile(join(pkg, 'package.json'), JSON.stringify({ name: '@iconify-json/synthetic', version: '1.0.0', license: 'MIT' }));
+  await writeFile(join(pkg, 'info.json'), JSON.stringify({ prefix: 'synthetic' }));
+  await writeFile(join(pkg, 'icons.json'), JSON.stringify({ prefix: 'synthetic', icons: { sun: { body: '<path d="M0 0L1 1"/>' }, unused: { body: ' '.repeat(1_100_000) } } }));
+  const library = createPackageLibrary({ sources: [{ id: 'icons', kind: 'symbol', packageDir: pkg }] });
+  assert.equal((await library.search({ kind: 'symbol', query: 'sun' })).results[0].name, 'sun');
+  await writeFile(join(pkg, 'icons.json'), ' '.repeat(5_000_001));
+  await assert.rejects(library.search({ kind: 'symbol', query: 'sun' }), /bounded/);
+  await writeFile(join(pkg, 'info.json'), ' '.repeat(1_100_000));
+  assert.equal((await library.capabilities())[0].state, 'error');
+});

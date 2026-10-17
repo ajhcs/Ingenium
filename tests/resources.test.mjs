@@ -1,0 +1,31 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{readFile,mkdir,mkdtemp,readdir,rm}from'node:fs/promises';import{resolve,join}from'node:path';import{createHash}from'node:crypto';
+import{discoverResources,openResourceLibrary,searchResourceDirectory,detailsResourceDirectory}from'../src/resources/index.mjs';
+import{main}from'../bin/ingenium.mjs';
+const parserDir=process.env.INGENIUM_ASSET_PARSER_DIR,iconUtilsDir=process.env.INGENIUM_ICONIFY_UTILS_DIR,hash=b=>createHash('sha256').update(b).digest('hex');
+test('bundled provider discovery and paged directories preserve scope without network',async()=>{
+ const old=globalThis.fetch;globalThis.fetch=()=>{throw Error('Unexpected network')};try{
+ const all=await discoverResources();assert(all.providers.some(p=>p.id==='tabler'));assert(all.providers.some(p=>p.id==='remixicon-current'&&p.availability==='metadata-only'));all.providers.length=0;assert((await discoverResources()).providers.length>=13);
+ const nerd=await searchResourceDirectory({id:'nerd-fonts',limit:1});assert.equal(nerd.total,72);assert.equal(nerd.entries.length,1);assert.equal(nerd.nextOffset,1);assert.equal((await searchResourceDirectory({id:'google-fonts',query:'aclonica'})).total,1);assert((await searchResourceDirectory({id:'free-font',limit:2})).total>1000);
+ const g=await detailsResourceDirectory({id:'google-fonts',entryId:'apache/aclonica',limit:1});assert.equal(g.files.entries.length,1);assert.match(g.files.entries[0].path,/Aclonica-Regular.ttf/);assert(g.entry.noticePaths.length);
+ const stock=await searchResourceDirectory({id:'awesome-stock-resources',category:'Textures',limit:2});assert(stock.total>0);assert(stock.entries.every(e=>e.category==='Textures'));
+ const share=await searchResourceDirectory({id:'awesome-stock-resources',category:'How to Share'});assert(share.entries.every(e=>e.kind==='non-resource'));
+ await assert.rejects(searchResourceDirectory({id:'google-fonts',limit:33}));await assert.rejects(detailsResourceDirectory({id:'google-fonts',entryId:'absent'}));
+ }finally{globalThis.fetch=old;}
+});
+test('bundled source blobs/metadata are complete and selected original/notice hashes are intact',async()=>{
+ for(const p of(await discoverResources()).providers.filter(p=>p.kind==='svg-pack')){
+ const manifest=JSON.parse(await readFile(new URL('../src/resources/'+p.manifest,import.meta.url),'utf8'));assert.equal(manifest.entries.length,p.entries);const ids=new Set(manifest.entries.map(e=>e.id));assert.equal(ids.size,p.entries);const root=new URL('../src/resources/'+p.manifest.replace(/[^/]+$/,''),import.meta.url);assert.equal(hash(await readFile(new URL(manifest.license.file,root))),manifest.license.sha256);
+ const available=manifest.entries.filter(e=>(e.availability??'available')==='available');if(available.length){const blob=available.some(e=>e.blob)?await readFile(new URL('icons.data',root)):null;for(const e of available){assert.equal(hash(e.blob?blob.subarray(e.blob.offset,e.blob.offset+e.blob.length):await readFile(new URL(e.file,root))),e.sha256);}}
+ const lib=await openResourceLibrary({id:p.id});assert.equal((await lib.search({limit:1})).total,p.entries);if(!available.length)await assert.rejects(lib.inspect({id:manifest.entries[0].id}),/metadata-only/);
+ }
+});
+test('selected bundled packs export separate edits/notices and exact offline repeats',{skip:!parserDir},async t=>{
+ await mkdir('work',{recursive:true});const root=await mkdtemp(resolve('work/bundled-resources-test-'));t.after(()=>rm(root,{recursive:true,force:true}));
+ for(const[id,name]of[['lobe-icons','adobe'],['ionicons','add'],['minimal-icons','ic-add'],['remixicon-apache','add-line'],['simple-icons','activitypub']]){
+ const lib=await openResourceLibrary({id,parserDir}),d=await lib.inspect({id:name});assert(d.originalSVG.length);assert(d.license.text.length>100);const controls={width:96,height:96,...(id==='ionicons'?{color:'#006c70',strokeWidth:16}:{})};
+ const a=await lib.acquire({id:name,selected:true,customize:controls,outputDir:join(root,id)});await lib.acquire({id:name,selected:true,customize:controls,outputDir:join(root,id+'-repeat')});for(const name of await readdir(a.outputDir))assert.deepEqual(await readFile(join(a.outputDir,name)),await readFile(join(root,id+'-repeat',name)));await assert.rejects(lib.acquire({id:name,selected:true,outputDir:a.outputDir}),/EEXIST/);
+ }
+ const font=await openResourceLibrary({id:'hack'});assert.equal((await font.search()).total,2);await font.acquire({id:'hack-regular-woff2',selected:true,controls:{fontSizePx:28},outputDir:join(root,'hack')});
+});
+test('bundled Tabler reuses exact retained collection with paged alias metadata',{skip:!parserDir||!iconUtilsDir},async()=>{const lib=await openResourceLibrary({id:'tabler',parserDir,iconUtilsDir});const page=await lib.search({sourceId:'tabler',query:'sun',limit:2});assert(page.total>2);assert.equal(page.results.length,2);const state=(await lib.capabilities()).sources[0];assert.equal(state.actualNamedIcons,6286);assert.equal(state.actualAliases,194);});
+test('bundled CSS providers dispatch and CLI initial texture parameters survive export',async t=>{const ui=await openResourceLibrary({id:'atomic-ui'});assert.equal((await ui.capabilities()).status,'local');assert.equal(ui.discover().total,26);const materials=await openResourceLibrary({id:'materials'});assert.equal((await materials.capabilities()).status,'local');assert.equal(materials.discover().materials.length,35);await mkdir('work',{recursive:true});const root=await mkdtemp(resolve('work/resources-cli-test-'));t.after(()=>rm(root,{recursive:true,force:true}));const{writeFile}=await import('node:fs/promises');const spec=join(root,'spec.json');await writeFile(spec,JSON.stringify({id:'seeded-grain',parameters:{tileSize:128,density:11,seed:42,ink:'#123456',background:'#fedcba'}}));let result;assert.equal(await main(['textures','export',spec,join(root,'out')],v=>result=v),0);const saved=JSON.parse(await readFile(join(root,'out/original.json'),'utf8'));assert.equal(saved.parameters.tileSize,128);assert.equal(saved.parameters.density,11);assert.equal(saved.parameters.seed,42);assert.equal(saved.parameters.ink,'#123456');assert(result.outputDir);});

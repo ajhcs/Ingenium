@@ -2,7 +2,9 @@
 
 Experimental creative design plugin for discovering a direction, developing useful studies, and preserving scoped choices for revision and reuse.
 
-[Optional selected assets](skills/ingenium/references/assets.md) adds bounded metadata discovery and selected static-icon admission. This interface is offline-qualified with original synthetic fixtures; live provider qualification is blocked. Font file resolution remains unavailable pending verified license/version binding.
+[Compact resource libraries](skills/ingenium/references/bundled-resources.md) provide paged provider discovery, selected SVG packs, unchanged Hack fonts, atomic UI CSS, materials and original textures. Explicit user-local routes acquire bounded selected provider fonts and Voxel/brand originals with notices; browsing never downloads. Source totals and selected runtime coverage remain distinct.
+
+The older [remote asset adapter](skills/ingenium/references/assets.md) has separate offline-fixture qualification and historical provider API access limits. Its font-file limitations do not apply to the newer selected local/font-download routes.
 
 [Optional original font/vector tools](skills/ingenium/references/fonts.md) build a limited original UFO3/TTF demonstration and qualify bounded static vector operations through separately installed locked Python tools. This is technical capability evidence, with explicit repertoire, sanitizer and visual limits.
 

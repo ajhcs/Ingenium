@@ -1,0 +1,14 @@
+{
+  "package": "ionicons",
+  "version": "8.1.0",
+  "archiveSHA256": "6ec604a301f9bb1a59ccc72a746cbb369bae87c5b45f6c67904dc878d9efb8b5",
+  "archiveBytes": 1225018,
+  "integrity": "sha512-XSM2gYWTXxSYTwjmKWAoy4yR7AbAFDjpc5ZIivAiGXskM0fe5CdMPfs6InQRUcrYtVb2WZ/0HQ1/jeh3JW78SA==",
+  "integrityVerified": true,
+  "allArchiveFileCount": 4152,
+  "allUnpackedBytes": 6212842,
+  "selectedSVGCount": 1357,
+  "selectedSVGBytes": 754857,
+  "excluded": "Runtime JavaScript, components, icon-font SVG and font files excluded; repeated Ionicons SVG trees excluded",
+  "scriptsExecuted": false
+}

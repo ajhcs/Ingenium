@@ -13,7 +13,7 @@ async function bytes(file, max = 1048576) {
   if (data.length > max) reject('package-file', 'File exceeded byte bound');
   return data;
 }
-async function json(file) { return JSON.parse(new TextDecoder('utf8', { fatal: true }).decode(await bytes(file))); }
+async function json(file, max) { return JSON.parse(new TextDecoder('utf8', { fatal: true }).decode(await bytes(file, max))); }
 function inside(root, name) {
   if (typeof name !== 'string' || !name || isAbsolute(name) || /[\\\0]/.test(name) || name.split('/').some(s => !s || s === '.' || s === '..')) reject('package-path', 'Expected a package-relative file');
   const file = resolve(root, name);
@@ -114,7 +114,7 @@ export function createPackageLibrary({ sources, parserDir, iconUtilsDir } = {}) 
         if (typeof x.meta.family !== 'string') reject('package-metadata', 'Font family missing');
         if (x.meta.family.toLowerCase().includes(query.toLowerCase())) results.push({ sourceId: x.source.id, family: x.meta.family, packageVersion: x.pkg.version, metadataVersionLabel: x.meta.version ?? null, next: 'details({sourceId,cssFile})' });
       } else {
-        const icons = await json(inside(x.root, 'icons.json'));
+        const icons = await json(inside(x.root, 'icons.json'), 5_000_000);
         if (icons.prefix !== x.meta.prefix || !icons.icons || Object.keys(icons.icons).length > 20000 || Object.keys(icons.aliases ?? {}).length > 20000) reject('package-metadata', 'Unsupported icon set');
         for (const name of [...Object.keys(icons.icons), ...Object.keys(icons.aliases ?? {})].sort()) {
           if (word(name) && name.includes(query.toLowerCase())) results.push({ sourceId: x.source.id, name, alias: !own(icons.icons, name) });
@@ -164,7 +164,7 @@ export function createPackageLibrary({ sources, parserDir, iconUtilsDir } = {}) 
       const [{ getIconData }, { iconToSVG }, { iconToHTML }] = await Promise.all(['icon-set/get-icon', 'svg/build', 'svg/html'].map(async n => {
         const file = inside(utils, `lib/${n}.js`); await bytes(file); return import(pathToFileURL(file).href);
       }));
-      const raw = await bytes(inside(x.root, 'icons.json')), icons = JSON.parse(raw);
+      const raw = await bytes(inside(x.root, 'icons.json'), 5_000_000), icons = JSON.parse(raw);
       if (icons.prefix !== x.meta.prefix || Object.keys(icons.icons ?? {}).length > 20000 || Object.keys(icons.aliases ?? {}).length > 20000) reject('package-metadata', 'Unsupported icon set identity/size');
       let target = input.name; const seen = new Set();
       while (!own(icons.icons ?? {}, target)) {

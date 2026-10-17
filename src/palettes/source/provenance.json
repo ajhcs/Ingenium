@@ -36,9 +36,75 @@
       "path": "package/package.json",
       "sha256": "836b70c17a1bb19ce23db54ae8f24ed4a5a3a3a06d048a1cbd9d53d8597bbf94",
       "bytes": 802
+    },
+    {
+      "path": "package/red.css",
+      "sha256": "b6ff5723edb3161efb8e0217ee373d0d4f844f63f921f0fd88fe970754a9b7a2",
+      "bytes": 1020
+    },
+    {
+      "path": "package/red-dark.css",
+      "sha256": "c65a4340bf310a3f37473a2db1986ec0e7af35fb41541f63b10364240c7825e1",
+      "bytes": 995
+    },
+    {
+      "path": "package/amber.css",
+      "sha256": "18ec7c43c6f21b3747aeecbac362ae0096dabef0a9f68095f676b57be7af6150",
+      "bytes": 1050
+    },
+    {
+      "path": "package/amber-dark.css",
+      "sha256": "b1f84ce5cb8336b54c926c78bb89787df56d2bbe277dcd6a453d16d074d74013",
+      "bytes": 1022
+    },
+    {
+      "path": "package/green.css",
+      "sha256": "65e22a890eeacb3ac9853430fdd0233f0b86bcaa74a786763fb3069d283d95aa",
+      "bytes": 1063
+    },
+    {
+      "path": "package/green-dark.css",
+      "sha256": "2cebb00388fd84a41e39c51c184293b8cf2eeeb4424946e7fa6f9aba9b2b5dec",
+      "bytes": 1047
+    },
+    {
+      "path": "package/teal.css",
+      "sha256": "3d29355081895911aa99d4fd53cd50cf6ed1aac381341507be2d471bbedfd083",
+      "bytes": 1040
+    },
+    {
+      "path": "package/teal-dark.css",
+      "sha256": "56a7e2e6738018c69ceae81581ac76ea65df3691b5e049a7d73ce44ed3f2b4e3",
+      "bytes": 1023
+    },
+    {
+      "path": "package/violet.css",
+      "sha256": "9cea56f1c78c2d0c7e3050facb62f39dec761dd711cb11a09538da9435225c6f",
+      "bytes": 1085
+    },
+    {
+      "path": "package/violet-dark.css",
+      "sha256": "d5e78921fc90422e160cce26276485cc4aae85f86b3691ac94c00df1c631fc70",
+      "bytes": 1069
+    },
+    {
+      "path": "package/slate.css",
+      "sha256": "bb43cc7c9d444eead943972afb8926e73878b2df5b98f06f6e8b46c6d2e662d8",
+      "bytes": 1066
+    },
+    {
+      "path": "package/slate-dark.css",
+      "sha256": "a51e5cba0956c571c878a698db438209c652c5775e88eabc80f5ab6af34281bd",
+      "bytes": 1048
     }
   ],
   "documentation": "https://www.radix-ui.com/colors/docs/overview/installation",
   "sourceRepository": "https://github.com/radix-ui/colors",
-  "selection": "Only blue and gray opaque light/dark scales. API extracts exact first-block sRGB hex declarations; original CSS retained including P3 overrides."
+  "selection": "Sixteen blue/gray/red/amber/green/teal/violet/slate opaque light/dark scales. API extracts exact first-block sRGB hex declarations; original CSS retained including P3 overrides.",
+  "coverage": {
+    "selectedScales": 16,
+    "selectedTokens": 192,
+    "sourceCSSFiles": 126,
+    "sourceCSSMeaning": "All CSS variants offered by distribution, including alpha and P3 overrides; selected sRGB-only coverage is separate."
+  }
 }

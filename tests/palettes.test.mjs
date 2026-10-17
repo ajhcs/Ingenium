@@ -10,12 +10,12 @@ test('all documented exports are actual callable exports', () => {
   assert(Object.values(palettes).every(value => typeof value === 'function'));
 });
 test('bounded discovery is local, filtered, defensive and honest about unknown scales', () => {
-  assert.equal(discoverPalettes().length, 4);
+  assert.equal(discoverPalettes().length, 16);
   assert.deepEqual(discoverPalettes({ query: 'BLUE', mode: 'dark' }).map(p => p.id), ['radix-blue-dark']);
   assert(discoverPalettes().every(p => p.availability === 'local' && p.version === '3.0.0'));
   const list = discoverPalettes(); list[0].id = 'changed';
   assert.equal(discoverPalettes()[0].id, 'radix-blue-light');
-  assert.throws(() => inspectPalette('radix-red-light'), /separate acquisition/);
+  assert.throws(() => inspectPalette('radix-gold-light'), /separate acquisition/);
   assert.throws(() => discoverPalettes({ mode: 'sepia' }));
 });
 test('every source token is exact opaque sRGB from selected package CSS, with byte hashes and MIT retained', () => {

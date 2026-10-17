@@ -1,5 +1,7 @@
 # Small resource libraries
 
+For compact installed data and provider directories, begin with [bundled resources](bundled-resources.md). Query a small page and inspect selected candidates. For broader explicitly supplied local packages use [catalog paging](catalog.md); for original digital surfaces use [textures](textures.md).
+
 Use resources to develop the brief's organizing idea. Search and inspect a small candidate set before selecting; a default resource is not a design direction. Build the composition yourself. Full-page designs and template libraries are outside this interface.
 
 The optional Node22 CLI runs from the package root as `node bin/ingenium.mjs ...`. All output directories below must be new, with an existing canonical parent. Existing work is never replaced. Source paths in bin/ingenium.mjs library/items/ui configurations resolve relative to that configuration file; selection/output arguments resolve relative to the caller. The separate item-preparation command resolves its configuration fields from the caller's working directory, as documented in its reference. Nothing installs or fetches on discovery. Missing optional sources report acquisition required or refuse the selected operation.
@@ -9,9 +11,9 @@ The optional Node22 CLI runs from the package root as `node bin/ingenium.mjs ...
 | Symbols / selected SVG | Local official Iconify collection packages through `library` | Dimensions, currentColor replacement and explicit stroke width; separate original/safe/derived SVG and full notice |
 | Fonts | Local official Fontsource packages, actual CSS face inspection | Exact selected WOFF2 and CSS; customize typography in authored CSS; binary stays unchanged |
 | Shapes | Six original standard geometric constructors through `shapes` | Parametric geometry, fill, stroke; editable SVG |
-| Colors | Four bundled Radix3.0.0 blue/gray light/dark scales through `palettes` | Token subsets, explicit derivatives, anchor ramps; JSON/CSS/SVG |
-| Illustrations / textures | Explicit prepared selected Fluent/Hero subsets through `items` | Existing paint substitutions, source-preserving SVG and repeated-tile preview |
-| Small UI components | Three native wrappers using exact local Bulma1.0.4 CSS through `ui` | Label, hue, radius, size, theme; editable HTML/CSS/JS and local preview |
+| Colors | Sixteen bundled Radix3.0.0 scales across eight families/light-dark through `palettes` | Token subsets, explicit derivatives, anchor ramps; JSON/CSS/SVG |
+| Illustrations / textures | Paged Fluent source through `catalog`, prepared Fluent/Hero through `items`, six original digital textures through `textures` | Existing paint substitutions, source-preserving SVG and repeated-tile preview |
+| Small UI components | Six native Bulma1.0.4 wrappers through `ui`, plus26 native atomic recipes against selected DaisyUI5.7.50 CSS through `atomic` | Label, hue, radius, size, theme; editable HTML/CSS/JS and local preview |
 
 These are bounded usable subsets. Neither the catalogs nor SVG admission cover arbitrary upstream resources. No taste, acceptance, font sanitation, legal sufficiency or general accessibility certification follows from passing a check.
 
@@ -105,3 +107,7 @@ node bin/ingenium.mjs ui acquire ui-config.json component-selection.json ./compo
 Query: `{"id":"dialog"}`. Selection shorthand: `{"id":"dialog","controls":{"label":"Review choice","hue":220,"radius":12,"size":"large","theme":"light"}}`. Actual API select/customize objects and exported source.json are also accepted. See [UI API](ui.md). Inspect the local preview with actual keyboard interaction and relevant narrow viewport checks; a generated wrapper is not a tested complete product flow.
 
 Finally render selected SVG using the existing `render` command, or render authored HTML in a qualified local browser. Inspect actual font identity and final-size previews, preserve source/derived hashes, and correct observed problems. Resource acquisition and deterministic checks do not replace visual review.
+
+## Expanded selected materials
+
+See [materials.md](materials.md) for the finite Open Props 1.7.23 local-package interface and source controls. CLI: `ingenium materials discover CONFIG.json [QUERY]`, `capabilities CONFIG.json`, `inspect CONFIG.json ID`, or `acquire CONFIG.json SELECTION.json NEW_OUTPUT_DIR`. Config `{"packageDir":"relative/local/package"}` resolves relative to the config. Acquisition accepts a saved selected record or `{"id":"gradient-4","controls":{"opacity":0.7}}`; it preserves original CSS, separate editable presentation, preview, full notice and provenance. No automatic acquisition or runtime networking. Exact Iconify collection `icons.json` files have a 5,000,000-byte read/extraction limit; other existing metadata/member/selected SVG bounds remain unchanged. See [fonts-catalog.md](fonts-catalog.md) for the expanded selected font scope.

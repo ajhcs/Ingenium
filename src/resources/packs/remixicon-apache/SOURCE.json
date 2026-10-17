@@ -1,0 +1,12 @@
+{
+  "package": "remixicon",
+  "version": "4.6.0",
+  "tarball": "https://registry.npmjs.org/remixicon/-/remixicon-4.6.0.tgz",
+  "integrity": "sha512-bKM5odjqE1yzVxEZGJE7F79WHhNrJFIKHXR+GG+P1IWXn8AnJZhl8SbIRDJsNAvIqx4VPkNwjuHfc42tutMDpQ==",
+  "integrityVerified": true,
+  "archiveBytes": 3600410,
+  "archiveSHA256": "dfbfcaadee403404d541d96d5e041f99197dce462e563a48c110e0877d9c3a53",
+  "selectedSVGCount": 3058,
+  "excluded": "Runtime JS, icon fonts and examples; only icon SVG data and complete notice retained",
+  "scriptsExecuted": false
+}

@@ -43,6 +43,18 @@ class AcquisitionBoundary(unittest.TestCase):
             with self.assertRaises(ValueError):
                 acquire.unpack(archive(members), self.destination())
 
+    def test_collection_json_exception_is_narrow_and_bounded(self):
+        large = ' ' * 2_100_000
+        data = archive([('package/icons.json', large, False)])
+        with self.assertRaises(ValueError):
+            acquire.unpack(data, self.destination())
+        target = self.destination()
+        acquire.unpack(data, target, collection_json=True)
+        self.assertEqual((target / 'package/icons.json').stat().st_size, len(large))
+        for name, size in [('package/other.json', 2_100_000), ('package/icons.json', 5_000_001)]:
+            with self.assertRaises(ValueError):
+                acquire.unpack(archive([(name, ' ' * size, False)]), self.destination(), collection_json=True)
+
     def test_rejects_unpinned_or_unapproved_package_before_network(self):
         for args in [['@fontsource/inter', 'latest', 'unused'], ['@unknown/code', '1.0.0', 'unused']]:
             with self.assertRaises(ValueError):

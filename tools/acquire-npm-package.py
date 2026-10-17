@@ -44,7 +44,7 @@ def fetch(url, limit, receipt):
     finally:
         item['completedUTC'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
 
-def unpack(body, destination):
+def unpack(body, destination, *, collection_json=False):
     files, seen, total = [], set(), 0
     with gzip.GzipFile(fileobj=io.BytesIO(body)) as compressed:
         expanded = compressed.read(MAX_PACKAGE + 2_000_001)
@@ -56,7 +56,8 @@ def unpack(body, destination):
             if len(seen) >= 1000 or name.is_absolute() or not name.parts or name.parts[0] != 'package' or '..' in name.parts or '\\' in member.name or str(name) in seen:
                 raise ValueError('Unsafe, duplicate or excessive archive paths')
             seen.add(str(name))
-            if not (member.isfile() or member.isdir()) or member.size > 2_000_000:
+            member_limit = 5_000_000 if collection_json and str(name) == 'package/icons.json' else 2_000_000
+            if not (member.isfile() or member.isdir()) or member.size > member_limit:
                 raise ValueError('Unsupported archive member type/size')
             total += member.size
             if total > MAX_PACKAGE:
@@ -78,7 +79,7 @@ def main(args):
     if len(args) != 3:
         raise ValueError('Expected PACKAGE EXACT_VERSION NEW_DIRECTORY')
     name, version, output = args
-    if not re.fullmatch(r'@(?:fontsource(?:-variable)?|iconify-json)/[a-z0-9-]+|@iconify/utils|bulma', name) or not re.fullmatch(r'\d+\.\d+\.\d+(?:-[A-Za-z0-9.-]+)?', version):
+    if not re.fullmatch(r'@(?:fontsource(?:-variable)?|iconify-json)/[a-z0-9-]+|@iconify/utils|bulma|open-props|@radix-ui/colors', name) or not re.fullmatch(r'\d+\.\d+\.\d+(?:-[A-Za-z0-9.-]+)?', version):
         raise ValueError('Expected one supported package and exact pinned version, never latest/range')
     target = Path(output).absolute()
     if target.parent.resolve() != target.parent:
@@ -106,7 +107,7 @@ def main(args):
             raise ValueError('Distribution SHA512 mismatch')
         receipt.update(integrity=dist['integrity'], integrityVerified=True, archiveSHA256=hashlib.sha256(archive).hexdigest(), metadataSHA256=hashlib.sha256(raw).hexdigest())
         (target / 'source.tgz').write_bytes(archive)
-        receipt['files'] = unpack(archive, target)
+        receipt['files'] = unpack(archive, target, collection_json=name.startswith('@iconify-json/'))
         manifest = json.loads((target / 'package/package.json').read_text())
         if manifest.get('name') != name or manifest.get('version') != version:
             raise ValueError('Extracted package identity mismatch')

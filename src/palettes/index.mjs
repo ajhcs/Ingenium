@@ -7,10 +7,102 @@ const clone = value => structuredClone(value);
 const identifier = value => typeof value === 'string' && /^[a-z][a-z0-9-]{0,63}$/.test(value);
 const hex = value => typeof value === 'string' && /^#[0-9a-f]{6}$/i.test(value);
 const entries = [
-  { id: 'radix-blue-light', family: 'blue', mode: 'light', file: 'blue.css' },
-  { id: 'radix-blue-dark', family: 'blue', mode: 'dark', file: 'blue-dark.css' },
-  { id: 'radix-gray-light', family: 'gray', mode: 'light', file: 'gray.css' },
-  { id: 'radix-gray-dark', family: 'gray', mode: 'dark', file: 'gray-dark.css' },
+  {
+    "id": "radix-blue-light",
+    "family": "blue",
+    "mode": "light",
+    "file": "blue.css"
+  },
+  {
+    "id": "radix-blue-dark",
+    "family": "blue",
+    "mode": "dark",
+    "file": "blue-dark.css"
+  },
+  {
+    "id": "radix-gray-light",
+    "family": "gray",
+    "mode": "light",
+    "file": "gray.css"
+  },
+  {
+    "id": "radix-gray-dark",
+    "family": "gray",
+    "mode": "dark",
+    "file": "gray-dark.css"
+  },
+  {
+    "id": "radix-red-light",
+    "family": "red",
+    "mode": "light",
+    "file": "red.css"
+  },
+  {
+    "id": "radix-red-dark",
+    "family": "red",
+    "mode": "dark",
+    "file": "red-dark.css"
+  },
+  {
+    "id": "radix-amber-light",
+    "family": "amber",
+    "mode": "light",
+    "file": "amber.css"
+  },
+  {
+    "id": "radix-amber-dark",
+    "family": "amber",
+    "mode": "dark",
+    "file": "amber-dark.css"
+  },
+  {
+    "id": "radix-green-light",
+    "family": "green",
+    "mode": "light",
+    "file": "green.css"
+  },
+  {
+    "id": "radix-green-dark",
+    "family": "green",
+    "mode": "dark",
+    "file": "green-dark.css"
+  },
+  {
+    "id": "radix-teal-light",
+    "family": "teal",
+    "mode": "light",
+    "file": "teal.css"
+  },
+  {
+    "id": "radix-teal-dark",
+    "family": "teal",
+    "mode": "dark",
+    "file": "teal-dark.css"
+  },
+  {
+    "id": "radix-violet-light",
+    "family": "violet",
+    "mode": "light",
+    "file": "violet.css"
+  },
+  {
+    "id": "radix-violet-dark",
+    "family": "violet",
+    "mode": "dark",
+    "file": "violet-dark.css"
+  },
+  {
+    "id": "radix-slate-light",
+    "family": "slate",
+    "mode": "light",
+    "file": "slate.css"
+  },
+  {
+    "id": "radix-slate-dark",
+    "family": "slate",
+    "mode": "dark",
+    "file": "slate-dark.css"
+  }
 ];
 function sourceFile(name) { return readFileSync(new URL(`./source/${name}`, import.meta.url)); }
 function validate(palette) {

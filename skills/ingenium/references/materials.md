@@ -1,0 +1,31 @@
+# Selected CSS materials
+
+`src/materials/index.mjs` exports `createMaterialLibrary({packageDir?})`. Construction and metadata discovery are inert. Use an existing local **open-props 1.7.23** package supplied separately; nothing downloads, installs, executes upstream JavaScript or changes client settings. [Official documentation](https://open-props.style/) identifies the source; [upstream repository](https://github.com/argyleink/open-props) is Adam Argyle's Open Props. The exact package has a complete MIT license, Copyright (c) 2021 Adam Argyle. It is copied verbatim into each acquired selection.
+
+This deliberately finite interface exposes **35 pinned declarations**: `gradient-1` through `gradient-30` and `noise-1` through `noise-5`. The exact source stylesheet contains those30 numbered gradients and five noise image declarations; the wider package offers other tokens/files. `noise-filter-*`, arbitrary CSS and other package tokens are outside this interface. Metadata exposure and selected browser qualification are separate evidence; no claim of physical substrate, tactile qualities, photography or print-process texture follows from CSS rendering. No CSS pattern library or complete page/template is imported. `pattern.css` was considered but its distribution did not include a full rights notice; no substitute notice was invented. Hero Patterns legalcode acquisition remains separate and unresolved.
+
+```js
+import { createMaterialLibrary } from './src/materials/index.mjs';
+const materials = createMaterialLibrary({ packageDir: '/absolute/local/open-props-package' });
+materials.discover({ query: 'noise' }); // available without acquired source
+await materials.capabilities(); // local, acquisition-required, or error
+const detail = await materials.inspect({ id: 'noise-1' });
+const source = materials.select({ id: 'noise-1' });
+const edited = materials.customize(source, {
+  background: '#f0eee8', tileSize: 128, opacity: 0.4,
+});
+await materials.render({ selection: edited }); // CSS, HTML and selected source detail
+await materials.acquire({ selection: edited, outputDir: '/absolute/new/material-export' });
+```
+
+Returned library methods are `capabilities`, `discover`, `inspect`, `select`, `customize`, `render`, and `acquire`. Discovery supports case-insensitive substring queries up to100 characters. Inspect reads exact pinned `package.json`, `LICENSE` and `gradients.min.css` bytes, returns the original selected CSS declaration, its SHA256, exact full license, known source features and applicable controls. Changed/impersonated local files refuse before use; canonical regular files are bounded to65,536 bytes each. A known local package hash is not a new registry/signature verification. Keep the separate SHA512 acquisition receipt.
+
+Selection is an explicit versioned record `{schemaVersion:1,materialId,sourceName:'open-props',sourceVersion:'1.7.23',selected:true}`. Customization returns a new record and preserves earlier controls. All materials accept opaque six-digit hex `background`, integer `tileSize`32..512 CSS pixels, and `opacity` greater than0 up to1. These are presentation changes on a separate layer; labels stay outside that layer. Gradient selections additionally accept `recolor` mapping up to8 exact existing hex stop spellings from `inspect().palette` to six-digit hex colors. Unknown/absent colors, duplicate case-insensitive keys, unknown controls and arbitrary CSS/URLs refuse. `inspect().recolorScope` states that only listed exact hex stop spellings are targetable: named CSS colors and rgba() stops remain unchanged. Some gradients (for example14 or18) have no hex targets and support presentation controls only; no named/rgba recolor is invented. Noise has no recolor control. CSS image size changes repetition scale; it does not edit the underlying upstream noise algorithm.
+
+`render({selection})` rechecks selected source and returns `{source,detail,originalCSS,css,html}`. `acquire({selection,outputDir})` exclusively creates a new directory under an existing canonical parent, writing `original.css`, separate `material.css`, editable `source.json`, `preview.html`, full `LICENSE.open-props.txt`, and hash-bound `provenance.json`. Original CSS means the exact selected upstream declaration plus its explicit empty `--gradient-space` dependency, not the complete upstream stylesheet. Stop substitutions and layer controls are recorded separately. No existing source/output is replaced. Filesystem errors can leave a partial new output for inspection. Use a trusted single owner without concurrent source writers; these local checks are practical bounds, not a universal sandbox.
+
+Only pinned selected CSS declarations can enter rendering. The noise image is the exact source's inline `data:image/svg+xml` using `feTurbulence`; it is **outside the existing static-icon SVG admission policy**, which does not accept arbitrary filters. The material adapter does not weaken or reuse that policy as proof. No external CSS import/resource, arbitrary input SVG or general CSS parsing/execution is supported. Gradient contrast is not solid-pair contrast: inspect final effective colors separately. A rendered material is not evidence of aesthetic suitability, accessibility acceptance or print color fidelity.
+
+Focused tests cover metadata-only use, exact source pins, explicit selection, supported/refused edits, full notice retention, source/derivative separation, output collision preservation and byte-identical offline reacquisition. Checkout/browser and final installed-consumer qualifications are separate gates; report the actual consumer revision and exact selected assets when asserting observed behavior.
+
+The numbered noise images retain exact upstream feTurbulence definitions with different spatial frequencies/viewBoxes. Tile size/opacity/background change presentation, not the noise algorithm. Repetition can produce visible boundaries; this does not promise seamless texture. All35 derived declarations have been exercised in one bounded Chromium asset proof, including decoding all five data-URL images; renderer availability and other engines remain independent client checks. The source stylesheet and complete MIT notice hashes are unchanged from the earlier three-selection interface. Existing IDs/controls/source records remain compatible.
