@@ -1,0 +1,20 @@
+# Fresh four-case creative pilot
+
+On October 17, 2026, four fresh producers used the refined installed Ingenium workflow on unchanged original fictional briefs: a publication cover, responsive website, identity and event poster, and visitor wayfinding. Each producer used gpt-6.1-sol, medium reasoning and Default mode in a fresh conversation. Actual retained task settings confirm those selections. First complete outputs were frozen before external review; correctness corrections remain separate candidates.
+
+The installed archive used for production contained 200 files, with SHA256 `6efeb1e20f20e8145602199c5d5e03cd989f192675d40810aabd889238466e8e`. Its preceding qualification recorded 231 passing Node tests with zero skips, 21 Python tests and an installed renderer check. Those are package qualification results, not new tests run by this design pilot. This report changes no component interface or runtime code.
+
+Producers could select qualified resources but incorporated only Fontsource 5.3.0 fonts and their own geometry. The cover and identity used Fraunces 600 and Inter 400; the website used Inter 400/500/600; wayfinding used Inter 500/600/700. Exact font bytes, provenance and full OFL notices accompany the artifacts. Other libraries were available but unused. No image generation, award references or full design templates were used in the visible calls.
+
+| Case | Independent first-output findings | Separate correction and recheck |
+| --- | --- | --- |
+| Publication cover | Copy, dimensions, fonts, exports and thumbnail checked within digital-preview scope. | No correction required by this review. |
+| Responsive website | Keyboard Next changed the project title and immediately dismissed its dialog; a focus outline crossed following copy. Documentation claimed an optional GIF that was not delivered. | Corrected dismissal, focus styling and documentation. Independent recheck passed 72 keyboard Next actions, Escape focus return, pointer Next and backdrop dismissal across desktop/mobile and normal/reduced motion. HTML and initial screenshots remain unchanged. No GIF was delivered. |
+| Identity and poster | Identity variants, one-color and 32 px exports checked. The original PDF included an unwanted blank second page. | Removed only page two. Independent checks confirmed one page and identical first-page raster and extracted text, with the same embedded font names. |
+| Visitor wayfinding | Seven signs, five routes, eight route edges, fonts and source/export consistency checked. | No correction required by this review. |
+
+Independent final checks matched all 121 frozen files and all 28 image bindings in the native / v1 / original v2 / fresh v3 comparisons. Four independently rendered comparison images matched the delivered pixels. The comparison retains first outputs, including defects, and excludes corrected v3 and reviewed-v2 columns. The retained v1 round is not asserted to be a first attempt. Editable sources preserve originals and separately labelled corrections; original build scripts still require explicit local tool configuration.
+
+The bounded first-turn audit covered 64 visible tool calls. It found no visible prior-design, example, memory-file or image-generation access. Automatic skill descriptions and shared memory summaries were visible, and the conceptual-reference commands loaded files before displaying only the prefix preceding the worked-source section. Supplied message bodies were opaque in the audited call receipts. This does not prove perfect isolation or absence of every runtime file access. Reviewers knew provenance.
+
+First-turn wall times were 141.103, 212.590, 214.005 and 170.156 seconds respectively, including tools and waits. These are not active design time, cost measurements or causal efficiency comparisons. Resources and browser versions differed across historical rounds. Digital checks do not establish preference, user acceptance, complete accessibility, print readiness, editor-import behavior or physical wayfinding performance. No merge, release or deployment is authorized by this pilot.
