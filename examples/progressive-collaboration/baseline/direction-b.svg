@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="480" viewBox="0 0 360 480"><title>Seed Swap — two easy steps</title><desc>Walking route: Library to Tool Shed, 12 minutes; Tool Shed to Greenhouse, 8 minutes. Total walking time: 20 minutes. Two segment cards show route order, not geography.</desc>
+<rect width="360" height="480" rx="16" fill="#EFF4F6"/>
+<g font-family="sans-serif" fill="#274958">
+<text x="28" y="43" font-size="13">WALKING ROUTE</text>
+<text x="28" y="86" font-size="35" font-weight="600">Seed Swap</text>
+<text x="28" y="115" font-size="15">Two easy parts to your walk</text>
+<rect x="24" y="140" width="312" height="132" rx="18" fill="#FFFFFF"/>
+<text x="44" y="168" font-size="12">FIRST WALK</text>
+<text x="44" y="199" font-size="23">Library → Tool Shed</text>
+<text x="44" y="245" font-size="29" font-weight="600">12</text>
+<text x="86" y="245" font-size="16">minutes walking</text>
+<rect x="24" y="288" width="312" height="132" rx="18" fill="#FFFFFF"/>
+<text x="44" y="316" font-size="12">THEN WALK</text>
+<text x="44" y="347" font-size="23">Tool Shed →</text>
+<text x="44" y="374" font-size="23">Greenhouse</text>
+<text x="44" y="404" font-size="29" font-weight="600">8</text>
+<text x="70" y="404" font-size="16">minutes walking</text>
+<text x="28" y="454" font-size="15">20 minutes walking altogether</text>
+</g></svg>

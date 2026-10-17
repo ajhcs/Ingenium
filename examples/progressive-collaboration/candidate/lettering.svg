@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="744" height="576" viewBox="0 0 744 576"><title>Seed Swap: two lettering studies in moss green and cream</title><desc>The same route and colors are used in both studies. A uses plain lettering; B uses book-like lettering. Both show Library, a 12-minute walk to Tool Shed, and an 8-minute walk to Greenhouse.</desc><rect width="744" height="576" fill="#FFFFFF"/><g font-family="sans-serif" fill="#343A38"><text x="32" y="32" font-size="18">Same route, two lettering choices</text><text x="32" y="78" font-size="18" font-weight="600">A · Clean and simple</text><g transform="translate(32 100)" font-family="sans-serif" fill="#294E40">
+<rect width="320" height="440" rx="16" fill="#F6F3E9" stroke="#294E40" stroke-width="1"/>
+<text x="28" y="52" font-size="29" font-weight="600">Seed Swap</text>
+<text x="28" y="80" font-size="16">Walking route</text>
+<path d="M28 104H292" stroke="#294E40" stroke-opacity="0.25"/>
+<path d="M44 148V348" stroke="#294E40" stroke-width="2"/>
+<path d="M40 215L44 221L48 215 M40 315L44 321L48 315" fill="none" stroke="#294E40" stroke-width="2"/>
+<circle cx="44" cy="144" r="16" fill="#DEE7D9" stroke="#294E40" stroke-width="1.5"/><text x="44" y="149" text-anchor="middle" font-size="15" font-weight="600">1</text><text x="76" y="151" font-size="23" font-weight="600">Library</text><circle cx="44" cy="244" r="16" fill="#DEE7D9" stroke="#294E40" stroke-width="1.5"/><text x="44" y="249" text-anchor="middle" font-size="15" font-weight="600">2</text><text x="76" y="251" font-size="23" font-weight="600">Tool Shed</text><circle cx="44" cy="344" r="16" fill="#DEE7D9" stroke="#294E40" stroke-width="1.5"/><text x="44" y="349" text-anchor="middle" font-size="15" font-weight="600">3</text><text x="76" y="351" font-size="23" font-weight="600">Greenhouse</text>
+<text x="76" y="195" font-size="17">12 minutes</text>
+<text x="76" y="295" font-size="17">8 minutes</text>
+<text x="28" y="407" font-size="14">Follow the stops in order</text>
+</g><text x="388" y="78" font-size="18" font-weight="600">B · Like a printed book</text><g transform="translate(388 100)" font-family="serif" fill="#294E40">
+<rect width="320" height="440" rx="16" fill="#F6F3E9" stroke="#294E40" stroke-width="1"/>
+<text x="28" y="52" font-size="29" font-weight="600">Seed Swap</text>
+<text x="28" y="80" font-size="16">Walking route</text>
+<path d="M28 104H292" stroke="#294E40" stroke-opacity="0.25"/>
+<path d="M44 148V348" stroke="#294E40" stroke-width="2"/>
+<path d="M40 215L44 221L48 215 M40 315L44 321L48 315" fill="none" stroke="#294E40" stroke-width="2"/>
+<circle cx="44" cy="144" r="16" fill="#DEE7D9" stroke="#294E40" stroke-width="1.5"/><text x="44" y="149" text-anchor="middle" font-size="15" font-weight="600">1</text><text x="76" y="151" font-size="23" font-weight="600">Library</text><circle cx="44" cy="244" r="16" fill="#DEE7D9" stroke="#294E40" stroke-width="1.5"/><text x="44" y="249" text-anchor="middle" font-size="15" font-weight="600">2</text><text x="76" y="251" font-size="23" font-weight="600">Tool Shed</text><circle cx="44" cy="344" r="16" fill="#DEE7D9" stroke="#294E40" stroke-width="1.5"/><text x="44" y="349" text-anchor="middle" font-size="15" font-weight="600">3</text><text x="76" y="351" font-size="23" font-weight="600">Greenhouse</text>
+<text x="76" y="195" font-size="17">12 minutes</text>
+<text x="76" y="295" font-size="17">8 minutes</text>
+<text x="28" y="407" font-size="14">Follow the stops in order</text>
+</g></g></svg>

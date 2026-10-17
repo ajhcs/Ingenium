@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-labelledby="title desc">
+  <title id="title">Seed Swap route</title>
+  <desc id="desc">Walk from Library to Tool Shed in 12 minutes, then to Greenhouse in 8 minutes.</desc>
+  <rect id="paper" width="900" height="560" fill="#f6f3e9"/>
+  <g id="labels" fill="#243c49" font-family="sans-serif">
+    <text id="heading" x="60" y="85" font-size="40" font-weight="700">Seed Swap route</text>
+    <text id="introduction" x="60" y="125" font-size="20">A short walk for first-time visitors</text>
+    <text id="library" x="150" y="360" text-anchor="middle" font-size="24">Library</text>
+    <text id="shed" x="450" y="360" text-anchor="middle" font-size="24">Tool Shed</text>
+    <text id="greenhouse" x="750" y="360" text-anchor="middle" font-size="24">Greenhouse</text>
+    <text id="first-leg" x="300" y="265" text-anchor="middle" font-size="20">12 min</text>
+    <text id="second-leg" x="600" y="265" text-anchor="middle" font-size="20">8 min</text>
+  </g>
+  <g id="route" stroke="#326e9c" stroke-width="6" fill="none">
+    <path id="first-path" d="M166 300H430m-12-10 12 10-12 10"/>
+    <path id="second-path" d="M466 300H730m-12-10 12 10-12 10"/>
+  </g>
+  <g id="stops" fill="#326e9c">
+    <circle id="library-stop" cx="150" cy="300" r="16"/>
+    <circle id="shed-stop" cx="450" cy="300" r="16"/>
+    <circle id="greenhouse-stop" cx="750" cy="300" r="16"/>
+  </g>
+</svg>
