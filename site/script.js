@@ -1,4 +1,4 @@
-const base = 'https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/';
+const base = 'https://github.com/ajhcs/Ingenium/blob/main/';
 const studies = {
   cover: {title:'Common Ground', label:'Historical study / V3', image:'cover.png', source:'cover/cover.svg', alt:'Common Ground publication cover with navy typography and blue and rust forms on yellow.', description:'A publication cover built around a bold editorial hierarchy and two open forms in conversation. The type and artwork remain editable.', limit:'A cover study for review. Print production and editor import remain untested.'},
   fieldwork: {title:'Fieldwork', label:'Historical study / V2', image:'fieldwork-desktop.png', source:'fieldwork/index.html', alt:'Fieldwork responsive website study with original project illustrations and an editorial layout.', description:'A responsive public-space collective website with original artwork, project dialogs, an interactive pattern control, and editable HTML, CSS and JavaScript.', limit:'Selected desktop, mobile and keyboard states were reviewed. This is a fictional website; broad browser and audience qualification remain untested.'},

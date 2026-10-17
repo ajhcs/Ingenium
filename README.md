@@ -4,16 +4,16 @@
 
 A portable creative workflow for exploring a direction, making editable studies, and keeping the choices that matter. Begin with a question, an existing artifact, or the feeling that something is almost right. A comparison, one useful study or a specification can each be enough.
 
-![Original Common Ground cover studies, with editable sources](https://raw.githubusercontent.com/ajhcs/Ingenium/refs/heads/codex/ingenium-slice1/site/assets/demos/comparison-cover.png)
+![Original Common Ground cover studies, with editable sources](https://raw.githubusercontent.com/ajhcs/Ingenium/refs/heads/main/site/assets/demos/comparison-cover.png)
 
-[Explore the studies](examples/release/README.md) · [Quickstart](docs/quickstart.md) · [User guide](docs/user-guide.md) · [Preview the site](docs/github-pages.md)
+[Visit the site](https://ajhcs.github.io/Ingenium/) · [Explore the studies](examples/release/README.md) · [Quickstart](docs/quickstart.md) · [User guide](docs/user-guide.md) · [Preview the site](docs/github-pages.md)
 
 ## Start with one useful study
 
 Get the source:
 
 ```sh
-git clone --branch codex/ingenium-slice1 https://github.com/ajhcs/Ingenium.git
+git clone --branch main https://github.com/ajhcs/Ingenium.git
 cd Ingenium
 ```
 
@@ -29,13 +29,13 @@ Then give a scoped reaction: “Keep the first layout for this poster. Explore a
 
 Develop the uncertainty that matters. Make something you can react to. Inspect the actual result at its intended size or state. Keep editable originals, separate exports, relevant notices and a clear account of the choices made.
 
-The repository includes original fictional [publication, website, identity and wayfinding studies](examples/release/README.md), plus a [preserved progression](examples/progression/README.md). These are examples with stated limits, not client work, audience-success evidence or a design-quality guarantee. [Download editable study sources](https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/site/assets/demos/editable-studies.zip).
+The repository includes original fictional [publication, website, identity and wayfinding studies](examples/release/README.md), plus a [preserved progression](examples/progression/README.md). These are examples with stated limits, not client work, audience-success evidence or a design-quality guarantee. [Download editable study sources](https://github.com/ajhcs/Ingenium/blob/main/site/assets/demos/editable-studies.zip).
 
 ## See the workflow
 
-[Watch the 90 second walkthrough](https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/site/assets/video/ingenium-demo.mp4), then explore the [20 second landscape](https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/site/assets/video/teaser.mp4) and [portrait](https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/site/assets/video/portrait.mp4) edits. The films are silent with authored captions. A [timed voiceover script](https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/site/assets/video/voiceover-script.md), [captions](https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/site/assets/video/captions.srt) and [editable video source](https://github.com/ajhcs/Ingenium/blob/codex/ingenium-slice1/media/README.md) accompany them.
+[Watch the 90 second walkthrough](https://github.com/ajhcs/Ingenium/blob/main/site/assets/video/ingenium-demo.mp4), then explore the [20 second landscape](https://github.com/ajhcs/Ingenium/blob/main/site/assets/video/teaser.mp4) and [portrait](https://github.com/ajhcs/Ingenium/blob/main/site/assets/video/portrait.mp4) edits. The films are silent with authored captions. A [timed voiceover script](https://github.com/ajhcs/Ingenium/blob/main/site/assets/video/voiceover-script.md), [captions](https://github.com/ajhcs/Ingenium/blob/main/site/assets/video/captions.srt) and [editable video source](https://github.com/ajhcs/Ingenium/blob/main/media/README.md) accompany them.
 
-The static project site includes a working website study, an image gallery and source downloads. [Preview it locally](docs/github-pages.md); GitHub Pages publication is prepared and remains pending.
+The static project site includes a working website study, an image gallery and source downloads. [Preview it locally](docs/github-pages.md). The [public site](https://ajhcs.github.io/Ingenium/) is live. Download the exact reviewed package and media from the [0.1.0 preview release](https://github.com/ajhcs/Ingenium/releases/tag/v0.1.0).
 
 ## Optional tools
 

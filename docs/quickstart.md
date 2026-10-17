@@ -7,7 +7,7 @@ Ingenium helps turn an uncertain creative direction into something you can react
 Clone the repository into a directory you own:
 
 ```sh
-git clone --branch codex/ingenium-slice1 https://github.com/ajhcs/Ingenium.git
+git clone --branch main https://github.com/ajhcs/Ingenium.git
 cd Ingenium
 ```
 
@@ -16,6 +16,19 @@ Or download and extract the repository's source archive from GitHub. Keep `plugi
 In a client that supports local plugins or skills, use its documented local-source installation route and select this directory. Ingenium does not provide a universal client installation command. Open a fresh conversation and verify the client actually discovers Ingenium before relying on it. Portable package structure has been checked; verify discovery in your client. Desktop discovery remains unverified. Copying files alone does not establish discovery.
 
 The package declares `private: true`. Use the source checkout or a local tarball; these instructions do not rely on an npm registry publication. See the [local tarball route](user-guide.md#local-tarball-for-node-helpers) if you want a separate optional helper installation.
+
+### Codex local skill setup
+
+Codex supports repository-local skills and symlinked skill folders. In the project where you want to use Ingenium, link the skill from your retained clone:
+
+```sh
+# Run in your target project. Replace the absolute path with your clone.
+mkdir -p .agents/skills
+test ! -e .agents/skills/ingenium && test ! -L .agents/skills/ingenium &&
+  ln -s /absolute/path/to/Ingenium/skills/ingenium .agents/skills/ingenium
+```
+
+Choose a new link name if one already exists; do not overwrite an existing skill. Keep the complete Ingenium clone available for references and optional helper commands. Open a fresh Codex conversation in that project, confirm Ingenium appears, and invoke `$ingenium`. The filesystem link and packaged references are verified; fresh desktop discovery remains unverified here. This route follows the [official local-skill locations](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills).
 
 ## 2. Ask for one useful thing
 

@@ -8,9 +8,11 @@ The workflow is [a readable skill](../skills/ingenium/SKILL.md). Optional Node h
 
 ### Repository or source archive
 
-Clone [the current development branch](https://github.com/ajhcs/Ingenium/tree/codex/ingenium-slice1) with `git clone --branch codex/ingenium-slice1 https://github.com/ajhcs/Ingenium.git`, or download [that branch’s source archive](https://github.com/ajhcs/Ingenium/archive/refs/heads/codex/ingenium-slice1.zip). Keep the package structure intact. Select that directory using a client's documented local-plugin or local-skill source route. `plugin.json` is the portable manifest; `skills/ingenium/SKILL.md` is the workflow entrypoint.
+Clone [the published main branch](https://github.com/ajhcs/Ingenium/tree/main) with `git clone --branch main https://github.com/ajhcs/Ingenium.git`, or download [that branch’s source archive](https://github.com/ajhcs/Ingenium/archive/refs/heads/main.zip). Keep the package structure intact. Select that directory using a client's documented local-plugin or local-skill source route. `plugin.json` is the portable manifest; `skills/ingenium/SKILL.md` is the workflow entrypoint.
 
 Start a fresh conversation, confirm that Ingenium is discoverable, and try a direct request such as “Use Ingenium to compare two title hierarchies.” Portable package structure has been checked. Client discovery must be verified in your client. Desktop discovery remains unverified, and installation behavior varies by client. There is no Ingenium-specific universal client registration command.
+
+For Codex, the [repository-local skill setup](quickstart.md#codex-local-skill-setup) uses a supported `.agents/skills` symlink without changing global client state. Optional helpers run from the retained clone or installed package root. A client plugin registration is a separate route.
 
 ### Local tarball for Node helpers
 
