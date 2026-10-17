@@ -27,8 +27,8 @@ const safeJSON = data => {
 const capabilities = (provider, parser, license) => ({ search: true, details: true, preview: provider === 'iconify' ? parser.status === 'available' && license.status !== 'unknown' : false, fetch: provider === 'iconify' ? parser.status === 'available' && license.status !== 'unknown' : false });
 
 /** Construct an inert client. No I/O until an explicit operation; no installation ever. */
-export function createAssetClient({ allowNetwork = false, transport, cacheDir, parserDir, limits: inputLimits } = {}) {
-  const limits = limitsFor(inputLimits), request = createRequester({ allowNetwork, transport, limits }), cache = createCache(cacheDir, limits);
+export function createAssetClient({ allowNetwork = false, transport, captureDiagnostics = false, cacheDir, parserDir, limits: inputLimits } = {}) {
+  const limits = limitsFor(inputLimits), request = createRequester({ allowNetwork, transport, captureDiagnostics, limits }), cache = createCache(cacheDir, limits);
   const probe = () => { const { SaxesParser, ...info } = parserCapability(parserDir); return info; };
   async function read(url, kind = 'metadata') {
     const max = kind === 'metadata' ? limits.metadataBytes : limits.assetBytes;
@@ -81,6 +81,7 @@ export function createAssetClient({ allowNetwork = false, transport, cacheDir, p
     return { detail, data, validation, evidenceMode: modes.length === 1 ? modes[0] : 'mixed' };
   }
   return {
+    diagnostics: request.diagnostics,
     capabilities() { return { interfaceVersion: 1, transport: request.mode, parser: probe(), limits, providers: { iconify: { search: true, details: true, preview: 'selected + license + parser', fetch: 'selected + license + parser', liveQualification: 'not-run' }, fontsource: { search: true, details: true, preview: 'not-run', fetch: 'not-run', reason: 'License/file-version binding not qualified', liveQualification: 'not-run' } } }; },
     search, details,
     async preview(input) {
