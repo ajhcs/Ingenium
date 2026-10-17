@@ -14,6 +14,8 @@ In Codex, invoke `$ingenium`. In Claude Code, invoke `/ingenium`. In a chat clie
 
 This brief requests two studies to compare. A different task can need just one study, a useful question or a text comparison. If file creation is unavailable, ask for editable source text; visual inspection remains pending until you open it.
 
+If you want to discover the look together, say so: “Help me find a direction before finishing. I don't know design terms; show me something I can react to.” Ingenium can begin with a relevant visual probe, then narrow the next choice while keeping settled dimensions steady. For example, compare palettes using the same content, then apply type variants to the chosen palette. The starting point and pace follow your task; a quick autonomous request or a settled edit does not need this sequence.
+
 ## Refine a choice
 
 > Keep the first study's layout and wording for this poster. Make only the title feel less formal. Save a new editable version and keep the previous files.

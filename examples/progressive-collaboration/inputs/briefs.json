@@ -1,0 +1,20 @@
+{
+  "schema": "ingenium-behavior-exercise/1",
+  "content": "Original fictional Seed Swap walking route: Library to Tool Shed, 12 minutes; Tool Shed to Greenhouse, 8 minutes. Audience: first-time visitors.",
+  "cases": [
+    {
+      "id": "collaborative",
+      "request": "Use Ingenium. I am making a small walking-route card for a fictional Seed Swap. It goes from Library to Tool Shed in 12 minutes, then to Greenhouse in 8 minutes. It is for first-time visitors. Help me find the look together before finishing it. I don't know design terms; I want something calm and welcoming, but I don't know what colors or lettering I like. Please use these actual stops and times, no outside references or image generation.",
+      "followup": "Let's use a moss-green and cream palette for this route card. I'm still unsure about the lettering; show me how it could feel on the same map before we finish. Keep the stops and travel times."
+    },
+    {
+      "id": "narrow-edit",
+      "source": "route.svg",
+      "request": "Use Ingenium. In the supplied route.svg, make only the visible heading's font size 34 instead of 40. Keep every other attribute, all wording, geometry and colors. Save a new editable SVG; preserve the original. Please just make this settled edit."
+    },
+    {
+      "id": "autonomous",
+      "request": "Use Ingenium. Make one finished editable SVG walking-route card for a fictional Seed Swap: Library to Tool Shed, 12 minutes; Tool Shed to Greenhouse, 8 minutes. It is for first-time visitors. Choose the colors, typography and shapes yourself. I want a quick result now, no questions or approval rounds. Use no outside references or image generation. Give me the file to open."
+    }
+  ]
+}
