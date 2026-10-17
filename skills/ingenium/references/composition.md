@@ -19,7 +19,7 @@ Keep the record proportionate: task/medium assumption, chosen hierarchy and geom
 
 ## Worked source
 
-The original synthetic [Listening Garden generator](../../../examples/composition/listening-garden.mjs) produces editable clean and guide SVGs plus a layout record from shared values. Run from an installed package root with Node 22 or newer:
+The original synthetic [Listening Garden generator](https://github.com/ajhcs/Ingenium/blob/main/examples/composition/listening-garden.mjs) produces editable clean and guide SVGs plus a layout record from shared values. This optional example is in the full repository, not the standalone guidance skill. Run from an installed package root with Node 22 or newer:
 
 ```sh
 node examples/composition/listening-garden.mjs <new-output-directory>
