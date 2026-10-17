@@ -2,6 +2,8 @@
 
 Experimental creative design plugin for discovering a direction, developing useful studies, and preserving scoped choices for revision and reuse.
 
+[Optional selected assets](skills/ingenium/references/assets.md) adds bounded metadata discovery and selected static-icon admission. This interface is offline-qualified with original synthetic fixtures; live provider qualification is blocked. Font file resolution remains unavailable pending verified license/version binding.
+
 The skill is independently invocable as Ingenium. Begin with a question, an existing artifact or an uncertain impression. Ask for whichever output helps: a comparison, one editable study, a specification, or a combination. Expressed facts, tentative interpretations and chosen decisions remain distinct.
 
 ## Package

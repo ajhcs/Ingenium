@@ -31,6 +31,23 @@
       "license": "MPL-2.0",
       "distribution": "Supplied separately; not a required or vendored dependency",
       "qualification": "Compatible existing installation tested; installed browser/runtime retains its own licenses and notices"
+    },
+    {
+      "name": "saxes",
+      "version": "6.0.0",
+      "use": "Explicit optional strict XML parser for external static-icon admission",
+      "source": "https://github.com/lddubeau/saxes/tree/v6.0.0",
+      "license": "ISC",
+      "distribution": "Existing separate installation reused; no dependency-tree change or vendoring",
+      "qualification": "Exact tested API; upstream archived. XML parser plus local structural allowlist, not universal SVG validation."
+    },
+    {
+      "name": "xmlchars",
+      "version": "2.2.0",
+      "use": "Transitive dependency of separately installed saxes",
+      "source": "https://github.com/lddubeau/xmlchars",
+      "license": "MIT",
+      "distribution": "Not vendored; retain installed license"
     }
   ],
   "guidance": [
