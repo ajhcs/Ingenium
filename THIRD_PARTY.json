@@ -102,6 +102,15 @@
       "use": "Explicit optional original font/vector subsystem",
       "distribution": "Separate isolated Python environment; not vendored or installed on import",
       "qualification": "Exact locked CPython3.12/Linux wheel tested; transitive and native bundled licenses remain separate"
+    },
+    {
+      "name": "DejaVu selected fonts",
+      "version": "2.37",
+      "use": "Three unmodified selected font files for the original worked studies",
+      "source": "https://dejavu-fonts.github.io/",
+      "license": "Bitstream Vera font license; DejaVu changes public domain",
+      "distribution": "Selected Sans regular/Bold and Serif regular files under examples/worked/fonts; exact hashes and full retained notice beside them",
+      "qualification": "Local font metadata, cmap, embedded-byte identity and scoped browser previews checked; arbitrary client rendering and print production untested"
     }
   ],
   "guidance": [
@@ -114,5 +123,5 @@
       "use": "Skill structure and routing guidance"
     }
   ],
-  "assets": "Examples contain original synthetic MIT artwork and original limited font sources; no third-party font file, private brief or annotations are redistributed."
+  "assets": "Examples contain original synthetic MIT artwork and original limited font sources, plus three selected unmodified DejaVu font files with separate retained notices/hashes. No private brief, annotations or benchmark references are distributed."
 }

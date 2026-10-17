@@ -33,10 +33,10 @@ For behavioral evaluation, `tests/fixtures/requests.json` includes direct, impli
 
 For a concrete layout study, [measured composition](skills/ingenium/references/composition.md) describes content-fit guides, spacing/type roles and intentional exceptions. Run `node examples/composition/listening-garden.mjs work/listening-garden` with a new output directory to create editable clean/guide SVGs and a layout record. Optional PNG rendering uses the existing helper. The original synthetic poster demonstrates measurable structure; audience findability, small-screen readability and aesthetic acceptance remain untested.
 
-Formal engineering views retain their authoritative model and semantic renderer. Font engineering is an optional interface and fixture specification only; this slice installs no font dependencies.
+Formal engineering views retain their authoritative model and semantic renderer. Original font/vector helpers use an explicitly selected isolated Python environment; they install no font tools or dependencies on import. Their bounded qualification and unsupported cases are described in the [font reference](skills/ingenium/references/fonts.md).
 
 The [foundation helpers](skills/ingenium/references/checks.md) add pure layout construction, unrounded solid-pair contrast and machine reports with stable issue deltas. Optional owned-local browser review reuses one prepared Playwright/axe session for named profiles and states, geometry, fonts and focus journeys. `ingenium review FIXTURE.json NEW_OUTPUT_DIR` retains full evidence and returns a compact handoff; missing browser capabilities are explicit. These checks do not establish accessibility certification, complete semantics, visual quality or owner acceptance.
 
 ## Rights and provenance
 
-Original code and synthetic examples use [MIT](LICENSE). See [third-party notices](THIRD_PARTY_NOTICES.md) and `THIRD_PARTY.json` for the optional renderer and source guidance. No private reading, annotation, user preference record or font file is distributed.
+Original code and synthetic artwork use [MIT](LICENSE). The [four worked studies](examples/worked/README.md) include three selected unmodified DejaVu font files with their own notices and hashes. See [third-party notices](THIRD_PARTY_NOTICES.md) and `THIRD_PARTY.json` for component rights. No private reading, annotation or user preference record is distributed.
