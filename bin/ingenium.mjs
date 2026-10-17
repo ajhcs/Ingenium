@@ -23,7 +23,20 @@ export async function main(args, write = value => console.log(JSON.stringify(val
       write(await exportSvg({ sourcePath: rest[0], outputPath: rest[1], ...selector(rest.slice(2)) }));
       return 0;
     }
-    write({ error: 'Usage: ingenium capabilities [--renderer-dir DIR | --sharp-module MODULE] | check RECORD.json | render SOURCE.svg OUTPUT.png [--renderer-dir DIR | --sharp-module MODULE]' });
+    if (command === 'review' && rest.length >= 2) {
+      const options = { fixturePath: rest[0], outputDir: rest[1] };
+      const flags = { '--adapter-dir': 'adapterDir', '--executable-path': 'executablePath', '--renderer-dir': 'rendererDir', '--previous': 'previousReportPath' };
+      for (let i = 2; i < rest.length; i += 2) {
+        const key = flags[rest[i]];
+        if (!key || !rest[i + 1] || options[key]) throw new Error('Review options require unique supported flag/value pairs');
+        options[key] = rest[i + 1];
+      }
+      const { reviewFixture } = await import('../src/review/index.mjs');
+      const result = await reviewFixture(options);
+      write(result);
+      return result.status === 'error' || result.status === 'fail' ? 1 : result.status === 'not-run' ? 2 : 0;
+    }
+    write({ error: 'Usage: ingenium capabilities [--renderer-dir DIR | --sharp-module MODULE] | check RECORD.json | render SOURCE.svg OUTPUT.png [--renderer-dir DIR | --sharp-module MODULE] | review FIXTURE.json NEW_OUTPUT_DIR [--adapter-dir DIR] [--executable-path FILE] [--renderer-dir DIR] [--previous REPORT.json]' });
     return 2;
   } catch (error) {
     write({ error: error.message, ...(error.code ? { code: error.code } : {}), ...(error.setup ? { setup: error.setup } : {}) });

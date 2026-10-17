@@ -24,6 +24,7 @@ Keep process notes and review provenance in supporting records unless they help 
 For outputs:
 - SVG studies and PNG exports: read [SVG support](references/svg.md). The optional helper preserves source and creates a separate export.
 - Checking available local helpers: read [capabilities](references/capabilities.md). Discovery must observe the actual environment; available source files do not prove installed-client routing.
+- Constructing layouts or checking owned local delivery fixtures: read [layout and accessibility checks](references/checks.md). Keep complete measured evidence and review candidates separate from visual judgment; use compact changed-issue summaries for iteration.
 - Physical or formal engineering work: read [domain boundaries](references/domains.md) when consequential claims arise.
 - A request for a usable original font: read [the optional font interface](references/fonts.md); a letter-shaped drawing or outlined existing font is not a qualified typeface.
 

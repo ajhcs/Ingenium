@@ -31,6 +31,8 @@ For a concrete layout study, [measured composition](skills/ingenium/references/c
 
 Formal engineering views retain their authoritative model and semantic renderer. Font engineering is an optional interface and fixture specification only; this slice installs no font dependencies.
 
+The [foundation helpers](skills/ingenium/references/checks.md) add pure layout construction, unrounded solid-pair contrast and machine reports with stable issue deltas. Optional owned-local browser review reuses one prepared Playwright/axe session for named profiles and states, geometry, fonts and focus journeys. `ingenium review FIXTURE.json NEW_OUTPUT_DIR` retains full evidence and returns a compact handoff; missing browser capabilities are explicit. These checks do not establish accessibility certification, complete semantics, visual quality or owner acceptance.
+
 ## Rights and provenance
 
 Original code and synthetic examples use [MIT](LICENSE). See [third-party notices](THIRD_PARTY_NOTICES.md) and `THIRD_PARTY.json` for the optional renderer and source guidance. No private reading, annotation, user preference record or font file is distributed.
