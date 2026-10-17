@@ -13,6 +13,24 @@
       "license": "Apache-2.0",
       "distribution": "Resolved by npm; not vendored in this repository",
       "qualification": "Runtime availability and export tests reported per environment; transitive binary libraries retain their own notices"
+    },
+    {
+      "name": "playwright",
+      "version": "1.57.0",
+      "use": "Explicit optional owned-local browser review adapter",
+      "source": "https://github.com/microsoft/playwright",
+      "license": "Apache-2.0",
+      "distribution": "Supplied separately; not a required or vendored dependency",
+      "qualification": "Compatible existing installation tested; installed browser/runtime retains its own licenses and notices"
+    },
+    {
+      "name": "@axe-core/playwright",
+      "version": "4.11.1",
+      "use": "Explicit optional owned-local browser review adapter",
+      "source": "https://github.com/dequelabs/axe-core-npm",
+      "license": "MPL-2.0",
+      "distribution": "Supplied separately; not a required or vendored dependency",
+      "qualification": "Compatible existing installation tested; installed browser/runtime retains its own licenses and notices"
     }
   ],
   "guidance": [
