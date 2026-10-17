@@ -6,13 +6,7 @@ The workflow is [a readable skill](../skills/ingenium/SKILL.md). Optional Node h
 
 ## Installation and discovery
 
-### Repository or source archive
-
-Clone [the published main branch](https://github.com/ajhcs/Ingenium/tree/main) with `git clone --branch main https://github.com/ajhcs/Ingenium.git`, or download [that branch’s source archive](https://github.com/ajhcs/Ingenium/archive/refs/heads/main.zip). Keep the package structure intact. Select that directory using a client's documented local-plugin or local-skill source route. `plugin.json` is the portable manifest; `skills/ingenium/SKILL.md` is the workflow entrypoint.
-
-Start a fresh conversation, confirm that Ingenium is discoverable, and try a direct request such as “Use Ingenium to compare two title hierarchies.” Portable package structure has been checked. Client discovery must be verified in your client. Desktop discovery remains unverified, and installation behavior varies by client. There is no Ingenium-specific universal client registration command.
-
-For Codex, the [repository-local skill setup](quickstart.md#codex-local-skill-setup) uses a supported `.agents/skills` symlink without changing global client state. Optional helpers run from the retained clone or installed package root. A client plugin registration is a separate route.
+Follow the [platform setup guide](install.md) for exact Codex app/CLI, Claude Code, ChatGPT and Claude chat routes, including manual installation, first invocation, updates and removal. Standalone skill installation supplies guidance and references; optional helpers below require a separate full checkout or helper tarball. Actual desktop discovery and chat upload remain unverified here.
 
 ### Local tarball for Node helpers
 

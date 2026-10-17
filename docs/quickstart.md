@@ -1,56 +1,30 @@
 # Your first Ingenium study
 
-Ingenium helps turn an uncertain creative direction into something you can react to: a useful comparison, an editable study, or a clear specification. Start small. You do not need a server, backend or account connection for the workflow itself.
+Explore a direction, make something you can react to, then refine it without losing the choices you want to keep.
 
-## 1. Get the portable plugin
+## Set up your client
 
-Clone the repository into a directory you own:
+Use the [platform setup guide](install.md) for Codex app/CLI, Claude Code, ChatGPT or Claude chat. It includes a no-Node manual route and a guidance ZIP. The basic skill uses your client's model and tools; the optional Ingenium helper package is separate.
 
-```sh
-git clone --branch main https://github.com/ajhcs/Ingenium.git
-cd Ingenium
-```
+In Codex, invoke `$ingenium`. In Claude Code, invoke `/ingenium`. In a chat client with Ingenium enabled, say “Use Ingenium.” Without custom skill upload, paste the [instructions](../skills/ingenium/SKILL.md) into the conversation first.
 
-Or download and extract the repository's source archive from GitHub. Keep `plugin.json`, `skills/`, `src/`, `bin/` and the supporting files together. The workflow entrypoint is [skills/ingenium/SKILL.md](../skills/ingenium/SKILL.md).
+## Ask for a useful result
 
-In a client that supports local plugins or skills, use its documented local-source installation route and select this directory. Ingenium does not provide a universal client installation command. Open a fresh conversation and verify the client actually discovers Ingenium before relying on it. Portable package structure has been checked; verify discovery in your client. Desktop discovery remains unverified. Copying files alone does not establish discovery.
+> Make a poster for a fictional event called Evening Garden, on 24 May at 6 pm. The invitation is “An evening of listening, planting and conversation.” It should feel quiet and welcoming. Show two distinct organizing ideas as editable SVG files, keeping the wording the same. Use no image generation or external references. Preview the files if your tools allow it, and give me the actual files to open.
 
-The package declares `private: true`. Use the source checkout or a local tarball; these instructions do not rely on an npm registry publication. See the [local tarball route](user-guide.md#local-tarball-for-node-helpers) if you want a separate optional helper installation.
+This brief requests two studies to compare. A different task can need just one study, a useful question or a text comparison. If file creation is unavailable, ask for editable source text; visual inspection remains pending until you open it.
 
-### Codex local skill setup
+## Refine a choice
 
-Codex supports repository-local skills and symlinked skill folders. In the project where you want to use Ingenium, link the skill from your retained clone:
+> Keep the first study's layout and wording for this poster. Make only the title feel less formal. Save a new editable version and keep the previous files.
 
-```sh
-# Run in your target project. Replace the absolute path with your clone.
-mkdir -p .agents/skills
-test ! -e .agents/skills/ingenium && test ! -L .agents/skills/ingenium &&
-  ln -s /absolute/path/to/Ingenium/skills/ingenium .agents/skills/ingenium
-```
+Keep the choice scoped to this poster. If the interpretation of “less formal” would change something consequential, clarify it; otherwise use a small, revisable change. You can explicitly reopen earlier choices later.
 
-Choose a new link name if one already exists; do not overwrite an existing skill. Keep the complete Ingenium clone available for references and optional helper commands. Open a fresh Codex conversation in that project, confirm Ingenium appears, and invoke `$ingenium`. The filesystem link and packaged references are verified; fresh desktop discovery remains unverified here. This route follows the [official local-skill locations](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills).
+## Keep something you can revise
 
-## 2. Ask for one useful thing
+Open the actual files. Keep the editable source, any successful preview, a short account of the chosen direction and anything still untested. An export or a numeric check does not establish design quality or acceptance.
 
-Try this original synthetic brief:
-
-> Use Ingenium. I am making a poster for a fictional evening garden event. It should feel quiet and welcoming, with a title, a date and a short invitation. Show two different organizing ideas as editable SVG studies. Keep the wording the same so I can compare the hierarchy. Do not use image generation or external references.
-
-Ask for the output you need. One question, a text comparison, one editable study, or a specification can be enough. If your client lacks an SVG renderer, ask for editable source and a description of the unresolved visual review.
-
-## 3. Give a reaction with a scope
-
-For example:
-
-> The first study is easier to scan. Keep its hierarchy for this poster. The title still feels too formal; show two type treatments while keeping the layout and wording.
-
-A choice about this poster should stay a choice about this poster. Ingenium separates what you said, what it tentatively interprets, and what you chose. You can explicitly reopen a choice later.
-
-## 4. Keep something you can revise
-
-Ask for the editable source, the export if available, a short record of the chosen direction, and anything still untested. Open the actual files before treating the result as delivered. A successful export or a numeric check does not establish design quality or acceptance.
-
-Browse the [preserved release studies](../examples/release/README.md) and their generators for examples of the editable formats. These are fictional historical studies, not client work or a quality guarantee.
+Browse the [original fictional studies](../examples/release/README.md) for other formats.
 
 ## Optional: make an editable result locally
 

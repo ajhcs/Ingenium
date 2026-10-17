@@ -2,6 +2,8 @@
 
 Ingenium can guide creative work without a runtime or server. Use the host's available tools for the requested medium. Never claim a tool is available from its name in these instructions.
 
+The standalone skill installed by `skills add` or the guidance ZIP contains instructions and references only. It does not include `bin/`, `src/`, example generators, resource data or helper dependencies. The commands in these references apply only when a separate full Ingenium checkout or helper package is available. Continue with the host's tools or editable source when it is not. See the [full repository and setup guide](https://github.com/ajhcs/Ingenium/blob/main/docs/install.md#optional-full-checkout-and-helpers).
+
 When the packaged Node helper is useful, locate the actual installed plugin root, then run:
 
 ```sh
