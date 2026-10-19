@@ -74,6 +74,10 @@ Then refine a choice:
 
 Ask for as much or as little as you need. A single study, a text comparison or a useful question can be enough. [Continue the first-study walkthrough](docs/quickstart.md).
 
+## Define connected interactions before implementation
+
+For consequential interaction choices, use a small editable low-fidelity walkthrough grounded in relevant actual UI precedents. Expose choices, shared state, feedback and recovery; reconcile findings with requirements and model/data contracts, and review the first connected path before expanding. This is an iterative definition route, without a fixed layout or screen quota. See [Connected wireframes](skills/ingenium/references/interaction-sketches.md).
+
 ## Optional local tools
 
 The standalone skill and guidance ZIP contain instructions and references. For Ingenium's resource catalogs, record checks and SVG export, get the full repository separately:
