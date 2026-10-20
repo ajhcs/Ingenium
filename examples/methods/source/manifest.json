@@ -1,0 +1,1859 @@
+{
+  "schema": "ingenium-method-source-collection/1",
+  "schemaVersion": 1,
+  "generator": "tools/generate-method-studies.mjs",
+  "license": "MIT",
+  "scenario": "Original synthetic Relay repair workspace",
+  "renderStatus": "not-run",
+  "artifacts": [
+    {
+      "id": "structural-wireframe",
+      "title": "Structural wireframe",
+      "method": "structure",
+      "scope": "One queue view; content hierarchy before visual styling.",
+      "schema": "ingenium-method-study/1",
+      "artifactID": "ingenium:relay:study:structural-wireframe",
+      "revision": 3,
+      "primaryMethod": "structural-wireframe",
+      "scenarioID": "ingenium:relay:scenario:repair-coordination",
+      "sceneID": "structural-wireframe-scene",
+      "sourceScenario": {
+        "kind": "fixture",
+        "scenarioID": "ingenium:relay:scenario:repair-coordination",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+        "modelVersion": null,
+        "mappingStatus": "no native mapping supplied",
+        "backend": "absent"
+      },
+      "semanticFixture": {
+        "domainID": "relay:work-order:R-1048",
+        "subjectTitle": "Bench lamp",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6"
+      },
+      "appearanceParameters": {
+        "collageSpacingScale": 5
+      },
+      "purpose": "One queue view; content hierarchy before visual styling.",
+      "audience": "People reviewing a proposed repair-coordination workspace",
+      "fidelity": {
+        "layout": "authored 1200 × 800 fixed viewport",
+        "appearance": "restrained structural sketch",
+        "content": "original fictional repair content"
+      },
+      "interactivity": {
+        "level": "static",
+        "actions": "No interactive path specified."
+      },
+      "modelVersion": null,
+      "modelBinding": {
+        "status": "not-applicable",
+        "reason": "Original synthetic domain; no authoritative native model or API supplied."
+      },
+      "assumptions": [
+        "Relay, its people, work orders and revision labels are fictional.",
+        "No application runtime, persistence or backend is present."
+      ],
+      "claims": [
+        {
+          "id": "study-intent",
+          "subject": "ingenium:relay:study:structural-wireframe",
+          "result": "not-checked",
+          "specificationStatus": "authored",
+          "evidence": [],
+          "limits": [
+            "Original study of the stated question, without implying behavior.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "interaction-specification",
+          "subject": "ingenium:relay:study:structural-wireframe",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "This study does not specify an interaction path.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "runtime-behavior",
+          "subject": "ingenium:relay:study:structural-wireframe",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No controls or transitions executed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "model-conformance",
+          "subject": "ingenium:relay:study:structural-wireframe",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No native model binding supplied.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "user-acceptance",
+          "subject": "ingenium:relay:study:structural-wireframe",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No scoped user choice or acceptance recorded.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "engineering-adequacy",
+          "subject": "ingenium:relay:study:structural-wireframe",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No engineering qualification performed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        }
+      ],
+      "viewElements": [
+        {
+          "id": "structural-wireframe-scene",
+          "role": "decorative scene shell"
+        },
+        {
+          "id": "structural-wireframe-view",
+          "role": "interaction requirement",
+          "requirementID": "relay:study-requirement:structural-wireframe"
+        },
+        {
+          "id": "structural-wireframe-subject-title",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        }
+      ],
+      "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
+      "omissions": [
+        "Runtime keyboard/focus, timing, persistence, concurrency and responsive behavior are untested."
+      ],
+      "unresolvedDecisions": [
+        "Proposed visual and behavior choices await scoped review."
+      ],
+      "probes": {
+        "status": "not-checked",
+        "viewport": "1200 × 800",
+        "targets": [
+          "Locate selected order and next action",
+          "Try a long subject label via canonical fixture",
+          "Inspect resizing separately; static source has no responsive behavior"
+        ],
+        "actionSourceMap": "Controls are proposed queue actions; no native/API source supplied."
+      },
+      "width": 1200,
+      "height": 800,
+      "editable": true,
+      "provenance": {
+        "authorship": "Original synthetic Ingenium example",
+        "license": "MIT",
+        "scenario": "Relay: fictional repair coordination workspace",
+        "fonts": "System generic sans-serif, serif and monospace requests; editorial DejaVuSerif, Georgia, serif fallbacks; no font binaries"
+      },
+      "limitations": [
+        "Static authored study, not product implementation or user acceptance.",
+        "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
+      ],
+      "file": "structural-wireframe.svg",
+      "bytes": 6755,
+      "sha256": "84c2954e1364797ed2a42ef929cffdad853019fbd46abfb59e36f1ba9a6758ab"
+    },
+    {
+      "id": "wireflow",
+      "title": "Wireflow",
+      "method": "navigation",
+      "scope": "Three connected views; action and guard labels plus invalid-input branch.",
+      "schema": "ingenium-method-study/1",
+      "artifactID": "ingenium:relay:study:wireflow",
+      "revision": 3,
+      "primaryMethod": "wireflow",
+      "scenarioID": "ingenium:relay:scenario:repair-coordination",
+      "sceneID": "wireflow-scene",
+      "sourceScenario": {
+        "kind": "fixture",
+        "scenarioID": "ingenium:relay:scenario:repair-coordination",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+        "modelVersion": null,
+        "mappingStatus": "no native mapping supplied",
+        "backend": "absent"
+      },
+      "semanticFixture": {
+        "domainID": "relay:work-order:R-1048",
+        "subjectTitle": "Bench lamp",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6"
+      },
+      "appearanceParameters": {
+        "collageSpacingScale": 5
+      },
+      "purpose": "Three connected views; action and guard labels plus invalid-input branch.",
+      "audience": "People reviewing a proposed repair-coordination workspace",
+      "fidelity": {
+        "layout": "authored 1200 × 800 fixed viewport",
+        "appearance": "restrained structural sketch",
+        "content": "original fictional repair content"
+      },
+      "interactivity": {
+        "level": "static",
+        "actions": "Drawn controls specify proposed actions only."
+      },
+      "modelVersion": null,
+      "modelBinding": {
+        "status": "not-applicable",
+        "reason": "Original synthetic domain; no authoritative native model or API supplied."
+      },
+      "assumptions": [
+        "Relay, its people, work orders and revision labels are fictional.",
+        "No application runtime, persistence or backend is present."
+      ],
+      "claims": [
+        {
+          "id": "study-intent",
+          "subject": "ingenium:relay:study:wireflow",
+          "result": "not-checked",
+          "specificationStatus": "authored",
+          "evidence": [],
+          "limits": [
+            "Original study of the stated question, without implying behavior.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "interaction-specification",
+          "subject": "ingenium:relay:study:wireflow",
+          "result": "not-checked",
+          "specificationStatus": "specified",
+          "evidence": [],
+          "limits": [
+            "Only the visible paths and annotations in this artifact.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "runtime-behavior",
+          "subject": "ingenium:relay:study:wireflow",
+          "result": "not-checked",
+          "specificationStatus": "not-run",
+          "evidence": [],
+          "limits": [
+            "No controls or transitions executed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "model-conformance",
+          "subject": "ingenium:relay:study:wireflow",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No native model binding supplied.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "user-acceptance",
+          "subject": "ingenium:relay:study:wireflow",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No scoped user choice or acceptance recorded.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "engineering-adequacy",
+          "subject": "ingenium:relay:study:wireflow",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No engineering qualification performed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        }
+      ],
+      "viewElements": [
+        {
+          "id": "wireflow-scene",
+          "role": "decorative scene shell"
+        },
+        {
+          "id": "wireflow-view",
+          "role": "interaction requirement",
+          "requirementID": "relay:study-requirement:wireflow"
+        },
+        {
+          "id": "wireflow-subject-title",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        },
+        {
+          "id": "wireflow-queue",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        },
+        {
+          "id": "wireflow-queue-action",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-action:queue"
+        },
+        {
+          "id": "wireflow-detail",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        },
+        {
+          "id": "wireflow-detail-action",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-action:detail"
+        },
+        {
+          "id": "wireflow-updated",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        },
+        {
+          "id": "wireflow-updated-action",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-action:updated"
+        },
+        {
+          "id": "wireflow-edge-open",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-open"
+        },
+        {
+          "id": "wireflow-edge-assign",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-assign"
+        },
+        {
+          "id": "wireflow-edge-refuse",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-refuse"
+        }
+      ],
+      "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
+      "omissions": [
+        "Runtime keyboard/focus, timing, persistence, concurrency and responsive behavior are untested.",
+        "Missing-title creation, cancellation, back navigation, authentication, concurrency and external handoffs are not drawn."
+      ],
+      "unresolvedDecisions": [
+        "Proposed visual and behavior choices await scoped review."
+      ],
+      "edges": [
+        {
+          "id": "wireflow-edge-open",
+          "sourceStateID": "wireflow-queue",
+          "destinationStateID": "wireflow-detail",
+          "triggerKind": "navigation",
+          "controlRef": "wireflow-queue-action",
+          "guard": "selected order exists",
+          "effect": "Open selected order",
+          "preservation": "Keep order identity"
+        },
+        {
+          "id": "wireflow-edge-assign",
+          "sourceStateID": "wireflow-detail",
+          "destinationStateID": "wireflow-updated",
+          "triggerKind": "save acknowledgement",
+          "controlRef": "wireflow-detail-action",
+          "guard": "valid assignee; matching current acknowledgement",
+          "effect": "Show assigned queue result",
+          "preservation": "Keep order and assignee identity"
+        },
+        {
+          "id": "wireflow-edge-refuse",
+          "sourceStateID": "wireflow-detail",
+          "destinationStateID": "wireflow-detail",
+          "triggerKind": "validation refusal",
+          "controlRef": "wireflow-detail-action",
+          "guard": "assignee missing",
+          "effect": "Show correction in place",
+          "preservation": "Keep entered values"
+        }
+      ],
+      "width": 1200,
+      "height": 800,
+      "editable": true,
+      "provenance": {
+        "authorship": "Original synthetic Ingenium example",
+        "license": "MIT",
+        "scenario": "Relay: fictional repair coordination workspace",
+        "fonts": "System generic sans-serif, serif and monospace requests; editorial DejaVuSerif, Georgia, serif fallbacks; no font binaries"
+      },
+      "limitations": [
+        "Static authored study, not product implementation or user acceptance.",
+        "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
+      ],
+      "file": "wireflow.svg",
+      "bytes": 7142,
+      "sha256": "251579957f6d4446f439a0cca1acc9ee84ea30ef841bd68cfa1b3f88aad99499"
+    },
+    {
+      "id": "state-sequence",
+      "title": "Same-screen state sequence",
+      "method": "state",
+      "scope": "Four aligned temporal states: invalid draft, repair/automatic valid update, applied local value and semantic undo.",
+      "schema": "ingenium-method-study/1",
+      "artifactID": "ingenium:relay:study:state-sequence",
+      "revision": 3,
+      "primaryMethod": "state-sequence",
+      "scenarioID": "ingenium:relay:scenario:assignment-edit",
+      "sceneID": "state-sequence-scene",
+      "sourceScenario": {
+        "kind": "fixture",
+        "scenarioID": "ingenium:relay:scenario:repair-coordination",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+        "modelVersion": null,
+        "mappingStatus": "no native mapping supplied",
+        "backend": "absent"
+      },
+      "semanticFixture": {
+        "domainID": "relay:work-order:R-1048",
+        "subjectTitle": "Bench lamp",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6"
+      },
+      "appearanceParameters": {
+        "collageSpacingScale": 5
+      },
+      "purpose": "Four aligned temporal states: invalid draft, repair/automatic valid update, applied local value and semantic undo.",
+      "audience": "People reviewing a proposed repair-coordination workspace",
+      "fidelity": {
+        "layout": "authored 1200 × 800 fixed viewport",
+        "appearance": "restrained structural sketch",
+        "content": "original fictional repair content"
+      },
+      "interactivity": {
+        "level": "static",
+        "actions": "Drawn controls specify proposed actions only."
+      },
+      "modelVersion": null,
+      "modelBinding": {
+        "status": "not-applicable",
+        "reason": "Original synthetic domain; no authoritative native model or API supplied."
+      },
+      "assumptions": [
+        "Relay, its people, work orders and revision labels are fictional.",
+        "No application runtime, persistence or backend is present."
+      ],
+      "claims": [
+        {
+          "id": "study-intent",
+          "subject": "ingenium:relay:study:state-sequence",
+          "result": "not-checked",
+          "specificationStatus": "authored",
+          "evidence": [],
+          "limits": [
+            "Original study of the stated question, without implying behavior.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "interaction-specification",
+          "subject": "ingenium:relay:study:state-sequence",
+          "result": "not-checked",
+          "specificationStatus": "specified",
+          "evidence": [],
+          "limits": [
+            "Only the visible paths and annotations in this artifact.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "runtime-behavior",
+          "subject": "ingenium:relay:study:state-sequence",
+          "result": "not-checked",
+          "specificationStatus": "not-run",
+          "evidence": [],
+          "limits": [
+            "No controls or transitions executed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "model-conformance",
+          "subject": "ingenium:relay:study:state-sequence",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No native model binding supplied.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "user-acceptance",
+          "subject": "ingenium:relay:study:state-sequence",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No scoped user choice or acceptance recorded.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "engineering-adequacy",
+          "subject": "ingenium:relay:study:state-sequence",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No engineering qualification performed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        }
+      ],
+      "viewElements": [
+        {
+          "id": "state-sequence-scene",
+          "role": "decorative scene shell"
+        },
+        {
+          "id": "state-sequence-view",
+          "role": "interaction requirement",
+          "requirementID": "relay:study-requirement:state-sequence"
+        },
+        {
+          "id": "state-sequence-subject-title",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        },
+        {
+          "id": "state-sequence-invalid",
+          "role": "temporal view",
+          "domainID": "relay:work-order:R-1048:assignment"
+        },
+        {
+          "id": "state-sequence-invalid-assignee",
+          "role": "assignee field",
+          "domainID": "relay:work-order:R-1048:assignment"
+        },
+        {
+          "id": "state-sequence-invalid-action",
+          "role": "interaction requirement",
+          "requirementID": "relay:assignment:invalid"
+        },
+        {
+          "id": "state-sequence-repaired",
+          "role": "temporal view",
+          "domainID": "relay:work-order:R-1048:assignment"
+        },
+        {
+          "id": "state-sequence-repaired-assignee",
+          "role": "assignee field",
+          "domainID": "relay:work-order:R-1048:assignment"
+        },
+        {
+          "id": "state-sequence-repaired-action",
+          "role": "interaction requirement",
+          "requirementID": "relay:assignment:repaired"
+        },
+        {
+          "id": "state-sequence-applied",
+          "role": "temporal view",
+          "domainID": "relay:work-order:R-1048:assignment"
+        },
+        {
+          "id": "state-sequence-applied-assignee",
+          "role": "assignee field",
+          "domainID": "relay:work-order:R-1048:assignment"
+        },
+        {
+          "id": "state-sequence-applied-action",
+          "role": "interaction requirement",
+          "requirementID": "relay:assignment:applied"
+        },
+        {
+          "id": "state-sequence-undone",
+          "role": "temporal view",
+          "domainID": "relay:work-order:R-1048:assignment"
+        },
+        {
+          "id": "state-sequence-undone-assignee",
+          "role": "assignee field",
+          "domainID": "relay:work-order:R-1048:assignment"
+        },
+        {
+          "id": "state-sequence-undone-action",
+          "role": "interaction requirement",
+          "requirementID": "relay:assignment:undone"
+        }
+      ],
+      "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
+      "omissions": [
+        "Runtime keyboard/focus, timing, persistence, concurrency and responsive behavior are untested."
+      ],
+      "unresolvedDecisions": [
+        "Proposed visual and behavior choices await scoped review."
+      ],
+      "stateContract": {
+        "status": "specified",
+        "domainID": "relay:work-order:R-1048:assignment",
+        "editingPolicy": "Valid input updates working model automatically; invalid raw input is retained separately. No global Apply gate.",
+        "owner": {
+          "selection": "relay:work-order:R-1048",
+          "editing": "shared assignment subject/field session",
+          "focus": "assignee field; restoration specified, untested"
+        },
+        "receiptRule": "Only a matching requestID/requestedRevision that is fresh for the current working revision may acknowledge validation or durable save. Reject stale results; this is a static rule, not executed rejection.",
+        "baseline": {
+          "semanticRevision": "relay:assignment:semantic-r1",
+          "assigneeId": null
+        },
+        "snapshots": [
+          {
+            "viewElementId": "state-sequence-invalid",
+            "viewState": "invalid",
+            "rawDraft": {
+              "text": "Mina?",
+              "status": "invalid",
+              "version": "relay:draft-v1"
+            },
+            "workingModel": {
+              "semanticRevision": "relay:assignment:semantic-r1",
+              "assigneeId": null
+            },
+            "validation": {
+              "status": "raw-invalid; prior valid model retained",
+              "semanticRevision": "relay:assignment:semantic-r1",
+              "diagnosticVersion": "relay:diagnostics:invalid",
+              "executed": false
+            },
+            "request": null,
+            "acknowledgedSave": {
+              "semanticRevision": "relay:assignment:semantic-r1",
+              "status": "specified-prior-durable-acknowledgement"
+            },
+            "saveStatus": "not-requested"
+          },
+          {
+            "viewElementId": "state-sequence-repaired",
+            "viewState": "repaired",
+            "rawDraft": {
+              "text": "Mina Patel",
+              "status": "valid",
+              "version": "relay:draft-v2"
+            },
+            "workingModel": {
+              "semanticRevision": "relay:assignment:semantic-r2",
+              "assigneeId": "relay:person:mina-patel"
+            },
+            "validation": {
+              "status": "specified-valid",
+              "semanticRevision": "relay:assignment:semantic-r2",
+              "diagnosticVersion": "relay:diagnostics:repaired",
+              "executed": false
+            },
+            "request": null,
+            "acknowledgedSave": {
+              "semanticRevision": "relay:assignment:semantic-r1",
+              "status": "specified-prior-durable-acknowledgement"
+            },
+            "saveStatus": "not-requested"
+          },
+          {
+            "viewElementId": "state-sequence-applied",
+            "viewState": "applied",
+            "rawDraft": null,
+            "workingModel": {
+              "semanticRevision": "relay:assignment:semantic-r2",
+              "assigneeId": "relay:person:mina-patel"
+            },
+            "validation": {
+              "status": "specified-valid",
+              "semanticRevision": "relay:assignment:semantic-r2",
+              "diagnosticVersion": "relay:diagnostics:applied",
+              "executed": false
+            },
+            "request": null,
+            "acknowledgedSave": {
+              "semanticRevision": "relay:assignment:semantic-r1",
+              "status": "specified-prior-durable-acknowledgement"
+            },
+            "saveStatus": "not-requested"
+          },
+          {
+            "viewElementId": "state-sequence-undone",
+            "viewState": "undone",
+            "rawDraft": null,
+            "workingModel": {
+              "semanticRevision": "relay:assignment:semantic-r3",
+              "assigneeId": null
+            },
+            "validation": {
+              "status": "specified-valid",
+              "semanticRevision": "relay:assignment:semantic-r3",
+              "diagnosticVersion": "relay:diagnostics:undone",
+              "executed": false
+            },
+            "request": null,
+            "acknowledgedSave": {
+              "semanticRevision": "relay:assignment:semantic-r1",
+              "status": "specified-prior-durable-acknowledgement"
+            },
+            "saveStatus": "not-requested"
+          }
+        ],
+        "edges": [
+          {
+            "id": "assignment-repair",
+            "sourceStateID": "state-sequence-invalid",
+            "destinationStateID": "state-sequence-repaired",
+            "triggerKind": "valid input repair",
+            "controlRef": "state-sequence-invalid-action",
+            "guard": "raw text resolves to a listed person",
+            "preservation": "same subject and durable r1",
+            "effect": "Automatic valid model update creates r2; raw invalid input never overwrites r1."
+          },
+          {
+            "id": "assignment-close-draft",
+            "sourceStateID": "state-sequence-repaired",
+            "destinationStateID": "state-sequence-applied",
+            "triggerKind": "finish editing",
+            "controlRef": null,
+            "guard": "valid update already applied; close gesture unspecified",
+            "preservation": "working r2 and durable r1",
+            "effect": "Close raw draft; working r2 unchanged."
+          },
+          {
+            "id": "assignment-model-undo",
+            "sourceStateID": "state-sequence-applied",
+            "destinationStateID": "state-sequence-undone",
+            "triggerKind": "scoped model undo",
+            "controlRef": "state-sequence-applied-action",
+            "guard": "no unresolved raw draft",
+            "preservation": "same subject and durable r1",
+            "effect": "Restore r1 value as NEW r3; do not rewind revision identity."
+          }
+        ],
+        "undo": {
+          "status": "drawn specification",
+          "newSemanticRevision": "relay:assignment:semantic-r3",
+          "restoresValueFrom": "relay:assignment:semantic-r1",
+          "precondition": "Resolve a pending raw draft by valid update or discard first; text undo is a distinct editor operation.",
+          "acknowledgedSaveRevision": "relay:assignment:semantic-r1"
+        },
+        "deltaLedger": {
+          "changed": [
+            "raw draft content/status",
+            "working value and semantic revision",
+            "diagnostic version"
+          ],
+          "unchanged": [
+            "panel anchors",
+            "subject selection",
+            "editing owner",
+            "durable acknowledgement r1"
+          ]
+        },
+        "omissions": [
+          "Pending saves, stale receipt arrival, failed acknowledgement, cancellation and concurrent update recovery are specified as rules or omitted; none is executed."
+        ]
+      },
+      "width": 1200,
+      "height": 800,
+      "editable": true,
+      "provenance": {
+        "authorship": "Original synthetic Ingenium example",
+        "license": "MIT",
+        "scenario": "Relay: fictional repair coordination workspace",
+        "fonts": "System generic sans-serif, serif and monospace requests; editorial DejaVuSerif, Georgia, serif fallbacks; no font binaries"
+      },
+      "limitations": [
+        "Static authored study, not product implementation or user acceptance.",
+        "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
+      ],
+      "file": "state-sequence.svg",
+      "bytes": 8849,
+      "sha256": "a0f28ce8d796135a6e92cf7b6a730c4989364dc759b125bebfe2e5602352fe41"
+    },
+    {
+      "id": "desktop-workflow",
+      "title": "Complex desktop workflow",
+      "method": "workspace",
+      "scope": "Three-pane desktop with separate note and assignment commit boundaries.",
+      "schema": "ingenium-method-study/1",
+      "artifactID": "ingenium:relay:study:desktop-workflow",
+      "revision": 3,
+      "primaryMethod": "desktop-workflow",
+      "scenarioID": "ingenium:relay:scenario:repair-coordination",
+      "sceneID": "desktop-workflow-scene",
+      "sourceScenario": {
+        "kind": "fixture",
+        "scenarioID": "ingenium:relay:scenario:repair-coordination",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+        "modelVersion": null,
+        "mappingStatus": "no native mapping supplied",
+        "backend": "absent"
+      },
+      "semanticFixture": {
+        "domainID": "relay:work-order:R-1048",
+        "subjectTitle": "Bench lamp",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6"
+      },
+      "appearanceParameters": {
+        "collageSpacingScale": 5
+      },
+      "purpose": "Three-pane desktop with separate note and assignment commit boundaries.",
+      "audience": "People reviewing a proposed repair-coordination workspace",
+      "fidelity": {
+        "layout": "authored 1200 × 800 fixed viewport",
+        "appearance": "restrained structural sketch",
+        "content": "original fictional repair content"
+      },
+      "interactivity": {
+        "level": "static",
+        "actions": "Drawn controls specify proposed actions only."
+      },
+      "modelVersion": null,
+      "modelBinding": {
+        "status": "not-applicable",
+        "reason": "Original synthetic domain; no authoritative native model or API supplied."
+      },
+      "assumptions": [
+        "Relay, its people, work orders and revision labels are fictional.",
+        "No application runtime, persistence or backend is present."
+      ],
+      "claims": [
+        {
+          "id": "study-intent",
+          "subject": "ingenium:relay:study:desktop-workflow",
+          "result": "not-checked",
+          "specificationStatus": "authored",
+          "evidence": [],
+          "limits": [
+            "Original study of the stated question, without implying behavior.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "interaction-specification",
+          "subject": "ingenium:relay:study:desktop-workflow",
+          "result": "not-checked",
+          "specificationStatus": "specified",
+          "evidence": [],
+          "limits": [
+            "Only the visible paths and annotations in this artifact.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "runtime-behavior",
+          "subject": "ingenium:relay:study:desktop-workflow",
+          "result": "not-checked",
+          "specificationStatus": "not-run",
+          "evidence": [],
+          "limits": [
+            "No controls or transitions executed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "model-conformance",
+          "subject": "ingenium:relay:study:desktop-workflow",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No native model binding supplied.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "user-acceptance",
+          "subject": "ingenium:relay:study:desktop-workflow",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No scoped user choice or acceptance recorded.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "engineering-adequacy",
+          "subject": "ingenium:relay:study:desktop-workflow",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No engineering qualification performed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        }
+      ],
+      "viewElements": [
+        {
+          "id": "desktop-workflow-scene",
+          "role": "decorative scene shell"
+        },
+        {
+          "id": "desktop-workflow-view",
+          "role": "interaction requirement",
+          "requirementID": "relay:study-requirement:desktop-workflow"
+        },
+        {
+          "id": "desktop-workflow-subject-title",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        }
+      ],
+      "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
+      "omissions": [
+        "Runtime keyboard/focus, timing, persistence, concurrency and responsive behavior are untested."
+      ],
+      "unresolvedDecisions": [
+        "Proposed visual and behavior choices await scoped review."
+      ],
+      "eventLedger": {
+        "status": "drawn static event trace",
+        "policy": "Automatic valid working-model updates; no forced global Apply or save-before-navigation.",
+        "sessionKey": {
+          "domainID": "relay:work-order:R-1048:assignment",
+          "field": "assignee"
+        },
+        "events": [
+          {
+            "id": "desktop-select",
+            "selection": "relay:work-order:R-1048",
+            "focusOwner": "inspector.assignee",
+            "editingOwner": "shared assignment session",
+            "rawDraft": null,
+            "workingRevision": "r1",
+            "pendingOperation": null,
+            "views": "Queue/detail/inspector project valid r1."
+          },
+          {
+            "id": "desktop-invalid",
+            "selection": "relay:work-order:R-1048",
+            "focusOwner": "inspector.assignee",
+            "editingOwner": "same shared session",
+            "rawDraft": "Mina?",
+            "workingRevision": "r1",
+            "pendingOperation": null,
+            "views": "Raw editor draft only; linked views retain valid r1."
+          },
+          {
+            "id": "desktop-transfer",
+            "selection": "relay:work-order:R-1048",
+            "focusOwner": "destination assignee editor restores caret",
+            "editingOwner": "same session transfers across panes",
+            "rawDraft": "Mina?",
+            "workingRevision": "r1",
+            "pendingOperation": null,
+            "views": "No duplicate subject or independent draft."
+          },
+          {
+            "id": "desktop-repair",
+            "selection": "relay:work-order:R-1048",
+            "focusOwner": "assignee editor",
+            "editingOwner": "same session",
+            "rawDraft": "Mina Patel",
+            "workingRevision": "r2",
+            "pendingOperation": {
+              "requestID": "relay:save-request:r2",
+              "requestedRevision": "r2",
+              "freshness": "reject if current revision differs"
+            },
+            "views": "Valid input auto-updates working views; durable acknowledgement remains r1."
+          }
+        ],
+        "selectionChange": "Keep unresolved draft keyed by subject and field; a new selection starts or resumes its own session. Returning restores the previous draft/focus where supported; no forced save-before-navigation.",
+        "matrix": {
+          "rawProjection": "Inspector/editor session only",
+          "appliedProjection": "Queue/detail and other views use valid working revision",
+          "diagnostics": "Versioned separately; raw draft errors do not overwrite working model",
+          "note": "Independent subject/field session"
+        },
+        "omissions": [
+          "Focus restoration, keyboard/non-drag alternatives, minimum resize, reopen behavior, shared-session transfer and stale receipt rejection are specified only; no live execution."
+        ]
+      },
+      "width": 1200,
+      "height": 800,
+      "editable": true,
+      "provenance": {
+        "authorship": "Original synthetic Ingenium example",
+        "license": "MIT",
+        "scenario": "Relay: fictional repair coordination workspace",
+        "fonts": "System generic sans-serif, serif and monospace requests; editorial DejaVuSerif, Georgia, serif fallbacks; no font binaries"
+      },
+      "limitations": [
+        "Static authored study, not product implementation or user acceptance.",
+        "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
+      ],
+      "file": "desktop-workflow.svg",
+      "bytes": 7378,
+      "sha256": "77fed66e267b4701f1d447bdc115d7f93309d11e92960d792a1b907b1624a424"
+    },
+    {
+      "id": "empty-error",
+      "title": "Empty and error states",
+      "method": "recovery",
+      "scope": "First-use empty state and retained-input connection error.",
+      "schema": "ingenium-method-study/1",
+      "artifactID": "ingenium:relay:study:empty-error",
+      "revision": 3,
+      "primaryMethod": "empty-error",
+      "scenarioID": "ingenium:relay:scenario:repair-coordination",
+      "sceneID": "empty-error-scene",
+      "sourceScenario": {
+        "kind": "fixture",
+        "scenarioID": "ingenium:relay:scenario:repair-coordination",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+        "modelVersion": null,
+        "mappingStatus": "no native mapping supplied",
+        "backend": "absent"
+      },
+      "semanticFixture": {
+        "domainID": "relay:work-order:R-1048",
+        "subjectTitle": "Bench lamp",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6"
+      },
+      "appearanceParameters": {
+        "collageSpacingScale": 5
+      },
+      "purpose": "First-use empty state and retained-input connection error.",
+      "audience": "People reviewing a proposed repair-coordination workspace",
+      "fidelity": {
+        "layout": "authored 1200 × 800 fixed viewport",
+        "appearance": "restrained structural sketch",
+        "content": "original fictional repair content"
+      },
+      "interactivity": {
+        "level": "static",
+        "actions": "Drawn controls specify proposed actions only."
+      },
+      "modelVersion": null,
+      "modelBinding": {
+        "status": "not-applicable",
+        "reason": "Original synthetic domain; no authoritative native model or API supplied."
+      },
+      "assumptions": [
+        "Relay, its people, work orders and revision labels are fictional.",
+        "No application runtime, persistence or backend is present."
+      ],
+      "claims": [
+        {
+          "id": "study-intent",
+          "subject": "ingenium:relay:study:empty-error",
+          "result": "not-checked",
+          "specificationStatus": "authored",
+          "evidence": [],
+          "limits": [
+            "Original study of the stated question, without implying behavior.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "interaction-specification",
+          "subject": "ingenium:relay:study:empty-error",
+          "result": "not-checked",
+          "specificationStatus": "specified",
+          "evidence": [],
+          "limits": [
+            "Only the visible paths and annotations in this artifact.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "runtime-behavior",
+          "subject": "ingenium:relay:study:empty-error",
+          "result": "not-checked",
+          "specificationStatus": "not-run",
+          "evidence": [],
+          "limits": [
+            "No controls or transitions executed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "model-conformance",
+          "subject": "ingenium:relay:study:empty-error",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No native model binding supplied.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "user-acceptance",
+          "subject": "ingenium:relay:study:empty-error",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No scoped user choice or acceptance recorded.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "engineering-adequacy",
+          "subject": "ingenium:relay:study:empty-error",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No engineering qualification performed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        }
+      ],
+      "viewElements": [
+        {
+          "id": "empty-error-scene",
+          "role": "decorative scene shell"
+        },
+        {
+          "id": "empty-error-view",
+          "role": "interaction requirement",
+          "requirementID": "relay:study-requirement:empty-error"
+        },
+        {
+          "id": "empty-error-subject-title",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        }
+      ],
+      "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
+      "omissions": [
+        "Runtime keyboard/focus, timing, persistence, concurrency and responsive behavior are untested."
+      ],
+      "unresolvedDecisions": [
+        "Proposed visual and behavior choices await scoped review."
+      ],
+      "stateInventory": {
+        "drawn": [
+          "first use: no records, create action",
+          "failed assignment: retained selection, retry or leave"
+        ],
+        "omitted": [
+          "no results",
+          "invalid input",
+          "access unavailable",
+          "malformed import",
+          "pending or stale response"
+        ],
+        "retry": "A retry is a new request requiring valid inputs and a fresh matching acknowledgement; duplicate safety and real reachability are untested.",
+        "exit": "Leaving needs an unresolved-draft policy; not specified as a successful save."
+      },
+      "width": 1200,
+      "height": 800,
+      "editable": true,
+      "provenance": {
+        "authorship": "Original synthetic Ingenium example",
+        "license": "MIT",
+        "scenario": "Relay: fictional repair coordination workspace",
+        "fonts": "System generic sans-serif, serif and monospace requests; editorial DejaVuSerif, Georgia, serif fallbacks; no font binaries"
+      },
+      "limitations": [
+        "Static authored study, not product implementation or user acceptance.",
+        "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
+      ],
+      "file": "empty-error.svg",
+      "bytes": 4982,
+      "sha256": "9e07a1d92fd76939c3fc548a0526e20c54ef183c1c74469667bbf60d06a0d66d"
+    },
+    {
+      "id": "element-collage",
+      "title": "Element collage",
+      "method": "visual-study",
+      "scope": "Independent presentation fragments without implied behavior.",
+      "schema": "ingenium-method-study/1",
+      "artifactID": "ingenium:relay:study:element-collage",
+      "revision": 3,
+      "primaryMethod": "element-collage",
+      "scenarioID": "ingenium:relay:scenario:repair-coordination",
+      "sceneID": "element-collage-scene",
+      "sourceScenario": {
+        "kind": "fixture",
+        "scenarioID": "ingenium:relay:scenario:repair-coordination",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+        "modelVersion": null,
+        "mappingStatus": "no native mapping supplied",
+        "backend": "absent"
+      },
+      "semanticFixture": {
+        "domainID": "relay:work-order:R-1048",
+        "subjectTitle": "Bench lamp",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6"
+      },
+      "appearanceParameters": {
+        "collageSpacingScale": 5
+      },
+      "purpose": "Independent presentation fragments without implied behavior.",
+      "audience": "People reviewing a proposed repair-coordination workspace",
+      "fidelity": {
+        "layout": "authored 1200 × 800 fixed viewport",
+        "appearance": "visual study",
+        "content": "original fictional repair content"
+      },
+      "interactivity": {
+        "level": "static",
+        "actions": "No interactive path specified."
+      },
+      "modelVersion": null,
+      "modelBinding": {
+        "status": "not-applicable",
+        "reason": "Original synthetic domain; no authoritative native model or API supplied."
+      },
+      "assumptions": [
+        "Relay, its people, work orders and revision labels are fictional.",
+        "No application runtime, persistence or backend is present."
+      ],
+      "claims": [
+        {
+          "id": "study-intent",
+          "subject": "ingenium:relay:study:element-collage",
+          "result": "not-checked",
+          "specificationStatus": "authored",
+          "evidence": [],
+          "limits": [
+            "Original study of the stated question, without implying behavior.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "interaction-specification",
+          "subject": "ingenium:relay:study:element-collage",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "This study does not specify an interaction path.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "runtime-behavior",
+          "subject": "ingenium:relay:study:element-collage",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No controls or transitions executed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "model-conformance",
+          "subject": "ingenium:relay:study:element-collage",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No native model binding supplied.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "user-acceptance",
+          "subject": "ingenium:relay:study:element-collage",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No scoped user choice or acceptance recorded.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "engineering-adequacy",
+          "subject": "ingenium:relay:study:element-collage",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No engineering qualification performed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        }
+      ],
+      "viewElements": [
+        {
+          "id": "element-collage-scene",
+          "role": "decorative scene shell"
+        },
+        {
+          "id": "element-collage-view",
+          "role": "interaction requirement",
+          "requirementID": "relay:study-requirement:element-collage"
+        },
+        {
+          "id": "element-collage-subject-title",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        }
+      ],
+      "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
+      "omissions": [
+        "Runtime keyboard/focus, timing, persistence, concurrency and responsive behavior are untested."
+      ],
+      "unresolvedDecisions": [
+        "Proposed visual and behavior choices await scoped review."
+      ],
+      "comparison": {
+        "kind": "exploratory assemblage",
+        "treatmentVariables": [
+          "type roles",
+          "color",
+          "spacing",
+          "surface and component treatment"
+        ],
+        "heldContent": [
+          "Relay repair vocabulary",
+          "work-order R-1048",
+          "assignment and note task labels"
+        ],
+        "controlledFragment": {
+          "question": "Filled or outlined status badge?",
+          "variants": [
+            "filled",
+            "outlined"
+          ],
+          "constants": [
+            "Ready and Needs review wording",
+            "semantic text color",
+            "type size and weight",
+            "badge dimensions"
+          ],
+          "variable": "background fill versus outline",
+          "openChoice": "No preferred treatment selected",
+          "compatibility": "Both preserve a written status cue."
+        },
+        "limit": "Assemblage includes one local controlled badge comparison; not a full controlled multi-direction collage or product layout."
+      },
+      "width": 1200,
+      "height": 800,
+      "editable": true,
+      "provenance": {
+        "authorship": "Original synthetic Ingenium example",
+        "license": "MIT",
+        "scenario": "Relay: fictional repair coordination workspace",
+        "fonts": "System generic sans-serif, serif and monospace requests; editorial DejaVuSerif, Georgia, serif fallbacks; no font binaries"
+      },
+      "limitations": [
+        "Static authored study, not product implementation or user acceptance.",
+        "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
+      ],
+      "file": "element-collage.svg",
+      "bytes": 7631,
+      "sha256": "40d4128b70640305b04e69560cf35805d1e6d5c4733f808ae907e99d7194e62e"
+    },
+    {
+      "id": "palette-families",
+      "title": "Palette families",
+      "method": "visual-comparison",
+      "scope": "Three families applied to identical content and geometry.",
+      "schema": "ingenium-method-study/1",
+      "artifactID": "ingenium:relay:study:palette-families",
+      "revision": 3,
+      "primaryMethod": "palette-families",
+      "scenarioID": "ingenium:relay:scenario:repair-coordination",
+      "sceneID": "palette-families-scene",
+      "sourceScenario": {
+        "kind": "fixture",
+        "scenarioID": "ingenium:relay:scenario:repair-coordination",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+        "modelVersion": null,
+        "mappingStatus": "no native mapping supplied",
+        "backend": "absent"
+      },
+      "semanticFixture": {
+        "domainID": "relay:work-order:R-1048",
+        "subjectTitle": "Bench lamp",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6"
+      },
+      "appearanceParameters": {
+        "collageSpacingScale": 5
+      },
+      "purpose": "Three families applied to identical content and geometry.",
+      "audience": "People reviewing a proposed repair-coordination workspace",
+      "fidelity": {
+        "layout": "authored 1200 × 800 fixed viewport",
+        "appearance": "visual study",
+        "content": "original fictional repair content"
+      },
+      "interactivity": {
+        "level": "static",
+        "actions": "No interactive path specified."
+      },
+      "modelVersion": null,
+      "modelBinding": {
+        "status": "not-applicable",
+        "reason": "Original synthetic domain; no authoritative native model or API supplied."
+      },
+      "assumptions": [
+        "Relay, its people, work orders and revision labels are fictional.",
+        "No application runtime, persistence or backend is present."
+      ],
+      "claims": [
+        {
+          "id": "study-intent",
+          "subject": "ingenium:relay:study:palette-families",
+          "result": "not-checked",
+          "specificationStatus": "authored",
+          "evidence": [],
+          "limits": [
+            "Original study of the stated question, without implying behavior.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "interaction-specification",
+          "subject": "ingenium:relay:study:palette-families",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "This study does not specify an interaction path.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "runtime-behavior",
+          "subject": "ingenium:relay:study:palette-families",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No controls or transitions executed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "model-conformance",
+          "subject": "ingenium:relay:study:palette-families",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No native model binding supplied.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "user-acceptance",
+          "subject": "ingenium:relay:study:palette-families",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No scoped user choice or acceptance recorded.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "engineering-adequacy",
+          "subject": "ingenium:relay:study:palette-families",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No engineering qualification performed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        }
+      ],
+      "viewElements": [
+        {
+          "id": "palette-families-scene",
+          "role": "decorative scene shell"
+        },
+        {
+          "id": "palette-families-view",
+          "role": "interaction requirement",
+          "requirementID": "relay:study-requirement:palette-families"
+        },
+        {
+          "id": "palette-families-subject-title",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        }
+      ],
+      "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
+      "omissions": [
+        "Runtime keyboard/focus, timing, persistence, concurrency and responsive behavior are untested."
+      ],
+      "unresolvedDecisions": [
+        "Proposed visual and behavior choices await scoped review."
+      ],
+      "comparison": {
+        "kind": "controlled family comparison",
+        "treatmentVariables": [
+          "color values by role"
+        ],
+        "heldContent": [
+          "text",
+          "geometry",
+          "typography",
+          "semantic role names"
+        ],
+        "nonColorCue": "Written status label preserves meaning.",
+        "allowedPairs": "Only the declared opaque pairs in contrast-report.json are measured.",
+        "unsupported": [
+          "Focus ring against adjacent dark action and actual geometry",
+          "selection-versus-focus behavior",
+          "alpha, hover and dark mode"
+        ],
+        "limit": "No preferred family, universal tone ranking or interactive focus qualification."
+      },
+      "width": 1200,
+      "height": 800,
+      "editable": true,
+      "provenance": {
+        "authorship": "Original synthetic Ingenium example",
+        "license": "MIT",
+        "scenario": "Relay: fictional repair coordination workspace",
+        "fonts": "System generic sans-serif, serif and monospace requests; editorial DejaVuSerif, Georgia, serif fallbacks; no font binaries"
+      },
+      "limitations": [
+        "Static authored study, not product implementation or user acceptance.",
+        "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
+      ],
+      "file": "palette-families.svg",
+      "bytes": 13883,
+      "sha256": "9c63a43c22098c4d8d30223b234f2dd563fa5cc6e807cd3db1b0c81a5b89aeee"
+    },
+    {
+      "id": "fontplate",
+      "title": "Fontplate / type specimen",
+      "method": "typography",
+      "scope": "Fixed-metrics identical-corpus generic sans/serif comparison; actual fonts unresolved.",
+      "schema": "ingenium-method-study/1",
+      "artifactID": "ingenium:relay:study:fontplate",
+      "revision": 3,
+      "primaryMethod": "fontplate",
+      "scenarioID": "ingenium:relay:scenario:repair-coordination",
+      "sceneID": "fontplate-scene",
+      "sourceScenario": {
+        "kind": "fixture",
+        "scenarioID": "ingenium:relay:scenario:repair-coordination",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+        "modelVersion": null,
+        "mappingStatus": "no native mapping supplied",
+        "backend": "absent"
+      },
+      "semanticFixture": {
+        "domainID": "relay:work-order:R-1048",
+        "subjectTitle": "Bench lamp",
+        "revision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6"
+      },
+      "appearanceParameters": {
+        "collageSpacingScale": 5
+      },
+      "purpose": "Fixed-metrics identical-corpus generic sans/serif comparison; actual fonts unresolved.",
+      "audience": "People reviewing a proposed repair-coordination workspace",
+      "fidelity": {
+        "layout": "authored 1200 × 800 fixed viewport",
+        "appearance": "visual study",
+        "content": "original fictional repair content"
+      },
+      "interactivity": {
+        "level": "static",
+        "actions": "No interactive path specified."
+      },
+      "modelVersion": null,
+      "modelBinding": {
+        "status": "not-applicable",
+        "reason": "Original synthetic domain; no authoritative native model or API supplied."
+      },
+      "assumptions": [
+        "Relay, its people, work orders and revision labels are fictional.",
+        "No application runtime, persistence or backend is present."
+      ],
+      "claims": [
+        {
+          "id": "study-intent",
+          "subject": "ingenium:relay:study:fontplate",
+          "result": "not-checked",
+          "specificationStatus": "authored",
+          "evidence": [],
+          "limits": [
+            "Original study of the stated question, without implying behavior.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "interaction-specification",
+          "subject": "ingenium:relay:study:fontplate",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "This study does not specify an interaction path.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "runtime-behavior",
+          "subject": "ingenium:relay:study:fontplate",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No controls or transitions executed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "model-conformance",
+          "subject": "ingenium:relay:study:fontplate",
+          "result": "N/A",
+          "specificationStatus": "not-applicable",
+          "evidence": [],
+          "limits": [
+            "No native model binding supplied.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "user-acceptance",
+          "subject": "ingenium:relay:study:fontplate",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No scoped user choice or acceptance recorded.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        },
+        {
+          "id": "engineering-adequacy",
+          "subject": "ingenium:relay:study:fontplate",
+          "result": "not-checked",
+          "specificationStatus": "not-established",
+          "evidence": [],
+          "limits": [
+            "No engineering qualification performed.",
+            "Pure authoring metadata; not an executed check receipt."
+          ],
+          "toolVersion": null,
+          "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
+          "viewRevision": 3
+        }
+      ],
+      "viewElements": [
+        {
+          "id": "fontplate-scene",
+          "role": "decorative scene shell"
+        },
+        {
+          "id": "fontplate-view",
+          "role": "interaction requirement",
+          "requirementID": "relay:study-requirement:fontplate"
+        },
+        {
+          "id": "fontplate-subject-title",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        }
+      ],
+      "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
+      "omissions": [
+        "Runtime keyboard/focus, timing, persistence, concurrency and responsive behavior are untested."
+      ],
+      "unresolvedDecisions": [
+        "Proposed visual and behavior choices await scoped review."
+      ],
+      "comparison": {
+        "kind": "fixed-metrics family-request comparison",
+        "treatmentVariables": [
+          "generic requested family: sans-serif versus serif"
+        ],
+        "heldContent": [
+          "identical corpus",
+          "490 px width",
+          "nominal size/weight/line step",
+          "spacing"
+        ],
+        "modes": {
+          "fixedMetrics": "Drawn side by side with identical corpus and nominal metrics.",
+          "tunedFit": "Omitted; no per-family metric adjustments."
+        },
+        "metricDeltas": [],
+        "actualFonts": {
+          "status": "unresolved",
+          "candidateEvidence": "../font-environment.json; system fontconfig candidates only",
+          "reason": "Generic family request; renderer does not establish per-glyph actual font identities."
+        },
+        "limit": "No exact font binding, glyph coverage, tuned-fit result or superiority claim."
+      },
+      "width": 1200,
+      "height": 800,
+      "editable": true,
+      "provenance": {
+        "authorship": "Original synthetic Ingenium example",
+        "license": "MIT",
+        "scenario": "Relay: fictional repair coordination workspace",
+        "fonts": "System generic sans-serif, serif and monospace requests; editorial DejaVuSerif, Georgia, serif fallbacks; no font binaries"
+      },
+      "limitations": [
+        "Static authored study, not product implementation or user acceptance.",
+        "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
+      ],
+      "file": "fontplate.svg",
+      "bytes": 8179,
+      "sha256": "959ae49a7160eb680f94de5e29b06f7b0882f0719d2b4b8cd8b8c60f0b9fb269"
+    }
+  ]
+}

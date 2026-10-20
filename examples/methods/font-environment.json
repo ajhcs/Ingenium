@@ -1,0 +1,157 @@
+{
+  "schema": "ingenium-system-font-candidates/1",
+  "scope": "Actual system fontconfig candidate resolution for five finite patterns; no glyph shaping or rendering probe.",
+  "fontBytesRedistributed": false,
+  "exactSharpPerGlyphBinding": {
+    "status": "unknown",
+    "reason": "System fontconfig may differ from the renderer's fontconfig and fallback environment."
+  },
+  "systemFontconfig": {
+    "status": "present",
+    "libraryBasename": "libfontconfig.so.1",
+    "versionInteger": 21500,
+    "version": "2.15.0"
+  },
+  "candidates": [
+    {
+      "requested": "sans-serif",
+      "status": "matched",
+      "fontconfigResult": 0,
+      "family": "DejaVu Sans",
+      "style": "Book",
+      "font": {
+        "basename": "DejaVuSans.ttf",
+        "bytes": 759720,
+        "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+      },
+      "licenseEvidence": {
+        "status": "recorded",
+        "notice": {
+          "basename": "copyright",
+          "bytes": 3859,
+          "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+          "parentBasename": "fonts-dejavu-core"
+        },
+        "mappingBasis": "explicit CLI font-basename-to-notice mapping",
+        "declaration": {
+          "files": "*",
+          "licenseLabel": "bitstream-vera",
+          "declaresDejaVuChangesPublicDomain": true
+        },
+        "limit": "Caller mapping is not independently verified package ownership or a rights conclusion."
+      }
+    },
+    {
+      "requested": "sans-serif:weight=bold",
+      "status": "matched",
+      "fontconfigResult": 0,
+      "family": "DejaVu Sans",
+      "style": "Bold",
+      "font": {
+        "basename": "DejaVuSans-Bold.ttf",
+        "bytes": 708920,
+        "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+      },
+      "licenseEvidence": {
+        "status": "recorded",
+        "notice": {
+          "basename": "copyright",
+          "bytes": 3859,
+          "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+          "parentBasename": "fonts-dejavu-core"
+        },
+        "mappingBasis": "explicit CLI font-basename-to-notice mapping",
+        "declaration": {
+          "files": "*",
+          "licenseLabel": "bitstream-vera",
+          "declaresDejaVuChangesPublicDomain": true
+        },
+        "limit": "Caller mapping is not independently verified package ownership or a rights conclusion."
+      }
+    },
+    {
+      "requested": "serif",
+      "status": "matched",
+      "fontconfigResult": 0,
+      "family": "DejaVu Serif",
+      "style": "Book",
+      "font": {
+        "basename": "DejaVuSerif.ttf",
+        "bytes": 380660,
+        "sha256": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab"
+      },
+      "licenseEvidence": {
+        "status": "recorded",
+        "notice": {
+          "basename": "copyright",
+          "bytes": 3859,
+          "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+          "parentBasename": "fonts-dejavu-core"
+        },
+        "mappingBasis": "explicit CLI font-basename-to-notice mapping",
+        "declaration": {
+          "files": "*",
+          "licenseLabel": "bitstream-vera",
+          "declaresDejaVuChangesPublicDomain": true
+        },
+        "limit": "Caller mapping is not independently verified package ownership or a rights conclusion."
+      }
+    },
+    {
+      "requested": "serif:weight=bold",
+      "status": "matched",
+      "fontconfigResult": 0,
+      "family": "DejaVu Serif",
+      "style": "Bold",
+      "font": {
+        "basename": "DejaVuSerif-Bold.ttf",
+        "bytes": 356668,
+        "sha256": "847b33e13925f19ff87e4d934d6b3cf7cac35ce16424f6f670e40c2f377cf2df"
+      },
+      "licenseEvidence": {
+        "status": "recorded",
+        "notice": {
+          "basename": "copyright",
+          "bytes": 3859,
+          "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+          "parentBasename": "fonts-dejavu-core"
+        },
+        "mappingBasis": "explicit CLI font-basename-to-notice mapping",
+        "declaration": {
+          "files": "*",
+          "licenseLabel": "bitstream-vera",
+          "declaresDejaVuChangesPublicDomain": true
+        },
+        "limit": "Caller mapping is not independently verified package ownership or a rights conclusion."
+      }
+    },
+    {
+      "requested": "monospace",
+      "status": "matched",
+      "fontconfigResult": 0,
+      "family": "DejaVu Sans Mono",
+      "style": "Book",
+      "font": {
+        "basename": "DejaVuSansMono.ttf",
+        "bytes": 343140,
+        "sha256": "c805f9436dbc268644c1d9584f01a601a653e028e08fd74b9b949f6cf8304d88"
+      },
+      "licenseEvidence": {
+        "status": "recorded",
+        "notice": {
+          "basename": "copyright",
+          "bytes": 3859,
+          "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+          "parentBasename": "fonts-dejavu-mono"
+        },
+        "mappingBasis": "explicit CLI font-basename-to-notice mapping",
+        "declaration": {
+          "files": "*",
+          "licenseLabel": "bitstream-vera",
+          "declaresDejaVuChangesPublicDomain": true
+        },
+        "limit": "Caller mapping is not independently verified package ownership or a rights conclusion."
+      }
+    }
+  ]
+}

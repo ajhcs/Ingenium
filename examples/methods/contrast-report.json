@@ -1,0 +1,268 @@
+{
+  "schema": "ingenium-method-contrast/1",
+  "sources": [
+    {
+      "id": "palette-families",
+      "sha256": "9c63a43c22098c4d8d30223b234f2dd563fa5cc6e807cd3db1b0c81a5b89aeee"
+    },
+    {
+      "id": "fontplate",
+      "sha256": "959ae49a7160eb680f94de5e29b06f7b0882f0719d2b4b8cd8b8c60f0b9fb269"
+    }
+  ],
+  "scope": "Declared opaque text pairs in palette and type specimens, shared editorial copy, and candidate focus ink against surface. Some semantic-role swatches are suggestions for later application.",
+  "limits": "Not a full SVG composition or accessibility audit. Borders are decorative grouping in these static sheets, not qualified control boundaries. Selection fill has labeled text; no selection-fill contrast claim. Hover, actual focus geometry, interactive states, alpha, zoom and dark mode are untested.",
+  "status": "pass",
+  "pairs": [
+    {
+      "study": "palette-families",
+      "target": "01 / Harbor: body",
+      "foreground": "#23313b",
+      "background": "#f5f7f8",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 12.416115371317119,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "01 / Harbor: reversed heading",
+      "foreground": "#ffffff",
+      "background": "#23313b",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 13.342283734522912,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "01 / Harbor: action text",
+      "foreground": "#ffffff",
+      "background": "#315f9b",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 6.479904057702286,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "01 / Harbor: status text",
+      "foreground": "#15776d",
+      "background": "#eaf0f9",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 4.710447430452294,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "01 / Harbor: focus ink on surface",
+      "foreground": "#315f9b",
+      "background": "#f5f7f8",
+      "threshold": 3,
+      "composition": "opaque sRGB",
+      "ratio": 6.030094845556394,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "01 / Harbor: warning ink on surface",
+      "foreground": "#946018",
+      "background": "#f5f7f8",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 4.953028645567709,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "01 / Harbor: error ink on surface",
+      "foreground": "#a23d3d",
+      "background": "#f5f7f8",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 5.974111351163979,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "02 / Field: body",
+      "foreground": "#2f3832",
+      "background": "#f7f7f0",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 11.26483345749035,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "02 / Field: reversed heading",
+      "foreground": "#ffffff",
+      "background": "#2f3832",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 12.120549313407588,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "02 / Field: action text",
+      "foreground": "#ffffff",
+      "background": "#456e50",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 5.834546688774731,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "02 / Field: status text",
+      "foreground": "#556128",
+      "background": "#edf2e7",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 5.902455568579506,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "02 / Field: focus ink on surface",
+      "foreground": "#456e50",
+      "background": "#f7f7f0",
+      "threshold": 3,
+      "composition": "opaque sRGB",
+      "ratio": 5.422625249855203,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "02 / Field: warning ink on surface",
+      "foreground": "#946018",
+      "background": "#f7f7f0",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 4.946724740792005,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "02 / Field: error ink on surface",
+      "foreground": "#a23d3d",
+      "background": "#f7f7f0",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 5.966507876245479,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "03 / Mineral: body",
+      "foreground": "#37333d",
+      "background": "#f7f4f7",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 11.294256886654974,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "03 / Mineral: reversed heading",
+      "foreground": "#ffffff",
+      "background": "#37333d",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 12.328574447280362,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "03 / Mineral: action text",
+      "foreground": "#ffffff",
+      "background": "#735875",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 6.2098432970147135,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "03 / Mineral: status text",
+      "foreground": "#696080",
+      "background": "#f1eaf2",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 4.96205003522169,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "03 / Mineral: focus ink on surface",
+      "foreground": "#735875",
+      "background": "#f7f4f7",
+      "threshold": 3,
+      "composition": "opaque sRGB",
+      "ratio": 5.6888625462961215,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "03 / Mineral: warning ink on surface",
+      "foreground": "#946018",
+      "background": "#f7f4f7",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 4.875959298941582,
+      "status": "pass"
+    },
+    {
+      "study": "palette-families",
+      "target": "03 / Mineral: error ink on surface",
+      "foreground": "#a23d3d",
+      "background": "#f7f4f7",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 5.881153912099307,
+      "status": "pass"
+    },
+    {
+      "study": "fontplate",
+      "target": "corpus",
+      "foreground": "#23313b",
+      "background": "#ffffff",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 13.342283734522912,
+      "status": "pass"
+    },
+    {
+      "study": "fontplate",
+      "target": "labels",
+      "foreground": "#63727c",
+      "background": "#ffffff",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 4.966297171317822,
+      "status": "pass"
+    },
+    {
+      "study": "fontplate",
+      "target": "comparison note",
+      "foreground": "#315f9b",
+      "background": "#eaf0f9",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 5.65616351552153,
+      "status": "pass"
+    },
+    {
+      "study": "shared frame",
+      "target": "editorial copy",
+      "foreground": "#545e55",
+      "background": "#f2f0e8",
+      "threshold": 4.5,
+      "composition": "opaque sRGB",
+      "ratio": 5.919401288884499,
+      "status": "pass"
+    }
+  ]
+}
