@@ -29,6 +29,7 @@ Read a reference only when its task applies:
 | Create an original font or perform supported vector operations | [Font/vector tools](references/fonts.md) |
 | Persist a machine-readable decision record | [Record contract](references/record-contract.md) |
 | Define or review consequential interactions through connected wireframes | [Connected wireframes](references/interaction-sketches.md) |
+| Choose a wireframe, wireflow, state sequence, desktop study, empty/error study, collage, palette family or type specimen | [Design methods](references/design-methods.md) |
 | Make consequential physical or formal engineering claims | [Domain boundaries](references/domains.md) |
 
 Use a short reusable specification when it helps continuity; ordinary prose often suffices. Keep process notes in supporting records unless the artifact's audience needs them. Deliver the useful result, the checks actually performed and any remaining consequential uncertainty.

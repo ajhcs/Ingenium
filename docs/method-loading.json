@@ -1,0 +1,94 @@
+{
+  "schema": "ingenium-method-loading/1",
+  "measurement": "Exact UTF-8 byte counts and whitespace-split words; model tokens and total conversation context not measured.",
+  "resources": [
+    {
+      "path": "skills/ingenium/SKILL.md",
+      "utf8Bytes": 5432,
+      "wordsWhitespaceSplit": 740
+    },
+    {
+      "path": "skills/ingenium/references/design-methods.md",
+      "utf8Bytes": 1803,
+      "wordsWhitespaceSplit": 229
+    },
+    {
+      "path": "skills/ingenium/references/methods/contract.md",
+      "utf8Bytes": 3510,
+      "wordsWhitespaceSplit": 452
+    },
+    {
+      "path": "skills/ingenium/references/methods/desktop-workflow.md",
+      "utf8Bytes": 1618,
+      "wordsWhitespaceSplit": 219
+    },
+    {
+      "path": "skills/ingenium/references/methods/element-collage.md",
+      "utf8Bytes": 1569,
+      "wordsWhitespaceSplit": 215
+    },
+    {
+      "path": "skills/ingenium/references/methods/empty-error.md",
+      "utf8Bytes": 1617,
+      "wordsWhitespaceSplit": 232
+    },
+    {
+      "path": "skills/ingenium/references/methods/fontplate.md",
+      "utf8Bytes": 1979,
+      "wordsWhitespaceSplit": 268
+    },
+    {
+      "path": "skills/ingenium/references/methods/palette-families.md",
+      "utf8Bytes": 1394,
+      "wordsWhitespaceSplit": 185
+    },
+    {
+      "path": "skills/ingenium/references/methods/state-sequence.md",
+      "utf8Bytes": 1901,
+      "wordsWhitespaceSplit": 263
+    },
+    {
+      "path": "skills/ingenium/references/methods/structural-wireframe.md",
+      "utf8Bytes": 1063,
+      "wordsWhitespaceSplit": 144
+    },
+    {
+      "path": "skills/ingenium/references/methods/wireflow.md",
+      "utf8Bytes": 1205,
+      "wordsWhitespaceSplit": 173
+    }
+  ],
+  "observedForwardCase": {
+    "request": "Two accent families for an existing reading app; preserve canvas, dark ink and serif headings; no replacement app.",
+    "guidanceRead": [
+      {
+        "path": "skills/ingenium/SKILL.md",
+        "utf8Bytes": 5432
+      },
+      {
+        "path": "skills/ingenium/references/design-methods.md",
+        "utf8Bytes": 1803
+      },
+      {
+        "path": "skills/ingenium/references/svg.md",
+        "utf8Bytes": 3789
+      },
+      {
+        "path": "skills/ingenium/references/checks.md",
+        "utf8Bytes": 8587
+      },
+      {
+        "path": "skills/ingenium/references/methods/contract.md",
+        "utf8Bytes": 3510
+      },
+      {
+        "path": "skills/ingenium/references/methods/palette-families.md",
+        "utf8Bytes": 1394
+      }
+    ],
+    "guidanceUtf8Bytes": 24515,
+    "otherContext": "Agent memory registry search and helper code are excluded from guidance-only total; no total-context or token efficiency claim.",
+    "result": "Editable original palette study generated, existing renderer exported, pixels inspected; only palette method leaf read, no wireflow or desktop leaf."
+  },
+  "targetsAndLimits": "New router229/shared452/selected leaves144\u2013268 words satisfy proposed per-reference targets. Existing full SKILL740 words and legacy checks reference were preserved; no claim every proposed loading budget or model-performance improvement is achieved."
+}
