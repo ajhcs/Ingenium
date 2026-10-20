@@ -9,7 +9,7 @@ def build(destination):
     skill = repository / "skills" / "ingenium"
     files = [(skill / "SKILL.md", "ingenium/SKILL.md")]
     files.extend((source, "ingenium/" + source.relative_to(skill).as_posix())
-                 for source in sorted((skill / "references").glob("*.md")))
+                 for source in sorted((skill / "references").rglob("*.md")))
     files.append((skill / "LICENSE", "ingenium/LICENSE"))
     # Read before creating the output. No private files, helpers or dependencies.
     contents = [(name, source.read_bytes()) for source, name in files]

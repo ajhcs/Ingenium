@@ -74,6 +74,44 @@ Then refine a choice:
 
 Ask for as much or as little as you need. A single study, a text comparison or a useful question can be enough. [Continue the first-study walkthrough](docs/quickstart.md).
 
+## Choose the study that answers your question
+
+Invoke `$ingenium`, `/ingenium`, or “Use Ingenium” in your client, then ask for the method and supply your content. For example: “Use Ingenium to show the same assignment screen before saving, while saving, and after a failed save. Preserve the draft and keep the selected order fixed.” These are selectable methods, not eight required steps. A study defines an artifact; implementing its depicted product requires its own scope.
+
+| Method | Use it to explore | Editable example | Maturity and evidence boundary |
+| --- | --- | --- | --- |
+| Structural wireframe | Content hierarchy, grouping and available actions before styling | [Queue structure](examples/methods/source/structural-wireframe.svg) | Static structure; pixels checked, action reachability untested. |
+| Wireflow | Recognizable views connected by actions, conditions and recovery | [Assignment route](examples/methods/source/wireflow.svg) | Static route; navigation and cancellation unexecuted. |
+| Same-screen state sequence | Changes within one workspace; draft, validation and persistence boundaries | [Assignment states](examples/methods/source/state-sequence.svg) | Static state specification; runtime editing, validation and undo untested. |
+| Complex desktop workflow | Selection and information shared across navigation, surface and inspector | [Desktop workspace](examples/methods/source/desktop-workflow.svg) | Static coordinated-workspace proposal; focus and concurrency untested. |
+| Empty and error states | Distinct causes, retained input and realistic next actions | [Recovery states](examples/methods/source/empty-error.svg) | Static recovery specification; real storage, service and retry untested. |
+| Element collage | A possible vocabulary of type, shape, color and surface fragments | [Visual fragments](examples/methods/source/element-collage.svg) | Original fragments and treatment variants; no selected winner or brand approval. |
+| Palette families | The same semantic roles and applied content across color families | [Color comparison](examples/methods/source/palette-families.svg) | Declared opaque pairs measured; live focus, hover and dark mode untested. |
+| Fontplate / type specimen | Actual text, role sizes, density, numbers and character distinctions | [Type roles](examples/methods/source/fontplate.svg) | Static type comparison; system fallback and per-glyph face identity unresolved. |
+
+The original **Relay** studies below use a fictional repair-team workspace. Ingenium's existing paper, green and acid-yellow editorial framing surrounds an illustrative Relay palette; the product styling is a scoped example choice. Each is editable SVG with a separate PNG preview. Click a preview to inspect the full 1200 × 800 render.
+
+| Structure and route | State and workspace |
+| --- | --- |
+| [![Structural wireframe: Relay work-order hierarchy](examples/methods/previews/structural-wireframe.png)](examples/methods/previews/structural-wireframe.png) | [![Same-screen assignment state sequence](examples/methods/previews/state-sequence.png)](examples/methods/previews/state-sequence.png) |
+| [![Wireflow: assignment actions, guard and recovery](examples/methods/previews/wireflow.png)](examples/methods/previews/wireflow.png) | [![Desktop workflow: shared selection and contextual editing](examples/methods/previews/desktop-workflow.png)](examples/methods/previews/desktop-workflow.png) |
+| [![Empty and error states with recovery](examples/methods/previews/empty-error.png)](examples/methods/previews/empty-error.png) | [![Element collage: original visual fragments](examples/methods/previews/element-collage.png)](examples/methods/previews/element-collage.png) |
+| [![Palette families applied to identical content](examples/methods/previews/palette-families.png)](examples/methods/previews/palette-families.png) | [![Fontplate: editable type roles and characters](examples/methods/previews/fontplate.png)](examples/methods/previews/fontplate.png) |
+
+These are static design proposals. Labels and arrows specify intended behavior; no save, retry, keyboard path or backend is executed by an SVG. A collage explores decoration; it does not establish semantic relationships. System font fallback can change metrics. Source hashes, tests and renders establish bounded evidence, not taste, complete accessibility, engineering adequacy or user acceptance. For consequential interactions, the existing [connected-wireframe workflow](skills/ingenium/references/interaction-sketches.md) still applies, including authoritative model bindings and review where relevant.
+
+The portable skill loads [method contracts](skills/ingenium/references/design-methods.md) only when useful. The full checkout also provides dependency-free example generation and optional PNG export:
+
+```sh
+# Node 22+; each destination must be new.
+node tools/generate-method-studies.mjs work/relay-sources
+node tools/render-method-studies.mjs work/relay-sources work/relay-previews
+# Existing optional Sharp only; no automatic installation.
+node --test tests/method-studies.test.mjs
+```
+
+The renderer can use `--renderer-dir EXISTING_INSTALL`. The standalone guidance ZIP contains the method reference, without these helper scripts or example assets. [Invocation, artifact contracts and limits](docs/method-studies.md) · [Validation and provenance](docs/method-studies-validation.md).
+
 ## Define connected interactions before implementation
 
 For consequential interaction choices, use a small editable low-fidelity walkthrough grounded in relevant actual UI precedents. Expose choices, shared state, feedback and recovery; reconcile findings with requirements and model/data contracts, and review the first connected path before expanding. This is an iterative definition route, without a fixed layout or screen quota. See [Connected wireframes](skills/ingenium/references/interaction-sketches.md).
