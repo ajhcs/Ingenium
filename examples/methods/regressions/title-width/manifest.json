@@ -1,0 +1,85 @@
+{
+  "schema": "ingenium-title-width-regression/1",
+  "scope": "Existing finite static title slots at 1200 by 800; actual system/renderer-specific inspection, not a universal font-width or accessibility proof.",
+  "inputs": "Canonical subject IDs are unchanged; full input is retained in each source SVG title/description and metadata.",
+  "policy": "Visible ellipsis uses conservative character budgets that include any prefix/suffix.",
+  "observed": "All eight studies generated and inspected for each boundary; this focused public set retains desktop and wireflow source/PNG pairs only.",
+  "cases": [
+    {
+      "id": "wide",
+      "optionsFile": "wide/options.json",
+      "options": {
+        "subjectTitle": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "collageSpacingScale": 4
+      },
+      "artifacts": [
+        {
+          "id": "wireflow",
+          "source": "wide/wireflow.svg",
+          "preview": "wide/wireflow.png",
+          "sourceSha256": "9672e890ecebd4dee2573a795df1d09191f2c83f220e81e19258479c253b0009",
+          "previewSha256": "d43f53f4dfd40429564a57645c5146d32315dfd5492fbd2f162393855ac27c2a",
+          "width": 1200,
+          "height": 800,
+          "renderer": {
+            "name": "sharp",
+            "version": "0.35.4"
+          },
+          "inspection": "Opened at intended size; no observed clipping/collision."
+        },
+        {
+          "id": "desktop-workflow",
+          "source": "wide/desktop-workflow.svg",
+          "preview": "wide/desktop-workflow.png",
+          "sourceSha256": "e1eceaef19a71442b22faa2db5f5bf1a86823f839983beb468e6ca796c115ab5",
+          "previewSha256": "87502eb00ffda3cf75477a04ad150895b1d867e06b6e39fa73397ab79c1997fd",
+          "width": 1200,
+          "height": 800,
+          "renderer": {
+            "name": "sharp",
+            "version": "0.35.4"
+          },
+          "inspection": "Opened at intended size; no observed clipping/collision."
+        }
+      ]
+    },
+    {
+      "id": "realistic",
+      "optionsFile": "realistic/options.json",
+      "options": {
+        "subjectTitle": "Portable inspection lamp and bracket",
+        "collageSpacingScale": 4
+      },
+      "artifacts": [
+        {
+          "id": "wireflow",
+          "source": "realistic/wireflow.svg",
+          "preview": "realistic/wireflow.png",
+          "sourceSha256": "d3aded35907583dfe7ac73b4d67176aef9f16a6a02a6d0440152682748141f03",
+          "previewSha256": "d9bb10ea1355a744037d7c10db1486f555be43759a4723539ea4343acaaf38de",
+          "width": 1200,
+          "height": 800,
+          "renderer": {
+            "name": "sharp",
+            "version": "0.35.4"
+          },
+          "inspection": "Opened at intended size; no observed clipping/collision."
+        },
+        {
+          "id": "desktop-workflow",
+          "source": "realistic/desktop-workflow.svg",
+          "preview": "realistic/desktop-workflow.png",
+          "sourceSha256": "f925c08d29a964af73d54bbf96770776d68021d0f828879a8a73826f464eebab",
+          "previewSha256": "2e1da128b9aa256917ee6c78e4a42cd4da0de34d7743118a6b1581b776073c81",
+          "width": 1200,
+          "height": 800,
+          "renderer": {
+            "name": "sharp",
+            "version": "0.35.4"
+          },
+          "inspection": "Opened at intended size; no observed clipping/collision."
+        }
+      ]
+    }
+  ]
+}

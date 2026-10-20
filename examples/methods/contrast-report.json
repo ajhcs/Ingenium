@@ -3,11 +3,11 @@
   "sources": [
     {
       "id": "palette-families",
-      "sha256": "9c63a43c22098c4d8d30223b234f2dd563fa5cc6e807cd3db1b0c81a5b89aeee"
+      "sha256": "3696cba98f8e758c69555b45ab10c7f1a1f6d668b6df86b28ae08516c317ceac"
     },
     {
       "id": "fontplate",
-      "sha256": "959ae49a7160eb680f94de5e29b06f7b0882f0719d2b4b8cd8b8c60f0b9fb269"
+      "sha256": "dab6a89d66281d74e37dc71e1f74292b672d71319b575a1a02e718873057d6a2"
     }
   ],
   "scope": "Declared opaque text pairs in palette and type specimens, shared editorial copy, and candidate focus ink against surface. Some semantic-role swatches are suggestions for later application.",

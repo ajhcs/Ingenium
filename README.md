@@ -110,7 +110,7 @@ node tools/render-method-studies.mjs work/relay-sources work/relay-previews
 node --test tests/method-studies.test.mjs
 ```
 
-The renderer can use `--renderer-dir EXISTING_INSTALL`. The standalone guidance ZIP contains the method reference, without these helper scripts or example assets. [Invocation, artifact contracts and limits](docs/method-studies.md) · [Validation and provenance](docs/method-studies-validation.md).
+The renderer can use `--renderer-dir EXISTING_INSTALL`. The standalone guidance ZIP contains the method reference, without these helper scripts or example assets. [Invocation, artifact contracts and limits](docs/method-studies.md) · [Validation and provenance](docs/method-studies-validation.md) · [Long-title regression renders](examples/methods/regressions/title-width/README.md).
 
 ## Define connected interactions before implementation
 

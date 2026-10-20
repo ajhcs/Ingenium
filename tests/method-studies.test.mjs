@@ -5,6 +5,7 @@ import { resolve, join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { buildMethodStudies, writeMethodStudies, verifyMethodStudySources } from '../tools/generate-method-studies.mjs';
 import { renderMethodStudies } from '../tools/render-method-studies.mjs';
+import { checkMethodContrast } from '../tools/check-method-contrast.mjs';
 import { discoverCapabilities } from '../src/svg/index.js';
 
 const digest = bytes => createHash('sha256').update(bytes).digest('hex');
@@ -65,6 +66,7 @@ test('published previews and contrast evidence bind the current editable sources
   for (const source of contrast.sources) {
     assert.equal(source.sha256, digest(await readFile(new URL(`../examples/methods/source/${source.id}.svg`, import.meta.url))));
   }
+  assert.deepEqual(contrast,checkMethodContrast(),'retained pair ratios, statuses and source bindings match a fresh computation');
   assert.ok(contrast.pairs.every(pair => pair.status === 'pass' && pair.ratio >= pair.threshold));
 });
 
@@ -223,7 +225,7 @@ test('wireflow binds its saved route to a visible matching acknowledgement and p
   const edges=study.edges;
   assert.equal(new Set(edges.map(edge=>edge.id)).size,edges.length);
   for(const edge of edges) {
-    for(const id of [edge.id,edge.sourceStateID,edge.destinationStateID,edge.controlRef]) assert.ok(anchors.has(id),`${edge.id}: resolvable ${id}`);
+    for(const id of [edge.id,edge.sourceStateID,edge.destinationStateID,edge.controlRef].filter(Boolean)) assert.ok(anchors.has(id),`${edge.id}: resolvable ${id}`);
     for(const label of edge.labels) {
       const node=study.svg.match(new RegExp(`<text id="${label.id}"[^>]*>([^<]*)</text>`));
       assert.ok(node,`${edge.id}: visible ${label.purpose}`);
@@ -233,6 +235,8 @@ test('wireflow binds its saved route to a visible matching acknowledgement and p
   const saved=edges.filter(edge=>edge.destinationStateID==='wireflow-updated');
   assert.equal(saved.length,1);
   assert.equal(saved[0].triggerKind,'save acknowledgement');
+  assert.equal(saved[0].sourceStateID,'wireflow-pending');
+  assert.equal(saved[0].controlRef,null);
   assert.deepEqual(Object.keys(saved[0].requiredAcknowledgement).sort(),['freshness','requestID','requestedRevision']);
   const acknowledgementLabel=saved[0].labels.find(label=>label.guardRef==='requiredAcknowledgement');
   assert.ok(acknowledgementLabel && anchors.has(acknowledgementLabel.id));
@@ -241,4 +245,85 @@ test('wireflow binds its saved route to a visible matching acknowledgement and p
   assert.equal(cancel.destinationStateID,'wireflow-queue');
   assert.deepEqual(cancel.cancellation,{scope:'unsubmitted command',inFlight:false,discards:'command draft',changesWorkingModel:false});
   assert.equal(edges.find(edge=>edge.id==='wireflow-edge-refuse').destinationStateID,'wireflow-detail');
+});
+
+
+test('wireflow separates local working values, pending requests, matching acknowledgement and retained-input failure', () => {
+  const study=buildMethodStudies().find(item=>item.id==='wireflow');
+  const states=new Map(study.states.map(state=>[state.id,state]));
+  assert.equal(states.size,5);
+  for(const state of states.values()) {
+    const text=study.svg.match(new RegExp(`<text id="${state.revisionLabelID}"[^>]*>([^<]*)</text>`));
+    assert.ok(text,`${state.id}: visible revision ledger`);
+    assert.ok(text[1].includes(`Working ${state.workingRevision} · acknowledged ${state.acknowledgedRevision}`));
+  }
+  for(const edge of study.edges) {
+    assert.ok(states.has(edge.sourceStateID));
+    assert.ok(states.has(edge.destinationStateID));
+  }
+  const local=states.get('wireflow-detail'),pending=states.get('wireflow-pending'),failed=states.get('wireflow-failed'),saved=states.get('wireflow-updated');
+  assert.equal(local.saveStatus,'not-requested');
+  assert.notEqual(local.workingRevision,local.acknowledgedRevision);
+  assert.equal(pending.saveStatus,'pending');
+  assert.equal(pending.workingRevision,local.workingRevision);
+  assert.equal(pending.acknowledgedRevision,local.acknowledgedRevision);
+  const submit=study.edges.find(edge=>edge.id==='wireflow-edge-submit');
+  assert.equal(submit.sourceStateID,local.id);
+  assert.equal(submit.destinationStateID,pending.id);
+  assert.equal(submit.controlRef,'wireflow-detail-action');
+  assert.equal(submit.request.newIdentityPerAttempt,true);
+  assert.equal(failed.saveStatus,'failed');
+  assert.equal(failed.rawValue,pending.rawValue);
+  assert.equal(failed.workingRevision,pending.workingRevision);
+  assert.equal(failed.acknowledgedRevision,pending.acknowledgedRevision);
+  const failure=study.edges.find(edge=>edge.id==='wireflow-edge-fail');
+  assert.deepEqual(failure.failure,{retainsRawValue:true,retainsWorkingRevision:true,advancesAcknowledgedRevision:false});
+  const retry=study.edges.find(edge=>edge.id==='wireflow-edge-retry');
+  assert.equal(retry.sourceStateID,failed.id);
+  assert.equal(retry.destinationStateID,pending.id);
+  assert.equal(retry.request.newIdentityPerAttempt,true);
+  assert.equal(saved.saveStatus,'acknowledged');
+  assert.equal(saved.acknowledgedRevision,saved.workingRevision);
+  const queue=states.get('wireflow-queue');
+  assert.equal(queue.workingRevision,local.workingRevision);
+  assert.equal(queue.acknowledgedRevision,local.acknowledgedRevision);
+});
+
+test('desktop retained invalid draft shows its correction and unavailable assignment action separately from valid model and note session', () => {
+  const study=buildMethodStudies().find(item=>item.id==='desktop-workflow');
+  const state=study.assignmentState;
+  assert.equal(state.rawDraft.status,'invalid');
+  assert.equal(state.workingModel.assigneeId,null);
+  assert.equal(state.workingModel.semanticRevision,state.acknowledgedRevision);
+  assert.equal(state.action.enabled,false);
+  for(const item of [state.error,state.action]) {
+    const anchor=study.svg.match(new RegExp(`id="${item.id}"[^>]*>(.*?)</(?:text|g)>`));
+    assert.ok(anchor,`${item.id}: rendered`);
+    assert.ok(anchor[1].includes(item.text),`${item.id}: rendered label matches state contract`);
+  }
+  assert.match(study.eventLedger.policy,/Automatic valid/);
+  assert.equal(study.eventLedger.matrix.note,'Independent subject/field session');
+});
+
+
+test('maximum and realistic long titles use bounded visible slots while retaining complete canonical editable text', () => {
+  for(const subjectTitle of ['W'.repeat(40),'Portable inspection lamp and bracket']) {
+    const studies=buildMethodStudies({subjectTitle});
+    for(const study of studies) {
+      assert.equal(study.semanticFixture.subjectTitle,subjectTitle);
+      assert.ok(study.titlePresentations.length>0);
+      for(const slot of study.titlePresentations) {
+        assert.ok(slot.fullText.includes(subjectTitle));
+        assert.ok([...slot.visibleText].length<=slot.characterBudget);
+        const full=slot.fullText.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+        const visible=slot.visibleText.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+        assert.ok(study.svg.includes(`<title id="${slot.id}-full">${full}</title>`));
+        const node=study.svg.match(new RegExp(`<text id="${slot.id}-visible"[^>]*>([^<]*)</text>`));
+        assert.equal(node?.[1],visible);
+        if([...slot.fullText].length>slot.characterBudget) assert.ok(slot.visibleText.endsWith('…'));
+      }
+    }
+  }
+  assert.throws(()=>buildMethodStudies({subjectTitle:'W'.repeat(41)}),/subjectTitle/);
+  assert.throws(()=>buildMethodStudies({subjectTitle:'A\u0085B'}),/subjectTitle/);
 });

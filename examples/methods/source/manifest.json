@@ -13,7 +13,7 @@
       "scope": "One queue view; content hierarchy before visual styling.",
       "schema": "ingenium-method-study/1",
       "artifactID": "ingenium:relay:study:structural-wireframe",
-      "revision": 3,
+      "revision": 4,
       "primaryMethod": "structural-wireframe",
       "scenarioID": "ingenium:relay:scenario:repair-coordination",
       "sceneID": "structural-wireframe-scene",
@@ -33,6 +33,34 @@
       "appearanceParameters": {
         "collageSpacingScale": 5
       },
+      "titlePresentations": [
+        {
+          "id": "structural-wireframe-subject-title",
+          "x": 560,
+          "y": 43,
+          "width": 584,
+          "size": 12,
+          "fill": "#545e55",
+          "prefix": "R-1048 / ",
+          "fullText": "R-1048 / Bench lamp",
+          "visibleText": "R-1048 / Bench lamp",
+          "characterBudget": 44,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        },
+        {
+          "id": "structural-order-subject",
+          "x": 280,
+          "y": 391,
+          "width": 414,
+          "size": 15,
+          "weight": 600,
+          "suffix": " · loose switch",
+          "fullText": "Bench lamp · loose switch",
+          "visibleText": "Bench lamp · loose switch",
+          "characterBudget": 25,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        }
+      ],
       "purpose": "One queue view; content hierarchy before visual styling.",
       "audience": "People reviewing a proposed repair-coordination workspace",
       "fidelity": {
@@ -66,7 +94,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "interaction-specification",
@@ -80,7 +108,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "runtime-behavior",
@@ -94,7 +122,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "model-conformance",
@@ -108,7 +136,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "user-acceptance",
@@ -122,7 +150,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "engineering-adequacy",
@@ -136,7 +164,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         }
       ],
       "viewElements": [
@@ -186,17 +214,17 @@
         "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
       ],
       "file": "structural-wireframe.svg",
-      "bytes": 6755,
-      "sha256": "84c2954e1364797ed2a42ef929cffdad853019fbd46abfb59e36f1ba9a6758ab"
+      "bytes": 7068,
+      "sha256": "05a3cb72c69c826739a60949a172e441421c460780ac2d20c382878630eafb62"
     },
     {
       "id": "wireflow",
       "title": "Wireflow",
       "method": "navigation",
-      "scope": "Three connected views; action and guard labels plus invalid-input branch.",
+      "scope": "Five views distinguish local valid editing, pending save, matched acknowledgement and retained-input failure/retry.",
       "schema": "ingenium-method-study/1",
       "artifactID": "ingenium:relay:study:wireflow",
-      "revision": 4,
+      "revision": 6,
       "primaryMethod": "wireflow",
       "scenarioID": "ingenium:relay:scenario:repair-coordination",
       "sceneID": "wireflow-scene",
@@ -216,7 +244,46 @@
       "appearanceParameters": {
         "collageSpacingScale": 5
       },
-      "purpose": "Three connected views; action and guard labels plus invalid-input branch.",
+      "titlePresentations": [
+        {
+          "id": "wireflow-subject-title",
+          "x": 560,
+          "y": 43,
+          "width": 584,
+          "size": 12,
+          "fill": "#545e55",
+          "prefix": "R-1048 / ",
+          "fullText": "R-1048 / Bench lamp",
+          "visibleText": "R-1048 / Bench lamp",
+          "characterBudget": 44,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        },
+        {
+          "id": "wireflow-queue-subject",
+          "x": 82,
+          "y": 291,
+          "width": 198,
+          "size": 15,
+          "weight": 600,
+          "fullText": "Bench lamp",
+          "visibleText": "Bench lamp",
+          "characterBudget": 12,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        },
+        {
+          "id": "wireflow-detail-subject",
+          "x": 402,
+          "y": 261,
+          "width": 312,
+          "size": 17,
+          "weight": 600,
+          "fullText": "Bench lamp",
+          "visibleText": "Bench lamp",
+          "characterBudget": 16,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        }
+      ],
+      "purpose": "Five views distinguish local valid editing, pending save, matched acknowledgement and retained-input failure/retry.",
       "audience": "People reviewing a proposed repair-coordination workspace",
       "fidelity": {
         "layout": "authored 1200 × 800 fixed viewport",
@@ -249,7 +316,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 4
+          "viewRevision": 6
         },
         {
           "id": "interaction-specification",
@@ -263,7 +330,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 4
+          "viewRevision": 6
         },
         {
           "id": "runtime-behavior",
@@ -277,7 +344,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 4
+          "viewRevision": 6
         },
         {
           "id": "model-conformance",
@@ -291,7 +358,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 4
+          "viewRevision": 6
         },
         {
           "id": "user-acceptance",
@@ -305,7 +372,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 4
+          "viewRevision": 6
         },
         {
           "id": "engineering-adequacy",
@@ -319,7 +386,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 4
+          "viewRevision": 6
         }
       ],
       "viewElements": [
@@ -368,9 +435,34 @@
           "requirementID": "relay:wireflow-action:updated"
         },
         {
+          "id": "wireflow-failed",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        },
+        {
+          "id": "wireflow-failed-action",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-action:failed"
+        },
+        {
           "id": "wireflow-detail-cancel",
           "role": "interaction requirement",
           "requirementID": "relay:assignment:pre-submit-cancel"
+        },
+        {
+          "id": "wireflow-pending",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048"
+        },
+        {
+          "id": "wireflow-failed-assignee",
+          "role": "domain projection",
+          "domainID": "relay:work-order:R-1048:assignment"
+        },
+        {
+          "id": "wireflow-pending-request",
+          "role": "interaction requirement",
+          "requirementID": "relay:assignment:pending-save"
         },
         {
           "id": "wireflow-edge-open",
@@ -383,24 +475,24 @@
           "requirementID": "relay:wireflow-edge-open:trigger"
         },
         {
-          "id": "wireflow-edge-assign",
+          "id": "wireflow-edge-submit",
           "role": "interaction requirement",
-          "requirementID": "relay:wireflow-edge-assign"
+          "requirementID": "relay:wireflow-edge-submit"
         },
         {
-          "id": "wireflow-assign-label",
+          "id": "wireflow-submit-label",
           "role": "interaction requirement",
-          "requirementID": "relay:wireflow-edge-assign:submit action"
+          "requirementID": "relay:wireflow-edge-submit:submit action"
         },
         {
           "id": "wireflow-valid-input-label",
           "role": "interaction requirement",
-          "requirementID": "relay:wireflow-edge-assign:input guard"
+          "requirementID": "relay:wireflow-edge-submit:input guard"
         },
         {
-          "id": "wireflow-acknowledgement-label",
+          "id": "wireflow-edge-assign",
           "role": "interaction requirement",
-          "requirementID": "relay:wireflow-edge-assign:system acknowledgement guard"
+          "requirementID": "relay:wireflow-edge-assign"
         },
         {
           "id": "wireflow-save-event-label",
@@ -411,6 +503,31 @@
           "id": "wireflow-save-match-label",
           "role": "interaction requirement",
           "requirementID": "relay:wireflow-edge-assign:acknowledgement match guard"
+        },
+        {
+          "id": "wireflow-edge-fail",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-fail"
+        },
+        {
+          "id": "wireflow-failure-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-fail:system failure event"
+        },
+        {
+          "id": "wireflow-edge-retry",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-retry"
+        },
+        {
+          "id": "wireflow-retry-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-retry:retry action"
+        },
+        {
+          "id": "wireflow-retry-request-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-retry:fresh request guard"
         },
         {
           "id": "wireflow-edge-refuse",
@@ -441,7 +558,7 @@
       "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
       "omissions": [
         "Runtime keyboard/focus, timing, persistence, concurrency and responsive behavior are untested.",
-        "Missing-title creation, in-flight cancellation, other back navigation, authentication, concurrency and external handoffs are not drawn. Pre-submit command cancellation is drawn; it does not undo working-model edits."
+        "Missing-title creation, in-flight cancellation, other back navigation, authentication, concurrency and external handoffs are not drawn. Pending/acknowledgement/failure/retry and pre-submit command cancellation are drawn specifications only."
       ],
       "unresolvedDecisions": [
         "Proposed visual and behavior choices await scoped review."
@@ -454,8 +571,8 @@
           "triggerKind": "navigation",
           "controlRef": "wireflow-queue-action",
           "guard": "selected order exists",
-          "effect": "Open selected order",
-          "preservation": "Keep order identity",
+          "effect": "Open selected order with its existing local valid r2",
+          "preservation": "Keep working r2 and durable r1",
           "labels": [
             {
               "id": "wireflow-open-label",
@@ -465,47 +582,107 @@
           ]
         },
         {
-          "id": "wireflow-edge-assign",
+          "id": "wireflow-edge-submit",
           "sourceStateID": "wireflow-detail",
-          "destinationStateID": "wireflow-updated",
-          "triggerKind": "save acknowledgement",
+          "destinationStateID": "wireflow-pending",
+          "triggerKind": "save request",
           "controlRef": "wireflow-detail-action",
-          "guard": "valid assignee; matching current acknowledgement",
-          "requiredAcknowledgement": {
-            "requestID": "must match submitted request",
-            "requestedRevision": "must match submitted/current revision",
-            "freshness": "still current"
+          "guard": "valid local value; no duplicate request pending",
+          "request": {
+            "requestID": "Qn",
+            "requestedRevision": "r2",
+            "newIdentityPerAttempt": true
           },
-          "effect": "Show assigned queue result only after required acknowledgement",
-          "preservation": "Keep order and assignee identity",
+          "effect": "Start pending save; do not mark Saved",
+          "preservation": "Keep raw input, working r2 and durable r1",
           "labels": [
             {
-              "id": "wireflow-assign-label",
+              "id": "wireflow-submit-label",
               "purpose": "submit action",
-              "text": "Assign"
+              "text": "Save"
             },
             {
               "id": "wireflow-valid-input-label",
               "purpose": "input guard",
-              "text": "[valid input]"
-            },
-            {
-              "id": "wireflow-acknowledgement-label",
-              "purpose": "system acknowledgement guard",
-              "guardRef": "requiredAcknowledgement",
-              "text": "Saved only after acknowledgement of current request + revision"
-            },
+              "text": "[valid r2]"
+            }
+          ]
+        },
+        {
+          "id": "wireflow-edge-assign",
+          "sourceStateID": "wireflow-pending",
+          "destinationStateID": "wireflow-updated",
+          "triggerKind": "save acknowledgement",
+          "controlRef": null,
+          "guard": "matching current acknowledgement",
+          "requiredAcknowledgement": {
+            "requestID": "matches current Qn",
+            "requestedRevision": "matches current r2",
+            "freshness": "still current"
+          },
+          "effect": "Acknowledge durable r2 and show Saved",
+          "preservation": "Keep raw value and working r2",
+          "labels": [
             {
               "id": "wireflow-save-event-label",
               "purpose": "system event",
               "guardRef": "requiredAcknowledgement",
-              "text": "System: save ack"
+              "text": "System ACK: Qn + r2"
             },
             {
               "id": "wireflow-save-match-label",
               "purpose": "acknowledgement match guard",
               "guardRef": "requiredAcknowledgement",
-              "text": "[current ID + rev]"
+              "text": "[both match; still current]"
+            }
+          ]
+        },
+        {
+          "id": "wireflow-edge-fail",
+          "sourceStateID": "wireflow-pending",
+          "destinationStateID": "wireflow-failed",
+          "triggerKind": "save failure",
+          "controlRef": null,
+          "guard": "failure belongs to current Qn / r2",
+          "failure": {
+            "retainsRawValue": true,
+            "retainsWorkingRevision": true,
+            "advancesAcknowledgedRevision": false
+          },
+          "effect": "Show failed save with retained editor value; never Saved",
+          "preservation": "Keep raw input, working r2 and durable r1",
+          "labels": [
+            {
+              "id": "wireflow-failure-label",
+              "purpose": "system failure event",
+              "text": "Failure Qn / r2 → keep values; not Saved"
+            }
+          ]
+        },
+        {
+          "id": "wireflow-edge-retry",
+          "sourceStateID": "wireflow-failed",
+          "destinationStateID": "wireflow-pending",
+          "triggerKind": "fresh save request",
+          "controlRef": "wireflow-failed-action",
+          "guard": "valid local value; explicit retry",
+          "request": {
+            "requestID": "new Qn",
+            "requestedRevision": "r2",
+            "newIdentityPerAttempt": true
+          },
+          "effect": "Create fresh request; pending is not a successful retry",
+          "preservation": "Keep raw input, working r2 and durable r1",
+          "labels": [
+            {
+              "id": "wireflow-retry-label",
+              "purpose": "retry action",
+              "text": "Retry"
+            },
+            {
+              "id": "wireflow-retry-request-label",
+              "purpose": "fresh request guard",
+              "text": "new Qn"
             }
           ]
         },
@@ -515,14 +692,14 @@
           "destinationStateID": "wireflow-detail",
           "triggerKind": "validation refusal",
           "controlRef": "wireflow-detail-action",
-          "guard": "assignee missing",
-          "effect": "Show correction in place",
-          "preservation": "Keep entered values",
+          "guard": "assignee missing or invalid",
+          "effect": "Stay in editor; choose a listed person",
+          "preservation": "Keep raw input and last valid working value",
           "labels": [
             {
               "id": "wireflow-refusal-label",
               "purpose": "input refusal guard",
-              "text": "[missing assignee]"
+              "text": "If invalid: stay; choose a listed person."
             }
           ]
         },
@@ -539,8 +716,8 @@
           },
           "controlRef": "wireflow-detail-cancel",
           "guard": "assignment command has not been submitted; no request in flight",
-          "effect": "Discard this command draft and return to original unchanged queue",
-          "preservation": "Original queue/model unchanged; no working-model edits undone",
+          "effect": "Discard this save-command draft and return to entry queue",
+          "preservation": "Entry working r2 and durable r1 unchanged; no working-model edits undone",
           "labels": [
             {
               "id": "wireflow-cancel-label",
@@ -550,11 +727,64 @@
             {
               "id": "wireflow-cancel-guard-label",
               "purpose": "pre-submission guard",
-              "text": "[before send]"
+              "text": "before send"
             }
           ]
         }
       ],
+      "states": [
+        {
+          "id": "wireflow-queue",
+          "kind": "queue",
+          "workingRevision": "r2",
+          "acknowledgedRevision": "r1",
+          "rawValue": "Mina Patel",
+          "saveStatus": "not-requested",
+          "revisionLabelID": "wireflow-queue-revision"
+        },
+        {
+          "id": "wireflow-detail",
+          "kind": "editor",
+          "workingRevision": "r2",
+          "acknowledgedRevision": "r1",
+          "rawValue": "Mina Patel",
+          "saveStatus": "not-requested",
+          "revisionLabelID": "wireflow-detail-revision"
+        },
+        {
+          "id": "wireflow-pending",
+          "kind": "pending editor",
+          "workingRevision": "r2",
+          "acknowledgedRevision": "r1",
+          "rawValue": "Mina Patel",
+          "saveStatus": "pending",
+          "request": {
+            "requestID": "Qn",
+            "requestedRevision": "r2",
+            "identityPolicy": "Fresh request ID for every attempt."
+          },
+          "revisionLabelID": "wireflow-pending-revision"
+        },
+        {
+          "id": "wireflow-updated",
+          "kind": "saved queue",
+          "workingRevision": "r2",
+          "acknowledgedRevision": "r2",
+          "rawValue": "Mina Patel",
+          "saveStatus": "acknowledged",
+          "revisionLabelID": "wireflow-updated-revision"
+        },
+        {
+          "id": "wireflow-failed",
+          "kind": "failed editor",
+          "workingRevision": "r2",
+          "acknowledgedRevision": "r1",
+          "rawValue": "Mina Patel",
+          "saveStatus": "failed",
+          "revisionLabelID": "wireflow-failed-revision"
+        }
+      ],
+      "entryScope": "Already valid local r2 from automatic editing; durable r1. Cancel does not undo local working-model changes.",
       "width": 1200,
       "height": 800,
       "editable": true,
@@ -569,8 +799,8 @@
         "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
       ],
       "file": "wireflow.svg",
-      "bytes": 8574,
-      "sha256": "9a5de4c003470050b47288dfc98b1f6239fc502e5718ebe2f1699edbc3cda9fc"
+      "bytes": 11943,
+      "sha256": "4c1488163df05e4660e694fe0e394c73a9bec1ee0a745ec917c32aeea580dd8e"
     },
     {
       "id": "state-sequence",
@@ -579,7 +809,7 @@
       "scope": "Four aligned temporal states: invalid draft, repair/automatic valid update, applied local value and semantic undo.",
       "schema": "ingenium-method-study/1",
       "artifactID": "ingenium:relay:study:state-sequence",
-      "revision": 3,
+      "revision": 4,
       "primaryMethod": "state-sequence",
       "scenarioID": "ingenium:relay:scenario:assignment-edit",
       "sceneID": "state-sequence-scene",
@@ -599,6 +829,21 @@
       "appearanceParameters": {
         "collageSpacingScale": 5
       },
+      "titlePresentations": [
+        {
+          "id": "state-sequence-subject-title",
+          "x": 560,
+          "y": 43,
+          "width": 584,
+          "size": 12,
+          "fill": "#545e55",
+          "prefix": "R-1048 / ",
+          "fullText": "R-1048 / Bench lamp",
+          "visibleText": "R-1048 / Bench lamp",
+          "characterBudget": 44,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        }
+      ],
       "purpose": "Four aligned temporal states: invalid draft, repair/automatic valid update, applied local value and semantic undo.",
       "audience": "People reviewing a proposed repair-coordination workspace",
       "fidelity": {
@@ -632,7 +877,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "interaction-specification",
@@ -646,7 +891,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "runtime-behavior",
@@ -660,7 +905,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "model-conformance",
@@ -674,7 +919,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "user-acceptance",
@@ -688,7 +933,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "engineering-adequacy",
@@ -702,7 +947,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         }
       ],
       "viewElements": [
@@ -966,8 +1211,8 @@
         "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
       ],
       "file": "state-sequence.svg",
-      "bytes": 8849,
-      "sha256": "a0f28ce8d796135a6e92cf7b6a730c4989364dc759b125bebfe2e5602352fe41"
+      "bytes": 8999,
+      "sha256": "565135f7ec8666684ba71708e6b53975d3a03d53e793acb9df2523e59f0d505b"
     },
     {
       "id": "desktop-workflow",
@@ -976,7 +1221,7 @@
       "scope": "Three-pane desktop with separate note and assignment commit boundaries.",
       "schema": "ingenium-method-study/1",
       "artifactID": "ingenium:relay:study:desktop-workflow",
-      "revision": 3,
+      "revision": 5,
       "primaryMethod": "desktop-workflow",
       "scenarioID": "ingenium:relay:scenario:repair-coordination",
       "sceneID": "desktop-workflow-scene",
@@ -996,6 +1241,58 @@
       "appearanceParameters": {
         "collageSpacingScale": 5
       },
+      "titlePresentations": [
+        {
+          "id": "desktop-workflow-subject-title",
+          "x": 560,
+          "y": 43,
+          "width": 584,
+          "size": 12,
+          "fill": "#545e55",
+          "prefix": "R-1048 / ",
+          "fullText": "R-1048 / Bench lamp",
+          "visibleText": "R-1048 / Bench lamp",
+          "characterBudget": 44,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        },
+        {
+          "id": "desktop-queue-subject",
+          "x": 82,
+          "y": 299,
+          "width": 192,
+          "size": 15,
+          "weight": 600,
+          "fullText": "Bench lamp",
+          "visibleText": "Bench lamp",
+          "characterBudget": 11,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        },
+        {
+          "id": "desktop-detail-subject",
+          "x": 322,
+          "y": 237,
+          "width": 318,
+          "size": 25,
+          "weight": 600,
+          "fullText": "Bench lamp",
+          "visibleText": "Bench lamp",
+          "characterBudget": 11,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        },
+        {
+          "id": "desktop-inspector-subject",
+          "x": 814,
+          "y": 258,
+          "width": 306,
+          "size": 12,
+          "fill": "#63727c",
+          "prefix": "R-1048 · ",
+          "fullText": "R-1048 · Bench lamp",
+          "visibleText": "R-1048 · Bench lamp",
+          "characterBudget": 23,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        }
+      ],
       "purpose": "Three-pane desktop with separate note and assignment commit boundaries.",
       "audience": "People reviewing a proposed repair-coordination workspace",
       "fidelity": {
@@ -1029,7 +1326,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 5
         },
         {
           "id": "interaction-specification",
@@ -1043,7 +1340,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 5
         },
         {
           "id": "runtime-behavior",
@@ -1057,7 +1354,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 5
         },
         {
           "id": "model-conformance",
@@ -1071,7 +1368,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 5
         },
         {
           "id": "user-acceptance",
@@ -1085,7 +1382,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 5
         },
         {
           "id": "engineering-adequacy",
@@ -1099,7 +1396,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 5
         }
       ],
       "viewElements": [
@@ -1116,6 +1413,16 @@
           "id": "desktop-workflow-subject-title",
           "role": "domain projection",
           "domainID": "relay:work-order:R-1048"
+        },
+        {
+          "id": "desktop-assignment-error",
+          "role": "interaction requirement",
+          "requirementID": "relay:assignment:invalid-raw-feedback"
+        },
+        {
+          "id": "desktop-assignment-disabled",
+          "role": "interaction requirement",
+          "requirementID": "relay:assignment:refuse-invalid-command"
         }
       ],
       "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
@@ -1125,6 +1432,29 @@
       "unresolvedDecisions": [
         "Proposed visual and behavior choices await scoped review."
       ],
+      "assignmentState": {
+        "rawDraft": {
+          "text": "Mina?",
+          "status": "invalid",
+          "version": "v1"
+        },
+        "workingModel": {
+          "semanticRevision": "r1",
+          "assigneeId": null
+        },
+        "acknowledgedRevision": "r1",
+        "error": {
+          "id": "desktop-assignment-error",
+          "text": "Choose a listed person."
+        },
+        "action": {
+          "id": "desktop-assignment-disabled",
+          "enabled": false,
+          "text": "Assign unavailable · repair person",
+          "reason": "Raw assignee is invalid"
+        },
+        "editingPolicy": "Valid input updates the working model automatically; no global Apply gate."
+      },
       "eventLedger": {
         "status": "drawn static event trace",
         "policy": "Automatic valid working-model updates; no forced global Apply or save-before-navigation.",
@@ -1203,8 +1533,8 @@
         "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
       ],
       "file": "desktop-workflow.svg",
-      "bytes": 7378,
-      "sha256": "77fed66e267b4701f1d447bdc115d7f93309d11e92960d792a1b907b1624a424"
+      "bytes": 8387,
+      "sha256": "c542db653fec0615732e86506af026ae4cfa0dbeb68de9aae0f164e7421e66ae"
     },
     {
       "id": "empty-error",
@@ -1213,7 +1543,7 @@
       "scope": "First-use empty state and retained-input connection error.",
       "schema": "ingenium-method-study/1",
       "artifactID": "ingenium:relay:study:empty-error",
-      "revision": 3,
+      "revision": 4,
       "primaryMethod": "empty-error",
       "scenarioID": "ingenium:relay:scenario:repair-coordination",
       "sceneID": "empty-error-scene",
@@ -1233,6 +1563,21 @@
       "appearanceParameters": {
         "collageSpacingScale": 5
       },
+      "titlePresentations": [
+        {
+          "id": "empty-error-subject-title",
+          "x": 560,
+          "y": 43,
+          "width": 584,
+          "size": 12,
+          "fill": "#545e55",
+          "prefix": "R-1048 / ",
+          "fullText": "R-1048 / Bench lamp",
+          "visibleText": "R-1048 / Bench lamp",
+          "characterBudget": 44,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        }
+      ],
       "purpose": "First-use empty state and retained-input connection error.",
       "audience": "People reviewing a proposed repair-coordination workspace",
       "fidelity": {
@@ -1266,7 +1611,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "interaction-specification",
@@ -1280,7 +1625,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "runtime-behavior",
@@ -1294,7 +1639,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "model-conformance",
@@ -1308,7 +1653,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "user-acceptance",
@@ -1322,7 +1667,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "engineering-adequacy",
@@ -1336,7 +1681,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         }
       ],
       "viewElements": [
@@ -1391,8 +1736,8 @@
         "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
       ],
       "file": "empty-error.svg",
-      "bytes": 4982,
-      "sha256": "9e07a1d92fd76939c3fc548a0526e20c54ef183c1c74469667bbf60d06a0d66d"
+      "bytes": 5126,
+      "sha256": "18f6c2b7158e35bbb97e41b41bf32297c22879bed71555180debb9ab264851aa"
     },
     {
       "id": "element-collage",
@@ -1401,7 +1746,7 @@
       "scope": "Independent presentation fragments without implied behavior.",
       "schema": "ingenium-method-study/1",
       "artifactID": "ingenium:relay:study:element-collage",
-      "revision": 3,
+      "revision": 4,
       "primaryMethod": "element-collage",
       "scenarioID": "ingenium:relay:scenario:repair-coordination",
       "sceneID": "element-collage-scene",
@@ -1421,6 +1766,33 @@
       "appearanceParameters": {
         "collageSpacingScale": 5
       },
+      "titlePresentations": [
+        {
+          "id": "element-collage-subject-title",
+          "x": 560,
+          "y": 43,
+          "width": 584,
+          "size": 12,
+          "fill": "#545e55",
+          "prefix": "R-1048 / ",
+          "fullText": "R-1048 / Bench lamp",
+          "visibleText": "R-1048 / Bench lamp",
+          "characterBudget": 44,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        },
+        {
+          "id": "collage-detail-subject",
+          "x": 744,
+          "y": 550,
+          "width": 344,
+          "size": 21,
+          "weight": 600,
+          "fullText": "Bench lamp",
+          "visibleText": "Bench lamp",
+          "characterBudget": 14,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        }
+      ],
       "purpose": "Independent presentation fragments without implied behavior.",
       "audience": "People reviewing a proposed repair-coordination workspace",
       "fidelity": {
@@ -1454,7 +1826,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "interaction-specification",
@@ -1468,7 +1840,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "runtime-behavior",
@@ -1482,7 +1854,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "model-conformance",
@@ -1496,7 +1868,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "user-acceptance",
@@ -1510,7 +1882,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "engineering-adequacy",
@@ -1524,7 +1896,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         }
       ],
       "viewElements": [
@@ -1595,8 +1967,8 @@
         "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
       ],
       "file": "element-collage.svg",
-      "bytes": 7631,
-      "sha256": "40d4128b70640305b04e69560cf35805d1e6d5c4733f808ae907e99d7194e62e"
+      "bytes": 7912,
+      "sha256": "6349b30a621a219e09b60a12c4348033a9cf14218e09955f0ca5a7f2cb391559"
     },
     {
       "id": "palette-families",
@@ -1605,7 +1977,7 @@
       "scope": "Three families applied to identical content and geometry.",
       "schema": "ingenium-method-study/1",
       "artifactID": "ingenium:relay:study:palette-families",
-      "revision": 3,
+      "revision": 4,
       "primaryMethod": "palette-families",
       "scenarioID": "ingenium:relay:scenario:repair-coordination",
       "sceneID": "palette-families-scene",
@@ -1625,6 +1997,60 @@
       "appearanceParameters": {
         "collageSpacingScale": 5
       },
+      "titlePresentations": [
+        {
+          "id": "palette-families-subject-title",
+          "x": 560,
+          "y": 43,
+          "width": 584,
+          "size": 12,
+          "fill": "#545e55",
+          "prefix": "R-1048 / ",
+          "fullText": "R-1048 / Bench lamp",
+          "visibleText": "R-1048 / Bench lamp",
+          "characterBudget": 44,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        },
+        {
+          "id": "palette-harbor-subject",
+          "x": 80,
+          "y": 292,
+          "width": 296,
+          "size": 24,
+          "weight": 600,
+          "fill": "#23313b",
+          "fullText": "Bench lamp",
+          "visibleText": "Bench lamp",
+          "characterBudget": 11,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        },
+        {
+          "id": "palette-field-subject",
+          "x": 452,
+          "y": 292,
+          "width": 296,
+          "size": 24,
+          "weight": 600,
+          "fill": "#2f3832",
+          "fullText": "Bench lamp",
+          "visibleText": "Bench lamp",
+          "characterBudget": 11,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        },
+        {
+          "id": "palette-mineral-subject",
+          "x": 824,
+          "y": 292,
+          "width": 296,
+          "size": 24,
+          "weight": 600,
+          "fill": "#37333d",
+          "fullText": "Bench lamp",
+          "visibleText": "Bench lamp",
+          "characterBudget": 11,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        }
+      ],
       "purpose": "Three families applied to identical content and geometry.",
       "audience": "People reviewing a proposed repair-coordination workspace",
       "fidelity": {
@@ -1658,7 +2084,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "interaction-specification",
@@ -1672,7 +2098,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "runtime-behavior",
@@ -1686,7 +2112,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "model-conformance",
@@ -1700,7 +2126,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "user-acceptance",
@@ -1714,7 +2140,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "engineering-adequacy",
@@ -1728,7 +2154,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         }
       ],
       "viewElements": [
@@ -1788,8 +2214,8 @@
         "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
       ],
       "file": "palette-families.svg",
-      "bytes": 13883,
-      "sha256": "9c63a43c22098c4d8d30223b234f2dd563fa5cc6e807cd3db1b0c81a5b89aeee"
+      "bytes": 14424,
+      "sha256": "3696cba98f8e758c69555b45ab10c7f1a1f6d668b6df86b28ae08516c317ceac"
     },
     {
       "id": "fontplate",
@@ -1798,7 +2224,7 @@
       "scope": "Fixed-metrics identical-corpus generic sans/serif comparison; actual fonts unresolved.",
       "schema": "ingenium-method-study/1",
       "artifactID": "ingenium:relay:study:fontplate",
-      "revision": 3,
+      "revision": 4,
       "primaryMethod": "fontplate",
       "scenarioID": "ingenium:relay:scenario:repair-coordination",
       "sceneID": "fontplate-scene",
@@ -1818,6 +2244,21 @@
       "appearanceParameters": {
         "collageSpacingScale": 5
       },
+      "titlePresentations": [
+        {
+          "id": "fontplate-subject-title",
+          "x": 560,
+          "y": 43,
+          "width": 584,
+          "size": 12,
+          "fill": "#545e55",
+          "prefix": "R-1048 / ",
+          "fullText": "R-1048 / Bench lamp",
+          "visibleText": "R-1048 / Bench lamp",
+          "characterBudget": 44,
+          "policy": "Conservative 1.1 em per code point with ellipsis; full text retained in SVG title and canonical fixture. Inspect actual fonts; no universal width guarantee."
+        }
+      ],
       "purpose": "Fixed-metrics identical-corpus generic sans/serif comparison; actual fonts unresolved.",
       "audience": "People reviewing a proposed repair-coordination workspace",
       "fidelity": {
@@ -1851,7 +2292,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "interaction-specification",
@@ -1865,7 +2306,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "runtime-behavior",
@@ -1879,7 +2320,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "model-conformance",
@@ -1893,7 +2334,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "user-acceptance",
@@ -1907,7 +2348,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "engineering-adequacy",
@@ -1921,7 +2362,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         }
       ],
       "viewElements": [
@@ -1984,8 +2425,8 @@
         "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
       ],
       "file": "fontplate.svg",
-      "bytes": 8179,
-      "sha256": "959ae49a7160eb680f94de5e29b06f7b0882f0719d2b4b8cd8b8c60f0b9fb269"
+      "bytes": 8319,
+      "sha256": "dab6a89d66281d74e37dc71e1f74292b672d71319b575a1a02e718873057d6a2"
     }
   ]
 }
