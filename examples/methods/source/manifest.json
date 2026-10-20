@@ -196,7 +196,7 @@
       "scope": "Three connected views; action and guard labels plus invalid-input branch.",
       "schema": "ingenium-method-study/1",
       "artifactID": "ingenium:relay:study:wireflow",
-      "revision": 3,
+      "revision": 4,
       "primaryMethod": "wireflow",
       "scenarioID": "ingenium:relay:scenario:repair-coordination",
       "sceneID": "wireflow-scene",
@@ -249,7 +249,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "interaction-specification",
@@ -263,7 +263,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "runtime-behavior",
@@ -277,7 +277,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "model-conformance",
@@ -291,7 +291,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "user-acceptance",
@@ -305,7 +305,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         },
         {
           "id": "engineering-adequacy",
@@ -319,7 +319,7 @@
           ],
           "toolVersion": null,
           "sourceRevision": "sha256:a625a9788cfe3a3a70866f9c6ec8f581420bd18dbc87e570881cac69ce5f71c6",
-          "viewRevision": 3
+          "viewRevision": 4
         }
       ],
       "viewElements": [
@@ -368,9 +368,19 @@
           "requirementID": "relay:wireflow-action:updated"
         },
         {
+          "id": "wireflow-detail-cancel",
+          "role": "interaction requirement",
+          "requirementID": "relay:assignment:pre-submit-cancel"
+        },
+        {
           "id": "wireflow-edge-open",
           "role": "interaction requirement",
           "requirementID": "relay:wireflow-edge-open"
+        },
+        {
+          "id": "wireflow-open-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-open:trigger"
         },
         {
           "id": "wireflow-edge-assign",
@@ -378,15 +388,60 @@
           "requirementID": "relay:wireflow-edge-assign"
         },
         {
+          "id": "wireflow-assign-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-assign:submit action"
+        },
+        {
+          "id": "wireflow-valid-input-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-assign:input guard"
+        },
+        {
+          "id": "wireflow-acknowledgement-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-assign:system acknowledgement guard"
+        },
+        {
+          "id": "wireflow-save-event-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-assign:system event"
+        },
+        {
+          "id": "wireflow-save-match-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-assign:acknowledgement match guard"
+        },
+        {
           "id": "wireflow-edge-refuse",
           "role": "interaction requirement",
           "requirementID": "relay:wireflow-edge-refuse"
+        },
+        {
+          "id": "wireflow-refusal-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-refuse:input refusal guard"
+        },
+        {
+          "id": "wireflow-edge-cancel",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-cancel"
+        },
+        {
+          "id": "wireflow-cancel-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-cancel:cancel action"
+        },
+        {
+          "id": "wireflow-cancel-guard-label",
+          "role": "interaction requirement",
+          "requirementID": "relay:wireflow-edge-cancel:pre-submission guard"
         }
       ],
       "elementMappingLimit": "Only named anchors are mapped; remaining text/geometry is presentation within its named view, not additional model entities. Detailed control coverage is omitted except the declared sequence and wireflow anchors.",
       "omissions": [
         "Runtime keyboard/focus, timing, persistence, concurrency and responsive behavior are untested.",
-        "Missing-title creation, cancellation, back navigation, authentication, concurrency and external handoffs are not drawn."
+        "Missing-title creation, in-flight cancellation, other back navigation, authentication, concurrency and external handoffs are not drawn. Pre-submit command cancellation is drawn; it does not undo working-model edits."
       ],
       "unresolvedDecisions": [
         "Proposed visual and behavior choices await scoped review."
@@ -400,7 +455,14 @@
           "controlRef": "wireflow-queue-action",
           "guard": "selected order exists",
           "effect": "Open selected order",
-          "preservation": "Keep order identity"
+          "preservation": "Keep order identity",
+          "labels": [
+            {
+              "id": "wireflow-open-label",
+              "purpose": "trigger",
+              "text": "Open"
+            }
+          ]
         },
         {
           "id": "wireflow-edge-assign",
@@ -409,8 +471,43 @@
           "triggerKind": "save acknowledgement",
           "controlRef": "wireflow-detail-action",
           "guard": "valid assignee; matching current acknowledgement",
-          "effect": "Show assigned queue result",
-          "preservation": "Keep order and assignee identity"
+          "requiredAcknowledgement": {
+            "requestID": "must match submitted request",
+            "requestedRevision": "must match submitted/current revision",
+            "freshness": "still current"
+          },
+          "effect": "Show assigned queue result only after required acknowledgement",
+          "preservation": "Keep order and assignee identity",
+          "labels": [
+            {
+              "id": "wireflow-assign-label",
+              "purpose": "submit action",
+              "text": "Assign"
+            },
+            {
+              "id": "wireflow-valid-input-label",
+              "purpose": "input guard",
+              "text": "[valid input]"
+            },
+            {
+              "id": "wireflow-acknowledgement-label",
+              "purpose": "system acknowledgement guard",
+              "guardRef": "requiredAcknowledgement",
+              "text": "Saved only after acknowledgement of current request + revision"
+            },
+            {
+              "id": "wireflow-save-event-label",
+              "purpose": "system event",
+              "guardRef": "requiredAcknowledgement",
+              "text": "System: save ack"
+            },
+            {
+              "id": "wireflow-save-match-label",
+              "purpose": "acknowledgement match guard",
+              "guardRef": "requiredAcknowledgement",
+              "text": "[current ID + rev]"
+            }
+          ]
         },
         {
           "id": "wireflow-edge-refuse",
@@ -420,7 +517,42 @@
           "controlRef": "wireflow-detail-action",
           "guard": "assignee missing",
           "effect": "Show correction in place",
-          "preservation": "Keep entered values"
+          "preservation": "Keep entered values",
+          "labels": [
+            {
+              "id": "wireflow-refusal-label",
+              "purpose": "input refusal guard",
+              "text": "[missing assignee]"
+            }
+          ]
+        },
+        {
+          "id": "wireflow-edge-cancel",
+          "sourceStateID": "wireflow-detail",
+          "destinationStateID": "wireflow-queue",
+          "triggerKind": "pre-submission command cancellation",
+          "cancellation": {
+            "scope": "unsubmitted command",
+            "inFlight": false,
+            "discards": "command draft",
+            "changesWorkingModel": false
+          },
+          "controlRef": "wireflow-detail-cancel",
+          "guard": "assignment command has not been submitted; no request in flight",
+          "effect": "Discard this command draft and return to original unchanged queue",
+          "preservation": "Original queue/model unchanged; no working-model edits undone",
+          "labels": [
+            {
+              "id": "wireflow-cancel-label",
+              "purpose": "cancel action",
+              "text": "Cancel"
+            },
+            {
+              "id": "wireflow-cancel-guard-label",
+              "purpose": "pre-submission guard",
+              "text": "[before send]"
+            }
+          ]
         }
       ],
       "width": 1200,
@@ -437,8 +569,8 @@
         "Rendered typography depends on host fonts; accessibility and runtime behavior are not established."
       ],
       "file": "wireflow.svg",
-      "bytes": 7142,
-      "sha256": "251579957f6d4446f439a0cca1acc9ee84ea30ef841bd68cfa1b3f88aad99499"
+      "bytes": 8574,
+      "sha256": "9a5de4c003470050b47288dfc98b1f6239fc502e5718ebe2f1699edbc3cda9fc"
     },
     {
       "id": "state-sequence",

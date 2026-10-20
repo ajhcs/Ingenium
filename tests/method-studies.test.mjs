@@ -215,3 +215,30 @@ test('explicit source verification detects a stale manifest after an editable so
   assert.equal(report.result,'fail');
   assert.ok(report.issues.some(issue=>issue.includes('wireflow: stale')));
 });
+
+
+test('wireflow binds its saved route to a visible matching acknowledgement and pre-submit cancel to unchanged queue', () => {
+  const study=buildMethodStudies().find(item=>item.id==='wireflow');
+  const anchors=new Set([...study.svg.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]));
+  const edges=study.edges;
+  assert.equal(new Set(edges.map(edge=>edge.id)).size,edges.length);
+  for(const edge of edges) {
+    for(const id of [edge.id,edge.sourceStateID,edge.destinationStateID,edge.controlRef]) assert.ok(anchors.has(id),`${edge.id}: resolvable ${id}`);
+    for(const label of edge.labels) {
+      const node=study.svg.match(new RegExp(`<text id="${label.id}"[^>]*>([^<]*)</text>`));
+      assert.ok(node,`${edge.id}: visible ${label.purpose}`);
+      assert.equal(node[1],label.text,`${edge.id}: rendered label matches route source`);
+    }
+  }
+  const saved=edges.filter(edge=>edge.destinationStateID==='wireflow-updated');
+  assert.equal(saved.length,1);
+  assert.equal(saved[0].triggerKind,'save acknowledgement');
+  assert.deepEqual(Object.keys(saved[0].requiredAcknowledgement).sort(),['freshness','requestID','requestedRevision']);
+  const acknowledgementLabel=saved[0].labels.find(label=>label.guardRef==='requiredAcknowledgement');
+  assert.ok(acknowledgementLabel && anchors.has(acknowledgementLabel.id));
+  const cancel=edges.find(edge=>edge.id==='wireflow-edge-cancel');
+  assert.equal(cancel.sourceStateID,'wireflow-detail');
+  assert.equal(cancel.destinationStateID,'wireflow-queue');
+  assert.deepEqual(cancel.cancellation,{scope:'unsubmitted command',inFlight:false,discards:'command draft',changesWorkingModel:false});
+  assert.equal(edges.find(edge=>edge.id==='wireflow-edge-refuse').destinationStateID,'wireflow-detail');
+});
