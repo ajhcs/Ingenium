@@ -1,0 +1,17 @@
+# Shared study contract
+
+Use only the selected method leaf. Combine methods when the uncertainty warrants it; no mandatory order or house style is implied. Keep expressed facts, interpretations and scoped choices distinct. Preserve withheld references and existing policy. The [connected-sketch workflow](../interaction-sketches.md) remains required for consequential interactions, including authoritative native-source obligations where applicable.
+
+Retain a compact envelope: stable artifactID, authored revision, primaryMethod, sourceScenario; separate layout, appearance and content fidelity; interactivity and specified actions; delivery dimensions and audience; assumptions, omissions and unresolved choices. SourceScenario declares fixture/imported/native acquisition, exact available revision and mapping status. An absent model/API/backend stays absent. Never invent a SysML binding or claim a proposed fixture is native source.
+
+Use unique scene/state/view-element IDs distinct from shared domainID and scenarioID. A meaningful named element maps to a domain subject, an interaction requirement, or a decorative role. The editorial shell is presentation, not a fake model entity. Declare mapping granularity and omissions; mapped anchors do not imply complete element or requirement coverage.
+
+Claims identify subject, result, evidence, limits, toolVersion and exact source/view revisions. Results are `not-checked`, `pass`, `fail`, `blocked` or `N/A`. Keep authored/specification status separate from check result. A static interaction can be specified while execution is not checked. A hash establishes supplied bytes, not meaning, acceptance, persistence or engineering adequacy. A separately rendered preview has its own receipt and source/output identities; it does not replace editable source.
+
+For stateful studies, distinguish raw draft and version, valid working revision, view selection/focus/editing owner, diagnostic version, requestID/requestedRevision/freshness, and acknowledged durable revision. Invalid raw input never overwrites the valid working model. Follow the selected editing policy: valid updates may be automatic; do not impose a global Apply gate. Accept a receipt only for its matching request/revision while fresh. Local validity is not Saved. Resolve an active raw draft before model undo; text undo is distinct. Model undo restores a prior value through a NEW semantic revision, without rewinding identity or inheriting obsolete receipts. Static rules are not an executed state engine.
+
+Keep canonical representative content in editable source parameters, then project it into linked views. A content rename must update visible projections without replacing domain identity. A layout/appearance edit must not mutate the semantic fixture. Verify source hashes after edits, rerender to separate files, inspect actual pixels, and report stale evidence instead of carrying an earlier pass forward.
+
+Native authoritative source and acceptance procedures remain authoritative for model-backed tasks. Check source/action/state/requirement coverage in both directions at exact revisions, with explicit unknowns and external routes. Do not force every model property into a widget.
+
+Deliver verified paths, scoped choices, actual checks and consequential limits. Separate integrity, appearance, specified behavior, executed behavior, accessibility, user acceptance and engineering adequacy. These studies authorize no implementation, installation, merge, release or deployment.
