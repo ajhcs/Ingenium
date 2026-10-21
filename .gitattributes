@@ -2,3 +2,5 @@
 src/resources/** -text whitespace=-blank-at-eol
 src/palettes/source/** -text
 src/resources/packs/*/icons.data -diff
+# Preserve exact observed evaluator source bytes, including authored line endings.
+examples/source-synthesis/matched/*/inspector.html -text whitespace=-blank-at-eol
