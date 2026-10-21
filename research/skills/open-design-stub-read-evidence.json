@@ -1,0 +1,956 @@
+{
+  "method": {
+    "scope": "85 catalogue stubs identified by literal 'This catalogue entry advertises the skill' under skills/",
+    "method": "Read all 18 complete normalized body variants, all per-entry frontmatter, all 85 description/source rows; mechanically compared What-it-does text to frontmatter description. Two custom additions were read directly in full (creative-director, ui-ux-pro-max). Normalization is an auditable transformed read, not an exact-byte duplicate claim.",
+    "exceptions_direct_read": [
+      "creative-director",
+      "ui-ux-pro-max"
+    ]
+  },
+  "normalizer": "open-design-audit.mjs",
+  "reconstructionExactCount": 85,
+  "groups": [
+    {
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "paths": [
+        "skills/ad-creative/SKILL.md",
+        "skills/ai-music-album/SKILL.md",
+        "skills/brainstorming/SKILL.md",
+        "skills/copywriting/SKILL.md",
+        "skills/design-consultation/SKILL.md",
+        "skills/design-md/SKILL.md",
+        "skills/design-review/SKILL.md",
+        "skills/doc/SKILL.md",
+        "skills/enhance-prompt/SKILL.md",
+        "skills/fal-3d/SKILL.md",
+        "skills/fal-generate/SKILL.md",
+        "skills/fal-image-edit/SKILL.md",
+        "skills/fal-kling-o3/SKILL.md",
+        "skills/fal-lip-sync/SKILL.md",
+        "skills/fal-realtime/SKILL.md",
+        "skills/fal-restore/SKILL.md",
+        "skills/fal-train/SKILL.md",
+        "skills/fal-tryon/SKILL.md",
+        "skills/fal-upscale/SKILL.md",
+        "skills/fal-video-edit/SKILL.md",
+        "skills/fal-vision/SKILL.md",
+        "skills/figma-code-connect-components/SKILL.md",
+        "skills/figma-create-design-system-rules/SKILL.md",
+        "skills/figma-create-new-file/SKILL.md",
+        "skills/figma-generate-design/SKILL.md",
+        "skills/figma-generate-library/SKILL.md",
+        "skills/figma-implement-design/SKILL.md",
+        "skills/figma-use/SKILL.md",
+        "skills/flutter-animating-apps/SKILL.md",
+        "skills/frontend-dev/SKILL.md",
+        "skills/frontend-skill/SKILL.md",
+        "skills/gif-sticker-maker/SKILL.md",
+        "skills/imagegen/SKILL.md",
+        "skills/marketing-psychology/SKILL.md",
+        "skills/minimax-docx/SKILL.md",
+        "skills/minimax-pdf/SKILL.md",
+        "skills/nanobanana-ppt/SKILL.md",
+        "skills/paywall-upgrade-cro/SKILL.md",
+        "skills/pixelbin-media/SKILL.md",
+        "skills/plan-design-review/SKILL.md",
+        "skills/pptx-generator/SKILL.md",
+        "skills/screenshot/SKILL.md",
+        "skills/screenshots-marketing/SKILL.md",
+        "skills/shadcn-ui/SKILL.md",
+        "skills/shader-dev/SKILL.md",
+        "skills/slides/SKILL.md",
+        "skills/sora/SKILL.md",
+        "skills/speech/SKILL.md",
+        "skills/stitch-loop/SKILL.md",
+        "skills/venice-audio-music/SKILL.md",
+        "skills/venice-audio-speech/SKILL.md",
+        "skills/venice-image-edit/SKILL.md",
+        "skills/venice-image-generate/SKILL.md",
+        "skills/venice-video/SKILL.md",
+        "skills/wpds/SKILL.md",
+        "skills/youtube-clipper/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "1c37f4af590a2b429b8aadb6272b4e62a79bf3c5b262a167f9a80832c58f7981",
+      "paths": [
+        "skills/algorithmic-art/SKILL.md",
+        "skills/brand-guidelines/SKILL.md",
+        "skills/canvas-design/SKILL.md",
+        "skills/docx/SKILL.md",
+        "skills/pdf/SKILL.md",
+        "skills/pptx/SKILL.md",
+        "skills/slack-gif-creator/SKILL.md",
+        "skills/theme-factory/SKILL.md",
+        "skills/web-artifacts-builder/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "d24c7701817ce51ceba24d460f0c533bb5ea986817a28d29d4e44dedf9501055",
+      "paths": [
+        "skills/apple-hig/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "5c4867f25e4cb4c1465433798035ac7dc8b1eadb0e5ef7cfd5b9629270145f94",
+      "paths": [
+        "skills/artifacts-builder/SKILL.md",
+        "skills/competitive-ads-extractor/SKILL.md",
+        "skills/domain-name-brainstormer/SKILL.md",
+        "skills/image-enhancer/SKILL.md",
+        "skills/video-downloader/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "8b6815313c369811b96a972984942451725853dad53312bc6b008198a20027c7",
+      "paths": [
+        "skills/color-expert/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "b1b950e748c2224fc81cd070719711d65d810a38d0eda3b8f836b0b8fe4b8856",
+      "paths": [
+        "skills/creative-director/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "3a3128c4b71edc52f57e766005a2d79e129aa2c1761e793108778b6ad8a0f797",
+      "paths": [
+        "skills/d3-visualization/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "93d857ae56ec343d11411673ad46bfa2c9cca67ac78fadd785343b3278a6513e",
+      "paths": [
+        "skills/frontend-slides/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "ba47ded4352c7007a6462faae6b5f6b6e88ec570a65b69924abf2afe22942517",
+      "paths": [
+        "skills/full-page-screenshot/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "e1ce36ac01e5e54e8f821242898185cfb8876541ca377abbae64deac59e19dae",
+      "paths": [
+        "skills/hand-drawn-diagrams/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "f85115f1c13c421d3e469ebb782e5d1e3f49e8c3d07426312adf0d33d67940af",
+      "paths": [
+        "skills/imagen/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "98a41645c37b26d7c46b6706c3676409a7057add23c0bfbfcb1cd6dd705a53e5",
+      "paths": [
+        "skills/platform-design/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "c5e1f59a433ad5eec5b8accc73755b9bdceb7b5ac15b369d462ed6873e0e1133",
+      "paths": [
+        "skills/remotion/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "b3b4fcbd38193fe52535a7a8c8c8bf2c5a4e18a9785c6ffe7e76ff38d85168ce",
+      "paths": [
+        "skills/replicate/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "a9e76c6a8a724e4548fab288f4767f69147ee54b56a1740a0f71364c06f58751",
+      "paths": [
+        "skills/swiftui-design/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "cb515783a5602350d5a0f2347d320a90f134ec78330206437a7608172931eed4",
+      "paths": [
+        "skills/threejs/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "7589beacf156b23db7554a581a7d75fb8772b6e0a1a3daba10d8a66b04463268",
+      "paths": [
+        "skills/ui-skills/SKILL.md"
+      ]
+    },
+    {
+      "normalizedBodySha256": "9fdd9ef8e617a3fc9c774c25d1e1be98f25ee6d8f43a4e3a2b256d98187ad5df",
+      "paths": [
+        "skills/ui-ux-pro-max/SKILL.md"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "path": "skills/ad-creative/SKILL.md",
+      "fullTextSha256": "3bf78a21f761a1cb68f1cce008c1997c47be0768f047c56bd210e6e70d90fed1",
+      "frontmatterSha256": "50684648802ae0ae5fbb1e930b7804afd96476c6dd3f6f165d46b3110da0d741",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Corey Haines.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/ai-music-album/SKILL.md",
+      "fullTextSha256": "5521f0ef56713c66c2a37d91a763679bb9c41bab5ad441295a7ae97b91281db8",
+      "frontmatterSha256": "3152513d08552e9862036b10031a22ee2d3dd6508233aedad64c933b436b9084",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from bitwize-music-studio.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/algorithmic-art/SKILL.md",
+      "fullTextSha256": "1276bef47bcfc816e67921d4fa92aaf5693603bee5607da0f083aa376dd6a6a9",
+      "frontmatterSha256": "364ef60627eee84217fd065b35e488d1d01ee713ef48211d713c6d13746c2da5",
+      "normalizedBodySha256": "1c37f4af590a2b429b8aadb6272b4e62a79bf3c5b262a167f9a80832c58f7981",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Anthropic's official skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/apple-hig/SKILL.md",
+      "fullTextSha256": "ef182b38f13b49165905a1ed78b8733851a7b5397259efc9843dd93d4a6c0b2e",
+      "frontmatterSha256": "6ca56b68788eb8cbe7cd09f4300b022cef3249de8c3461f21edfff5aa4c985fc",
+      "normalizedBodySha256": "d24c7701817ce51ceba24d460f0c533bb5ea986817a28d29d4e44dedf9501055",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from raintree-technology.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/artifacts-builder/SKILL.md",
+      "fullTextSha256": "45904e108563c315cd66dc236af45b486c540184cbe18f74b719b104e658a1fe",
+      "frontmatterSha256": "670965c1ce37a021fcdbe7c1eaed2baf981c58107f2bd25adc8a2f870b650daf",
+      "normalizedBodySha256": "5c4867f25e4cb4c1465433798035ac7dc8b1eadb0e5ef7cfd5b9629270145f94",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from ComposioHQ awesome-claude-skills.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/brainstorming/SKILL.md",
+      "fullTextSha256": "ab5bbfa4db67428279c298eef2139eba2deadabf2440e0f0ccb7bd220a365ae4",
+      "frontmatterSha256": "19d629d1b260ba56b5b4c72dc6c0181f8663659b2ab7829a2f526879cc1a6773",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @obra.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/brand-guidelines/SKILL.md",
+      "fullTextSha256": "d0e638cc7482728d077a3285a0df2b243a4080393a2685ad9a6f3c65ae893499",
+      "frontmatterSha256": "0d0d1dbede262b85e1ad862bf187a348e62e63bbde001a01472b7d423ee47a67",
+      "normalizedBodySha256": "1c37f4af590a2b429b8aadb6272b4e62a79bf3c5b262a167f9a80832c58f7981",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Anthropic's official skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/canvas-design/SKILL.md",
+      "fullTextSha256": "e9975585fbfc080f456038830f52ad38aaf0449bb29942419c6ff87e51a5a84e",
+      "frontmatterSha256": "a6c8a104cb4c61be46953038a332bfd82c9d23141c2f65f7790019028e7430ba",
+      "normalizedBodySha256": "1c37f4af590a2b429b8aadb6272b4e62a79bf3c5b262a167f9a80832c58f7981",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Anthropic's official skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/color-expert/SKILL.md",
+      "fullTextSha256": "33975fd19ac16d3ffeed03ded0e47abd3a9e65cda6043a9c5d06b3bb43900a61",
+      "frontmatterSha256": "fda7aa99da2d2832516fd76e1a6d70be2992beb8bcbb281607fb46428153ad8c",
+      "normalizedBodySha256": "8b6815313c369811b96a972984942451725853dad53312bc6b008198a20027c7",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @meodai.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/competitive-ads-extractor/SKILL.md",
+      "fullTextSha256": "9db32764ee17cb8ff41e1562f072be83ff9ce8e1737aa7bf2aa95d97035f34ee",
+      "frontmatterSha256": "a4d1f63ffc829c161b6b9be4e332c1f4ed6099e57f8c83d7879ee2a06b48493a",
+      "normalizedBodySha256": "5c4867f25e4cb4c1465433798035ac7dc8b1eadb0e5ef7cfd5b9629270145f94",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from ComposioHQ awesome-claude-skills.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/copywriting/SKILL.md",
+      "fullTextSha256": "f31d157ba542e06182fbc758eb72bd2b7b86a4d42c89912a55e41b87bd5d623f",
+      "frontmatterSha256": "4b12490cac7860f39332c99dac0fbee9c33528da1e81bbcdd7403fcdbbddf67f",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Corey Haines.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/creative-director/SKILL.md",
+      "fullTextSha256": "16b5c76c84a57e3fb47c93c35ea5fe6308b0ae2822994ede80343d01ac376668",
+      "frontmatterSha256": "1d402d16adfafa021b822e56e105d18058677b4ea5f6bcfa66c6df27c6be7be9",
+      "normalizedBodySha256": "b1b950e748c2224fc81cd070719711d65d810a38d0eda3b8f836b0b8fe4b8856",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @smixs.",
+      "whatItDoesEqualsDescription": false
+    },
+    {
+      "path": "skills/d3-visualization/SKILL.md",
+      "fullTextSha256": "1e202593fdf7369f309ec829a52ad4a31e326e26a74a61e6460ced5014b39824",
+      "frontmatterSha256": "e08898a0a9516d7d1294d79ab91e48909b5e582f73dcb3f3348fc7431e481fc5",
+      "normalizedBodySha256": "3a3128c4b71edc52f57e766005a2d79e129aa2c1761e793108778b6ad8a0f797",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @jiannanya.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/design-consultation/SKILL.md",
+      "fullTextSha256": "163d735ba1cbd7a5c8ed81a644541707949834f35d0d055df7c2afc93c41825a",
+      "frontmatterSha256": "1ae08dad895dd75b27d73250b8c00aacbb5a7c3f5a756ce527fe07f30fd62beb",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Garry Tan (gstack).",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/design-md/SKILL.md",
+      "fullTextSha256": "0a6d5e0581d4ee66a5d040b7c8711e39e7e756bdbaeb2265da26a97d3fcead6b",
+      "frontmatterSha256": "7137453c5374350b3bd2e659a23dfc884f1a81b1e96b12b252b582268ad41a5b",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Google Labs (Stitch).",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/design-review/SKILL.md",
+      "fullTextSha256": "f3e96359952f5a363a85651ebb324f605def11988ebdef870d6c9359a2259131",
+      "frontmatterSha256": "848eb7c52809801cf1b83fc5daaa33a914d886cbad7838a2b227ba5a503e4819",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Garry Tan (gstack).",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/doc/SKILL.md",
+      "fullTextSha256": "f9501e0c0cdf4c14261dcc259ee6e6c4dd494fb1986783a4525c6ad26a5a285e",
+      "frontmatterSha256": "38b22fc7036c9475d534a31d1051ae4e31c97e1971d68ab6a512ddd95439289b",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from OpenAI's skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/docx/SKILL.md",
+      "fullTextSha256": "a940ad17032596b28fc88dd2bfa26932048ed2e50603a87af5436e84d62da9da",
+      "frontmatterSha256": "8bd5c5659a1ddf7efff529b6ce5710d1ab9b4d8550e62f765385d4629bf21388",
+      "normalizedBodySha256": "1c37f4af590a2b429b8aadb6272b4e62a79bf3c5b262a167f9a80832c58f7981",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Anthropic's official skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/domain-name-brainstormer/SKILL.md",
+      "fullTextSha256": "e1e07ed979e713e312eb965b26200151b420fc7bb4de757a8d6b1bbb57664c87",
+      "frontmatterSha256": "5d0bd8bfedd68d738503e4a8dfd913ab5205aa44f82992f83ceda2f45c51a584",
+      "normalizedBodySha256": "5c4867f25e4cb4c1465433798035ac7dc8b1eadb0e5ef7cfd5b9629270145f94",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from ComposioHQ awesome-claude-skills.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/enhance-prompt/SKILL.md",
+      "fullTextSha256": "cbed95ee725028407cc17c8aa679c6f3ee90ae60aee0263613921cb1fb040be6",
+      "frontmatterSha256": "76d15b279f43387f3247fb008da2559ea5834de49afcfc1363465c67486ed23b",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Google Labs (Stitch).",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-3d/SKILL.md",
+      "fullTextSha256": "86f6414d1940ac1d72fc4917f16f88d72ba3dc80f32f46c2c5792e1e52314af2",
+      "frontmatterSha256": "c91a56f495404e5964887070f7e78673dc212bf4185f19b46da3fd234c1127f7",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-generate/SKILL.md",
+      "fullTextSha256": "e48f7c85fc6d6f9f9b369cf3cc54188d65d520f9241306923ecfe580a801e4b0",
+      "frontmatterSha256": "f44591d6a296e8e3d69aa248f635d928cef69ed57c8fb6ce95e29330bd656434",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-image-edit/SKILL.md",
+      "fullTextSha256": "1c7431bb9b82d9b135262542d3ee8bc22ce7235c2923c92821e4e87b84b75a27",
+      "frontmatterSha256": "8af4c79c73d8336e0895b3581ffcc0cba5f3154eba0134b1753cb346d96fb1db",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-kling-o3/SKILL.md",
+      "fullTextSha256": "0bb9c4bbdb3d6aab02d68c862b9cd3ca2543886911371caf0899f6a99248cf15",
+      "frontmatterSha256": "7403a46e700312d3122076194e2dda5ef8d2d986640b20a1ee0011bcc8d13b37",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-lip-sync/SKILL.md",
+      "fullTextSha256": "6b5b6f6cb3938ac0009041a1cdb52cbbf7d0c55bddda952f288c107aaead8a93",
+      "frontmatterSha256": "f9df6f8b0af6f6ec7c8fd1e5740c756d1bc354d3f339c5435dffac3af8ffd53e",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-realtime/SKILL.md",
+      "fullTextSha256": "126a2a60cdb4a034beb36c2c3f1b1da203c466434ffc95f2207dae1811cc886f",
+      "frontmatterSha256": "05d4218dcf74c149845c11dc5c8dab840521e835004d4fadc71f23acce617db9",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-restore/SKILL.md",
+      "fullTextSha256": "d09543c365357ee9e4b7676b7526241f91b298f8d057a0a17cbe777c9ae28d18",
+      "frontmatterSha256": "0db0482bd35e427d037e7a01cd200ee04203b5f4a53ab5774a731634d6fc5b3d",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-train/SKILL.md",
+      "fullTextSha256": "23daac5e70ad6bd93457e7d16b669f528f9e2b5dc5c9b09aba625cfbc1c707c5",
+      "frontmatterSha256": "4ff6671ae3ab3e2c0b88239430609792d1befeb25aaace8a443144f2423e1b94",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-tryon/SKILL.md",
+      "fullTextSha256": "fefa98780d34eed99ba4390f3454e43128e50f1f96844780b5fab973cd5f47f7",
+      "frontmatterSha256": "193a11e5966d4f42a9e2de16521da1db62f73cccc630f50a4a881ada995e92a1",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-upscale/SKILL.md",
+      "fullTextSha256": "08252d903b12aedbca09060476ec2ac6247cef962ef0ee480d532bad598cfa35",
+      "frontmatterSha256": "f5d6d40b6b0f31a3ec6baff4c624895f30e8b0a117d8023f3577af1bb5515b12",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-video-edit/SKILL.md",
+      "fullTextSha256": "4f6c1ac3bdc6c004c57f4295e548edb7dcee3371d50fe05f79b5c7039209508b",
+      "frontmatterSha256": "df67be0e04ea8281726ff6884000163260934c9e99055e0be5e96ba84e628a2c",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/fal-vision/SKILL.md",
+      "fullTextSha256": "e791ac47a9e34c1ea618dcfd32f26357b440eae9e51fd771175c74f50553e128",
+      "frontmatterSha256": "2a99038017030ffc2d7e5575cc0a553e5b4af64f562bff60998d443fd4ce9232",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the fal.ai community team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/figma-code-connect-components/SKILL.md",
+      "fullTextSha256": "a2864bbe62cf50c852d0d4a3ba2306fab4508ee91231d4cb9937fe74239bba81",
+      "frontmatterSha256": "bdc0f3a606ca3137994fe3fb4e5cc819d957f9978eb2800dfca7c8301e035e94",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Figma's MCP server guide.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/figma-create-design-system-rules/SKILL.md",
+      "fullTextSha256": "b35a03c36b212491807069efa66c3d0794375b5aa7f8c42c53e3c902494ef0d9",
+      "frontmatterSha256": "1b0b7a21a28c89852ef29e36e032acd9220fa5c1f0b285ea8d2deddeebc7f936",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Figma's MCP server guide.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/figma-create-new-file/SKILL.md",
+      "fullTextSha256": "f592f71907de297ff6c0efc7f8abb88e31746e4249e15fbb356f65a06646b8f4",
+      "frontmatterSha256": "d937ddbbc45354c20fa48b2dc3cfdfca7a0f0fa791244416c8042e59fd5c939a",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Figma's MCP server guide.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/figma-generate-design/SKILL.md",
+      "fullTextSha256": "dd801b4e2dacdf6871fb6159bb2e0a2ca24dd0c755ae5d5d2a1df7f67cc57a44",
+      "frontmatterSha256": "1f95a2e9f8baef325b927c4d9b6783bbb6607e4d8f23f10796ef7176e0e6c899",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Figma's MCP server guide.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/figma-generate-library/SKILL.md",
+      "fullTextSha256": "e54b34d1d339cf648abd56787b470226079defbdd4dac5cc6f54649d3a73bf0f",
+      "frontmatterSha256": "1568a470c44a8f7e57cee8ed1b09085bcc4722ea7206a3f42337c5e452b5f6e7",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Figma's MCP server guide.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/figma-implement-design/SKILL.md",
+      "fullTextSha256": "9a6a5bc2cd3bb7d1250f6283ef82f31a462fc7293a31d024c7ac58306457947f",
+      "frontmatterSha256": "1460bd2034abb70a8344a463119a7482da2def5c4dd6cf6473ce6289d98291f7",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Figma's MCP server guide.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/figma-use/SKILL.md",
+      "fullTextSha256": "9e50c482f8e47b194a9590091ec8347f882d2fe99f2d738c45da577c5cc06c90",
+      "frontmatterSha256": "554bdead0f11844c1721ada9a51a543de8dc95cc7aef927a36c231b2c7a97703",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Figma's MCP server guide.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/flutter-animating-apps/SKILL.md",
+      "fullTextSha256": "4392f97224dba79be4458c3568814446e06c6b2122b6f1d38e78a7d251c2acec",
+      "frontmatterSha256": "a405a98af2893b268b8b9a0b9715c4f229d5a8ba5135e0b44271122957b896a7",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the Flutter team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/frontend-dev/SKILL.md",
+      "fullTextSha256": "8f374401624f0f45116a8f3449619e2b46bbc5439070e0132abe202fc21a7850",
+      "frontmatterSha256": "cba0c5973b1592eff6d2515c4acef9ab06d7d27f82a353b4c452b1464892b9b2",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the MiniMax AI team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/frontend-skill/SKILL.md",
+      "fullTextSha256": "f4e4c3b6ece6303a88de394bc24dd411eeb25d7915a20bd8a4b682adcf803f2f",
+      "frontmatterSha256": "d295d7b0963c8e36956a544cc9ebc4deaaa0e15b511b17c96e4840c7c2a6cf59",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from OpenAI's skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/frontend-slides/SKILL.md",
+      "fullTextSha256": "a0caeaae9d5e1ceed30db2ebed8d190af13142afa9cdbdd82c2db2a192181539",
+      "frontmatterSha256": "c74ef768ff31ef001108de258184fe781f6b7cd87770b31ad7ae46869e0edc64",
+      "normalizedBodySha256": "93d857ae56ec343d11411673ad46bfa2c9cca67ac78fadd785343b3278a6513e",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @zarazhangrui.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/full-page-screenshot/SKILL.md",
+      "fullTextSha256": "adc571793c80c409b628f43a17a17e4194ff0c70d450dc496bda3db3e3364855",
+      "frontmatterSha256": "8eb2080a76b4639e623ebdeb5e99b2ae2148d35f7bc0a35468b3c19548cc0e85",
+      "normalizedBodySha256": "ba47ded4352c7007a6462faae6b5f6b6e88ec570a65b69924abf2afe22942517",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @LewisLiu007.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/gif-sticker-maker/SKILL.md",
+      "fullTextSha256": "09c29c8ca4b9ad11dd05cd1c4583b7fc21744672aff181be60db9cd3b47b7dfa",
+      "frontmatterSha256": "4073c3e322d6c8f525b5f8864d067cc819d255a743f14d9f6224a7198b2b09f3",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from MiniMax AI team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/hand-drawn-diagrams/SKILL.md",
+      "fullTextSha256": "f58e159e36b1d047a94c4b870624b70bbd9480ab0e049711b7738f27fef21159",
+      "frontmatterSha256": "75229e34aad399834f24eab40364007462807f54f5af14dee8a7076b5222f2a6",
+      "normalizedBodySha256": "e1ce36ac01e5e54e8f821242898185cfb8876541ca377abbae64deac59e19dae",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @muthuishere.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/image-enhancer/SKILL.md",
+      "fullTextSha256": "38b5637ce960143fa9fcc57e18476911d56ba6e35bdf8731eca2eb1c79e183f9",
+      "frontmatterSha256": "603a832aa09a4de07cc634047e4a3af3de19eb847715c507c9599dd6316caf83",
+      "normalizedBodySha256": "5c4867f25e4cb4c1465433798035ac7dc8b1eadb0e5ef7cfd5b9629270145f94",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from ComposioHQ awesome-claude-skills.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/imagegen/SKILL.md",
+      "fullTextSha256": "c11bdb66ffc1243d240b523f003c8f62670bd4844abff8239a4d46dfdee25b5f",
+      "frontmatterSha256": "88068db9129655b234549bcbed6059d9dda7a1091e79f200e4daa040a33926e1",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from OpenAI's skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/imagen/SKILL.md",
+      "fullTextSha256": "e6cf45511e21e75594e5f7adad9375ea0686adc0d7e63cefe6a56b91fa314653",
+      "frontmatterSha256": "a3f1ade9eec2d9eef2afbb86e078550eaa5bc89ef645da469a36f08d4681b72b",
+      "normalizedBodySha256": "f85115f1c13c421d3e469ebb782e5d1e3f49e8c3d07426312adf0d33d67940af",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @sanjay3290.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/marketing-psychology/SKILL.md",
+      "fullTextSha256": "9f9a2c9b538e75e399d5626495d55f869f6494f511bb1db5548758c389603bcf",
+      "frontmatterSha256": "9ae3dbeb95328d5ad885a6f9b7de33b0acebb1a76886c1e92c3b79615790c3c0",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Corey Haines.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/minimax-docx/SKILL.md",
+      "fullTextSha256": "03b7615eb2a63c5d9759e8370c9d43e956dfab8d2dd3d4ff5b587971a62ac477",
+      "frontmatterSha256": "3b133aff289d5f3ae817358b77b20ed3f45fa7f6ccef05dd6bbefadccf326ba2",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the MiniMax AI team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/minimax-pdf/SKILL.md",
+      "fullTextSha256": "7ffdc5c1c7979f3964c1bdf3b3779d7d7f7e40b4f52a63d99ddea35dc0af02a4",
+      "frontmatterSha256": "7a24600fc4fab493257521814982d16df3af1bb95201dc4f5e98405d55599cd8",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the MiniMax AI team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/nanobanana-ppt/SKILL.md",
+      "fullTextSha256": "18bc74fed23d1fea27d8afe547b854df970d1153aed54a341dc37b8f8bb8adf5",
+      "frontmatterSha256": "3f59c475f2ad0f3bea62e9ac88cc75a47da47ff4362b7496cbf24fbeea568329",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @op7418.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/paywall-upgrade-cro/SKILL.md",
+      "fullTextSha256": "ffe62e8db78ebf652cc05b461e7e6419382db36859da2313c105f2d46f117c3e",
+      "frontmatterSha256": "a5b4af1c2a2103c45b7066c8296b016729def0dbcf3d9236d74ee2b8e49d64d0",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Corey Haines.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/pdf/SKILL.md",
+      "fullTextSha256": "17a8a3bee577156b32a5719b4d04ac001a5b58c58710733bddfa8c472f95088e",
+      "frontmatterSha256": "97d622696e5215eb1b7a0b80358865871a116e23d64318fa7755dfbc48a729c6",
+      "normalizedBodySha256": "1c37f4af590a2b429b8aadb6272b4e62a79bf3c5b262a167f9a80832c58f7981",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Anthropic's official skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/pixelbin-media/SKILL.md",
+      "fullTextSha256": "a65ff737cb17376c8f80692d459367d0e8b707e4152956afe4cb1812223ad830",
+      "frontmatterSha256": "26315e44431ec0abc1f049d44a5953229daabe31c4ca1f8d96bf14cb694c0a1d",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Pixelbin.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/plan-design-review/SKILL.md",
+      "fullTextSha256": "4fc5c8a348963b13899e4bd7582ba311c0e5dd86e02b76f506c6080d129d59fd",
+      "frontmatterSha256": "b847d758cb3e1efc65521d86475540cd69324294ee8bcac636bca7a3e6f17027",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Garry Tan (gstack).",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/platform-design/SKILL.md",
+      "fullTextSha256": "82ddd53a6853b0686287f88fc67594fa573f2d1cf69a52c203c31b581e181df2",
+      "frontmatterSha256": "5ae10ef789b89b3213ca4e4eb2d14d3eb949bc45e083ae52c64ddaa5b438ab11",
+      "normalizedBodySha256": "98a41645c37b26d7c46b6706c3676409a7057add23c0bfbfcb1cd6dd705a53e5",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @ehmo.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/pptx/SKILL.md",
+      "fullTextSha256": "9c3d59d4f6a66832d3d2ad56bbe142639c1bd71ec671a4481f1b716fd3220e93",
+      "frontmatterSha256": "ad71e188caa22042fcf5023312b9e4f4b6584cb3cb4e2abd16de0050abf158d1",
+      "normalizedBodySha256": "1c37f4af590a2b429b8aadb6272b4e62a79bf3c5b262a167f9a80832c58f7981",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Anthropic's official skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/pptx-generator/SKILL.md",
+      "fullTextSha256": "5aef964e2c097c1af3c2bd6197bb8f311d2fbdfe559bd91cfa4029d2522d6bda",
+      "frontmatterSha256": "df08694be7e3e6d5a9dd4e370318d01cc2d1819fe98d2309904d512025b52684",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the MiniMax AI team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/remotion/SKILL.md",
+      "fullTextSha256": "9721e254da5338ada8400e00341f7a8ba52126d3395e08e76f6bb529d250e8ca",
+      "frontmatterSha256": "b87200dbbcb00bda7dcc537cff088e14621bd1a081a335beeb6677f4cbed72b3",
+      "normalizedBodySha256": "c5e1f59a433ad5eec5b8accc73755b9bdceb7b5ac15b369d462ed6873e0e1133",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the Remotion team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/replicate/SKILL.md",
+      "fullTextSha256": "cc4fefd048e4a3ca4396942f49c36b8cd2429bb59863334ea0deb8f3fd79132c",
+      "frontmatterSha256": "0bda0578abad7185f1aba6c5a1a9b4b8b44dc98aef8cca0b16025b7f7a05bc60",
+      "normalizedBodySha256": "b3b4fcbd38193fe52535a7a8c8c8bf2c5a4e18a9785c6ffe7e76ff38d85168ce",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Replicate.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/screenshot/SKILL.md",
+      "fullTextSha256": "f1b9b6f05dc03b3c84e8e1ca3ec6683cb62907c3f273e2f00d94df3eb91a271f",
+      "frontmatterSha256": "792ba6fd939267d5eb81b3d1aed5f0a428a52d4b1c1deac8f975fb82606f4d23",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from OpenAI's skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/screenshots-marketing/SKILL.md",
+      "fullTextSha256": "50ec6addc98ccf17a80b420c4cd0ffd134899faf533e0fbce966c617ab107a4d",
+      "frontmatterSha256": "8cc6ee2f5266ccaa380ac3217fa3f1f5e841aed7d771f4b8e02e754e6d72b8e6",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @Shpigford.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/shadcn-ui/SKILL.md",
+      "fullTextSha256": "3cce7c439d908796072fa9c669772c4aebb8158dd2d8cf7717dea3648e1bc965",
+      "frontmatterSha256": "1e2f2b8e06c2aa58d25c8da363050f294ce060c99dc82a683548deb8d387a504",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Google Labs (Stitch).",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/shader-dev/SKILL.md",
+      "fullTextSha256": "791ee5d49cedfd062aa39f4f6491867933a0934463992cc97666da66cb17e8e2",
+      "frontmatterSha256": "7ad1209a656030d07dd68712b23c3cb30241a7940f10e54991f82a6b5c24d07c",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the MiniMax AI team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/slack-gif-creator/SKILL.md",
+      "fullTextSha256": "f3b1a61f7863768729525566103582a050f2bd034c1aba8b60e1120a7063765d",
+      "frontmatterSha256": "c6a1a8ee13a9071b82bc230c034f574038ba7f32441732def9e4a35dca1b03d1",
+      "normalizedBodySha256": "1c37f4af590a2b429b8aadb6272b4e62a79bf3c5b262a167f9a80832c58f7981",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Anthropic's official skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/slides/SKILL.md",
+      "fullTextSha256": "cbd815baab874f5bf1625333bf4cdba0d3d61d29e2993708602a0e1a6137a564",
+      "frontmatterSha256": "6f9115747ef16a732085aa15d4d88bd4503557596a98157fb2dbe92ff97c1a51",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from OpenAI's skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/sora/SKILL.md",
+      "fullTextSha256": "0e0cf85842aba4f72de279cd0ee6a5b3d80e63b2ec7b3c95cf5c52c5fc7f6634",
+      "frontmatterSha256": "18b46b57e8748b10f7ad78e23c2ebf3da410371194b3deca75aa113f70157c6b",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from OpenAI's skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/speech/SKILL.md",
+      "fullTextSha256": "c16c8c6e839650298fd498383274aaa05f3faf966356c112a62b4078d4cc155d",
+      "frontmatterSha256": "991485e003d2d42a35fc58c0edf730dbeb6a17de3b4c983e2bfff06aaf637aaf",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from OpenAI's skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/stitch-loop/SKILL.md",
+      "fullTextSha256": "140b02b30231484e5d9dbb36e0d4dc4cb624701d68d6fd58004dcd44b9b22814",
+      "frontmatterSha256": "6b54059546127f6694cfaf5f696d993ae68c239e78073e49badf7488917286d5",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Google Labs (Stitch).",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/swiftui-design/SKILL.md",
+      "fullTextSha256": "5c57bc4aba2996a1e782013ae4be5f981f945a51852c38edc5e2a0d10559efe7",
+      "frontmatterSha256": "8133910436c530ed5bbdb6f3222b439695562c01fd5fa794199afc64b55a4ea4",
+      "normalizedBodySha256": "a9e76c6a8a724e4548fab288f4767f69147ee54b56a1740a0f71364c06f58751",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @wholiver.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/theme-factory/SKILL.md",
+      "fullTextSha256": "8abad63d9de407d8bc035a698081a7be4f66715a04636f49e8d6e0ca8725333d",
+      "frontmatterSha256": "ed675243069c240ef940994385ebd29219954676b9f90ed1290a68ccaebb097f",
+      "normalizedBodySha256": "1c37f4af590a2b429b8aadb6272b4e62a79bf3c5b262a167f9a80832c58f7981",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Anthropic's official skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/threejs/SKILL.md",
+      "fullTextSha256": "87eac862600e5a3eae58a6ca07b13b2068f3f46ffdbee53bfc5bdc6dbdcf774d",
+      "frontmatterSha256": "584045c5d0b718d6f484c7b06be663893fd700d0b443ec150f56d5ac48a45446",
+      "normalizedBodySha256": "cb515783a5602350d5a0f2347d320a90f134ec78330206437a7608172931eed4",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from CloudAI-X.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/ui-skills/SKILL.md",
+      "fullTextSha256": "04e524d48f0bbb309255d4757de7b2465736cbac573c633f7ff1a5da0dcddda1",
+      "frontmatterSha256": "3e49f061d07d2d9a952533c7d296fa94167168204b75e843544682bbbb81c2ec",
+      "normalizedBodySha256": "7589beacf156b23db7554a581a7d75fb8772b6e0a1a3daba10d8a66b04463268",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @ibelick.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/ui-ux-pro-max/SKILL.md",
+      "fullTextSha256": "700d90baf71b2492365a376c04c19f5bb55d725f3377974edd0630bcbe2455bb",
+      "frontmatterSha256": "a2ece3b082a070e80dc0625864abfc92435f1943e3c53177e37cee75202ca021",
+      "normalizedBodySha256": "9fdd9ef8e617a3fc9c774c25d1e1be98f25ee6d8f43a4e3a2b256d98187ad5df",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @nextlevelbuilder.",
+      "whatItDoesEqualsDescription": false
+    },
+    {
+      "path": "skills/venice-audio-music/SKILL.md",
+      "fullTextSha256": "423302cca0ed509b04a535dd28f8f5990e75bc3b0738cec97a437f2c77fad0df",
+      "frontmatterSha256": "7f25ba293c944bec17d869b4679a35d831d29dcac2e9282f57950fab8815a267",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the Venice.ai team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/venice-audio-speech/SKILL.md",
+      "fullTextSha256": "603d53af794a348ad083d338cd7beee70c07c7424c5e55fb7cd6c67040e862ae",
+      "frontmatterSha256": "39ee76125120062b579c34b34c042abd5cbfd3954499a62bdadd43f85ef0c940",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the Venice.ai team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/venice-image-edit/SKILL.md",
+      "fullTextSha256": "7364b7a1e0a78320d35dc4798a787b1ee6ec875ac98d51af99eee0e8f45a0d28",
+      "frontmatterSha256": "cb9452146dbfa880ec2abfc4b497aaeb9c5640eb924405bcfc13d8731acb8274",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the Venice.ai team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/venice-image-generate/SKILL.md",
+      "fullTextSha256": "b5586e15d1e99a0f66cc1f8556830e8a0436cc7b7125d21d3944d64ac3108460",
+      "frontmatterSha256": "99717738cd56675de0cf4e3abf8f0ad5c7c2d1d40feb9fe09f42d5b22530cef4",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the Venice.ai team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/venice-video/SKILL.md",
+      "fullTextSha256": "4655851a50124584387af111d351a73aa69f6d75678d7abda92b9038ac43515a",
+      "frontmatterSha256": "508e96452c39ef59cb7d60bbb096860b50d8734e69236b37a2a4896004cc05f4",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the Venice.ai team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/video-downloader/SKILL.md",
+      "fullTextSha256": "085ab999a474308d8f5a6e19534aea6279187c087af7d103543ea98cb9570538",
+      "frontmatterSha256": "cb69c488506ed45864496e90ab1b9db9c648bb939a86c82cfd7de09220d63bd5",
+      "normalizedBodySha256": "5c4867f25e4cb4c1465433798035ac7dc8b1eadb0e5ef7cfd5b9629270145f94",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from ComposioHQ awesome-claude-skills.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/web-artifacts-builder/SKILL.md",
+      "fullTextSha256": "4eb6c0db5124ee46b69e8e457742d6dbb5543f7c1c21291ba1d0a903d59ececc",
+      "frontmatterSha256": "b58476c9c580e49d2e273370cdf3858367beabd98d271ce0b2e49ced5f21d37e",
+      "normalizedBodySha256": "1c37f4af590a2b429b8aadb6272b4e62a79bf3c5b262a167f9a80832c58f7981",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from Anthropic's official skills repository.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/wpds/SKILL.md",
+      "fullTextSha256": "ea2004baa51c86d6d1758a10088fb483d3eaf5da6d009a296eb16efd5f6755f5",
+      "frontmatterSha256": "5beda79ecf2a5d079d6b30a092ab1a1097b3b11bcee24001ec978c6b83ba992f",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from the WordPress development team.",
+      "whatItDoesEqualsDescription": true
+    },
+    {
+      "path": "skills/youtube-clipper/SKILL.md",
+      "fullTextSha256": "91856bd306cf46d22e21bb3f98de43ff512913d4ba5d32012b3357f7fc26c2df",
+      "frontmatterSha256": "8cb3e4fc862ec8b8362acdf4f79da8aa84916780fae47ed095416ea866718e0a",
+      "normalizedBodySha256": "0a8925a93de3ae5a2402f4e677abb19724a3f99405f2cf9f91725fd834d50ba0",
+      "reconstructionExact": true,
+      "curationLine": "> Curated from @op7418.",
+      "whatItDoesEqualsDescription": true
+    }
+  ]
+}

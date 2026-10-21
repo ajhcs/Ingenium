@@ -1,0 +1,4394 @@
+[
+  {
+    "path": ".claude/skills/od-contribute/SKILL.md",
+    "sha256": "9a22ec0a1ccd708f85289933705dc8322f2700cce604b26373cc9d089721d310",
+    "bytes": 14462,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "apps/daemon/tests/fixtures/plugin-fixtures/sample-plugin/SKILL.md",
+    "sha256": "9a65229706106c03fc9223efa4dfe3570f4276517f324a6972da23622d84ba03",
+    "bytes": 714,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "design-templates/aster-atelier/SKILL.md",
+    "sha256": "172d01ceb5abf4f441770248648b45df281e6f2d14723c1fe3f0776500c9629b",
+    "bytes": 3843,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/audio-jingle/SKILL.md",
+    "sha256": "02ea7a3ec41a717737449aba88fc06f67e2caf454cbd8aebf74ec7292f66f9fb",
+    "bytes": 4570,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/blog-post/SKILL.md",
+    "sha256": "19c5da5538876e3e5c13d825da092619c1c9a79635dfefe635fcd9478c711757",
+    "bytes": 2979,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/clinical-case-report/SKILL.md",
+    "sha256": "f05b3a42e5fc266791308a58a5b8b485daa3e1c8002de1374dd418ed5b3deab3",
+    "bytes": 9063,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/contact-widget/SKILL.md",
+    "sha256": "5dd1a07a9ba940c73a559c575f93d9c4f82f447304e3985baece129ce79ebbd6",
+    "bytes": 6477,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/critique/SKILL.md",
+    "sha256": "ba9e60cf4b04d0990b7f2c6e1a0700bcb201450f1402fd68174f7d4fa93ba577",
+    "bytes": 9942,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/dashboard/SKILL.md",
+    "sha256": "1d5c7dab1f6b3584e4640213863a7282c819144684c0758ddb49b3b0fc405379",
+    "bytes": 2847,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/dating-web/SKILL.md",
+    "sha256": "856c953cd6230c19846ede702afc5987fe4949cb449824e7ea3b1458da7cc641",
+    "bytes": 3997,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/dcf-valuation/SKILL.md",
+    "sha256": "dd6b83bedeb783a0dce9989bfb0ecebd798ed4704be1500b6d501605994dbd1c",
+    "bytes": 4849,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/digital-eguide/SKILL.md",
+    "sha256": "4d3e4022cadc8a3073fff614e537dd1bcee902527e7298686bd9bfdee36b19d8",
+    "bytes": 3802,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/docs-page/SKILL.md",
+    "sha256": "d355e356e42fc7ca0c6185d070a6a48f89cce8aab3246bff5a652591bff5795a",
+    "bytes": 3095,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/email-marketing/SKILL.md",
+    "sha256": "14125e30e4b80a717f21b0f08e8b7b9d3736e88abf0c452fd1c025af694c0aa3",
+    "bytes": 3572,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/eng-runbook/SKILL.md",
+    "sha256": "2aba5327cd0671bada77bb6967f6a6b2e93b8ea70e2428edde02d939591d29e1",
+    "bytes": 1591,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/finance-report/SKILL.md",
+    "sha256": "d8698cfbaf786de3bc5acbff7e46ae6737542d03e778df2346eba0e0d3ab4782",
+    "bytes": 2199,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/flowai-live-dashboard-template/SKILL.md",
+    "sha256": "800f2bdea0f3b82e87b70d14843ac143f0096269f690489ffcdc588a37e70c64",
+    "bytes": 3609,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/gamified-app/SKILL.md",
+    "sha256": "5c254d62edf722cb4285475f05662ce87d0e1890e66cc2a47784523ad747fbc9",
+    "bytes": 4611,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/github-dashboard/SKILL.md",
+    "sha256": "f87899ffd3e10934d1b5f2ac918b1c90e06f542dda24bd4c7b78ae4394aff933",
+    "bytes": 7493,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/guizang-ppt/SKILL.md",
+    "sha256": "ffd7e12de040adebd2f39ba63ac688fa44ed9aa7c2de128d8930bf648f11821d",
+    "bytes": 19637,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/hr-onboarding/SKILL.md",
+    "sha256": "09099ed7abdfd1be9123037e744fb4ddd9dd21c11dc3c9a7a06d9927a847e760",
+    "bytes": 1647,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt/SKILL.md",
+    "sha256": "fb563eaefcecd27fe4cfdeec7ec94f37c47f2a4ead2dc4686365a3839be27c28",
+    "bytes": 16505,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-course-module/SKILL.md",
+    "sha256": "790774c895a3f1d99b18201105e40087608cffb7ed70831c6236c786ac6ed9aa",
+    "bytes": 5754,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-graphify-dark-graph/SKILL.md",
+    "sha256": "e2077b9765bb9a4df34fed82aca0f2373419cdc0b21550f70b70c80f3b705a76",
+    "bytes": 5723,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-hermes-cyber-terminal/SKILL.md",
+    "sha256": "3e91035d1f0b251666b989690c12ad3715ca1571bb673cb9d4559255c1743045",
+    "bytes": 5660,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-knowledge-arch-blueprint/SKILL.md",
+    "sha256": "d9f72ea4416a3a21adba569a62eb847cf63fd4d97acaccbc508c262b3bf62085",
+    "bytes": 5773,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-obsidian-claude-gradient/SKILL.md",
+    "sha256": "adcc2cc0c61102aeebb90d6151bd20a6318410ecec8561b2df137e2e66661570",
+    "bytes": 5733,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-pitch-deck/SKILL.md",
+    "sha256": "78e71353c72d953f03cfc60f2f8b9b8f43d40be67ff6562f2b44e08aa3272e64",
+    "bytes": 5656,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-presenter-mode-reveal/SKILL.md",
+    "sha256": "5dda78c15faf1d9a7a00950111c7184cbd05b92b91faedea8fdca768f68f323f",
+    "bytes": 5640,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-product-launch/SKILL.md",
+    "sha256": "5066fbc1821e51833f32a9faf6f6191fb0ad7f52707571edff058f2321db41d6",
+    "bytes": 5576,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-taste-brutalist/SKILL.md",
+    "sha256": "36d65d6704af48d486f97da280560d52f95539cb1978f234ddd76c6770b2b224",
+    "bytes": 4931,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-taste-editorial/SKILL.md",
+    "sha256": "336fe0b28b3ba66e7a0c8cd4c3cb2e932336324876a055439e456b75fcbc65d7",
+    "bytes": 4344,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-tech-sharing/SKILL.md",
+    "sha256": "3156fcae48f8aab0523205ff3295fe091601a804c7be2342a0bf2fd9b135952d",
+    "bytes": 5558,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-testing-safety-alert/SKILL.md",
+    "sha256": "eeef0c87c8b14eff5fcfe0352b5eddd2d359ddb11b8f294300910e7e06c13b2c",
+    "bytes": 5873,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-weekly-report/SKILL.md",
+    "sha256": "96905963f0e6d4d4108f538dafb894622eb80d3c0abdaf7603808378208ee736",
+    "bytes": 5564,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-xhs-pastel-card/SKILL.md",
+    "sha256": "b8bc91ec460f8a2513f0a15066e25b76e51d406815e8c39a83a2875ca71d23b4",
+    "bytes": 5609,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-xhs-white-editorial/SKILL.md",
+    "sha256": "d4bc32d2edb2b6bbe5b99bf4d0f6411fa42e2c8a037ce3628aaa9b1b32e441a7",
+    "bytes": 5743,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-8-bit-orbit/SKILL.md",
+    "sha256": "fb186d395686572c1533ca4d5989133dc2b0707f7f7cc7fdcdd7c30e1f53dc94",
+    "bytes": 4954,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-biennale-yellow/SKILL.md",
+    "sha256": "c07ca00a143053e79982bc6a0223f7d5979c0348361021dbe8a517e42141396a",
+    "bytes": 5073,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-block-frame/SKILL.md",
+    "sha256": "3d08150378d518940ed97fa9cce424bf8f6766cb630c6971bfc11eb0d7c0dc0c",
+    "bytes": 5036,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-blue-professional/SKILL.md",
+    "sha256": "807c44d68eeb04edaa66335bf8c3e698255f0c18f6f6111bc256e74be4a17c87",
+    "bytes": 5017,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-bold-poster/SKILL.md",
+    "sha256": "22a831def21f6f575349349fc4233bd3ee710b8f6cdf9c151f9a5e38e2c3173a",
+    "bytes": 4985,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-broadside/SKILL.md",
+    "sha256": "79545ddf64867cbf513f7f9cd2cc5cf6f744a195dc48113da7554694d00ccc9a",
+    "bytes": 5018,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-capsule/SKILL.md",
+    "sha256": "2353aa38783e9d5abf607bb8cfde2069feefce0b0a52e6e252937d9e75b6794d",
+    "bytes": 4894,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-cartesian/SKILL.md",
+    "sha256": "8e9f6cc3892af490556ef69314c8d18015850429d14e8487ec3923707d0a59f5",
+    "bytes": 5157,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-cobalt-grid/SKILL.md",
+    "sha256": "d257ebe32c3242b75b9900e17f9fb6da15126481d0ff100e610fed8cd273fbce",
+    "bytes": 5098,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-coral/SKILL.md",
+    "sha256": "f61712d4f47cc8d28232eb8a748d81cf8f7b421af93fd77f6866db471fa0ee4c",
+    "bytes": 4940,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-creative-mode/SKILL.md",
+    "sha256": "9fe2a2e7877efe80dac89e4474b907e57d440935bf9db5a3e48454964c0a33e5",
+    "bytes": 5512,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-daisy-days/SKILL.md",
+    "sha256": "0f413e40c3b73f3975b59d1dca276007675ce00e9bf3c9e2b15eedc234346e0c",
+    "bytes": 5205,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-editorial-tri-tone/SKILL.md",
+    "sha256": "7350ad13e9be1512cd911d2fdf73671f97166ab5299ce07875f2ae7183be5cf4",
+    "bytes": 5493,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-grove/SKILL.md",
+    "sha256": "d09566462de9b6af321f4039d71e2293a0b6e860332d0be0f3ae43a69121813c",
+    "bytes": 5114,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-long-table/SKILL.md",
+    "sha256": "7908a049a0ad4ff64be29812378eacf46fb18cda4608ada717eea9f711e47ed6",
+    "bytes": 4981,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-mat/SKILL.md",
+    "sha256": "f8bdd9d6fb5cb25fbf1ad422059d1f6203e22c0d65b1eaa5bb7aae7816852d56",
+    "bytes": 5076,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-monochrome/SKILL.md",
+    "sha256": "643dc665a7ec2fea78ed166875aacf455e14467a75e8a2b6216d452146703f33",
+    "bytes": 4998,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-neo-grid-bold/SKILL.md",
+    "sha256": "76c5e80b9416006704f4a11e043e3e6f46f4585c3daf05a1f22231f75fc55141",
+    "bytes": 5408,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-peoples-platform/SKILL.md",
+    "sha256": "0b8037f30eb703297ed32fcac5bf1399c3b8d041b894e3aa255b67ca52934185",
+    "bytes": 5579,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-pin-and-paper/SKILL.md",
+    "sha256": "afc8ae735f24d5a5461c61d573f510406c4b855e83e18564557e886ab82b85b1",
+    "bytes": 5677,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-pink-script/SKILL.md",
+    "sha256": "2e5d54466fd05bfce77466a4cb8b8eafe226aae73c88126c43de0679807e1e2c",
+    "bytes": 5501,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-playful/SKILL.md",
+    "sha256": "f536e392744c180e9f8c37c5b94355305ef8e4fe45ef00ce2393d3b5f8119c98",
+    "bytes": 5036,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-raw-grid/SKILL.md",
+    "sha256": "8d87e30d7e65020caff77bcf244c2dbb90e2ff7780c3f36a2061fc0b4146f8c6",
+    "bytes": 5030,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-retro-windows/SKILL.md",
+    "sha256": "4e84b0bdd280257e3790a15b0ffe86d9ad8960982b98d94d52bf79b1dbb9b656",
+    "bytes": 5010,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-retro-zine/SKILL.md",
+    "sha256": "27649fd064fb71ecb6046784e91802ef04a26a2cc22a077eee46443dc372d9be",
+    "bytes": 4922,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-sakura-chroma/SKILL.md",
+    "sha256": "c9f0542545284510181744967645fc6c3d93c54e393cb81327bd2d325046db03",
+    "bytes": 5258,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-scatterbrain/SKILL.md",
+    "sha256": "3b652d7e248eb0147b0b18f6f967774200ea1125b04cce96b2027e940a251517",
+    "bytes": 5175,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-signal/SKILL.md",
+    "sha256": "89fa4c07d9f09f00ec122dbf2de3d2fe15a2192cd011b0f5986917d66554ecb4",
+    "bytes": 4969,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-soft-editorial/SKILL.md",
+    "sha256": "ce61c126d5e4f9dfee7497bdb1d5076f45356dff26c9e4abec6ad05a2419637f",
+    "bytes": 5462,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-stencil-tablet/SKILL.md",
+    "sha256": "93e44be99e7e1f22cc39a2dc4c78265ad62bdba16de102161d92c012e067c5f1",
+    "bytes": 5634,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-studio/SKILL.md",
+    "sha256": "9c1b4bb5ffee87ee2a4d55993b19c9704d9ffa2b9acd04c5d628b6bd8bf4a860",
+    "bytes": 4977,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/html-ppt-zhangzara-vellum/SKILL.md",
+    "sha256": "bc74ddf7e869da7b81ace608f736a9244be3ebb9ea1422e62f0923a4fe674569",
+    "bytes": 5042,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/hyperframes/SKILL.md",
+    "sha256": "2d787c566779a8f781ccba237c03edd73551d3933b019719100bca92651f9453",
+    "bytes": 28843,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/ib-pitch-book/SKILL.md",
+    "sha256": "ce630fc0bb7b57276efaa9b904999566e20edbe04aa7c38fb4177fd4771c5d82",
+    "bytes": 8285,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/image-poster/SKILL.md",
+    "sha256": "019fc99e89ddc46e5da0426bf4253c08a1c4244466b6db9e760878fb599c6a66",
+    "bytes": 3709,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/invoice/SKILL.md",
+    "sha256": "2899d0374f716eac3a98e25402d2eca2e7daa01c51ccbea97879e8f17f665bb6",
+    "bytes": 1444,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/kami-deck/SKILL.md",
+    "sha256": "321a0324c1194b3803eaaa15affb851de86a8a19a193e8079153d19765367c77",
+    "bytes": 9092,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/kami-landing/SKILL.md",
+    "sha256": "62cc4c4836699e3753a02d6574a34fae4769ae736875af37d98df47622daf193",
+    "bytes": 9772,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/kanban-board/SKILL.md",
+    "sha256": "79f5ac0147eb9189b5e5d7de4e46976a84f0f1dc5af082c80174c1ad448b0a27",
+    "bytes": 1606,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/last30days/SKILL.md",
+    "sha256": "1cb6ba15c82d6246f86828c1bc047c8eb0fa054e3d55a674025ac2f5e24be3cc",
+    "bytes": 5373,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/live-artifact/SKILL.md",
+    "sha256": "96771bf71f62694b80eeda8f4ff17664117fbf8cad14729268fc76cb2a950c47",
+    "bytes": 9031,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/live-dashboard/SKILL.md",
+    "sha256": "68f7d0e4e31919dea14e3633cae91e1640766a8ca2c202847c2f8d367c7afee5",
+    "bytes": 8593,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/magazine-poster/SKILL.md",
+    "sha256": "2bc74c79abbd60989d69db855226a68833699c8cd48ac6b56baf672bed243017",
+    "bytes": 3687,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/meeting-notes/SKILL.md",
+    "sha256": "3fb29f8c5f5ae733e879a32fc2158615a27e065f4bab6cd646aa354a3a065d41",
+    "bytes": 1354,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/mobile-app/SKILL.md",
+    "sha256": "056c37e1acbc8be7f0b81862f11103bf66859f72081264da43fb1f020b36da53",
+    "bytes": 3962,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/mobile-onboarding/SKILL.md",
+    "sha256": "3d074810b6802504657dd62ad45ed9bc5897e9061d9892cc21d53c585e2336d7",
+    "bytes": 1635,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/motion-frames/SKILL.md",
+    "sha256": "a6dd4e0ac26e60e190b6abe902bb5085b7abb368032b6f21c24599c3e1cb3bbb",
+    "bytes": 3783,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/open-design-landing/SKILL.md",
+    "sha256": "598c7ba9f02cbc5f20d1a6cb2781685222afae0c4fb15e3ee446db452fac912a",
+    "bytes": 12548,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/open-design-landing-deck/SKILL.md",
+    "sha256": "5f2ad1d0a4a35ebd1c6da40ff82ab7e101039dcc3d24f390839357913b466745",
+    "bytes": 10263,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/orbit-general/SKILL.md",
+    "sha256": "2a35aa6e6a97ba81b0e4ed1e3fcd9bca79b6bba7f5fef48f9424413eb0051cc0",
+    "bytes": 11475,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/orbit-github/SKILL.md",
+    "sha256": "20dcab672070b374311da1e9d08df681058d18b4288072a89125cc1a675bb152",
+    "bytes": 7640,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/orbit-gmail/SKILL.md",
+    "sha256": "f10225101e244e02dd864a5b81bbfe03865b0230e29ef1037e81491259b602c4",
+    "bytes": 7848,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/orbit-linear/SKILL.md",
+    "sha256": "e6fa7280c46dfe2cd75c2e420b3d94f0c1b3b32092f34142570f2a513ac9742d",
+    "bytes": 8122,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/orbit-notion/SKILL.md",
+    "sha256": "ce75720e49e428905d3f92469e82bb4ccb7aa56408b4bc162bdbc419fc43f30d",
+    "bytes": 8620,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/pm-spec/SKILL.md",
+    "sha256": "099d54e4dce4a002a8f0291b8c036c9ccd11abef9cf68026037f673d7f3f2717",
+    "bytes": 1607,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/pricing-page/SKILL.md",
+    "sha256": "e563727e47a1a59b38098e89109e746ce8fb8db438bbb39b0cd03292ea0775a7",
+    "bytes": 2926,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/replit-deck/SKILL.md",
+    "sha256": "849000dbd4a47a248f3aae4c98da7bfe49d5ea22027a7ec54340273522eaf8dd",
+    "bytes": 13526,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/saas-landing/SKILL.md",
+    "sha256": "25fda403cba6b06a54572c69dafcae91f29329dc080670a648cb311ab9efa4b7",
+    "bytes": 4742,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/simple-deck/SKILL.md",
+    "sha256": "f0f19426d8f7323f248ed990ffeac7f9176b4aa96829e3c09ae9cdc7d19fbcf5",
+    "bytes": 5812,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/social-carousel/SKILL.md",
+    "sha256": "982f6ec67b5ceaccaa23189a2965de335a70d60a91bee196672325c5f88d979a",
+    "bytes": 3974,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/social-media-dashboard/SKILL.md",
+    "sha256": "c1731368b495e26b9e399b135b65c1f2bc83340f02ddb49a5bdfa3ba73f12d2d",
+    "bytes": 5770,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/social-media-matrix-tracker-template/SKILL.md",
+    "sha256": "771cb8fafea92e58a6f8e5cb38a58c9dfa63246f1f83eeb4749c530340e4690f",
+    "bytes": 4954,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/sprite-animation/SKILL.md",
+    "sha256": "48187c084eba4de273cfed0352e834fe3b4c3694e77125e1bef984c9dde13490",
+    "bytes": 4335,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/team-okrs/SKILL.md",
+    "sha256": "f6dd1cc149adad09fcaa40a137ab973fa4f10818e222fdd8b7d9badc84dad4ef",
+    "bytes": 1363,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/trading-analysis-dashboard-template/SKILL.md",
+    "sha256": "6f06b8b2f30a45d5204917bb2717ed80d1343bcbbfea919dc72b822d73086122",
+    "bytes": 2537,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/tweaks/SKILL.md",
+    "sha256": "821551e5a9278f3fbcf25447c95ddec1727ee6287948b99084ef3e36f078680d",
+    "bytes": 11819,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/video-shortform/SKILL.md",
+    "sha256": "d283f57efd17920d578f0d058d4ee3988fa8f52dc9b9b6fd65271f9670922739",
+    "bytes": 4757,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/waitlist-page/SKILL.md",
+    "sha256": "a26e681345b684c669420247801fab192426415e326b1008a4b796d22f45d514",
+    "bytes": 14189,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/web-prototype/SKILL.md",
+    "sha256": "e34a5acfa8e7f2f98cdb505f8ebdb7a687e265928b9a57d22ddf64e6b778b937",
+    "bytes": 5655,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/web-prototype-taste-brutalist/SKILL.md",
+    "sha256": "212b01b1f56a600c3ed7d343f55c42523d23b5558359d671a9b1c18af76b2043",
+    "bytes": 4103,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/web-prototype-taste-editorial/SKILL.md",
+    "sha256": "a00580ad92b5ca8281cc88162035969d6e24bb953896ddbe46eccb43de3fba05",
+    "bytes": 3365,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/web-prototype-taste-soft/SKILL.md",
+    "sha256": "30b8c1dd03e6b054be5e6aa65e7afd8c1a0d5cc135f09625e689cc0ce4315726",
+    "bytes": 4222,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/webgl-experience/SKILL.md",
+    "sha256": "685dfedd4f9d7725c36e66819a9644100dae1a1af71ba05a3615a8eec37e85c7",
+    "bytes": 3739,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/weekly-update/SKILL.md",
+    "sha256": "388916b64046ca539dd3967c0b4c52048699780b79c05b3a53d739ff84cff207",
+    "bytes": 2831,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/wireframe-annotated/SKILL.md",
+    "sha256": "b7f7964d45da9b882f128943ebfb7df5aeb0f52268f5c83d4cadcdeceafb8014",
+    "bytes": 4022,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/wireframe-greybox/SKILL.md",
+    "sha256": "aec7ca27c6721887bff35d7ee074c97c1127538ec5b2bb49fe635d53f093bef5",
+    "bytes": 3942,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/wireframe-mobile-flow/SKILL.md",
+    "sha256": "c7312e1ed0ece9707a90eec36c85917f3b7e561a34173b94f36ec0ee12df12c1",
+    "bytes": 4365,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/wireframe-sketch/SKILL.md",
+    "sha256": "3d789de11b3b038f02d5a5dc0b0d0638c9b6f7bb6f34406c95ef5cf3383b6e9a",
+    "bytes": 4127,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/worker-visualizer/SKILL.md",
+    "sha256": "e8d37d6bc69c0aba0023c01542b7ebbf8a50281c5ba163019ca65d1a5984ff7e",
+    "bytes": 4114,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "design-templates/x-research/SKILL.md",
+    "sha256": "2e252cb623a9bb55b014e2bb45be3977aa95cc89089594cb046bb02cb435e082",
+    "bytes": 4036,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "docs/examples/saas-landing-skill/SKILL.md",
+    "sha256": "738d7d76139afdef609f6aa07605ce94ac89bf42ca4a246a260932d9be9e9f1d",
+    "bytes": 4617,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/community/agent-skill-principal-ui-ux-architect-motion-choreographer-awwwards-tier-mqu4mbbj/SKILL.md",
+    "sha256": "3ffd59fd5af3360444bb0ecc4765979d06e6598990d54a5c828ab78bbb78fa78",
+    "bytes": 10757,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/community/atelier-zero-image-generation-prompt-pack-mrrxpegw/SKILL.md",
+    "sha256": "e338929bdec2c07e797e300187286696e858be045907ffba5b1e6bf70396fadf",
+    "bytes": 10275,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/community/clone-audit-mrlv3nl4/SKILL.md",
+    "sha256": "4a556bee310d39307c1513705e9036846e6f85c5b021134be0e0d0b6b4ef6fdb",
+    "bytes": 4296,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/community/deep-think-maximum-cognitive-effort-protocol-mq8kvw92/SKILL.md",
+    "sha256": "15cddf527ac64ba76e15620278330c2bd1db07eefba91a211d7625f20eb43197",
+    "bytes": 6888,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/community/design-system-source-context-mr0bb87z/SKILL.md",
+    "sha256": "0d01627fd38604d180e129fa6b93fec389b22e611bdfff8e755e58c415a0906c",
+    "bytes": 9078,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/community/g2-design-system-ui-kit-mqgbmh2w/SKILL.md",
+    "sha256": "d77d7a88611eac359ebf0c9c0e11a5bd78b16596670876d48f703095be451409",
+    "bytes": 2123,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/community/hallmark/SKILL.md",
+    "sha256": "651ba5f88d104223dbec8b3c1135d658cd01b680438f9a6af681a81bca31e2b7",
+    "bytes": 63499,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/community/humanize-ppt/SKILL.md",
+    "sha256": "84fd4d0cfc4d3161249ff0a9e72a69400e75d35296cb649635a6e9fda7077987",
+    "bytes": 16150,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/community/import-smoke-test/SKILL.md",
+    "sha256": "fbdee3d63349e50c7510fc40a7aa2d56cae60f428dbaa5b1cb870c37beb4a5c6",
+    "bytes": 865,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/community/registry-starter/SKILL.md",
+    "sha256": "67bce36f974b7af0b6bc5c1cef036f956a9c0ced213ef697ffc6281f4df70d31",
+    "bytes": 302,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/create-hyperframes-launch/SKILL.md",
+    "sha256": "b14944a838025e206c638d562b20c1e0a8f7e88199f934e3953c3340acf158b8",
+    "bytes": 949,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/create-image-campaign/SKILL.md",
+    "sha256": "22151b26c2455b30b36fd602f8a3c3091552db70d9d073d23f906b7fb486cc6d",
+    "bytes": 814,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/create-live-artifact-ops/SKILL.md",
+    "sha256": "ab5844225605ea08c86dfb12732b2622b440a5ab4063a3554262edbc664ba3d7",
+    "bytes": 977,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/create-prototype-dashboard/SKILL.md",
+    "sha256": "b9c5c47af6687bf029d9761289eb9afbb2a120a7671b78b3169cc400941cc9fa",
+    "bytes": 1071,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/create-slides-pitch/SKILL.md",
+    "sha256": "57113cff39d44bc2a4fdc97dde9933c2ed394583b906d3ddb7cc93a85faefef0",
+    "bytes": 999,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/create-video-storyboard/SKILL.md",
+    "sha256": "01928462f818784761b8b20d669371ce9e32bb869e47c880ccf8d546c991f89e",
+    "bytes": 821,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/deploy-vercel-static/SKILL.md",
+    "sha256": "06fafab03aeec5ef93a52d969bda5ec0f0d65984bee32dfbbc1de23136626ddf",
+    "bytes": 761,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/export-nextjs-handoff/SKILL.md",
+    "sha256": "abdece82f76b8af72fa153b0c9011204f335df4293255e4116c00ca76952b2ac",
+    "bytes": 820,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/extend-plugin-author/SKILL.md",
+    "sha256": "083c95604b25764a0b0bccc72f2669ddd38235613c5384871db817bb10d42fa0",
+    "bytes": 766,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/import-screenshot-to-prototype/SKILL.md",
+    "sha256": "4f0e91fdc4f5167fe75ce8138595b3ec0f843f443ee77255b00158959c12a106",
+    "bytes": 1023,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/refine-critique-loop/SKILL.md",
+    "sha256": "6e11f05fa4ff13841a3ef3021381f305622d11982744487e536a9f899a1b869c",
+    "bytes": 795,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/spec/examples/share-github-pr/SKILL.md",
+    "sha256": "d14898ab98a9f96194a3577e7a7dd86e8e69ed98f1e204e97107ab674b0c0b9b",
+    "bytes": 716,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/build-test/SKILL.md",
+    "sha256": "94f46473745d1e1c15146a56cb6576d94b5214ccedc04ecd6c1f6cbe30083e3b",
+    "bytes": 2578,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/code-import/SKILL.md",
+    "sha256": "297d561d891200c5bc5a3521a7046335f6c32f1a372c9e3c1e9dbd5a9efbe5d6",
+    "bytes": 2485,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/critique-theater/SKILL.md",
+    "sha256": "a220b999211852291f2eb917b6b922b134ad4ddd26ebcc63104c3118a2ccdd3c",
+    "bytes": 2631,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/design-extract/SKILL.md",
+    "sha256": "f768e89cd365a433a0709e19ec85420c9f4888c2251f861b526a166214113b77",
+    "bytes": 2281,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/diff-review/SKILL.md",
+    "sha256": "fea7484c92eafba5bb91f018e605155114272df641e2cd492301af1f8eb2027c",
+    "bytes": 2122,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/direction-picker/SKILL.md",
+    "sha256": "5088c2c825c361176471549008b6afd3e9ae7647483d5e15d677405c8e4cca1c",
+    "bytes": 1937,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/discovery-question-form/SKILL.md",
+    "sha256": "b6f200d523d79ef19d35d5a242f148817a6594b455a24b4a1ac12b64726f711f",
+    "bytes": 6154,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/figma-extract/SKILL.md",
+    "sha256": "5bc85c78c724828d1c66a9e6b55751a486b66fda3e1a5574e8a7fc7f51f1cb5c",
+    "bytes": 2539,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/handoff/SKILL.md",
+    "sha256": "edb5438b59c45bba3fed79e39b66031df7ecdfe84ed40ff28cf330d6df564445",
+    "bytes": 2259,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/patch-edit/SKILL.md",
+    "sha256": "bb2143ea43f4ad4856fcc2de06a9ca94e58af8a5e3a16427dc7a6973f3245d2f",
+    "bytes": 1972,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/rewrite-plan/SKILL.md",
+    "sha256": "f0d81f886dc03a1155202f4722078fb3e454f2826c62bb16de3c23ff383a233d",
+    "bytes": 2136,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/todo-write/SKILL.md",
+    "sha256": "21390a92d89686b273d7b4391cc13d341e59d336c5e006037d36b1c3bef03bae",
+    "bytes": 924,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/atoms/token-map/SKILL.md",
+    "sha256": "6ddcb0bf07545243f2e0dff9056726430c2af205fafb66e49a8c3490964fba61",
+    "bytes": 5617,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/examples/article-magazine/SKILL.md",
+    "sha256": "a03482338fe14078269f9bb5ceb157f3433053d20afd9b1cc0c091db2347c4de",
+    "bytes": 2571,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/audio-jingle/SKILL.md",
+    "sha256": "02ea7a3ec41a717737449aba88fc06f67e2caf454cbd8aebf74ec7292f66f9fb",
+    "bytes": 4570,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/blog-post/SKILL.md",
+    "sha256": "cda80175acef4888603cc749edaf92a05068543579b63618d673255c4a81a5db",
+    "bytes": 2995,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/card-twitter/SKILL.md",
+    "sha256": "d5badd954b84ce4c60465cfc6aa9c7f391bd5555b0cd8253da04dd51f74e4c92",
+    "bytes": 1877,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/card-xiaohongshu/SKILL.md",
+    "sha256": "819ac1c78dee9cdd50cdf80b7111242c8818076eda7084fe4d7da18f4db26d6c",
+    "bytes": 2397,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/clinical-case-report/SKILL.md",
+    "sha256": "f05b3a42e5fc266791308a58a5b8b485daa3e1c8002de1374dd418ed5b3deab3",
+    "bytes": 9063,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/codex-interactive-capability-map/SKILL.md",
+    "sha256": "1dbb48576e7d0e64ae77ce90cf52db3a71ec278048735a4da2a28664e319cbef",
+    "bytes": 3898,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/critique/SKILL.md",
+    "sha256": "ba9e60cf4b04d0990b7f2c6e1a0700bcb201450f1402fd68174f7d4fa93ba577",
+    "bytes": 9942,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/dashboard/SKILL.md",
+    "sha256": "1d5c7dab1f6b3584e4640213863a7282c819144684c0758ddb49b3b0fc405379",
+    "bytes": 2847,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/data-report/SKILL.md",
+    "sha256": "919fff733fd033ab7d370eb245c5b67b4950bfcc782cfd4cd1f0c5f879be23a2",
+    "bytes": 2663,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/dating-web/SKILL.md",
+    "sha256": "27f65f86d8fce4674a8586eb04c0d4bb55e4b3d75364270c3692c155193a5cb7",
+    "bytes": 4012,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/dcf-valuation/SKILL.md",
+    "sha256": "dd6b83bedeb783a0dce9989bfb0ecebd798ed4704be1500b6d501605994dbd1c",
+    "bytes": 4849,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/deck-guizang-editorial/SKILL.md",
+    "sha256": "cfc094aad1593bc3f456517ab8f396cbf4f34bd2e2d1e61aa2d6253ab4c423cb",
+    "bytes": 5875,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/deck-open-slide-canvas/SKILL.md",
+    "sha256": "1a775f589b577012505c24fabdca130882082bd4d716f02ea605e47c4fc76b44",
+    "bytes": 5235,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/deck-swiss-international/SKILL.md",
+    "sha256": "bc5ff2a029a60fb94964dbed74ec3db28c451126997eea97ff3913c7a430c68f",
+    "bytes": 7200,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/design-brief/SKILL.md",
+    "sha256": "b40100abd22e1c5a7ed37d5a014d601125cb480531dbd6d1ff58c2852688c165",
+    "bytes": 14064,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/digital-eguide/SKILL.md",
+    "sha256": "29db8dae54a64bd63ba2144f0512d8dd7f0427cd71ab5dbf8235b2f2df398a1b",
+    "bytes": 3616,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/doc-kami-parchment/SKILL.md",
+    "sha256": "67018f4879dbabd83ff0d1ef90d4053bb22a3ea8a6340a773be99d58dcb4d41b",
+    "bytes": 4891,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/docs-page/SKILL.md",
+    "sha256": "d355e356e42fc7ca0c6185d070a6a48f89cce8aab3246bff5a652591bff5795a",
+    "bytes": 3095,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/email-marketing/SKILL.md",
+    "sha256": "24f748c029fe353cfe6c29866e8b99f82c18ee045e8dbc819f13a8a957bcbca7",
+    "bytes": 3587,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/eng-runbook/SKILL.md",
+    "sha256": "2aba5327cd0671bada77bb6967f6a6b2e93b8ea70e2428edde02d939591d29e1",
+    "bytes": 1591,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/finance-report/SKILL.md",
+    "sha256": "96e456613b318d9e2d4adc6add48d1f3d13d2b178f94ec1bf17437b8208eb7d9",
+    "bytes": 2215,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/flowai-live-dashboard-template/SKILL.md",
+    "sha256": "800f2bdea0f3b82e87b70d14843ac143f0096269f690489ffcdc588a37e70c64",
+    "bytes": 3609,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/frame-data-chart-nyt/SKILL.md",
+    "sha256": "bd60f2cf3dfe5c8ec7d737f2eecab08ddd3bc13ceb579a7432b53f20aefd38e9",
+    "bytes": 3966,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/frame-flowchart-sticky/SKILL.md",
+    "sha256": "bb9b6baa9ab837c70220e334a11111e3e4af57b33adf0f361eb1c75e6d1d60f2",
+    "bytes": 3800,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/frame-glitch-title/SKILL.md",
+    "sha256": "889ae9886802c7994588c66681998fa7ff512ae9538cdebf08f0bd19149e8c13",
+    "bytes": 3800,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/frame-light-leak-cinema/SKILL.md",
+    "sha256": "de4579b431ac50303785967251e263bebd7f47a08076b2ef8c364a447dbeac99",
+    "bytes": 4087,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/frame-liquid-bg-hero/SKILL.md",
+    "sha256": "2ac375e5a7f725198f0defe67c8787012a2e0002dd9e0b3c245450c481829893",
+    "bytes": 4182,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/frame-logo-outro/SKILL.md",
+    "sha256": "d85595ab4333d8650519636a5b98d7e6c0797e7bc4a6841940c578c943d6f04f",
+    "bytes": 3951,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/frame-macos-notification/SKILL.md",
+    "sha256": "146bf47d90c1a79cbba97fa3c3e6fcd283c78fb9eddbbab6b03cbc3405488a4f",
+    "bytes": 3948,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/frontend-slides/SKILL.md",
+    "sha256": "4f9a4a60a335c5f34f05727fbdc1d0449a7255e66c617243f76bbcd36b59fc39",
+    "bytes": 7672,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/fs-creative-voltage/SKILL.md",
+    "sha256": "b4cf2752037417a1ff081196fe75f7155ad553b3860c6cca2f4b139f546490a3",
+    "bytes": 10255,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/fs-editorial-forest/SKILL.md",
+    "sha256": "f15d99dc659c208dfc25d9486bfe09f140fbb8cf1fe19720296998a0cfd22793",
+    "bytes": 8537,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/fs-electric-studio/SKILL.md",
+    "sha256": "f1da2bceebf229393217f5e21070c0ec3aab7cbb3e08e181fa218a68f33cfea4",
+    "bytes": 10587,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/fs-emerald-editorial/SKILL.md",
+    "sha256": "4d7c873f225ea89d601fdb3135d873788bcd906e573d6ee80bbfd33ceb0d3a71",
+    "bytes": 11349,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/fs-notebook-tabs/SKILL.md",
+    "sha256": "e501f441ec0b9f89eec42aa084c7f44ce563311141986305dcfc6a6b855e92f2",
+    "bytes": 9694,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/gamified-app/SKILL.md",
+    "sha256": "714994417f8d4097ab27426e6c3b3deb64c5e6bcfe0d9458724828a710195a36",
+    "bytes": 4627,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/github-dashboard/SKILL.md",
+    "sha256": "f87899ffd3e10934d1b5f2ac918b1c90e06f542dda24bd4c7b78ae4394aff933",
+    "bytes": 7493,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/guizang-ppt/SKILL.md",
+    "sha256": "f0845f3734485a4cb253debf15e15be672b1640083c5a2982500394b0443fc5c",
+    "bytes": 19652,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/hatch-pet/SKILL.md",
+    "sha256": "eb1a057b5c29e79c68aa59055f41a53c882fd55b89617b3efc4662f645660985",
+    "bytes": 24224,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/hps-academic-paper/SKILL.md",
+    "sha256": "a9a83a66d959e8e9ec6e1b5678ce1185a457c6f1b382500db65d2bec9f5b3b5b",
+    "bytes": 10333,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/hps-bauhaus/SKILL.md",
+    "sha256": "450e4b08799ddb24f1633c07b8683f83743f657e644dc3cc8072eeb2252b1428",
+    "bytes": 9805,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/hps-memphis-pop/SKILL.md",
+    "sha256": "9b609991b6dd2de623d31797571d9dfe7ff8e49fe215f37841d2ed66a3d5a196",
+    "bytes": 9240,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/hps-retro-tv/SKILL.md",
+    "sha256": "b1af40a6b8c824eace7f654d3b3eabf56f7c4ac44baa86205550c37b09829531",
+    "bytes": 10416,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/hps-true-blueprint/SKILL.md",
+    "sha256": "346913b67e2513d00fe812fd2eb689e55048b5d9cffcaa0f9062affad8ca55ec",
+    "bytes": 9992,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/hps-y2k-chrome/SKILL.md",
+    "sha256": "9ed0914433342ae0b74bf5568a7b1d8e159957784e5010ae5d6534b5161be1ea",
+    "bytes": 9697,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/hr-onboarding/SKILL.md",
+    "sha256": "09099ed7abdfd1be9123037e744fb4ddd9dd21c11dc3c9a7a06d9927a847e760",
+    "bytes": 1647,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt/SKILL.md",
+    "sha256": "de031d657ad05bd85f88a6699eb15d2f5a8bb7287b1cd78e915b3a38b2b29b2b",
+    "bytes": 16248,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-course-module/SKILL.md",
+    "sha256": "a93220efe50a6e6e8d6159ee9584f4b9c38cb7a7d7ba24bf01a30096834df212",
+    "bytes": 5770,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-graphify-dark-graph/SKILL.md",
+    "sha256": "6a9383fb9bee03c71fee353d1f6f3a5a89f960089b75fbb37f0d6fec24f36cee",
+    "bytes": 5739,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-hermes-cyber-terminal/SKILL.md",
+    "sha256": "e8a71a4ca38b03021211191e773123cffbbe981123488d3a449292db68a5bd87",
+    "bytes": 5676,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-knowledge-arch-blueprint/SKILL.md",
+    "sha256": "100c8f2f31e44dbce60fa63d8631c0db6d5dffe6968555098535879365bd5d91",
+    "bytes": 5789,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-obsidian-claude-gradient/SKILL.md",
+    "sha256": "0c33414aed12976dfdade256b6e97347ebdc6b5bc38d3bcecc93f29eb9d0e1ba",
+    "bytes": 5749,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-pitch-deck/SKILL.md",
+    "sha256": "bac00ecbca70fabd71e0b44fc29f7530fbbe810c7598f3d2e570c2c45298c593",
+    "bytes": 5672,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-presenter-mode-reveal/SKILL.md",
+    "sha256": "5b99945f12836f66ae6f45b65753ee83cf1d82d8dc1659408b18fa436ac7a455",
+    "bytes": 5656,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-product-launch/SKILL.md",
+    "sha256": "05a8d9d84218fcebd37aef6ac3b37c0d6bf89f8e8c6a3e48e73ca31b92c43cf4",
+    "bytes": 5592,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-taste-brutalist/SKILL.md",
+    "sha256": "36d65d6704af48d486f97da280560d52f95539cb1978f234ddd76c6770b2b224",
+    "bytes": 4931,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-taste-editorial/SKILL.md",
+    "sha256": "d60f3a544ee49ff2ad290b29ee33dcd3cb12c73039c54bb99620663d123b8d35",
+    "bytes": 3981,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-tech-sharing/SKILL.md",
+    "sha256": "fd1dfe6b72ce6303daededfffddc0e7fc284c4b84a1874526a1d89f0f420c511",
+    "bytes": 5574,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-testing-safety-alert/SKILL.md",
+    "sha256": "8c2194dd917994bc95ffc839f1627c86035bba8c1ec6a7887a43cfdf3319c619",
+    "bytes": 5889,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-weekly-report/SKILL.md",
+    "sha256": "1f6b6bcaf03f4de84b8a1e5d67474cbab4fdcbb48667f158b5e34f8025c07a0f",
+    "bytes": 5580,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-xhs-pastel-card/SKILL.md",
+    "sha256": "40aa11f665d53262f413cf9120d235596b8fd80ae8ca6066a972331f59fd8cbe",
+    "bytes": 5625,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-xhs-white-editorial/SKILL.md",
+    "sha256": "1628180c52b35776c57d0843a22c183c9635524e596942d206f132b93ba68a98",
+    "bytes": 5759,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-8-bit-orbit/SKILL.md",
+    "sha256": "fb186d395686572c1533ca4d5989133dc2b0707f7f7cc7fdcdd7c30e1f53dc94",
+    "bytes": 4954,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-biennale-yellow/SKILL.md",
+    "sha256": "c07ca00a143053e79982bc6a0223f7d5979c0348361021dbe8a517e42141396a",
+    "bytes": 5073,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-block-frame/SKILL.md",
+    "sha256": "3d08150378d518940ed97fa9cce424bf8f6766cb630c6971bfc11eb0d7c0dc0c",
+    "bytes": 5036,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-blue-professional/SKILL.md",
+    "sha256": "807c44d68eeb04edaa66335bf8c3e698255f0c18f6f6111bc256e74be4a17c87",
+    "bytes": 5017,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-bold-poster/SKILL.md",
+    "sha256": "22a831def21f6f575349349fc4233bd3ee710b8f6cdf9c151f9a5e38e2c3173a",
+    "bytes": 4985,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-broadside/SKILL.md",
+    "sha256": "79545ddf64867cbf513f7f9cd2cc5cf6f744a195dc48113da7554694d00ccc9a",
+    "bytes": 5018,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-capsule/SKILL.md",
+    "sha256": "2353aa38783e9d5abf607bb8cfde2069feefce0b0a52e6e252937d9e75b6794d",
+    "bytes": 4894,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-cartesian/SKILL.md",
+    "sha256": "8e9f6cc3892af490556ef69314c8d18015850429d14e8487ec3923707d0a59f5",
+    "bytes": 5157,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-cobalt-grid/SKILL.md",
+    "sha256": "d257ebe32c3242b75b9900e17f9fb6da15126481d0ff100e610fed8cd273fbce",
+    "bytes": 5098,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-coral/SKILL.md",
+    "sha256": "f61712d4f47cc8d28232eb8a748d81cf8f7b421af93fd77f6866db471fa0ee4c",
+    "bytes": 4940,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-creative-mode/SKILL.md",
+    "sha256": "9fe2a2e7877efe80dac89e4474b907e57d440935bf9db5a3e48454964c0a33e5",
+    "bytes": 5512,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-daisy-days/SKILL.md",
+    "sha256": "0f413e40c3b73f3975b59d1dca276007675ce00e9bf3c9e2b15eedc234346e0c",
+    "bytes": 5205,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-editorial-tri-tone/SKILL.md",
+    "sha256": "7350ad13e9be1512cd911d2fdf73671f97166ab5299ce07875f2ae7183be5cf4",
+    "bytes": 5493,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-grove/SKILL.md",
+    "sha256": "d09566462de9b6af321f4039d71e2293a0b6e860332d0be0f3ae43a69121813c",
+    "bytes": 5114,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-long-table/SKILL.md",
+    "sha256": "7908a049a0ad4ff64be29812378eacf46fb18cda4608ada717eea9f711e47ed6",
+    "bytes": 4981,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-mat/SKILL.md",
+    "sha256": "f8bdd9d6fb5cb25fbf1ad422059d1f6203e22c0d65b1eaa5bb7aae7816852d56",
+    "bytes": 5076,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-monochrome/SKILL.md",
+    "sha256": "643dc665a7ec2fea78ed166875aacf455e14467a75e8a2b6216d452146703f33",
+    "bytes": 4998,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-neo-grid-bold/SKILL.md",
+    "sha256": "76c5e80b9416006704f4a11e043e3e6f46f4585c3daf05a1f22231f75fc55141",
+    "bytes": 5408,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-peoples-platform/SKILL.md",
+    "sha256": "0b8037f30eb703297ed32fcac5bf1399c3b8d041b894e3aa255b67ca52934185",
+    "bytes": 5579,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-pin-and-paper/SKILL.md",
+    "sha256": "afc8ae735f24d5a5461c61d573f510406c4b855e83e18564557e886ab82b85b1",
+    "bytes": 5677,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-pink-script/SKILL.md",
+    "sha256": "2e5d54466fd05bfce77466a4cb8b8eafe226aae73c88126c43de0679807e1e2c",
+    "bytes": 5501,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-playful/SKILL.md",
+    "sha256": "f536e392744c180e9f8c37c5b94355305ef8e4fe45ef00ce2393d3b5f8119c98",
+    "bytes": 5036,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-raw-grid/SKILL.md",
+    "sha256": "8d87e30d7e65020caff77bcf244c2dbb90e2ff7780c3f36a2061fc0b4146f8c6",
+    "bytes": 5030,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-retro-windows/SKILL.md",
+    "sha256": "4e84b0bdd280257e3790a15b0ffe86d9ad8960982b98d94d52bf79b1dbb9b656",
+    "bytes": 5010,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-retro-zine/SKILL.md",
+    "sha256": "27649fd064fb71ecb6046784e91802ef04a26a2cc22a077eee46443dc372d9be",
+    "bytes": 4922,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-sakura-chroma/SKILL.md",
+    "sha256": "c9f0542545284510181744967645fc6c3d93c54e393cb81327bd2d325046db03",
+    "bytes": 5258,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-scatterbrain/SKILL.md",
+    "sha256": "3b652d7e248eb0147b0b18f6f967774200ea1125b04cce96b2027e940a251517",
+    "bytes": 5175,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-signal/SKILL.md",
+    "sha256": "89fa4c07d9f09f00ec122dbf2de3d2fe15a2192cd011b0f5986917d66554ecb4",
+    "bytes": 4969,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-soft-editorial/SKILL.md",
+    "sha256": "ce61c126d5e4f9dfee7497bdb1d5076f45356dff26c9e4abec6ad05a2419637f",
+    "bytes": 5462,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-stencil-tablet/SKILL.md",
+    "sha256": "93e44be99e7e1f22cc39a2dc4c78265ad62bdba16de102161d92c012e067c5f1",
+    "bytes": 5634,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-studio/SKILL.md",
+    "sha256": "9c1b4bb5ffee87ee2a4d55993b19c9704d9ffa2b9acd04c5d628b6bd8bf4a860",
+    "bytes": 4977,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/html-ppt-zhangzara-vellum/SKILL.md",
+    "sha256": "bc74ddf7e869da7b81ace608f736a9244be3ebb9ea1422e62f0923a4fe674569",
+    "bytes": 5042,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/huashu-annual-letter/SKILL.md",
+    "sha256": "c3af59512315bfcebe6d818cec22942c74856a4ee18234939ba8beba22ea1a5c",
+    "bytes": 9892,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/huashu-bento-insight/SKILL.md",
+    "sha256": "24c0d64b152e703d3d73c354ef3490802eb3d0e1bf517defe3644d2adcf3c4df",
+    "bytes": 11408,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/huashu-golden-circle/SKILL.md",
+    "sha256": "fdba249f7f4492a525e3f4df842544c2f36e161e8fca9fbd03584f176f103a3e",
+    "bytes": 11055,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/huashu-keynote-black/SKILL.md",
+    "sha256": "379a05e7afa0d329802aec5903b571c09d7b13446bd22d15b8aff4af5f66563c",
+    "bytes": 10815,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/huashu-luxe-whitespace/SKILL.md",
+    "sha256": "56931b809d8b435fc78b08038ed6ad3dda49747a5343cc29a3db11ce031741b0",
+    "bytes": 11502,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/huashu-pentagram-grid/SKILL.md",
+    "sha256": "13f0827404ca61b5952ae0489f626ed7259226f40cc149cbe26a4c02fa628079",
+    "bytes": 10308,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/huashu-slides/SKILL.md",
+    "sha256": "cca2ebba542dc5f17d56dad0642749435f45047a1bb82609fa09b3013007e0c4",
+    "bytes": 9465,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/huashu-sparkline-arc/SKILL.md",
+    "sha256": "bb3f1d21c21609874a67039340006290422586546a64881ae35eaf9da076f8f8",
+    "bytes": 11419,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/huashu-takram-soft-tech/SKILL.md",
+    "sha256": "d5a65608397414c3e8edd95a29a2e23e5b202f995d78a05405e9aafab6389725",
+    "bytes": 11914,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/hyperframes/SKILL.md",
+    "sha256": "2d787c566779a8f781ccba237c03edd73551d3933b019719100bca92651f9453",
+    "bytes": 28843,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/ib-pitch-book/SKILL.md",
+    "sha256": "61e66038c6e0d2dba5dfcf4d23d6bde0a4b1d853a35b1c174b0451d7f6ac3323",
+    "bytes": 8301,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/image-poster/SKILL.md",
+    "sha256": "019fc99e89ddc46e5da0426bf4253c08a1c4244466b6db9e760878fb599c6a66",
+    "bytes": 3709,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/invoice/SKILL.md",
+    "sha256": "2899d0374f716eac3a98e25402d2eca2e7daa01c51ccbea97879e8f17f665bb6",
+    "bytes": 1444,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/kami-deck/SKILL.md",
+    "sha256": "661fe0446a88b07fbe6ad30bf2edfb4ab3dc490d6d7a5641d6315adb767ee82d",
+    "bytes": 9107,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/kami-landing/SKILL.md",
+    "sha256": "d65f42255fccf018f7dbc209e384d723b41ae9ef0c0927b724f667ad354d8ad5",
+    "bytes": 9787,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/kanban-board/SKILL.md",
+    "sha256": "79f5ac0147eb9189b5e5d7de4e46976a84f0f1dc5af082c80174c1ad448b0a27",
+    "bytes": 1606,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/last30days/SKILL.md",
+    "sha256": "06c3dea51a55183ea86b0a513e5045c1266379b70c8248e09fecd49aced693cc",
+    "bytes": 5157,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/live-artifact/SKILL.md",
+    "sha256": "aff266545a12221a4f324bbc0a81d44e8ccb32fccce338d8eee381fc02e8e231",
+    "bytes": 8041,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/live-dashboard/SKILL.md",
+    "sha256": "716e58fb87b8870e705a17d5cb270e9181fcc0ff3c0752a9307e67e5096241bc",
+    "bytes": 8608,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/magazine-poster/SKILL.md",
+    "sha256": "54f9e0a56c6280a120fefc6cbcdf48837ca97d8b24aed98664a2c14646414e9f",
+    "bytes": 3669,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/meeting-notes/SKILL.md",
+    "sha256": "3fb29f8c5f5ae733e879a32fc2158615a27e065f4bab6cd646aa354a3a065d41",
+    "bytes": 1354,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/mobile-app/SKILL.md",
+    "sha256": "056c37e1acbc8be7f0b81862f11103bf66859f72081264da43fb1f020b36da53",
+    "bytes": 3962,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/mobile-onboarding/SKILL.md",
+    "sha256": "1d264d7f8891bb1aaafdc3297d1c1cbec3775067e54a9c68a98191bc5d2efa9e",
+    "bytes": 1651,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/mockup-device-3d/SKILL.md",
+    "sha256": "cdcf138adc35606466b0346f491ebedbc82e51f5ca0370c8d2dc5f2a50c8fc0f",
+    "bytes": 4532,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/motion-frames/SKILL.md",
+    "sha256": "876e1d7116431cc5c5a9e50f34af2afb22dcde5093e03f08a45ebb8b4b98ebe6",
+    "bytes": 3798,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/motion-future/SKILL.md",
+    "sha256": "b66d63dfe094e7a0cb5bef1f080ec9b53293bb28f522b318a4ccb56d317b9445",
+    "bytes": 6614,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/motion-product-promo/SKILL.md",
+    "sha256": "584450ceb6b363ecfeec40a94d4c7033221b4eb88fb2cb1d05c9286e1a167c19",
+    "bytes": 7319,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/motion-showreel/SKILL.md",
+    "sha256": "593a32e3cb71d7744a44a34e7b9d8f56a505190b9283183bf368ad17a660dbc8",
+    "bytes": 6258,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/motion-ui-morph/SKILL.md",
+    "sha256": "89b4e44ad46931362a45cab0bb9829eeeee8a09e470d3d70a1f3afe0dde42312",
+    "bytes": 5319,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/motion-visual-lesson/SKILL.md",
+    "sha256": "3e50e3dfd3f2347ead41cb1346f734be71a48d0b8bd4c094ab632b2bf6fc8439",
+    "bytes": 9601,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/od-plugin-contribute-open-design/SKILL.md",
+    "sha256": "fa6b2df16b271af5e140ddcd0c6d85217bd8464724945f4a3058fc0dd89845c4",
+    "bytes": 1448,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/od-plugin-publish-github/SKILL.md",
+    "sha256": "aa348d79d2fb85f52aff40a8d3281a1c93a301d6a25efa987b86dcf7a20c76c9",
+    "bytes": 1365,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/open-design-homepage/SKILL.md",
+    "sha256": "ddc16e108d41341c22f15148ad3e9ded33cc9d5090be8d8771df8d40937b955f",
+    "bytes": 2734,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/open-design-landing/SKILL.md",
+    "sha256": "dc9996eb9d757e59fa7796f884e0579057521abb119af1cb55c67cab4cb20f34",
+    "bytes": 12563,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/open-design-landing-deck/SKILL.md",
+    "sha256": "17f25e78d61b40065c743492c14f9ba5f300c6624aeca3622d99419585bed24e",
+    "bytes": 10278,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/orbit-general/SKILL.md",
+    "sha256": "beaa70cea5c41cb70e2b975bfe3bcc6cd9a8ef0e8c42cef5e4808ad1190e8e33",
+    "bytes": 11081,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/orbit-github/SKILL.md",
+    "sha256": "e59d93de7faee15ee156a96a56d51d9db6d45bcc1f13e5615e6d84ff46b5df49",
+    "bytes": 7223,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/orbit-gmail/SKILL.md",
+    "sha256": "304322a6db914fade8773958f23999a1eaf50968f0bcc3f0c6730d2560a3f828",
+    "bytes": 7434,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/orbit-linear/SKILL.md",
+    "sha256": "6748460b0facbf1a9d54f460f21ebf260a160727efca2c7bcb41b934434e808e",
+    "bytes": 7705,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/orbit-notion/SKILL.md",
+    "sha256": "88c6b536659310d581f4f6da45b326cf3268db994e2fc016248996247d37b568",
+    "bytes": 8197,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/pm-spec/SKILL.md",
+    "sha256": "099d54e4dce4a002a8f0291b8c036c9ccd11abef9cf68026037f673d7f3f2717",
+    "bytes": 1607,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/poster-hero/SKILL.md",
+    "sha256": "2c0182a00b8b68989f982ffa93db3fa04804c14cbf2f2d9339157752d172be8d",
+    "bytes": 2055,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/ppt-keynote/SKILL.md",
+    "sha256": "49c89d8c9ec0248c6b412c76ebad12530935aa1e64487b054c5b7c2cadf4cff6",
+    "bytes": 3470,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/pptx-html-fidelity-audit/SKILL.md",
+    "sha256": "a8e58320a477e4e7d71d30411ccae8c60936ca9863989586efba231927a76684",
+    "bytes": 14423,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/pricing-page/SKILL.md",
+    "sha256": "e563727e47a1a59b38098e89109e746ce8fb8db438bbb39b0cd03292ea0775a7",
+    "bytes": 2926,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/replit-deck/SKILL.md",
+    "sha256": "849000dbd4a47a248f3aae4c98da7bfe49d5ea22027a7ec54340273522eaf8dd",
+    "bytes": 13526,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/resume-modern/SKILL.md",
+    "sha256": "45e0a22800ed7b20c77e8a36aaa598dbe2fb9c0633666df3723604323855d673",
+    "bytes": 2166,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/saas-landing/SKILL.md",
+    "sha256": "25fda403cba6b06a54572c69dafcae91f29329dc080670a648cb311ab9efa4b7",
+    "bytes": 4742,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/simple-deck/SKILL.md",
+    "sha256": "e89ff4773af5b4275d5b540108f3d0aa7f927eb4cd813a3319164271cca1f5f1",
+    "bytes": 5814,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/social-carousel/SKILL.md",
+    "sha256": "df14fa564be6f3e8d8890bc03ddd05cac79d7a5c8ee6ca72c6afa9e2d037e636",
+    "bytes": 3989,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/social-media-dashboard/SKILL.md",
+    "sha256": "c1731368b495e26b9e399b135b65c1f2bc83340f02ddb49a5bdfa3ba73f12d2d",
+    "bytes": 5770,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/social-media-matrix-tracker-template/SKILL.md",
+    "sha256": "695ada2fbc0f2a34d2e691ce80e9e00c6a201238b0fe10b3c7145260f4f7c532",
+    "bytes": 4969,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/social-reddit-card/SKILL.md",
+    "sha256": "e108e87472340eea5820843e078e671a9057582c72962f2e0425f6771267327d",
+    "bytes": 3614,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/social-spotify-card/SKILL.md",
+    "sha256": "3719052a49c7efe2e566678c1ee227cb66be0736ea8c606858dadaf64f2d4e0e",
+    "bytes": 3917,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/social-x-post-card/SKILL.md",
+    "sha256": "d4f64217fba475045f64c8a0f728960c567c927d6d6bd8d7251061c4f988445d",
+    "bytes": 3754,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/sprite-animation/SKILL.md",
+    "sha256": "8ea7420fdef2f20fd345e59c2425499d0d18f7a64a59afb3f4aaf69d1c5ffa95",
+    "bytes": 4350,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/team-okrs/SKILL.md",
+    "sha256": "f6dd1cc149adad09fcaa40a137ab973fa4f10818e222fdd8b7d9badc84dad4ef",
+    "bytes": 1363,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/trading-analysis-dashboard-template/SKILL.md",
+    "sha256": "6f06b8b2f30a45d5204917bb2717ed80d1343bcbbfea919dc72b822d73086122",
+    "bytes": 2537,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/tweaks/SKILL.md",
+    "sha256": "ad4c7078fdc2d452568f321c88f8143959fb7b6bb7463183c554131de2719384",
+    "bytes": 9044,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/ve-midnight-editorial/SKILL.md",
+    "sha256": "dbcea952b1fcb2f560d63cdabccd9e5944ceef06615b549fc8bdca5bd3ce9eab",
+    "bytes": 10765,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/ve-terminal-mono/SKILL.md",
+    "sha256": "088985813010d214f578f4ee40234225a07cdaf5c73f228bdf991dcf5db0e6ad",
+    "bytes": 10201,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/velar-luxury-real-estate/SKILL.md",
+    "sha256": "2783e337f3866bca99740197c3d2e3be0363595bffa0ddea87eae5d8061769c2",
+    "bytes": 10754,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/vfx-text-cursor/SKILL.md",
+    "sha256": "26c6f8f2abdb408bb84b03c870b723c8472e5a46b1c03b1b9cf67934393e109b",
+    "bytes": 3760,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/video-hyperframes/SKILL.md",
+    "sha256": "b24173eb7a418de74d00b6df7ffc9d63d8d5ad6ffbf9024ba2b9e4caef8b5cf0",
+    "bytes": 2753,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/video-shortform/SKILL.md",
+    "sha256": "bb599c5081feb9c4ba8493911f9b22b30e0fb1c3a9ff6e1a9ee3d6d775508de2",
+    "bytes": 4607,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/waitlist-page/SKILL.md",
+    "sha256": "bcfcf6c94767af3c0167382edc32227fe6e6cfdbbef1813949d04365099e6bf7",
+    "bytes": 14204,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/web-prototype/SKILL.md",
+    "sha256": "d730e5c2ad25f2462c430f6a0d3ee7df3827e347a07c5857a66e9945af83a5ff",
+    "bytes": 5969,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/web-prototype-taste-brutalist/SKILL.md",
+    "sha256": "3c00250ada1abb43273d8892405fbc1a6be74523a947bab491b1b5bf4137e32f",
+    "bytes": 4080,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/web-prototype-taste-editorial/SKILL.md",
+    "sha256": "a00580ad92b5ca8281cc88162035969d6e24bb953896ddbe46eccb43de3fba05",
+    "bytes": 3365,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/web-prototype-taste-soft/SKILL.md",
+    "sha256": "30b8c1dd03e6b054be5e6aa65e7afd8c1a0d5cc135f09625e689cc0ce4315726",
+    "bytes": 4222,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-aurora-veil/SKILL.md",
+    "sha256": "6662689fd629ed4c5c770d4263a0f8b2d160c020b40d66fd55ae3483f2827af2",
+    "bytes": 1396,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-caustic-pool/SKILL.md",
+    "sha256": "3fc27f9408e4c36c71676178aeb94b7e42c282c2d45216472e88a555d7e61575",
+    "bytes": 1412,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-depth-gallery/SKILL.md",
+    "sha256": "a9b3b6107a7c6a689508b3e88efd97ecfe3a9c4d84b61ed0e37e6a5048276fa5",
+    "bytes": 1533,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-distortion-grain/SKILL.md",
+    "sha256": "1cb7ff47a3bd334950e2d5d6aa9cd43f4404e0144d6ea3b7ebe08f58e5478f5d",
+    "bytes": 1476,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-experience/SKILL.md",
+    "sha256": "685dfedd4f9d7725c36e66819a9644100dae1a1af71ba05a3615a8eec37e85c7",
+    "bytes": 3739,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-halftone-drift/SKILL.md",
+    "sha256": "6a41a5837a4291cbcef7958388e3d13aa626f1fa6cab53f1f6e90215127fa90e",
+    "bytes": 1444,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-holographic-foil/SKILL.md",
+    "sha256": "7c06f1ab65996efbd8c8dcdea59de1665baf9eb7656adef8fe9730bb2531cbb5",
+    "bytes": 1456,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-horizontal-parallax/SKILL.md",
+    "sha256": "2cec36dd18aa4948cc4a97625d416a4617f2c428fbeda3ddfb82d87ac55e9ff8",
+    "bytes": 1529,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-liquid-iridescence/SKILL.md",
+    "sha256": "4bbc04be6f79042dbaa775b1acbbd4ea500d8bfbdaa033216e9d0bf1b4c12756",
+    "bytes": 1420,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-liquid-metal/SKILL.md",
+    "sha256": "b957a7d6e9ef838bf4e1993c7ce16879af9f01ea4dc019e2216498d2bf10dd66",
+    "bytes": 3528,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-neon-grid/SKILL.md",
+    "sha256": "5139b2cc34c6304fc656bbe32a7ce9d91226a5eb926797818bf55233daf82c9f",
+    "bytes": 3478,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-particle-galaxy/SKILL.md",
+    "sha256": "ea06f48ce3ed8f50676941fd921615cc7c59d8a34dd9c5925f6f6e481c18eb2e",
+    "bytes": 3873,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-pixel-reveal-gallery/SKILL.md",
+    "sha256": "f9f0c8b996d9bf5fb27e81ee6ebf4b489240089afa7008cf773c868b432b9a94",
+    "bytes": 1532,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-raymarched-hero/SKILL.md",
+    "sha256": "956d7511dbc1af5b8aa3e49dc2d69993ae398f267f2da1fcc800e97319ea16bd",
+    "bytes": 3553,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/webgl-voronoi-cells/SKILL.md",
+    "sha256": "39dfc94db3bf68fe035e8ed7c33354acd85021f4f42a9d4d226e3f985d6c79eb",
+    "bytes": 1452,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/weekly-update/SKILL.md",
+    "sha256": "388916b64046ca539dd3967c0b4c52048699780b79c05b3a53d739ff84cff207",
+    "bytes": 2831,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/wireframe-annotated/SKILL.md",
+    "sha256": "b7f7964d45da9b882f128943ebfb7df5aeb0f52268f5c83d4cadcdeceafb8014",
+    "bytes": 4022,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/wireframe-greybox/SKILL.md",
+    "sha256": "aec7ca27c6721887bff35d7ee074c97c1127538ec5b2bb49fe635d53f093bef5",
+    "bytes": 3942,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/wireframe-mobile-flow/SKILL.md",
+    "sha256": "c7312e1ed0ece9707a90eec36c85917f3b7e561a34173b94f36ec0ee12df12c1",
+    "bytes": 4365,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/wireframe-sketch/SKILL.md",
+    "sha256": "3d789de11b3b038f02d5a5dc0b0d0638c9b6f7bb6f34406c95ef5cf3383b6e9a",
+    "bytes": 4127,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/worker-visualizer/SKILL.md",
+    "sha256": "e8d37d6bc69c0aba0023c01542b7ebbf8a50281c5ba163019ca65d1a5984ff7e",
+    "bytes": 4114,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/examples/x-research/SKILL.md",
+    "sha256": "2e252cb623a9bb55b014e2bb45be3977aa95cc89089594cb046bb02cb435e082",
+    "bytes": 4036,
+    "read_status": "inventoried-not-read",
+    "reader": "",
+    "evidence": ""
+  },
+  {
+    "path": "plugins/_official/scenarios/od-code-migration/SKILL.md",
+    "sha256": "2eaf4a34f631291935bfa67ba481c82e2e466d0c951bb87ca6549908b51a1610",
+    "bytes": 1584,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-default/SKILL.md",
+    "sha256": "a014b49e89e7fa19631ef0d03ccf4710a23530a8bc7235c72f8616cdcf3c1d4a",
+    "bytes": 3764,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-design-refine/SKILL.md",
+    "sha256": "a9a1585d475b5ec92d106db2f5f99ea38f6b97efa2fcbb9cce7f16fb3d82a158",
+    "bytes": 846,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-figma-migration/SKILL.md",
+    "sha256": "026854826c831dfdd454843dc60ba39c00d8c7a893cc606da2f0168cf90cfae0",
+    "bytes": 1556,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-media-generation/SKILL.md",
+    "sha256": "086d0cfff840d3d24c4d136400f39ad3bb4b365f4706676e1eb9bd1673d42e69",
+    "bytes": 2965,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-new-generation/SKILL.md",
+    "sha256": "ba6a05a073d73e787c60a950be49381bd75016a76c1780b442a491738098d469",
+    "bytes": 1369,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-next-strategy/SKILL.md",
+    "sha256": "31b7bff8b73ec9abf24a9270821e3ac859558c3c2b8ca7609fadc84c83d26fb3",
+    "bytes": 1194,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-nextjs-export/SKILL.md",
+    "sha256": "aca8ce5adce9d6e8dbe7b58dbe9a6e5344099f9c6de0e923f9190b4386548d0e",
+    "bytes": 889,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-plugin-authoring/SKILL.md",
+    "sha256": "353f0cacba37e2345534d4a4d096a1f62f9c6a3128da434cbc9a5667a6072acc",
+    "bytes": 1821,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-react-export/SKILL.md",
+    "sha256": "70ab4332baefe53dc6eda7ddd288d912408ffd5b271249699587b5fe5bcddcf7",
+    "bytes": 889,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-share-to-community/SKILL.md",
+    "sha256": "6580d1a7b4663b71bfb8ade5346e08bd0d264e5c57350d70ddd888f9827d226e",
+    "bytes": 6459,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-tune-collab/SKILL.md",
+    "sha256": "a224611b6ee96b6dddc2bbf06da4b3c611c8f6b28c39bc54d402fd7ebde23f26",
+    "bytes": 1176,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-vue-export/SKILL.md",
+    "sha256": "12d601c1c2540849dff95415d4d142c50041d79f8db56d63cdcad120c59f6787",
+    "bytes": 847,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/scenarios/od-web-effect-extractor/SKILL.md",
+    "sha256": "7e47eef1ca0beed1249dd88b0c0c47dd91fe73e07a9cbab2d2d45f213c08815d",
+    "bytes": 6632,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-bold-poster/SKILL.md",
+    "sha256": "dcaba62be60c940d64678db206f5772f34da27a3c944fab14044ef29f2cb4ca9",
+    "bytes": 1645,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-bold-signal/SKILL.md",
+    "sha256": "eb47a2f8c8e2f08aafcb3e1535721e66ed874ff5d471645d94df9c82a314f1a6",
+    "bytes": 1463,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-build-minimal/SKILL.md",
+    "sha256": "63637387bc2526355d5cc300719d7a2e93cb92701ea53c41beeeeb480e2bb805",
+    "bytes": 1533,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-creative-voltage/SKILL.md",
+    "sha256": "77b87488306c18e30a21f575a659f31bf686b5db5a3dbc1bd47cc8edb4a704e7",
+    "bytes": 1545,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-data-chart-nyt/SKILL.md",
+    "sha256": "883241b00592e5609758659a3f8f31bbe8eb896b29e9b63464d4df0315eeeaca",
+    "bytes": 1353,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-data-rollup/SKILL.md",
+    "sha256": "6d8e41395330cc245b0747601d074289114aa5a20f4f0a0f1e45ec203a56e3b8",
+    "bytes": 1493,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-decision-tree/SKILL.md",
+    "sha256": "0cc362c143675e8a4b37dea25d30f504b3eaf268dc013adf6f8b3421ed033155",
+    "bytes": 1317,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-electric-studio/SKILL.md",
+    "sha256": "7f64d8f5b31153b0a7cc49f67c354c52b5af10a1103c3289689d21650a0b2d43",
+    "bytes": 1495,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-glitch-title/SKILL.md",
+    "sha256": "da7954a79c35266fef7760a2a0de65750828fa868cbcaad462eea150bb92d5ab",
+    "bytes": 1336,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-kinetic-type/SKILL.md",
+    "sha256": "77b9b0c322e4adb747d1cc5b84a49383d990a3e277cae0f1486b8635ec075f3e",
+    "bytes": 1288,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-light-leak-cinema/SKILL.md",
+    "sha256": "6de1b3a581eb9ac29b5f98c04e5933af48451ee2fe258c6c602868665cbdbecd",
+    "bytes": 1350,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-liquid-bg-hero/SKILL.md",
+    "sha256": "8d93ba15f5aa1bd4ca3f4da461e9db328b5bd6a017524715801ec8f968845462",
+    "bytes": 1365,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-logo-outro/SKILL.md",
+    "sha256": "f3aac23d8c7d78c125d14b38c5722637eab2868f626e38c7757871749ef8ec06",
+    "bytes": 1302,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-nyt-graph/SKILL.md",
+    "sha256": "8ff493677a615631d030e760b3656d2832f22c4866c1dcfdd6c056aa6fcb21b9",
+    "bytes": 1325,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-pentagram-stat/SKILL.md",
+    "sha256": "392f5a4c89bd5ffc9e0567b162d9f72daf46564cc39026e4e9b4c8cc6c10795c",
+    "bytes": 1573,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-play-mode/SKILL.md",
+    "sha256": "abc2a29484b6280d568ed908a9b0bccf45dff81d4806cfde946349b8a00a02bb",
+    "bytes": 1267,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-product-promo/SKILL.md",
+    "sha256": "69b4f6e0ae6bbdaab5d5201e8922091b49db884b0b0a3e82eff19256e4e8fa75",
+    "bytes": 1327,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-product-promo-30s/SKILL.md",
+    "sha256": "353b046dd4598e13d30e9e9e072c78d17aed9d68907ed620a645eac4dac6a4a0",
+    "bytes": 1810,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-swiss-grid/SKILL.md",
+    "sha256": "710e0d883ab0d11b0e0cc830f6ac5e6169643a0430e3e0edd915422af9ee807f",
+    "bytes": 1278,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-takram-organic/SKILL.md",
+    "sha256": "e637d852a0c5a9e904cb6fb95ba9d6f71fa1c433e3d6f7fe1037df63dd4f5f09",
+    "bytes": 1576,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-vignelli/SKILL.md",
+    "sha256": "0cecd955577bbf4691daae9f165d1221200901cfb3d1c8ac989c9667baafc47c",
+    "bytes": 1284,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/frame-warm-grain/SKILL.md",
+    "sha256": "5b4f838304ce67e79188f4ba65ecd81fca0d001312405cc5c567cfdf944e4a60",
+    "bytes": 1297,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "plugins/_official/video-templates/vfx-text-cursor/SKILL.md",
+    "sha256": "c078e0adafdd8deb39ad6ebc85de682b8fb12735eda500e583ca3397226cb7b3",
+    "bytes": 1313,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "skills/8-bit-orbit-video-template/SKILL.md",
+    "sha256": "6e4476dec4976ff3139284f8a4e44a0d1d48267e9dcf631c0dda2ab930759d1f",
+    "bytes": 2418,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/ad-creative/SKILL.md",
+    "sha256": "3bf78a21f761a1cb68f1cce008c1997c47be0768f047c56bd210e6e70d90fed1",
+    "bytes": 1260,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/after-hours-editorial-template/SKILL.md",
+    "sha256": "e25c6d02edbd440790de46a9492f063d46e6edfc3fab7f9695a32e3f29862cfb",
+    "bytes": 2576,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/agent-browser/SKILL.md",
+    "sha256": "121138b9acf4c48d2a94946f98008f61295ecdac1d3b0bfacacfde8bf043fdf7",
+    "bytes": 8918,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/ai-music-album/SKILL.md",
+    "sha256": "5521f0ef56713c66c2a37d91a763679bb9c41bab5ad441295a7ae97b91281db8",
+    "bytes": 1357,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/algorithmic-art/SKILL.md",
+    "sha256": "1276bef47bcfc816e67921d4fa92aaf5693603bee5607da0f083aa376dd6a6a9",
+    "bytes": 1453,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/animate/SKILL.md",
+    "sha256": "2efc3b3d3ea5ba9f4265975bf161013e322fac6485c5ee8459ee1f9001fdd855",
+    "bytes": 12707,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/apple-hig/SKILL.md",
+    "sha256": "ef182b38f13b49165905a1ed78b8733851a7b5397259efc9843dd93d4a6c0b2e",
+    "bytes": 1369,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/article-magazine/SKILL.md",
+    "sha256": "a03482338fe14078269f9bb5ceb157f3433053d20afd9b1cc0c091db2347c4de",
+    "bytes": 2571,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/artifacts-builder/SKILL.md",
+    "sha256": "45904e108563c315cd66dc236af45b486c540184cbe18f74b719b104e658a1fe",
+    "bytes": 1429,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/brainstorming/SKILL.md",
+    "sha256": "ab5bbfa4db67428279c298eef2139eba2deadabf2440e0f0ccb7bd220a365ae4",
+    "bytes": 1243,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/brand-extract/SKILL.md",
+    "sha256": "43bedf1470d8a9a57c459e90c827e7fbfed33d625e6783212a0ce85df76d38a6",
+    "bytes": 12755,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/brand-guidelines/SKILL.md",
+    "sha256": "d0e638cc7482728d077a3285a0df2b243a4080393a2685ad9a6f3c65ae893499",
+    "bytes": 1426,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/brandkit/SKILL.md",
+    "sha256": "d2a85e66bdd2a7e8d1d43ffffae631f214ba333b94f73890e17f6ee3ffad736d",
+    "bytes": 17339,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/brutalist-skill/SKILL.md",
+    "sha256": "2e44c750012ba7cfdeaaee4df31382e5cf311a8fa1f4348960a5fc2646df3197",
+    "bytes": 9125,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/canvas-design/SKILL.md",
+    "sha256": "e9975585fbfc080f456038830f52ad38aaf0449bb29942419c6ff87e51a5a84e",
+    "bytes": 1404,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/card-twitter/SKILL.md",
+    "sha256": "d5badd954b84ce4c60465cfc6aa9c7f391bd5555b0cd8253da04dd51f74e4c92",
+    "bytes": 1877,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/card-xiaohongshu/SKILL.md",
+    "sha256": "819ac1c78dee9cdd50cdf80b7111242c8818076eda7084fe4d7da18f4db26d6c",
+    "bytes": 2397,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/chat-motion-overlay/SKILL.md",
+    "sha256": "6df1ed3f6587488e90c7d671df29c9ce32d3a30c18606afdd7d22a14e0aa87bc",
+    "bytes": 4895,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/color-expert/SKILL.md",
+    "sha256": "33975fd19ac16d3ffeed03ded0e47abd3a9e65cda6043a9c5d06b3bb43900a61",
+    "bytes": 1367,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/competitive-ads-extractor/SKILL.md",
+    "sha256": "9db32764ee17cb8ff41e1562f072be83ff9ce8e1737aa7bf2aa95d97035f34ee",
+    "bytes": 1416,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/copywriting/SKILL.md",
+    "sha256": "f31d157ba542e06182fbc758eb72bd2b7b86a4d42c89912a55e41b87bd5d623f",
+    "bytes": 1235,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/creative-director/SKILL.md",
+    "sha256": "16b5c76c84a57e3fb47c93c35ea5fe6308b0ae2822994ede80343d01ac376668",
+    "bytes": 2925,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/d3-visualization/SKILL.md",
+    "sha256": "1e202593fdf7369f309ec829a52ad4a31e326e26a74a61e6460ced5014b39824",
+    "bytes": 2153,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/data-report/SKILL.md",
+    "sha256": "919fff733fd033ab7d370eb245c5b67b4950bfcc782cfd4cd1f0c5f879be23a2",
+    "bytes": 2663,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/deck-guizang-editorial/SKILL.md",
+    "sha256": "464c0afdc979deb0d8649836a939d4e573779728b72f8222145e9c7da76c4d90",
+    "bytes": 4766,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/deck-open-slide-canvas/SKILL.md",
+    "sha256": "8d37ea7c6a541d52bf15027da36df1a977db4c55794b8c8d8bb5e1994a46c550",
+    "bytes": 4032,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/deck-swiss-international/SKILL.md",
+    "sha256": "0aa5e60c066d66dbb38fb325c3b5bb25f485ffa43cf10b2af6fbca70b886fb16",
+    "bytes": 5999,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/design-brief/SKILL.md",
+    "sha256": "b40100abd22e1c5a7ed37d5a014d601125cb480531dbd6d1ff58c2852688c165",
+    "bytes": 14064,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/design-consultation/SKILL.md",
+    "sha256": "163d735ba1cbd7a5c8ed81a644541707949834f35d0d055df7c2afc93c41825a",
+    "bytes": 1293,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/design-md/SKILL.md",
+    "sha256": "0a6d5e0581d4ee66a5d040b7c8711e39e7e756bdbaeb2265da26a97d3fcead6b",
+    "bytes": 1216,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/design-review/SKILL.md",
+    "sha256": "f3e96359952f5a363a85651ebb324f605def11988ebdef870d6c9359a2259131",
+    "bytes": 1246,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/digits-fintech-swiss-template/SKILL.md",
+    "sha256": "056322911fcbc822e265225e528f13e723f941a76a6a4a4d88b63a838ebc7c33",
+    "bytes": 1969,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/doc/SKILL.md",
+    "sha256": "f9501e0c0cdf4c14261dcc259ee6e6c4dd494fb1986783a4525c6ad26a5a285e",
+    "bytes": 1106,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/doc-kami-parchment/SKILL.md",
+    "sha256": "67018f4879dbabd83ff0d1ef90d4053bb22a3ea8a6340a773be99d58dcb4d41b",
+    "bytes": 4891,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/docx/SKILL.md",
+    "sha256": "a940ad17032596b28fc88dd2bfa26932048ed2e50603a87af5436e84d62da9da",
+    "bytes": 1323,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/domain-name-brainstormer/SKILL.md",
+    "sha256": "e1e07ed979e713e312eb965b26200151b420fc7bb4de757a8d6b1bbb57664c87",
+    "bytes": 1412,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/ecommerce-image-workflow/SKILL.md",
+    "sha256": "8c96f10db295fbae8135bf384f1bd866014837e56f5836e4fbd574df5a0d7b8c",
+    "bytes": 9982,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/editorial-burgundy-principles-template/SKILL.md",
+    "sha256": "73691254132c9ce70158b7aa359acdb1bc8e1e6e6e3ddb61434e59d21d8201b9",
+    "bytes": 1973,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/emil-design-eng/SKILL.md",
+    "sha256": "d14c4e9eeb289f580d4ebcf48e6cf34b055fad14f5382b1f6e01708447b99a67",
+    "bytes": 28833,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/emilkowalski-motion/SKILL.md",
+    "sha256": "f6aa2fa977d2bdda62b8a5f7b4749d9e750bee57373ac7de1625293e23dacfcc",
+    "bytes": 2642,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/enhance-prompt/SKILL.md",
+    "sha256": "cbed95ee725028407cc17c8aa679c6f3ee90ae60aee0263613921cb1fb040be6",
+    "bytes": 1246,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/export-download-debugging/SKILL.md",
+    "sha256": "6f9d27507334063075f86215039341c3a0b65174033ff3a95f1a44ab35e56e6e",
+    "bytes": 2967,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/fal-3d/SKILL.md",
+    "sha256": "86f6414d1940ac1d72fc4917f16f88d72ba3dc80f32f46c2c5792e1e52314af2",
+    "bytes": 1204,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-generate/SKILL.md",
+    "sha256": "e48f7c85fc6d6f9f9b369cf3cc54188d65d520f9241306923ecfe580a801e4b0",
+    "bytes": 1266,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-image-edit/SKILL.md",
+    "sha256": "1c7431bb9b82d9b135262542d3ee8bc22ce7235c2923c92821e4e87b84b75a27",
+    "bytes": 1245,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-kling-o3/SKILL.md",
+    "sha256": "0bb9c4bbdb3d6aab02d68c862b9cd3ca2543886911371caf0899f6a99248cf15",
+    "bytes": 1149,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-lip-sync/SKILL.md",
+    "sha256": "6b5b6f6cb3938ac0009041a1cdb52cbbf7d0c55bddda952f288c107aaead8a93",
+    "bytes": 1273,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-realtime/SKILL.md",
+    "sha256": "126a2a60cdb4a034beb36c2c3f1b1da203c466434ffc95f2207dae1811cc886f",
+    "bytes": 1248,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-restore/SKILL.md",
+    "sha256": "d09543c365357ee9e4b7676b7526241f91b298f8d057a0a17cbe777c9ae28d18",
+    "bytes": 1253,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-train/SKILL.md",
+    "sha256": "23daac5e70ad6bd93457e7d16b669f528f9e2b5dc5c9b09aba625cfbc1c707c5",
+    "bytes": 1212,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-tryon/SKILL.md",
+    "sha256": "fefa98780d34eed99ba4390f3454e43128e50f1f96844780b5fab973cd5f47f7",
+    "bytes": 1268,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-upscale/SKILL.md",
+    "sha256": "08252d903b12aedbca09060476ec2ac6247cef962ef0ee480d532bad598cfa35",
+    "bytes": 1187,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-video-edit/SKILL.md",
+    "sha256": "4f6c1ac3bdc6c004c57f4295e548edb7dcee3371d50fe05f79b5c7039209508b",
+    "bytes": 1251,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/fal-vision/SKILL.md",
+    "sha256": "e791ac47a9e34c1ea618dcfd32f26357b440eae9e51fd771175c74f50553e128",
+    "bytes": 1227,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/faq-page/SKILL.md",
+    "sha256": "7b5bcfd1d1aead9f8182f4827d7a73d7e5d6b77c011d6c0ceac64a989a8737fc",
+    "bytes": 4198,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/field-notes-editorial-template/SKILL.md",
+    "sha256": "953075cd1b8650d26f130e1d6f23de65a5502e191c91f8bf8ad53b23cdca878a",
+    "bytes": 2455,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/figma-code-connect-components/SKILL.md",
+    "sha256": "a2864bbe62cf50c852d0d4a3ba2306fab4508ee91231d4cb9937fe74239bba81",
+    "bytes": 1247,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/figma-create-design-system-rules/SKILL.md",
+    "sha256": "b35a03c36b212491807069efa66c3d0794375b5aa7f8c42c53e3c902494ef0d9",
+    "bytes": 1275,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/figma-create-new-file/SKILL.md",
+    "sha256": "f592f71907de297ff6c0efc7f8abb88e31746e4249e15fbb356f65a06646b8f4",
+    "bytes": 1174,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/figma-generate-design/SKILL.md",
+    "sha256": "dd801b4e2dacdf6871fb6159bb2e0a2ca24dd0c755ae5d5d2a1df7f67cc57a44",
+    "bytes": 1247,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/figma-generate-library/SKILL.md",
+    "sha256": "e54b34d1d339cf648abd56787b470226079defbdd4dac5cc6f54649d3a73bf0f",
+    "bytes": 1289,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/figma-implement-design/SKILL.md",
+    "sha256": "9a6a5bc2cd3bb7d1250f6283ef82f31a462fc7293a31d024c7ac58306457947f",
+    "bytes": 1237,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/figma-use/SKILL.md",
+    "sha256": "9e50c482f8e47b194a9590091ec8347f882d2fe99f2d738c45da577c5cc06c90",
+    "bytes": 1223,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/flutter-animating-apps/SKILL.md",
+    "sha256": "4392f97224dba79be4458c3568814446e06c6b2122b6f1d38e78a7d251c2acec",
+    "bytes": 1210,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/frame-data-chart-nyt/SKILL.md",
+    "sha256": "bd60f2cf3dfe5c8ec7d737f2eecab08ddd3bc13ceb579a7432b53f20aefd38e9",
+    "bytes": 3966,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/frame-flowchart-sticky/SKILL.md",
+    "sha256": "bb9b6baa9ab837c70220e334a11111e3e4af57b33adf0f361eb1c75e6d1d60f2",
+    "bytes": 3800,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/frame-glitch-title/SKILL.md",
+    "sha256": "889ae9886802c7994588c66681998fa7ff512ae9538cdebf08f0bd19149e8c13",
+    "bytes": 3800,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/frame-light-leak-cinema/SKILL.md",
+    "sha256": "de4579b431ac50303785967251e263bebd7f47a08076b2ef8c364a447dbeac99",
+    "bytes": 4087,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/frame-liquid-bg-hero/SKILL.md",
+    "sha256": "2ac375e5a7f725198f0defe67c8787012a2e0002dd9e0b3c245450c481829893",
+    "bytes": 4182,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/frame-logo-outro/SKILL.md",
+    "sha256": "d85595ab4333d8650519636a5b98d7e6c0797e7bc4a6841940c578c943d6f04f",
+    "bytes": 3951,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/frame-macos-notification/SKILL.md",
+    "sha256": "146bf47d90c1a79cbba97fa3c3e6fcd283c78fb9eddbbab6b03cbc3405488a4f",
+    "bytes": 3948,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/frontend-design/SKILL.md",
+    "sha256": "7927d4843339da94c169aa04346d817ff4ee392034aa4469a2ffb788d45f2afe",
+    "bytes": 5325,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/frontend-dev/SKILL.md",
+    "sha256": "8f374401624f0f45116a8f3449619e2b46bbc5439070e0132abe202fc21a7850",
+    "bytes": 1256,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/frontend-skill/SKILL.md",
+    "sha256": "f4e4c3b6ece6303a88de394bc24dd411eeb25d7915a20bd8a4b682adcf803f2f",
+    "bytes": 1211,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/frontend-slides/SKILL.md",
+    "sha256": "a0caeaae9d5e1ceed30db2ebed8d190af13142afa9cdbdd82c2db2a192181539",
+    "bytes": 1303,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/full-page-screenshot/SKILL.md",
+    "sha256": "adc571793c80c409b628f43a17a17e4194ff0c70d450dc496bda3db3e3364855",
+    "bytes": 1315,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/gif-sticker-maker/SKILL.md",
+    "sha256": "09c29c8ca4b9ad11dd05cd1c4583b7fc21744672aff181be60db9cd3b47b7dfa",
+    "bytes": 1268,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/gpt-tasteskill/SKILL.md",
+    "sha256": "00089e5002a6b398a24a392918e6582a387d575c639d36aabcf7b2edc2d738d9",
+    "bytes": 8589,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/gsap-core/SKILL.md",
+    "sha256": "76e74c87364f5eb3e2d5709629a09bff4c10ace4f35d6ba6ed1bd0944e735dcf",
+    "bytes": 15605,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/gsap-frameworks/SKILL.md",
+    "sha256": "7768df9f2771da80041b721e4e7907bf18bacb24fe042c41bf6a6ff0ad8a3f4f",
+    "bytes": 11176,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/gsap-performance/SKILL.md",
+    "sha256": "54b2dac4a7a30ae5e4b28ef3628c1527e21bb6a7989f7105e724e84e4a9a1c09",
+    "bytes": 4825,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/gsap-plugins/SKILL.md",
+    "sha256": "98f140d207b4ca10abfb238eed39e89c6d291b10a40c29b6cd8111b83752bb9d",
+    "bytes": 22613,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/gsap-react/SKILL.md",
+    "sha256": "4d9cafa021a09466b6fbfa7b9d61a30d4da2267aa9e2486f8728bf11c147c2d8",
+    "bytes": 7270,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/gsap-scrolltrigger/SKILL.md",
+    "sha256": "89ccdf9c9414301e85047e85ae4621739f621f34ddcfac9accc1c15525cc47b9",
+    "bytes": 19364,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/gsap-timeline/SKILL.md",
+    "sha256": "b4c63bb730245041de817eae1e1fe8bdd39c6708fe563c679485b894aa84b91a",
+    "bytes": 5078,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/gsap-utils/SKILL.md",
+    "sha256": "0a55da1c658b632652d149558663b409d1cc430338e653df566219de8e474a06",
+    "bytes": 12969,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/hand-drawn-diagrams/SKILL.md",
+    "sha256": "f58e159e36b1d047a94c4b870624b70bbd9480ab0e049711b7738f27fef21159",
+    "bytes": 1390,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/hatch-pet/SKILL.md",
+    "sha256": "a64bc8085f1e0c56c0cef2c9d39b30776458d00470bfc668cdf391fd45a12d0d",
+    "bytes": 24208,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/html-ppt-retro-quarterly-review/SKILL.md",
+    "sha256": "74f6cdb7d3383f5b5f4f9b68cbfee8c5de40ede0566adc5a1f7e924d72de4fcd",
+    "bytes": 2346,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/huashu-art-motion/SKILL.md",
+    "sha256": "ec885dbb21d2c1ad8216cc60c118a7793cc8502bc5c8b3be033158937e137b8c",
+    "bytes": 5711,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/image-enhancer/SKILL.md",
+    "sha256": "38b5637ce960143fa9fcc57e18476911d56ba6e35bdf8731eca2eb1c79e183f9",
+    "bytes": 1370,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/image-to-code-skill/SKILL.md",
+    "sha256": "6467ae074994c03acb805f651adc06c052fc0f699a7b5190319ef7117d216e8c",
+    "bytes": 38267,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/imagegen/SKILL.md",
+    "sha256": "c11bdb66ffc1243d240b523f003c8f62670bd4844abff8239a4d46dfdee25b5f",
+    "bytes": 1245,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/imagegen-frontend-mobile/SKILL.md",
+    "sha256": "56f330a54507695464cb176653b1d2c4b8cef71a34cd9c5ccb4687398bbc08c5",
+    "bytes": 42354,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/imagegen-frontend-web/SKILL.md",
+    "sha256": "d648186c8f0885643bd46ad57ca69a34f38688de9a495a1097efc5a576a165d3",
+    "bytes": 38445,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/imagen/SKILL.md",
+    "sha256": "e6cf45511e21e75594e5f7adad9375ea0686adc0d7e63cefe6a56b91fa314653",
+    "bytes": 1158,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/impeccable-design-polish/SKILL.md",
+    "sha256": "65cceb3e7a936af097a2ee10cf50c526a38c7c07ed47675651ff1e3da2943cf9",
+    "bytes": 3010,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/library-curator/SKILL.md",
+    "sha256": "2d698d9f73370e19e3856acfbfb00b39641fab78c5ae19c8cce268761e0052f8",
+    "bytes": 2370,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/login-flow/SKILL.md",
+    "sha256": "db06718346bd93f9fee613b1ebc168bfa4239f898dc5d40b0f7b11d78fb3b364",
+    "bytes": 1431,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/marketing-psychology/SKILL.md",
+    "sha256": "9f9a2c9b538e75e399d5626495d55f869f6494f511bb1db5548758c389603bcf",
+    "bytes": 1309,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/minimalist-skill/SKILL.md",
+    "sha256": "cbc54179b83fb14bcb32d2a22136859502c3f39ffd3721a34e940267df131759",
+    "bytes": 8572,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/minimax-docx/SKILL.md",
+    "sha256": "03b7615eb2a63c5d9759e8370c9d43e956dfab8d2dd3d4ff5b587971a62ac477",
+    "bytes": 1250,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/minimax-pdf/SKILL.md",
+    "sha256": "7ffdc5c1c7979f3964c1bdf3b3779d7d7f7e40b4f52a63d99ddea35dc0af02a4",
+    "bytes": 1226,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/mockup-device-3d/SKILL.md",
+    "sha256": "cdcf138adc35606466b0346f491ebedbc82e51f5ca0370c8d2dc5f2a50c8fc0f",
+    "bytes": 4532,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/motion-design/SKILL.md",
+    "sha256": "304fb0a35dc87eefeba65f725131fd7ee4934aa7ecc9a119128bf5fef1981d87",
+    "bytes": 23905,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/motion-lab/SKILL.md",
+    "sha256": "399b03aac07529feecb49088b2771dc4d0f063813014c501b94ef391be082715",
+    "bytes": 4129,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/nanobanana-ppt/SKILL.md",
+    "sha256": "18bc74fed23d1fea27d8afe547b854df970d1153aed54a341dc37b8f8bb8adf5",
+    "bytes": 1279,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/od-next-media-inputs/SKILL.md",
+    "sha256": "039b3e58701b8da7dd7445731f5f8a1addcf52837bea1bcb419d0551484d9fee",
+    "bytes": 6865,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/oil-motion/SKILL.md",
+    "sha256": "8414379a3029971ea1e7ec7e303eb697703dce0a9a3707fea4e4def1f1525e9f",
+    "bytes": 12650,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/output-skill/SKILL.md",
+    "sha256": "56dd1872538f37de81d99e38916e40dea102e4ac251584c718f67377644c9cf9",
+    "bytes": 3195,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/paywall-upgrade-cro/SKILL.md",
+    "sha256": "ffe62e8db78ebf652cc05b461e7e6419382db36859da2313c105f2d46f117c3e",
+    "bytes": 1282,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/pdf/SKILL.md",
+    "sha256": "17a8a3bee577156b32a5719b4d04ac001a5b58c58710733bddfa8c472f95088e",
+    "bytes": 1242,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/pixelbin-media/SKILL.md",
+    "sha256": "a65ff737cb17376c8f80692d459367d0e8b707e4152956afe4cb1812223ad830",
+    "bytes": 1204,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/plan-design-review/SKILL.md",
+    "sha256": "4fc5c8a348963b13899e4bd7582ba311c0e5dd86e02b76f506c6080d129d59fd",
+    "bytes": 1297,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/platform-design/SKILL.md",
+    "sha256": "82ddd53a6853b0686287f88fc67594fa573f2d1cf69a52c203c31b581e181df2",
+    "bytes": 1325,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/poster-hero/SKILL.md",
+    "sha256": "2c0182a00b8b68989f982ffa93db3fa04804c14cbf2f2d9339157752d172be8d",
+    "bytes": 2055,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/ppt-keynote/SKILL.md",
+    "sha256": "9e9c26d3f0b4637573620a752fc8c249f033be57b1d0c112473c23d7d942c9ad",
+    "bytes": 2272,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/pptx/SKILL.md",
+    "sha256": "9c3d59d4f6a66832d3d2ad56bbe142639c1bd71ec671a4481f1b716fd3220e93",
+    "bytes": 1264,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/pptx-generator/SKILL.md",
+    "sha256": "5aef964e2c097c1af3c2bd6197bb8f311d2fbdfe559bd91cfa4029d2522d6bda",
+    "bytes": 1159,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/pptx-html-fidelity-audit/SKILL.md",
+    "sha256": "a8e58320a477e4e7d71d30411ccae8c60936ca9863989586efba231927a76684",
+    "bytes": 14423,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/pr-feedback-quality-gate/SKILL.md",
+    "sha256": "8ef108a4d63a14219fc9e68a94c47536dd60fa3ac341ed3227f6bd82123c0a17",
+    "bytes": 2339,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/redesign-skill/SKILL.md",
+    "sha256": "d17df7d84efb6567709cbc3c55697692195f84319e625d9421ea98664f6bf46c",
+    "bytes": 15855,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/reference-design-contract/SKILL.md",
+    "sha256": "5088ab62997ab894249c18827618a466273cc5c2c751d0ce9ce4b6d08311f52e",
+    "bytes": 5496,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/release-notes-one-pager/SKILL.md",
+    "sha256": "e25f5969fe9d5ee705b3282275fb50c1c0dd71295e85ce02f360fb4bafd1e55b",
+    "bytes": 3857,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/remotion/SKILL.md",
+    "sha256": "9721e254da5338ada8400e00341f7a8ba52126d3395e08e76f6bb529d250e8ca",
+    "bytes": 1247,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/replicate/SKILL.md",
+    "sha256": "cc4fefd048e4a3ca4396942f49c36b8cd2429bb59863334ea0deb8f3fd79132c",
+    "bytes": 1220,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/research-decision-room/SKILL.md",
+    "sha256": "2627452edf9db1657e8f01b359896af1c6b990d554b1a346b34ef053ae976dba",
+    "bytes": 6477,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/resume-modern/SKILL.md",
+    "sha256": "45e0a22800ed7b20c77e8a36aaa598dbe2fb9c0633666df3723604323855d673",
+    "bytes": 2166,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/review-animations/SKILL.md",
+    "sha256": "96874126738f3324cd6f9cc335ca4748f8e0e39f1b847acf450447644819a824",
+    "bytes": 8952,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/screenshot/SKILL.md",
+    "sha256": "f1b9b6f05dc03b3c84e8e1ca3ec6683cb62907c3f273e2f00d94df3eb91a271f",
+    "bytes": 1204,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/screenshots-marketing/SKILL.md",
+    "sha256": "50ec6addc98ccf17a80b420c4cd0ffd134899faf533e0fbce966c617ab107a4d",
+    "bytes": 1244,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/shadcn-ui/SKILL.md",
+    "sha256": "3cce7c439d908796072fa9c669772c4aebb8158dd2d8cf7717dea3648e1bc965",
+    "bytes": 1203,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/shader-dev/SKILL.md",
+    "sha256": "791ee5d49cedfd062aa39f4f6491867933a0934463992cc97666da66cb17e8e2",
+    "bytes": 1241,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/slack-gif-creator/SKILL.md",
+    "sha256": "f3b1a61f7863768729525566103582a050f2bd034c1aba8b60e1120a7063765d",
+    "bytes": 1304,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/slides/SKILL.md",
+    "sha256": "cbd815baab874f5bf1625333bf4cdba0d3d61d29e2993708602a0e1a6137a564",
+    "bytes": 1192,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/social-reddit-card/SKILL.md",
+    "sha256": "e108e87472340eea5820843e078e671a9057582c72962f2e0425f6771267327d",
+    "bytes": 3614,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/social-spotify-card/SKILL.md",
+    "sha256": "3719052a49c7efe2e566678c1ee227cb66be0736ea8c606858dadaf64f2d4e0e",
+    "bytes": 3917,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/social-x-post-card/SKILL.md",
+    "sha256": "d4f64217fba475045f64c8a0f728960c567c927d6d6bd8d7251061c4f988445d",
+    "bytes": 3754,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/soft-skill/SKILL.md",
+    "sha256": "589bf8cbc534ffad2f38ab68829bbe7a0fd4c9f69ea1733b8db82085346db0d9",
+    "bytes": 11253,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/sora/SKILL.md",
+    "sha256": "0e0cf85842aba4f72de279cd0ee6a5b3d80e63b2ec7b3c95cf5c52c5fc7f6634",
+    "bytes": 1200,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/speech/SKILL.md",
+    "sha256": "c16c8c6e839650298fd498383274aaa05f3faf966356c112a62b4078d4cc155d",
+    "bytes": 1204,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/stitch-loop/SKILL.md",
+    "sha256": "140b02b30231484e5d9dbb36e0d4dc4cb624701d68d6fd58004dcd44b9b22814",
+    "bytes": 1236,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/stitch-skill/SKILL.md",
+    "sha256": "751a9fb2a7f611f45417618a3bacfbad33ca714a65809d30a2fdcdf083cea189",
+    "bytes": 12670,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/swiftui-design/SKILL.md",
+    "sha256": "5c57bc4aba2996a1e782013ae4be5f981f945a51852c38edc5e2a0d10559efe7",
+    "bytes": 1362,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/swiss-creative-mode-template/SKILL.md",
+    "sha256": "124c90aaf5d917b0d1b5cdd6551af6a93f5f44880fb32471a161f3cd5e65cfcd",
+    "bytes": 2401,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/swiss-user-research-video-template/SKILL.md",
+    "sha256": "e88b2cb849fd4f542e1906d1cbe65d4bda07494b9e11ef6aa9acdba10ead0d0c",
+    "bytes": 2797,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/taste-skill/SKILL.md",
+    "sha256": "0beb5259f12af9a7428f980b7f269e834952576ef2bd033c7de514e8fd715cdb",
+    "bytes": 89148,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/taste-skill-v1/SKILL.md",
+    "sha256": "7fa2d98277e5964bacf641ba77602752deb8df0872bed8896bc26e95acbe5eb4",
+    "bytes": 22034,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/theme-factory/SKILL.md",
+    "sha256": "8abad63d9de407d8bc035a698081a7be4f66715a04636f49e8d6e0ca8725333d",
+    "bytes": 1356,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/threejs/SKILL.md",
+    "sha256": "87eac862600e5a3eae58a6ca07b13b2068f3f46ffdbee53bfc5bdc6dbdcf774d",
+    "bytes": 1212,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/ui-animation/SKILL.md",
+    "sha256": "dbd36af5b0aa043709955b5b9d40359138b5559543e5ca26055c6a9292285618",
+    "bytes": 24780,
+    "read_status": "full-semantic-read",
+    "reader": "/root/components_team/mui",
+    "evidence": "open-design-extra-reader-mui/functional24-read-evidence.json"
+  },
+  {
+    "path": "skills/ui-skills/SKILL.md",
+    "sha256": "04e524d48f0bbb309255d4757de7b2465736cbac573c633f7ff1a5da0dcddda1",
+    "bytes": 1202,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/ui-ux-pro-max/SKILL.md",
+    "sha256": "700d90baf71b2492365a376c04c19f5bb55d725f3377974edd0630bcbe2455bb",
+    "bytes": 1990,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/venice-audio-music/SKILL.md",
+    "sha256": "423302cca0ed509b04a535dd28f8f5990e75bc3b0738cec97a437f2c77fad0df",
+    "bytes": 1228,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/venice-audio-speech/SKILL.md",
+    "sha256": "603d53af794a348ad083d338cd7beee70c07c7424c5e55fb7cd6c67040e862ae",
+    "bytes": 1224,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/venice-image-edit/SKILL.md",
+    "sha256": "7364b7a1e0a78320d35dc4798a787b1ee6ec875ac98d51af99eee0e8f45a0d28",
+    "bytes": 1090,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/venice-image-generate/SKILL.md",
+    "sha256": "b5586e15d1e99a0f66cc1f8556830e8a0436cc7b7125d21d3944d64ac3108460",
+    "bytes": 1090,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/venice-video/SKILL.md",
+    "sha256": "4655851a50124584387af111d351a73aa69f6d75678d7abda92b9038ac43515a",
+    "bytes": 1060,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/vfx-text-cursor/SKILL.md",
+    "sha256": "26c6f8f2abdb408bb84b03c870b723c8472e5a46b1c03b1b9cf67934393e109b",
+    "bytes": 3760,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/video-downloader/SKILL.md",
+    "sha256": "085ab999a474308d8f5a6e19534aea6279187c087af7d103543ea98cb9570538",
+    "bytes": 1397,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/video-hyperframes/SKILL.md",
+    "sha256": "b24173eb7a418de74d00b6df7ffc9d63d8d5ad6ffbf9024ba2b9e4caef8b5cf0",
+    "bytes": 2753,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/web-artifacts-builder/SKILL.md",
+    "sha256": "4eb6c0db5124ee46b69e8e457742d6dbb5543f7c1c21291ba1d0a903d59ececc",
+    "bytes": 1389,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/web-clone/SKILL.md",
+    "sha256": "68c4a542b5df486f1a7c28da327f85c5c23824ed15fca014b98a7f7c4a4c94a3",
+    "bytes": 21564,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/web-design-guidelines/SKILL.md",
+    "sha256": "d7ea80dd098c69e82eac141ca5f58a6ae5aad08283793714855c294c416d970a",
+    "bytes": 2483,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/weread-year-in-review-video-template/SKILL.md",
+    "sha256": "61a8c03e9ca7db51acfd523aafc70d84a7a2217d3d44c53bddd2d3f926f82748",
+    "bytes": 3307,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/wpds/SKILL.md",
+    "sha256": "ea2004baa51c86d6d1758a10088fb483d3eaf5da6d009a296eb16efd5f6755f5",
+    "bytes": 1173,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "skills/writing-guidelines/SKILL.md",
+    "sha256": "5830357bf7b377c4f2a619db0e1ed7f9b4887c6212620be3e46357d980f4dca8",
+    "bytes": 2429,
+    "read_status": "full-body-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-functional-read-log.json"
+  },
+  {
+    "path": "skills/youtube-clipper/SKILL.md",
+    "sha256": "91856bd306cf46d22e21bb3f98de43ff512913d4ba5d32012b3357f7fc26c2df",
+    "bytes": 1233,
+    "read_status": "complete-normalized-template-and-variable-fields-read",
+    "reader": "/root/skills_team/open_design",
+    "evidence": "open-design-stub-read-evidence.json"
+  },
+  {
+    "path": "tools/release/tests/fixtures/catalog/design-templates/deck-one/SKILL.md",
+    "sha256": "08f702cf483489f16d93d27bbd9ef9ab7d8098b8f5ab84bd1b1a6d3d894c9a75",
+    "bytes": 156,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "tools/release/tests/fixtures/catalog/skills/alpha/SKILL.md",
+    "sha256": "cf5502b14d02d64a6ec8fe4931cb74ac35fe494e75d934f2a0f4053307584e69",
+    "bytes": 384,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  },
+  {
+    "path": "tools/release/tests/fixtures/catalog/skills/beta/SKILL.md",
+    "sha256": "b7466785a0a041fe9efbbf1cf80921170e2397ff0216d31006834123d76e8ec7",
+    "bytes": 165,
+    "read_status": "read-full",
+    "reader": "skills-team-lead",
+    "evidence": "open-design-b-inventory.csv;open-design-b-review.md"
+  }
+]

@@ -1,0 +1,594 @@
+[
+  {
+    "from": "skills/animate/SKILL.md",
+    "reference": "references/RECIPES.md",
+    "target": "skills/animate/references/RECIPES.md",
+    "status": "local-file-present",
+    "sha256": "7b835d46748f13e05048ef1a7f3b49587a1b7fee4a72854c788992e184af9cf5",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/huashu-art-motion/SKILL.md",
+    "reference": "references/index.md",
+    "target": "skills/huashu-art-motion/references/index.md",
+    "status": "local-file-present",
+    "sha256": "c1ea87a0c08cfa00ecab92b2a6269ba1b3b1cde4a0c69eb4a744325c8d8fb64f",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/huashu-art-motion/SKILL.md",
+    "reference": "references/craft-workflow.md",
+    "target": "skills/huashu-art-motion/references/craft-workflow.md",
+    "status": "local-file-present",
+    "sha256": "2e739633878a6396c717be4f214acceacd493edecf157f5eea8ba1bf952ab761",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/huashu-art-motion/SKILL.md",
+    "reference": "references/canvas-helpers.md",
+    "target": "skills/huashu-art-motion/references/canvas-helpers.md",
+    "status": "local-file-present",
+    "sha256": "d2c7445508cba23abb65f0bcec761306e7e2c3635fd1851928103382c6932fca",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/huashu-art-motion/SKILL.md",
+    "reference": "references/art-styles-1.md",
+    "target": "skills/huashu-art-motion/references/art-styles-1.md",
+    "status": "local-file-present",
+    "sha256": "4656d43c3765ddb8da69fe79cc8484c19e2637b195fb0f7a89dfecae66ebe85f",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/huashu-art-motion/SKILL.md",
+    "reference": "references/art-styles-2.md",
+    "target": "skills/huashu-art-motion/references/art-styles-2.md",
+    "status": "local-file-present",
+    "sha256": "dc6dee5b9304eef29e8993fa55abf50902d8b757cdfa60b9c1d56ffd462d4d47",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/huashu-art-motion/SKILL.md",
+    "reference": "references/explainer-grammars.md",
+    "target": "skills/huashu-art-motion/references/explainer-grammars.md",
+    "status": "local-file-present",
+    "sha256": "303f03df4c8c51c2e6dde1a2ab420ce2d44fd952ccb451275e3ebf70cedce4e3",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/huashu-art-motion/SKILL.md",
+    "reference": "references/license.md",
+    "target": "skills/huashu-art-motion/references/license.md",
+    "status": "local-file-present",
+    "sha256": "fd164d60e753fd14343e54d03b0c104a292546761bc5866e371de4a02035659c",
+    "read_status": "full-semantic-read"
+  },
+  {
+    "from": "skills/motion-lab/SKILL.md",
+    "reference": "references/index.md",
+    "target": "skills/motion-lab/references/index.md",
+    "status": "local-file-present",
+    "sha256": "90cd0002adab7b88a69d7f002248f6c202607323ad7bd1fc3e8137c444263ebd",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/motion-lab/SKILL.md",
+    "reference": "references/basic.md",
+    "target": "skills/motion-lab/references/basic.md",
+    "status": "local-file-present",
+    "sha256": "3c28ae14f9427e27bd40f4840cc641c91fa848ebede86430b49b0288bcdf44f9",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/motion-lab/SKILL.md",
+    "reference": "references/text.md",
+    "target": "skills/motion-lab/references/text.md",
+    "status": "local-file-present",
+    "sha256": "74e4a84e9558870b7dddacda95dfbb21a77e6bb558221bdd76b4193797411cac",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/motion-lab/SKILL.md",
+    "reference": "references/interaction.md",
+    "target": "skills/motion-lab/references/interaction.md",
+    "status": "local-file-present",
+    "sha256": "4d6e6db46e877050a6d6fa8275c707b06def885803dec24b34f74ee1c90440e5",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/motion-lab/SKILL.md",
+    "reference": "references/advanced.md",
+    "target": "skills/motion-lab/references/advanced.md",
+    "status": "local-file-present",
+    "sha256": "bf416eab72205453126b4dbd11cfd07864282cb2c077a5222212cc653e25f42e",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/motion-lab/SKILL.md",
+    "reference": "references/license.md",
+    "target": "skills/motion-lab/references/license.md",
+    "status": "local-file-present",
+    "sha256": "33e8474077d204adc4242860ac72cd727799523aa099bd75cfddac40b010672e",
+    "read_status": "full-semantic-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/concepts.md",
+    "target": "skills/oil-motion/references/concepts.md",
+    "status": "local-file-present",
+    "sha256": "87d7fb443c7414fe55015c2cfc5a8fb2c41e4a5db2b1a17d8194c24e2c7d4fc7",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/motion-patterns.md",
+    "target": "skills/oil-motion/references/motion-patterns.md",
+    "status": "local-file-present",
+    "sha256": "b8b008e2f855979d15868433fd8904be21c86455c5780c28842f56d2bc0e2e3a",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/prompting.md",
+    "target": "skills/oil-motion/references/prompting.md",
+    "status": "local-file-present",
+    "sha256": "a9c16437cadd819727d18165923be2b00f8a65cec03a8c4e97704e676ef05c7e",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/optimization.md",
+    "target": "skills/oil-motion/references/optimization.md",
+    "status": "local-file-present",
+    "sha256": "14f6a2fe19ae44b6e8df148b4fc5b527c41144d51fc62b7b213a9e2b658bb4c3",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/delivery-selection.md",
+    "target": "skills/oil-motion/references/delivery-selection.md",
+    "status": "local-file-present",
+    "sha256": "a6a0e2d5ddf45b8db6af2ed694e2e0d5eb93e50950a6bd2c60ec9dc4ab6750c5",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/alpha-atlas.md",
+    "target": "skills/oil-motion/references/alpha-atlas.md",
+    "status": "local-file-present",
+    "sha256": "936c567f55289df1be70f208c8b97b6ff6fe8890e181782a6ebaa8a375fc090e",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/chroma-video.md",
+    "target": "skills/oil-motion/references/chroma-video.md",
+    "status": "local-file-present",
+    "sha256": "86e9c8f2ad47b10b6c288af9c0f78eb0bc2f4b75898959601742e20afaa612f8",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/baked-video.md",
+    "target": "skills/oil-motion/references/baked-video.md",
+    "status": "local-file-present",
+    "sha256": "e3129ce6e05d7babf4680bcc08296193dbd3549a551bcc383c49b61ae091733a",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/qa.md",
+    "target": "skills/oil-motion/references/qa.md",
+    "status": "local-file-present",
+    "sha256": "06f28e0c151efc82ebc54c4aa5c7e0a9dfdb023060f6a1e7fe067a06191632e0",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/runtime.md",
+    "target": "skills/oil-motion/references/runtime.md",
+    "status": "local-file-present",
+    "sha256": "d4ba431f5d0a8252fadf87a12f82b7c86afcceb99c1569f23aa96dc960ea9624",
+    "read_status": "full-semantic-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "assets/interactive-motion.ts",
+    "target": "skills/oil-motion/assets/interactive-motion.ts",
+    "status": "local-file-present",
+    "sha256": "9d709f330c12d8bfdd1b9aff638fa0b8f25665cfcf7cba90bdf3454315c7c735",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "assets/step-gesture.ts",
+    "target": "skills/oil-motion/assets/step-gesture.ts",
+    "status": "local-file-present",
+    "sha256": "2fc0286a6ca3765aff3e346210b3be310a5b2975297a08913caab0056d43c90a",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/explainer.md",
+    "target": "skills/oil-motion/references/explainer.md",
+    "status": "local-file-present",
+    "sha256": "fad182c6269522e59aaa28585b4a0d7498ce719b0fc0935376cacc2c69080448",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/requirements.txt",
+    "target": "skills/oil-motion/scripts/requirements.txt",
+    "status": "local-file-present",
+    "sha256": "ed8901ba0dbbf44e89f833e8ad1e0ca9dc032b4d150788e162af655b1d51388e",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "assets/chroma-video-renderer.ts",
+    "target": "skills/oil-motion/assets/chroma-video-renderer.ts",
+    "status": "local-file-present",
+    "sha256": "cbc0b6fbfd139acc952b0e054e61bd300ecc43809e7e8eeb77160a1d28477df3",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "assets/motion-explainer-template.html",
+    "target": "skills/oil-motion/assets/motion-explainer-template.html",
+    "status": "local-file-present",
+    "sha256": "ebce6eeb5bfffbb49aa96b99277d3d10c8b8c1136442289c38d827ea3a837be1",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "assets/motion-manifest.example.json",
+    "target": "skills/oil-motion/assets/motion-manifest.example.json",
+    "status": "local-file-present",
+    "sha256": "8bd134936c5e55f815acafe4065eafa6e517ab956dc08c7bfd09579e17c2a001",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/chroma_key.py",
+    "target": "skills/oil-motion/scripts/chroma_key.py",
+    "status": "local-file-present",
+    "sha256": "9c2ec5505be9dfbdb0555ae4e9e1d14761a08fc5493399cc3103482561e9eb9f",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/compile_scroll_video.py",
+    "target": "skills/oil-motion/scripts/compile_scroll_video.py",
+    "status": "local-file-present",
+    "sha256": "6b4c2ad0c8701b0dcdb808bff6320e7c65beca0427e6d4d555825c525c8d9cb1",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/compose_travel_frames.py",
+    "target": "skills/oil-motion/scripts/compose_travel_frames.py",
+    "status": "local-file-present",
+    "sha256": "80dfa4012214980833126c07c50748e8c59566b33b576dc5c09db6941bd489c5",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/composite_alpha_keyframe.py",
+    "target": "skills/oil-motion/scripts/composite_alpha_keyframe.py",
+    "status": "local-file-present",
+    "sha256": "5adb625eecae16ae88670ad9921cc5dfa80c4030efe52c43f562eae485c137c6",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/create_explainer.py",
+    "target": "skills/oil-motion/scripts/create_explainer.py",
+    "status": "local-file-present",
+    "sha256": "976348620ba0b47160b10ffeb01a313570422750bf63313856c7567ae5675213",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/loop_cleanup.py",
+    "target": "skills/oil-motion/scripts/loop_cleanup.py",
+    "status": "local-file-present",
+    "sha256": "80be65d63061a5b20a984c8c131fb2d44689faf8e2b8bc526dbe00e74a6cddb3",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/media_edges.py",
+    "target": "skills/oil-motion/scripts/media_edges.py",
+    "status": "local-file-present",
+    "sha256": "fba26131bca21e5d5403608f295a912d38ee9428d3b327f37277b21115699dc8",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/motion_budget.py",
+    "target": "skills/oil-motion/scripts/motion_budget.py",
+    "status": "local-file-present",
+    "sha256": "8e1b48cde1f74cef86790e66b4fb80be98c32494cd1e04c99d515de988be6d8b",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/motion_pipeline.py",
+    "target": "skills/oil-motion/scripts/motion_pipeline.py",
+    "status": "local-file-present",
+    "sha256": "7f049061c8535e0b4237c08f7416840914a546df95b70a25836872cfb5902a5e",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/optimize_motion.py",
+    "target": "skills/oil-motion/scripts/optimize_motion.py",
+    "status": "local-file-present",
+    "sha256": "8de451818391b56f22684ef8096dff3f881571d6a56c3df16c843d5aecdb8ce6",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "scripts/production_gate.py",
+    "target": "skills/oil-motion/scripts/production_gate.py",
+    "status": "local-file-present",
+    "sha256": "1c5a0f3fc93b4b2084ec5ac53ddb9307bde7cec3c44794a18dc4de50d8eb7777",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/oil-motion/SKILL.md",
+    "reference": "references/license.md",
+    "target": "skills/oil-motion/references/license.md",
+    "status": "local-file-present",
+    "sha256": "b5007252b4eb5bd50c077ba3f09c7749854a1628e0c8cccfd0f4360bb2587641",
+    "read_status": "full-semantic-read"
+  },
+  {
+    "from": "skills/review-animations/SKILL.md",
+    "reference": "STANDARDS.md",
+    "target": "skills/review-animations/STANDARDS.md",
+    "status": "local-file-present",
+    "sha256": "3f8aa0cf64bc475ee1b64284646a659b5d67a087381d9bda44fa81748873db99",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/decision-framework.md",
+    "target": "skills/ui-animation/references/decision-framework.md",
+    "status": "local-file-present",
+    "sha256": "5df1b7686c2ea574783e50afa77b6362c38936f4bc49d6f9b2d3784f9010ffdc",
+    "read_status": "full-semantic-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/spring-animations.md",
+    "target": "skills/ui-animation/references/spring-animations.md",
+    "status": "local-file-present",
+    "sha256": "596887fed341bd4b9645665fd5d62f4a19f959f3b25e1ffa75b9990e09cb0a37",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/component-patterns.md",
+    "target": "skills/ui-animation/references/component-patterns.md",
+    "status": "local-file-present",
+    "sha256": "a1aeacc936942a38d896f81c56e6129996d75f39556accc0db9c3907b58d3ee6",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/clip-path-techniques.md",
+    "target": "skills/ui-animation/references/clip-path-techniques.md",
+    "status": "local-file-present",
+    "sha256": "0ad8f92fe35d57f2e3dcdc26fbc9eeeed238e7776ca9b7df3b006684548c27e5",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/gesture-drag.md",
+    "target": "skills/ui-animation/references/gesture-drag.md",
+    "status": "local-file-present",
+    "sha256": "b8e11ea916446d7d2401dd1c6071fe2f974c332c23c6676f541683f25e3eb519",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/scroll-animations.md",
+    "target": "skills/ui-animation/references/scroll-animations.md",
+    "status": "local-file-present",
+    "sha256": "5ea17e8a539829ddcc74486450b15b8e715e22664e6bcab0a5499fad99d9c1b8",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/performance-deep-dive.md",
+    "target": "skills/ui-animation/references/performance-deep-dive.md",
+    "status": "local-file-present",
+    "sha256": "3336268628fb1d18d8de435f2c57c11f396ee5dcad6dc149306a37210b48c237",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/debugging-symptoms.md",
+    "target": "skills/ui-animation/references/debugging-symptoms.md",
+    "status": "local-file-present",
+    "sha256": "748859ea1d2259598b6838d502feb87c7c68705c39880425d0e48df361241ee4",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/svg-animation.md",
+    "target": "skills/ui-animation/references/svg-animation.md",
+    "status": "local-file-present",
+    "sha256": "d74dd4a9d4164ad601c160a392b2291f74fa07ef74c552b951ae171756014b2b",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/review-format.md",
+    "target": "skills/ui-animation/references/review-format.md",
+    "status": "local-file-present",
+    "sha256": "cde558ea7b8eb8c973049728ae40ab6290085c7927f52212237c739e5f33f40c",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/contextual-animations.md",
+    "target": "skills/ui-animation/references/contextual-animations.md",
+    "status": "local-file-present",
+    "sha256": "50907ca6ec94780284fc711ee9470cadc587a6631001bd10abe5af6e9f59752f",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/transition-recipes.md",
+    "target": "skills/ui-animation/references/transition-recipes.md",
+    "status": "local-file-present",
+    "sha256": "5e7960a5ed583e5a7bc39c93aa48985611bf9ae83d5449c6a8b21b2e65fabb81",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/measurement-guide.md",
+    "target": "skills/ui-animation/references/measurement-guide.md",
+    "status": "local-file-present",
+    "sha256": "37c2e77743992950d6981716362c6f5ad9fcfd7cec2e9f78ed4e0424907058d2",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/curve-fitting.md",
+    "target": "skills/ui-animation/references/curve-fitting.md",
+    "status": "local-file-present",
+    "sha256": "ea6e7d5d24bcf5008d557797683924621a989fc54684393575d11b99bc0ef1b7",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/code-output.md",
+    "target": "skills/ui-animation/references/code-output.md",
+    "status": "local-file-present",
+    "sha256": "f87aba34b8fee93d91977d29d963e225305611eb3a5940ecf4ad4da9d240b5d9",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/choreography.md",
+    "target": "skills/ui-animation/references/choreography.md",
+    "status": "local-file-present",
+    "sha256": "bb6695457c6977ce847f39eca66d32367ce21605ae6d49b6af63f60f31bac9b1",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/vocabulary.md",
+    "target": "skills/ui-animation/references/vocabulary.md",
+    "status": "local-file-present",
+    "sha256": "f4d48ca20b7611d7ae779db56d16f83fb2b8d833bc290690423c0547e95dee09",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "references/interface-sfx.md",
+    "target": "skills/ui-animation/references/interface-sfx.md",
+    "status": "local-file-present",
+    "sha256": "0fc631ff3bf20dda07d113e64a50ec0fe04dc4b831b6951a27346a05d88048bb",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "scripts/extract_frames.py",
+    "target": "skills/ui-animation/scripts/extract_frames.py",
+    "status": "local-file-present",
+    "sha256": "6d4b5e9419ed81dca102d09ff61013b1a62a7fbca44cd72b8304fad5318f45d6",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "scripts/track_motion.py",
+    "target": "skills/ui-animation/scripts/track_motion.py",
+    "status": "local-file-present",
+    "sha256": "be0077070a5637bf2cc6d3257573f3810887e5147cbb09cf9d46d02e20cd854a",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/ui-animation/SKILL.md",
+    "reference": "scripts/fit_curves.py",
+    "target": "skills/ui-animation/scripts/fit_curves.py",
+    "status": "local-file-present",
+    "sha256": "d53e06d275445c4c87c6fa6c9ae6d5f36f5040e0ad995fb5160c030e14591af3",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/hatch-pet/SKILL.md",
+    "reference": "scripts/prepare_pet_run.py",
+    "target": "skills/hatch-pet/scripts/prepare_pet_run.py",
+    "status": "local-file-present",
+    "sha256": "713c5507002f665bef4a90451e4c0996bbe276caf95b1a4eed1ae5ca345e9e25",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/hatch-pet/SKILL.md",
+    "reference": "scripts/pet_job_status.py",
+    "target": "skills/hatch-pet/scripts/pet_job_status.py",
+    "status": "local-file-present",
+    "sha256": "f52765edd0b8c657a1e0b61946ae846a6d5ee548f950dde03f2e7cb17507ec47",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/hatch-pet/SKILL.md",
+    "reference": "references/canonical-base.png",
+    "target": "skills/hatch-pet/references/canonical-base.png",
+    "status": "not-present-may-be-output-example-or-unresolved",
+    "sha256": null,
+    "read_status": "not-read"
+  },
+  {
+    "from": "skills/hatch-pet/SKILL.md",
+    "reference": "scripts/derive_running_left_from_running_right.py",
+    "target": "skills/hatch-pet/scripts/derive_running_left_from_running_right.py",
+    "status": "local-file-present",
+    "sha256": "4b3f87c7b3855463f19b805963756d6055658ff25ca696a9209a1e76f114a462",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/hatch-pet/SKILL.md",
+    "reference": "scripts/record_imagegen_result.py",
+    "target": "skills/hatch-pet/scripts/record_imagegen_result.py",
+    "status": "local-file-present",
+    "sha256": "78eea7827f48d7971d3c78090d35532118e1a66cdb15c95d3929127966210825",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/hatch-pet/SKILL.md",
+    "reference": "scripts/finalize_pet_run.py",
+    "target": "skills/hatch-pet/scripts/finalize_pet_run.py",
+    "status": "local-file-present",
+    "sha256": "01cf7af9b2145edeee9607d3652ed1cdc44c5ab858a409936a20553616505191",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/hatch-pet/SKILL.md",
+    "reference": "scripts/queue_pet_repairs.py",
+    "target": "skills/hatch-pet/scripts/queue_pet_repairs.py",
+    "status": "local-file-present",
+    "sha256": "2cac26655cee8e37889e88548f2e30d8344f382862ebf73a1d5dce06533088f5",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/hatch-pet/SKILL.md",
+    "reference": "scripts/generate_pet_images.py",
+    "target": "skills/hatch-pet/scripts/generate_pet_images.py",
+    "status": "local-file-present",
+    "sha256": "8a1b00f9dc5d429023ed6ca970f754c464a3cc5fa6c809d80085aeea7a095ddf",
+    "read_status": "inventoried-not-read"
+  },
+  {
+    "from": "skills/hatch-pet/SKILL.md",
+    "reference": "references/animation-rows.md",
+    "target": "skills/hatch-pet/references/animation-rows.md",
+    "status": "local-file-present",
+    "sha256": "ef5a859427907b1785281d04efbc715abce9593df4a589a15a953bccd72514b4",
+    "read_status": "inventoried-not-read"
+  }
+]
