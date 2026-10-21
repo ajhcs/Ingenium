@@ -1,4 +1,4 @@
-param([Parameter(Mandatory)][string]$SourceDirectory, [string]$RepositoryDirectory = (Resolve-Path "$PSScriptRoot/../..").Path)
+param([Parameter(Mandatory)][string]$SourceDirectory)
 $ErrorActionPreference = 'Stop'
 $out = $PSScriptRoot
 $configs = @(
@@ -37,12 +37,5 @@ foreach ($config in $configs) {
 }
 $summary | ConvertTo-Json | Set-Content -Encoding utf8 (Join-Path $out 'patterns-diagrams-summary.json')
 $summary | Format-Table
-$localRoot = $RepositoryDirectory
-$localPaths = @('skills/ingenium/SKILL.md','skills/ingenium/references/domains.md','skills/ingenium/references/composition.md','skills/ingenium/references/interaction-sketches.md','skills/ingenium/references/design-methods.md','skills/ingenium/references/svg.md','skills/ingenium/references/checks.md','skills/ingenium/references/resource-libraries.md','skills/ingenium/references/methods/contract.md','skills/ingenium/references/methods/state-sequence.md')
-$localRows = foreach ($path in $localPaths) {
-  $bytes = [System.IO.File]::ReadAllBytes((Join-Path $localRoot $path))
-  $header = [System.Text.Encoding]::UTF8.GetBytes("blob $($bytes.Length)`0")
-  $digest = [System.Convert]::ToHexString([System.Security.Cryptography.SHA1]::HashData([byte[]]($header + $bytes))).ToLowerInvariant()
-  [pscustomobject]@{ repository='Ingenium'; commit='f70db6171196c2c4452bc53eb24e82ba7cad5d9c'; path=$path; workingCopyBlobSHA1=$digest; classification='baseline-comparison-guidance'; readStatus='read-full' }
-}
-$localRows | Export-Csv -NoTypeInformation -Encoding utf8 (Join-Path $out 'patterns-diagrams-ingenium-comparison.csv')
+# The separately retained baseline CSV is an immutable evidence record.
+# The Node helper regenerates baseline Git identity plus working-copy hashes.
