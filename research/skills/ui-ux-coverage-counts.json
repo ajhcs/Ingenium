@@ -1,0 +1,54 @@
+[
+  {
+    "Count": 161,
+    "Name": "data, inventoried-not-read"
+  },
+  {
+    "Count": 54,
+    "Name": "font-binary, inventoried-not-read"
+  },
+  {
+    "Count": 1,
+    "Name": "license, byte-identical-to-read"
+  },
+  {
+    "Count": 28,
+    "Name": "license, inventoried-not-read"
+  },
+  {
+    "Count": 1,
+    "Name": "license, read-excerpt"
+  },
+  {
+    "Count": 2,
+    "Name": "license, read-full"
+  },
+  {
+    "Count": 101,
+    "Name": "operational-source, inventoried-not-read"
+  },
+  {
+    "Count": 14,
+    "Name": "reference, byte-identical-to-read"
+  },
+  {
+    "Count": 75,
+    "Name": "reference, inventoried-not-read"
+  },
+  {
+    "Count": 1,
+    "Name": "reference, read-excerpt"
+  },
+  {
+    "Count": 14,
+    "Name": "reference, read-full"
+  },
+  {
+    "Count": 6,
+    "Name": "skill, byte-identical-to-read"
+  },
+  {
+    "Count": 7,
+    "Name": "skill, read-full"
+  }
+]
