@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en-US" data-appearance="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Record R-1048 · Instrumentation inspector</title>
+  <style>
+    /* Edit these tokens to explore the proposal's appearance. */
+    :root {
+      color-scheme: light;
+      --page: #eaece9; --surface: #f8f9f6; --ink: #1e302b;
+      --muted: #52645d; --line: #cbd2cc; --accent: #235b4a;
+      --control: #fff; --focus: #16705b; --soft: #e3ebe5;
+    }
+    :root[data-appearance="dark"] {
+      color-scheme: dark;
+      --page: #15221e; --surface: #1d2d27; --ink: #edf2e9;
+      --muted: #b1c1b6; --line: #40554a; --accent: #b1d9be;
+      --control: #293c32; --focus: #b5e3cf; --soft: #2b4035;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--page); color: var(--ink); font-family: system-ui, sans-serif; font-size: 16px; line-height: 1.5; }
+    button, select { font: inherit; }
+    button, select { min-height: 44px; border: 1px solid var(--line); border-radius: 5px; background: var(--control); color: var(--ink); padding: 8px 12px; }
+    button { cursor: pointer; font-weight: 600; }
+    button:hover { border-color: var(--accent); }
+    :focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
+    .shell { max-width: 1120px; padding: 48px 40px 32px; margin-inline: auto; }
+    .masthead { display: flex; gap: 28px; align-items: end; justify-content: space-between; margin-block-end: 28px; }
+    .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 8px; color: var(--accent); }
+    h1 { font-size: 28px; line-height: 1.2; letter-spacing: -.025em; margin: 0; font-weight: 650; }
+    .controls { display: flex; gap: 16px; align-items: end; }
+    .control { display: grid; gap: 6px; }
+    .control label { font-size: 12px; font-weight: 650; color: var(--muted); }
+    .control select { min-width: 152px; }
+    .record { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+    .record-head { padding: 26px 32px; border-block-end: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .record-meta { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+    h2 { font-size: 27px; line-height: 1.25; letter-spacing: .015em; margin: 0; }
+    .revision { color: var(--muted); font-size: 14px; }
+    .badge { background: var(--soft); padding: 5px 10px; border-radius: 4px; font-size: 12px; font-weight: 650; white-space: nowrap; }
+    dl { margin: 0; }
+    .readings { display: grid; grid-template-columns: 1.25fr 1fr; }
+    .reading { padding: 32px; }
+    .reading + .reading { border-inline-start: 1px solid var(--line); }
+    dt { color: var(--muted); font-size: 14px; font-weight: 550; }
+    dd { margin: 10px 0 0; }
+    .measurement { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+    .number { font-size: clamp(36px, 4.5vw, 56px); line-height: 1.1; font-weight: 550; letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+    .unit { font-size: 20px; color: var(--muted); }
+    .date { font-size: 22px; font-weight: 550; margin-block-start: 18px; }
+    .secondary { border-block-start: 1px solid var(--line); display: grid; grid-template-columns: 1.25fr 1fr; }
+    .secondary .reading { padding-block: 22px; }
+    .secondary dd { font-size: 22px; font-weight: 550; }
+    /* This region owns its darker appearance, independent of the page choice. */
+    .warning { color-scheme: dark; --ink: #f4ead5; --muted: #decda9; --line: #665b40; --focus: #ffe1a1; background: #28291f; color: var(--ink); padding: 24px 32px; border-block-start: 1px solid var(--line); display: flex; align-items: start; gap: 16px; }
+    :root[data-appearance="dark"] .warning { background: #101710; }
+    .warning-mark { border: 1px solid #b9a77a; color: #ffe1a1; border-radius: 50%; width: 25px; height: 25px; display: grid; place-items: center; flex: 0 0 auto; font-weight: 700; line-height: 1; }
+    .warning h3 { margin: 0 0 4px; font-size: 15px; }
+    .warning p { margin: 0; color: var(--muted); font-size: 14px; max-width: 68ch; }
+    .footer { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-block-start: 20px; }
+    .footer p { margin: 0; color: var(--muted); font-size: 12px; }
+    .footer button { background: transparent; }
+    dialog { color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; width: min(520px, calc(100% - 40px)); padding: 30px; box-shadow: 0 24px 70px #0005; }
+    dialog::backdrop { background: #07130ec2; }
+    dialog h2 { font-size: 24px; letter-spacing: -.02em; }
+    dialog p { color: var(--muted); }
+    dialog ul { padding-inline-start: 22px; }
+    dialog li { margin-block: 10px; }
+    dialog form { margin-block-start: 24px; text-align: end; }
+    @media (max-width: 760px) {
+      .shell { padding: 28px 20px; }
+      .masthead { align-items: start; flex-direction: column; }
+      .controls { flex-wrap: wrap; }
+      .readings, .secondary { grid-template-columns: 1fr; }
+      .reading + .reading { border-inline-start: 0; border-block-start: 1px solid var(--line); }
+      .record-head, .reading, .warning { padding: 22px; }
+      .footer { align-items: start; flex-direction: column; gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div><p class="eyebrow" data-copy="eyebrow">Instrumentation / Record view</p><h1 data-copy="title">Inspection record</h1></div>
+      <div class="controls" aria-label="Presentation settings" id="settings">
+        <div class="control"><label for="locale" data-copy="locale">Presentation</label><select id="locale"><option value="en-US" lang="en-US">English (US)</option><option value="de-DE" lang="de-DE">Deutsch</option><option value="ar-EG" lang="ar-EG">العربية (مصر)</option></select></div>
+        <div class="control"><label for="appearance" data-copy="appearance">Appearance</label><select id="appearance"><option value="light" data-copy="light">Light</option><option value="dark" data-copy="dark">Dark</option></select></div>
+      </div>
+    </header>
+    <article class="record" aria-labelledby="record-id">
+      <header class="record-head">
+        <div class="record-meta"><h2 id="record-id"><bdi dir="ltr">R-1048</bdi></h2><span class="revision"><span data-copy="revision">Revision</span> <span id="revision">7</span></span></div>
+        <span class="badge" data-copy="readonly">Read only</span>
+      </header>
+      <dl class="readings">
+        <div class="reading"><dt data-copy="length">Length</dt><dd class="measurement"><span class="number" id="length">1,234.5</span><span class="unit" data-copy="mm">mm</span></dd></div>
+        <div class="reading"><dt data-copy="inspected">Inspected on</dt><dd class="date"><time id="inspected" datetime="2026-10-21">October 21, 2026</time></dd></div>
+      </dl>
+      <dl class="secondary">
+        <div class="reading"><dt data-copy="temperature">Temperature · °C</dt><dd id="temperature" data-copy="unknown">Unknown</dd></div>
+        <div class="reading"><dt data-copy="count">Count</dt><dd id="count">0</dd></div>
+      </dl>
+      <aside class="warning" aria-labelledby="warning-title">
+        <span class="warning-mark" aria-hidden="true">!</span>
+        <div><h3 id="warning-title" data-copy="warningTitle">Temperature unavailable</h3><p data-copy="warningBody">No temperature value was supplied. Unknown is distinct from zero; no inspection verdict is inferred.</p></div>
+      </aside>
+    </article>
+    <footer class="footer"><p data-copy="sample">Synthetic sample · Subject R-1048 · No saved changes</p><button type="button" id="explain" data-copy="explain">About this record</button></footer>
+  </main>
+  <dialog id="explanation" aria-labelledby="dialog-title" aria-describedby="dialog-intro">
+    <h2 id="dialog-title" data-copy="dialogTitle">Presentation only</h2>
+    <p id="dialog-intro" data-copy="dialogIntro">This read-only proposal displays one fixed synthetic record.</p>
+    <ul><li data-copy="detailLocale">Presentation changes labels, number formatting and reading direction. Units remain millimetres and degrees Celsius.</li><li data-copy="detailDate">October 21, 2026 is a calendar date. Changing presentation does not shift the day.</li><li data-copy="detailMissing">Temperature is unknown. The count is exactly zero.</li><li data-copy="detailLocal">Appearance and presentation apply only to this open page. There is no backend or persistence.</li></ul>
+    <form method="dialog"><button autofocus data-copy="close">Close</button></form>
+  </dialog>
+  <script>
+    // Synthetic source record. Calendar dates stay date-only; unknown stays null.
+    const record = Object.freeze({ subjectId: 'R-1048', revision: 7, lengthMm: 1234.5, inspectedOn: '2026-10-21', temperatureC: null, count: 0 });
+    const copy = {
+      'en-US': { eyebrow:'Instrumentation / Record view', title:'Inspection record', locale:'Presentation', appearance:'Appearance', light:'Light', dark:'Dark', revision:'Revision', readonly:'Read only', length:'Length', mm:'mm', inspected:'Inspected on', temperature:'Temperature · °C', unknown:'Unknown', count:'Count', warningTitle:'Temperature unavailable', warningBody:'No temperature value was supplied. Unknown is distinct from zero; no inspection verdict is inferred.', sample:'Synthetic sample · Subject R-1048 · No saved changes', explain:'About this record', dialogTitle:'Presentation only', dialogIntro:'This read-only proposal displays one fixed synthetic record.', detailLocale:'Presentation changes labels, number formatting and reading direction. Units remain millimetres and degrees Celsius.', detailDate:'October 21, 2026 is a calendar date. Changing presentation does not shift the day.', detailMissing:'Temperature is unknown. The count is exactly zero.', detailLocal:'Appearance and presentation apply only to this open page. There is no backend or persistence.', close:'Close', settings:'Presentation settings' },
+      'de-DE': { eyebrow:'Messtechnik / Datensatzansicht', title:'Prüfdatensatz', locale:'Darstellung', appearance:'Erscheinungsbild', light:'Hell', dark:'Dunkel', revision:'Revision', readonly:'Schreibgeschützt', length:'Länge', mm:'mm', inspected:'Prüfdatum', temperature:'Temperatur · °C', unknown:'Unbekannt', count:'Anzahl', warningTitle:'Temperatur nicht verfügbar', warningBody:'Es wurde kein Temperaturwert angegeben. Unbekannt ist nicht gleich null; daraus wird kein Prüfurteil abgeleitet.', sample:'Synthetisches Beispiel · Subjekt R-1048 · Keine gespeicherten Änderungen', explain:'Über diesen Datensatz', dialogTitle:'Nur die Darstellung', dialogIntro:'Dieser schreibgeschützte Entwurf zeigt einen festen synthetischen Datensatz.', detailLocale:'Die Darstellung ändert Beschriftungen, Zahlenformat und Leserichtung. Einheiten bleiben Millimeter und Grad Celsius.', detailDate:'Der 21. Oktober 2026 ist ein Kalenderdatum. Eine andere Darstellung verschiebt den Tag nicht.', detailMissing:'Die Temperatur ist unbekannt. Die Anzahl ist genau null.', detailLocal:'Erscheinungsbild und Darstellung gelten nur für diese geöffnete Seite. Es gibt kein Backend und keine Speicherung.', close:'Schließen', settings:'Darstellungseinstellungen' },
+      'ar-EG': { eyebrow:'أجهزة القياس / عرض السجل', title:'سجل الفحص', locale:'طريقة العرض', appearance:'المظهر', light:'فاتح', dark:'داكن', revision:'المراجعة', readonly:'للقراءة فقط', length:'الطول', mm:'مم', inspected:'تاريخ الفحص', temperature:'درجة الحرارة · °C', unknown:'غير معروفة', count:'العدد', warningTitle:'درجة الحرارة غير متاحة', warningBody:'لم تُقدَّم قيمة لدرجة الحرارة. القيمة غير المعروفة تختلف عن الصفر؛ ولا يُستنتج منها حكم على الفحص.', sample:'مثال اصطناعي · المعرّف R-1048 · لا توجد تغييرات محفوظة', explain:'حول هذا السجل', dialogTitle:'العرض فقط', dialogIntro:'يعرض هذا المقترح سجلًا اصطناعيًا ثابتًا للقراءة فقط.', detailLocale:'يغيّر العرض التسميات وتنسيق الأرقام واتجاه القراءة. تظل الوحدات بالملليمتر والدرجة المئوية.', detailDate:'٢١ أكتوبر ٢٠٢٦ هو تاريخ تقويمي. تغيير العرض لا يغيّر اليوم.', detailMissing:'درجة الحرارة غير معروفة. العدد يساوي صفرًا بالضبط.', detailLocal:'يسري المظهر وطريقة العرض على هذه الصفحة المفتوحة فقط. لا توجد خدمة خلفية أو حفظ للبيانات.', close:'إغلاق', settings:'إعدادات العرض' }
+    };
+    const localeControl = document.getElementById('locale');
+    const appearanceControl = document.getElementById('appearance');
+    function present() {
+      const locale = localeControl.value;
+      document.documentElement.lang = locale;
+      document.documentElement.dir = locale === 'ar-EG' ? 'rtl' : 'ltr';
+      document.querySelectorAll('[data-copy]').forEach(element => element.textContent = copy[locale][element.dataset.copy]);
+      document.getElementById('settings').setAttribute('aria-label', copy[locale].settings);
+      document.title = `${record.subjectId} · ${copy[locale].title}`;
+      document.getElementById('revision').textContent = new Intl.NumberFormat(locale).format(record.revision);
+      document.getElementById('count').textContent = new Intl.NumberFormat(locale).format(record.count);
+      document.getElementById('length').textContent = new Intl.NumberFormat(locale, { minimumFractionDigits:1, maximumFractionDigits:1 }).format(record.lengthMm);
+      const [year, month, day] = record.inspectedOn.split('-').map(Number);
+      document.getElementById('inspected').textContent = new Intl.DateTimeFormat(locale, { year:'numeric', month:'long', day:'numeric', timeZone:'UTC', calendar:'gregory' }).format(new Date(Date.UTC(year, month - 1, day)));
+    }
+    localeControl.addEventListener('change', present);
+    appearanceControl.addEventListener('change', () => document.documentElement.dataset.appearance = appearanceControl.value);
+    const explanation = document.getElementById('explanation');
+    const explainButton = document.getElementById('explain');
+    explainButton.addEventListener('click', () => explanation.showModal());
+    explanation.addEventListener('close', () => explainButton.focus());
+    present();
+  </script>
+</body>
+</html>

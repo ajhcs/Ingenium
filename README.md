@@ -6,6 +6,8 @@ A creative skill for Codex and Claude, with a guided route for ChatGPT. Explore 
 
 [Install](#start-in-your-client) · [Setup by client](docs/install.md) · [Live demos](https://ajhcs.github.io/Ingenium/) · [Editable studies](examples/release/README.md)
 
+**Explore:** [More outputs](#more-editable-outputs) · [Copy-ready prompts](#prompt-ideas) · [Optional workflows](#selective-source-synthesis)
+
 ## Without Ingenium / With Ingenium
 
 Same fictional briefs, preserved screenshots. These historical runs used different resources and revisions; they are illustrative comparisons. [How they were made](docs/readme-comparisons.md). Click any image for full size.
@@ -113,6 +115,150 @@ node --test tests/method-studies.test.mjs
 ```
 
 The renderer can use `--renderer-dir EXISTING_INSTALL`. The standalone guidance ZIP contains the method reference, without these helper scripts or example assets. [Invocation, artifact contracts and limits](docs/method-studies.md) · [Validation and provenance](docs/method-studies-validation.md) · [Long-title regression renders](examples/methods/regressions/title-width/README.md).
+
+## More editable outputs
+
+**HTML** · **SVG** · **PNG previews** · **Presentation studies** · **Diagram choices**
+
+These original synthetic examples are real rendered files you can open and keep editing. Click a preview for full size, or follow its source link to inspect how it was made.
+
+| Keep meaning across appearances | Change the question, change the diagram |
+| --- | --- |
+| [![Light presentation study showing a read-only measurement, inspection date, locale and theme controls, and its canonical source record.](examples/source-synthesis/en-US-light-1200.png)](examples/source-synthesis/en-US-light-1200.png) | [![Two authored diagrams for the same subject: a lifecycle retaining a return-to-draft cycle and a sequence retaining a matching persistence acknowledgement.](examples/source-synthesis/diagram-reviewed.png)](examples/source-synthesis/diagram-reviewed.png) |
+| **Presentation contexts · editable HTML.** One record, local display choices. [Open the source](examples/source-synthesis/presentation.html) · [Rendered evidence](examples/source-synthesis/evidence.json). | **Diagram meaning · editable SVG.** Explore legal state changes or message order without conflating them. [Open the source](examples/source-synthesis/diagram.svg) · [Render evidence](examples/source-synthesis/diagram-evidence.json). |
+| [![The same presentation study in a dark workspace with German-formatted length and date; the canonical record remains visible and unchanged.](examples/source-synthesis/de-DE-dark-1200.png)](examples/source-synthesis/de-DE-dark-1200.png) | [![Exercised Arabic right-to-left instrumentation inspector in dark appearance, with stable record identity, localized numbers, an isolated unit and a distinct warning region.](examples/source-synthesis/matched/candidate/observed-ar-dark-desktop.png)](examples/source-synthesis/matched/candidate/observed-ar-dark-desktop.png) |
+| **Theme and locale · same source.** Compare role colors and formatted values while retaining the underlying data. [Try the controls locally](examples/source-synthesis/presentation.html) · [Scope of the study](examples/source-synthesis/README.md). | **Observed browser fixture · editable HTML.** Locale/theme controls and the native dialog were exercised in the matched task. [Open the source](examples/source-synthesis/matched/candidate/inspector.html) · [Observed results](examples/source-synthesis/matched/README.md). |
+
+The presentation and diagram examples were authored to demonstrate particular distinctions; the diagrams are static specifications. The inspector belongs to a separate observed task in which both baseline and candidate passed the tested mechanical conditions. [Examples, provenance and limits](examples/source-synthesis/README.md) keep these evidence types separate. All four previews use original synthetic content and system fonts; no new third-party assets are introduced.
+
+### Use an example as a starting point
+
+Open an editable HTML or SVG source from the gallery to explore it locally. For your own work, invoke Ingenium in your client, provide your content or current file, and choose the question you want to resolve. You can ask for a fragment, a comparison or a finished artifact; the examples do not prescribe a layout or sequence.
+
+For a focused follow-up, describe both the change and what should stay settled:
+
+```text
+Use Ingenium with the attached study. Keep its wording, geometry and selected
+color family. Make only the heading hierarchy easier to scan. Save a separate
+editable revision and show the changed region at its intended size.
+```
+
+## Prompt ideas
+
+After invoking Ingenium, copy a prompt below and replace the sample content as needed. These are starting points, not required stages. Available file creation and preview tools depend on your client; the artifact's checks should describe what actually ran.
+
+<details>
+<summary><strong>Presentation contexts</strong> — one record across locale and theme</summary>
+
+```text
+Make a small editable HTML inspector for this synthetic read-only record:
+ID R-1048, revision 7, length 1234.5 mm, inspection date 2026-10-21
+(a calendar date), temperature unknown, count 0. Let me explore en-US,
+de-DE and ar-EG presentation and light/dark appearance. Keep a warning
+region locally dark. Preserve the canonical values and distinguish zero
+from unknown. Include an explanatory overlay; no backend or persistence.
+Preview the result and report the interactions you actually exercised.
+```
+
+[Presentation guidance](skills/ingenium/references/presentation-context.md) · [Related exercised example](examples/source-synthesis/matched/README.md).
+
+</details>
+
+<details>
+<summary><strong>Diagram meaning</strong> — show the relationship the reader needs</summary>
+
+```text
+Show which transitions can return this synthetic record to work:
+Draft → Review on Submit [complete]; Review → Draft on Return
+[reason supplied]; Review → Approved on Approve [review passed].
+Choose a diagram that makes the return path clear. Keep state identities,
+event names and guards intact. Deliver editable SVG and a PNG preview if
+rendering is available. Label this as a static authored specification.
+```
+
+[Diagram guidance](skills/ingenium/references/diagram-meaning.md) · [Rendered example](examples/source-synthesis/diagram-reviewed.png).
+
+</details>
+
+<details>
+<summary><strong>Connected states</strong> — define feedback and recovery before polish</summary>
+
+```text
+Sketch a repair-team assignment workspace before submission, while a save
+is pending and after a failed save. Keep the selected order and local draft
+visible. Show the correction or recovery action and distinguish local work
+from acknowledged persistence. Use a small connected low-fidelity study;
+preserve any model bindings I supply and identify unknown behavior.
+```
+
+[State-sequence method](skills/ingenium/references/methods/state-sequence.md) · [Connected wireframes](skills/ingenium/references/interaction-sketches.md).
+
+</details>
+
+<details>
+<summary><strong>Fontplate</strong> — compare the text you actually need to read</summary>
+
+```text
+Compare two available fonts for a dense equipment inspector using the same
+text, width, size and line spacing: “R-1048 / Bench lamp”, “1,234.5 mm”,
+“0O / 1lI” and “Review pending”. Make an editable type specimen at the
+intended reading size. Inspect wrapping and character distinctions; report
+the actual rendered face when observable and any fallback uncertainty.
+```
+
+[Fontplate method](skills/ingenium/references/methods/fontplate.md) · [Existing type study](examples/methods/source/fontplate.svg).
+
+</details>
+
+<details>
+<summary><strong>Design evidence</strong> — interpret disagreement without inventing consensus</summary>
+
+```text
+Use these synthetic notes to advise an assignment-screen design:
+A: one operator reports losing a draft after changing selection.
+B: a support summary repeats that same operator's incident.
+C: a different operator says changing selection quickly is essential.
+Separate observations, reports and interpretations. Explain the source
+dependence and missing context, retain the tension, and propose a useful
+next probe. Give me a concise recommendation, not a dashboard or score.
+```
+
+[Design-evidence guidance](skills/ingenium/references/design-evidence.md). This prompt illustrates the optional guidance; it is not an observed research result.
+
+</details>
+
+<details>
+<summary><strong>Delivery context</strong> — check the file people will receive</summary>
+
+```text
+Review the attached export against its editable source. In the intended
+viewer, inspect the text, emphasis, font fallback, placement and cropping.
+If an export is missing or unusable, identify the observed failure stage
+and preserve valid source work. Tell me which viewer and checks were
+available; do not infer destination fidelity from source geometry alone.
+```
+
+[Media and delivery guidance](skills/ingenium/references/delivery-context.md). This is a review prompt, not a promise of a new converter or media provider.
+
+</details>
+
+[Back to the output gallery](#more-editable-outputs) · [Choose among the eight methods](#choose-the-study-that-answers-your-question) · [Client setup](#start-in-your-client)
+
+
+## Selective source synthesis
+
+The optional guidance adds domain knowledge only when it applies. Existing eight methods and native model traceability remain in place. [Study scope, source pins, gap decisions and limitations](docs/source-synthesis.md).
+
+| Need | Support | Evidence boundary |
+| --- | --- | --- |
+| Related themes, locale or direction | [Presentation contexts](skills/ingenium/references/presentation-context.md): authoritative values, semantic roles, inherited scope and formatted projections | [Original exercised fixture](examples/source-synthesis/README.md); partial locale/direction demonstration, no native binding or complete accessibility claim |
+| Choose a diagram representation | [Diagram meaning](skills/ingenium/references/diagram-meaning.md): relationships, messages, lifecycle, handoffs, visibility or time | Original inspected static diagrams; no formal semantic engine or executed behavior |
+| Customize a web component | [UI guidance](skills/ingenium/references/ui.md): preserve semantic associations and inspect affected focus conditions | Guidance only; new compositions and forced-colors behavior need their own checks |
+| Source-informed design decisions | [Design evidence](skills/ingenium/references/design-evidence.md): source/context limits, contradictions, independent observations and adaptation intent | Source-grounded guidance and separate prose review; no observed task-performance evaluation |
+| Media, conversion or motion delivery | [Delivery context](skills/ingenium/references/delivery-context.md): actual readiness, destination rendering, playback and failure stage | Guidance only; asynchronous jobs, animation interruption and format conversions were not exercised in this study |
+| Terminal or icon-font specimen | [Fontplate](skills/ingenium/references/methods/fontplate.md): actual symbols, neighboring text and cell advance | Guidance only; no new fonts, global install or selected binary qualification |
+
+These are source-grounded hypotheses about useful guidance. They do not establish improved model performance or future-model compatibility.
 
 ## Define connected interactions before implementation
 

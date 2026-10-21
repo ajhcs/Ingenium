@@ -1,0 +1,3961 @@
+{
+  "source": "nexu-io/open-design",
+  "pin": "8d820a698908dc279ef3d5aeb4ce6d156211a499",
+  "method": "Every assigned complete UTF-8 SKILL body is exactly reconstructible by ordered block IDs from the unchanged pinned source. Equal block hashes are exact content equality; not a claim that distinct full-file hashes are duplicate skills. Every unique non-whitespace block must be read before marking a file complete. Blank-line separators are formatting-only.",
+  "readers": [
+    {
+      "receipt": "open-design-template-reader-components/progress.json",
+      "reader": "components_team",
+      "batches": [
+        "batch-01.txt",
+        "batch-02.txt",
+        "batch-03.txt",
+        "batch-04.txt",
+        "batch-05.txt",
+        "batch-06.txt",
+        "batch-07.txt",
+        "batch-08.txt",
+        "batch-09.txt",
+        "batch-10.txt"
+      ]
+    },
+    {
+      "receipt": "open-design-template-reader-mui/progress.json",
+      "reader": "/root/components_team/mui",
+      "batches": [
+        "batch-11.txt",
+        "batch-12.txt",
+        "batch-13.txt",
+        "batch-14.txt",
+        "batch-15.txt",
+        "batch-16.txt",
+        "batch-17.txt",
+        "batch-18.txt",
+        "batch-19.txt",
+        "batch-20.txt"
+      ]
+    },
+    {
+      "receipt": "open-design-template-reader-resources/progress.json",
+      "reader": "resources-team",
+      "batches": [
+        "batch-21.txt",
+        "batch-22.txt",
+        "batch-23.txt",
+        "batch-24.txt",
+        "batch-25.txt",
+        "batch-26.txt",
+        "batch-27.txt",
+        "batch-28.txt",
+        "batch-29.txt",
+        "batch-30.txt"
+      ]
+    },
+    {
+      "receipt": "open-design-template-reader-skills/progress.json",
+      "reader": "skills_team",
+      "batches": [
+        "batch-31.txt",
+        "batch-32.txt",
+        "batch-33.txt",
+        "batch-34.txt",
+        "batch-35.txt",
+        "batch-36.txt",
+        "batch-37.txt",
+        "batch-38.txt",
+        "batch-39.txt",
+        "batch-40.txt"
+      ]
+    }
+  ],
+  "counts": {
+    "assignedFiles": 302,
+    "uniqueFullFileHashes": 236,
+    "completeFiles": 302,
+    "partialFiles": 0,
+    "semanticBlocks": 2579,
+    "readSemanticBlocks": 2579,
+    "batches": 40,
+    "readBatches": 40
+  },
+  "completeBatchIds": [
+    "batch-01.txt",
+    "batch-02.txt",
+    "batch-03.txt",
+    "batch-04.txt",
+    "batch-05.txt",
+    "batch-06.txt",
+    "batch-07.txt",
+    "batch-08.txt",
+    "batch-09.txt",
+    "batch-10.txt",
+    "batch-11.txt",
+    "batch-12.txt",
+    "batch-13.txt",
+    "batch-14.txt",
+    "batch-15.txt",
+    "batch-16.txt",
+    "batch-17.txt",
+    "batch-18.txt",
+    "batch-19.txt",
+    "batch-20.txt",
+    "batch-21.txt",
+    "batch-22.txt",
+    "batch-23.txt",
+    "batch-24.txt",
+    "batch-25.txt",
+    "batch-26.txt",
+    "batch-27.txt",
+    "batch-28.txt",
+    "batch-29.txt",
+    "batch-30.txt",
+    "batch-31.txt",
+    "batch-32.txt",
+    "batch-33.txt",
+    "batch-34.txt",
+    "batch-35.txt",
+    "batch-36.txt",
+    "batch-37.txt",
+    "batch-38.txt",
+    "batch-39.txt",
+    "batch-40.txt"
+  ],
+  "files": [
+    {
+      "path": "design-templates/aster-atelier/SKILL.md",
+      "sha256": "172d01ceb5abf4f441770248648b45df281e6f2d14723c1fe3f0776500c9629b",
+      "bytes": 3843,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/audio-jingle/SKILL.md",
+      "sha256": "02ea7a3ec41a717737449aba88fc06f67e2caf454cbd8aebf74ec7292f66f9fb",
+      "bytes": 4570,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/blog-post/SKILL.md",
+      "sha256": "19c5da5538876e3e5c13d825da092619c1c9a79635dfefe635fcd9478c711757",
+      "bytes": 2979,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/clinical-case-report/SKILL.md",
+      "sha256": "f05b3a42e5fc266791308a58a5b8b485daa3e1c8002de1374dd418ed5b3deab3",
+      "bytes": 9063,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/contact-widget/SKILL.md",
+      "sha256": "5dd1a07a9ba940c73a559c575f93d9c4f82f447304e3985baece129ce79ebbd6",
+      "bytes": 6477,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/critique/SKILL.md",
+      "sha256": "ba9e60cf4b04d0990b7f2c6e1a0700bcb201450f1402fd68174f7d4fa93ba577",
+      "bytes": 9942,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/dashboard/SKILL.md",
+      "sha256": "1d5c7dab1f6b3584e4640213863a7282c819144684c0758ddb49b3b0fc405379",
+      "bytes": 2847,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/dating-web/SKILL.md",
+      "sha256": "856c953cd6230c19846ede702afc5987fe4949cb449824e7ea3b1458da7cc641",
+      "bytes": 3997,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/dcf-valuation/SKILL.md",
+      "sha256": "dd6b83bedeb783a0dce9989bfb0ecebd798ed4704be1500b6d501605994dbd1c",
+      "bytes": 4849,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/digital-eguide/SKILL.md",
+      "sha256": "4d3e4022cadc8a3073fff614e537dd1bcee902527e7298686bd9bfdee36b19d8",
+      "bytes": 3802,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/docs-page/SKILL.md",
+      "sha256": "d355e356e42fc7ca0c6185d070a6a48f89cce8aab3246bff5a652591bff5795a",
+      "bytes": 3095,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/email-marketing/SKILL.md",
+      "sha256": "14125e30e4b80a717f21b0f08e8b7b9d3736e88abf0c452fd1c025af694c0aa3",
+      "bytes": 3572,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/eng-runbook/SKILL.md",
+      "sha256": "2aba5327cd0671bada77bb6967f6a6b2e93b8ea70e2428edde02d939591d29e1",
+      "bytes": 1591,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/finance-report/SKILL.md",
+      "sha256": "d8698cfbaf786de3bc5acbff7e46ae6737542d03e778df2346eba0e0d3ab4782",
+      "bytes": 2199,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/flowai-live-dashboard-template/SKILL.md",
+      "sha256": "800f2bdea0f3b82e87b70d14843ac143f0096269f690489ffcdc588a37e70c64",
+      "bytes": 3609,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/gamified-app/SKILL.md",
+      "sha256": "5c254d62edf722cb4285475f05662ce87d0e1890e66cc2a47784523ad747fbc9",
+      "bytes": 4611,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/github-dashboard/SKILL.md",
+      "sha256": "f87899ffd3e10934d1b5f2ac918b1c90e06f542dda24bd4c7b78ae4394aff933",
+      "bytes": 7493,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/guizang-ppt/SKILL.md",
+      "sha256": "ffd7e12de040adebd2f39ba63ac688fa44ed9aa7c2de128d8930bf648f11821d",
+      "bytes": 19637,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/hr-onboarding/SKILL.md",
+      "sha256": "09099ed7abdfd1be9123037e744fb4ddd9dd21c11dc3c9a7a06d9927a847e760",
+      "bytes": 1647,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt/SKILL.md",
+      "sha256": "fb563eaefcecd27fe4cfdeec7ec94f37c47f2a4ead2dc4686365a3839be27c28",
+      "bytes": 16505,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-course-module/SKILL.md",
+      "sha256": "790774c895a3f1d99b18201105e40087608cffb7ed70831c6236c786ac6ed9aa",
+      "bytes": 5754,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-graphify-dark-graph/SKILL.md",
+      "sha256": "e2077b9765bb9a4df34fed82aca0f2373419cdc0b21550f70b70c80f3b705a76",
+      "bytes": 5723,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-hermes-cyber-terminal/SKILL.md",
+      "sha256": "3e91035d1f0b251666b989690c12ad3715ca1571bb673cb9d4559255c1743045",
+      "bytes": 5660,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-knowledge-arch-blueprint/SKILL.md",
+      "sha256": "d9f72ea4416a3a21adba569a62eb847cf63fd4d97acaccbc508c262b3bf62085",
+      "bytes": 5773,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-obsidian-claude-gradient/SKILL.md",
+      "sha256": "adcc2cc0c61102aeebb90d6151bd20a6318410ecec8561b2df137e2e66661570",
+      "bytes": 5733,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-pitch-deck/SKILL.md",
+      "sha256": "78e71353c72d953f03cfc60f2f8b9b8f43d40be67ff6562f2b44e08aa3272e64",
+      "bytes": 5656,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-presenter-mode-reveal/SKILL.md",
+      "sha256": "5dda78c15faf1d9a7a00950111c7184cbd05b92b91faedea8fdca768f68f323f",
+      "bytes": 5640,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-product-launch/SKILL.md",
+      "sha256": "5066fbc1821e51833f32a9faf6f6191fb0ad7f52707571edff058f2321db41d6",
+      "bytes": 5576,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-taste-brutalist/SKILL.md",
+      "sha256": "36d65d6704af48d486f97da280560d52f95539cb1978f234ddd76c6770b2b224",
+      "bytes": 4931,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-taste-editorial/SKILL.md",
+      "sha256": "336fe0b28b3ba66e7a0c8cd4c3cb2e932336324876a055439e456b75fcbc65d7",
+      "bytes": 4344,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-tech-sharing/SKILL.md",
+      "sha256": "3156fcae48f8aab0523205ff3295fe091601a804c7be2342a0bf2fd9b135952d",
+      "bytes": 5558,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-testing-safety-alert/SKILL.md",
+      "sha256": "eeef0c87c8b14eff5fcfe0352b5eddd2d359ddb11b8f294300910e7e06c13b2c",
+      "bytes": 5873,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-weekly-report/SKILL.md",
+      "sha256": "96905963f0e6d4d4108f538dafb894622eb80d3c0abdaf7603808378208ee736",
+      "bytes": 5564,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-xhs-pastel-card/SKILL.md",
+      "sha256": "b8bc91ec460f8a2513f0a15066e25b76e51d406815e8c39a83a2875ca71d23b4",
+      "bytes": 5609,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-xhs-white-editorial/SKILL.md",
+      "sha256": "d4bc32d2edb2b6bbe5b99bf4d0f6411fa42e2c8a037ce3628aaa9b1b32e441a7",
+      "bytes": 5743,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-8-bit-orbit/SKILL.md",
+      "sha256": "fb186d395686572c1533ca4d5989133dc2b0707f7f7cc7fdcdd7c30e1f53dc94",
+      "bytes": 4954,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-biennale-yellow/SKILL.md",
+      "sha256": "c07ca00a143053e79982bc6a0223f7d5979c0348361021dbe8a517e42141396a",
+      "bytes": 5073,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-block-frame/SKILL.md",
+      "sha256": "3d08150378d518940ed97fa9cce424bf8f6766cb630c6971bfc11eb0d7c0dc0c",
+      "bytes": 5036,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-blue-professional/SKILL.md",
+      "sha256": "807c44d68eeb04edaa66335bf8c3e698255f0c18f6f6111bc256e74be4a17c87",
+      "bytes": 5017,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-bold-poster/SKILL.md",
+      "sha256": "22a831def21f6f575349349fc4233bd3ee710b8f6cdf9c151f9a5e38e2c3173a",
+      "bytes": 4985,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-broadside/SKILL.md",
+      "sha256": "79545ddf64867cbf513f7f9cd2cc5cf6f744a195dc48113da7554694d00ccc9a",
+      "bytes": 5018,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-capsule/SKILL.md",
+      "sha256": "2353aa38783e9d5abf607bb8cfde2069feefce0b0a52e6e252937d9e75b6794d",
+      "bytes": 4894,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-cartesian/SKILL.md",
+      "sha256": "8e9f6cc3892af490556ef69314c8d18015850429d14e8487ec3923707d0a59f5",
+      "bytes": 5157,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-cobalt-grid/SKILL.md",
+      "sha256": "d257ebe32c3242b75b9900e17f9fb6da15126481d0ff100e610fed8cd273fbce",
+      "bytes": 5098,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-coral/SKILL.md",
+      "sha256": "f61712d4f47cc8d28232eb8a748d81cf8f7b421af93fd77f6866db471fa0ee4c",
+      "bytes": 4940,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-creative-mode/SKILL.md",
+      "sha256": "9fe2a2e7877efe80dac89e4474b907e57d440935bf9db5a3e48454964c0a33e5",
+      "bytes": 5512,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-daisy-days/SKILL.md",
+      "sha256": "0f413e40c3b73f3975b59d1dca276007675ce00e9bf3c9e2b15eedc234346e0c",
+      "bytes": 5205,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-editorial-tri-tone/SKILL.md",
+      "sha256": "7350ad13e9be1512cd911d2fdf73671f97166ab5299ce07875f2ae7183be5cf4",
+      "bytes": 5493,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-grove/SKILL.md",
+      "sha256": "d09566462de9b6af321f4039d71e2293a0b6e860332d0be0f3ae43a69121813c",
+      "bytes": 5114,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-long-table/SKILL.md",
+      "sha256": "7908a049a0ad4ff64be29812378eacf46fb18cda4608ada717eea9f711e47ed6",
+      "bytes": 4981,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-mat/SKILL.md",
+      "sha256": "f8bdd9d6fb5cb25fbf1ad422059d1f6203e22c0d65b1eaa5bb7aae7816852d56",
+      "bytes": 5076,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-monochrome/SKILL.md",
+      "sha256": "643dc665a7ec2fea78ed166875aacf455e14467a75e8a2b6216d452146703f33",
+      "bytes": 4998,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-neo-grid-bold/SKILL.md",
+      "sha256": "76c5e80b9416006704f4a11e043e3e6f46f4585c3daf05a1f22231f75fc55141",
+      "bytes": 5408,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-peoples-platform/SKILL.md",
+      "sha256": "0b8037f30eb703297ed32fcac5bf1399c3b8d041b894e3aa255b67ca52934185",
+      "bytes": 5579,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-pin-and-paper/SKILL.md",
+      "sha256": "afc8ae735f24d5a5461c61d573f510406c4b855e83e18564557e886ab82b85b1",
+      "bytes": 5677,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-pink-script/SKILL.md",
+      "sha256": "2e5d54466fd05bfce77466a4cb8b8eafe226aae73c88126c43de0679807e1e2c",
+      "bytes": 5501,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-playful/SKILL.md",
+      "sha256": "f536e392744c180e9f8c37c5b94355305ef8e4fe45ef00ce2393d3b5f8119c98",
+      "bytes": 5036,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-raw-grid/SKILL.md",
+      "sha256": "8d87e30d7e65020caff77bcf244c2dbb90e2ff7780c3f36a2061fc0b4146f8c6",
+      "bytes": 5030,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-retro-windows/SKILL.md",
+      "sha256": "4e84b0bdd280257e3790a15b0ffe86d9ad8960982b98d94d52bf79b1dbb9b656",
+      "bytes": 5010,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-retro-zine/SKILL.md",
+      "sha256": "27649fd064fb71ecb6046784e91802ef04a26a2cc22a077eee46443dc372d9be",
+      "bytes": 4922,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-sakura-chroma/SKILL.md",
+      "sha256": "c9f0542545284510181744967645fc6c3d93c54e393cb81327bd2d325046db03",
+      "bytes": 5258,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-scatterbrain/SKILL.md",
+      "sha256": "3b652d7e248eb0147b0b18f6f967774200ea1125b04cce96b2027e940a251517",
+      "bytes": 5175,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-signal/SKILL.md",
+      "sha256": "89fa4c07d9f09f00ec122dbf2de3d2fe15a2192cd011b0f5986917d66554ecb4",
+      "bytes": 4969,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-soft-editorial/SKILL.md",
+      "sha256": "ce61c126d5e4f9dfee7497bdb1d5076f45356dff26c9e4abec6ad05a2419637f",
+      "bytes": 5462,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-stencil-tablet/SKILL.md",
+      "sha256": "93e44be99e7e1f22cc39a2dc4c78265ad62bdba16de102161d92c012e067c5f1",
+      "bytes": 5634,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-studio/SKILL.md",
+      "sha256": "9c1b4bb5ffee87ee2a4d55993b19c9704d9ffa2b9acd04c5d628b6bd8bf4a860",
+      "bytes": 4977,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/html-ppt-zhangzara-vellum/SKILL.md",
+      "sha256": "bc74ddf7e869da7b81ace608f736a9244be3ebb9ea1422e62f0923a4fe674569",
+      "bytes": 5042,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/hyperframes/SKILL.md",
+      "sha256": "2d787c566779a8f781ccba237c03edd73551d3933b019719100bca92651f9453",
+      "bytes": 28843,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/ib-pitch-book/SKILL.md",
+      "sha256": "ce630fc0bb7b57276efaa9b904999566e20edbe04aa7c38fb4177fd4771c5d82",
+      "bytes": 8285,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/image-poster/SKILL.md",
+      "sha256": "019fc99e89ddc46e5da0426bf4253c08a1c4244466b6db9e760878fb599c6a66",
+      "bytes": 3709,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/invoice/SKILL.md",
+      "sha256": "2899d0374f716eac3a98e25402d2eca2e7daa01c51ccbea97879e8f17f665bb6",
+      "bytes": 1444,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/kami-deck/SKILL.md",
+      "sha256": "321a0324c1194b3803eaaa15affb851de86a8a19a193e8079153d19765367c77",
+      "bytes": 9092,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/kami-landing/SKILL.md",
+      "sha256": "62cc4c4836699e3753a02d6574a34fae4769ae736875af37d98df47622daf193",
+      "bytes": 9772,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/kanban-board/SKILL.md",
+      "sha256": "79f5ac0147eb9189b5e5d7de4e46976a84f0f1dc5af082c80174c1ad448b0a27",
+      "bytes": 1606,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/last30days/SKILL.md",
+      "sha256": "1cb6ba15c82d6246f86828c1bc047c8eb0fa054e3d55a674025ac2f5e24be3cc",
+      "bytes": 5373,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/live-artifact/SKILL.md",
+      "sha256": "96771bf71f62694b80eeda8f4ff17664117fbf8cad14729268fc76cb2a950c47",
+      "bytes": 9031,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/live-dashboard/SKILL.md",
+      "sha256": "68f7d0e4e31919dea14e3633cae91e1640766a8ca2c202847c2f8d367c7afee5",
+      "bytes": 8593,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/magazine-poster/SKILL.md",
+      "sha256": "2bc74c79abbd60989d69db855226a68833699c8cd48ac6b56baf672bed243017",
+      "bytes": 3687,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/meeting-notes/SKILL.md",
+      "sha256": "3fb29f8c5f5ae733e879a32fc2158615a27e065f4bab6cd646aa354a3a065d41",
+      "bytes": 1354,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/mobile-app/SKILL.md",
+      "sha256": "056c37e1acbc8be7f0b81862f11103bf66859f72081264da43fb1f020b36da53",
+      "bytes": 3962,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/mobile-onboarding/SKILL.md",
+      "sha256": "3d074810b6802504657dd62ad45ed9bc5897e9061d9892cc21d53c585e2336d7",
+      "bytes": 1635,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/motion-frames/SKILL.md",
+      "sha256": "a6dd4e0ac26e60e190b6abe902bb5085b7abb368032b6f21c24599c3e1cb3bbb",
+      "bytes": 3783,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/open-design-landing/SKILL.md",
+      "sha256": "598c7ba9f02cbc5f20d1a6cb2781685222afae0c4fb15e3ee446db452fac912a",
+      "bytes": 12548,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/open-design-landing-deck/SKILL.md",
+      "sha256": "5f2ad1d0a4a35ebd1c6da40ff82ab7e101039dcc3d24f390839357913b466745",
+      "bytes": 10263,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/orbit-general/SKILL.md",
+      "sha256": "2a35aa6e6a97ba81b0e4ed1e3fcd9bca79b6bba7f5fef48f9424413eb0051cc0",
+      "bytes": 11475,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/orbit-github/SKILL.md",
+      "sha256": "20dcab672070b374311da1e9d08df681058d18b4288072a89125cc1a675bb152",
+      "bytes": 7640,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/orbit-gmail/SKILL.md",
+      "sha256": "f10225101e244e02dd864a5b81bbfe03865b0230e29ef1037e81491259b602c4",
+      "bytes": 7848,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/orbit-linear/SKILL.md",
+      "sha256": "e6fa7280c46dfe2cd75c2e420b3d94f0c1b3b32092f34142570f2a513ac9742d",
+      "bytes": 8122,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/orbit-notion/SKILL.md",
+      "sha256": "ce75720e49e428905d3f92469e82bb4ccb7aa56408b4bc162bdbc419fc43f30d",
+      "bytes": 8620,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/pm-spec/SKILL.md",
+      "sha256": "099d54e4dce4a002a8f0291b8c036c9ccd11abef9cf68026037f673d7f3f2717",
+      "bytes": 1607,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/pricing-page/SKILL.md",
+      "sha256": "e563727e47a1a59b38098e89109e746ce8fb8db438bbb39b0cd03292ea0775a7",
+      "bytes": 2926,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/replit-deck/SKILL.md",
+      "sha256": "849000dbd4a47a248f3aae4c98da7bfe49d5ea22027a7ec54340273522eaf8dd",
+      "bytes": 13526,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/saas-landing/SKILL.md",
+      "sha256": "25fda403cba6b06a54572c69dafcae91f29329dc080670a648cb311ab9efa4b7",
+      "bytes": 4742,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/simple-deck/SKILL.md",
+      "sha256": "f0f19426d8f7323f248ed990ffeac7f9176b4aa96829e3c09ae9cdc7d19fbcf5",
+      "bytes": 5812,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/social-carousel/SKILL.md",
+      "sha256": "982f6ec67b5ceaccaa23189a2965de335a70d60a91bee196672325c5f88d979a",
+      "bytes": 3974,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/social-media-dashboard/SKILL.md",
+      "sha256": "c1731368b495e26b9e399b135b65c1f2bc83340f02ddb49a5bdfa3ba73f12d2d",
+      "bytes": 5770,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/social-media-matrix-tracker-template/SKILL.md",
+      "sha256": "771cb8fafea92e58a6f8e5cb38a58c9dfa63246f1f83eeb4749c530340e4690f",
+      "bytes": 4954,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/sprite-animation/SKILL.md",
+      "sha256": "48187c084eba4de273cfed0352e834fe3b4c3694e77125e1bef984c9dde13490",
+      "bytes": 4335,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/team-okrs/SKILL.md",
+      "sha256": "f6dd1cc149adad09fcaa40a137ab973fa4f10818e222fdd8b7d9badc84dad4ef",
+      "bytes": 1363,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/trading-analysis-dashboard-template/SKILL.md",
+      "sha256": "6f06b8b2f30a45d5204917bb2717ed80d1343bcbbfea919dc72b822d73086122",
+      "bytes": 2537,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/tweaks/SKILL.md",
+      "sha256": "821551e5a9278f3fbcf25447c95ddec1727ee6287948b99084ef3e36f078680d",
+      "bytes": 11819,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/video-shortform/SKILL.md",
+      "sha256": "d283f57efd17920d578f0d058d4ee3988fa8f52dc9b9b6fd65271f9670922739",
+      "bytes": 4757,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/waitlist-page/SKILL.md",
+      "sha256": "a26e681345b684c669420247801fab192426415e326b1008a4b796d22f45d514",
+      "bytes": 14189,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/web-prototype/SKILL.md",
+      "sha256": "e34a5acfa8e7f2f98cdb505f8ebdb7a687e265928b9a57d22ddf64e6b778b937",
+      "bytes": 5655,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/web-prototype-taste-brutalist/SKILL.md",
+      "sha256": "212b01b1f56a600c3ed7d343f55c42523d23b5558359d671a9b1c18af76b2043",
+      "bytes": 4103,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/web-prototype-taste-editorial/SKILL.md",
+      "sha256": "a00580ad92b5ca8281cc88162035969d6e24bb953896ddbe46eccb43de3fba05",
+      "bytes": 3365,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/web-prototype-taste-soft/SKILL.md",
+      "sha256": "30b8c1dd03e6b054be5e6aa65e7afd8c1a0d5cc135f09625e689cc0ce4315726",
+      "bytes": 4222,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/webgl-experience/SKILL.md",
+      "sha256": "685dfedd4f9d7725c36e66819a9644100dae1a1af71ba05a3615a8eec37e85c7",
+      "bytes": 3739,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/weekly-update/SKILL.md",
+      "sha256": "388916b64046ca539dd3967c0b4c52048699780b79c05b3a53d739ff84cff207",
+      "bytes": 2831,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/wireframe-annotated/SKILL.md",
+      "sha256": "b7f7964d45da9b882f128943ebfb7df5aeb0f52268f5c83d4cadcdeceafb8014",
+      "bytes": 4022,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/wireframe-greybox/SKILL.md",
+      "sha256": "aec7ca27c6721887bff35d7ee074c97c1127538ec5b2bb49fe635d53f093bef5",
+      "bytes": 3942,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team",
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/wireframe-mobile-flow/SKILL.md",
+      "sha256": "c7312e1ed0ece9707a90eec36c85917f3b7e561a34173b94f36ec0ee12df12c1",
+      "bytes": 4365,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/wireframe-sketch/SKILL.md",
+      "sha256": "3d789de11b3b038f02d5a5dc0b0d0638c9b6f7bb6f34406c95ef5cf3383b6e9a",
+      "bytes": 4127,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/worker-visualizer/SKILL.md",
+      "sha256": "e8d37d6bc69c0aba0023c01542b7ebbf8a50281c5ba163019ca65d1a5984ff7e",
+      "bytes": 4114,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "design-templates/x-research/SKILL.md",
+      "sha256": "2e252cb623a9bb55b014e2bb45be3977aa95cc89089594cb046bb02cb435e082",
+      "bytes": 4036,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/article-magazine/SKILL.md",
+      "sha256": "a03482338fe14078269f9bb5ceb157f3433053d20afd9b1cc0c091db2347c4de",
+      "bytes": 2571,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/audio-jingle/SKILL.md",
+      "sha256": "02ea7a3ec41a717737449aba88fc06f67e2caf454cbd8aebf74ec7292f66f9fb",
+      "bytes": 4570,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/audio-jingle/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/blog-post/SKILL.md",
+      "sha256": "cda80175acef4888603cc749edaf92a05068543579b63618d673255c4a81a5db",
+      "bytes": 2995,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/card-twitter/SKILL.md",
+      "sha256": "d5badd954b84ce4c60465cfc6aa9c7f391bd5555b0cd8253da04dd51f74e4c92",
+      "bytes": 1877,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/card-xiaohongshu/SKILL.md",
+      "sha256": "819ac1c78dee9cdd50cdf80b7111242c8818076eda7084fe4d7da18f4db26d6c",
+      "bytes": 2397,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/clinical-case-report/SKILL.md",
+      "sha256": "f05b3a42e5fc266791308a58a5b8b485daa3e1c8002de1374dd418ed5b3deab3",
+      "bytes": 9063,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/clinical-case-report/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/codex-interactive-capability-map/SKILL.md",
+      "sha256": "1dbb48576e7d0e64ae77ce90cf52db3a71ec278048735a4da2a28664e319cbef",
+      "bytes": 3898,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/critique/SKILL.md",
+      "sha256": "ba9e60cf4b04d0990b7f2c6e1a0700bcb201450f1402fd68174f7d4fa93ba577",
+      "bytes": 9942,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/critique/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/dashboard/SKILL.md",
+      "sha256": "1d5c7dab1f6b3584e4640213863a7282c819144684c0758ddb49b3b0fc405379",
+      "bytes": 2847,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/dashboard/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/data-report/SKILL.md",
+      "sha256": "919fff733fd033ab7d370eb245c5b67b4950bfcc782cfd4cd1f0c5f879be23a2",
+      "bytes": 2663,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/dating-web/SKILL.md",
+      "sha256": "27f65f86d8fce4674a8586eb04c0d4bb55e4b3d75364270c3692c155193a5cb7",
+      "bytes": 4012,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/dcf-valuation/SKILL.md",
+      "sha256": "dd6b83bedeb783a0dce9989bfb0ecebd798ed4704be1500b6d501605994dbd1c",
+      "bytes": 4849,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/dcf-valuation/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/deck-guizang-editorial/SKILL.md",
+      "sha256": "cfc094aad1593bc3f456517ab8f396cbf4f34bd2e2d1e61aa2d6253ab4c423cb",
+      "bytes": 5875,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/deck-open-slide-canvas/SKILL.md",
+      "sha256": "1a775f589b577012505c24fabdca130882082bd4d716f02ea605e47c4fc76b44",
+      "bytes": 5235,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/deck-swiss-international/SKILL.md",
+      "sha256": "bc5ff2a029a60fb94964dbed74ec3db28c451126997eea97ff3913c7a430c68f",
+      "bytes": 7200,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/design-brief/SKILL.md",
+      "sha256": "b40100abd22e1c5a7ed37d5a014d601125cb480531dbd6d1ff58c2852688c165",
+      "bytes": 14064,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/digital-eguide/SKILL.md",
+      "sha256": "29db8dae54a64bd63ba2144f0512d8dd7f0427cd71ab5dbf8235b2f2df398a1b",
+      "bytes": 3616,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/doc-kami-parchment/SKILL.md",
+      "sha256": "67018f4879dbabd83ff0d1ef90d4053bb22a3ea8a6340a773be99d58dcb4d41b",
+      "bytes": 4891,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/docs-page/SKILL.md",
+      "sha256": "d355e356e42fc7ca0c6185d070a6a48f89cce8aab3246bff5a652591bff5795a",
+      "bytes": 3095,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/docs-page/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/email-marketing/SKILL.md",
+      "sha256": "24f748c029fe353cfe6c29866e8b99f82c18ee045e8dbc819f13a8a957bcbca7",
+      "bytes": 3587,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/eng-runbook/SKILL.md",
+      "sha256": "2aba5327cd0671bada77bb6967f6a6b2e93b8ea70e2428edde02d939591d29e1",
+      "bytes": 1591,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/eng-runbook/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/finance-report/SKILL.md",
+      "sha256": "96e456613b318d9e2d4adc6add48d1f3d13d2b178f94ec1bf17437b8208eb7d9",
+      "bytes": 2215,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/flowai-live-dashboard-template/SKILL.md",
+      "sha256": "800f2bdea0f3b82e87b70d14843ac143f0096269f690489ffcdc588a37e70c64",
+      "bytes": 3609,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/flowai-live-dashboard-template/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/frame-data-chart-nyt/SKILL.md",
+      "sha256": "bd60f2cf3dfe5c8ec7d737f2eecab08ddd3bc13ceb579a7432b53f20aefd38e9",
+      "bytes": 3966,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/frame-flowchart-sticky/SKILL.md",
+      "sha256": "bb9b6baa9ab837c70220e334a11111e3e4af57b33adf0f361eb1c75e6d1d60f2",
+      "bytes": 3800,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/frame-glitch-title/SKILL.md",
+      "sha256": "889ae9886802c7994588c66681998fa7ff512ae9538cdebf08f0bd19149e8c13",
+      "bytes": 3800,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/frame-light-leak-cinema/SKILL.md",
+      "sha256": "de4579b431ac50303785967251e263bebd7f47a08076b2ef8c364a447dbeac99",
+      "bytes": 4087,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/frame-liquid-bg-hero/SKILL.md",
+      "sha256": "2ac375e5a7f725198f0defe67c8787012a2e0002dd9e0b3c245450c481829893",
+      "bytes": 4182,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/frame-logo-outro/SKILL.md",
+      "sha256": "d85595ab4333d8650519636a5b98d7e6c0797e7bc4a6841940c578c943d6f04f",
+      "bytes": 3951,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/frame-macos-notification/SKILL.md",
+      "sha256": "146bf47d90c1a79cbba97fa3c3e6fcd283c78fb9eddbbab6b03cbc3405488a4f",
+      "bytes": 3948,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/frontend-slides/SKILL.md",
+      "sha256": "4f9a4a60a335c5f34f05727fbdc1d0449a7255e66c617243f76bbcd36b59fc39",
+      "bytes": 7672,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/fs-creative-voltage/SKILL.md",
+      "sha256": "b4cf2752037417a1ff081196fe75f7155ad553b3860c6cca2f4b139f546490a3",
+      "bytes": 10255,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/fs-editorial-forest/SKILL.md",
+      "sha256": "f15d99dc659c208dfc25d9486bfe09f140fbb8cf1fe19720296998a0cfd22793",
+      "bytes": 8537,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/fs-electric-studio/SKILL.md",
+      "sha256": "f1da2bceebf229393217f5e21070c0ec3aab7cbb3e08e181fa218a68f33cfea4",
+      "bytes": 10587,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/fs-emerald-editorial/SKILL.md",
+      "sha256": "4d7c873f225ea89d601fdb3135d873788bcd906e573d6ee80bbfd33ceb0d3a71",
+      "bytes": 11349,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/fs-notebook-tabs/SKILL.md",
+      "sha256": "e501f441ec0b9f89eec42aa084c7f44ce563311141986305dcfc6a6b855e92f2",
+      "bytes": 9694,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/gamified-app/SKILL.md",
+      "sha256": "714994417f8d4097ab27426e6c3b3deb64c5e6bcfe0d9458724828a710195a36",
+      "bytes": 4627,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/github-dashboard/SKILL.md",
+      "sha256": "f87899ffd3e10934d1b5f2ac918b1c90e06f542dda24bd4c7b78ae4394aff933",
+      "bytes": 7493,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/github-dashboard/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/guizang-ppt/SKILL.md",
+      "sha256": "f0845f3734485a4cb253debf15e15be672b1640083c5a2982500394b0443fc5c",
+      "bytes": 19652,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/hatch-pet/SKILL.md",
+      "sha256": "eb1a057b5c29e79c68aa59055f41a53c882fd55b89617b3efc4662f645660985",
+      "bytes": 24224,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/hps-academic-paper/SKILL.md",
+      "sha256": "a9a83a66d959e8e9ec6e1b5678ce1185a457c6f1b382500db65d2bec9f5b3b5b",
+      "bytes": 10333,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/hps-bauhaus/SKILL.md",
+      "sha256": "450e4b08799ddb24f1633c07b8683f83743f657e644dc3cc8072eeb2252b1428",
+      "bytes": 9805,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/hps-memphis-pop/SKILL.md",
+      "sha256": "9b609991b6dd2de623d31797571d9dfe7ff8e49fe215f37841d2ed66a3d5a196",
+      "bytes": 9240,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/hps-retro-tv/SKILL.md",
+      "sha256": "b1af40a6b8c824eace7f654d3b3eabf56f7c4ac44baa86205550c37b09829531",
+      "bytes": 10416,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/hps-true-blueprint/SKILL.md",
+      "sha256": "346913b67e2513d00fe812fd2eb689e55048b5d9cffcaa0f9062affad8ca55ec",
+      "bytes": 9992,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/hps-y2k-chrome/SKILL.md",
+      "sha256": "9ed0914433342ae0b74bf5568a7b1d8e159957784e5010ae5d6534b5161be1ea",
+      "bytes": 9697,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/hr-onboarding/SKILL.md",
+      "sha256": "09099ed7abdfd1be9123037e744fb4ddd9dd21c11dc3c9a7a06d9927a847e760",
+      "bytes": 1647,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/hr-onboarding/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt/SKILL.md",
+      "sha256": "de031d657ad05bd85f88a6699eb15d2f5a8bb7287b1cd78e915b3a38b2b29b2b",
+      "bytes": 16248,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-course-module/SKILL.md",
+      "sha256": "a93220efe50a6e6e8d6159ee9584f4b9c38cb7a7d7ba24bf01a30096834df212",
+      "bytes": 5770,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-graphify-dark-graph/SKILL.md",
+      "sha256": "6a9383fb9bee03c71fee353d1f6f3a5a89f960089b75fbb37f0d6fec24f36cee",
+      "bytes": 5739,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-hermes-cyber-terminal/SKILL.md",
+      "sha256": "e8a71a4ca38b03021211191e773123cffbbe981123488d3a449292db68a5bd87",
+      "bytes": 5676,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-knowledge-arch-blueprint/SKILL.md",
+      "sha256": "100c8f2f31e44dbce60fa63d8631c0db6d5dffe6968555098535879365bd5d91",
+      "bytes": 5789,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-obsidian-claude-gradient/SKILL.md",
+      "sha256": "0c33414aed12976dfdade256b6e97347ebdc6b5bc38d3bcecc93f29eb9d0e1ba",
+      "bytes": 5749,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-pitch-deck/SKILL.md",
+      "sha256": "bac00ecbca70fabd71e0b44fc29f7530fbbe810c7598f3d2e570c2c45298c593",
+      "bytes": 5672,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-presenter-mode-reveal/SKILL.md",
+      "sha256": "5b99945f12836f66ae6f45b65753ee83cf1d82d8dc1659408b18fa436ac7a455",
+      "bytes": 5656,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-product-launch/SKILL.md",
+      "sha256": "05a8d9d84218fcebd37aef6ac3b37c0d6bf89f8e8c6a3e48e73ca31b92c43cf4",
+      "bytes": 5592,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-taste-brutalist/SKILL.md",
+      "sha256": "36d65d6704af48d486f97da280560d52f95539cb1978f234ddd76c6770b2b224",
+      "bytes": 4931,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-taste-brutalist/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-taste-editorial/SKILL.md",
+      "sha256": "d60f3a544ee49ff2ad290b29ee33dcd3cb12c73039c54bb99620663d123b8d35",
+      "bytes": 3981,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team",
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-tech-sharing/SKILL.md",
+      "sha256": "fd1dfe6b72ce6303daededfffddc0e7fc284c4b84a1874526a1d89f0f420c511",
+      "bytes": 5574,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-testing-safety-alert/SKILL.md",
+      "sha256": "8c2194dd917994bc95ffc839f1627c86035bba8c1ec6a7887a43cfdf3319c619",
+      "bytes": 5889,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-weekly-report/SKILL.md",
+      "sha256": "1f6b6bcaf03f4de84b8a1e5d67474cbab4fdcbb48667f158b5e34f8025c07a0f",
+      "bytes": 5580,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-xhs-pastel-card/SKILL.md",
+      "sha256": "40aa11f665d53262f413cf9120d235596b8fd80ae8ca6066a972331f59fd8cbe",
+      "bytes": 5625,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-xhs-white-editorial/SKILL.md",
+      "sha256": "1628180c52b35776c57d0843a22c183c9635524e596942d206f132b93ba68a98",
+      "bytes": 5759,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-8-bit-orbit/SKILL.md",
+      "sha256": "fb186d395686572c1533ca4d5989133dc2b0707f7f7cc7fdcdd7c30e1f53dc94",
+      "bytes": 4954,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-8-bit-orbit/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-biennale-yellow/SKILL.md",
+      "sha256": "c07ca00a143053e79982bc6a0223f7d5979c0348361021dbe8a517e42141396a",
+      "bytes": 5073,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-biennale-yellow/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-block-frame/SKILL.md",
+      "sha256": "3d08150378d518940ed97fa9cce424bf8f6766cb630c6971bfc11eb0d7c0dc0c",
+      "bytes": 5036,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-block-frame/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-blue-professional/SKILL.md",
+      "sha256": "807c44d68eeb04edaa66335bf8c3e698255f0c18f6f6111bc256e74be4a17c87",
+      "bytes": 5017,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-blue-professional/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-bold-poster/SKILL.md",
+      "sha256": "22a831def21f6f575349349fc4233bd3ee710b8f6cdf9c151f9a5e38e2c3173a",
+      "bytes": 4985,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-bold-poster/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-broadside/SKILL.md",
+      "sha256": "79545ddf64867cbf513f7f9cd2cc5cf6f744a195dc48113da7554694d00ccc9a",
+      "bytes": 5018,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-broadside/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-capsule/SKILL.md",
+      "sha256": "2353aa38783e9d5abf607bb8cfde2069feefce0b0a52e6e252937d9e75b6794d",
+      "bytes": 4894,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-capsule/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-cartesian/SKILL.md",
+      "sha256": "8e9f6cc3892af490556ef69314c8d18015850429d14e8487ec3923707d0a59f5",
+      "bytes": 5157,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-cartesian/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-cobalt-grid/SKILL.md",
+      "sha256": "d257ebe32c3242b75b9900e17f9fb6da15126481d0ff100e610fed8cd273fbce",
+      "bytes": 5098,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-cobalt-grid/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-coral/SKILL.md",
+      "sha256": "f61712d4f47cc8d28232eb8a748d81cf8f7b421af93fd77f6866db471fa0ee4c",
+      "bytes": 4940,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-coral/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-creative-mode/SKILL.md",
+      "sha256": "9fe2a2e7877efe80dac89e4474b907e57d440935bf9db5a3e48454964c0a33e5",
+      "bytes": 5512,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-creative-mode/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-daisy-days/SKILL.md",
+      "sha256": "0f413e40c3b73f3975b59d1dca276007675ce00e9bf3c9e2b15eedc234346e0c",
+      "bytes": 5205,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-daisy-days/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-editorial-tri-tone/SKILL.md",
+      "sha256": "7350ad13e9be1512cd911d2fdf73671f97166ab5299ce07875f2ae7183be5cf4",
+      "bytes": 5493,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-editorial-tri-tone/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-grove/SKILL.md",
+      "sha256": "d09566462de9b6af321f4039d71e2293a0b6e860332d0be0f3ae43a69121813c",
+      "bytes": 5114,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-grove/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-long-table/SKILL.md",
+      "sha256": "7908a049a0ad4ff64be29812378eacf46fb18cda4608ada717eea9f711e47ed6",
+      "bytes": 4981,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-long-table/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-mat/SKILL.md",
+      "sha256": "f8bdd9d6fb5cb25fbf1ad422059d1f6203e22c0d65b1eaa5bb7aae7816852d56",
+      "bytes": 5076,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-mat/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-monochrome/SKILL.md",
+      "sha256": "643dc665a7ec2fea78ed166875aacf455e14467a75e8a2b6216d452146703f33",
+      "bytes": 4998,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-monochrome/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-neo-grid-bold/SKILL.md",
+      "sha256": "76c5e80b9416006704f4a11e043e3e6f46f4585c3daf05a1f22231f75fc55141",
+      "bytes": 5408,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-neo-grid-bold/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-peoples-platform/SKILL.md",
+      "sha256": "0b8037f30eb703297ed32fcac5bf1399c3b8d041b894e3aa255b67ca52934185",
+      "bytes": 5579,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-peoples-platform/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-pin-and-paper/SKILL.md",
+      "sha256": "afc8ae735f24d5a5461c61d573f510406c4b855e83e18564557e886ab82b85b1",
+      "bytes": 5677,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-pin-and-paper/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-pink-script/SKILL.md",
+      "sha256": "2e5d54466fd05bfce77466a4cb8b8eafe226aae73c88126c43de0679807e1e2c",
+      "bytes": 5501,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-pink-script/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-playful/SKILL.md",
+      "sha256": "f536e392744c180e9f8c37c5b94355305ef8e4fe45ef00ce2393d3b5f8119c98",
+      "bytes": 5036,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-playful/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-raw-grid/SKILL.md",
+      "sha256": "8d87e30d7e65020caff77bcf244c2dbb90e2ff7780c3f36a2061fc0b4146f8c6",
+      "bytes": 5030,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-raw-grid/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-retro-windows/SKILL.md",
+      "sha256": "4e84b0bdd280257e3790a15b0ffe86d9ad8960982b98d94d52bf79b1dbb9b656",
+      "bytes": 5010,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-retro-windows/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-retro-zine/SKILL.md",
+      "sha256": "27649fd064fb71ecb6046784e91802ef04a26a2cc22a077eee46443dc372d9be",
+      "bytes": 4922,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-retro-zine/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-sakura-chroma/SKILL.md",
+      "sha256": "c9f0542545284510181744967645fc6c3d93c54e393cb81327bd2d325046db03",
+      "bytes": 5258,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-sakura-chroma/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-scatterbrain/SKILL.md",
+      "sha256": "3b652d7e248eb0147b0b18f6f967774200ea1125b04cce96b2027e940a251517",
+      "bytes": 5175,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-scatterbrain/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-signal/SKILL.md",
+      "sha256": "89fa4c07d9f09f00ec122dbf2de3d2fe15a2192cd011b0f5986917d66554ecb4",
+      "bytes": 4969,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-signal/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-soft-editorial/SKILL.md",
+      "sha256": "ce61c126d5e4f9dfee7497bdb1d5076f45356dff26c9e4abec6ad05a2419637f",
+      "bytes": 5462,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-soft-editorial/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-stencil-tablet/SKILL.md",
+      "sha256": "93e44be99e7e1f22cc39a2dc4c78265ad62bdba16de102161d92c012e067c5f1",
+      "bytes": 5634,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-stencil-tablet/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-studio/SKILL.md",
+      "sha256": "9c1b4bb5ffee87ee2a4d55993b19c9704d9ffa2b9acd04c5d628b6bd8bf4a860",
+      "bytes": 4977,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-studio/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/html-ppt-zhangzara-vellum/SKILL.md",
+      "sha256": "bc74ddf7e869da7b81ace608f736a9244be3ebb9ea1422e62f0923a4fe674569",
+      "bytes": 5042,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/html-ppt-zhangzara-vellum/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/huashu-annual-letter/SKILL.md",
+      "sha256": "c3af59512315bfcebe6d818cec22942c74856a4ee18234939ba8beba22ea1a5c",
+      "bytes": 9892,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "skills_team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/huashu-bento-insight/SKILL.md",
+      "sha256": "24c0d64b152e703d3d73c354ef3490802eb3d0e1bf517defe3644d2adcf3c4df",
+      "bytes": 11408,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/huashu-golden-circle/SKILL.md",
+      "sha256": "fdba249f7f4492a525e3f4df842544c2f36e161e8fca9fbd03584f176f103a3e",
+      "bytes": 11055,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/huashu-keynote-black/SKILL.md",
+      "sha256": "379a05e7afa0d329802aec5903b571c09d7b13446bd22d15b8aff4af5f66563c",
+      "bytes": 10815,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/huashu-luxe-whitespace/SKILL.md",
+      "sha256": "56931b809d8b435fc78b08038ed6ad3dda49747a5343cc29a3db11ce031741b0",
+      "bytes": 11502,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/huashu-pentagram-grid/SKILL.md",
+      "sha256": "13f0827404ca61b5952ae0489f626ed7259226f40cc149cbe26a4c02fa628079",
+      "bytes": 10308,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/huashu-slides/SKILL.md",
+      "sha256": "cca2ebba542dc5f17d56dad0642749435f45047a1bb82609fa09b3013007e0c4",
+      "bytes": 9465,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/huashu-sparkline-arc/SKILL.md",
+      "sha256": "bb3f1d21c21609874a67039340006290422586546a64881ae35eaf9da076f8f8",
+      "bytes": 11419,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/huashu-takram-soft-tech/SKILL.md",
+      "sha256": "d5a65608397414c3e8edd95a29a2e23e5b202f995d78a05405e9aafab6389725",
+      "bytes": 11914,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/hyperframes/SKILL.md",
+      "sha256": "2d787c566779a8f781ccba237c03edd73551d3933b019719100bca92651f9453",
+      "bytes": 28843,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/hyperframes/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/ib-pitch-book/SKILL.md",
+      "sha256": "61e66038c6e0d2dba5dfcf4d23d6bde0a4b1d853a35b1c174b0451d7f6ac3323",
+      "bytes": 8301,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/image-poster/SKILL.md",
+      "sha256": "019fc99e89ddc46e5da0426bf4253c08a1c4244466b6db9e760878fb599c6a66",
+      "bytes": 3709,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/image-poster/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/invoice/SKILL.md",
+      "sha256": "2899d0374f716eac3a98e25402d2eca2e7daa01c51ccbea97879e8f17f665bb6",
+      "bytes": 1444,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/invoice/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/kami-deck/SKILL.md",
+      "sha256": "661fe0446a88b07fbe6ad30bf2edfb4ab3dc490d6d7a5641d6315adb767ee82d",
+      "bytes": 9107,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/kami-landing/SKILL.md",
+      "sha256": "d65f42255fccf018f7dbc209e384d723b41ae9ef0c0927b724f667ad354d8ad5",
+      "bytes": 9787,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/kanban-board/SKILL.md",
+      "sha256": "79f5ac0147eb9189b5e5d7de4e46976a84f0f1dc5af082c80174c1ad448b0a27",
+      "bytes": 1606,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/kanban-board/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/last30days/SKILL.md",
+      "sha256": "06c3dea51a55183ea86b0a513e5045c1266379b70c8248e09fecd49aced693cc",
+      "bytes": 5157,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "skills_team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/live-artifact/SKILL.md",
+      "sha256": "aff266545a12221a4f324bbc0a81d44e8ccb32fccce338d8eee381fc02e8e231",
+      "bytes": 8041,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team",
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/live-dashboard/SKILL.md",
+      "sha256": "716e58fb87b8870e705a17d5cb270e9181fcc0ff3c0752a9307e67e5096241bc",
+      "bytes": 8608,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/magazine-poster/SKILL.md",
+      "sha256": "54f9e0a56c6280a120fefc6cbcdf48837ca97d8b24aed98664a2c14646414e9f",
+      "bytes": 3669,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/meeting-notes/SKILL.md",
+      "sha256": "3fb29f8c5f5ae733e879a32fc2158615a27e065f4bab6cd646aa354a3a065d41",
+      "bytes": 1354,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/meeting-notes/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/mobile-app/SKILL.md",
+      "sha256": "056c37e1acbc8be7f0b81862f11103bf66859f72081264da43fb1f020b36da53",
+      "bytes": 3962,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/mobile-app/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/mobile-onboarding/SKILL.md",
+      "sha256": "1d264d7f8891bb1aaafdc3297d1c1cbec3775067e54a9c68a98191bc5d2efa9e",
+      "bytes": 1651,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/mockup-device-3d/SKILL.md",
+      "sha256": "cdcf138adc35606466b0346f491ebedbc82e51f5ca0370c8d2dc5f2a50c8fc0f",
+      "bytes": 4532,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/motion-frames/SKILL.md",
+      "sha256": "876e1d7116431cc5c5a9e50f34af2afb22dcde5093e03f08a45ebb8b4b98ebe6",
+      "bytes": 3798,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/motion-future/SKILL.md",
+      "sha256": "b66d63dfe094e7a0cb5bef1f080ec9b53293bb28f522b318a4ccb56d317b9445",
+      "bytes": 6614,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/motion-product-promo/SKILL.md",
+      "sha256": "584450ceb6b363ecfeec40a94d4c7033221b4eb88fb2cb1d05c9286e1a167c19",
+      "bytes": 7319,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/motion-showreel/SKILL.md",
+      "sha256": "593a32e3cb71d7744a44a34e7b9d8f56a505190b9283183bf368ad17a660dbc8",
+      "bytes": 6258,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/motion-ui-morph/SKILL.md",
+      "sha256": "89b4e44ad46931362a45cab0bb9829eeeee8a09e470d3d70a1f3afe0dde42312",
+      "bytes": 5319,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/motion-visual-lesson/SKILL.md",
+      "sha256": "3e50e3dfd3f2347ead41cb1346f734be71a48d0b8bd4c094ab632b2bf6fc8439",
+      "bytes": 9601,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/od-plugin-contribute-open-design/SKILL.md",
+      "sha256": "fa6b2df16b271af5e140ddcd0c6d85217bd8464724945f4a3058fc0dd89845c4",
+      "bytes": 1448,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/od-plugin-publish-github/SKILL.md",
+      "sha256": "aa348d79d2fb85f52aff40a8d3281a1c93a301d6a25efa987b86dcf7a20c76c9",
+      "bytes": 1365,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/open-design-homepage/SKILL.md",
+      "sha256": "ddc16e108d41341c22f15148ad3e9ded33cc9d5090be8d8771df8d40937b955f",
+      "bytes": 2734,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/open-design-landing/SKILL.md",
+      "sha256": "dc9996eb9d757e59fa7796f884e0579057521abb119af1cb55c67cab4cb20f34",
+      "bytes": 12563,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/open-design-landing-deck/SKILL.md",
+      "sha256": "17f25e78d61b40065c743492c14f9ba5f300c6624aeca3622d99419585bed24e",
+      "bytes": 10278,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/orbit-general/SKILL.md",
+      "sha256": "beaa70cea5c41cb70e2b975bfe3bcc6cd9a8ef0e8c42cef5e4808ad1190e8e33",
+      "bytes": 11081,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/orbit-github/SKILL.md",
+      "sha256": "e59d93de7faee15ee156a96a56d51d9db6d45bcc1f13e5615e6d84ff46b5df49",
+      "bytes": 7223,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/orbit-gmail/SKILL.md",
+      "sha256": "304322a6db914fade8773958f23999a1eaf50968f0bcc3f0c6730d2560a3f828",
+      "bytes": 7434,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/orbit-linear/SKILL.md",
+      "sha256": "6748460b0facbf1a9d54f460f21ebf260a160727efca2c7bcb41b934434e808e",
+      "bytes": 7705,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/orbit-notion/SKILL.md",
+      "sha256": "88c6b536659310d581f4f6da45b326cf3268db994e2fc016248996247d37b568",
+      "bytes": 8197,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/pm-spec/SKILL.md",
+      "sha256": "099d54e4dce4a002a8f0291b8c036c9ccd11abef9cf68026037f673d7f3f2717",
+      "bytes": 1607,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/pm-spec/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/poster-hero/SKILL.md",
+      "sha256": "2c0182a00b8b68989f982ffa93db3fa04804c14cbf2f2d9339157752d172be8d",
+      "bytes": 2055,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/ppt-keynote/SKILL.md",
+      "sha256": "49c89d8c9ec0248c6b412c76ebad12530935aa1e64487b054c5b7c2cadf4cff6",
+      "bytes": 3470,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/pptx-html-fidelity-audit/SKILL.md",
+      "sha256": "a8e58320a477e4e7d71d30411ccae8c60936ca9863989586efba231927a76684",
+      "bytes": 14423,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/pricing-page/SKILL.md",
+      "sha256": "e563727e47a1a59b38098e89109e746ce8fb8db438bbb39b0cd03292ea0775a7",
+      "bytes": 2926,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/pricing-page/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/replit-deck/SKILL.md",
+      "sha256": "849000dbd4a47a248f3aae4c98da7bfe49d5ea22027a7ec54340273522eaf8dd",
+      "bytes": 13526,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/replit-deck/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/resume-modern/SKILL.md",
+      "sha256": "45e0a22800ed7b20c77e8a36aaa598dbe2fb9c0633666df3723604323855d673",
+      "bytes": 2166,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/saas-landing/SKILL.md",
+      "sha256": "25fda403cba6b06a54572c69dafcae91f29329dc080670a648cb311ab9efa4b7",
+      "bytes": 4742,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/saas-landing/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/simple-deck/SKILL.md",
+      "sha256": "e89ff4773af5b4275d5b540108f3d0aa7f927eb4cd813a3319164271cca1f5f1",
+      "bytes": 5814,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team",
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/social-carousel/SKILL.md",
+      "sha256": "df14fa564be6f3e8d8890bc03ddd05cac79d7a5c8ee6ca72c6afa9e2d037e636",
+      "bytes": 3989,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/social-media-dashboard/SKILL.md",
+      "sha256": "c1731368b495e26b9e399b135b65c1f2bc83340f02ddb49a5bdfa3ba73f12d2d",
+      "bytes": 5770,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/social-media-dashboard/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/social-media-matrix-tracker-template/SKILL.md",
+      "sha256": "695ada2fbc0f2a34d2e691ce80e9e00c6a201238b0fe10b3c7145260f4f7c532",
+      "bytes": 4969,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/social-reddit-card/SKILL.md",
+      "sha256": "e108e87472340eea5820843e078e671a9057582c72962f2e0425f6771267327d",
+      "bytes": 3614,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/social-spotify-card/SKILL.md",
+      "sha256": "3719052a49c7efe2e566678c1ee227cb66be0736ea8c606858dadaf64f2d4e0e",
+      "bytes": 3917,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/social-x-post-card/SKILL.md",
+      "sha256": "d4f64217fba475045f64c8a0f728960c567c927d6d6bd8d7251061c4f988445d",
+      "bytes": 3754,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/sprite-animation/SKILL.md",
+      "sha256": "8ea7420fdef2f20fd345e59c2425499d0d18f7a64a59afb3f4aaf69d1c5ffa95",
+      "bytes": 4350,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/team-okrs/SKILL.md",
+      "sha256": "f6dd1cc149adad09fcaa40a137ab973fa4f10818e222fdd8b7d9badc84dad4ef",
+      "bytes": 1363,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/team-okrs/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/trading-analysis-dashboard-template/SKILL.md",
+      "sha256": "6f06b8b2f30a45d5204917bb2717ed80d1343bcbbfea919dc72b822d73086122",
+      "bytes": 2537,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/trading-analysis-dashboard-template/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/tweaks/SKILL.md",
+      "sha256": "ad4c7078fdc2d452568f321c88f8143959fb7b6bb7463183c554131de2719384",
+      "bytes": 9044,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/ve-midnight-editorial/SKILL.md",
+      "sha256": "dbcea952b1fcb2f560d63cdabccd9e5944ceef06615b549fc8bdca5bd3ce9eab",
+      "bytes": 10765,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/ve-terminal-mono/SKILL.md",
+      "sha256": "088985813010d214f578f4ee40234225a07cdaf5c73f228bdf991dcf5db0e6ad",
+      "bytes": 10201,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/velar-luxury-real-estate/SKILL.md",
+      "sha256": "2783e337f3866bca99740197c3d2e3be0363595bffa0ddea87eae5d8061769c2",
+      "bytes": 10754,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/vfx-text-cursor/SKILL.md",
+      "sha256": "26c6f8f2abdb408bb84b03c870b723c8472e5a46b1c03b1b9cf67934393e109b",
+      "bytes": 3760,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/video-hyperframes/SKILL.md",
+      "sha256": "b24173eb7a418de74d00b6df7ffc9d63d8d5ad6ffbf9024ba2b9e4caef8b5cf0",
+      "bytes": 2753,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/video-shortform/SKILL.md",
+      "sha256": "bb599c5081feb9c4ba8493911f9b22b30e0fb1c3a9ff6e1a9ee3d6d775508de2",
+      "bytes": 4607,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team",
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/waitlist-page/SKILL.md",
+      "sha256": "bcfcf6c94767af3c0167382edc32227fe6e6cfdbbef1813949d04365099e6bf7",
+      "bytes": 14204,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/web-prototype/SKILL.md",
+      "sha256": "d730e5c2ad25f2462c430f6a0d3ee7df3827e347a07c5857a66e9945af83a5ff",
+      "bytes": 5969,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team",
+        "skills_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/web-prototype-taste-brutalist/SKILL.md",
+      "sha256": "3c00250ada1abb43273d8892405fbc1a6be74523a947bab491b1b5bf4137e32f",
+      "bytes": 4080,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/web-prototype-taste-editorial/SKILL.md",
+      "sha256": "a00580ad92b5ca8281cc88162035969d6e24bb953896ddbe46eccb43de3fba05",
+      "bytes": 3365,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/web-prototype-taste-editorial/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/web-prototype-taste-soft/SKILL.md",
+      "sha256": "30b8c1dd03e6b054be5e6aa65e7afd8c1a0d5cc135f09625e689cc0ce4315726",
+      "bytes": 4222,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/web-prototype-taste-soft/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-aurora-veil/SKILL.md",
+      "sha256": "6662689fd629ed4c5c770d4263a0f8b2d160c020b40d66fd55ae3483f2827af2",
+      "bytes": 1396,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-caustic-pool/SKILL.md",
+      "sha256": "3fc27f9408e4c36c71676178aeb94b7e42c282c2d45216472e88a555d7e61575",
+      "bytes": 1412,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-depth-gallery/SKILL.md",
+      "sha256": "a9b3b6107a7c6a689508b3e88efd97ecfe3a9c4d84b61ed0e37e6a5048276fa5",
+      "bytes": 1533,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-distortion-grain/SKILL.md",
+      "sha256": "1cb7ff47a3bd334950e2d5d6aa9cd43f4404e0144d6ea3b7ebe08f58e5478f5d",
+      "bytes": 1476,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-experience/SKILL.md",
+      "sha256": "685dfedd4f9d7725c36e66819a9644100dae1a1af71ba05a3615a8eec37e85c7",
+      "bytes": 3739,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/webgl-experience/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-halftone-drift/SKILL.md",
+      "sha256": "6a41a5837a4291cbcef7958388e3d13aa626f1fa6cab53f1f6e90215127fa90e",
+      "bytes": 1444,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-holographic-foil/SKILL.md",
+      "sha256": "7c06f1ab65996efbd8c8dcdea59de1665baf9eb7656adef8fe9730bb2531cbb5",
+      "bytes": 1456,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-horizontal-parallax/SKILL.md",
+      "sha256": "2cec36dd18aa4948cc4a97625d416a4617f2c428fbeda3ddfb82d87ac55e9ff8",
+      "bytes": 1529,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-liquid-iridescence/SKILL.md",
+      "sha256": "4bbc04be6f79042dbaa775b1acbbd4ea500d8bfbdaa033216e9d0bf1b4c12756",
+      "bytes": 1420,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-liquid-metal/SKILL.md",
+      "sha256": "b957a7d6e9ef838bf4e1993c7ce16879af9f01ea4dc019e2216498d2bf10dd66",
+      "bytes": 3528,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-neon-grid/SKILL.md",
+      "sha256": "5139b2cc34c6304fc656bbe32a7ce9d91226a5eb926797818bf55233daf82c9f",
+      "bytes": 3478,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-particle-galaxy/SKILL.md",
+      "sha256": "ea06f48ce3ed8f50676941fd921615cc7c59d8a34dd9c5925f6f6e481c18eb2e",
+      "bytes": 3873,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-pixel-reveal-gallery/SKILL.md",
+      "sha256": "f9f0c8b996d9bf5fb27e81ee6ebf4b489240089afa7008cf773c868b432b9a94",
+      "bytes": 1532,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-raymarched-hero/SKILL.md",
+      "sha256": "956d7511dbc1af5b8aa3e49dc2d69993ae398f267f2da1fcc800e97319ea16bd",
+      "bytes": 3553,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/webgl-voronoi-cells/SKILL.md",
+      "sha256": "39dfc94db3bf68fe035e8ed7c33354acd85021f4f42a9d4d226e3f985d6c79eb",
+      "bytes": 1452,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "skills_team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": null,
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/weekly-update/SKILL.md",
+      "sha256": "388916b64046ca539dd3967c0b4c52048699780b79c05b3a53d739ff84cff207",
+      "bytes": 2831,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/weekly-update/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/wireframe-annotated/SKILL.md",
+      "sha256": "b7f7964d45da9b882f128943ebfb7df5aeb0f52268f5c83d4cadcdeceafb8014",
+      "bytes": 4022,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/wireframe-annotated/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/wireframe-greybox/SKILL.md",
+      "sha256": "aec7ca27c6721887bff35d7ee074c97c1127538ec5b2bb49fe635d53f093bef5",
+      "bytes": 3942,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "/root/components_team/mui",
+        "components_team",
+        "resources-team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/wireframe-greybox/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/wireframe-mobile-flow/SKILL.md",
+      "sha256": "c7312e1ed0ece9707a90eec36c85917f3b7e561a34173b94f36ec0ee12df12c1",
+      "bytes": 4365,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/wireframe-mobile-flow/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/wireframe-sketch/SKILL.md",
+      "sha256": "3d789de11b3b038f02d5a5dc0b0d0638c9b6f7bb6f34406c95ef5cf3383b6e9a",
+      "bytes": 4127,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/wireframe-sketch/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/worker-visualizer/SKILL.md",
+      "sha256": "e8d37d6bc69c0aba0023c01542b7ebbf8a50281c5ba163019ca65d1a5984ff7e",
+      "bytes": 4114,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "/root/components_team/mui",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/worker-visualizer/SKILL.md",
+      "missingSemanticBlocks": []
+    },
+    {
+      "path": "plugins/_official/examples/x-research/SKILL.md",
+      "sha256": "2e252cb623a9bb55b014e2bb45be3977aa95cc89089594cb046bb02cb435e082",
+      "bytes": 4036,
+      "read_status": "read-complete-block-reconstruction",
+      "reader": [
+        "resources-team",
+        "components_team"
+      ],
+      "evidence": "Exact original bytes reconstruct from block-manifest.json ordered blockIds; every non-whitespace block has an explicit completed-batch reader receipt.",
+      "exactByteAliasOf": "design-templates/x-research/SKILL.md",
+      "missingSemanticBlocks": []
+    }
+  ],
+  "limits": "Complete body-text coverage through deduplicated ordered reconstruction is distinct from holistic per-skill evaluation: reading shared paragraphs once does not evaluate every cross-block combination. SKILL.md text only; linked references, code/assets, actual runtime behavior and source license declarations remain distinct evidence."
+}

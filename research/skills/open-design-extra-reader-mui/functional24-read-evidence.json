@@ -1,0 +1,261 @@
+{
+  "summary": {
+    "source": "nexu-io/open-design",
+    "pin": "8d820a698908dc279ef3d5aeb4ce6d156211a499",
+    "assigned": 24,
+    "full_semantic_reads": 24,
+    "unique_hashes": 24,
+    "body_bytes": 490335,
+    "parent_hash_matches": 24,
+    "support_inventory": 124,
+    "support_full_reads": 9,
+    "local_reference_edges": 74,
+    "local_present": 73,
+    "unresolved_or_generated_paths": 1,
+    "executed_upstream_code": false,
+    "product_changes": false,
+    "limits": "All24 SKILL bodies read in full. Local support inventoried; only explicit full read statuses claim semantic review. No actual interaction, exported media, perf or source assertion verified by execution."
+  },
+  "records": [
+    {
+      "path": "skills/animate/SKILL.md",
+      "sha256": "2efc3b3d3ea5ba9f4265975bf161013e322fac6485c5ee8459ee1f9001fdd855",
+      "bytes": 12707,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Purpose/frequency gate, interruption/retargeting, reduced-motion; reject hard numeric thresholds and blanket animation bans."
+    },
+    {
+      "path": "skills/emil-design-eng/SKILL.md",
+      "sha256": "d14c4e9eeb289f580d4ebcf48e6cf34b055fad14f5382b1f6e01708447b99a67",
+      "bytes": 28833,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Component polish, origin, gesture capture, motion under load; rhetorical superiority and fixed initiation/output rejected."
+    },
+    {
+      "path": "skills/emilkowalski-motion/SKILL.md",
+      "sha256": "f6aa2fa977d2bdda62b8a5f7b4749d9e750bee57373ac7de1625293e23dacfcc",
+      "bytes": 2642,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Compact follow-up retains layout/content, reuses stack, cleans resources; timing remains heuristic."
+    },
+    {
+      "path": "skills/gsap-core/SKILL.md",
+      "sha256": "76e74c87364f5eb3e2d5709629a09bff4c10ace4f35d6ba6ed1bd0944e735dcf",
+      "bytes": 15605,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Core tween API, immediateRender, SVG/global origin, matchMedia; source assertions not runtime verified."
+    },
+    {
+      "path": "skills/gsap-frameworks/SKILL.md",
+      "sha256": "7768df9f2771da80041b721e4e7907bf18bacb24fe042c41bf6a6ff0ad8a3f4f",
+      "bytes": 11176,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Create after mount, scope selectors, revert on unmount; framework recipes are optional implementation knowledge."
+    },
+    {
+      "path": "skills/gsap-performance/SKILL.md",
+      "sha256": "54b2dac4a7a30ae5e4b28ef3628c1527e21bb6a7989f7105e724e84e4a9a1c09",
+      "bytes": 4825,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Batch DOM reads/writes, pause offscreen, reuse updates; no measured performance here."
+    },
+    {
+      "path": "skills/gsap-plugins/SKILL.md",
+      "sha256": "98f140d207b4ca10abfb238eed39e89c6d291b10a40c29b6cd8111b83752bb9d",
+      "bytes": 22613,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Plugin registration and capabilities; skill MIT does not license GSAP runtime or external assets."
+    },
+    {
+      "path": "skills/gsap-react/SKILL.md",
+      "sha256": "4d9cafa021a09466b6fbfa7b9d61a30d4da2267aa9e2486f8728bf11c147c2d8",
+      "bytes": 7270,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Scoped refs and contextSafe callbacks, cleanup/dependency resync, SSR boundaries."
+    },
+    {
+      "path": "skills/gsap-scrolltrigger/SKILL.md",
+      "sha256": "89ccdf9c9414301e85047e85ae4621739f621f34ddcfac9accc1c15525cc47b9",
+      "bytes": 19364,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Scroll clock vs discrete trigger, pin/inner animation, refresh layout and cleanup; API not exercised."
+    },
+    {
+      "path": "skills/gsap-timeline/SKILL.md",
+      "sha256": "b4c63bb730245041de817eae1e1fe8bdd39c6708fe563c679485b894aa84b91a",
+      "bytes": 5078,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Position/label/default/nesting/playback vocabulary; no new creative method needed."
+    },
+    {
+      "path": "skills/gsap-utils/SKILL.md",
+      "sha256": "0a55da1c658b632652d149558663b409d1cc430338e653df566219de8e474a06",
+      "bytes": 12969,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Range/identity/units/array helpers; exact APIs are source claims, not endorsed untested implementation."
+    },
+    {
+      "path": "skills/huashu-art-motion/SKILL.md",
+      "sha256": "ec885dbb21d2c1ad8216cc60c118a7793cc8502bc5c8b3be033158937e137b8c",
+      "bytes": 5711,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Art mechanism/style vs copied specimen, deterministic time/seed, key-frame and continuous review; refs remain mostly inventoried."
+    },
+    {
+      "path": "skills/motion-design/SKILL.md",
+      "sha256": "304fb0a35dc87eefeba65f725131fd7ee4934aa7ecc9a119128bf5fef1981d87",
+      "bytes": 23905,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Beat map, reading holds, object continuity, deterministic seek, editable/video distinction, audio/export evidence; reject host renderer mandate and fixed review quotas."
+    },
+    {
+      "path": "skills/motion-lab/SKILL.md",
+      "sha256": "399b03aac07529feecb49088b2771dc4d0f063813014c501b94ef391be082715",
+      "bytes": 4129,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Select only task-relevant case; scope selectors/units, cleanup/multi-instance and observed limits; no160-case qualification."
+    },
+    {
+      "path": "skills/oil-motion/SKILL.md",
+      "sha256": "8414379a3029971ea1e7ec7e303eb697703dce0a9a3707fea4e4def1f1525e9f",
+      "bytes": 12650,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Separate user concept, derived brief, actual timeline, delivery budget; separate input driver/time control/media format; rapid reverse cancellation."
+    },
+    {
+      "path": "skills/review-animations/SKILL.md",
+      "sha256": "96874126738f3324cd6f9cc335ca4748f8e0e39f1b847acf450447644819a824",
+      "bytes": 8952,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Interruptibility and scoped evidence useful; default-to-flag approval posture, fixed timing/bans and mandatory report format rejected."
+    },
+    {
+      "path": "skills/ui-animation/SKILL.md",
+      "sha256": "dbd36af5b0aa043709955b5b9d40359138b5559543e5ca26055c6a9292285618",
+      "bytes": 24780,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Immediate task/focus independent of visual transition; contextual motion opportunities; recording sampling and fitted-vs-estimated evidence; do not run scripts."
+    },
+    {
+      "path": "skills/image-to-code-skill/SKILL.md",
+      "sha256": "6467ae074994c03acb805f651adc06c052fc0f699a7b5190319ef7117d216e8c",
+      "bytes": 38267,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "two contiguous ranges [0,19000),[19000,38186)",
+      "matches_parent_inventory": true,
+      "observation": "Full image-first/extraction/implementation body read; reject mandatory new images, anti-crop and count quotas, preset aesthetics."
+    },
+    {
+      "path": "skills/imagegen-frontend-mobile/SKILL.md",
+      "sha256": "56f330a54507695464cb176653b1d2c4b8cef71a34cd9c5ccb4687398bbc08c5",
+      "bytes": 42354,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "two contiguous ranges [0,21000),[21000,42313)",
+      "matches_parent_inventory": true,
+      "observation": "Full screen/flow/device/safe-area/consistency guidance; reject one screen per image, mockup defaults, bans and generation eagerness as universal requirements."
+    },
+    {
+      "path": "skills/imagegen-frontend-web/SKILL.md",
+      "sha256": "d648186c8f0885643bd46ad57ca69a34f38688de9a495a1097efc5a576a165d3",
+      "bytes": 38445,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "two contiguous ranges [0,19000),[19000,38371)",
+      "matches_parent_inventory": true,
+      "observation": "Full section/composition/palette/funnel guidance; reject quotas and universal generated-reference workflow."
+    },
+    {
+      "path": "skills/taste-skill/SKILL.md",
+      "sha256": "0beb5259f12af9a7428f980b7f269e834952576ef2bd033c7de514e8fd715cdb",
+      "bytes": 89148,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "four contiguous UTF16 ranges [0,22000),[22000,44000),[44000,66000),[66000,89021)",
+      "matches_parent_inventory": true,
+      "observation": "Full v2 body and appendices read in four contiguous chunks; preserve-vs-overhaul and source/approximation distinction useful; style bans, invented scores, content caps, forced assets/dark mode and unverified metrics rejected."
+    },
+    {
+      "path": "skills/taste-skill-v1/SKILL.md",
+      "sha256": "7fa2d98277e5964bacf641ba77602752deb8df0872bed8896bc26e95acbe5eb4",
+      "bytes": 22034,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Full v1 body read; infinite micro-loops and house style conflict with restrained/contextual motion; no automatic adoption."
+    },
+    {
+      "path": "skills/hatch-pet/SKILL.md",
+      "sha256": "a64bc8085f1e0c56c0cef2c9d39b30776458d00470bfc668cdf391fd45a12d0d",
+      "bytes": 24208,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Canonical identity vs geometric validation, selected originals, source/derivative distinction; pet atlas recipes and mandatory delegation not generic Ingenium."
+    },
+    {
+      "path": "skills/stitch-skill/SKILL.md",
+      "sha256": "751a9fb2a7f611f45417618a3bacfbad33ca714a65809d30a2fdcdf083cea189",
+      "bytes": 12670,
+      "read_status": "full-semantic-read",
+      "reader": "/root/components_team/mui",
+      "read_method": "full raw body, no summary substitution",
+      "matches_parent_inventory": true,
+      "observation": "Semantic names+values+roles useful already covered; fixed bans and perpetual loops are house style, reject."
+    }
+  ]
+}

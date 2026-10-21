@@ -1,0 +1,3626 @@
+{
+  "schema": "ingenium-study-source-inventory/1",
+  "scope": "All blob paths checked for actual SKILL.md; all markdown and notice candidates enumerated; selected content read. Asset glyphs named license are not notices.",
+  "sources": [
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "retrievedUTC": "2026-10-21T21:45:47.9694009Z",
+      "treeTruncated": false,
+      "treeComplete": true,
+      "blobPathsEnumerated": 3345,
+      "actualSkillFiles": [],
+      "documentNoticeCandidates": 384,
+      "topLevelBlobCounts": {
+        "[root]": 20,
+        ".devcontainer": 3,
+        ".github": 15,
+        "bin": 75,
+        "css": 2,
+        "images": 9,
+        "patched-fonts": 1801,
+        "src": 1420
+      }
+    },
+    {
+      "repository": "bradtraversy/design-resources-for-developers",
+      "commit": "035bac33121d13f51983c2997ba7369abdce082c",
+      "retrievedUTC": "2026-10-21T21:45:48.5306178Z",
+      "treeTruncated": false,
+      "treeComplete": true,
+      "blobPathsEnumerated": 11,
+      "actualSkillFiles": [],
+      "documentNoticeCandidates": 4,
+      "topLevelBlobCounts": {
+        ".github": 6,
+        "[root]": 5
+      }
+    },
+    {
+      "repository": "google/material-design-icons",
+      "commit": "49d4db35df873165d6bd6ba09b063c7dafbac2f4",
+      "retrievedUTC": "2026-10-21T21:45:50.9115166Z",
+      "treeTruncated": true,
+      "treeComplete": true,
+      "blobPathsEnumerated": 4864516,
+      "actualSkillFiles": [],
+      "documentNoticeCandidates": 3,
+      "topLevelBlobCounts": {
+        ".github": 1,
+        "[root]": 3,
+        "android": 285820,
+        "font": 11,
+        "ios": 216464,
+        "png": 86044,
+        "src": 14155,
+        "symbols": 4262004,
+        "update": 5,
+        "variablefont": 9
+      }
+    }
+  ],
+  "files": [
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": ".devcontainer/README.md",
+      "gitBlobSHA1": "9c44a60439b5b52ce82b0972c6c84c076c96e54d",
+      "sourceBytes": 1459,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "gitBlobSHA1": "0e853a85e1527c2a8eb3d53af4e82581d118e6d4",
+      "sourceBytes": 1074,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "CONTRIBUTORS.md",
+      "gitBlobSHA1": "3509000ef80ded3d8a01d323ddabf57c021475ca",
+      "sourceBytes": 86329,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "LICENSE",
+      "gitBlobSHA1": "d163912b383cac468b3052e60ad4998e80046cc7",
+      "sourceBytes": 6200,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 6200,
+      "sha256": "1f6ad4edae6479aaace3112ede5279a23284ae54b2a34db66357aef5f64df160"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "backers.md",
+      "gitBlobSHA1": "0d035823e4e51a79b0bdfb4858fd61ae6bf8ac07",
+      "sourceBytes": 538,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "bin/scripts/README.md",
+      "gitBlobSHA1": "8f27675bc03157f717ebbbb3437d63732f680062",
+      "sourceBytes": 3713,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "bin/scripts/braille/README.md",
+      "gitBlobSHA1": "6818845849e48ee377ab72455c3ff23a3b35378e",
+      "sourceBytes": 395,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "bin/scripts/data/sankey/README.md",
+      "gitBlobSHA1": "405ed50b2613bd7d33a2be5b08559219da505a85",
+      "sourceBytes": 2419,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "bin/scripts/lib/README.md",
+      "gitBlobSHA1": "8749dfaa8be3306b685bebd9a9675e95d5ea3f8b",
+      "sourceBytes": 2462,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "bin/scripts/name_parser/README.md",
+      "gitBlobSHA1": "ece39f7379af22d9e23cb456156de7016b332d63",
+      "sourceBytes": 3156,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "changelog.md",
+      "gitBlobSHA1": "0b3c55b7a17e354b58e5cc3b6f2ebffdb0f54e4e",
+      "sourceBytes": 46628,
+      "readStatus": "selected-sections-read",
+      "reason": "Current through v3.3 read for migration/cell-width evidence; older history inventoried only",
+      "bytes": 46628,
+      "sha256": "5048904e36bcc6b9cdc2fbc211d888bcf2323eed1665852c2f74f16564484990"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "code_of_conduct.md",
+      "gitBlobSHA1": "4e3d4e8a98dd76af0807edc5819950ae6446183f",
+      "sourceBytes": 3332,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "contributing.md",
+      "gitBlobSHA1": "dd3c8b69666c80670cc89b5a1a460786e8e6936b",
+      "sourceBytes": 8030,
+      "readStatus": "selected-sections-read",
+      "reason": "Operational/licensing conditions inspected; not all contributor lists or boilerplate semantically reviewed",
+      "bytes": 8030,
+      "sha256": "bbff1f0d3a496518b82a1274c177e23797eb3f85e7841614c1995a79e0b8640e"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "license-audit.md",
+      "gitBlobSHA1": "a47f213a45767238af87d4b722cc875cd400ea43",
+      "sourceBytes": 8470,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 8470,
+      "sha256": "c2a3f634fa1e5001912f4f19a42fa86fdef5654691b70000f936089325aa404f"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/0xProto/README.md",
+      "gitBlobSHA1": "e0a56df60f2496ab03b25cbdee3864c9dacec405",
+      "sourceBytes": 3738,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/3270/LICENSE.txt",
+      "gitBlobSHA1": "b8f248ab4051e6d3e259fbf0799f38a96491aa8f",
+      "sourceBytes": 2675,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/3270/README.md",
+      "gitBlobSHA1": "1d571920ac891f4a6cbd9474e5856123403312a6",
+      "sourceBytes": 3768,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/AdwaitaMono/README.md",
+      "gitBlobSHA1": "5eb42d748ccfd319bdf9aec2957ead327c21b6e8",
+      "sourceBytes": 3981,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Agave/LICENSE",
+      "gitBlobSHA1": "e6e5f312bdce413a788f0d6f420cd1612f0c774b",
+      "sourceBytes": 4386,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Agave/README.md",
+      "gitBlobSHA1": "240d16ad6259c346f5a794be0054d717ba94d05a",
+      "sourceBytes": 3820,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/AnnotationMono/README.md",
+      "gitBlobSHA1": "8880b0d5bbf677964d9b6976c3b7dd713e114fc2",
+      "sourceBytes": 3845,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/AnonymousPro/OFL.txt",
+      "gitBlobSHA1": "68d1d00550fb9d708e266171e4f67e73c8ae0199",
+      "sourceBytes": 4521,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/AnonymousPro/README.md",
+      "gitBlobSHA1": "9ea6098b91c821fce206d79075a1a7cb14903987",
+      "sourceBytes": 4632,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Arimo/OFL.txt",
+      "gitBlobSHA1": "d2963d749510d1b7c0dd7952c1ab74b0a7d97aef",
+      "sourceBytes": 4383,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Arimo/README.md",
+      "gitBlobSHA1": "aac6f6c31609aebb4120844ced5b75da433a3cf0",
+      "sourceBytes": 3918,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/AtkinsonHyperlegibleMono/README.md",
+      "gitBlobSHA1": "f87c954373a430cfa2f5b095923b886a7fc64d6c",
+      "sourceBytes": 4673,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/AurulentSansMono/README.md",
+      "gitBlobSHA1": "626a404b7f3c42cdf24ccee1a778b75cfddac4c8",
+      "sourceBytes": 3788,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/AurulentSansMono/SIL Open Font License.txt",
+      "gitBlobSHA1": "14c043d601cc55a74640d8c5c82957d2c84f2ad8",
+      "sourceBytes": 4299,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/BigBlueTerminal/LICENSE.TXT",
+      "gitBlobSHA1": "fd662a7e6c628e351ccd072bf4a30710d36f4556",
+      "sourceBytes": 20133,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/BigBlueTerminal/README.md",
+      "gitBlobSHA1": "dc30e5718e3aeb77bcdae895ce6f6d9165d28e58",
+      "sourceBytes": 16150,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/BitstreamVeraSansMono/Bitstream Vera License.txt",
+      "gitBlobSHA1": "cf008351073b98b7572a071645ebdc9ca4a8c156",
+      "sourceBytes": 5952,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/BitstreamVeraSansMono/README.md",
+      "gitBlobSHA1": "5ff877246e1df2384de6e083d28d48b7c2b3498e",
+      "sourceBytes": 4481,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/CascadiaCode/LICENSE",
+      "gitBlobSHA1": "40f856f6ecc6de260b4065368ad2f5c4f8cbdcbc",
+      "sourceBytes": 4395,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/CascadiaCode/README.md",
+      "gitBlobSHA1": "6315cf0a843220394507cf8f405b47262b43b6d2",
+      "sourceBytes": 5490,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/CascadiaMono/README.md",
+      "gitBlobSHA1": "c0371f5980bd2cf501dbc622fc1f6c19a1cb3a31",
+      "sourceBytes": 5426,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/CodeNewRoman/README.md",
+      "gitBlobSHA1": "52f5b2cbed593cab877cd9227e6326292fab7faa",
+      "sourceBytes": 3836,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/CodeNewRoman/license.txt",
+      "gitBlobSHA1": "5f04ebcd3e15b1594a3965e326bc09dfb78f49e0",
+      "sourceBytes": 2958,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ComicShannsMono/LICENSE.md",
+      "gitBlobSHA1": "e9a4893d4327d47e8604cb0a6a144c4b94ed4c28",
+      "sourceBytes": 1103,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ComicShannsMono/README.md",
+      "gitBlobSHA1": "20edf2293f6c90bdcd93e724e42def14d854b859",
+      "sourceBytes": 4669,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/CommitMono/README.md",
+      "gitBlobSHA1": "9e3e77d2e71a99245585f923c26936f90c4670e5",
+      "sourceBytes": 3827,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Cousine/OFL.txt",
+      "gitBlobSHA1": "9ff908c1a0f0c8cd9b0706fd205f4fb25c51fc75",
+      "sourceBytes": 4481,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Cousine/README.md",
+      "gitBlobSHA1": "1c071d2a8900dac01e09bfd5387c02f780278121",
+      "sourceBytes": 3870,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/D2Coding/README.md",
+      "gitBlobSHA1": "061e56afe6ff75f221bc2090b34062c2434afa0a",
+      "sourceBytes": 4519,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/DaddyTimeMono/LICENSE.md",
+      "gitBlobSHA1": "b40100d855d8096de45a684a0450723c44bb94e7",
+      "sourceBytes": 4278,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/DaddyTimeMono/README.md",
+      "gitBlobSHA1": "40ef7cc1170ef3acd67d7a3b81a192c5a1d6d471",
+      "sourceBytes": 3861,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/DejaVuSansMono/LICENSE.txt",
+      "gitBlobSHA1": "69399804ca6c71fd61ed0ae47535baad3bb55e79",
+      "sourceBytes": 4765,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/DejaVuSansMono/README.md",
+      "gitBlobSHA1": "d01bb4e1e85b788ecbdf65aa49218b0d5a4d774c",
+      "sourceBytes": 4355,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/DepartureMono/README.md",
+      "gitBlobSHA1": "3b4de9cacc4a156866a5a2b578536aa091f1ea64",
+      "sourceBytes": 3797,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/DroidSansMono/LICENSE.txt",
+      "gitBlobSHA1": "8bfd282a79b5a76f9b55d3b8f631025eba3feb23",
+      "sourceBytes": 572,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/DroidSansMono/README.md",
+      "gitBlobSHA1": "51b31bced2f016f9839e8754fa506f3bc51de8ae",
+      "sourceBytes": 4021,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/EnvyCodeR/LICENCE.md",
+      "gitBlobSHA1": "40d89b0118353ea5cdb010211e3f14f376955c7c",
+      "sourceBytes": 4298,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/EnvyCodeR/README.md",
+      "gitBlobSHA1": "6fd1a1e3ef428ed9f21b55f60077e7de38be8fa2",
+      "sourceBytes": 4609,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/FantasqueSansMono/OFL.txt",
+      "gitBlobSHA1": "af9106f59d29e923710b224a28a8f8746692b3c2",
+      "sourceBytes": 4364,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/FantasqueSansMono/README.md",
+      "gitBlobSHA1": "dbac0ac4abeedfca4358d2230d071b01ee3994ff",
+      "sourceBytes": 3950,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/FiraCode/LICENSE",
+      "gitBlobSHA1": "805e0b38b5cfbf78c7269d42ef7096699eec6559",
+      "sourceBytes": 4389,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/FiraCode/README.md",
+      "gitBlobSHA1": "9590c58bcb789d21f22b2b850841add54cbc1722",
+      "sourceBytes": 3818,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/FiraMono/LICENSE",
+      "gitBlobSHA1": "b82722716de236b6d2c771e89a1c907006a677d5",
+      "sourceBytes": 4479,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/FiraMono/README.md",
+      "gitBlobSHA1": "9896e6ac2121c7781d06a5cff92daa2c3a8aed03",
+      "sourceBytes": 3806,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/GeistMono/README.md",
+      "gitBlobSHA1": "86f4003b884f1150ffae58e85143307a5a111581",
+      "sourceBytes": 3919,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Go-Mono/LICENSE.txt",
+      "gitBlobSHA1": "7043c36248e1295eab83edf8a677bd92156eed60",
+      "sourceBytes": 1913,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Go-Mono/README.md",
+      "gitBlobSHA1": "5fc7bd506d28de8d620fba5b6b9df6af520b5ea5",
+      "sourceBytes": 3897,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Gohu/11/README.md",
+      "gitBlobSHA1": "169bd1690ab36c4c347543065686b7c956640e18",
+      "sourceBytes": 4101,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Gohu/14/README.md",
+      "gitBlobSHA1": "169bd1690ab36c4c347543065686b7c956640e18",
+      "sourceBytes": 4101,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Gohu/README.md",
+      "gitBlobSHA1": "169bd1690ab36c4c347543065686b7c956640e18",
+      "sourceBytes": 4101,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Gohu/uni-11/README.md",
+      "gitBlobSHA1": "169bd1690ab36c4c347543065686b7c956640e18",
+      "sourceBytes": 4101,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Gohu/uni-14/README.md",
+      "gitBlobSHA1": "169bd1690ab36c4c347543065686b7c956640e18",
+      "sourceBytes": 4101,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/GoogleSansCode/README.md",
+      "gitBlobSHA1": "b9d0242a0db3aeb9c282da771d0feb15ff291aa5",
+      "sourceBytes": 4336,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hack/LICENSE.md",
+      "gitBlobSHA1": "08927e504fce744f928c584c6e4a07328f2e94ed",
+      "sourceBytes": 3744,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 3744,
+      "sha256": "1f61bb7c790c59b4b0ecdf304628b94e42ae4c8020094a8c3da73381ab212623"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hack/README.md",
+      "gitBlobSHA1": "b4e4593ccad64f0c736c79b60b6ec4b91515f087",
+      "sourceBytes": 3772,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 3772,
+      "sha256": "4e90bb9edd6fef1d208f5eb6f41edc9cce5f5971a5a1fde670082a9c937a63ce"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Black-Italic/LICENSE.md",
+      "gitBlobSHA1": "ac85ef372a1d04706d6ea9fb2864365cbbe49874",
+      "sourceBytes": 4578,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Black-Italic/README.md",
+      "gitBlobSHA1": "bce719a49de3ad038252226471bc38451a58bb4f",
+      "sourceBytes": 2541,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Black/LICENSE.md",
+      "gitBlobSHA1": "ac85ef372a1d04706d6ea9fb2864365cbbe49874",
+      "sourceBytes": 4578,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Black/README.md",
+      "gitBlobSHA1": "bce719a49de3ad038252226471bc38451a58bb4f",
+      "sourceBytes": 2541,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Bold-Italic/LICENSE.md",
+      "gitBlobSHA1": "ac85ef372a1d04706d6ea9fb2864365cbbe49874",
+      "sourceBytes": 4578,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Bold-Italic/README.md",
+      "gitBlobSHA1": "bce719a49de3ad038252226471bc38451a58bb4f",
+      "sourceBytes": 2541,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Bold/LICENSE.md",
+      "gitBlobSHA1": "ac85ef372a1d04706d6ea9fb2864365cbbe49874",
+      "sourceBytes": 4578,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Bold/README.md",
+      "gitBlobSHA1": "bce719a49de3ad038252226471bc38451a58bb4f",
+      "sourceBytes": 2541,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Extra-Light-Italic/LICENSE.md",
+      "gitBlobSHA1": "ac85ef372a1d04706d6ea9fb2864365cbbe49874",
+      "sourceBytes": 4578,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Extra-Light-Italic/README.md",
+      "gitBlobSHA1": "bce719a49de3ad038252226471bc38451a58bb4f",
+      "sourceBytes": 2541,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Extra-Light/LICENSE.md",
+      "gitBlobSHA1": "ac85ef372a1d04706d6ea9fb2864365cbbe49874",
+      "sourceBytes": 4578,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/Extra-Light/README.md",
+      "gitBlobSHA1": "bce719a49de3ad038252226471bc38451a58bb4f",
+      "sourceBytes": 2541,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/LICENSE.md",
+      "gitBlobSHA1": "ac85ef372a1d04706d6ea9fb2864365cbbe49874",
+      "sourceBytes": 4578,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hasklig/README.md",
+      "gitBlobSHA1": "6c20fd460ffa8f9fd19964e0240afc9479f8d571",
+      "sourceBytes": 4606,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/HeavyData/README.md",
+      "gitBlobSHA1": "f190459197390af6fcc22d8832990aa577af5a37",
+      "sourceBytes": 3872,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/HeavyData/Vic Fieger License.txt",
+      "gitBlobSHA1": "bd8b7121cc3c5ec644314dc4a753b5a920dcf175",
+      "sourceBytes": 418,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hermit/LICENSE",
+      "gitBlobSHA1": "6dde5dd732809643818035c23d56cc9a23f45e5d",
+      "sourceBytes": 4500,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Hermit/README.md",
+      "gitBlobSHA1": "36a478c2b212ad1c8aea3d7befd47a18390b63ae",
+      "sourceBytes": 4582,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/IBMPlexMono/LICENSE.txt",
+      "gitBlobSHA1": "f72f76504cd73cf2c00b140b2743c138320597b6",
+      "sourceBytes": 4360,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/IBMPlexMono/README.md",
+      "gitBlobSHA1": "989aa181da857c7a4b1470f290aef84b7ab40e4b",
+      "sourceBytes": 4565,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Inconsolata/OFL.txt",
+      "gitBlobSHA1": "edd95a173bb6eb874d1640e3dba2a77878ca9f9f",
+      "sourceBytes": 4394,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Inconsolata/README.md",
+      "gitBlobSHA1": "dcd4e58ba6bc92ada85d281f363b6096b2f0438e",
+      "sourceBytes": 3820,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/InconsolataGo/OFL.txt",
+      "gitBlobSHA1": "65f04cae46c0b8c7b0cd143adc6d09952497d28d",
+      "sourceBytes": 4350,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/InconsolataGo/README.md",
+      "gitBlobSHA1": "539e53b9ea7107c3a96a9c44047f7e32d95c06cf",
+      "sourceBytes": 3948,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/InconsolataLGC/LICENSE",
+      "gitBlobSHA1": "7750b7525b9a536be8487c12008f9d589691f582",
+      "sourceBytes": 4507,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/InconsolataLGC/OFL.txt",
+      "gitBlobSHA1": "7750b7525b9a536be8487c12008f9d589691f582",
+      "sourceBytes": 4507,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/InconsolataLGC/README.md",
+      "gitBlobSHA1": "c3e12eb49e901118fb3333e5c1d851218d3d0ad6",
+      "sourceBytes": 4173,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/IntelOneMono/README.md",
+      "gitBlobSHA1": "6c0e9fdbb8a8b5b502f615e68953d9c9c8c2a785",
+      "sourceBytes": 4601,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Iosevka/LICENSE.md",
+      "gitBlobSHA1": "b2a7b6a7e93fa0857260e92a4b02eb7c9b71a8ee",
+      "sourceBytes": 4493,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Iosevka/README.md",
+      "gitBlobSHA1": "6e5a2ebd1cfe54d4467506447394672180db121d",
+      "sourceBytes": 3952,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/IosevkaTerm/LICENSE.md",
+      "gitBlobSHA1": "b2a7b6a7e93fa0857260e92a4b02eb7c9b71a8ee",
+      "sourceBytes": 4493,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/IosevkaTerm/README.md",
+      "gitBlobSHA1": "6bfd144764b8e74b803f36b664bd82bc4d1f38cf",
+      "sourceBytes": 3978,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/IosevkaTermSlab/README.md",
+      "gitBlobSHA1": "4b06dca637b148125dfc73f893982ce645f23254",
+      "sourceBytes": 3943,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/JetBrainsMono/Ligatures/OFL.txt",
+      "gitBlobSHA1": "8bee4148c1d54dbf5dae6d6c117fc80414266abb",
+      "sourceBytes": 4399,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/JetBrainsMono/Ligatures/README.md",
+      "gitBlobSHA1": "b72d6224f13377a31e51f9bc9194972bf32fc04a",
+      "sourceBytes": 3832,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/JetBrainsMono/NoLigatures/OFL.txt",
+      "gitBlobSHA1": "8bee4148c1d54dbf5dae6d6c117fc80414266abb",
+      "sourceBytes": 4399,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/JetBrainsMono/NoLigatures/README.md",
+      "gitBlobSHA1": "b72d6224f13377a31e51f9bc9194972bf32fc04a",
+      "sourceBytes": 3832,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/JetBrainsMono/README.md",
+      "gitBlobSHA1": "b72d6224f13377a31e51f9bc9194972bf32fc04a",
+      "sourceBytes": 3832,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Lekton/README.md",
+      "gitBlobSHA1": "b51cdfce8dfda10f3eef851b7c12da4deda0757a",
+      "sourceBytes": 3894,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Lekton/SIL Open Font License.txt",
+      "gitBlobSHA1": "14c043d601cc55a74640d8c5c82957d2c84f2ad8",
+      "sourceBytes": 4299,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/LiberationMono/LICENSE",
+      "gitBlobSHA1": "aba73e8a403084a93a245ca00e4a0db007886e0a",
+      "sourceBytes": 4414,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/LiberationMono/README.md",
+      "gitBlobSHA1": "74412bbece7016995c475d5ec3183101315a104e",
+      "sourceBytes": 4673,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Lilex/LICENSE.txt",
+      "gitBlobSHA1": "9324092afae26c4e907f31dcaa4224e1e41abe1a",
+      "sourceBytes": 4384,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Lilex/README.md",
+      "gitBlobSHA1": "09e9a2e22de119826d2df90e93498a8c32983cc4",
+      "sourceBytes": 3781,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/M_Plus_1/OFL.txt",
+      "gitBlobSHA1": "b038fd111aff94bffc3fc21f239a556a84209a07",
+      "sourceBytes": 4387,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/M_Plus_1/README.md",
+      "gitBlobSHA1": "b4853bae26d863a5ced49cbb54a262ad6f062c6b",
+      "sourceBytes": 3797,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/M_Plus_1_code/OFL.txt",
+      "gitBlobSHA1": "b038fd111aff94bffc3fc21f239a556a84209a07",
+      "sourceBytes": 4387,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/M_Plus_1_code/README.md",
+      "gitBlobSHA1": "b4853bae26d863a5ced49cbb54a262ad6f062c6b",
+      "sourceBytes": 3797,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/M_Plus_2/OFL.txt",
+      "gitBlobSHA1": "b038fd111aff94bffc3fc21f239a556a84209a07",
+      "sourceBytes": 4387,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/M_Plus_2/README.md",
+      "gitBlobSHA1": "b4853bae26d863a5ced49cbb54a262ad6f062c6b",
+      "sourceBytes": 3797,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/M_Plus_code_latin50/OFL.txt",
+      "gitBlobSHA1": "b038fd111aff94bffc3fc21f239a556a84209a07",
+      "sourceBytes": 4387,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/M_Plus_code_latin50/README.md",
+      "gitBlobSHA1": "b4853bae26d863a5ced49cbb54a262ad6f062c6b",
+      "sourceBytes": 3797,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/M_Plus_code_latin60/OFL.txt",
+      "gitBlobSHA1": "b038fd111aff94bffc3fc21f239a556a84209a07",
+      "sourceBytes": 4387,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/M_Plus_code_latin60/README.md",
+      "gitBlobSHA1": "b4853bae26d863a5ced49cbb54a262ad6f062c6b",
+      "sourceBytes": 3797,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MPlus/README.md",
+      "gitBlobSHA1": "b4853bae26d863a5ced49cbb54a262ad6f062c6b",
+      "sourceBytes": 3797,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/MartianMono/README.md",
+      "gitBlobSHA1": "71bdff518a81075074e11bcd7e4cbc24c84335ab",
+      "sourceBytes": 4022,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/L-DZ/LICENSE.txt",
+      "gitBlobSHA1": "0300a76ab6746b6effcea96441617e9e889d8576",
+      "sourceBytes": 573,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/L-DZ/README.md",
+      "gitBlobSHA1": "e00db7bc82d01b53a78f30a9d0cafe1a7036f2c6",
+      "sourceBytes": 3924,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/L/LICENSE.txt",
+      "gitBlobSHA1": "0300a76ab6746b6effcea96441617e9e889d8576",
+      "sourceBytes": 573,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/L/README.md",
+      "gitBlobSHA1": "e00db7bc82d01b53a78f30a9d0cafe1a7036f2c6",
+      "sourceBytes": 3924,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/M-DZ/LICENSE.txt",
+      "gitBlobSHA1": "0300a76ab6746b6effcea96441617e9e889d8576",
+      "sourceBytes": 573,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/M-DZ/README.md",
+      "gitBlobSHA1": "e00db7bc82d01b53a78f30a9d0cafe1a7036f2c6",
+      "sourceBytes": 3924,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/M/LICENSE.txt",
+      "gitBlobSHA1": "0300a76ab6746b6effcea96441617e9e889d8576",
+      "sourceBytes": 573,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/M/README.md",
+      "gitBlobSHA1": "e00db7bc82d01b53a78f30a9d0cafe1a7036f2c6",
+      "sourceBytes": 3924,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/README.md",
+      "gitBlobSHA1": "e00db7bc82d01b53a78f30a9d0cafe1a7036f2c6",
+      "sourceBytes": 3924,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/S-DZ/LICENSE.txt",
+      "gitBlobSHA1": "0300a76ab6746b6effcea96441617e9e889d8576",
+      "sourceBytes": 573,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/S-DZ/README.md",
+      "gitBlobSHA1": "e00db7bc82d01b53a78f30a9d0cafe1a7036f2c6",
+      "sourceBytes": 3924,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/S/LICENSE.txt",
+      "gitBlobSHA1": "0300a76ab6746b6effcea96441617e9e889d8576",
+      "sourceBytes": 573,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Meslo/S/README.md",
+      "gitBlobSHA1": "e00db7bc82d01b53a78f30a9d0cafe1a7036f2c6",
+      "sourceBytes": 3924,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Monaspace/README.md",
+      "gitBlobSHA1": "5c16eb8e56115cc4ccd843e2d9c23c9e4b39db0e",
+      "sourceBytes": 4873,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Monofur/LICENSE.txt",
+      "gitBlobSHA1": "b20cf9b4da02532536986b46fe1bf4f0746dca0e",
+      "sourceBytes": 940,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Monofur/README.md",
+      "gitBlobSHA1": "af8b577e6e7e31a2a9c2eb7858f0203985a7edbf",
+      "sourceBytes": 3779,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Monoid/LICENSE",
+      "gitBlobSHA1": "b13e7956a9970413bfac03e7299e3fcd46efd346",
+      "sourceBytes": 5464,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Monoid/README.md",
+      "gitBlobSHA1": "37b50474bbb2dbeac613a10a488489e38ce752b4",
+      "sourceBytes": 3879,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Mononoki/LICENSE.txt",
+      "gitBlobSHA1": "75d0c06f016f5cfeed46aed5d1daa41c02e48fbb",
+      "sourceBytes": 4405,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Mononoki/README.md",
+      "gitBlobSHA1": "9ddb0ba364424d97be44ac659a94740539321516",
+      "sourceBytes": 4513,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/NerdFontsSymbolsOnly/LICENSE",
+      "gitBlobSHA1": "06eb073d6b545f7f505919a52e6af903f913d4b8",
+      "sourceBytes": 1082,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/NerdFontsSymbolsOnly/README.md",
+      "gitBlobSHA1": "3cde95d0707e6b3a75cc82fa0c6acadc8b6b94ca",
+      "sourceBytes": 3890,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Mono/LICENSE_OFL.txt",
+      "gitBlobSHA1": "d952d62c065f3f35fb83a173496e90b21525aef3",
+      "sourceBytes": 4301,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Mono/OFL.txt",
+      "gitBlobSHA1": "0e6dea294845f60d60fd141ae161d2680d35eed5",
+      "sourceBytes": 4488,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Mono/README.md",
+      "gitBlobSHA1": "e0cd1f8462ddaa3a574dff91614cc7481e573914",
+      "sourceBytes": 4040,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/README.md",
+      "gitBlobSHA1": "e0cd1f8462ddaa3a574dff91614cc7481e573914",
+      "sourceBytes": 4040,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Sans-Mono/LICENSE_OFL.txt",
+      "gitBlobSHA1": "d952d62c065f3f35fb83a173496e90b21525aef3",
+      "sourceBytes": 4301,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Sans-Mono/OFL.txt",
+      "gitBlobSHA1": "0e6dea294845f60d60fd141ae161d2680d35eed5",
+      "sourceBytes": 4488,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Sans-Mono/README.md",
+      "gitBlobSHA1": "e0cd1f8462ddaa3a574dff91614cc7481e573914",
+      "sourceBytes": 4040,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Sans/LICENSE_OFL.txt",
+      "gitBlobSHA1": "d952d62c065f3f35fb83a173496e90b21525aef3",
+      "sourceBytes": 4301,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Sans/OFL.txt",
+      "gitBlobSHA1": "0e6dea294845f60d60fd141ae161d2680d35eed5",
+      "sourceBytes": 4488,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Sans/README.md",
+      "gitBlobSHA1": "e0cd1f8462ddaa3a574dff91614cc7481e573914",
+      "sourceBytes": 4040,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Serif/LICENSE_OFL.txt",
+      "gitBlobSHA1": "d952d62c065f3f35fb83a173496e90b21525aef3",
+      "sourceBytes": 4301,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Serif/OFL.txt",
+      "gitBlobSHA1": "0e6dea294845f60d60fd141ae161d2680d35eed5",
+      "sourceBytes": 4488,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Noto/Serif/README.md",
+      "gitBlobSHA1": "e0cd1f8462ddaa3a574dff91614cc7481e573914",
+      "sourceBytes": 4040,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/OpenDyslexic/Alta/LICENSE.txt",
+      "gitBlobSHA1": "4803fb9859d2769da4e17ab21a55fc4e5c2eff59",
+      "sourceBytes": 2447,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/OpenDyslexic/Alta/README.md",
+      "gitBlobSHA1": "a49ffede66fd1917675c09bd027e75f5bf552626",
+      "sourceBytes": 4246,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/OpenDyslexic/Mono-Regular/LICENSE.txt",
+      "gitBlobSHA1": "4803fb9859d2769da4e17ab21a55fc4e5c2eff59",
+      "sourceBytes": 2447,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/OpenDyslexic/Mono-Regular/README.md",
+      "gitBlobSHA1": "a49ffede66fd1917675c09bd027e75f5bf552626",
+      "sourceBytes": 4246,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/OpenDyslexic/README.md",
+      "gitBlobSHA1": "a49ffede66fd1917675c09bd027e75f5bf552626",
+      "sourceBytes": 4246,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/OpenDyslexic/Regular/LICENSE.txt",
+      "gitBlobSHA1": "4803fb9859d2769da4e17ab21a55fc4e5c2eff59",
+      "sourceBytes": 2447,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/OpenDyslexic/Regular/README.md",
+      "gitBlobSHA1": "a49ffede66fd1917675c09bd027e75f5bf552626",
+      "sourceBytes": 4246,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Overpass/Mono/LICENSE.md",
+      "gitBlobSHA1": "3dca19ff3ffbdea03b22c548e55115fe239e864c",
+      "sourceBytes": 4422,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Overpass/Mono/README.md",
+      "gitBlobSHA1": "9cafb4a376f41555f5a7aeeed6e5280c88846667",
+      "sourceBytes": 3901,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Overpass/Non-Mono/LICENSE.md",
+      "gitBlobSHA1": "3dca19ff3ffbdea03b22c548e55115fe239e864c",
+      "sourceBytes": 4422,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Overpass/Non-Mono/README.md",
+      "gitBlobSHA1": "9cafb4a376f41555f5a7aeeed6e5280c88846667",
+      "sourceBytes": 3901,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Overpass/README.md",
+      "gitBlobSHA1": "9cafb4a376f41555f5a7aeeed6e5280c88846667",
+      "sourceBytes": 3901,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProFont/ProFontWinTweaked/LICENSE",
+      "gitBlobSHA1": "2fa45cd8a55fc11d1a720e779d53952d9159001c",
+      "sourceBytes": 1125,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProFont/ProFontWinTweaked/README.md",
+      "gitBlobSHA1": "bed73633cbe84c5cde4b707e88c004a559aff7f7",
+      "sourceBytes": 4556,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProFont/README.md",
+      "gitBlobSHA1": "bed73633cbe84c5cde4b707e88c004a559aff7f7",
+      "sourceBytes": 4556,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProFont/profontiix/LICENSE",
+      "gitBlobSHA1": "2fa45cd8a55fc11d1a720e779d53952d9159001c",
+      "sourceBytes": 1125,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProFont/profontiix/README.md",
+      "gitBlobSHA1": "bed73633cbe84c5cde4b707e88c004a559aff7f7",
+      "sourceBytes": 4556,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProggyClean/Latin2/Licence.txt",
+      "gitBlobSHA1": "d67eb33a6b3818525f6b683bdc2bdcd1f814eb47",
+      "sourceBytes": 1072,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProggyClean/Latin2/README.md",
+      "gitBlobSHA1": "71421fe50a4afb803b62564dd1b2118a89aa82ed",
+      "sourceBytes": 4081,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProggyClean/README.md",
+      "gitBlobSHA1": "71421fe50a4afb803b62564dd1b2118a89aa82ed",
+      "sourceBytes": 4081,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProggyClean/Regular/Licence.txt",
+      "gitBlobSHA1": "d67eb33a6b3818525f6b683bdc2bdcd1f814eb47",
+      "sourceBytes": 1072,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProggyClean/Regular/README.md",
+      "gitBlobSHA1": "71421fe50a4afb803b62564dd1b2118a89aa82ed",
+      "sourceBytes": 4081,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProggyClean/SlashedZero/Licence.txt",
+      "gitBlobSHA1": "d67eb33a6b3818525f6b683bdc2bdcd1f814eb47",
+      "sourceBytes": 1072,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ProggyClean/SlashedZero/README.md",
+      "gitBlobSHA1": "71421fe50a4afb803b62564dd1b2118a89aa82ed",
+      "sourceBytes": 4081,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Recursive/README.md",
+      "gitBlobSHA1": "ee13928c50ae12817966f2e293ba988bf12e4243",
+      "sourceBytes": 4940,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/RobotoMono/LICENSE.txt",
+      "gitBlobSHA1": "75b52484ea471f882c29e02693b4f02dba175b5e",
+      "sourceBytes": 11560,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/RobotoMono/README.md",
+      "gitBlobSHA1": "57a39ee6e1f77528274233dcc5932099d87a5002",
+      "sourceBytes": 3766,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ShareTechMono/OFL.txt",
+      "gitBlobSHA1": "02c8c8ee82de3f9b9c7485d3055f4a9d8232270f",
+      "sourceBytes": 4520,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ShareTechMono/README.md",
+      "gitBlobSHA1": "dee22ee1f850d61716be1413a8e3ae1985a3c626",
+      "sourceBytes": 4485,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/SourceCodePro/LICENSE.txt",
+      "gitBlobSHA1": "db2a8ba7a53613fd7370583bb4bfe0a75f258086",
+      "sourceBytes": 4578,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/SourceCodePro/README.md",
+      "gitBlobSHA1": "c4e15e9e493ce5c6ff38e0243ec8dad0a70c0a9f",
+      "sourceBytes": 4669,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/SpaceMono/OFL.txt",
+      "gitBlobSHA1": "2c5ae56361998115f0cc2502e60e8b193b5a731e",
+      "sourceBytes": 4486,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/SpaceMono/README.md",
+      "gitBlobSHA1": "7da593f27495d327162e0b9f75a58386183964c1",
+      "sourceBytes": 3807,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Terminus/LICENSE.txt",
+      "gitBlobSHA1": "8cd25e33ac080cb5a38a24c4fed3307abf0c81ae",
+      "sourceBytes": 4570,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Terminus/README.md",
+      "gitBlobSHA1": "fa678b25c662b6a4bbe420125e4af4d563d977d6",
+      "sourceBytes": 4657,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Tinos/Apache License.txt",
+      "gitBlobSHA1": "b45b3b66e69f23d836bc781887b02788fbc0e6d3",
+      "sourceBytes": 11308,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Tinos/README.md",
+      "gitBlobSHA1": "cc63d7e4e612bfecea2421c632eabff7ab669211",
+      "sourceBytes": 4305,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Ubuntu/LICENCE.txt",
+      "gitBlobSHA1": "ae78a8f94eae372cb1ca4e14b67244342fce604e",
+      "sourceBytes": 4673,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/Ubuntu/README.md",
+      "gitBlobSHA1": "4ee2220ae6c89a194218a509f1bd4e4fda9eaa9c",
+      "sourceBytes": 4720,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/UbuntuMono/LICENCE.txt",
+      "gitBlobSHA1": "ae78a8f94eae372cb1ca4e14b67244342fce604e",
+      "sourceBytes": 4673,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/UbuntuMono/README.md",
+      "gitBlobSHA1": "f57df23b1bb1d2ac9cb4bf3cab25fc8d25c5464c",
+      "sourceBytes": 4269,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/UbuntuSans/README.md",
+      "gitBlobSHA1": "8788773b2fa89b3e00b671734d4a7f30dcf11bab",
+      "sourceBytes": 3841,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/VictorMono/LICENSE.txt",
+      "gitBlobSHA1": "6dd3d05bd33d12a801cc30b0b0c0c15d881441ae",
+      "sourceBytes": 4365,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/VictorMono/README.md",
+      "gitBlobSHA1": "a464e8bc4ca363c87448aec5c46888aa200a63c9",
+      "sourceBytes": 3857,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/ZedMono/README.md",
+      "gitBlobSHA1": "40286ae6f085d1d8bbb0a5e3f6f0b0104721eb45",
+      "sourceBytes": 3739,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/iA-Writer/Duo/LICENSE.md",
+      "gitBlobSHA1": "5cd41aa49bc0d9162b0c79b7652c938fc78a76cc",
+      "sourceBytes": 4506,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/iA-Writer/Duo/README.md",
+      "gitBlobSHA1": "05a433b0fb36ebc09191b1f2c70de1d4a7344158",
+      "sourceBytes": 4713,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/iA-Writer/Mono/LICENSE.md",
+      "gitBlobSHA1": "5cd41aa49bc0d9162b0c79b7652c938fc78a76cc",
+      "sourceBytes": 4506,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/iA-Writer/Mono/README.md",
+      "gitBlobSHA1": "05a433b0fb36ebc09191b1f2c70de1d4a7344158",
+      "sourceBytes": 4713,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/iA-Writer/Quattro/LICENSE.md",
+      "gitBlobSHA1": "5cd41aa49bc0d9162b0c79b7652c938fc78a76cc",
+      "sourceBytes": 4506,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/iA-Writer/Quattro/README.md",
+      "gitBlobSHA1": "05a433b0fb36ebc09191b1f2c70de1d4a7344158",
+      "sourceBytes": 4713,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "patched-fonts/iA-Writer/README.md",
+      "gitBlobSHA1": "05a433b0fb36ebc09191b1f2c70de1d4a7344158",
+      "sourceBytes": 4713,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "readme.md",
+      "gitBlobSHA1": "29fd8b4a62548ac88c9e5cc92486de2743fe5a50",
+      "sourceBytes": 52258,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 52258,
+      "sha256": "490ae11d4e146c8570180fa9f3af4db616739a1012a7b8626325ecc16405318d"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/archive-font-patcher-readme.md",
+      "gitBlobSHA1": "70930f0abeaf8243b01b6fb92299f614e632259e",
+      "sourceBytes": 553,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/README.md",
+      "gitBlobSHA1": "836b62ea31c7e73b703550f9f240b8d8fc8a3895",
+      "sourceBytes": 2355,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 2355,
+      "sha256": "b3382c86b928820ff4135bc4c2cf0da5d871b3c2262b72711a00b21f2daf534a"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/codicons/LICENSE.txt",
+      "gitBlobSHA1": "085c3ca0c4920beedbf179f7987e705aec84115b",
+      "sourceBytes": 19047,
+      "readStatus": "selected-sections-read",
+      "reason": "Operational/licensing conditions inspected; not all contributor lists or boilerplate semantically reviewed",
+      "bytes": 19047,
+      "sha256": "d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/codicons/README.md",
+      "gitBlobSHA1": "84d72fc130a8115bbbf3b93d5cf2d0995665ac38",
+      "sourceBytes": 239,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/devicons/README.md",
+      "gitBlobSHA1": "dd706a62aaa0c3519db876ef90fc1d7e8fe0f768",
+      "sourceBytes": 480,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/devicons/fixed/README.md",
+      "gitBlobSHA1": "96b2e91fa7d30a6e90a13aa92fe1011530de2756",
+      "sourceBytes": 256,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/devicons/vorillaz/README.md",
+      "gitBlobSHA1": "cf37351db56d93d30771a53c0f69dcf370b3c625",
+      "sourceBytes": 620,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/font-awesome/LICENSE.txt",
+      "gitBlobSHA1": "cc557ece45db3719d26f8f6e0182d89651b76062",
+      "sourceBytes": 7427,
+      "readStatus": "selected-sections-read",
+      "reason": "Operational/licensing conditions inspected; not all contributor lists or boilerplate semantically reviewed",
+      "bytes": 7427,
+      "sha256": "de784a808496d49f5f80dd9d1d6e9a51cff712cfbc339e7c25155631ae3cdb5d"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/font-awesome/README.md",
+      "gitBlobSHA1": "7558abb4b8381a4b234ffdabbea6fa3d03d0e2f5",
+      "sourceBytes": 483,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 483,
+      "sha256": "9c3cfc2d795121fb0214e71288e32b4beba5d7f350ca8a35b003c618c123aae8"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/materialdesign/LICENSE",
+      "gitBlobSHA1": "382f8a138afaaefe9ca2cfa80d33317f7814d997",
+      "sourceBytes": 992,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 992,
+      "sha256": "3bae6305bcaa6d10219b999f65c342034c2d40b1c0e8567fa08605e73ccba829"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/materialdesign/README.md",
+      "gitBlobSHA1": "dd382194cb87c7103b20df38f1a51fd3b6137773",
+      "sourceBytes": 1212,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 1212,
+      "sha256": "7afc59be7303f6877297db80c1ea8f506bcf4e18290ff85e1bba1584ffa0555b"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/octicons/LICENSE",
+      "gitBlobSHA1": "163074d5b43ac314f9db311945cb4c19fd0c3d44",
+      "sourceBytes": 1068,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/pomicons/LICENSE",
+      "gitBlobSHA1": "5dd70fa0e0bc67c638079585bdb8d56e0648ff87",
+      "sourceBytes": 4395,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/pomicons/README.md",
+      "gitBlobSHA1": "c59ef202b4c6f89d1155fb3386c9df839d9cf6a6",
+      "sourceBytes": 127,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/powerline-extra/LICENSE",
+      "gitBlobSHA1": "c71d82753460a6c580966fd5f5a3da268ed5a974",
+      "sourceBytes": 1072,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/powerline-extra/README.md",
+      "gitBlobSHA1": "ebb9d067c0b3df092ba5db36c89ee3cfa66861da",
+      "sourceBytes": 674,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/powerline-symbols/LICENSE.txt",
+      "gitBlobSHA1": "23b2ab298f959223a99ce8f9a7f7fb50e6c9ed39",
+      "sourceBytes": 1132,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 1132,
+      "sha256": "46d5355e4734468135d8e4a30d0916292cc4df2b3ec30aa68c866f82497933be"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/powerline-symbols/README.md",
+      "gitBlobSHA1": "858e1243287e4ddfab0c7aba237395ec71035524",
+      "sourceBytes": 250,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 250,
+      "sha256": "c6cde819271276da3f8faa35a1163d902f2a903e9eb375646dd473c0c582cdef"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/glyphs/weather-icons/OFL.txt",
+      "gitBlobSHA1": "fd295ff85e40801883186c705e94f9e504d9f96c",
+      "sourceBytes": 4692,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/readme-per-directory-addendum.md",
+      "gitBlobSHA1": "f8ecf9157a312a8e306b7a65e60123a7e39752d2",
+      "sourceBytes": 1514,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/readme-rfn-addendum.md",
+      "gitBlobSHA1": "91ff45bde3d56505e3d24634d69aaaa5dfbed9e6",
+      "sourceBytes": 540,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/svgs/README.md",
+      "gitBlobSHA1": "85e6713f14400e6e3957c613094c4384e2599124",
+      "sourceBytes": 634,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/0xProto/LICENSE",
+      "gitBlobSHA1": "fefebe8f55ff363e154adccea9ffaa7cc9f5f9e5",
+      "sourceBytes": 4372,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/0xProto/README.md",
+      "gitBlobSHA1": "7ec7241672677d7f39f68086ce4186d16767fff5",
+      "sourceBytes": 174,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/3270/LICENSE.txt",
+      "gitBlobSHA1": "b8f248ab4051e6d3e259fbf0799f38a96491aa8f",
+      "sourceBytes": 2675,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/3270/README.md",
+      "gitBlobSHA1": "780e2b96b6e1abcb53de8a2c2c903e1e0d845315",
+      "sourceBytes": 155,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/AdwaitaMono/LICENSE",
+      "gitBlobSHA1": "6dc188d1b03902fd576fee4a858f533379cd44f3",
+      "sourceBytes": 4554,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/AdwaitaMono/README.md",
+      "gitBlobSHA1": "64e14d02e00204a88f989ab5728891cfc6a48975",
+      "sourceBytes": 401,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Agave/LICENSE",
+      "gitBlobSHA1": "e6e5f312bdce413a788f0d6f420cd1612f0c774b",
+      "sourceBytes": 4386,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Agave/README.md",
+      "gitBlobSHA1": "fe7a294372e75081e1535c7bc669688e6d51956b",
+      "sourceBytes": 203,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/AnnotationMono/LICENSE",
+      "gitBlobSHA1": "a56a970cd2f2079f75cd86c20fc9d058fa660518",
+      "sourceBytes": 4345,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/AnnotationMono/README.md",
+      "gitBlobSHA1": "a4c5918cd701a13768a29411e9a5239197d87f26",
+      "sourceBytes": 253,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/AnonymousPro/OFL.txt",
+      "gitBlobSHA1": "68d1d00550fb9d708e266171e4f67e73c8ae0199",
+      "sourceBytes": 4521,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/AnonymousPro/README.md",
+      "gitBlobSHA1": "30f92b6d773e7a34f24c60eeb5d8c5760b546911",
+      "sourceBytes": 239,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Arimo/OFL.txt",
+      "gitBlobSHA1": "d2963d749510d1b7c0dd7952c1ab74b0a7d97aef",
+      "sourceBytes": 4383,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Arimo/README.md",
+      "gitBlobSHA1": "52432df5b4cba70276cbe13592681203b966f155",
+      "sourceBytes": 128,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/AtkinsonHyperlegibleMono/LICENSE.txt",
+      "gitBlobSHA1": "8d3489a45b6afa207c93374fea2e5bfeca2cfbd3",
+      "sourceBytes": 4456,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/AtkinsonHyperlegibleMono/README.md",
+      "gitBlobSHA1": "c0bf3b57b71f527792dd1b4e521b1fe506f85e9d",
+      "sourceBytes": 280,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/AurulentSansMono/README.md",
+      "gitBlobSHA1": "e4642d7e4d8cb2a3f018e1e3f58649cf99cd0635",
+      "sourceBytes": 127,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/AurulentSansMono/SIL Open Font License.txt",
+      "gitBlobSHA1": "14c043d601cc55a74640d8c5c82957d2c84f2ad8",
+      "sourceBytes": 4299,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/BigBlueTerminal/LICENSE.TXT",
+      "gitBlobSHA1": "fd662a7e6c628e351ccd072bf4a30710d36f4556",
+      "sourceBytes": 20133,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/BigBlueTerminal/README.md",
+      "gitBlobSHA1": "0acb194100cb5e06886d19cd34650357b075c59b",
+      "sourceBytes": 184,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/BitstreamVeraSansMono/Bitstream Vera License.txt",
+      "gitBlobSHA1": "cf008351073b98b7572a071645ebdc9ca4a8c156",
+      "sourceBytes": 5952,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/BitstreamVeraSansMono/README.md",
+      "gitBlobSHA1": "631f5167929ec5432f43fb67e0ae9d77e7c9cd24",
+      "sourceBytes": 41,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/CascadiaCode/LICENSE",
+      "gitBlobSHA1": "40f856f6ecc6de260b4065368ad2f5c4f8cbdcbc",
+      "sourceBytes": 4395,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/CascadiaCode/README.md",
+      "gitBlobSHA1": "15ab41544d7cb6529579cd684d8fcc45f37acb07",
+      "sourceBytes": 1096,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/CascadiaMono/LICENSE",
+      "gitBlobSHA1": "40f856f6ecc6de260b4065368ad2f5c4f8cbdcbc",
+      "sourceBytes": 4395,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/CascadiaMono/README.md",
+      "gitBlobSHA1": "785232ab464287dc0f58b8ab70fbc2c6a3d8b4c2",
+      "sourceBytes": 1093,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/CodeNewRoman/README.md",
+      "gitBlobSHA1": "5da88c575c2dc724be83113286660773945c235a",
+      "sourceBytes": 191,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/CodeNewRoman/license.txt",
+      "gitBlobSHA1": "5f04ebcd3e15b1594a3965e326bc09dfb78f49e0",
+      "sourceBytes": 2958,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ComicShannsMono/LICENSE.md",
+      "gitBlobSHA1": "e9a4893d4327d47e8604cb0a6a144c4b94ed4c28",
+      "sourceBytes": 1103,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ComicShannsMono/README.md",
+      "gitBlobSHA1": "ee86063b6eab162e733e848b79d4d083036cdcea",
+      "sourceBytes": 1012,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/CommitMono/LICENSE",
+      "gitBlobSHA1": "96d39dd81cdf5c4ed88c7e603a83aa29f441123a",
+      "sourceBytes": 4389,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/CommitMono/README.md",
+      "gitBlobSHA1": "4b84bcb1cad6a5bbe0c5601f8b30f3ed041a1cf6",
+      "sourceBytes": 251,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Cousine/OFL.txt",
+      "gitBlobSHA1": "9ff908c1a0f0c8cd9b0706fd205f4fb25c51fc75",
+      "sourceBytes": 4481,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Cousine/README.md",
+      "gitBlobSHA1": "1b287f250a18ab6fb21ca7313a42899b946066c6",
+      "sourceBytes": 245,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/D2Coding/OFL.txt",
+      "gitBlobSHA1": "50a6c23ed89343d65c9b04b09bccf47e754bd3b8",
+      "sourceBytes": 4511,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/D2Coding/README.md",
+      "gitBlobSHA1": "128983388c27df16973238044a8733ec7709d68a",
+      "sourceBytes": 204,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/DaddyTimeMono/LICENSE.md",
+      "gitBlobSHA1": "b40100d855d8096de45a684a0450723c44bb94e7",
+      "sourceBytes": 4278,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/DaddyTimeMono/README.md",
+      "gitBlobSHA1": "c8884ec28f740096b0ef8653dda2e99b84ce2233",
+      "sourceBytes": 212,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/DejaVuSansMono/LICENSE.txt",
+      "gitBlobSHA1": "69399804ca6c71fd61ed0ae47535baad3bb55e79",
+      "sourceBytes": 4765,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/DejaVuSansMono/README.md",
+      "gitBlobSHA1": "d50deca8f5fc10d7792833012afe77504cbe51f2",
+      "sourceBytes": 702,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/DepartureMono/LICENSE",
+      "gitBlobSHA1": "de52476183807bbfc04e8ae7bced1dc9cbcbfd2f",
+      "sourceBytes": 4357,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/DepartureMono/README.md",
+      "gitBlobSHA1": "d199a8a137438b7c61d303c0f9206075a5750681",
+      "sourceBytes": 209,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/DroidSansMono/LICENSE.txt",
+      "gitBlobSHA1": "8bfd282a79b5a76f9b55d3b8f631025eba3feb23",
+      "sourceBytes": 572,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/DroidSansMono/README.md",
+      "gitBlobSHA1": "0d136df4e2dafa47f36a053ba0d38effa582f3ac",
+      "sourceBytes": 372,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/EnvyCodeR/LICENCE.md",
+      "gitBlobSHA1": "40d89b0118353ea5cdb010211e3f14f376955c7c",
+      "sourceBytes": 4298,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/EnvyCodeR/README.md",
+      "gitBlobSHA1": "1206b7a593eb316d2cc3008a06f32f6511c01695",
+      "sourceBytes": 267,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/FantasqueSansMono/OFL.txt",
+      "gitBlobSHA1": "af9106f59d29e923710b224a28a8f8746692b3c2",
+      "sourceBytes": 4364,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/FantasqueSansMono/README.md",
+      "gitBlobSHA1": "2ae88d1580d622630e165dbb1d11c26992514077",
+      "sourceBytes": 285,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/FiraCode/LICENSE",
+      "gitBlobSHA1": "805e0b38b5cfbf78c7269d42ef7096699eec6559",
+      "sourceBytes": 4389,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/FiraCode/README.md",
+      "gitBlobSHA1": "ee4b58e684e7959a330f50eb6c65b44a1996342c",
+      "sourceBytes": 189,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/FiraMono/LICENSE",
+      "gitBlobSHA1": "b82722716de236b6d2c771e89a1c907006a677d5",
+      "sourceBytes": 4479,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/FiraMono/README.md",
+      "gitBlobSHA1": "012ef8e083ca25b5e5314b0e2d49924274bad447",
+      "sourceBytes": 177,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/GeistMono/LICENSE",
+      "gitBlobSHA1": "b3e2de2a0360653b8ced522322e3aea18027745c",
+      "sourceBytes": 4384,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/GeistMono/README.md",
+      "gitBlobSHA1": "92f3a56f0125368c849752a855ddcba416214ab8",
+      "sourceBytes": 347,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Go-Mono/LICENSE.txt",
+      "gitBlobSHA1": "7043c36248e1295eab83edf8a677bd92156eed60",
+      "sourceBytes": 1913,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Go-Mono/README.md",
+      "gitBlobSHA1": "8d14cd42e3d1dd602d0b8d38efcf517704d3d73e",
+      "sourceBytes": 272,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Gohu/README.md",
+      "gitBlobSHA1": "24cf9fca3c4a1eb0d07f4892143939d30c84c009",
+      "sourceBytes": 488,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/GoogleSansCode/OFL.txt",
+      "gitBlobSHA1": "25924154b77505dc098ef00c7e8f4953cb8943f9",
+      "sourceBytes": 4490,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/GoogleSansCode/README.md",
+      "gitBlobSHA1": "a7a6fc2158ca23d694f97bfcac2aac9e31c080c1",
+      "sourceBytes": 744,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/GoogleSansCode/TRADEMARKS.md",
+      "gitBlobSHA1": "6ebcf03e0ee242ef24b02aac94da6f5f2152b9ed",
+      "sourceBytes": 1478,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Hack/LICENSE.md",
+      "gitBlobSHA1": "08927e504fce744f928c584c6e4a07328f2e94ed",
+      "sourceBytes": 3744,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Hack/README.md",
+      "gitBlobSHA1": "385c0831c0bf7c422613f78293d567522277ba6e",
+      "sourceBytes": 159,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 159,
+      "sha256": "d2e0d9e0e896240ffb6d6c8b11c9254610468f5ca604c8bb4d0ffd3b6bb79573"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Hasklig/LICENSE.md",
+      "gitBlobSHA1": "ac85ef372a1d04706d6ea9fb2864365cbbe49874",
+      "sourceBytes": 4578,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Hasklig/README.md",
+      "gitBlobSHA1": "345e23a1da4f8bd9309b31d0dbf7fe4b8852a060",
+      "sourceBytes": 244,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/HeavyData/README.md",
+      "gitBlobSHA1": "1f8f3e232ff6cec1b107527ab959530c4c85dd01",
+      "sourceBytes": 66,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/HeavyData/Vic Fieger License.txt",
+      "gitBlobSHA1": "bd8b7121cc3c5ec644314dc4a753b5a920dcf175",
+      "sourceBytes": 418,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Hermit/LICENSE",
+      "gitBlobSHA1": "6dde5dd732809643818035c23d56cc9a23f45e5d",
+      "sourceBytes": 4500,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Hermit/README.md",
+      "gitBlobSHA1": "8d1c9b67f9638bdcd7440f657e9647569bb33a3f",
+      "sourceBytes": 226,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/IBMPlexMono/LICENSE.txt",
+      "gitBlobSHA1": "f72f76504cd73cf2c00b140b2743c138320597b6",
+      "sourceBytes": 4360,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/IBMPlexMono/README.md",
+      "gitBlobSHA1": "f27355634051ec1899cef11b7e6dffbc6e52f3fa",
+      "sourceBytes": 180,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Inconsolata/OFL.txt",
+      "gitBlobSHA1": "edd95a173bb6eb874d1640e3dba2a77878ca9f9f",
+      "sourceBytes": 4394,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Inconsolata/README.md",
+      "gitBlobSHA1": "11d6a57230648668971e6de98ad177625e23976f",
+      "sourceBytes": 179,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/InconsolataGo/OFL.txt",
+      "gitBlobSHA1": "65f04cae46c0b8c7b0cd143adc6d09952497d28d",
+      "sourceBytes": 4350,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/InconsolataGo/README.md",
+      "gitBlobSHA1": "758c529c35407d450b22a48066c8fe10a2da575a",
+      "sourceBytes": 299,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/InconsolataLGC/OFL.txt",
+      "gitBlobSHA1": "7750b7525b9a536be8487c12008f9d589691f582",
+      "sourceBytes": 4507,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/InconsolataLGC/README.md",
+      "gitBlobSHA1": "19ae2630b248884c390fd2a500185d2939964180",
+      "sourceBytes": 520,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/IntelOneMono/LICENSE.txt",
+      "gitBlobSHA1": "81951a00a361ef1ca97b796c2e36b27bf1527772",
+      "sourceBytes": 4372,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/IntelOneMono/README.md",
+      "gitBlobSHA1": "dc87873b7104d29a388933a8282fa12798063efa",
+      "sourceBytes": 270,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Iosevka/LICENSE.md",
+      "gitBlobSHA1": "b2a7b6a7e93fa0857260e92a4b02eb7c9b71a8ee",
+      "sourceBytes": 4493,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Iosevka/README.md",
+      "gitBlobSHA1": "7ec79411b087d351aed64a740416d046ddc8361e",
+      "sourceBytes": 327,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/IosevkaTerm/LICENSE.md",
+      "gitBlobSHA1": "b2a7b6a7e93fa0857260e92a4b02eb7c9b71a8ee",
+      "sourceBytes": 4493,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/IosevkaTerm/README.md",
+      "gitBlobSHA1": "bbcb07d43e6256e67ae91f1bb6de402df962d655",
+      "sourceBytes": 337,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/IosevkaTermSlab/LICENSE.md",
+      "gitBlobSHA1": "b2a7b6a7e93fa0857260e92a4b02eb7c9b71a8ee",
+      "sourceBytes": 4493,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/IosevkaTermSlab/README.md",
+      "gitBlobSHA1": "007b817a87438093dfb59346f7ac22fcd5108aa3",
+      "sourceBytes": 347,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/JetBrainsMono/OFL.txt",
+      "gitBlobSHA1": "8bee4148c1d54dbf5dae6d6c117fc80414266abb",
+      "sourceBytes": 4399,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/JetBrainsMono/README.md",
+      "gitBlobSHA1": "ae118732beb786823c002290b7267b8815cfd85c",
+      "sourceBytes": 183,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Lekton/README.md",
+      "gitBlobSHA1": "b01bee44f6f4253034afa22c7e80968601569dca",
+      "sourceBytes": 273,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Lekton/SIL Open Font License.txt",
+      "gitBlobSHA1": "14c043d601cc55a74640d8c5c82957d2c84f2ad8",
+      "sourceBytes": 4299,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/LiberationMono/LICENSE",
+      "gitBlobSHA1": "aba73e8a403084a93a245ca00e4a0db007886e0a",
+      "sourceBytes": 4414,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/LiberationMono/README.md",
+      "gitBlobSHA1": "6aa439615031c9fc2ca41452d87d0a6ab031c3fc",
+      "sourceBytes": 268,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Lilex/LICENSE.txt",
+      "gitBlobSHA1": "9324092afae26c4e907f31dcaa4224e1e41abe1a",
+      "sourceBytes": 4384,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Lilex/README.md",
+      "gitBlobSHA1": "46ee05f5c006ca2bb9f4f2450274dff3724b2e0a",
+      "sourceBytes": 164,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/MPlus/OFL.txt",
+      "gitBlobSHA1": "b038fd111aff94bffc3fc21f239a556a84209a07",
+      "sourceBytes": 4387,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/MPlus/README.md",
+      "gitBlobSHA1": "119d4c3c807dcab321b8fa8d006d9f3dc5542e60",
+      "sourceBytes": 180,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/MartianMono/LICENSE",
+      "gitBlobSHA1": "3d86611f3660e09781ef246830e82374cbd7dfab",
+      "sourceBytes": 4390,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/MartianMono/README.md",
+      "gitBlobSHA1": "435c3837620df489423ad49f1b71d9072f47ace6",
+      "sourceBytes": 442,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Meslo/LICENSE.txt",
+      "gitBlobSHA1": "0300a76ab6746b6effcea96441617e9e889d8576",
+      "sourceBytes": 573,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Meslo/README.md",
+      "gitBlobSHA1": "094eaa4090d3082146068e564e23ff79cf22ce56",
+      "sourceBytes": 307,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Monaspace/LICENSE",
+      "gitBlobSHA1": "1b82de9bbdd10b7b054b99a06a697ee466dcbd94",
+      "sourceBytes": 4479,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Monaspace/README.md",
+      "gitBlobSHA1": "b5964ba290444a7568b74271aeb00bc4cde296e6",
+      "sourceBytes": 560,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Monofur/LICENSE.txt",
+      "gitBlobSHA1": "b20cf9b4da02532536986b46fe1bf4f0746dca0e",
+      "sourceBytes": 940,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Monofur/README.md",
+      "gitBlobSHA1": "b3282f9e15a4a62bae2d31415996c3a04fc822ea",
+      "sourceBytes": 154,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Monoid/LICENSE",
+      "gitBlobSHA1": "b13e7956a9970413bfac03e7299e3fcd46efd346",
+      "sourceBytes": 5464,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Monoid/README.md",
+      "gitBlobSHA1": "89bb2ad0bb5ffa7495a14eacdaae7bda2e7a3ede",
+      "sourceBytes": 258,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Mononoki/LICENSE.txt",
+      "gitBlobSHA1": "75d0c06f016f5cfeed46aed5d1daa41c02e48fbb",
+      "sourceBytes": 4405,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Mononoki/README.md",
+      "gitBlobSHA1": "b27416ccac8866d43fd96e53cfc5ab925e001b7e",
+      "sourceBytes": 177,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/NerdFontsSymbolsOnly/LICENSE",
+      "gitBlobSHA1": "06eb073d6b545f7f505919a52e6af903f913d4b8",
+      "sourceBytes": 1082,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/NerdFontsSymbolsOnly/README.md",
+      "gitBlobSHA1": "f339d4ca6a970e027f3f3a567955a8a28f2d43b6",
+      "sourceBytes": 213,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Noto/Mono/LICENSE_OFL.txt",
+      "gitBlobSHA1": "d952d62c065f3f35fb83a173496e90b21525aef3",
+      "sourceBytes": 4301,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Noto/OFL.txt",
+      "gitBlobSHA1": "0e6dea294845f60d60fd141ae161d2680d35eed5",
+      "sourceBytes": 4488,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Noto/README.md",
+      "gitBlobSHA1": "2a104c668bc22dc80cd8c64df88f57a18dd05a75",
+      "sourceBytes": 427,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/OpenDyslexic/LICENSE.txt",
+      "gitBlobSHA1": "4803fb9859d2769da4e17ab21a55fc4e5c2eff59",
+      "sourceBytes": 2447,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/OpenDyslexic/README.md",
+      "gitBlobSHA1": "957942101c70888b4b6020c17bfdf9fabb4a30e7",
+      "sourceBytes": 394,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Overpass/LICENSE.md",
+      "gitBlobSHA1": "3dca19ff3ffbdea03b22c548e55115fe239e864c",
+      "sourceBytes": 4422,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Overpass/Mono/LICENSE.md",
+      "gitBlobSHA1": "3dca19ff3ffbdea03b22c548e55115fe239e864c",
+      "sourceBytes": 4422,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Overpass/Non-Mono/LICENSE.md",
+      "gitBlobSHA1": "3dca19ff3ffbdea03b22c548e55115fe239e864c",
+      "sourceBytes": 4422,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Overpass/README.md",
+      "gitBlobSHA1": "a51946c40b84616d111c9e56217755db97d71a20",
+      "sourceBytes": 272,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ProFont/ProFontWinTweaked/LICENSE",
+      "gitBlobSHA1": "dcc3f128a6cfe989c10fe73e1f3373c97d8e5495",
+      "sourceBytes": 1112,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ProFont/README.md",
+      "gitBlobSHA1": "910ed83910209c38048b01d456f1e97abcda85a1",
+      "sourceBytes": 238,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ProFont/profontiix/LICENSE",
+      "gitBlobSHA1": "2fa45cd8a55fc11d1a720e779d53952d9159001c",
+      "sourceBytes": 1125,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ProggyClean/Licence.txt",
+      "gitBlobSHA1": "d67eb33a6b3818525f6b683bdc2bdcd1f814eb47",
+      "sourceBytes": 1072,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ProggyClean/README.md",
+      "gitBlobSHA1": "bc720a4a02bf678df3e724cda40fc151bc264807",
+      "sourceBytes": 440,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/README.md",
+      "gitBlobSHA1": "bc4424ced796f23279ab344386f30607ca22335c",
+      "sourceBytes": 850,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Recursive/LICENSE.txt",
+      "gitBlobSHA1": "d4361a99fe5b5091c2a7596ee55818da51373a3d",
+      "sourceBytes": 4389,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Recursive/README.md",
+      "gitBlobSHA1": "6b613c2e0c58a84e266be5c3b9323203ab0e02b8",
+      "sourceBytes": 1368,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/RobotoMono/LICENSE.txt",
+      "gitBlobSHA1": "75b52484ea471f882c29e02693b4f02dba175b5e",
+      "sourceBytes": 11560,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/RobotoMono/README.md",
+      "gitBlobSHA1": "908a707fccea87e4032c34fdb179267ce3b94231",
+      "sourceBytes": 129,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ShareTechMono/OFL.txt",
+      "gitBlobSHA1": "02c8c8ee82de3f9b9c7485d3055f4a9d8232270f",
+      "sourceBytes": 4520,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ShareTechMono/README.md",
+      "gitBlobSHA1": "b5c3629ae309796de52a3950f8bfe71bc5a4b699",
+      "sourceBytes": 85,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/SourceCodePro/LICENSE.txt",
+      "gitBlobSHA1": "db2a8ba7a53613fd7370583bb4bfe0a75f258086",
+      "sourceBytes": 4578,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/SourceCodePro/README.md",
+      "gitBlobSHA1": "1c92c21bbe8b109d4a9e0d7a8c27156b0b2e2fe7",
+      "sourceBytes": 270,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/SpaceMono/OFL.txt",
+      "gitBlobSHA1": "2c5ae56361998115f0cc2502e60e8b193b5a731e",
+      "sourceBytes": 4486,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/SpaceMono/README.md",
+      "gitBlobSHA1": "53035c66aa7992c433df9af6f7f5ade0dca59108",
+      "sourceBytes": 174,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Terminus/LICENSE.txt",
+      "gitBlobSHA1": "8cd25e33ac080cb5a38a24c4fed3307abf0c81ae",
+      "sourceBytes": 4570,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Terminus/README.md",
+      "gitBlobSHA1": "37600f1a04b13b929faec9d199705db77ee447b5",
+      "sourceBytes": 288,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Tinos/Apache License.txt",
+      "gitBlobSHA1": "b45b3b66e69f23d836bc781887b02788fbc0e6d3",
+      "sourceBytes": 11308,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Tinos/README.md",
+      "gitBlobSHA1": "b54be9d6a5c4b621687e594857db14d9d9926e12",
+      "sourceBytes": 515,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Ubuntu/LICENCE.txt",
+      "gitBlobSHA1": "ae78a8f94eae372cb1ca4e14b67244342fce604e",
+      "sourceBytes": 4673,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/Ubuntu/README.md",
+      "gitBlobSHA1": "b657967627c7c930fda1181d6e1d884c90ae2ca0",
+      "sourceBytes": 926,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/UbuntuMono/LICENCE.txt",
+      "gitBlobSHA1": "ae78a8f94eae372cb1ca4e14b67244342fce604e",
+      "sourceBytes": 4673,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/UbuntuMono/README.md",
+      "gitBlobSHA1": "420f2f49d76607da0a0c654aa137d729729b70eb",
+      "sourceBytes": 632,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/UbuntuSans/LICENCE.txt",
+      "gitBlobSHA1": "ae78a8f94eae372cb1ca4e14b67244342fce604e",
+      "sourceBytes": 4673,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/UbuntuSans/README.md",
+      "gitBlobSHA1": "2a43ab79b4313d627b116a41fd3a56b901c03d5f",
+      "sourceBytes": 265,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/VictorMono/LICENSE.txt",
+      "gitBlobSHA1": "6dd3d05bd33d12a801cc30b0b0c0c15d881441ae",
+      "sourceBytes": 4365,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/VictorMono/README.md",
+      "gitBlobSHA1": "70615bd87ee0cefbe34109898338020aff3fe1c0",
+      "sourceBytes": 220,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ZedMono/LICENSE.md",
+      "gitBlobSHA1": "11b35fdf273c04037ff70229681e260748214872",
+      "sourceBytes": 4483,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/ZedMono/README.md",
+      "gitBlobSHA1": "f73e5491c79ab7260d2a5613f086aa57ff9d38b9",
+      "sourceBytes": 175,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/iA-Writer/LICENSE.md",
+      "gitBlobSHA1": "5cd41aa49bc0d9162b0c79b7652c938fc78a76cc",
+      "sourceBytes": 4506,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "ryanoasis/nerd-fonts",
+      "commit": "adbd16ab7ca911eaca7ce3b0f2b7994207c7ecae",
+      "path": "src/unpatched-fonts/iA-Writer/README.md",
+      "gitBlobSHA1": "6143751a21d1822d414f8768161d9a7bcb7608f9",
+      "sourceBytes": 339,
+      "readStatus": "inventoried-not-read",
+      "reason": "Family-specific notice/README or contributor/implementation guidance outside selected source scope"
+    },
+    {
+      "repository": "bradtraversy/design-resources-for-developers",
+      "commit": "035bac33121d13f51983c2997ba7369abdce082c",
+      "path": ".github/pull_request_template.md",
+      "gitBlobSHA1": "4972e47cd3de8b9c549b29503880d985e0f421e0",
+      "sourceBytes": 636,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 636,
+      "sha256": "5c122cd794669b59a1059e5e9e269dce9f66481948b6d63af848d2b803a227a5"
+    },
+    {
+      "repository": "bradtraversy/design-resources-for-developers",
+      "commit": "035bac33121d13f51983c2997ba7369abdce082c",
+      "path": "LICENSE",
+      "gitBlobSHA1": "b12310044cbb45f3089e3ccd0aa54a00b976f639",
+      "sourceBytes": 1069,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 1069,
+      "sha256": "111d9d69703583471a777ec67987bf7f7d69a4937ea9bf6197399f41f57cfc08"
+    },
+    {
+      "repository": "bradtraversy/design-resources-for-developers",
+      "commit": "035bac33121d13f51983c2997ba7369abdce082c",
+      "path": "contributing.md",
+      "gitBlobSHA1": "219bf28a7730515fe0aa704e3f7fda48fd26defb",
+      "sourceBytes": 2132,
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 2132,
+      "sha256": "192816424155051c5528b7989af0d67850ef5e474ec84921ae8a6d1ae6c0f137"
+    },
+    {
+      "repository": "bradtraversy/design-resources-for-developers",
+      "commit": "035bac33121d13f51983c2997ba7369abdce082c",
+      "path": "readme.md",
+      "gitBlobSHA1": "4f01b1cc3334015d04adc08ffc6e445259b4b492",
+      "sourceBytes": 181049,
+      "readStatus": "structured-complete-scan-and-selected-close-read",
+      "reason": "All headings and catalog rows parsed; resource categories relevant to Ingenium close-read; external links not expanded",
+      "bytes": 181049,
+      "sha256": "74cae62f3d1834ecc65ced147b5b696ae9e45d9bab779678ce8f37e5ccce1645"
+    },
+    {
+      "repository": "google/material-design-icons",
+      "commit": "49d4db35df873165d6bd6ba09b063c7dafbac2f4",
+      "path": "LICENSE",
+      "gitBlobSHA1": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "repository": "google/material-design-icons",
+      "commit": "49d4db35df873165d6bd6ba09b063c7dafbac2f4",
+      "path": "README.md",
+      "gitBlobSHA1": "724f231e9d7ace1b480fc28f16e256bb1ab12520",
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 7856,
+      "sha256": "e1ab9d093fa612bd83a1043717ac150d636354c444792893dba2119f22a212c3"
+    },
+    {
+      "repository": "google/material-design-icons",
+      "commit": "49d4db35df873165d6bd6ba09b063c7dafbac2f4",
+      "path": "font/README.md",
+      "gitBlobSHA1": "7b4e47bc96684feedbdd1ee5d8b85bddae5dc22b",
+      "readStatus": "read",
+      "reason": "Pinned source documentation or exact selected license inspected",
+      "bytes": 1410,
+      "sha256": "6f3cf47cd158b2c365d69637e5ebda57de6a5ff0eef76fc74590cd22007d0651"
+    }
+  ]
+}

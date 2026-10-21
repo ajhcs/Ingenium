@@ -1,0 +1,807 @@
+[
+  {
+    "from": "skills/README.md",
+    "link": "./material-ui-styling/",
+    "target": "skills/material-ui-styling/AGENTS.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/README.md",
+    "link": "./material-ui-theming/",
+    "target": "skills/material-ui-theming/AGENTS.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/README.md",
+    "link": "./material-ui-nextjs/",
+    "target": "skills/material-ui-nextjs/AGENTS.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/README.md",
+    "link": "./material-ui-tailwind/",
+    "target": "skills/material-ui-tailwind/AGENTS.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#configuration",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://emotion.sh/docs/@emotion/cache#options",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#custom-cache-optional",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#url-driven-ui-and-the-suspense-boundary",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://nextjs.org/docs/app/api-reference/functions/use-search-params",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#cascade-layers-optional",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#typescript",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#font-optimization",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#custom-font",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#font-optimization-2",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#custom-font-2",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/overview.md",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/configuration.md#preventing-ssr-flickering",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/overview.md#advantages",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#using-other-styling-solutions",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@layer",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#nextjs-v16-client-component-restriction",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/routing.md#nextjs-pages-router",
+    "target": "docs/data/material/integrations/routing/routing.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://github.com/mui/material-ui/tree/master/examples/material-ui-nextjs-pages-router-ts",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://github.com/mui/material-ui/tree/master/examples/material-ui-nextjs-ts",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/routing.md",
+    "target": "docs/data/material/integrations/routing/routing.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "https://github.com/reactwg/server-components/discussions/4",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-nextjs/AGENTS.md",
+    "link": "reference.md",
+    "target": "skills/material-ui-nextjs/reference.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-nextjs/SKILL.md",
+    "link": "./AGENTS.md",
+    "target": "skills/material-ui-nextjs/AGENTS.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-nextjs/SKILL.md",
+    "link": "./reference.md",
+    "target": "skills/material-ui-nextjs/reference.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-nextjs/reference.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#font-optimization",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/how-to-customize.md",
+    "target": "docs/data/material/customization/how-to-customize/how-to-customize.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/system/getting-started/the-sx-prop/",
+    "target": "docs/data/system/getting-started/the-sx-prop/the-sx-prop.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/system/styled/",
+    "target": "docs/data/system/styled/styled.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/theme-components.md",
+    "target": "docs/data/material/customization/theme-components/theme-components.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/material-ui/api/global-styles.md",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/material-ui/react-css-baseline.md",
+    "target": "docs/data/material/components/css-baseline/css-baseline.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/how-to-customize.md#state-classes",
+    "target": "docs/data/material/customization/how-to-customize/how-to-customize.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/system/styled/",
+    "target": "docs/data/system/styled/styled.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/theme-components.md",
+    "target": "docs/data/material/customization/theme-components/theme-components.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/system/styled/#difference-with-the-sx-prop",
+    "target": "docs/data/system/styled/styled.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/how-to-customize.md",
+    "target": "docs/data/material/customization/how-to-customize/how-to-customize.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/system/getting-started/the-sx-prop/",
+    "target": "docs/data/system/getting-started/the-sx-prop/the-sx-prop.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/system/styled/",
+    "target": "docs/data/system/styled/styled.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/theme-components.md",
+    "target": "docs/data/material/customization/theme-components/theme-components.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/system/properties/",
+    "target": "docs/data/system/properties/properties.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/how-to-customize.md#state-classes",
+    "target": "docs/data/material/customization/how-to-customize/how-to-customize.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-styling/AGENTS.md",
+    "link": "reference.md",
+    "target": "skills/material-ui-styling/reference.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-styling/SKILL.md",
+    "link": "./AGENTS.md",
+    "target": "skills/material-ui-styling/AGENTS.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-styling/SKILL.md",
+    "link": "./reference.md",
+    "target": "skills/material-ui-styling/reference.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-styling/reference.md",
+    "link": "https://mui.com/material-ui/customization/how-to-customize.md",
+    "target": "docs/data/material/customization/how-to-customize/how-to-customize.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4.md#overview",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#app-router",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#pages-router",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4.md#nextjs-pages-router",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/nextjs.md#using-other-styling-solutions",
+    "target": "docs/data/material/integrations/nextjs/nextjs.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4.md#vitejs-or-any-other-spa",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://github.com/mui/material-ui/tree/master/examples/material-ui-vite-tailwind-ts",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/overriding-component-structure.md#interior-slots",
+    "target": "docs/data/material/customization/overriding-component-structure/overriding-component-structure.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4.md#usage",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4.md#extend-material-ui-classes",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4.md#extend-material-ui-classes",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://play.tailwindcss.com/mh7Ym0mGff",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4.md#tailwind-css-intellisense-for-vs-code",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "reference.md",
+    "target": "skills/material-ui-tailwind/reference.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/interoperability.md#tailwind-css-v3",
+    "target": "docs/data/material/integrations/interoperability/interoperability.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/interoperability.md#troubleshooting",
+    "target": "docs/data/material/integrations/interoperability/interoperability.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4.md#troubleshooting",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4.md",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/css-layers.md",
+    "target": "docs/data/material/customization/css-layers/css-layers.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/overriding-component-structure.md#interior-slots",
+    "target": "docs/data/material/customization/overriding-component-structure/overriding-component-structure.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-tailwind/AGENTS.md",
+    "link": "https://mui.com/material-ui/integrations/interoperability.md#tailwind-css-v3",
+    "target": "docs/data/material/integrations/interoperability/interoperability.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-tailwind/SKILL.md",
+    "link": "./AGENTS.md",
+    "target": "skills/material-ui-tailwind/AGENTS.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-tailwind/SKILL.md",
+    "link": "./reference.md",
+    "target": "skills/material-ui-tailwind/reference.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-tailwind/reference.md",
+    "link": "https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4.md#tailwind-css-intellisense-for-vs-code",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-tailwind/reference.md",
+    "link": "https://mui.com/material-ui/integrations/interoperability.md#tailwind-css-v3",
+    "target": "docs/data/material/integrations/interoperability/interoperability.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/dark-mode.md",
+    "target": "docs/data/material/customization/dark-mode/dark-mode.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/palette.md",
+    "target": "docs/data/material/customization/palette/palette.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/typography.md",
+    "target": "docs/data/material/customization/typography/typography.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/spacing.md",
+    "target": "docs/data/material/customization/spacing/spacing.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/shape.md",
+    "target": "docs/data/material/customization/shape/shape.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/breakpoints.md",
+    "target": "docs/data/material/customization/breakpoints/breakpoints.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/z-index.md",
+    "target": "docs/data/material/customization/z-index/z-index.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/transitions.md",
+    "target": "docs/data/material/customization/transitions/transitions.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/theme-components.md",
+    "target": "docs/data/material/customization/theme-components/theme-components.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/default-theme.md",
+    "target": "docs/data/material/customization/default-theme/default-theme.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/dark-mode.md",
+    "target": "docs/data/material/customization/dark-mode/dark-mode.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/dark-mode.md",
+    "target": "docs/data/material/customization/dark-mode/dark-mode.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/usage.md",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/usage.md",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/configuration.md",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/configuration.md#preventing-ssr-flickering",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/overview.md",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/typography.md",
+    "target": "docs/data/material/customization/typography/typography.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/spacing.md",
+    "target": "docs/data/material/customization/spacing/spacing.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/theming.md#theme-composition-using-theme-options-to-define-other-options",
+    "target": "docs/data/material/customization/theming/theming.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/theming.md#createtheme-options-args-theme",
+    "target": "docs/data/material/customization/theming/theming.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/theming.md#nesting-the-theme",
+    "target": "docs/data/material/customization/theming/theming.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/theming.md#custom-variables",
+    "target": "docs/data/material/customization/theming/theming.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/palette.md",
+    "target": "docs/data/material/customization/palette/palette.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://www.w3.org/TR/css-color-4/#css-system-colors",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/palette.md#windows-high-contrast-mode",
+    "target": "docs/data/material/customization/palette/palette.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/theming.md",
+    "target": "docs/data/material/customization/theming/theming.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/dark-mode.md",
+    "target": "docs/data/material/customization/dark-mode/dark-mode.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/overview.md",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/palette.md#windows-high-contrast-mode",
+    "target": "docs/data/material/customization/palette/palette.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/customization/color.md",
+    "target": "docs/data/material/customization/color/color.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "https://mui.com/material-ui/guides/typescript.md#customization-of-theme",
+    "target": "docs/data/material/guides/typescript/typescript.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/AGENTS.md",
+    "link": "reference.md",
+    "target": "skills/material-ui-theming/reference.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-theming/SKILL.md",
+    "link": "./AGENTS.md",
+    "target": "skills/material-ui-theming/AGENTS.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-theming/SKILL.md",
+    "link": "./reference.md",
+    "target": "skills/material-ui-theming/reference.md",
+    "status": "local-present",
+    "targetReadStatus": "full-content-reviewed"
+  },
+  {
+    "from": "skills/material-ui-theming/reference.md",
+    "link": "https://mui.com/material-ui/customization/theming.md#custom-variables",
+    "target": "docs/data/material/customization/theming/theming.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/reference.md",
+    "link": "https://mui.com/material-ui/customization/shape.md#typescript",
+    "target": "docs/data/material/customization/shape/shape.md",
+    "status": "local-present",
+    "targetReadStatus": "indexed-bytes-and-headings-only"
+  },
+  {
+    "from": "skills/material-ui-theming/reference.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/usage.md#typescript",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  },
+  {
+    "from": "skills/material-ui-theming/reference.md",
+    "link": "https://mui.com/material-ui/customization/css-theme-variables/usage.md",
+    "target": null,
+    "status": "external-or-route-unresolved",
+    "targetReadStatus": "not-read-in-this-checkpoint"
+  }
+]

@@ -1,0 +1,869 @@
+[
+  {
+    "path": "skills/animate/LICENSE",
+    "sha256": "d24da413cccbc3d844929a1cc08e5ba79385139c0c47c9d5bd0dd2df24ffe15c",
+    "bytes": 1091,
+    "read_status": "full-semantic-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/animate/references/RECIPES.md",
+    "sha256": "7b835d46748f13e05048ef1a7f3b49587a1b7fee4a72854c788992e184af9cf5",
+    "bytes": 8281,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/animate/SOURCES.md",
+    "sha256": "36db15324bb1c000ebe777fc872bee92145cf4c620e45ac0aea167b61e101031",
+    "bytes": 820,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/emil-design-eng/LICENSE",
+    "sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+    "bytes": 1089,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-core/LICENSE",
+    "sha256": "b8297853320e83ac0bee09cc0ef23254efbac3aee1d74aa3b3bcd0eac58894b8",
+    "bytes": 1087,
+    "read_status": "full-semantic-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-core/SOURCES.md",
+    "sha256": "8d90fba3e009a88110b7f3cf40636d1f4686dfc0b940a386451d6bcda00ca65e",
+    "bytes": 826,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-frameworks/LICENSE",
+    "sha256": "b8297853320e83ac0bee09cc0ef23254efbac3aee1d74aa3b3bcd0eac58894b8",
+    "bytes": 1087,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-frameworks/SOURCES.md",
+    "sha256": "e32e9cf518b6712488454b622324192ef01890d99c3048ef8da850001eccedfc",
+    "bytes": 832,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-performance/LICENSE",
+    "sha256": "b8297853320e83ac0bee09cc0ef23254efbac3aee1d74aa3b3bcd0eac58894b8",
+    "bytes": 1087,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-performance/SOURCES.md",
+    "sha256": "912fbe4a8cbd7fde320a57b3133071d50013ed412bfbe424990fec6d79508da7",
+    "bytes": 833,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-plugins/LICENSE",
+    "sha256": "b8297853320e83ac0bee09cc0ef23254efbac3aee1d74aa3b3bcd0eac58894b8",
+    "bytes": 1087,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-plugins/SOURCES.md",
+    "sha256": "c6cee6c3c9389db5ee30eb9eae7753645dac1d4ce537f83301d6a00984dc9cf1",
+    "bytes": 829,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-react/LICENSE",
+    "sha256": "b8297853320e83ac0bee09cc0ef23254efbac3aee1d74aa3b3bcd0eac58894b8",
+    "bytes": 1087,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-react/SOURCES.md",
+    "sha256": "045eebf2f3dbaab3646806743d299e800d10f0efd6618782f328514e8bb1e7c0",
+    "bytes": 827,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-scrolltrigger/LICENSE",
+    "sha256": "b8297853320e83ac0bee09cc0ef23254efbac3aee1d74aa3b3bcd0eac58894b8",
+    "bytes": 1087,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-scrolltrigger/SOURCES.md",
+    "sha256": "aa20c62cc5deb5a48c6453e7d35e1ac4d65756e6cd9d964bf2d325902a2666cd",
+    "bytes": 835,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-timeline/LICENSE",
+    "sha256": "b8297853320e83ac0bee09cc0ef23254efbac3aee1d74aa3b3bcd0eac58894b8",
+    "bytes": 1087,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-timeline/SOURCES.md",
+    "sha256": "354518c9390a2e25a319294aea0c8979cb2cb7384d78a8b533dad5177625b9e6",
+    "bytes": 830,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-utils/LICENSE",
+    "sha256": "b8297853320e83ac0bee09cc0ef23254efbac3aee1d74aa3b3bcd0eac58894b8",
+    "bytes": 1087,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/gsap-utils/SOURCES.md",
+    "sha256": "f55764c9d6edaeba74fdf91d7ce57800d9bbf203df12492c91f0b2f85f8b5c41",
+    "bytes": 827,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/huashu-art-motion/LICENSE",
+    "sha256": "fd164d60e753fd14343e54d03b0c104a292546761bc5866e371de4a02035659c",
+    "bytes": 1107,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/huashu-art-motion/references/art-styles-1.md",
+    "sha256": "4656d43c3765ddb8da69fe79cc8484c19e2637b195fb0f7a89dfecae66ebe85f",
+    "bytes": 96937,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/huashu-art-motion/references/art-styles-2.md",
+    "sha256": "dc6dee5b9304eef29e8993fa55abf50902d8b757cdfa60b9c1d56ffd462d4d47",
+    "bytes": 54728,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/huashu-art-motion/references/canvas-helpers.md",
+    "sha256": "d2c7445508cba23abb65f0bcec761306e7e2c3635fd1851928103382c6932fca",
+    "bytes": 84896,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/huashu-art-motion/references/craft-workflow.md",
+    "sha256": "2e739633878a6396c717be4f214acceacd493edecf157f5eea8ba1bf952ab761",
+    "bytes": 58763,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/huashu-art-motion/references/explainer-grammars.md",
+    "sha256": "303f03df4c8c51c2e6dde1a2ab420ce2d44fd952ccb451275e3ebf70cedce4e3",
+    "bytes": 131812,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/huashu-art-motion/references/index.md",
+    "sha256": "c1ea87a0c08cfa00ecab92b2a6269ba1b3b1cde4a0c69eb4a744325c8d8fb64f",
+    "bytes": 3093,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/huashu-art-motion/references/license.md",
+    "sha256": "fd164d60e753fd14343e54d03b0c104a292546761bc5866e371de4a02035659c",
+    "bytes": 1107,
+    "read_status": "full-semantic-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/huashu-art-motion/SOURCES.md",
+    "sha256": "a57f5f78fe269b8e54641bc2fefaf8a70ba534453c87d4216b428a141d9b6faa",
+    "bytes": 1040,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/motion-design/SOURCES.md",
+    "sha256": "afa3626b0f71fdc81cf8f39cd3d46efb6d36e2c116fd4b17d96e4b9446d33aae",
+    "bytes": 1176,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/motion-lab/LICENSE",
+    "sha256": "33e8474077d204adc4242860ac72cd727799523aa099bd75cfddac40b010672e",
+    "bytes": 1246,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/motion-lab/references/advanced.md",
+    "sha256": "bf416eab72205453126b4dbd11cfd07864282cb2c077a5222212cc653e25f42e",
+    "bytes": 42556,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/motion-lab/references/basic.md",
+    "sha256": "3c28ae14f9427e27bd40f4840cc641c91fa848ebede86430b49b0288bcdf44f9",
+    "bytes": 31991,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/motion-lab/references/index.md",
+    "sha256": "90cd0002adab7b88a69d7f002248f6c202607323ad7bd1fc3e8137c444263ebd",
+    "bytes": 12295,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/motion-lab/references/interaction.md",
+    "sha256": "4d6e6db46e877050a6d6fa8275c707b06def885803dec24b34f74ee1c90440e5",
+    "bytes": 39235,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/motion-lab/references/license.md",
+    "sha256": "33e8474077d204adc4242860ac72cd727799523aa099bd75cfddac40b010672e",
+    "bytes": 1246,
+    "read_status": "full-semantic-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/motion-lab/references/text.md",
+    "sha256": "74e4a84e9558870b7dddacda95dfbb21a77e6bb558221bdd76b4193797411cac",
+    "bytes": 35327,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/motion-lab/SOURCES.md",
+    "sha256": "5e4bc6b47a94ebef858fed55a709afd4c2d9c53098733c43610eb79b5c040fd3",
+    "bytes": 833,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/assets/chroma-video-renderer.ts",
+    "sha256": "cbc0b6fbfd139acc952b0e054e61bd300ecc43809e7e8eeb77160a1d28477df3",
+    "bytes": 13687,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/assets/interactive-motion.ts",
+    "sha256": "9d709f330c12d8bfdd1b9aff638fa0b8f25665cfcf7cba90bdf3454315c7c735",
+    "bytes": 15505,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/assets/motion-explainer-template.html",
+    "sha256": "ebce6eeb5bfffbb49aa96b99277d3d10c8b8c1136442289c38d827ea3a837be1",
+    "bytes": 35118,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/assets/motion-manifest.example.json",
+    "sha256": "8bd134936c5e55f815acafe4065eafa6e517ab956dc08c7bfd09579e17c2a001",
+    "bytes": 356,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/assets/step-gesture.ts",
+    "sha256": "2fc0286a6ca3765aff3e346210b3be310a5b2975297a08913caab0056d43c90a",
+    "bytes": 2047,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/LICENSE",
+    "sha256": "b5007252b4eb5bd50c077ba3f09c7749854a1628e0c8cccfd0f4360bb2587641",
+    "bytes": 1090,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/alpha-atlas.md",
+    "sha256": "936c567f55289df1be70f208c8b97b6ff6fe8890e181782a6ebaa8a375fc090e",
+    "bytes": 4480,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/baked-video.md",
+    "sha256": "e3129ce6e05d7babf4680bcc08296193dbd3549a551bcc383c49b61ae091733a",
+    "bytes": 3630,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/chroma-video.md",
+    "sha256": "86e9c8f2ad47b10b6c288af9c0f78eb0bc2f4b75898959601742e20afaa612f8",
+    "bytes": 4387,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/concepts.md",
+    "sha256": "87d7fb443c7414fe55015c2cfc5a8fb2c41e4a5db2b1a17d8194c24e2c7d4fc7",
+    "bytes": 11697,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/delivery-selection.md",
+    "sha256": "a6a0e2d5ddf45b8db6af2ed694e2e0d5eb93e50950a6bd2c60ec9dc4ab6750c5",
+    "bytes": 6162,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/explainer.md",
+    "sha256": "fad182c6269522e59aaa28585b4a0d7498ce719b0fc0935376cacc2c69080448",
+    "bytes": 3226,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/license.md",
+    "sha256": "b5007252b4eb5bd50c077ba3f09c7749854a1628e0c8cccfd0f4360bb2587641",
+    "bytes": 1090,
+    "read_status": "full-semantic-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/motion-patterns.md",
+    "sha256": "b8b008e2f855979d15868433fd8904be21c86455c5780c28842f56d2bc0e2e3a",
+    "bytes": 17482,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/optimization.md",
+    "sha256": "14f6a2fe19ae44b6e8df148b4fc5b527c41144d51fc62b7b213a9e2b658bb4c3",
+    "bytes": 2847,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/prompting.md",
+    "sha256": "a9c16437cadd819727d18165923be2b00f8a65cec03a8c4e97704e676ef05c7e",
+    "bytes": 15644,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/qa.md",
+    "sha256": "06f28e0c151efc82ebc54c4aa5c7e0a9dfdb023060f6a1e7fe067a06191632e0",
+    "bytes": 6930,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/references/runtime.md",
+    "sha256": "d4ba431f5d0a8252fadf87a12f82b7c86afcceb99c1569f23aa96dc960ea9624",
+    "bytes": 7823,
+    "read_status": "full-semantic-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/chroma_key.py",
+    "sha256": "9c2ec5505be9dfbdb0555ae4e9e1d14761a08fc5493399cc3103482561e9eb9f",
+    "bytes": 6170,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/compile_scroll_video.py",
+    "sha256": "6b4c2ad0c8701b0dcdb808bff6320e7c65beca0427e6d4d555825c525c8d9cb1",
+    "bytes": 41711,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/compose_travel_frames.py",
+    "sha256": "80dfa4012214980833126c07c50748e8c59566b33b576dc5c09db6941bd489c5",
+    "bytes": 4757,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/composite_alpha_keyframe.py",
+    "sha256": "5adb625eecae16ae88670ad9921cc5dfa80c4030efe52c43f562eae485c137c6",
+    "bytes": 1807,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/create_explainer.py",
+    "sha256": "976348620ba0b47160b10ffeb01a313570422750bf63313856c7567ae5675213",
+    "bytes": 6913,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/loop_cleanup.py",
+    "sha256": "80be65d63061a5b20a984c8c131fb2d44689faf8e2b8bc526dbe00e74a6cddb3",
+    "bytes": 5553,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/media_edges.py",
+    "sha256": "fba26131bca21e5d5403608f295a912d38ee9428d3b327f37277b21115699dc8",
+    "bytes": 1402,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/motion_budget.py",
+    "sha256": "8e1b48cde1f74cef86790e66b4fb80be98c32494cd1e04c99d515de988be6d8b",
+    "bytes": 15204,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/motion_pipeline.py",
+    "sha256": "7f049061c8535e0b4237c08f7416840914a546df95b70a25836872cfb5902a5e",
+    "bytes": 37975,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/optimize_motion.py",
+    "sha256": "8de451818391b56f22684ef8096dff3f881571d6a56c3df16c843d5aecdb8ce6",
+    "bytes": 29439,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/production_gate.py",
+    "sha256": "1c5a0f3fc93b4b2084ec5ac53ddb9307bde7cec3c44794a18dc4de50d8eb7777",
+    "bytes": 16169,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/scripts/requirements.txt",
+    "sha256": "ed8901ba0dbbf44e89f833e8ad1e0ca9dc032b4d150788e162af655b1d51388e",
+    "bytes": 46,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/oil-motion/SOURCES.md",
+    "sha256": "21083d0b9501a685a70b85599d0f5e30bd7eef49857f639e102dd7e2b4e48b8d",
+    "bytes": 946,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/review-animations/LICENSE",
+    "sha256": "4981c5f6a90eb3a969dacabb9350f5a75695ff3910b39b6534952908dfdc5ff7",
+    "bytes": 1089,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/review-animations/STANDARDS.md",
+    "sha256": "3f8aa0cf64bc475ee1b64284646a659b5d67a087381d9bda44fa81748873db99",
+    "bytes": 10147,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/LICENSE",
+    "sha256": "e042c9f863d88e04bb40a8267623e7d04a7a0519cb26da56f46e12758438dc08",
+    "bytes": 1091,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/choreography.md",
+    "sha256": "bb6695457c6977ce847f39eca66d32367ce21605ae6d49b6af63f60f31bac9b1",
+    "bytes": 2657,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/clip-path-techniques.md",
+    "sha256": "0ad8f92fe35d57f2e3dcdc26fbc9eeeed238e7776ca9b7df3b006684548c27e5",
+    "bytes": 3131,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/code-output.md",
+    "sha256": "f87aba34b8fee93d91977d29d963e225305611eb3a5940ecf4ad4da9d240b5d9",
+    "bytes": 4437,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/component-patterns.md",
+    "sha256": "a1aeacc936942a38d896f81c56e6129996d75f39556accc0db9c3907b58d3ee6",
+    "bytes": 9419,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/contextual-animations.md",
+    "sha256": "50907ca6ec94780284fc711ee9470cadc587a6631001bd10abe5af6e9f59752f",
+    "bytes": 5915,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/curve-fitting.md",
+    "sha256": "ea6e7d5d24bcf5008d557797683924621a989fc54684393575d11b99bc0ef1b7",
+    "bytes": 4801,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/debugging-symptoms.md",
+    "sha256": "748859ea1d2259598b6838d502feb87c7c68705c39880425d0e48df361241ee4",
+    "bytes": 7634,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/decision-framework.md",
+    "sha256": "5df1b7686c2ea574783e50afa77b6362c38936f4bc49d6f9b2d3784f9010ffdc",
+    "bytes": 6936,
+    "read_status": "full-semantic-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/gesture-drag.md",
+    "sha256": "b8e11ea916446d7d2401dd1c6071fe2f974c332c23c6676f541683f25e3eb519",
+    "bytes": 12181,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/interface-sfx.md",
+    "sha256": "0fc631ff3bf20dda07d113e64a50ec0fe04dc4b831b6951a27346a05d88048bb",
+    "bytes": 2059,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/measurement-guide.md",
+    "sha256": "37c2e77743992950d6981716362c6f5ad9fcfd7cec2e9f78ed4e0424907058d2",
+    "bytes": 4295,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/performance-deep-dive.md",
+    "sha256": "3336268628fb1d18d8de435f2c57c11f396ee5dcad6dc149306a37210b48c237",
+    "bytes": 8913,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/review-format.md",
+    "sha256": "cde558ea7b8eb8c973049728ae40ab6290085c7927f52212237c739e5f33f40c",
+    "bytes": 9591,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/scroll-animations.md",
+    "sha256": "5ea17e8a539829ddcc74486450b15b8e715e22664e6bcab0a5499fad99d9c1b8",
+    "bytes": 7416,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/spring-animations.md",
+    "sha256": "596887fed341bd4b9645665fd5d62f4a19f959f3b25e1ffa75b9990e09cb0a37",
+    "bytes": 7050,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/svg-animation.md",
+    "sha256": "d74dd4a9d4164ad601c160a392b2291f74fa07ef74c552b951ae171756014b2b",
+    "bytes": 5638,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/transition-recipes.md",
+    "sha256": "5e7960a5ed583e5a7bc39c93aa48985611bf9ae83d5449c6a8b21b2e65fabb81",
+    "bytes": 27215,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/references/vocabulary.md",
+    "sha256": "f4d48ca20b7611d7ae779db56d16f83fb2b8d833bc290690423c0547e95dee09",
+    "bytes": 12810,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/scripts/extract_frames.py",
+    "sha256": "6d4b5e9419ed81dca102d09ff61013b1a62a7fbca44cd72b8304fad5318f45d6",
+    "bytes": 4551,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/scripts/fit_curves.py",
+    "sha256": "d53e06d275445c4c87c6fa6c9ae6d5f36f5040e0ad995fb5160c030e14591af3",
+    "bytes": 7988,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/scripts/track_motion.py",
+    "sha256": "be0077070a5637bf2cc6d3257573f3810887e5147cbb09cf9d46d02e20cd854a",
+    "bytes": 7948,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/ui-animation/SOURCES.md",
+    "sha256": "d52ca2cc19876a876723e2fe85c2c2bd374bf85c0cd002f569b5972b28c236ac",
+    "bytes": 883,
+    "read_status": "full-semantic-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/image-to-code-skill/LICENSE",
+    "sha256": "3c9f63518df3378772203cc64d38d9e381d2a4723b93d2c3849b2bf3d464de0c",
+    "bytes": 1086,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/imagegen-frontend-mobile/LICENSE",
+    "sha256": "3c9f63518df3378772203cc64d38d9e381d2a4723b93d2c3849b2bf3d464de0c",
+    "bytes": 1086,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/imagegen-frontend-web/LICENSE",
+    "sha256": "3c9f63518df3378772203cc64d38d9e381d2a4723b93d2c3849b2bf3d464de0c",
+    "bytes": 1086,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/taste-skill/LICENSE",
+    "sha256": "3c9f63518df3378772203cc64d38d9e381d2a4723b93d2c3849b2bf3d464de0c",
+    "bytes": 1086,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/taste-skill-v1/LICENSE",
+    "sha256": "3c9f63518df3378772203cc64d38d9e381d2a4723b93d2c3849b2bf3d464de0c",
+    "bytes": 1086,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/agents/openai.yaml",
+    "sha256": "a5b4e203e09598ed669f00baf25c8558c28a8126535edeae71d26c64911295c9",
+    "bytes": 564,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/LICENSE.txt",
+    "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+    "bytes": 10977,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/README.md",
+    "sha256": "266291dd0e7bf88cff5732e3332d38e3e05d2a715d52081410102abb8f368d9c",
+    "bytes": 2732,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/references/animation-rows.md",
+    "sha256": "ef5a859427907b1785281d04efbc715abce9593df4a589a15a953bccd72514b4",
+    "bytes": 1465,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/references/codex-pet-contract.md",
+    "sha256": "05cd45126c5659817450e08e5bca94793c2f9ef3edc16bf2a1af7590ffa3389f",
+    "bytes": 823,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/references/qa-rubric.md",
+    "sha256": "4194e444d82cdfbf2f3f4a56f86e6dbb87e40c8e31f61941b4ccade0a6d250a1",
+    "bytes": 3308,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/compose_atlas.py",
+    "sha256": "dd437596dd2756bd3ba39426d30903adf68e922558ff51d95408ff7ee52c98d1",
+    "bytes": 5405,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/derive_running_left_from_running_right.py",
+    "sha256": "4b3f87c7b3855463f19b805963756d6055658ff25ca696a9209a1e76f114a462",
+    "bytes": 5049,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/extract_strip_frames.py",
+    "sha256": "326ced57ad591dd7511b63c0c76ee01d23cbf328831390513351ef848a32e28e",
+    "bytes": 11012,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/finalize_pet_run.py",
+    "sha256": "01cf7af9b2145edeee9607d3652ed1cdc44c5ab858a409936a20553616505191",
+    "bytes": 14420,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/generate_pet_images.py",
+    "sha256": "8a1b00f9dc5d429023ed6ca970f754c464a3cc5fa6c809d80085aeea7a095ddf",
+    "bytes": 10711,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/inspect_frames.py",
+    "sha256": "ffa12229bae280ae7a1a8dc677ebf330c882b833bec31516da91fb9cafe75b1d",
+    "bytes": 8757,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/make_contact_sheet.py",
+    "sha256": "7dfe51e16206d09c33b7899f0e3f6efcf48f95ba1a5c8e8bd6e67a936db41f03",
+    "bytes": 3088,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/package_custom_pet.py",
+    "sha256": "7c2fa25abcc4284b8cc081c9e50ccbb0f313adca33cab85da1e27f1b4e72c5b0",
+    "bytes": 3568,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/pet_job_status.py",
+    "sha256": "f52765edd0b8c657a1e0b61946ae846a6d5ee548f950dde03f2e7cb17507ec47",
+    "bytes": 4162,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/prepare_pet_run.py",
+    "sha256": "713c5507002f665bef4a90451e4c0996bbe276caf95b1a4eed1ae5ca345e9e25",
+    "bytes": 28131,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/queue_pet_repairs.py",
+    "sha256": "2cac26655cee8e37889e88548f2e30d8344f382862ebf73a1d5dce06533088f5",
+    "bytes": 6921,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/record_imagegen_result.py",
+    "sha256": "78eea7827f48d7971d3c78090d35532118e1a66cdb15c95d3929127966210825",
+    "bytes": 8155,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/render_animation_videos.py",
+    "sha256": "bd338eaee50307f8c6620b4571bb1b9a4dc64c06b1f40220dcf483b1d9d3f958",
+    "bytes": 4351,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/render_animation_videos.sh",
+    "sha256": "644afd1d164560880f21b67c2668b1d59b2ee718c5043f5da6eb6a6462559aef",
+    "bytes": 157,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/test_generate_pet_images.py",
+    "sha256": "5efcbdf54a145fc191d11cdea9088150914c563379e5646ae17fef0a90819566",
+    "bytes": 5260,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/hatch-pet/scripts/validate_atlas.py",
+    "sha256": "473aa00d6f329faa98af89075f6efe4c7900eb19aca9abcfd3eff3641d2e8d84",
+    "bytes": 4905,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/stitch-skill/DESIGN.md",
+    "sha256": "4d13f63345ee4a0774fa910c6019d0579e05ff565699ff1a79e3f648f5db1d35",
+    "bytes": 12174,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "skills/stitch-skill/LICENSE",
+    "sha256": "3c9f63518df3378772203cc64d38d9e381d2a4723b93d2c3849b2bf3d464de0c",
+    "bytes": 1086,
+    "read_status": "inventoried-not-read",
+    "scope": "assigned skill local package support; hashing is not semantic reading"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "5af3e43224f112bc45788d510afd3e1c0eec60bbc54e9a95b9171e54d750f4b0",
+    "bytes": 11497,
+    "read_status": "full-semantic-read"
+  }
+]

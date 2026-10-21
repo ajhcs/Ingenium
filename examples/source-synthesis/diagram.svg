@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<title>Two questions, two diagram grammars</title><desc>Original synthetic Relay diagrams. A lifecycle shows allowed transitions, including return to draft. A message sequence shows a persistence request followed by a matching acknowledgement. Static specifications with no native model binding or executed behavior.</desc>
+<rect width="1200" height="720" fill="#eef1f3"/>
+<text x="48" y="48" font-family="sans-serif" font-size="13" fill="#415862">INGENIUM / ORIGINAL SYNTHETIC DIAGRAM STUDY</text>
+<text x="48" y="96" font-family="sans-serif" font-size="32" font-weight="700" fill="#1a2730">Two questions, two diagram grammars</text>
+<text x="48" y="128" font-family="sans-serif" font-size="17" fill="#415862">Same subject R-1048 · select the representation by what the reader needs to understand.</text>
+<rect x="48" y="164" width="526" height="430" rx="8" fill="#fff" stroke="#788b92"/>
+<rect x="598" y="164" width="554" height="430" rx="8" fill="#fff" stroke="#788b92"/>
+<text x="72" y="202" font-family="sans-serif" font-size="22" font-weight="700" fill="#1a2730">Which transitions are allowed?</text>
+<text x="72" y="231" font-family="sans-serif" font-size="15" fill="#415862">Lifecycle · authored state identity and guards</text>
+<g id="state-draft"><rect x="84" y="284" width="166" height="64" rx="12" fill="#e2efeb" stroke="#11685f"/><text x="109" y="312" font-family="sans-serif" font-size="18" font-weight="700" fill="#1a2730">Draft</text><text x="109" y="334" font-family="sans-serif" font-size="13" fill="#415862">state:draft</text></g>
+<g id="state-review"><rect x="354" y="284" width="166" height="64" rx="12" fill="#e2efeb" stroke="#11685f"/><text x="379" y="312" font-family="sans-serif" font-size="18" font-weight="700" fill="#1a2730">Review</text><text x="379" y="334" font-family="sans-serif" font-size="13" fill="#415862">state:review</text></g>
+<path d="M250 306H346 M338 300L346 306L338 312" fill="none" stroke="#11685f" stroke-width="2"/>
+<text x="265" y="277" font-family="sans-serif" font-size="14" fill="#1a2730">Submit</text><text x="261" y="332" font-family="sans-serif" font-size="12" fill="#415862">[complete]</text>
+<path d="M438 348V393H166V356 M160 364L166 356L172 364" fill="none" stroke="#11685f" stroke-width="2"/>
+<text x="203" y="417" font-family="sans-serif" font-size="14" fill="#1a2730">Return [reason supplied]</text>
+<g id="state-approved"><rect x="354" y="465" width="166" height="64" rx="12" fill="#e2efeb" stroke="#11685f"/><text x="379" y="493" font-family="sans-serif" font-size="18" font-weight="700" fill="#1a2730">Approved</text><text x="379" y="515" font-family="sans-serif" font-size="13" fill="#415862">state:approved</text></g>
+<path d="M520 316H547V497H528 M536 491L528 497L536 503" fill="none" stroke="#11685f" stroke-width="2"/>
+<text x="0" y="0" transform="translate(562 350) rotate(90)" font-family="sans-serif" font-size="12" fill="#1a2730">Approve [review passed]</text>
+<text x="84" y="556" font-family="sans-serif" font-size="13" fill="#415862">Cycle retained. No transition inferred from proximity.</text>
+<text x="622" y="202" font-family="sans-serif" font-size="22" font-weight="700" fill="#1a2730">When is persistence acknowledged?</text>
+<text x="622" y="231" font-family="sans-serif" font-size="15" fill="#415862">Sequence · one specified success path, time downward</text>
+<g font-family="sans-serif" font-size="16" font-weight="700" fill="#1a2730"><text x="642" y="280">Operator</text><text x="819" y="280">Workbench</text><text x="1038" y="280">Store</text></g>
+<g fill="none" stroke="#788b92" stroke-dasharray="6 5"><path d="M678 296V546"/><path d="M864 296V546"/><path d="M1060 296V546"/></g>
+<g fill="none" stroke="#11685f" stroke-width="2"><path d="M678 328H856 M848 322L856 328L848 334"/><path d="M864 404H1052 M1044 398L1052 404L1044 410"/><path d="M1060 479H872 M880 473L872 479L880 485"/></g>
+<g font-family="sans-serif" font-size="14" fill="#1a2730"><text x="698" y="317">1. Request save</text><text x="884" y="379">2. Persist revision 7</text><text x="884" y="397">request q7</text><text x="884" y="454">3. Acknowledge q7 / rev 7</text><text x="884" y="472">[matching, fresh receipt]</text></g>
+<text x="622" y="556" font-family="sans-serif" font-size="13" fill="#415862">Failure, retry and competing edits are omitted here.</text>
+<text x="48" y="635" font-family="sans-serif" font-size="16" font-weight="700" fill="#1a2730">Evidence boundary</text>
+<text x="48" y="662" font-family="sans-serif" font-size="15" fill="#415862">Editable static authored fixtures. No model/API binding, persistence, legal transition or acknowledgement was executed.</text>
+<text x="48" y="688" font-family="sans-serif" font-size="15" fill="#415862">The questions determine what the diagram must preserve; neither diagram establishes complete workflow coverage.</text>
+</svg>

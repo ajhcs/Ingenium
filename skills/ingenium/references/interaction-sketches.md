@@ -18,6 +18,8 @@ Controls follow purpose and data semantics. A slider, dropdown, palette or drag 
 
 For an interactive demo, exercise the actual controls, relevant keyboard/focus behavior, collapse/return, selection synchronization and resizing. Record the tested state, command or gesture, observed result and limits; screenshots alone do not prove those behaviors. For a static wireframe, report them as specified or untested. Deliver only the requested artifact types; a raster export does not replace editable source.
 
+For an animated interaction, distinguish model/action state from current visual progress. State how input during a transition is handled, such as retargeting, queuing or ignoring it. Exercise rapid reversal and repeated input against that policy, including an intermediate visual state. Keep focus and action availability governed by the task's actual policy; visual completion does not establish model completion or persistence. Inspect the relevant reduced-motion path while preserving the same task. Use [Media and delivery context](delivery-context.md) for continuous playback and export evidence.
+
 ## Reconcile the model and the interface
 
 For a model-backed task, identify the authoritative source and map displayed states and interactive elements through stable IDs or resolvable source anchors to their purpose, requirements, model properties, typed data/commands, constraints and acceptance procedures. Keep native supported behavior, new model/API proposals and unknown semantics distinct. Current API limitations qualify implementation evidence; they must not silently become target-product requirements.

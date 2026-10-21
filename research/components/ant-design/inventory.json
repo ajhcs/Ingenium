@@ -1,0 +1,2929 @@
+{
+  "schema": "ingenium-research-source-inventory/1",
+  "repository": "ant-design/ant-design",
+  "commit": "4e3564d0f3088d0ef96210182732f579c38e5df3",
+  "commitTime": "2026-10-21T17:11:18+08:00",
+  "branch": "master",
+  "acquired": "2026-10-21",
+  "acquisition": "authorized shallow git clone, no upstream execution",
+  "totalTrackedFiles": 5040,
+  "actualSkills": 9,
+  "skillLocalReferences": 3,
+  "actualSkillsPaths": [
+    ".agents/skills/changelog-collect/SKILL.md",
+    ".agents/skills/commit-msg/SKILL.md",
+    ".agents/skills/create-pr/SKILL.md",
+    ".agents/skills/issue-reply/SKILL.md",
+    ".agents/skills/test-review/SKILL.md",
+    ".agents/skills/version-release/SKILL.md",
+    "public/.well-known/agent-skills/antd-component-lookup/SKILL.md",
+    "public/.well-known/agent-skills/antd-migration/SKILL.md",
+    "public/.well-known/agent-skills/antd-theme-customization/SKILL.md"
+  ],
+  "aliases": [
+    {
+      "path": ".claude/skills",
+      "gitBlob": "2b7a412b8fa0fb7e985b0793321bd4e698f2b6cd",
+      "target": "../.agents/skills",
+      "readStatus": "resolved-alias-not-extra-skills"
+    },
+    {
+      "path": ".cursor/skills",
+      "gitBlob": "2b7a412b8fa0fb7e985b0793321bd4e698f2b6cd",
+      "target": "../.agents/skills",
+      "readStatus": "resolved-alias-not-extra-skills"
+    }
+  ],
+  "selectedDocumentationPolicy": "All Markdown under docs/spec and docs/react, all component-level bilingual index docs; plus exact skill/local-reference closure and selected operational, rights and component shared files.",
+  "exclusions": "Implementation, test/demo source, blog archive, images/video/fonts/binaries not semantically reviewed wholesale. English design/API docs selected; Chinese docs catalogued unless an actual skill/ref.",
+  "counts": {
+    "inventory": 319,
+    "byStatus": {
+      "read-full-source-text": 46,
+      "catalogued-not-semantic-read": 260,
+      "read-prose-media-lines-omitted": 13
+    },
+    "byCategory": {
+      "actual-skill": 9,
+      "skill-local-reference": 3,
+      "operational-or-license": 14,
+      "task-input-corpus": 3,
+      "component-document": 150,
+      "integration-document": 56,
+      "design-document": 84
+    }
+  },
+  "files": [
+    {
+      "path": ".agents/skills/changelog-collect/SKILL.md",
+      "gitBlob": "5c9d343882465d7cf88ac969ff4a928a214cdf48",
+      "sha256": "7d43c8c02bb30551486793455435a467664cfa06d9052183f70bab05fa8f88d0",
+      "bytes": 19724,
+      "category": "actual-skill",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.agents/skills/changelog-collect/SKILL.md"
+    },
+    {
+      "path": ".agents/skills/commit-msg/SKILL.md",
+      "gitBlob": "26fef482005ad43d50922f17d35ecf6eef123f82",
+      "sha256": "5c94b2a900a0e6a5a06c03cdc96de1bd1d15ed44a04ed906edebac8a737d8e83",
+      "bytes": 6032,
+      "category": "actual-skill",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.agents/skills/commit-msg/SKILL.md"
+    },
+    {
+      "path": ".agents/skills/commit-msg/references/format-and-examples.md",
+      "gitBlob": "4b7f132b46049ae3673609b5834b023548f7b0f8",
+      "sha256": "ddd29fa01b823052ecdc27308aa17d98cd34bf707f3de490e1c382774482be5e",
+      "bytes": 3612,
+      "category": "skill-local-reference",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.agents/skills/commit-msg/references/format-and-examples.md"
+    },
+    {
+      "path": ".agents/skills/create-pr/SKILL.md",
+      "gitBlob": "8c7e8052712d6386f381c0b8f4245bfde64ae832",
+      "sha256": "d6a55108367c8c0f70e00f5f26e2c79d6b408b397a753d2da21e1f486f560d17",
+      "bytes": 11166,
+      "category": "actual-skill",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.agents/skills/create-pr/SKILL.md"
+    },
+    {
+      "path": ".agents/skills/create-pr/references/template-notes-and-examples.md",
+      "gitBlob": "17da3e1243067e5115ba4c7aef6d0f4683418eb6",
+      "sha256": "4dfaa88a3ab73968f74a88b7a7466407652df7e0e8bcb48e4a8d706328ea3044",
+      "bytes": 6665,
+      "category": "skill-local-reference",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.agents/skills/create-pr/references/template-notes-and-examples.md"
+    },
+    {
+      "path": ".agents/skills/issue-reply/SKILL.md",
+      "gitBlob": "afc619dd828e7476e857ddf311b953d021c6c1f2",
+      "sha256": "f334a4fd0948694d013c78a23304bc6547b204811576d0afd96aa901290ceff7",
+      "bytes": 10312,
+      "category": "actual-skill",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.agents/skills/issue-reply/SKILL.md"
+    },
+    {
+      "path": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "gitBlob": "cba8e169a7adc45c01c2b101f6b13c77fccbb3ff",
+      "sha256": "210d9ebb273d72c44bedc0cc222730967b38420f8b004a19b29dc7bd183ca2f9",
+      "bytes": 1957,
+      "category": "skill-local-reference",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.agents/skills/issue-reply/references/labels-and-resources.md"
+    },
+    {
+      "path": ".agents/skills/test-review/SKILL.md",
+      "gitBlob": "f72c58dbff7d6265e50b0018f639f2f9017b78ba",
+      "sha256": "d1ecb437a9ff2b217b891bcc8c4880ec468f2a1a2c672311e1860fc6893e7948",
+      "bytes": 5529,
+      "category": "actual-skill",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.agents/skills/test-review/SKILL.md"
+    },
+    {
+      "path": ".agents/skills/version-release/SKILL.md",
+      "gitBlob": "cb346725491a83225c841b2d5c2d85cd3eb804e3",
+      "sha256": "035b6ca9e41b4fa06ab347ac679dcbb40853fe99b5e4816be93493cbbbc2e3de",
+      "bytes": 6756,
+      "category": "actual-skill",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.agents/skills/version-release/SKILL.md"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "gitBlob": "326f6744e940d5fc917e048005c5a1e25443c6ae",
+      "sha256": "36a718168593d767ff60d0822f3f0d7921486da3d0b709ed9d124ec5ce434d89",
+      "bytes": 1867,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.github/PULL_REQUEST_TEMPLATE.md"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE_CN.md",
+      "gitBlob": "38cac8cfb3b08f2c312e6b2433a1edc9a7004f0d",
+      "sha256": "9daeebef1e9989b0019c0fa85b0e46c00768c265c335a2055ac2754ce8361521",
+      "bytes": 1576,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.github/PULL_REQUEST_TEMPLATE_CN.md"
+    },
+    {
+      "path": ".github/workflows/verify-package-version.yml",
+      "gitBlob": "15d8c551101afffcfd56fa86a3fac5cb5d9dc695",
+      "sha256": "a31e87950a887f68f0c697d0ac22f61eef6f11c950fb0a541f749ff532203f86",
+      "bytes": 949,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/.github/workflows/verify-package-version.yml"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "cdcfddc5fec0bbbce9226ed8fdbd51316d759f69",
+      "sha256": "e50bd818379faf4efeb15b7f766600566cc5cc50f5cece2e5aeaefb039f66889",
+      "bytes": 14863,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/AGENTS.md"
+    },
+    {
+      "path": "BUG_VERSIONS.json",
+      "gitBlob": "7109fb1fb837cc3ce0041f6f2a50838869710f45",
+      "sha256": "8eca8b1f62f2a78812fca4c6ba92f7f8832ecbd5917de7296472a0037f5d8b8b",
+      "bytes": 4478,
+      "category": "task-input-corpus",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/BUG_VERSIONS.json"
+    },
+    {
+      "path": "CHANGELOG.en-US.md",
+      "gitBlob": "f24c72e9f5cdc55c43fae699e4861f1040ebf1c2",
+      "sha256": "2371db1eacb1a74b4ec788011fe4e4a3ed612e2e0a2fcc7e2ab9ecd85bb438f3",
+      "bytes": 173123,
+      "category": "task-input-corpus",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/CHANGELOG.en-US.md"
+    },
+    {
+      "path": "CHANGELOG.zh-CN.md",
+      "gitBlob": "4f3a07b6570a57f49620bf8a8b3fc308f29bb3ce",
+      "sha256": "78d502993bb10ddcbf88b394ccdb185760659f7903936c21ddb00fab12609ab9",
+      "bytes": 175466,
+      "category": "task-input-corpus",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/CHANGELOG.zh-CN.md"
+    },
+    {
+      "path": "DESIGN.md",
+      "gitBlob": "75d091b8b81e811372c7d43bf69894af44c23fe1",
+      "sha256": "06f17dfe3700917e630e3016a77dec62520b795823a050317b5854243bc5e0b6",
+      "bytes": 21507,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/DESIGN.md"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "9b563deb0073e49fbbba1067fb2cbdd5ad3453a4",
+      "sha256": "ccce8ff25580315bae1c186b48ad192727b4f771c65ab9ab33928d30dc4a8d0e",
+      "bytes": 1121,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/LICENSE"
+    },
+    {
+      "path": "components/_util/index.en-US.md",
+      "gitBlob": "609b6f66581b541cbdde4e96bc671557bf7253d1",
+      "sha256": "d7563221dfa8ade46bf8a2a80ad426074f5adc85044290285a29357c6c198290",
+      "bytes": 2778,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/_util/index.en-US.md"
+    },
+    {
+      "path": "components/_util/index.zh-CN.md",
+      "gitBlob": "4a0cd5f8a28c7884a6302e0f3a43457fbb2052aa",
+      "sha256": "a8914e1d473ed6bf2b48b79ca6bd3ea29b6623274cefe7907116aa677ef97e87",
+      "bytes": 2708,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/_util/index.zh-CN.md"
+    },
+    {
+      "path": "components/affix/index.en-US.md",
+      "gitBlob": "639f02f8289cb05d4482e8c4552932cce9a895d4",
+      "sha256": "0c89cee2c3acab7d56bb9e32f5f81db7b889ced89d62386b20636b6a700158dc",
+      "bytes": 2888,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/affix/index.en-US.md"
+    },
+    {
+      "path": "components/affix/index.zh-CN.md",
+      "gitBlob": "a226e617c020f995981ba6d844943f316a701dbe",
+      "sha256": "4f92c9f84596a67a7d987099e86dfaa1e9a62b0e2aeb0aa6a5b28598fbfdf773",
+      "bytes": 3010,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/affix/index.zh-CN.md"
+    },
+    {
+      "path": "components/alert/index.en-US.md",
+      "gitBlob": "bf857775ce10e0a5eab05f323e32c7eb44e6b12a",
+      "sha256": "670506d98859cd72d04e386e28f8db1b9cddf45d295834034f1078ac2fbf6b46",
+      "bytes": 5063,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/alert/index.en-US.md"
+    },
+    {
+      "path": "components/alert/index.zh-CN.md",
+      "gitBlob": "cda90b22dca7055f7d0bbaf88360a9d11a13c0ef",
+      "sha256": "de5e9455f79db1042fec87cefbee0454c977ec1bffa0aafc05a0d23beb819972",
+      "bytes": 5420,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/alert/index.zh-CN.md"
+    },
+    {
+      "path": "components/anchor/index.en-US.md",
+      "gitBlob": "6459a0f1bd2dab254508fbfc952a1b5e083f8a9f",
+      "sha256": "01071a03e7a0decf51e290969279f03bdeb3d243ea2e06205f96735ebdec39cf",
+      "bytes": 5825,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/anchor/index.en-US.md"
+    },
+    {
+      "path": "components/anchor/index.zh-CN.md",
+      "gitBlob": "2faf48fee0a18140a14d5b0ee98e0b261d5bdf25",
+      "sha256": "5667bcca765dcb8cdf674c70e06ed00ccbed7531eb30bcde49e5acad6e96f315",
+      "bytes": 5540,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/anchor/index.zh-CN.md"
+    },
+    {
+      "path": "components/app/index.en-US.md",
+      "gitBlob": "d0457eb862961489ca5d7f4ec59b9d358130c750",
+      "sha256": "7862c7ae7c143cc19133ac3add1e9f9b6fc97b36a31fe09e99c9a45dc48227ea",
+      "bytes": 4305,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/app/index.en-US.md"
+    },
+    {
+      "path": "components/app/index.zh-CN.md",
+      "gitBlob": "6168ff87c545138e8bcc7dfbccf36ddfcc399b53",
+      "sha256": "7d6399cf5e47484e4d49245985d96501f2374e0fe3b780c2cf50a02acbde5503",
+      "bytes": 4574,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/app/index.zh-CN.md"
+    },
+    {
+      "path": "components/auto-complete/index.en-US.md",
+      "gitBlob": "a0527a57e80131014315fabe1847a84b008eec86",
+      "sha256": "85bf51750e9d5bbf219adb50c311ef59c3fff1c7183230da8aa2e6871c5a46c6",
+      "bytes": 8618,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/auto-complete/index.en-US.md"
+    },
+    {
+      "path": "components/auto-complete/index.zh-CN.md",
+      "gitBlob": "897f3c28118c7bc6b547c4996f9b3d7a778f69d3",
+      "sha256": "3b157247d9bd7a62c72d00937e72be1dde2db95021da6541690f59c2793910f4",
+      "bytes": 8174,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/auto-complete/index.zh-CN.md"
+    },
+    {
+      "path": "components/avatar/index.en-US.md",
+      "gitBlob": "d64fafc9de363b90427fb4bf1103fe9ed479d639",
+      "sha256": "1ec6dba4e6fed16ca16a3832834ea62d09aa352c3339aec378ce4f23c482bc14",
+      "bytes": 3436,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/avatar/index.en-US.md"
+    },
+    {
+      "path": "components/avatar/index.zh-CN.md",
+      "gitBlob": "ccac66a274e656806bda132d75c80ed62159aea7",
+      "sha256": "b3b2cc8d6cd24fa416716220f6669495610b8ee25fbad8dfeb84b342037aa41f",
+      "bytes": 3561,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/avatar/index.zh-CN.md"
+    },
+    {
+      "path": "components/badge/index.en-US.md",
+      "gitBlob": "262fd29267f8ffb29708899fb13b84565014c98a",
+      "sha256": "ef2b9a743bc18ba982c994e123f71cc1b3f4f72bbac5e5861da906e0d29255a6",
+      "bytes": 4355,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/badge/index.en-US.md"
+    },
+    {
+      "path": "components/badge/index.zh-CN.md",
+      "gitBlob": "d9a6bbdac8864efcf07db89eb5a11ed364970ae3",
+      "sha256": "cfb804f68c9ca59bac297c75c8ac77c45faeccc1f52f0ab1a45501bf27804dd9",
+      "bytes": 4488,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/badge/index.zh-CN.md"
+    },
+    {
+      "path": "components/border-beam/index.en-US.md",
+      "gitBlob": "8201d23e22f0459d1fd260283b9db17266dbb70a",
+      "sha256": "62104519d7c2c39f47d504201b6e296af9630d3862f07e6d4e1778179be71227",
+      "bytes": 5537,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/border-beam/index.en-US.md"
+    },
+    {
+      "path": "components/border-beam/index.zh-CN.md",
+      "gitBlob": "85fa3cf209919b73ae04e25d8e42a3bdb38a2ce0",
+      "sha256": "9cc2f296883f425d200bbf12cb1ca6911266a9a4e909fb126b1159f03b571ed9",
+      "bytes": 5104,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/border-beam/index.zh-CN.md"
+    },
+    {
+      "path": "components/breadcrumb/index.en-US.md",
+      "gitBlob": "c5ab38d361ba22cdbba859b62cf98a137dffb4fe",
+      "sha256": "023c582da3451bc336ea93f4a731b7a12f428cf97ae204e7bdbb87daf6390fb1",
+      "bytes": 4857,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/breadcrumb/index.en-US.md"
+    },
+    {
+      "path": "components/breadcrumb/index.zh-CN.md",
+      "gitBlob": "5ba1555cad382b9e43e5370422e3becbe066f471",
+      "sha256": "c03768d30022a228c3fb89f3447323eee3062a441481d5d15c82ec0ae24a9038",
+      "bytes": 4889,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/breadcrumb/index.zh-CN.md"
+    },
+    {
+      "path": "components/button/index.en-US.md",
+      "gitBlob": "12f23d848ef9b10f3f1900559546e96d760de51b",
+      "sha256": "27f2be0f55d346ba062ff05bf21f01bcbb1734ed8f465b7069c5f5b764cab95e",
+      "bytes": 7222,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/button/index.en-US.md"
+    },
+    {
+      "path": "components/button/index.zh-CN.md",
+      "gitBlob": "9a8b6a023f888f65b093cb93e85e1c787f6680dc",
+      "sha256": "3ba508961f7a689b5a5bae342e8c647aa2785f56d2420fb6fb108903ccca3d32",
+      "bytes": 7440,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/button/index.zh-CN.md"
+    },
+    {
+      "path": "components/calendar/index.en-US.md",
+      "gitBlob": "cd7db5ff01ad1f3cb2dc17528f28d916a7d05223",
+      "sha256": "27d63230c197904724cbb9e93705aff0604ae6b5289524699456cf760f396d9e",
+      "bytes": 5677,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/calendar/index.en-US.md"
+    },
+    {
+      "path": "components/calendar/index.zh-CN.md",
+      "gitBlob": "ade4d3db403a0ae627bda3e83e3716335c5c9801",
+      "sha256": "041fe86444ab252b598cfd7b541002829eb92f33ca533116cdb989429ac76315",
+      "bytes": 5612,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/calendar/index.zh-CN.md"
+    },
+    {
+      "path": "components/card/index.en-US.md",
+      "gitBlob": "abb194f1baa9d2d8f4b49f23f5f7ff6b35aea09f",
+      "sha256": "75fc211871618c7c1e90150ac200ac7a4e725dc0583b5442ca83c30f3027b219",
+      "bytes": 4629,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/card/index.en-US.md"
+    },
+    {
+      "path": "components/card/index.zh-CN.md",
+      "gitBlob": "ca379e30494da51a91e898379a6ddeef0cfe80e0",
+      "sha256": "da40f9c74b95189f8ecb067da2bec52660054d2726da3c47511e89b5b40c0fe7",
+      "bytes": 4536,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/card/index.zh-CN.md"
+    },
+    {
+      "path": "components/carousel/index.en-US.md",
+      "gitBlob": "996697d2ec99abd2a69e2ea7cb29ddf06fc0d75d",
+      "sha256": "5e0c3db8221945de61a98d97c727456dfa5a073aac550e42f2e38d6a3db04198",
+      "bytes": 3545,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/carousel/index.en-US.md"
+    },
+    {
+      "path": "components/carousel/index.zh-CN.md",
+      "gitBlob": "a22023604f171e23c95475665cd1f98d5ddeadb2",
+      "sha256": "67ace6fcdfc6b03c9403b7ec53f791ba979b0a2b3857330559cbc8c3401bd5a2",
+      "bytes": 3629,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/carousel/index.zh-CN.md"
+    },
+    {
+      "path": "components/cascader/index.en-US.md",
+      "gitBlob": "13f388e08c87320a5df3bf053c92c9112372acfa",
+      "sha256": "7c314cee80f2130e46ac31bfb6057a7c07d41aa2a30d47073f428bea70c6c7b4",
+      "bytes": 10438,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/cascader/index.en-US.md"
+    },
+    {
+      "path": "components/cascader/index.zh-CN.md",
+      "gitBlob": "d4c7356f6e4cc527bd18f81d0db2ab78390d2682",
+      "sha256": "040e45e44906a5da0c13b84f6dc5dfc74152e4ac1fffe7f6bf1d4bc46b158dc8",
+      "bytes": 10344,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/cascader/index.zh-CN.md"
+    },
+    {
+      "path": "components/checkbox/index.en-US.md",
+      "gitBlob": "a87a132df695346b44e49c02e921ac4924c045fa",
+      "sha256": "d996e5b2291fcb321ea2cddfd40ae5ad00fd5848ffcdda1ba2d88bceee7326c0",
+      "bytes": 4569,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/checkbox/index.en-US.md"
+    },
+    {
+      "path": "components/checkbox/index.zh-CN.md",
+      "gitBlob": "bf61334ad641d4496de14d6c0d1775584103f71d",
+      "sha256": "7f6f5794aaeb46a3de677bb32f18c336b5ba3ea106804568fb0faeae7ad20c9b",
+      "bytes": 4378,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/checkbox/index.zh-CN.md"
+    },
+    {
+      "path": "components/collapse/index.en-US.md",
+      "gitBlob": "e6d555d06c659e17b8597b5e80baeb550bd23e81",
+      "sha256": "f29ffd2b8a638b556fb39c0211522346488d636e1242c69d53b274546d97fd00",
+      "bytes": 5587,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/collapse/index.en-US.md"
+    },
+    {
+      "path": "components/collapse/index.zh-CN.md",
+      "gitBlob": "4760062300917e94600ea6a3983a7008b2bbc016",
+      "sha256": "d1993bd95c4e857ce2358ff7eaeec5eb417d3ba91fbbc22b340b7a31f0065ff1",
+      "bytes": 5194,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/collapse/index.zh-CN.md"
+    },
+    {
+      "path": "components/color-picker/index.en-US.md",
+      "gitBlob": "49e259c90dd152611b62fb3426f3393bfd98f832",
+      "sha256": "9881edecb8cda46f0db6ae15d6e7ff03670c90277995441bafb3d4bd300f2645",
+      "bytes": 6376,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/color-picker/index.en-US.md"
+    },
+    {
+      "path": "components/color-picker/index.zh-CN.md",
+      "gitBlob": "73e36c7e76ab751f8b3a9ce5649eaafee4d31dc5",
+      "sha256": "c7c82fa079a71ab08068b146508dc66f15240031234d26038b09ebd9c83d3521",
+      "bytes": 6228,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/color-picker/index.zh-CN.md"
+    },
+    {
+      "path": "components/config-provider/index.en-US.md",
+      "gitBlob": "851af58b71526247f5ee847ecae064106072d486",
+      "sha256": "bb08763dfba4d8dc7bdcd6eb11c5f351162a3f4c08d8d8be2ad6d802f09260e3",
+      "bytes": 13815,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/config-provider/index.en-US.md"
+    },
+    {
+      "path": "components/config-provider/index.zh-CN.md",
+      "gitBlob": "82bd95a13636e50d8a223d9f2a70cc3e89250a0b",
+      "sha256": "faf45d8746c4d26def265b0292b9602cfe9d7c6c9dc3533599546b7c2bacc966",
+      "bytes": 13893,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/config-provider/index.zh-CN.md"
+    },
+    {
+      "path": "components/date-picker/index.en-US.md",
+      "gitBlob": "2586da59a08e05ddc72a4b67fedf8fc00c9b92b8",
+      "sha256": "6091c2c4cbdabfdc21f46f735ccaee2dd0ac990a74b7da81e6cf0745ccab7461",
+      "bytes": 22094,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/date-picker/index.en-US.md"
+    },
+    {
+      "path": "components/date-picker/index.zh-CN.md",
+      "gitBlob": "af6fc01c4ec4ec4607afbceceb9f6b3d4c39fe02",
+      "sha256": "0d4e343ca7f8053b00e22b06d7d4dd364684f55149bf7af4e4bb8b7071e17951",
+      "bytes": 22071,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/date-picker/index.zh-CN.md"
+    },
+    {
+      "path": "components/descriptions/index.en-US.md",
+      "gitBlob": "1033217c0e04c9f9eab8fbfc96a7d5cc989a50e5",
+      "sha256": "cf403a9451fc0bf0b82f8bb7b06fccdc8f95828f998720bc83b940ead3c9d719",
+      "bytes": 5405,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/descriptions/index.en-US.md"
+    },
+    {
+      "path": "components/descriptions/index.zh-CN.md",
+      "gitBlob": "a80e743c8fa10b53553e46561a174490356bec02",
+      "sha256": "41b74368010c9ded3da36a6496f859ee3a34966c281e3b2e54fb0dde314066c7",
+      "bytes": 5347,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/descriptions/index.zh-CN.md"
+    },
+    {
+      "path": "components/divider/index.en-US.md",
+      "gitBlob": "6a1a6a2877ded2903526eb1b9c71e9ce112ef6d0",
+      "sha256": "4874000768dd39ba8a9779b0b2eb392ed7ff056678581d524c5c9a510fef87b9",
+      "bytes": 3192,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/divider/index.en-US.md"
+    },
+    {
+      "path": "components/divider/index.zh-CN.md",
+      "gitBlob": "44fcbdb1eb1c8b10df6f678fa610ac00eed7eb07",
+      "sha256": "b5ab7cca51b6bb4c0e1dfbde2e629b8a63b27419769062ec8ec66f9d31e2d1fb",
+      "bytes": 3145,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/divider/index.zh-CN.md"
+    },
+    {
+      "path": "components/drawer/index.en-US.md",
+      "gitBlob": "7835aa8f2cac3a1cfb11a2b9e3101a077c975f48",
+      "sha256": "0a21704e9a1014d82be8dc21c5694f31c3f5f69badf8f56014dde76cf3ed71e2",
+      "bytes": 7723,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/drawer/index.en-US.md"
+    },
+    {
+      "path": "components/drawer/index.zh-CN.md",
+      "gitBlob": "bc47ea087838b347d808cae052ea17a5f7f0a8d4",
+      "sha256": "ae638637368a8de9dfe7f025567ada632ea0f8c56b584b7f8040cfdfd4533417",
+      "bytes": 7563,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/drawer/index.zh-CN.md"
+    },
+    {
+      "path": "components/dropdown/index.en-US.md",
+      "gitBlob": "13cf9d7df2ca55ee558b1c293b22b88bb2c9d8f3",
+      "sha256": "76d2040a015523b572912abfe16a5a5c11a3d9fd25d32df90628cd75ca02d717",
+      "bytes": 5399,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/dropdown/index.en-US.md"
+    },
+    {
+      "path": "components/dropdown/index.zh-CN.md",
+      "gitBlob": "db59caa580034341af13b597807f6e32692c3c56",
+      "sha256": "647b020d974205ab5209fb7ae159786a192ea075d2c259b58941d4ac5fa48ba6",
+      "bytes": 5276,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/dropdown/index.zh-CN.md"
+    },
+    {
+      "path": "components/empty/index.en-US.md",
+      "gitBlob": "24d8729f3ffc5bf6a65d7a716b7adc917bcb18a8",
+      "sha256": "5571fdf28eec6a8dca1c306a1e33e40d604cdc61fed439bcfd41d563bb51f8ab",
+      "bytes": 2889,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/empty/index.en-US.md"
+    },
+    {
+      "path": "components/empty/index.zh-CN.md",
+      "gitBlob": "07b9224b233f4fc30f2b204f6c033821279c9881",
+      "sha256": "914bd38466ee4f9ed7332715891651aab6d2332ec84dc874357b855675104a0c",
+      "bytes": 2951,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/empty/index.zh-CN.md"
+    },
+    {
+      "path": "components/flex/index.en-US.md",
+      "gitBlob": "770072182e3912cf99f9f1651945c483159406d0",
+      "sha256": "d26ca409772a1e1bf5fe61bec2620d3361fcbdb68611bd5a658529f626295033",
+      "bytes": 2828,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/flex/index.en-US.md"
+    },
+    {
+      "path": "components/flex/index.zh-CN.md",
+      "gitBlob": "b638739751c2b02588276e3ca32d7a323697d2d1",
+      "sha256": "0c2e74f60bda2b858f0fecef6a72af034acfc3c5bdf85e1e421cf0a45b426b6a",
+      "bytes": 2760,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/flex/index.zh-CN.md"
+    },
+    {
+      "path": "components/float-button/index.en-US.md",
+      "gitBlob": "8586aa206161b440930469e550bc4ab95fb9711e",
+      "sha256": "285207eb671a05088f246fbcfd4f69e6f7be3ff8f9a4e031f39dc134ee5c233e",
+      "bytes": 5469,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/float-button/index.en-US.md"
+    },
+    {
+      "path": "components/float-button/index.zh-CN.md",
+      "gitBlob": "0a8f588f1dd796ee9e71f91b0dd8e39cb0c6202e",
+      "sha256": "0249be6427ca4bdda98f3463f724d0b0ee2725817802251fd4b63a08bf9e4d97",
+      "bytes": 5483,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/float-button/index.zh-CN.md"
+    },
+    {
+      "path": "components/form/index.en-US.md",
+      "gitBlob": "1aca97ccfb7a3047cef3c43421115db0d3eaeab1",
+      "sha256": "a7f6308bd36d7ca1e78408fbde9918ac3a861cbc8f120be7478d96fcab62bdf4",
+      "bytes": 39886,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/form/index.en-US.md"
+    },
+    {
+      "path": "components/form/index.zh-CN.md",
+      "gitBlob": "ccc8ccc5431ce4c495c788cd81ce4c72991e0df8",
+      "sha256": "cc8d2ab5fb4ac79ee14a3749bd788f328d39e5938b359d6e917d46cf883dfd66",
+      "bytes": 40552,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/form/index.zh-CN.md"
+    },
+    {
+      "path": "components/grid/index.en-US.md",
+      "gitBlob": "adbf223b7ae53f1974b42f3125c9c01e7c91c9e3",
+      "sha256": "2b8a13fe65b83b694cdc55794e025035da55f42b60e0be5e958e56920d8a2b38",
+      "bytes": 6523,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/grid/index.en-US.md"
+    },
+    {
+      "path": "components/grid/index.zh-CN.md",
+      "gitBlob": "3d3f02ad23eb6e8e27f867e821d9549e0b478465",
+      "sha256": "8cdca9f722701533ecb623f1abb233a6b5dcd9ba26a7e8e4d1d8b065a480f6c3",
+      "bytes": 6550,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/grid/index.zh-CN.md"
+    },
+    {
+      "path": "components/icon/index.en-US.md",
+      "gitBlob": "6a2598ee47d228350be54bf40f1a5d262c435938",
+      "sha256": "5957bf4c30c3b843db032639cd69a43defb884116eaab43d4b1307752929cbd6",
+      "bytes": 8918,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/icon/index.en-US.md"
+    },
+    {
+      "path": "components/icon/index.zh-CN.md",
+      "gitBlob": "1cfb01bdafbeb6075838b60c0d3c74be5d7293a6",
+      "sha256": "1a63ea918ff5922e1f7c6dd1bcd6cd7a651efab494edf1e641f76aa5365c014f",
+      "bytes": 8945,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/icon/index.zh-CN.md"
+    },
+    {
+      "path": "components/image/index.en-US.md",
+      "gitBlob": "95809583250484386c7e6aa5798d8cd270eb7814",
+      "sha256": "61f975d969c3b45776d51716f946652dd597e147361a753f08a18bc8aff64da3",
+      "bytes": 11696,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/image/index.en-US.md"
+    },
+    {
+      "path": "components/image/index.zh-CN.md",
+      "gitBlob": "631f38b23c92382c0a5f43b40f28a169773847ed",
+      "sha256": "e9af0776a01788e3c14f60d1934bed29d97da51dd90c006ba88b36c6c38895a6",
+      "bytes": 11364,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/image/index.zh-CN.md"
+    },
+    {
+      "path": "components/input-number/index.en-US.md",
+      "gitBlob": "a52ce4060a6d25d41af2c622a7966de8fe212a28",
+      "sha256": "dbe426a022c93754907203b0ab6ce3248c628f19751b1e016423b8141f435943",
+      "bytes": 8409,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/input-number/index.en-US.md"
+    },
+    {
+      "path": "components/input-number/index.zh-CN.md",
+      "gitBlob": "2578e34922d7dcb015deecc46d774c4c8ceefb58",
+      "sha256": "cdc7235f0735fd12ab4c86520c4cd8b9abbc647223a63273bc7bfe68fcad7597",
+      "bytes": 8098,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/input-number/index.zh-CN.md"
+    },
+    {
+      "path": "components/input/index.en-US.md",
+      "gitBlob": "cf9895ca70bcfcf68acf09694ed48676de4e1dbf",
+      "sha256": "5a5ae6afeac59492c8388af0d62b1cb17a77678f1699a18096526ae90b05f413",
+      "bytes": 13379,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/input/index.en-US.md"
+    },
+    {
+      "path": "components/input/index.zh-CN.md",
+      "gitBlob": "8f145a5553862063a9535d5b89f107111af5859f",
+      "sha256": "2685f584454285f4c148c4a0eea2c5e89f10dc3cce518cea86bbd33e491a980f",
+      "bytes": 13093,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/input/index.zh-CN.md"
+    },
+    {
+      "path": "components/layout/index.en-US.md",
+      "gitBlob": "52ff4466036ed2f2e2d460851b3e068b8c3efe65",
+      "sha256": "b979169fc89a5bb110df65def391fca0958f84c9890ac28a1e3e20c017982711",
+      "bytes": 6732,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/layout/index.en-US.md"
+    },
+    {
+      "path": "components/layout/index.zh-CN.md",
+      "gitBlob": "0f69329038b0a4ab1d5ef101836cbf20ef33260b",
+      "sha256": "261829fc465e740fe72413e5766161ed58e8a9e6a0f49526e18263a652767656",
+      "bytes": 6256,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/layout/index.zh-CN.md"
+    },
+    {
+      "path": "components/list/index.en-US.md",
+      "gitBlob": "41342b3422c63d8a7fc1a51dc4007bc4a03da89b",
+      "sha256": "69cecc7c2b06101c39b9f010e1be9f0367b7dbeacbbe05ffa90bb51a0e3365d1",
+      "bytes": 8126,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/list/index.en-US.md"
+    },
+    {
+      "path": "components/list/index.zh-CN.md",
+      "gitBlob": "22c76a212c86da2b0890f360a41bdac9dcb3100f",
+      "sha256": "52784c5c96f1eef5186f8491e7a072fb8783f42292677b40fad8aa2f03c62cbf",
+      "bytes": 8003,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/list/index.zh-CN.md"
+    },
+    {
+      "path": "components/listy/index.en-US.md",
+      "gitBlob": "f7c99cb42454868d3668234530e3337ebcb0c2d1",
+      "sha256": "4af4ee350aa9986513fd15de49939a1578d1e96730b556d8c7e74fe8f2309ca3",
+      "bytes": 3913,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/listy/index.en-US.md"
+    },
+    {
+      "path": "components/listy/index.zh-CN.md",
+      "gitBlob": "d4138ee2008b203f53fe10cd26590408d1a56c67",
+      "sha256": "7c382544035784a5da1f28b36501ba0da854f71b704682f8122c471c05ea320f",
+      "bytes": 3853,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/listy/index.zh-CN.md"
+    },
+    {
+      "path": "components/masonry/index.en-US.md",
+      "gitBlob": "34bf675eb3409310bfa7477631004a59a946414d",
+      "sha256": "665251945f7a8439e6e92ef2a726589da7aad7ed27a9f9357d36f3fada3e74ed",
+      "bytes": 3246,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/masonry/index.en-US.md"
+    },
+    {
+      "path": "components/masonry/index.zh-CN.md",
+      "gitBlob": "b22812b1ac8f895ada3b825660c023148c4876bc",
+      "sha256": "60f32e5061b0624b33102ddae1f91e447ce167958f6220a31385b40b5095aa86",
+      "bytes": 3374,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/masonry/index.zh-CN.md"
+    },
+    {
+      "path": "components/mentions/index.en-US.md",
+      "gitBlob": "0145a9768442b712c00871d5a4ad396cf7dde8e2",
+      "sha256": "38263a63bf7ccc05ec4b57995b1bbf0729bf9cedf4ab152ab641fcac0ba45dcd",
+      "bytes": 5347,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/mentions/index.en-US.md"
+    },
+    {
+      "path": "components/mentions/index.zh-CN.md",
+      "gitBlob": "e1c7ed89ae06b57fe52ad05438c940eba35a1e96",
+      "sha256": "7d0b12803d7cbf349e9170cd32840a21aa90b66797241acc21d3b98efeb9808d",
+      "bytes": 5389,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/mentions/index.zh-CN.md"
+    },
+    {
+      "path": "components/menu/index.en-US.md",
+      "gitBlob": "b57eca57e3f436d9e94c568ab6c450a551ad858c",
+      "sha256": "5276bb15f9b886a7bf02cd81acc323e3818c9fada33b9e2167edb72651e12c89",
+      "bytes": 9593,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/menu/index.en-US.md"
+    },
+    {
+      "path": "components/menu/index.zh-CN.md",
+      "gitBlob": "d8a29f5b1693b720cf006f869f29998767681a5a",
+      "sha256": "9a00da93436360ba298a3e36519b7482cdbcddaecf2115e32eb4203d98ac7fc5",
+      "bytes": 9159,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/menu/index.zh-CN.md"
+    },
+    {
+      "path": "components/message/index.en-US.md",
+      "gitBlob": "850aa39f03265a10f5c872a070f955669237e0ba",
+      "sha256": "cce35ead0328e0d025ab99b11cbe420d8e05acb2be3799a31aa424373a5ae193",
+      "bytes": 7109,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/message/index.en-US.md"
+    },
+    {
+      "path": "components/message/index.zh-CN.md",
+      "gitBlob": "db1a0280516c6d9471d48a8d09024362c7e5ab0e",
+      "sha256": "418eff1737fb29589590b88ff7ae4ca8ac8a033fde09df7cb9c315276f0cc762",
+      "bytes": 7157,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/message/index.zh-CN.md"
+    },
+    {
+      "path": "components/modal/index.en-US.md",
+      "gitBlob": "f4380047534034ba0c0f80ae73a6c7679ed1aef9",
+      "sha256": "7721bfbe970cf691cf382f2555de1a4179a0a909818432a2f5f8ca0c4a7628a2",
+      "bytes": 14092,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/modal/index.en-US.md"
+    },
+    {
+      "path": "components/modal/index.zh-CN.md",
+      "gitBlob": "771b405e32e1e6408b209027246dd31cc0096ecd",
+      "sha256": "96265cee5b1ba5ae7d58efa4f52c9acd6a09b0fd1de5f9f4cfff83b8ce1a24dc",
+      "bytes": 13507,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/modal/index.zh-CN.md"
+    },
+    {
+      "path": "components/notification/index.en-US.md",
+      "gitBlob": "fc0c02e6f223d8850ec513d62b15a2a28590b9ee",
+      "sha256": "bd7cdb73c13eea37d39c541eb7c60d5ea2a4a40e18d5e03432aefec91f7987c8",
+      "bytes": 11129,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/notification/index.en-US.md"
+    },
+    {
+      "path": "components/notification/index.zh-CN.md",
+      "gitBlob": "8456654555a43a3c26d9cd3fd40d23abc1427dc8",
+      "sha256": "de1acefd1eb532599ed02c2a1610433facbd250703273535f314ab0df6fbd72d",
+      "bytes": 10325,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/notification/index.zh-CN.md"
+    },
+    {
+      "path": "components/overview/index.en-US.md",
+      "gitBlob": "283af486c1fa8173d537bbeed48402c42b568e2c",
+      "sha256": "7a84bdeaea5b42d0cc634995a56386083aa6ced62b6bf9dde9516eb54bb38a84",
+      "bytes": 349,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/overview/index.en-US.md"
+    },
+    {
+      "path": "components/overview/index.zh-CN.md",
+      "gitBlob": "44b16dd1fd0c8b979a6a1cf03013974e0bbeae67",
+      "sha256": "f50c40f2941f0ed39128a228a011ad54e7696853d732ee660c521005cca2905b",
+      "bytes": 439,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/overview/index.zh-CN.md"
+    },
+    {
+      "path": "components/pagination/index.en-US.md",
+      "gitBlob": "51497115cefa36c7380971c7fcd796901f6d8353",
+      "sha256": "e6a1227f66c2d4a087de3740dc3873b092281feaae918ce3e28a69fbe4a0efab",
+      "bytes": 4527,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/pagination/index.en-US.md"
+    },
+    {
+      "path": "components/pagination/index.zh-CN.md",
+      "gitBlob": "0f64274466af26dce48bccd62d52b4d8f41c1d62",
+      "sha256": "b930edb24b60bf3110719d7a4948366c0f29477b24d468bfa80a304f54e09b3f",
+      "bytes": 4419,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/pagination/index.zh-CN.md"
+    },
+    {
+      "path": "components/popconfirm/index.en-US.md",
+      "gitBlob": "1e1866db0a29e20681cbfa8faf8bdfa3b17df885",
+      "sha256": "f99019769c5ab707e1a9ccb4d004e0a168e176057ca9ebaba7bc77d66b03b1cb",
+      "bytes": 3034,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/popconfirm/index.en-US.md"
+    },
+    {
+      "path": "components/popconfirm/index.zh-CN.md",
+      "gitBlob": "97f5ce98fec5cf3f484a1e6afa9d5c5ba39f12f5",
+      "sha256": "9d30f75d1bc09fb57962b76901e314cf28d7bee71d4085ba299ac1cd771d9a19",
+      "bytes": 3041,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/popconfirm/index.zh-CN.md"
+    },
+    {
+      "path": "components/popover/index.en-US.md",
+      "gitBlob": "33be10a4c69112c5686f3a0ade00a1a6e0351434",
+      "sha256": "f0309ec8de371c956cd702a34b5aa6285890bbe94848b53ef55ff067b1093098",
+      "bytes": 2853,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/popover/index.en-US.md"
+    },
+    {
+      "path": "components/popover/index.zh-CN.md",
+      "gitBlob": "5afb6df02250fba93ae2b9e7405b3a76b0c07361",
+      "sha256": "12a761ecb6606688afae8bca88a835abf0ffea76901a6f89e9e3d8cff17283ad",
+      "bytes": 2962,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/popover/index.zh-CN.md"
+    },
+    {
+      "path": "components/progress/index.en-US.md",
+      "gitBlob": "a3a57619e34c6b53b32a92b11d222233071d9cd9",
+      "sha256": "a5be41ddd570bb64394ec531437b9408cf649aab02f08db29efeb36344dc6293",
+      "bytes": 6165,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/progress/index.en-US.md"
+    },
+    {
+      "path": "components/progress/index.zh-CN.md",
+      "gitBlob": "d804b4af15c348131b4865d50bd54efed7ea0d1b",
+      "sha256": "fb37fc6ff65addb0861e5701d3e4e738baab9c823fd812d6dd8a7e6f682b6c46",
+      "bytes": 5734,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/progress/index.zh-CN.md"
+    },
+    {
+      "path": "components/qr-code/index.en-US.md",
+      "gitBlob": "ea3197cf742f90d0ea4f27f99397e70000faebd1",
+      "sha256": "0b17fb1a7a3f5a5ca707eeb6d2e351f83006ce8c4285fb3bb2a8ec28df890c60",
+      "bytes": 4573,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/qr-code/index.en-US.md"
+    },
+    {
+      "path": "components/qr-code/index.zh-CN.md",
+      "gitBlob": "6164057bda5bb1246fddc3cbf4639b9f5ce473fb",
+      "sha256": "0a97a01a3d81f504f00e081e2c19e4fa46c0d8dfba4423b0804f8227f85bb379",
+      "bytes": 4755,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/qr-code/index.zh-CN.md"
+    },
+    {
+      "path": "components/radio/index.en-US.md",
+      "gitBlob": "ef03abfb7ba78a96cf0e42f450fe14aed48e2b99",
+      "sha256": "8b4984798450953f90e41f15bd64e323a22bc5cdbbfb00144c5e2d37815d1bfd",
+      "bytes": 6244,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/radio/index.en-US.md"
+    },
+    {
+      "path": "components/radio/index.zh-CN.md",
+      "gitBlob": "946d81882e250aec5a7b23d32c97045bda580d37",
+      "sha256": "b95ec4bc52b0e6aae82a79a3da71dab1e530a8e5afae0648cbe559ae79c86c5e",
+      "bytes": 6165,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/radio/index.zh-CN.md"
+    },
+    {
+      "path": "components/rate/index.en-US.md",
+      "gitBlob": "f38436e6583ef8fd4d283bfa94b041873939abcc",
+      "sha256": "624b2e0c5e9e10ce3de98ce446d8275e8e69732d07aa473c6c7db6f2f34c0d78",
+      "bytes": 2593,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/rate/index.en-US.md"
+    },
+    {
+      "path": "components/rate/index.zh-CN.md",
+      "gitBlob": "df75aa599d03922a9f2f7cfc7ac80d390926193a",
+      "sha256": "6b8c567888f5622d8022054e03055d1f8eb693c9505cdd498ce5ded203993827",
+      "bytes": 2584,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/rate/index.zh-CN.md"
+    },
+    {
+      "path": "components/result/index.en-US.md",
+      "gitBlob": "0637b51a10219e2f5469509423b2fb07846474af",
+      "sha256": "8c7b7bd2df0cb4a7076492197a402300efe44ca7540ae557efe57080d92fb2ae",
+      "bytes": 2297,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/result/index.en-US.md"
+    },
+    {
+      "path": "components/result/index.zh-CN.md",
+      "gitBlob": "dd7c9814b796e7afcd1d6631e2458a32cdee8282",
+      "sha256": "c7f0a544a362522b64dfbbc31577d3cb866edefa86ac68bb6e422dc61a082932",
+      "bytes": 2299,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/result/index.zh-CN.md"
+    },
+    {
+      "path": "components/segmented/index.en-US.md",
+      "gitBlob": "36dcb78148bff4d2796e87ddeb069196f7fce142",
+      "sha256": "b32a2ffcf3913154b488b0be366622727e6117c9ea3b1bce64a85baf861cbb77",
+      "bytes": 4265,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/segmented/index.en-US.md"
+    },
+    {
+      "path": "components/segmented/index.zh-CN.md",
+      "gitBlob": "c5f0b58b48f8c8e5748d7a94ca6731c33fd2b31f",
+      "sha256": "c66ea36c9cb285494bf4b6ac4aa5f5771b49a03c23baedc2cdc9d7df73ae29e4",
+      "bytes": 4175,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/segmented/index.zh-CN.md"
+    },
+    {
+      "path": "components/select/index.en-US.md",
+      "gitBlob": "17e61911c7d34a4e0e2549fdb0a0b48f964a9ef3",
+      "sha256": "c93a951b9c2fbaf255b81987bf34ae40c56639e342692ef168e37d853c607dfc",
+      "bytes": 17737,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/select/index.en-US.md"
+    },
+    {
+      "path": "components/select/index.zh-CN.md",
+      "gitBlob": "9f869d8bd6803b50f46b22b5aeac91776e85bff1",
+      "sha256": "b1cb58b2dcd34fbc084189462828ac02b84b97e38339ac76b2238decfb9b346a",
+      "bytes": 17592,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/select/index.zh-CN.md"
+    },
+    {
+      "path": "components/skeleton/index.en-US.md",
+      "gitBlob": "e0a1556aa687c12bca298f575461924105efab39",
+      "sha256": "174903ae1609e9ee74bc4988d5f5b471046358374378d10dccbc387fa9cc2e95",
+      "bytes": 4067,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/skeleton/index.en-US.md"
+    },
+    {
+      "path": "components/skeleton/index.zh-CN.md",
+      "gitBlob": "a613923adbd0d4a19a8353426d5c5e8a0214da72",
+      "sha256": "7dbf38930d0a2ff94cf8e56b86bbd770bad5924fedad1eac97da09405126e2d4",
+      "bytes": 4193,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/skeleton/index.zh-CN.md"
+    },
+    {
+      "path": "components/slider/index.en-US.md",
+      "gitBlob": "ff41b8655bdf3214fc6550f7518e826e686d70c6",
+      "sha256": "e661e62b4237139b6c37fa822daff2a791c7f76b6247d85aba1b53a4d528b8f4",
+      "bytes": 6466,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/slider/index.en-US.md"
+    },
+    {
+      "path": "components/slider/index.zh-CN.md",
+      "gitBlob": "c4a21feb1b44c335bf4c354699d2e8ae6ccd9bac",
+      "sha256": "93c9d650e925c43d889a6ecfa00691cc466c2099e9e11505288928629c0fc536",
+      "bytes": 6625,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/slider/index.zh-CN.md"
+    },
+    {
+      "path": "components/space/index.en-US.md",
+      "gitBlob": "229fa43d0e3b78b153324024ba0290f62eda438e",
+      "sha256": "00e818d198f3e6be66ef7b9f0333485b741bbc7a3eb4c9281611ccfac61c681d",
+      "bytes": 4883,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/space/index.en-US.md"
+    },
+    {
+      "path": "components/space/index.zh-CN.md",
+      "gitBlob": "45e3b64c6bac5ac29260912749243060410a3d28",
+      "sha256": "d2e6b3d2e79e47e8477c6d8509bf75d4fd97f745d017b973c6336eb41124d3e6",
+      "bytes": 4876,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/space/index.zh-CN.md"
+    },
+    {
+      "path": "components/spin/index.en-US.md",
+      "gitBlob": "f1ef7d8a27e986e325e28576c5fec59c18a1663d",
+      "sha256": "c1322e76187601822246dc92d987db7310aebba0b768058cec2f182f3f4ccc54",
+      "bytes": 3149,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/spin/index.en-US.md"
+    },
+    {
+      "path": "components/spin/index.zh-CN.md",
+      "gitBlob": "dffe4029b99246bfdee58878035062322ca985dc",
+      "sha256": "8fff083863068f2d6f3fb69a5e314c41df7453dc078a168937e5b2d24a23389e",
+      "bytes": 3090,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/spin/index.zh-CN.md"
+    },
+    {
+      "path": "components/splitter/index.en-US.md",
+      "gitBlob": "357da62aa19342da475438b1a5643359509b8707",
+      "sha256": "7decb2f4064d01097b025da438579ba44c2d60325a50ae5ff3c6d9e80dd9afed",
+      "bytes": 4838,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/splitter/index.en-US.md"
+    },
+    {
+      "path": "components/splitter/index.zh-CN.md",
+      "gitBlob": "110833dbc645cf60ac81724d8e3298b32d72b979",
+      "sha256": "703153199538489074884cdcc3da785a7aaef3fcc9fd11859a766a54576c5dc1",
+      "bytes": 4718,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/splitter/index.zh-CN.md"
+    },
+    {
+      "path": "components/statistic/index.en-US.md",
+      "gitBlob": "2dd8d7cc53e8eb2d97d857be2a255bd78b91120f",
+      "sha256": "d97da1fbc0f347fc4ac7a278ccefff5817d9b57906679a43c1babc539c231942",
+      "bytes": 4294,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/statistic/index.en-US.md"
+    },
+    {
+      "path": "components/statistic/index.zh-CN.md",
+      "gitBlob": "61c9748d21cd05f372f7be675007c8e2b1f38099",
+      "sha256": "eac5122f66c1a811dd415d27fd1e7b59d5b2e38bb336d724a7da795cc460ad48",
+      "bytes": 4418,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/statistic/index.zh-CN.md"
+    },
+    {
+      "path": "components/steps/index.en-US.md",
+      "gitBlob": "90d59af0c94b168fff95d168d9a07a4c312bdeed",
+      "sha256": "bd3654a57ecf4b18f8c8082cedbb588143c8da6c67d6932782d0472873e306a0",
+      "bytes": 5666,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/steps/index.en-US.md"
+    },
+    {
+      "path": "components/steps/index.zh-CN.md",
+      "gitBlob": "d8288da2bd3b2842c926ba9445180ee2da0a8c57",
+      "sha256": "ac51852f7b5c2d472c26e9ea66a7d6b680f760891fe62b935d037e371e969a6e",
+      "bytes": 5616,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/steps/index.zh-CN.md"
+    },
+    {
+      "path": "components/switch/index.en-US.md",
+      "gitBlob": "19e44b5456c8f467439a5f77672c1737f0d56f30",
+      "sha256": "92ba8d4d0dc8b9fcea3a87d3470062960e162c270ca6eb9fb2fa8833fc7457e3",
+      "bytes": 3383,
+      "category": "component-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/switch/index.en-US.md"
+    },
+    {
+      "path": "components/switch/index.zh-CN.md",
+      "gitBlob": "c82de49bc0a8dc4ee2081526a48f0c1e6e12cbb5",
+      "sha256": "3b13326d0fdfd0223deae69bc960e783404bb18e6e130416d36f1d270b733c9d",
+      "bytes": 3276,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/switch/index.zh-CN.md"
+    },
+    {
+      "path": "components/table/index.en-US.md",
+      "gitBlob": "267cd37af2461652b8653ce714c947233ad7a71a",
+      "sha256": "afec166a23fa2381c84b122d6434772c0f54ed3db5192117e6ada9294b2e15b7",
+      "bytes": 26141,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/table/index.en-US.md"
+    },
+    {
+      "path": "components/table/index.zh-CN.md",
+      "gitBlob": "9bfc22aa0af6078a3ae2ff6a1b42ff0c462630e4",
+      "sha256": "07fc9cba4cf6864dc6eb30e0913f20db3e284715560298ffed68bb186a99aa28",
+      "bytes": 26454,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/table/index.zh-CN.md"
+    },
+    {
+      "path": "components/tabs/index.en-US.md",
+      "gitBlob": "b5ddbe9477125c06c517982089bc49ca80825993",
+      "sha256": "394f209d312a33ddb9ee883b9b3a74c028f09ee616aaf99c7babfd958140fe6f",
+      "bytes": 7132,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tabs/index.en-US.md"
+    },
+    {
+      "path": "components/tabs/index.zh-CN.md",
+      "gitBlob": "1f23adf51e32a956a0589a6d2eff9468dfe0de94",
+      "sha256": "27f74268f80cfbef538d625e8b51401116b555d8a5aeee8adb9d99751b7de4bb",
+      "bytes": 7343,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tabs/index.zh-CN.md"
+    },
+    {
+      "path": "components/tag/index.en-US.md",
+      "gitBlob": "411c05fcc5d1f469f308eb1a97f5efdd49843e38",
+      "sha256": "d7bfea368bb1770c494a32d783097b4d33df21bff4262109609be94d3c582694",
+      "bytes": 4833,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tag/index.en-US.md"
+    },
+    {
+      "path": "components/tag/index.zh-CN.md",
+      "gitBlob": "fc59d1289ff9ca9685a707db95f04fe73cd8c2aa",
+      "sha256": "533c12ce490917b27b0ea2144d68a3d108cac8b59ce16e8d52a1d7c7eee7abdf",
+      "bytes": 4883,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tag/index.zh-CN.md"
+    },
+    {
+      "path": "components/time-picker/index.en-US.md",
+      "gitBlob": "7f70db6768e74e369637831300b06d912c341bef",
+      "sha256": "e61a548fc8ff209d0ab2104a0c6adbb1ee89f6964bb41805a015a055ec8a0a9e",
+      "bytes": 7994,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/time-picker/index.en-US.md"
+    },
+    {
+      "path": "components/time-picker/index.zh-CN.md",
+      "gitBlob": "36616525099fe0b2a0685851b0194a49fa7ca0fd",
+      "sha256": "820b8e63066a68f14619dfdd53369059123c28147ce90d1e5906aaf0b4477e49",
+      "bytes": 7785,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/time-picker/index.zh-CN.md"
+    },
+    {
+      "path": "components/timeline/index.en-US.md",
+      "gitBlob": "d74468bf27eee59981d1e8e3447dea5603eb8bda",
+      "sha256": "2251062a6cf2a570f9e21339db911723ce0d611773d0ccd8dacd8126caac56f9",
+      "bytes": 4182,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/timeline/index.en-US.md"
+    },
+    {
+      "path": "components/timeline/index.zh-CN.md",
+      "gitBlob": "0d77918e4bed864f5d6edaaf82c7959dd67d0709",
+      "sha256": "e5a9e26259e9c8b56f84e543f52ef1de5d43839e6d5cd732f5439992218c48c5",
+      "bytes": 4209,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/timeline/index.zh-CN.md"
+    },
+    {
+      "path": "components/tooltip/index.en-US.md",
+      "gitBlob": "89341ca14757379f387abac055dc6d5776b28ff0",
+      "sha256": "0d886dc342319856b2c5029de10ad893acfba01eeb56aaf327d9fcd9d061b24d",
+      "bytes": 5257,
+      "category": "component-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tooltip/index.en-US.md"
+    },
+    {
+      "path": "components/tooltip/index.zh-CN.md",
+      "gitBlob": "b2550cac5979d8cf9b940793c703fc7517f726d2",
+      "sha256": "9773ff1ff9c8b8f86045c54fb48d6aa6735e818474c30198e12e47abf9cb1a0f",
+      "bytes": 5234,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tooltip/index.zh-CN.md"
+    },
+    {
+      "path": "components/tooltip/shared/sharedFAQ.en-US.md",
+      "gitBlob": "4c3693fb93411eefb5c535a05266baf92c5dc543",
+      "sha256": "9894f81eeb091a107731ac3e1d999a8e0237120e8b4f78e5718e35dae22f0133",
+      "bytes": 2907,
+      "category": "component-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tooltip/shared/sharedFAQ.en-US.md"
+    },
+    {
+      "path": "components/tooltip/shared/sharedProps.en-US.md",
+      "gitBlob": "d4a68b6e731f39e64e8cae8495f2384deec6275f",
+      "sha256": "734ea243bc4b01b76cfd63df4a93e42b81b7b73cf5a17663cfd4d7cf93f25315",
+      "bytes": 3539,
+      "category": "component-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tooltip/shared/sharedProps.en-US.md"
+    },
+    {
+      "path": "components/tour/index.en-US.md",
+      "gitBlob": "618e4d6d21fa6e2004173e8bb5745531f4dddf14",
+      "sha256": "a977e2b8c984d168d8c95a25a76a454d3a5b628e6463818382cc8b5dc6963125",
+      "bytes": 5846,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tour/index.en-US.md"
+    },
+    {
+      "path": "components/tour/index.zh-CN.md",
+      "gitBlob": "84d36968c2bdab87e3ebeea615459f725a742dc9",
+      "sha256": "324c95b09733fceb7f7fd081168492d861e609460566e2efefddd357345a2086",
+      "bytes": 5711,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tour/index.zh-CN.md"
+    },
+    {
+      "path": "components/transfer/index.en-US.md",
+      "gitBlob": "fb925339a366c658bf66a54f5d9da0277fd2b6e2",
+      "sha256": "47a47c64d055a484eb37d9e3d7fcf45f9c5d45e2245fa606308d8d39d1bf1b79",
+      "bytes": 8114,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/transfer/index.en-US.md"
+    },
+    {
+      "path": "components/transfer/index.zh-CN.md",
+      "gitBlob": "4fdb600881e2cac67a1d3ff9b3c75b0be324eb87",
+      "sha256": "17dcf8d285b62a8135739ab047f0463118d2bb1656746d4e1efa12ed757d6e33",
+      "bytes": 7911,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/transfer/index.zh-CN.md"
+    },
+    {
+      "path": "components/tree-select/index.en-US.md",
+      "gitBlob": "4a51b09d29179e848db18729115c3b5a44aa1e49",
+      "sha256": "e0162ab74cbbb4dc70fc9601427a7d92afc27219daf986774bc8d42adf0227a3",
+      "bytes": 13754,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tree-select/index.en-US.md"
+    },
+    {
+      "path": "components/tree-select/index.zh-CN.md",
+      "gitBlob": "4d71e69810b00392abc933f1e68f1199eb5839d6",
+      "sha256": "86f485bb3b5839b4264b411fc78fcc56146cc24d756098ae4c0e5dec2175a2e8",
+      "bytes": 13454,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tree-select/index.zh-CN.md"
+    },
+    {
+      "path": "components/tree/index.en-US.md",
+      "gitBlob": "f340985ca583573350ef238db35ae3b21f4e3ced",
+      "sha256": "840d353cbb03fd0b282f1d11298fc6e9809c705c230c5b40c693f667f773f61f",
+      "bytes": 12724,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tree/index.en-US.md"
+    },
+    {
+      "path": "components/tree/index.zh-CN.md",
+      "gitBlob": "d15b6bcae0a651a8b665c0e03ab386280114c116",
+      "sha256": "3545be0848dd7843b9631f61fea00cf6309fa667015ebeb18065b7a797b8d395",
+      "bytes": 11786,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/tree/index.zh-CN.md"
+    },
+    {
+      "path": "components/typography/index.en-US.md",
+      "gitBlob": "bb3a3ba8daf537de4a1aaf91cc315473f1933ca1",
+      "sha256": "af00f9efbbd9e93182ff31860636ec1022349bba434ff94f60bc4c2a1ff65ced",
+      "bytes": 11497,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/typography/index.en-US.md"
+    },
+    {
+      "path": "components/typography/index.zh-CN.md",
+      "gitBlob": "ecc2e8ea04dcd5749dde8ac8ae4b562d71080360",
+      "sha256": "47e5f8752caa161336de2e6f140ba5c518373b3f8541513f604c6aba02b1b91f",
+      "bytes": 11536,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/typography/index.zh-CN.md"
+    },
+    {
+      "path": "components/upload/index.en-US.md",
+      "gitBlob": "6f0fa13e79af7ccbb8547756a17b3e83cae1ed6e",
+      "sha256": "093d3c91773249b43c8d7e767fcdc74bd5d18a38bc470e3e58400415d656fcb4",
+      "bytes": 15110,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/upload/index.en-US.md"
+    },
+    {
+      "path": "components/upload/index.zh-CN.md",
+      "gitBlob": "91d4a151051db409b2dc2148cc527bf631695627",
+      "sha256": "af41e899c9b6ad4860ae56438842acfb437bd4d33292751aa2bd67749b470fa0",
+      "bytes": 14728,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/upload/index.zh-CN.md"
+    },
+    {
+      "path": "components/watermark/index.en-US.md",
+      "gitBlob": "cfa8da1e7d080cb40f6d022c5031589414a0e6e0",
+      "sha256": "8084878cc2163e748ebdc3b7e1071a968a8c88f9c2b3cb5ba941bb23699382ba",
+      "bytes": 4429,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/watermark/index.en-US.md"
+    },
+    {
+      "path": "components/watermark/index.zh-CN.md",
+      "gitBlob": "7ee5034d95f9c4696935c3ad73d6e824ea46b9de",
+      "sha256": "24ce8010cb2f60ae9bad93015676b0ea747a926c1ea929d4a51535590a345605",
+      "bytes": 4259,
+      "category": "component-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/components/watermark/index.zh-CN.md"
+    },
+    {
+      "path": "docs/react/_demo/component-token.md",
+      "gitBlob": "2a4171fb295aaac8ecdfccff7265b6935dc898b2",
+      "sha256": "26024edb9ede9d65ab787e1a6bd1bb6ba1d4d5c2fc493ece23e6325f1be0c578",
+      "bytes": 858,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/_demo/component-token.md"
+    },
+    {
+      "path": "docs/react/_demo/disable-motion.md",
+      "gitBlob": "fff31fe2f77a60b224ff2495cbe4bc445d96388a",
+      "sha256": "6b9c2bf57b011aac7c28ce5e4b09612c10658f44ab52e1346982d2e42c039ec9",
+      "bytes": 498,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/_demo/disable-motion.md"
+    },
+    {
+      "path": "docs/react/_demo/dynamic-theme.md",
+      "gitBlob": "233a2313e5d7d8ea17a56a6b8eb6c9ef853a442f",
+      "sha256": "7a2c617d22906eb519bf6d961eab14c49b5810c2e3a17ef78a3168578d9b1fc8",
+      "bytes": 409,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/_demo/dynamic-theme.md"
+    },
+    {
+      "path": "docs/react/_demo/first-example.md",
+      "gitBlob": "41efe05fffa64df519f30559fe5fda3a33ba79e1",
+      "sha256": "9b4230313e98c02fb3cc92edab635943dc6d0f6fa8534c3ed550ba09c2e3d58e",
+      "bytes": 218,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/_demo/first-example.md"
+    },
+    {
+      "path": "docs/react/_demo/local-theme.md",
+      "gitBlob": "78625d51a29511efc7355a81dc910e92bfa4c8a2",
+      "sha256": "9de98eab363f8316d2a672babaa9ef1a988325e5bb7ff6b309018d2df973f3aa",
+      "bytes": 322,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/_demo/local-theme.md"
+    },
+    {
+      "path": "docs/react/_demo/modify-theme-token.md",
+      "gitBlob": "4c58979195f7b53b5e848699722fc7f33aee3e2b",
+      "sha256": "dc8509c2dd90a32d570fa009ec20fd88a80052a1bdb0352f788972885f49bb7a",
+      "bytes": 375,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/_demo/modify-theme-token.md"
+    },
+    {
+      "path": "docs/react/_demo/preset-algorithm.md",
+      "gitBlob": "4fa5e898a2003450df7f5379576076ef20060cb6",
+      "sha256": "427ffbc2d89595370f19a20983ce1e43b86e709468964f3872d91cb655c239c1",
+      "bytes": 706,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/_demo/preset-algorithm.md"
+    },
+    {
+      "path": "docs/react/_demo/use-token.md",
+      "gitBlob": "645c056e415f023d2c96aeda9969566135fa954c",
+      "sha256": "dfa2058d2a5f4e6054192ab8024ece53755c94e499aeec34f61de82d05e6f265",
+      "bytes": 246,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/_demo/use-token.md"
+    },
+    {
+      "path": "docs/react/cli.en-US.md",
+      "gitBlob": "ccc6059809f24b8cb8d80c90cb14710bb573f517",
+      "sha256": "60c9bd0e384248f9cafb534fabfac7fd2a66f1ade062fba59ec68614fd0b3a70",
+      "bytes": 9174,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/cli.en-US.md"
+    },
+    {
+      "path": "docs/react/cli.zh-CN.md",
+      "gitBlob": "314360b760df7bdef5eac5124a2f3d9614b829e5",
+      "sha256": "ff251f8338c16f3b59eb096bad0ddd575ba701a67c8e02456536a3cecdc53979",
+      "bytes": 9511,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/cli.zh-CN.md"
+    },
+    {
+      "path": "docs/react/common-props.en-US.md",
+      "gitBlob": "93502371a86ac8d089a3510e1e0f9d1b64ab071e",
+      "sha256": "939c81783cadfe1cbc572c7e47dfde8d6297fd4851bd5c3197b994154ffb1578",
+      "bytes": 568,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/common-props.en-US.md"
+    },
+    {
+      "path": "docs/react/common-props.zh-CN.md",
+      "gitBlob": "70a2128d35f06ac5e7dde563050497ba85cbc961",
+      "sha256": "6131181bc5e5db315ec61a002b1ede997f8199ce033fc606b9ea453e6be3e43b",
+      "bytes": 529,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/common-props.zh-CN.md"
+    },
+    {
+      "path": "docs/react/compatible-style.en-US.md",
+      "gitBlob": "a49befb9db1580a7f2a3927ea29fe606f0cf3160",
+      "sha256": "6d885853fe1a72d983b5d447cb4535b5603e7a400eb86b1eeb657bfb5ab90d8d",
+      "bytes": 12494,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/compatible-style.en-US.md"
+    },
+    {
+      "path": "docs/react/compatible-style.zh-CN.md",
+      "gitBlob": "09e74b4fe224c57243890e18126a690b15be33d1",
+      "sha256": "6018878a306553fa98a903d2314274ff26902043173b5fc37c8385c826480d05",
+      "bytes": 12265,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/compatible-style.zh-CN.md"
+    },
+    {
+      "path": "docs/react/contributing.en-US.md",
+      "gitBlob": "cb1f18dacef5835dc95654bd1bcfa1a665ef4b6d",
+      "sha256": "a7bd4e6c29a45fe0e00da4cfa5d777d876f45486a78ab17ca1b15f7250226f30",
+      "bytes": 6946,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/contributing.en-US.md"
+    },
+    {
+      "path": "docs/react/contributing.zh-CN.md",
+      "gitBlob": "43f53df2d67d8143601563f8723f18aad9974ae8",
+      "sha256": "d6ced408707ac7cf33aa31ef00a0b8b71ac2b7dc602b55aeae4167971543a924",
+      "bytes": 7659,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/contributing.zh-CN.md"
+    },
+    {
+      "path": "docs/react/customize-theme.en-US.md",
+      "gitBlob": "79195176c143512456d4d14946c5cb54ff979757",
+      "sha256": "760a21fdd62bee549f4f7f645f83498fc87b195d6198c3b5a86b804a65d0d35b",
+      "bytes": 11641,
+      "category": "integration-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/customize-theme.en-US.md"
+    },
+    {
+      "path": "docs/react/customize-theme.zh-CN.md",
+      "gitBlob": "bae38fad3f7983a2d33292cde34bb29f90243d80",
+      "sha256": "2edb383991161b01cb08d4bb86f3d6bffeda584c8fdc0997e7ab309396bd5384",
+      "bytes": 11824,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/customize-theme.zh-CN.md"
+    },
+    {
+      "path": "docs/react/design-md.en-US.md",
+      "gitBlob": "56223b4295d2152bf92c30c09ad932764df4437d",
+      "sha256": "bd3eacc300e3c683c38713600499a3d1254e8fff029896720c2b8c9b18197fa4",
+      "bytes": 2109,
+      "category": "integration-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/design-md.en-US.md"
+    },
+    {
+      "path": "docs/react/design-md.zh-CN.md",
+      "gitBlob": "b4a4e6c282afb80edf6a33a9f87b2535a5ac0f6b",
+      "sha256": "cb566d0b576be8fa26b1c3c08f4d2d22f21501c0f9b10f70ccf59b72806ef222",
+      "bytes": 2044,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/design-md.zh-CN.md"
+    },
+    {
+      "path": "docs/react/faq.en-US.md",
+      "gitBlob": "32431a2b7a8cb4ff80c817a394a8fb9dc10990a6",
+      "sha256": "eebf83cf2e9de000015e85415396b64371f250b7d147e79a67fbe42129b44c8a",
+      "bytes": 23836,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/faq.en-US.md"
+    },
+    {
+      "path": "docs/react/faq.zh-CN.md",
+      "gitBlob": "30a2d96fff86a6c780f079fb3e6c49a5dc12f745",
+      "sha256": "b9b94d812eb538080df50918612c4674527e3cdb65b7f335508a7ef24fc0ded2",
+      "bytes": 24563,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/faq.zh-CN.md"
+    },
+    {
+      "path": "docs/react/for-agents.en-US.md",
+      "gitBlob": "a5e33dfa6097f868dcb6fe6ef12d5d2517cd07a5",
+      "sha256": "a1bfe2ffc2c693d8f64d4a2bba72f1e574b2110cd3290bf0ae88ad4b48cb8ab9",
+      "bytes": 3767,
+      "category": "integration-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/for-agents.en-US.md"
+    },
+    {
+      "path": "docs/react/for-agents.zh-CN.md",
+      "gitBlob": "3ec7bf914bb120d2e54edbc15bf7d068113d4716",
+      "sha256": "c8fc4b98c8740315be2fe5fc9130b5b3c62c8b70f4cf9c9de4c5758ddb81c882",
+      "bytes": 3905,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/for-agents.zh-CN.md"
+    },
+    {
+      "path": "docs/react/getting-started.en-US.md",
+      "gitBlob": "955e615fab9371584f74ce5dbeb58b1433b0ec7e",
+      "sha256": "1aebcf83ea98c0c3dbfc24c8af254376a6634d80d7542b1d97e42669b629de16",
+      "bytes": 5153,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/getting-started.en-US.md"
+    },
+    {
+      "path": "docs/react/getting-started.zh-CN.md",
+      "gitBlob": "ba6b12d8fd984a18de38a87f3ff7a2de4af7fea6",
+      "sha256": "4f1396f5dd7e283a705d478dd958c976b4677b51b5c209243bba0b3fa3ac9e6c",
+      "bytes": 5180,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/getting-started.zh-CN.md"
+    },
+    {
+      "path": "docs/react/i18n.en-US.md",
+      "gitBlob": "e389b4fac68a2e6744dc726333a47a4c2e447ccb",
+      "sha256": "f2548685beb75fece621664c9079aeab0b074dca22058bcb5cdaffccd9505170",
+      "bytes": 6244,
+      "category": "integration-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/i18n.en-US.md"
+    },
+    {
+      "path": "docs/react/i18n.zh-CN.md",
+      "gitBlob": "f4173f4a579b1c71ad7ff9c34f246c450f5309b6",
+      "sha256": "0582dfd1be0a43d2569542279e1403dbf30495f953ce459b308a69214d8b2d09",
+      "bytes": 6358,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/i18n.zh-CN.md"
+    },
+    {
+      "path": "docs/react/introduce.en-US.md",
+      "gitBlob": "7a6518fbefa4bf80bd8b0185973ad68e98b2ecae",
+      "sha256": "94a1ce602dd52439b46a57847888bcbf4e3bfe4d4a8f55c897f9ab568df3791f",
+      "bytes": 8401,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/introduce.en-US.md"
+    },
+    {
+      "path": "docs/react/introduce.zh-CN.md",
+      "gitBlob": "faa2cfc759713e6eac3f446ed0b239839c07e44d",
+      "sha256": "261e600bf98b63d1488aa967714ff98086a734becdbb1db5c9c27e538070ced3",
+      "bytes": 8774,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/introduce.zh-CN.md"
+    },
+    {
+      "path": "docs/react/llms.en-US.md",
+      "gitBlob": "e7591782488af71ad405e6dc71270553e7e5c65d",
+      "sha256": "504bd44fd98557ca20f7e3da07bcdf3407dceaea6b038c003d3d587a7dd17d21",
+      "bytes": 4742,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/llms.en-US.md"
+    },
+    {
+      "path": "docs/react/llms.zh-CN.md",
+      "gitBlob": "2057b886a88e1bf8a072a1bbfdf8bc14090ed921",
+      "sha256": "dba85b605290519c0e16c5f5335a1aabd32d2024eb3e118a44ef24a9caa1dced",
+      "bytes": 4651,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/llms.zh-CN.md"
+    },
+    {
+      "path": "docs/react/mcp.en-US.md",
+      "gitBlob": "4ff4b1453e1680ad6657ccc0be0bf8fdc9b48b5e",
+      "sha256": "a56a4568a1891d8a6bded10e2929a8c479cd9250978ca5ccf76038a9542889ad",
+      "bytes": 6175,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/mcp.en-US.md"
+    },
+    {
+      "path": "docs/react/mcp.zh-CN.md",
+      "gitBlob": "5fd9c13e884afbb206b0a8b045415e910c92e3b3",
+      "sha256": "b64ba8d03be5e9c83e1c2a89738f54bd803f25b28126abc2bb0fa9f4d49eda9f",
+      "bytes": 5981,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/mcp.zh-CN.md"
+    },
+    {
+      "path": "docs/react/migration-v6.en-US.md",
+      "gitBlob": "a3adea885fd788df71d34c3c4ed97bd2af70112b",
+      "sha256": "dac251936f7205914b46d8f63ae6ac4ef383274e7485dcbd74fadeb9a05758b1",
+      "bytes": 21097,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/migration-v6.en-US.md"
+    },
+    {
+      "path": "docs/react/migration-v6.zh-CN.md",
+      "gitBlob": "403f580c4ce06302cbdb7c7456247f03fcc74ae0",
+      "sha256": "1e7c0b2d51f01eb96b22e6903ae654ecbee10b0376f381c1e3572d62330f4087",
+      "bytes": 18555,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/migration-v6.zh-CN.md"
+    },
+    {
+      "path": "docs/react/recommendation.en-US.md",
+      "gitBlob": "5eed8ba550744ba0adc6e53b53227ac82596c593",
+      "sha256": "c96280ef4f40ae17d93b33e29426f07be071977eb2d450a087ae9c0c7e985efd",
+      "bytes": 6355,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/recommendation.en-US.md"
+    },
+    {
+      "path": "docs/react/recommendation.zh-CN.md",
+      "gitBlob": "7204bd09fbcf45ad609d43dcf746ef39b06a7068",
+      "sha256": "eab6ef501078221ee7f3757aa0247f6f55b2df8dc90921003ae31ac6fb3d59c5",
+      "bytes": 6208,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/recommendation.zh-CN.md"
+    },
+    {
+      "path": "docs/react/server-side-rendering.en-US.md",
+      "gitBlob": "6949e660cb82964c6d614f759cd07fc6a89ee862",
+      "sha256": "c9cad74763291b9b934e6e84177d6a68ecdceaa6b5be55abdb2643704c087fac",
+      "bytes": 8579,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/server-side-rendering.en-US.md"
+    },
+    {
+      "path": "docs/react/server-side-rendering.zh-CN.md",
+      "gitBlob": "704b1dfc6be0cd491d83d6db0accbd0559000da2",
+      "sha256": "751b904b73693dbef3efb95c1ff697082b99f9498ef88c06fbbb3afa51151cc2",
+      "bytes": 8494,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/server-side-rendering.zh-CN.md"
+    },
+    {
+      "path": "docs/react/sponsor.en-US.md",
+      "gitBlob": "a92b87ec2f80af4266a9030c58ee7beda744b72e",
+      "sha256": "3e273b039256f4ad276385f8fab29d27350761f457ce3c4aa0bf3dea15aad89b",
+      "bytes": 3492,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/sponsor.en-US.md"
+    },
+    {
+      "path": "docs/react/sponsor.zh-CN.md",
+      "gitBlob": "014c22aba7fe7527baf9360771ee1b010997a853",
+      "sha256": "f16510cd5dc4c648107fb5bafa5be3b02725ab04f6d445c722e3d2ab4b53053e",
+      "bytes": 3475,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/sponsor.zh-CN.md"
+    },
+    {
+      "path": "docs/react/use-custom-date-library.en-US.md",
+      "gitBlob": "17414dd1717fa903bb3583aec8c501ae3e38cf45",
+      "sha256": "01905cb38311fcdd3611dd463e109562f942d6b503651241e37cb98dd0586100",
+      "bytes": 5920,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-custom-date-library.en-US.md"
+    },
+    {
+      "path": "docs/react/use-custom-date-library.zh-CN.md",
+      "gitBlob": "13065a2f3433913a1996a6843483c6c3aa9fb531",
+      "sha256": "eeca72c5dc8ecedfd8f6bd07164aed9cfef97a605efca119d21e5444290bfad0",
+      "bytes": 5913,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-custom-date-library.zh-CN.md"
+    },
+    {
+      "path": "docs/react/use-with-farm.en-US.md",
+      "gitBlob": "8643e8bdb79829c18d5ab4b28ce03e701133dc0f",
+      "sha256": "46d8967a1313a5d06b73e991f4f19aa858e99e1fbad00cd1761ddc2b1e669265",
+      "bytes": 2419,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-farm.en-US.md"
+    },
+    {
+      "path": "docs/react/use-with-farm.zh-CN.md",
+      "gitBlob": "c60a02af83f30c812d08e1e8256c46d624a28d20",
+      "sha256": "59f39a9667b7e0a9d6974cf970e6b9d3f0ef8541fa4b5725992eea14f7fbeada",
+      "bytes": 2436,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-farm.zh-CN.md"
+    },
+    {
+      "path": "docs/react/use-with-next.en-US.md",
+      "gitBlob": "ad2ed7d0baff23b71b01847cd68a6c5e89259980",
+      "sha256": "919e925f651e2f275e23a6176c61cbf539875b57e0cc4274672512d33790ac2a",
+      "bytes": 6678,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-next.en-US.md"
+    },
+    {
+      "path": "docs/react/use-with-next.zh-CN.md",
+      "gitBlob": "e6fb1d92f6b3d00a254129c37434b26e945e2369",
+      "sha256": "e47b6dbf28dd3abce72e1d61ee114a258722629ad61dc695bdbbfba3bd1df327",
+      "bytes": 6792,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-next.zh-CN.md"
+    },
+    {
+      "path": "docs/react/use-with-refine.en-US.md",
+      "gitBlob": "f6d70ef79d1b944ecc386e09aaf27e37c0eef12d",
+      "sha256": "dabd73a032571fd5e6de4e6ced9ef09a57162ad7557fc775db4a3bceb3df4d01",
+      "bytes": 3593,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-refine.en-US.md"
+    },
+    {
+      "path": "docs/react/use-with-refine.zh-CN.md",
+      "gitBlob": "05d95acf6caa69570b7c3ed424b84ab3aaa4d87a",
+      "sha256": "1d91ca4e9876d1e243e4df99d2c06891a2a6796f7c1caaef31972c6e9351ebbf",
+      "bytes": 3363,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-refine.zh-CN.md"
+    },
+    {
+      "path": "docs/react/use-with-rsbuild.en-US.md",
+      "gitBlob": "4b0b10ecae5203603d611cce186516b1e0b2b197",
+      "sha256": "00c193f060ab375cfe4afde3ee57a27dad87a02b8e7b25079d3f7d1588d9c4c6",
+      "bytes": 2334,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-rsbuild.en-US.md"
+    },
+    {
+      "path": "docs/react/use-with-rsbuild.zh-CN.md",
+      "gitBlob": "4cdba4fee553657196491474e9627d5ca3601060",
+      "sha256": "f3fafb28524a1bc4e000e9631a24e2ac96a3c2a983785b6e92e6282c8fbdbaa2",
+      "bytes": 2339,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-rsbuild.zh-CN.md"
+    },
+    {
+      "path": "docs/react/use-with-umi.en-US.md",
+      "gitBlob": "3237e42e19a8551c0da9ec380f320ccf2d3cae43",
+      "sha256": "b431840b7d2bac2080fe7d380831182982ccb7ebf31f335e6f7b4ad83b79d854",
+      "bytes": 14817,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-umi.en-US.md"
+    },
+    {
+      "path": "docs/react/use-with-umi.zh-CN.md",
+      "gitBlob": "422405c8adcd174264eff56f1ffd8df22b2a4b9b",
+      "sha256": "95040b9bee977f0ce939c088a10988944c9e2cc38614deb53868d6f5a567e0f2",
+      "bytes": 14797,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-umi.zh-CN.md"
+    },
+    {
+      "path": "docs/react/use-with-vite.en-US.md",
+      "gitBlob": "4409987e0a9e26bed3e85973628e2d4c4f9706e5",
+      "sha256": "4cfd4722da13a74f76f8c5808d40e1d7ddd11fe818b6f352acca54aec7635c6a",
+      "bytes": 2148,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-vite.en-US.md"
+    },
+    {
+      "path": "docs/react/use-with-vite.zh-CN.md",
+      "gitBlob": "edefe56c8c1dd254fe9dd7c88340b719a2f900f1",
+      "sha256": "b5cdaae30ae8fd7266c93f990a2fb944f71bb61b17b7d7c96c198aa42fbb8c6d",
+      "bytes": 2317,
+      "category": "integration-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/react/use-with-vite.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/alignment.en-US.md",
+      "gitBlob": "ba712d8d87f2d46a17b5d0881e9dc080c53b0ee6",
+      "sha256": "0a217ae22782fdeae5a143bc918a575c958af647771cba12d5b083aba9246116",
+      "bytes": 2389,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/alignment.en-US.md"
+    },
+    {
+      "path": "docs/spec/alignment.zh-CN.md",
+      "gitBlob": "63d6e3de14500478e9121bc77044530d8415cded",
+      "sha256": "94455ef61fe5cbffa08cbd1c26706b7fd88f3f627a0b0459a33030c01b4e582c",
+      "bytes": 2108,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/alignment.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/buttons.en-US.md",
+      "gitBlob": "a4b7aefeba12572b5d8f3c1ab11688f84a02bdff",
+      "sha256": "11b170d139eac965a934119d1be3897eef77ce1a65272faddb92ba598bf47afa",
+      "bytes": 8689,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/buttons.en-US.md"
+    },
+    {
+      "path": "docs/spec/buttons.zh-CN.md",
+      "gitBlob": "8632fcfc42d9e5da42fb89373c1380ebe945c9f5",
+      "sha256": "208fb96f9191230c5774c112596d70d32f00d4c175bd0a1525a8b16499a78b59",
+      "bytes": 10704,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/buttons.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/cases.en-US.md",
+      "gitBlob": "b2cbd094c300a67d08b0ad2b9e1852206885074b",
+      "sha256": "68dd8b140df61673e553ba2b1dba49089a8202a234792fb139cd62ce57eeea71",
+      "bytes": 2351,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/cases.en-US.md"
+    },
+    {
+      "path": "docs/spec/cases.zh-CN.md",
+      "gitBlob": "6d03af53c8fabd5cc8a8f6ac2b33de9ca1481e6b",
+      "sha256": "f5fd2b7c5511bcbfb6db321ddddde9e2f2a0bfd70dcc321d5d9d444286643bda",
+      "bytes": 2600,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/cases.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/colors.en-US.md",
+      "gitBlob": "e0e8072e8ea25a5aa3afeca498bb507bd6f00ae8",
+      "sha256": "2d7dd8c420e68e7363277a0b405b776afea2eb74b59f557ac798510c0b601f2f",
+      "bytes": 5715,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/colors.en-US.md"
+    },
+    {
+      "path": "docs/spec/colors.zh-CN.md",
+      "gitBlob": "b688faebf0625b96f315abd26fc457255cdbc0cd",
+      "sha256": "b1017f161f5a87c738cf7c44b52d233f73f334b30ea6b5cbb667eab944f99fec",
+      "bytes": 5717,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/colors.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/contrast.en-US.md",
+      "gitBlob": "385f7321354824377f5f472f7df3efbf255f16eb",
+      "sha256": "5d3f62351debe7aa87b073a61ea3b98310e312015f4f185fd89fce64c42fec98",
+      "bytes": 2974,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/contrast.en-US.md"
+    },
+    {
+      "path": "docs/spec/contrast.zh-CN.md",
+      "gitBlob": "735b80eebfe1bda946529bd1084a8649e4e0ceac",
+      "sha256": "eaf73ad96d48a4e950513591ccf85cba235abfb5639db1babc9fe1839e034534",
+      "bytes": 2556,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/contrast.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/copywriting.en-US.md",
+      "gitBlob": "886d1526fc7e683b963390099a9f9c742a5603a3",
+      "sha256": "d4e3d45a73d5daf8d5c1664b9c0cc0f73542a48e0130ea0d57145bbaa4811984",
+      "bytes": 13425,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/copywriting.en-US.md"
+    },
+    {
+      "path": "docs/spec/copywriting.zh-CN.md",
+      "gitBlob": "7f048079db74d0a7e2056c6545fd31ea2945fd90",
+      "sha256": "50a954053d277011995e354ea67c5c1a872bdc0ead08af9040b23791dd472882",
+      "bytes": 16810,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/copywriting.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/dark.en-US.md",
+      "gitBlob": "1a7ae475c05c7d69f6429f76a5997ac0260e2a05",
+      "sha256": "65b98f383e5e588c5a5c95cc2a882c6e57b0c78cf39e3e2af76c9b7e83324934",
+      "bytes": 1265,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/dark.en-US.md"
+    },
+    {
+      "path": "docs/spec/dark.zh-CN.md",
+      "gitBlob": "a221935033a3da75c3be5976226364d1d21f816e",
+      "sha256": "95032cb02582533297a0e99b86d435bdb985a979ec2d283d2e2c733088fad71d",
+      "bytes": 1388,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/dark.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/data-display.en-US.md",
+      "gitBlob": "9e570eabe77d622277fe3455b3cb31afd00e62b6",
+      "sha256": "0aeac348aaa4f1c3ecdf1fc6e336436dccfacc0a2eb265b541dcdf767533fcd8",
+      "bytes": 5168,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/data-display.en-US.md"
+    },
+    {
+      "path": "docs/spec/data-display.zh-CN.md",
+      "gitBlob": "a47314a7e21c4cc6835b324422d6985a9a19593a",
+      "sha256": "937d56e44550d7d07f294bcb6148a6015a71c2e3a58a33bf6a0d669d1e43daa7",
+      "bytes": 4348,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/data-display.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/data-entry.en-US.md",
+      "gitBlob": "c965a69942aacc23d457c49f4d0353c2c04d6965",
+      "sha256": "ee401b2fb2b86bb4f096c9cedf574e6912e6b926441a4252fe4f19edc50fccc7",
+      "bytes": 7689,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/data-entry.en-US.md"
+    },
+    {
+      "path": "docs/spec/data-entry.zh-CN.md",
+      "gitBlob": "11dc031c78b71ffe53228f34258d52fb9f0a8745",
+      "sha256": "d9ccd190ffa9d08f0fbdc4a14fc036702df2b2a78809de72b2f5a7741c2f463a",
+      "bytes": 7908,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/data-entry.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/data-format.en-US.md",
+      "gitBlob": "d114e677352ee19fce4fb99d87aa00ae2b892f8f",
+      "sha256": "dfb49e87e3966c571d75391419352be772b56358cdbdbc8f4a008af83fe34c1b",
+      "bytes": 8108,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/data-format.en-US.md"
+    },
+    {
+      "path": "docs/spec/data-format.zh-CN.md",
+      "gitBlob": "597b2c0b4a614701a471b9614c431adf05532c44",
+      "sha256": "b2f55c80529aadccff117393d7c5b9476a46bce8b430c374c8e8956ba80f569c",
+      "bytes": 10263,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/data-format.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/data-list.en-US.md",
+      "gitBlob": "b5fcac69c83275da9db603441e97ae13f69922ea",
+      "sha256": "f8a53abf03a7b96bad49a2591a41b552e121f87f1cf79a29ba9f40bcb29ae617",
+      "bytes": 8545,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/data-list.en-US.md"
+    },
+    {
+      "path": "docs/spec/data-list.zh-CN.md",
+      "gitBlob": "11f6b58016df4b6a672eda10be1f72eb6b6c8d79",
+      "sha256": "0b51ff04cb21c97e66a50da1f99fa31042accd2eb1a0c1912387154997c2acbd",
+      "bytes": 7800,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/data-list.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/detail-page.en-US.md",
+      "gitBlob": "b24848a0d8f9c26a0074b8a549de2e63e81a0109",
+      "sha256": "2a545528bc72fce295d4511583f73fe72ccdcf0a17734ae204fe9e1bae9bc5bc",
+      "bytes": 6405,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/detail-page.en-US.md"
+    },
+    {
+      "path": "docs/spec/detail-page.zh-CN.md",
+      "gitBlob": "b7361e9be077859271a45968d6aa12ebd827af03",
+      "sha256": "b746641ec8b9be4b3c1e7ae947931525386252e379538b6eb469749ae5cdf040",
+      "bytes": 6307,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/detail-page.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/direct.en-US.md",
+      "gitBlob": "a5b907301fc626887d4bc78d9c41f4000c76b32d",
+      "sha256": "2b68a43474077490c2ad8aaa1e93e721d653f5426e4f34649df8eeae85e19b7c",
+      "bytes": 3225,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/direct.en-US.md"
+    },
+    {
+      "path": "docs/spec/direct.zh-CN.md",
+      "gitBlob": "1ae44548d33fa83bc38fd87969ece2f825c25464",
+      "sha256": "3abb54a343b90c01e995d8c4bdb04eb17d267d613276edb22be208fbe9d59d29",
+      "bytes": 3032,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/direct.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/feedback.en-US.md",
+      "gitBlob": "e3aeba511d751483377c5426d11ccf78e9b80943",
+      "sha256": "24fbd4ec2b8ba23f24839cbd7d7da57f5d3c8fdc3028be20c648f111e152e5ce",
+      "bytes": 7439,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/feedback.en-US.md"
+    },
+    {
+      "path": "docs/spec/feedback.zh-CN.md",
+      "gitBlob": "ec3c6bf2892c914f25deafe3c8a3f2d958e38ff8",
+      "sha256": "8167dbabfeb8e0bdb32f9a57fa9a428ca818a41cedaa4952f183ec617a833a2c",
+      "bytes": 6706,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/feedback.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/font.en-US.md",
+      "gitBlob": "9f152a3568e095e3789dbff49f39b031c9305e92",
+      "sha256": "4b9841823d8edf8f972f43082917c911d5084ec75af769d3262bd3477edac626",
+      "bytes": 5668,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/font.en-US.md"
+    },
+    {
+      "path": "docs/spec/font.zh-CN.md",
+      "gitBlob": "6f0ab774c70713dfe10ef50ef18bc8df248dfa29",
+      "sha256": "cbb3f2541bcd8051809d964bf2b8af3b7c9f108870078e3abc619199587c9507",
+      "bytes": 5188,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/font.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/icon.en-US.md",
+      "gitBlob": "57a35a757123bfc67ce6e04b4d10ea05b491310f",
+      "sha256": "ba6d194fede2d7284eb4ef16a59c5c19235db00a822bce37bb57e6d2757e647f",
+      "bytes": 7034,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/icon.en-US.md"
+    },
+    {
+      "path": "docs/spec/icon.zh-CN.md",
+      "gitBlob": "16620871e62953d3f39e920c78d7e06fd06bb12e",
+      "sha256": "db937adcb3b31069ecc685d27d925de222b9dcd6830e0cb036c02e2a26f879d3",
+      "bytes": 11773,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/icon.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/illustration.en-US.md",
+      "gitBlob": "fe4f7b1af107ed75ae37e4fc1b7a9041dba4236a",
+      "sha256": "8afe3af50ef31d7fb966a1674d5369e47ab8cea7adceaecdf9834ef1fad7bc64",
+      "bytes": 7499,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/illustration.en-US.md"
+    },
+    {
+      "path": "docs/spec/illustration.zh-CN.md",
+      "gitBlob": "9f1372ab6c6ee1e72f9c2e64277131da5fe13749",
+      "sha256": "8842278a79020bcfba3c5b8af02231a38c2c985b210edbaac4aaef00c7c9ae67",
+      "bytes": 7136,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/illustration.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/introduce.en-US.md",
+      "gitBlob": "e13c5bb680ce9cf15c40c1f69909964e5e57de7f",
+      "sha256": "e7dd66ed5f0a4f8f40a79b2d8ed7e6756794b6806644a731d4fad9e112466ece",
+      "bytes": 3924,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/introduce.en-US.md"
+    },
+    {
+      "path": "docs/spec/introduce.zh-CN.md",
+      "gitBlob": "a74f4cda22fdc6b5f61d24602604f6a442666998",
+      "sha256": "e0e679c2306ef290b0855c10b36b11fe271509be3ba77ac6e0dd54c8361ef688",
+      "bytes": 3857,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/introduce.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/invitation.en-US.md",
+      "gitBlob": "eb88cc78eee83026e7d911d549ac51db4fe67670",
+      "sha256": "3c4dfaa8c369542015628b829c003538a15c38f701690d03fba83aaad233bb1a",
+      "bytes": 4250,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/invitation.en-US.md"
+    },
+    {
+      "path": "docs/spec/invitation.zh-CN.md",
+      "gitBlob": "eea832dc6c9ac267bfb0b75dffd73ca553d96b4b",
+      "sha256": "5475d38e82bade21059f400a6d55cf03e3ed66f6ecaf27ae2f785f2fcf53d68d",
+      "bytes": 4078,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/invitation.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/layout.en-US.md",
+      "gitBlob": "6df5c888abeaada259927b660b9c9435da4fba2d",
+      "sha256": "2e91a07ac850df387b975bf258d23518179bf21d1d0e140a646344576588b99f",
+      "bytes": 5347,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/layout.en-US.md"
+    },
+    {
+      "path": "docs/spec/layout.zh-CN.md",
+      "gitBlob": "5fa3e0ea691f08c1874d8b30c782b712050dd049",
+      "sha256": "726d3673d1d82c067da63fae26df19cbad86ceaae84aad74c03c32c05c038e5c",
+      "bytes": 4697,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/layout.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/lightweight.en-US.md",
+      "gitBlob": "8dbda88433581de7c64c7ff776fa6d66fbb937f1",
+      "sha256": "b1e90e7e6f7cd202370b2b632710e81ae21d47ccc24dc98f284dff78ccb106ca",
+      "bytes": 3652,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/lightweight.en-US.md"
+    },
+    {
+      "path": "docs/spec/lightweight.zh-CN.md",
+      "gitBlob": "5b152ecab940a2663e0452223a4f49e6b2e5461c",
+      "sha256": "e15b0cadec87dc9294b279defdc6c8b2752f42145daaea18619942ded1ea6b45",
+      "bytes": 3508,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/lightweight.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/motion.en-US.md",
+      "gitBlob": "3b4db8421220fafa2024de9167b59c8284ff159a",
+      "sha256": "6cdc615696d90a706710aba71fdf4bc78c019439bd751bd869b4554f6adab11f",
+      "bytes": 5139,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/motion.en-US.md"
+    },
+    {
+      "path": "docs/spec/motion.zh-CN.md",
+      "gitBlob": "e3efc19200d1c23efbf17aaad23af34f6097107a",
+      "sha256": "d8e9be57ff90a42209f125b9e98e5817b1068a9a57737efbc9b4e1edff53e0c7",
+      "bytes": 4385,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/motion.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/navigation.en-US.md",
+      "gitBlob": "cb7d5370a314a8cebf7e6a65818d8b4d275cac74",
+      "sha256": "fc06d7ed88479d092d1eca01fb8c9921fdff1bb93337e65f33e15df086b26f9a",
+      "bytes": 6125,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/navigation.en-US.md"
+    },
+    {
+      "path": "docs/spec/navigation.zh-CN.md",
+      "gitBlob": "7c206c7d526bbae9a3d9bdc384d971f1b3fa6704",
+      "sha256": "b3bdaeb4fbb1d812dbe4f4e1de23064afdc7cdc893a7cd9aaa9cd985491dbd50",
+      "bytes": 5995,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/navigation.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/overview.en-US.md",
+      "gitBlob": "bfe6b9ecaf919181905e818a9f5fa5617b4c7f9c",
+      "sha256": "c3dfa22250570190bd1f4fd765ece047ffa97d09d29f70a51ccadda28f9380fe",
+      "bytes": 2285,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/overview.en-US.md"
+    },
+    {
+      "path": "docs/spec/overview.zh-CN.md",
+      "gitBlob": "eb0755e7e86a40941f2d6e3c6024962cec73392f",
+      "sha256": "f5f93d64fc1e23abe99aefc79adfca61cc6f6c988721c945d0b8f1baaf17bef5",
+      "bytes": 2078,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/overview.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/proximity.en-US.md",
+      "gitBlob": "af21916cec544735bae9a5c032d1f109a56348ba",
+      "sha256": "1c894498aaa3e0ac7e57a809366c734c1be2d18b758464175d0d7eed6e9b6f3f",
+      "bytes": 2181,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/proximity.en-US.md"
+    },
+    {
+      "path": "docs/spec/proximity.zh-CN.md",
+      "gitBlob": "93106487d46dd1950b2ec3b064163183221cd8f8",
+      "sha256": "ded7ec3282911ccf0ad81d4765a4e6527194e166124c7e9c95558e6aaecc3bb1",
+      "bytes": 1918,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/proximity.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/reaction.en-US.md",
+      "gitBlob": "938d0770e2e0130295109e87a1ddb8964d1fa014",
+      "sha256": "149326dd8e3aae89365359f09fe8e31630edb9c29c8289dc5e62bf1515f3e720",
+      "bytes": 4936,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/reaction.en-US.md"
+    },
+    {
+      "path": "docs/spec/reaction.zh-CN.md",
+      "gitBlob": "74ff1d00717ef190ee48b00245417286c39dd760",
+      "sha256": "b7aceda623b65939f33c3b25688785cd0eccbe3a740e8e180b7a0f853a2a177c",
+      "bytes": 4451,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/reaction.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/repetition.en-US.md",
+      "gitBlob": "43d645516b7edc4c4891c1a888b140a2c9c4c74e",
+      "sha256": "0199f596d0ec0e9c64a9c8f941da911f0574df904c5c72cd2f951e63c4485259",
+      "bytes": 1005,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/repetition.en-US.md"
+    },
+    {
+      "path": "docs/spec/repetition.zh-CN.md",
+      "gitBlob": "437b59b0768f21f53170f75414a0656d2a11fda8",
+      "sha256": "c61e45b00d56942ae68ee01b8da3fcc6bf2a1bc672d1860d8ebb3a0fad66921c",
+      "bytes": 919,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/repetition.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/research-empty.en-US.md",
+      "gitBlob": "12e048e00d34e42309725cb2f4c1b62f8313f7b5",
+      "sha256": "219dbe464d3752aa0e5538a7406e73291335be42c5d8e91786853c152273909b",
+      "bytes": 3907,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-empty.en-US.md"
+    },
+    {
+      "path": "docs/spec/research-empty.zh-CN.md",
+      "gitBlob": "e213fac7271bc93c71fd3eaff6a598c431ab3088",
+      "sha256": "8a69e22f64ed4bce0ab47fbd47f1ae252a22864a27a1464ed0f70f6172d6be7f",
+      "bytes": 3867,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-empty.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/research-exception.en-US.md",
+      "gitBlob": "09d0bef06a906251b0734829999013927c10f196",
+      "sha256": "b9d4d92b0800a4add1cb5f1bd3c1e1cbf03ab5003647035b26b9b50e65133741",
+      "bytes": 5009,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-exception.en-US.md"
+    },
+    {
+      "path": "docs/spec/research-exception.zh-CN.md",
+      "gitBlob": "8e9833969cbc9b6f6d61aff08c6ae0b15f902834",
+      "sha256": "89c7067afb4712f3af504378bb4dcd7c70ba6edf2026844f0e850f94b3739412",
+      "bytes": 4907,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-exception.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/research-form.en-US.md",
+      "gitBlob": "1df648a56cbd6adeefd2af975a26e437f9501757",
+      "sha256": "a4d5b91f99d2e5e9aa2f2dc25c042f78d869164d62339064ca84cfc7eba8f72d",
+      "bytes": 11705,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-form.en-US.md"
+    },
+    {
+      "path": "docs/spec/research-form.zh-CN.md",
+      "gitBlob": "466e948159a6469d2243f43b41c06b6b8fee1325",
+      "sha256": "bfeaa453c628ae187a174f3c5d4d38fe1817275c44c3a5704a4ee1d58c54a1d1",
+      "bytes": 10914,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-form.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/research-list.en-US.md",
+      "gitBlob": "406ab24368263c50a567cbb4da08185451396350",
+      "sha256": "99f068d7c6f625883754faa2e1b09b0592b8cbae907a5da680a5a74467ce2247",
+      "bytes": 5081,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-list.en-US.md"
+    },
+    {
+      "path": "docs/spec/research-list.zh-CN.md",
+      "gitBlob": "c81d86f2450459de2c58c24815638bf4bb4e8da6",
+      "sha256": "5ea631f5b89cf5bcf38c2b9427639e81abec9f2c475eaa30a9ae77e5e6e876d4",
+      "bytes": 5035,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-list.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/research-message-and-feedback.en-US.md",
+      "gitBlob": "17d0d879ecc3480449bf56ebecf5cd1b74cdc758",
+      "sha256": "c4597395dcb297d4c2ad4b68d2fbf0e977ed6babb0f6a16ccdffa237ccb16ead",
+      "bytes": 4363,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-message-and-feedback.en-US.md"
+    },
+    {
+      "path": "docs/spec/research-message-and-feedback.zh-CN.md",
+      "gitBlob": "20a92fab03739ddc6bf912a72dc2a7856c82a590",
+      "sha256": "792dd5221f227e5a138c5188431badb79f22fe6a9a922172818422571d54589b",
+      "bytes": 4461,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-message-and-feedback.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/research-navigation.en-US.md",
+      "gitBlob": "1129eb2967eb2fe9da235f8d092dcc5f13f89452",
+      "sha256": "230e40c9a74ed07a589f0e8d1141766aa7f92cebb87387340744b7fb960997be",
+      "bytes": 12072,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-navigation.en-US.md"
+    },
+    {
+      "path": "docs/spec/research-navigation.zh-CN.md",
+      "gitBlob": "62e2bc9fe17e74a83cccffcf858fa80030662a86",
+      "sha256": "042f30a73a4883b4e5e745dd10bf313d141756e0290e3654242f8b1bdd594780",
+      "bytes": 11150,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-navigation.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/research-overview.en-US.md",
+      "gitBlob": "91ac1d25b754e1e56b131c3fb55d435cbfb2e19b",
+      "sha256": "467a642508507de5466c976a9eb08131eec5555da9e96455f4bea5abce849b9a",
+      "bytes": 797,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-overview.en-US.md"
+    },
+    {
+      "path": "docs/spec/research-overview.zh-CN.md",
+      "gitBlob": "1ca05fbebc3a87d8ac80c2ff81486544fb085683",
+      "sha256": "1dc13bf74f614b446eb25f07fd5a4cbefe9eb08725818402d0fb1b2635b5b466",
+      "bytes": 644,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-overview.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/research-result.en-US.md",
+      "gitBlob": "7c1794ee238f7890a5a3d30bccb9a9acb850a2e4",
+      "sha256": "4fa1bdfaae7aa8ac0bb169d490a6713505bd4a1536fae9b5b0240d65182f094f",
+      "bytes": 5917,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-result.en-US.md"
+    },
+    {
+      "path": "docs/spec/research-result.zh-CN.md",
+      "gitBlob": "ba406846d9faf01ce16561a22b102dbcb5ee724b",
+      "sha256": "97e23daf33194733ccf36cea833c6374a365fe6ab68f8ee0d87e8c71fe0663f9",
+      "bytes": 5589,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-result.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/research-workbench.en-US.md",
+      "gitBlob": "100f896cad3310f8d8afae4af047c2ab29ff4e69",
+      "sha256": "47f15eb0316179baed524290a226895250ccd652d76b7acd20800d173cffe413",
+      "bytes": 3821,
+      "category": "design-document",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-workbench.en-US.md"
+    },
+    {
+      "path": "docs/spec/research-workbench.zh-CN.md",
+      "gitBlob": "5d7fc1445658546b62f7905e51b5b99b1b1ab74f",
+      "sha256": "2a9c9434f503c391204f3d5f275e21ddbe41590a4ec1f3c1f93342e245f40d81",
+      "bytes": 3637,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/research-workbench.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/shadow.en-US.md",
+      "gitBlob": "62f1a23c854141e3e238a91f257531d61df605b1",
+      "sha256": "5e20f1f2b3678bfa07c359cfd8ffa3ba168a6a5b33ce3a6b9074e19b86c0d821",
+      "bytes": 10274,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/shadow.en-US.md"
+    },
+    {
+      "path": "docs/spec/shadow.zh-CN.md",
+      "gitBlob": "b06ec076d5e3dda723b36b5e76e66e43e277e2ec",
+      "sha256": "46b667686a92d334754bff292ceaa4f5c9eccb3f8d3a80fab4c7602999979e41",
+      "bytes": 9655,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/shadow.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/stay.en-US.md",
+      "gitBlob": "0a229a10c6d7f0a0aa21c9de0c20ec524809d324",
+      "sha256": "8d9cdee58e38b014d7f27288b8c467d7610c092df133b5ba154a3962940f7c8d",
+      "bytes": 5629,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/stay.en-US.md"
+    },
+    {
+      "path": "docs/spec/stay.zh-CN.md",
+      "gitBlob": "d2b227b978a1507d2b970c7e2ee7f06dcaccb142",
+      "sha256": "2e70304e8c01feabc371f43dd8eda962a38a10db96740129fc1b7067671823e2",
+      "bytes": 5594,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/stay.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/transition.en-US.md",
+      "gitBlob": "0ed45c99336f1581d26f44f0e5ab513cdc282ea1",
+      "sha256": "dc22fefdc66ec2b90ebdedbf0869fdb7d963e5cd231a7430257558b88f165bc6",
+      "bytes": 3151,
+      "category": "design-document",
+      "readStatus": "read-prose-media-lines-omitted",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/transition.en-US.md"
+    },
+    {
+      "path": "docs/spec/transition.zh-CN.md",
+      "gitBlob": "f776b8a1d6f2e59df73c43a2bcc4189f64d59cbe",
+      "sha256": "c54f4f429a8e349a20238dd046353ab02a8822de14806020802741f6272668c4",
+      "bytes": 2983,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/transition.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/values.en-US.md",
+      "gitBlob": "e2ce0838b07bea109d1773384a15848f569e8c8f",
+      "sha256": "75b787280bccb639b696682cef22d1a6d7e0b28a9f92b37c1dd2859157107d67",
+      "bytes": 7272,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/values.en-US.md"
+    },
+    {
+      "path": "docs/spec/values.zh-CN.md",
+      "gitBlob": "ed41292c3279cce74feaed275b944e563b2db011",
+      "sha256": "e60ccb61d84fbc4fb47f23b63712912ea693c728ff605c069b45823d1223c0a1",
+      "bytes": 6080,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/values.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/visual.en-US.md",
+      "gitBlob": "0913a6fb44a7aba087896ee13be245f485696f8d",
+      "sha256": "0523b5b97632963268263622ebc00ecb042f414ea73168b6753300a966124b17",
+      "bytes": 10822,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/visual.en-US.md"
+    },
+    {
+      "path": "docs/spec/visual.zh-CN.md",
+      "gitBlob": "d0a7e4347b8f888de25fcc5e42399de8c5f18ed0",
+      "sha256": "9cd778ebd8532c577514d826891886fe0eb506e8419624c21478a719df93deae",
+      "bytes": 9598,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/visual.zh-CN.md"
+    },
+    {
+      "path": "docs/spec/visualization-page.en-US.md",
+      "gitBlob": "46258d9c28a1c1273a978e1d6a31179fcfee68fb",
+      "sha256": "c03c2b44131b6345eccb60a8688ee2d1ba67e781b1da662df7e2dff870f78995",
+      "bytes": 8321,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/visualization-page.en-US.md"
+    },
+    {
+      "path": "docs/spec/visualization-page.zh-CN.md",
+      "gitBlob": "ae4dd68de1256064822d5b7c079ef19d2e0b2b5d",
+      "sha256": "992ac3ff6145170af01a4a8b29379ce8f913fd9ad3925597a5e8a3be21ff2c53",
+      "bytes": 8033,
+      "category": "design-document",
+      "readStatus": "catalogued-not-semantic-read",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/docs/spec/visualization-page.zh-CN.md"
+    },
+    {
+      "path": "package.json",
+      "gitBlob": "39130f7223580bcd3274e4e64015f7cded421691",
+      "sha256": "3911883e6feb3d1eebdabe83065f473a057a57efb0560d6f42a279c1f8222d83",
+      "bytes": 13212,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/package.json"
+    },
+    {
+      "path": "public/.well-known/agent-skills/antd-component-lookup/SKILL.md",
+      "gitBlob": "49f5a4145ef62307745afbcea3a3fa90a63548d0",
+      "sha256": "f8f926218dce241724b3580faf5843c86aae30ca907e709706009c9a7744c9a3",
+      "bytes": 1740,
+      "category": "actual-skill",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/public/.well-known/agent-skills/antd-component-lookup/SKILL.md"
+    },
+    {
+      "path": "public/.well-known/agent-skills/antd-migration/SKILL.md",
+      "gitBlob": "48a5697b6258337e6233f00783ab73a995fceb79",
+      "sha256": "6600ea616142218fb73e7f1b3d93c121b929a6847403f877fb13dc7c9ad64470",
+      "bytes": 1357,
+      "category": "actual-skill",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/public/.well-known/agent-skills/antd-migration/SKILL.md"
+    },
+    {
+      "path": "public/.well-known/agent-skills/antd-theme-customization/SKILL.md",
+      "gitBlob": "96adc6918aeaa98f5a6bdbe456a9b55ab76afa33",
+      "sha256": "4879dfdc716c2773b10f12d4f65f592ed38cf3a0c6c697ee8d3c8b6e6197860e",
+      "bytes": 1526,
+      "category": "actual-skill",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/public/.well-known/agent-skills/antd-theme-customization/SKILL.md"
+    },
+    {
+      "path": "public/.well-known/agent-skills/index.json",
+      "gitBlob": "566ce203b52cfcb8ed5b3b0f5db5e11ad91bcb39",
+      "sha256": "991cbf60aee43023c2ee35f070f48496de29643f9f86bd00e9d9fb6a35624226",
+      "bytes": 1398,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/public/.well-known/agent-skills/index.json"
+    },
+    {
+      "path": "scripts/check-repo.ts",
+      "gitBlob": "508694a43094213ad22e175b80cb91e96d9436a8",
+      "sha256": "445dc54b1a687956ca3a3c9af35719eaf5290bc7a0144e010764dfce840e97b4",
+      "bytes": 3481,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/scripts/check-repo.ts"
+    },
+    {
+      "path": "scripts/check-version-md.ts",
+      "gitBlob": "65932ccc460a1caebc6f0e593eae608b4342004c",
+      "sha256": "79d0b2aa1743eb3266ce85b952381b18c3c7e3d28609d4007adc43a2b6b23799",
+      "bytes": 1937,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/scripts/check-version-md.ts"
+    },
+    {
+      "path": "scripts/generate-component-changelog.ts",
+      "gitBlob": "4464d48be5dcff4facaa5eadf2b4bbaf81ed0360",
+      "sha256": "597bb946e139b3a566d077e70b57a82648593dcaf3995d7cfb4f703297a65ce1",
+      "bytes": 6551,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/scripts/generate-component-changelog.ts"
+    },
+    {
+      "path": "scripts/generate-version.ts",
+      "gitBlob": "d0eb6841422e23311239e32ee7121f9d79803e4c",
+      "sha256": "af798071bb99534527c7c8e6f752249c84639353f3ea5db96677018c411f6061",
+      "bytes": 245,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/scripts/generate-version.ts"
+    },
+    {
+      "path": "scripts/post-publish.ts",
+      "gitBlob": "b4cb9a6d81d4db54b3f7c6b0acc1a3e29c40d7da",
+      "sha256": "3a3b9128d47f3148c73b0808a69cbd1a0b8f77bb4a74f9ca160053f22a422050",
+      "bytes": 5481,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/scripts/post-publish.ts"
+    },
+    {
+      "path": "scripts/pre-publish.ts",
+      "gitBlob": "839441650d54840d180aee794eccc3b88640829d",
+      "sha256": "0729925dc30295042baa2d2611d24f942856ebbb74b8e9fd4a17aad872171129",
+      "bytes": 9353,
+      "category": "operational-or-license",
+      "readStatus": "read-full-source-text",
+      "url": "https://github.com/ant-design/ant-design/blob/4e3564d0f3088d0ef96210182732f579c38e5df3/scripts/pre-publish.ts"
+    }
+  ]
+}

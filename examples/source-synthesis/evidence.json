@@ -1,0 +1,82 @@
+{
+  "kind": "observed-browser-fixture",
+  "sourceBaseline": "f70db6171196c2c4452bc53eb24e82ba7cad5d9c",
+  "date": "2026-10-21",
+  "renderer": "Existing Chrome on Windows via Playwright; no installation",
+  "files": [
+    {
+      "path": "ar-EG-dark-1200.png",
+      "bytes": 61031,
+      "sha256": "05ef6d5d56df68aeeef7518b9b91fce90357e26c7d511519665a3cf70fc6c120"
+    },
+    {
+      "path": "de-DE-dark-1200.png",
+      "bytes": 61926,
+      "sha256": "61288e14a0c46d497e519243c14a33facfd75a83c62d5a984624f497ae5fc9bc"
+    },
+    {
+      "path": "de-DE-light-420.png",
+      "bytes": 57495,
+      "sha256": "2689d1d11ae28adafe329e6618527e052c1866842716ac41b42e461380db50b7"
+    },
+    {
+      "path": "en-US-light-1200.png",
+      "bytes": 62032,
+      "sha256": "1f2a2202baf3a355b3cc86c09adf0cc70b87eec519a3440ee2f6c8eba3c16731"
+    },
+    {
+      "path": "presentation.html",
+      "bytes": 4866,
+      "sha256": "7ef398d9c10ab22d6d1c9285a84b2af08d3b6ffe6e974dca062136d540ffbcad"
+    }
+  ],
+  "observations": [
+    {
+      "locale": "en-US",
+      "theme": "light",
+      "width": 1200,
+      "length": "1,234.5",
+      "date": "Oct 21, 2026",
+      "modelUnchanged": true,
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "theme": "dark",
+      "width": 1200,
+      "length": "1.234,5",
+      "date": "21. Okt. 2026",
+      "modelUnchanged": true,
+      "overflow": false
+    },
+    {
+      "locale": "ar-EG",
+      "theme": "dark",
+      "width": 1200,
+      "length": "١٬٢٣٤٫٥",
+      "date": "٢١ أكتوبر ٢٠٢٦",
+      "modelUnchanged": true,
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "theme": "light",
+      "width": 420,
+      "length": "1.234,5",
+      "date": "21. Okt. 2026",
+      "modelUnchanged": true,
+      "overflow": false
+    },
+    {
+      "keyboardDisclosure": "true",
+      "bindingVisible": true,
+      "modelUnchanged": true
+    }
+  ],
+  "limits": [
+    "Designed example, no baseline/candidate model-performance conclusion",
+    "No native model API or persistence",
+    "English labels retained in Arabic formatting profile",
+    "Screen reader, forced colors, zoom, other engines, all locales untested"
+  ]
+}

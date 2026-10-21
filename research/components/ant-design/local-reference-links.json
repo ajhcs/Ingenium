@@ -1,0 +1,418 @@
+{
+  "summary": {
+    "files": 12,
+    "edges": 54,
+    "localPresent": 27,
+    "externalOrSite": 26,
+    "missing": 0,
+    "policy": "Markdown destinations plus literal local operational backtick references. Site URLs stay external even where local equivalents may exist. Generic source paths/commands, task corpora, generated outputs and dependency implementation are not falsely classified as skill reference leaves."
+  },
+  "edges": [
+    {
+      "from": ".agents/skills/changelog-collect/SKILL.md",
+      "link": "https://github.com/ant-design/ant-design/pull/56976",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/changelog-collect/SKILL.md",
+      "link": "https://github.com/zombieJ",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/changelog-collect/SKILL.md",
+      "link": "https://github.com/ant-design/ant-design/pull/56980",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/changelog-collect/SKILL.md",
+      "link": "https://github.com/afc163",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/changelog-collect/SKILL.md",
+      "link": "https://github.com/ant-design/ant-design/pull/56901",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/changelog-collect/SKILL.md",
+      "link": "https://github.com/li",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/changelog-collect/SKILL.md",
+      "link": "https://github.com/ant-design/ant-design/pull/56976",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/changelog-collect/SKILL.md",
+      "link": "https://github.com/username",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/changelog-collect/SKILL.md",
+      "link": "AGENTS.md",
+      "target": "AGENTS.md",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/changelog-collect/SKILL.md",
+      "link": "package.json",
+      "target": "package.json",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/commit-msg/SKILL.md",
+      "link": "references/format-and-examples.md",
+      "target": ".agents/skills/commit-msg/references/format-and-examples.md",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/commit-msg/references/format-and-examples.md",
+      "link": "scripts/xxx.js",
+      "target": "scripts/xxx.js",
+      "status": "placeholder-or-nonexistent",
+      "readStatus": "outside-selected-inventory",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/create-pr/SKILL.md",
+      "link": ".github/PULL_REQUEST_TEMPLATE_CN.md",
+      "target": ".github/PULL_REQUEST_TEMPLATE_CN.md",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/create-pr/SKILL.md",
+      "link": ".github/PULL_REQUEST_TEMPLATE.md",
+      "target": ".github/PULL_REQUEST_TEMPLATE.md",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/create-pr/SKILL.md",
+      "link": ".github/PULL_REQUEST_TEMPLATE_CN.md",
+      "target": ".github/PULL_REQUEST_TEMPLATE_CN.md",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/create-pr/SKILL.md",
+      "link": ".github/PULL_REQUEST_TEMPLATE.md",
+      "target": ".github/PULL_REQUEST_TEMPLATE.md",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/create-pr/SKILL.md",
+      "link": "references/template-notes-and-examples.md",
+      "target": ".agents/skills/create-pr/references/template-notes-and-examples.md",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/issue-reply/SKILL.md",
+      "link": "https://ant.design/docs/react/faq-cn/",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/SKILL.md",
+      "link": "https://stackoverflow.com/questions/tagged/antd",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/SKILL.md",
+      "link": "https://segmentfault.com/t/antd",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/SKILL.md",
+      "link": "https://ant.design/docs/react/faq-cn/",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/SKILL.md",
+      "link": "https://stackoverflow.com/questions/tagged/antd",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/SKILL.md",
+      "link": "https://segmentfault.com/t/antd",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/SKILL.md",
+      "link": "https://ant.design/docs/react/faq-cn/",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/SKILL.md",
+      "link": "references/labels-and-resources.md",
+      "target": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://github.com/ant-design/ant-design/issues?q=is%3Aissue%20label%3A%E2%9D%93FAQ",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://ant.design/docs/react/faq-cn/",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://ant.design/changelog-cn",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://ant.design/components/form-cn#faq",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://ant.design/components/table-cn#virtual-list",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://ant.design/docs/react/i18n-cn",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://ant.design/docs/react/customize-theme-cn",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://stackoverflow.com/questions/tagged/antd",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://segmentfault.com/t/antd",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://codesandbox.io/s/antd-reproduction-template",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/issue-reply/references/labels-and-resources.md",
+      "link": "https://stackblitz.com/edit/antd-reproduction",
+      "target": null,
+      "status": "external-or-site-route-not-fetched",
+      "readStatus": "outside-selected-inventory"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "package.json",
+      "target": "package.json",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "CHANGELOG.en-US.md",
+      "target": "CHANGELOG.en-US.md",
+      "status": "local-present",
+      "readStatus": "catalogued-not-semantic-read",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "CHANGELOG.zh-CN.md",
+      "target": "CHANGELOG.zh-CN.md",
+      "status": "local-present",
+      "readStatus": "catalogued-not-semantic-read",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "package.json",
+      "target": "package.json",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "package.json",
+      "target": "package.json",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "CHANGELOG.en-US.md",
+      "target": "CHANGELOG.en-US.md",
+      "status": "local-present",
+      "readStatus": "catalogued-not-semantic-read",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "CHANGELOG.zh-CN.md",
+      "target": "CHANGELOG.zh-CN.md",
+      "status": "local-present",
+      "readStatus": "catalogued-not-semantic-read",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "CHANGELOG.en-US.md",
+      "target": "CHANGELOG.en-US.md",
+      "status": "local-present",
+      "readStatus": "catalogued-not-semantic-read",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "CHANGELOG.zh-CN.md",
+      "target": "CHANGELOG.zh-CN.md",
+      "status": "local-present",
+      "readStatus": "catalogued-not-semantic-read",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "package.json",
+      "target": "package.json",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "package.json",
+      "target": "package.json",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": ".github/workflows/verify-package-version.yml",
+      "target": ".github/workflows/verify-package-version.yml",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "package.json",
+      "target": "package.json",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "CHANGELOG.en-US.md",
+      "target": "CHANGELOG.en-US.md",
+      "status": "local-present",
+      "readStatus": "catalogued-not-semantic-read",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "CHANGELOG.zh-CN.md",
+      "target": "CHANGELOG.zh-CN.md",
+      "status": "local-present",
+      "readStatus": "catalogued-not-semantic-read",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "scripts/check-version-md.ts",
+      "target": "scripts/check-version-md.ts",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "scripts/pre-publish.ts",
+      "target": "scripts/pre-publish.ts",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    },
+    {
+      "from": ".agents/skills/version-release/SKILL.md",
+      "link": "package.json",
+      "target": "package.json",
+      "status": "local-present",
+      "readStatus": "read-full-source-text",
+      "kind": "backtick-operational-reference"
+    }
+  ]
+}

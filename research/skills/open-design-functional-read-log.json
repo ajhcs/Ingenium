@@ -1,0 +1,35 @@
+{
+  "source": "nexu-io/open-design",
+  "commit": "8d820a698908dc279ef3d5aeb4ce6d156211a499",
+  "reader": "/root/skills_team/open_design",
+  "full_body_direct_read": [
+    "8-bit-orbit-video-template", "after-hours-editorial-template", "agent-browser", "article-magazine", "brand-extract", "brandkit", "brutalist-skill", "card-twitter", "card-xiaohongshu", "chat-motion-overlay", "data-report", "deck-guizang-editorial", "deck-open-slide-canvas", "deck-swiss-international", "design-brief", "digits-fintech-swiss-template", "doc-kami-parchment", "ecommerce-image-workflow", "editorial-burgundy-principles-template", "export-download-debugging", "faq-page", "field-notes-editorial-template", "frame-data-chart-nyt", "frame-flowchart-sticky", "frame-glitch-title", "frame-light-leak-cinema", "frame-liquid-bg-hero", "frame-logo-outro", "frame-macos-notification", "frontend-design", "gpt-tasteskill", "html-ppt-retro-quarterly-review", "impeccable-design-polish", "library-curator", "login-flow", "minimalist-skill", "mockup-device-3d", "od-next-media-inputs", "output-skill", "poster-hero", "ppt-keynote", "pptx-html-fidelity-audit", "pr-feedback-quality-gate", "redesign-skill", "reference-design-contract", "release-notes-one-pager", "research-decision-room", "resume-modern", "social-reddit-card", "social-spotify-card", "social-x-post-card", "soft-skill", "swiss-creative-mode-template", "swiss-user-research-video-template", "vfx-text-cursor", "video-hyperframes", "web-clone", "web-design-guidelines", "weread-year-in-review-video-template", "writing-guidelines"
+  ],
+  "normalized_template_read": {
+    "scope": "85 catalogue stubs identified by literal 'This catalogue entry advertises the skill' under skills/",
+    "method": "Read all 18 complete normalized body variants, all per-entry frontmatter, all 85 description/source rows; mechanically compared What-it-does text to frontmatter description. Two custom additions were read directly in full (creative-director, ui-ux-pro-max). Normalization is an auditable transformed read, not an exact-byte duplicate claim.",
+    "exceptions_direct_read": ["creative-director", "ui-ux-pro-max"]
+  },
+  "references_full_read": [
+    "skills/AGENTS.md",
+    "skills/README.md",
+    "design-templates/AGENTS.md",
+    "skills/research-decision-room/references/evidence-model.md",
+    "skills/reference-design-contract/references/checklist.md"
+  ],
+  "baseline_full_read": [
+    "skills/ingenium/SKILL.md",
+    "skills/ingenium/references/interaction-sketches.md",
+    "skills/ingenium/references/checks.md",
+    "skills/ingenium/references/composition.md",
+    "skills/ingenium/references/assets.md",
+    "skills/ingenium/references/fonts.md",
+    "skills/ingenium/references/resource-libraries.md",
+    "skills/ingenium/references/record-contract.md",
+    "skills/ingenium/references/ui.md",
+    "skills/ingenium/references/design-methods.md",
+    "skills/ingenium/references/methods/fontplate.md",
+    "skills/ingenium/references/methods/element-collage.md"
+  ],
+  "delegated_body_partition": ["animate", "emil-design-eng", "emilkowalski-motion", "gsap-core", "gsap-frameworks", "gsap-performance", "gsap-plugins", "gsap-react", "gsap-scrolltrigger", "gsap-timeline", "gsap-utils", "huashu-art-motion", "motion-design", "motion-lab", "oil-motion", "review-animations", "ui-animation", "image-to-code-skill", "imagegen-frontend-mobile", "imagegen-frontend-web", "taste-skill", "taste-skill-v1", "hatch-pet", "stitch-skill"]
+}

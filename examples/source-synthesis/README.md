@@ -1,0 +1,11 @@
+# Presentation boundaries
+
+Open [presentation.html](presentation.html). This original synthetic Relay study combines semantic color roles with scoped theme changes and locale-dependent number/date presentation. The same immutable `R-1048` revision 7 fixture remains visible; controls do not call a model API, persist data or imply acceptance. It uses browser-native controls and Intl, not an imported component system, icon or font.
+
+Observed in existing Chrome on Windows at 1200px and 420px widths: locale selections `en-US`, `de-DE`, `ar-EG` produced different displayed numbers/dates while the model JSON stayed byte-identical; light/dark roles updated; horizontal document overflow was absent in the four tested profiles. Keyboard Enter opened the source-binding disclosure with `aria-expanded=true`. The integrator personally inspected the German narrow, German dark and Arabic dark PNGs. English labels remain English; the Arabic profile demonstrates formatting/direction scope rather than completed translation. Screen-reader behavior, forced colors, all locales, text-zoom, other engines and actual native desktop bindings remain untested.
+
+The retained PNGs are actual browser exports, not image generation or model critique. This is a designed example of candidate domain knowledge, not an observed baseline-versus-candidate performance result. No superiority or future-model claim is made. Sources that motivated the optional guidance are recorded in the study reports; no upstream art, code or font was copied into this fixture.
+
+## Diagram questions
+
+[diagram.svg](diagram.svg) and its [inspected PNG](diagram-reviewed.png) show two authored questions about the same synthetic subject. The lifecycle retains a return cycle and its guard; the sequence retains a request identity and a matching acknowledgement. The sequence intentionally omits failure, retry and competing edits. These are static authored specifications with no native model/API binding or executed transition. The integrator inspected the actual Sharp 0.35.5 export and moved the approval label onto its transition after finding the initial label placement ambiguous. [Source/output identity and renderer evidence](diagram-evidence.json) bind the final export. System fallback font metrics are environment-dependent.

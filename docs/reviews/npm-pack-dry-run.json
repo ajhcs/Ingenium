@@ -1,0 +1,1976 @@
+[
+  {
+    "id": "@ajhcs/ingenium@0.1.0",
+    "name": "@ajhcs/ingenium",
+    "version": "0.1.0",
+    "size": 11501671,
+    "unpackedSize": 26962738,
+    "shasum": "b6042129286b4884df8909548a86ff4f6b89f1f3",
+    "integrity": "sha512-rnNDdUV51KkZWZCahnQKt+6URnepjJSM8Bbun5U7G3g56TtGsxNqVku1DLkbNClh5u7uLkYnWAFYURJmzwyVUg==",
+    "filename": "ajhcs-ingenium-0.1.0.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 1079,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 13901,
+        "mode": 420
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "size": 9079,
+        "mode": 420
+      },
+      {
+        "path": "THIRD_PARTY.json",
+        "size": 15453,
+        "mode": 420
+      },
+      {
+        "path": "bin/ingenium.mjs",
+        "size": 13976,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/cover-comparison.png",
+        "size": 209140,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/cover-without.png",
+        "size": 411512,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/identity-comparison.png",
+        "size": 176064,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/identity-without.png",
+        "size": 109886,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/manifest.json",
+        "size": 4210,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/wayfinding-comparison.png",
+        "size": 257655,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/wayfinding-sheet-without.png",
+        "size": 92835,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/wayfinding-with.png",
+        "size": 55306,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/wayfinding-without.png",
+        "size": 81797,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/website-comparison.png",
+        "size": 182320,
+        "mode": 420
+      },
+      {
+        "path": "docs/assets/comparisons/website-without.png",
+        "size": 129029,
+        "mode": 420
+      },
+      {
+        "path": "docs/contracts.md",
+        "size": 20245,
+        "mode": 420
+      },
+      {
+        "path": "docs/fresh-v3-pilot.md",
+        "size": 6931,
+        "mode": 420
+      },
+      {
+        "path": "docs/fresh-v4-pilot.md",
+        "size": 5897,
+        "mode": 420
+      },
+      {
+        "path": "docs/fresh-v5-pilot.md",
+        "size": 7700,
+        "mode": 420
+      },
+      {
+        "path": "docs/github-pages.md",
+        "size": 2694,
+        "mode": 420
+      },
+      {
+        "path": "docs/impeccable-review.md",
+        "size": 4130,
+        "mode": 420
+      },
+      {
+        "path": "docs/impeccable-validation.md",
+        "size": 5406,
+        "mode": 420
+      },
+      {
+        "path": "docs/install.md",
+        "size": 9079,
+        "mode": 420
+      },
+      {
+        "path": "docs/launch-copy.md",
+        "size": 2630,
+        "mode": 420
+      },
+      {
+        "path": "docs/method-design-proposal.md",
+        "size": 14038,
+        "mode": 420
+      },
+      {
+        "path": "docs/method-loading.json",
+        "size": 3462,
+        "mode": 420
+      },
+      {
+        "path": "docs/method-research.md",
+        "size": 5333,
+        "mode": 420
+      },
+      {
+        "path": "docs/method-studies-validation.md",
+        "size": 13998,
+        "mode": 420
+      },
+      {
+        "path": "docs/method-studies.md",
+        "size": 10842,
+        "mode": 420
+      },
+      {
+        "path": "docs/onboarding-validation.md",
+        "size": 6386,
+        "mode": 420
+      },
+      {
+        "path": "docs/progressive-collaboration-validation.md",
+        "size": 5742,
+        "mode": 420
+      },
+      {
+        "path": "docs/quickstart.md",
+        "size": 4094,
+        "mode": 420
+      },
+      {
+        "path": "docs/readme-comparisons.md",
+        "size": 5172,
+        "mode": 420
+      },
+      {
+        "path": "docs/resource-library-status.md",
+        "size": 3848,
+        "mode": 420
+      },
+      {
+        "path": "docs/source-synthesis-engineering-validation.json",
+        "size": 2428,
+        "mode": 420
+      },
+      {
+        "path": "docs/source-synthesis-engineering.md",
+        "size": 13864,
+        "mode": 420
+      },
+      {
+        "path": "docs/source-synthesis-openai-guidance.md",
+        "size": 1851,
+        "mode": 420
+      },
+      {
+        "path": "docs/source-synthesis-validation.md",
+        "size": 1547,
+        "mode": 420
+      },
+      {
+        "path": "docs/source-synthesis.md",
+        "size": 7466,
+        "mode": 420
+      },
+      {
+        "path": "docs/user-guide.md",
+        "size": 8815,
+        "mode": 420
+      },
+      {
+        "path": "docs/v3-release-validation.md",
+        "size": 4659,
+        "mode": 420
+      },
+      {
+        "path": "docs/validation.md",
+        "size": 20694,
+        "mode": 420
+      },
+      {
+        "path": "examples/assets/offline-study.mjs",
+        "size": 4391,
+        "mode": 420
+      },
+      {
+        "path": "examples/composition/listening-garden.mjs",
+        "size": 8947,
+        "mode": 420
+      },
+      {
+        "path": "examples/font-vector/boolean-source.json",
+        "size": 162,
+        "mode": 420
+      },
+      {
+        "path": "examples/font-vector/build-study.mjs",
+        "size": 3206,
+        "mode": 420
+      },
+      {
+        "path": "examples/font-vector/features.fea",
+        "size": 292,
+        "mode": 420
+      },
+      {
+        "path": "examples/font-vector/grid-patterns.json",
+        "size": 2307,
+        "mode": 420
+      },
+      {
+        "path": "examples/font-vector/repertoire.json",
+        "size": 708,
+        "mode": 420
+      },
+      {
+        "path": "examples/font-vector/vector-source.svg",
+        "size": 419,
+        "mode": 420
+      },
+      {
+        "path": "examples/foundation/build-study.mjs",
+        "size": 6452,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/contrast-report.json",
+        "size": 7642,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/fixture-options.json",
+        "size": 63,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/font-environment.json",
+        "size": 5360,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/previews/desktop-workflow.png",
+        "size": 124948,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/previews/element-collage.png",
+        "size": 110173,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/previews/empty-error.png",
+        "size": 92929,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/previews/fontplate.png",
+        "size": 129218,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/previews/palette-families.png",
+        "size": 112192,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/previews/render-manifest.json",
+        "size": 10803,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/previews/state-sequence.png",
+        "size": 105700,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/previews/structural-wireframe.png",
+        "size": 97858,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/previews/wireflow.png",
+        "size": 130435,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/README.md",
+        "size": 4871,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/manifest.json",
+        "size": 3355,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/README.md",
+        "size": 1655,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/realistic/desktop-workflow.png",
+        "size": 126445,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/realistic/desktop-workflow.svg",
+        "size": 8556,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/realistic/options.json",
+        "size": 83,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/realistic/wireflow.png",
+        "size": 132481,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/realistic/wireflow.svg",
+        "size": 12086,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/wide/desktop-workflow.png",
+        "size": 133700,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/wide/desktop-workflow.svg",
+        "size": 8576,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/wide/options.json",
+        "size": 87,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/wide/wireflow.png",
+        "size": 137980,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/regressions/title-width/wide/wireflow.svg",
+        "size": 12102,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/source/desktop-workflow.svg",
+        "size": 8387,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/source/element-collage.svg",
+        "size": 7912,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/source/empty-error.svg",
+        "size": 5126,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/source/fontplate.svg",
+        "size": 8319,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/source/manifest.json",
+        "size": 95465,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/source/palette-families.svg",
+        "size": 14424,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/source/state-sequence.svg",
+        "size": 8999,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/source/structural-wireframe.svg",
+        "size": 7068,
+        "mode": 420
+      },
+      {
+        "path": "examples/methods/source/wireflow.svg",
+        "size": 11943,
+        "mode": 420
+      },
+      {
+        "path": "examples/progression/01-initial-studies/README.md",
+        "size": 1169,
+        "mode": 420
+      },
+      {
+        "path": "examples/progression/02-four-case-20261017/README.md",
+        "size": 1614,
+        "mode": 420
+      },
+      {
+        "path": "examples/progression/03-retained-history/README.md",
+        "size": 1413,
+        "mode": 420
+      },
+      {
+        "path": "examples/progression/README.md",
+        "size": 853,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/baseline/autonomous.svg",
+        "size": 2776,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/baseline/direction-a.png",
+        "size": 28286,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/baseline/direction-a.svg",
+        "size": 1526,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/baseline/direction-b.png",
+        "size": 27859,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/baseline/direction-b.svg",
+        "size": 1361,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/baseline/lettering-a.svg",
+        "size": 1588,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/baseline/lettering-b.svg",
+        "size": 1607,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/baseline/narrow.svg",
+        "size": 1470,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/candidate/autonomous.png",
+        "size": 46938,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/candidate/autonomous.svg",
+        "size": 2817,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/candidate/lettering.png",
+        "size": 52987,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/candidate/lettering.svg",
+        "size": 3505,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/candidate/narrow.svg",
+        "size": 1470,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/candidate/palette.png",
+        "size": 83373,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/candidate/palette.svg",
+        "size": 4917,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/inputs/briefs.json",
+        "size": 1712,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/inputs/route.svg",
+        "size": 1470,
+        "mode": 420
+      },
+      {
+        "path": "examples/progressive-collaboration/README.md",
+        "size": 2948,
+        "mode": 420
+      },
+      {
+        "path": "examples/README.md",
+        "size": 1149,
+        "mode": 420
+      },
+      {
+        "path": "examples/records/poster.json",
+        "size": 1253,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/comparison/cover-v1.svg",
+        "size": 2468372,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/comparison/cover-v3.svg",
+        "size": 57700,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/comparison/FONT-NOTICES.txt",
+        "size": 3857,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/comparison/README.md",
+        "size": 520,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/cover/cover.svg",
+        "size": 57700,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/cover/resources/fraunces/font.css",
+        "size": 276,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/cover/resources/fraunces/font.woff2",
+        "size": 18096,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/cover/resources/fraunces/LICENSE.txt",
+        "size": 4504,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/cover/resources/inter/font.css",
+        "size": 273,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/cover/resources/inter/font.woff2",
+        "size": 23664,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/cover/resources/inter/LICENSE.txt",
+        "size": 4477,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fieldwork/app.js",
+        "size": 1146,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fieldwork/font-400/font.css",
+        "size": 273,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fieldwork/font-400/font.woff2",
+        "size": 23664,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fieldwork/font-400/LICENSE.txt",
+        "size": 4477,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fieldwork/font-600/font.css",
+        "size": 273,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fieldwork/font-600/font.woff2",
+        "size": 24452,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fieldwork/font-600/LICENSE.txt",
+        "size": 4477,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fieldwork/index.html",
+        "size": 3806,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fieldwork/styles.css",
+        "size": 7552,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/first-success/actual-cli.txt",
+        "size": 1743,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/first-success/clean.svg",
+        "size": 2213,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/first-success/guides.svg",
+        "size": 4621,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/first-success/layout.json",
+        "size": 3177,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/first-success/README.md",
+        "size": 1505,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fonts/DejaVuSans-Bold.ttf",
+        "size": 708920,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fonts/DejaVuSans.ttf",
+        "size": 759720,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fonts/DejaVuSerif.ttf",
+        "size": 380660,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/fonts/FONT-NOTICES.txt",
+        "size": 3857,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/identity-sheet.svg",
+        "size": 61293,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/mark-32.svg",
+        "size": 56321,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/mark-one-color.svg",
+        "size": 56315,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/open-studio-A3.svg",
+        "size": 58461,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/resources/fraunces/font.css",
+        "size": 276,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/resources/fraunces/font.woff2",
+        "size": 18096,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/resources/fraunces/LICENSE.txt",
+        "size": 4504,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/resources/inter/font.css",
+        "size": 273,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/resources/inter/font.woff2",
+        "size": 23664,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/resources/inter/LICENSE.txt",
+        "size": 4477,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/variant-01.svg",
+        "size": 56801,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/variant-02.svg",
+        "size": 56801,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/identity/variant-03.svg",
+        "size": 56801,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/LICENSE",
+        "size": 1100,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/manifest.json",
+        "size": 10112,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/README.md",
+        "size": 1714,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/resources/inter-500/font.css",
+        "size": 273,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/resources/inter-500/font.woff2",
+        "size": 24272,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/resources/inter-500/LICENSE.txt",
+        "size": 4477,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/resources/inter-600/font.css",
+        "size": 273,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/resources/inter-600/font.woff2",
+        "size": 24452,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/resources/inter-600/LICENSE.txt",
+        "size": 4477,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/resources/inter-700/font.css",
+        "size": 273,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/resources/inter-700/font.woff2",
+        "size": 24356,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/resources/inter-700/LICENSE.txt",
+        "size": 4477,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/sources/destination-cafe.svg",
+        "size": 98716,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/sources/destination-hall.svg",
+        "size": 98717,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/sources/destination-toilets.svg",
+        "size": 98712,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/sources/destination-workshop.svg",
+        "size": 98685,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/sources/east-direction.svg",
+        "size": 99570,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/sources/lobby-directory.svg",
+        "size": 102958,
+        "mode": 420
+      },
+      {
+        "path": "examples/release/wayfinding/sources/west-direction.svg",
+        "size": 99507,
+        "mode": 420
+      },
+      {
+        "path": "examples/review/fixture.json",
+        "size": 1654,
+        "mode": 420
+      },
+      {
+        "path": "examples/review/index.html",
+        "size": 8736,
+        "mode": 420
+      },
+      {
+        "path": "examples/review/method-cases.json",
+        "size": 2393,
+        "mode": 420
+      },
+      {
+        "path": "examples/review/previews/after.png",
+        "size": 114912,
+        "mode": 420
+      },
+      {
+        "path": "examples/review/previews/before.png",
+        "size": 111588,
+        "mode": 420
+      },
+      {
+        "path": "examples/review/previews/render-manifest.json",
+        "size": 2637,
+        "mode": 420
+      },
+      {
+        "path": "examples/review/README.md",
+        "size": 2441,
+        "mode": 420
+      },
+      {
+        "path": "examples/review/source/after.svg",
+        "size": 5934,
+        "mode": 420
+      },
+      {
+        "path": "examples/review/source/before.svg",
+        "size": 5905,
+        "mode": 420
+      },
+      {
+        "path": "examples/review/source/manifest.json",
+        "size": 1208,
+        "mode": 420
+      },
+      {
+        "path": "examples/source-synthesis/ar-EG-dark-1200.png",
+        "size": 61031,
+        "mode": 420
+      },
+      {
+        "path": "examples/source-synthesis/de-DE-dark-1200.png",
+        "size": 61926,
+        "mode": 420
+      },
+      {
+        "path": "examples/source-synthesis/de-DE-light-420.png",
+        "size": 57495,
+        "mode": 420
+      },
+      {
+        "path": "examples/source-synthesis/diagram-evidence.json",
+        "size": 1260,
+        "mode": 420
+      },
+      {
+        "path": "examples/source-synthesis/diagram-reviewed.png",
+        "size": 112014,
+        "mode": 420
+      },
+      {
+        "path": "examples/source-synthesis/diagram.svg",
+        "size": 4933,
+        "mode": 420
+      },
+      {
+        "path": "examples/source-synthesis/en-US-light-1200.png",
+        "size": 62032,
+        "mode": 420
+      },
+      {
+        "path": "examples/source-synthesis/evidence.json",
+        "size": 2198,
+        "mode": 420
+      },
+      {
+        "path": "examples/source-synthesis/presentation.html",
+        "size": 4866,
+        "mode": 420
+      },
+      {
+        "path": "examples/source-synthesis/README.md",
+        "size": 2298,
+        "mode": 420
+      },
+      {
+        "path": "examples/svg/clipped-orbit.svg",
+        "size": 928,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/common-ground/build.mjs",
+        "size": 2972,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/fieldwork/build.mjs",
+        "size": 1101,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/fieldwork/index.html",
+        "size": 4921,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/fieldwork/script.js",
+        "size": 1360,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/fieldwork/style.css",
+        "size": 6379,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/fonts/DejaVuSans-Bold.ttf",
+        "size": 708920,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/fonts/DejaVuSans.ttf",
+        "size": 759720,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/fonts/DejaVuSerif.ttf",
+        "size": 380660,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/fonts/FONT-NOTICES.txt",
+        "size": 3857,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/fonts/manifest.json",
+        "size": 538,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/junction-house/build.mjs",
+        "size": 6005,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/manyfold/build.mjs",
+        "size": 5138,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/README.md",
+        "size": 3713,
+        "mode": 420
+      },
+      {
+        "path": "examples/worked/resources.mjs",
+        "size": 790,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 742,
+        "mode": 420
+      },
+      {
+        "path": "plugin.json",
+        "size": 446,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/LICENSE",
+        "size": 1079,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/LICENSE-IMPECCABLE",
+        "size": 10766,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/NOTICE-IMPECCABLE",
+        "size": 1111,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/assets.md",
+        "size": 10124,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/brand-download.md",
+        "size": 4524,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/bundled-resources.md",
+        "size": 5454,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/capabilities.md",
+        "size": 2073,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/catalog.md",
+        "size": 7160,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/checks.md",
+        "size": 8587,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/composition-concepts.md",
+        "size": 3654,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/composition.md",
+        "size": 5163,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/design-methods.md",
+        "size": 1977,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/diagram-meaning.md",
+        "size": 2982,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/domains.md",
+        "size": 1025,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/font-download.md",
+        "size": 4393,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/font-packs.md",
+        "size": 6435,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/fonts-catalog.md",
+        "size": 4886,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/fonts.md",
+        "size": 8425,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/interaction-sketches.md",
+        "size": 6220,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/item-preparation.md",
+        "size": 7150,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/items.md",
+        "size": 7095,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/local-assets.md",
+        "size": 3821,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/materials.md",
+        "size": 3419,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/methods/contract.md",
+        "size": 4491,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/methods/desktop-workflow.md",
+        "size": 1618,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/methods/element-collage.md",
+        "size": 1569,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/methods/empty-error.md",
+        "size": 1617,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/methods/fontplate.md",
+        "size": 2385,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/methods/palette-families.md",
+        "size": 1394,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/methods/state-sequence.md",
+        "size": 1901,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/methods/structural-wireframe.md",
+        "size": 1063,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/methods/wireflow.md",
+        "size": 1205,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/package-sources.md",
+        "size": 4323,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/palettes.md",
+        "size": 7621,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/presentation-context.md",
+        "size": 3370,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/record-contract.md",
+        "size": 6446,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/renderer-setup.md",
+        "size": 2750,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/resource-libraries.md",
+        "size": 3704,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/svg-packs.md",
+        "size": 1593,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/svg.md",
+        "size": 3789,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/textures.md",
+        "size": 3615,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/references/ui.md",
+        "size": 6929,
+        "mode": 420
+      },
+      {
+        "path": "skills/ingenium/SKILL.md",
+        "size": 5693,
+        "mode": 420
+      },
+      {
+        "path": "src/assets/cache.mjs",
+        "size": 4755,
+        "mode": 420
+      },
+      {
+        "path": "src/assets/index.mjs",
+        "size": 10378,
+        "mode": 420
+      },
+      {
+        "path": "src/assets/packages.mjs",
+        "size": 16814,
+        "mode": 420
+      },
+      {
+        "path": "src/assets/svg.mjs",
+        "size": 8678,
+        "mode": 420
+      },
+      {
+        "path": "src/assets/transport.mjs",
+        "size": 9025,
+        "mode": 420
+      },
+      {
+        "path": "src/browser/index.mjs",
+        "size": 16253,
+        "mode": 420
+      },
+      {
+        "path": "src/catalog/brand-download.mjs",
+        "size": 18247,
+        "mode": 420
+      },
+      {
+        "path": "src/catalog/font-download.mjs",
+        "size": 13714,
+        "mode": 420
+      },
+      {
+        "path": "src/catalog/font-packs.mjs",
+        "size": 11834,
+        "mode": 420
+      },
+      {
+        "path": "src/catalog/index.mjs",
+        "size": 16293,
+        "mode": 420
+      },
+      {
+        "path": "src/catalog/local-assets.mjs",
+        "size": 19482,
+        "mode": 420
+      },
+      {
+        "path": "src/catalog/svg-packs.mjs",
+        "size": 10990,
+        "mode": 420
+      },
+      {
+        "path": "src/checks/index.mjs",
+        "size": 10259,
+        "mode": 420
+      },
+      {
+        "path": "src/font-vector/index.mjs",
+        "size": 1909,
+        "mode": 420
+      },
+      {
+        "path": "src/items/index.mjs",
+        "size": 9934,
+        "mode": 420
+      },
+      {
+        "path": "src/layout/index.mjs",
+        "size": 16388,
+        "mode": 420
+      },
+      {
+        "path": "src/materials/index.mjs",
+        "size": 11582,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/index.mjs",
+        "size": 10881,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/amber-dark.css",
+        "size": 1022,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/amber.css",
+        "size": 1050,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/blue-dark.css",
+        "size": 1014,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/blue.css",
+        "size": 1038,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/gray-dark.css",
+        "size": 1028,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/gray.css",
+        "size": 1043,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/green-dark.css",
+        "size": 1047,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/green.css",
+        "size": 1063,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/LICENSE",
+        "size": 1062,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/provenance.json",
+        "size": 3768,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/red-dark.css",
+        "size": 995,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/red.css",
+        "size": 1020,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/slate-dark.css",
+        "size": 1048,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/slate.css",
+        "size": 1066,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/teal-dark.css",
+        "size": 1023,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/teal.css",
+        "size": 1040,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/violet-dark.css",
+        "size": 1069,
+        "mode": 420
+      },
+      {
+        "path": "src/palettes/source/violet.css",
+        "size": 1085,
+        "mode": 420
+      },
+      {
+        "path": "src/records/index.mjs",
+        "size": 9280,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/font-directory-notices/free-font-LICENSE",
+        "size": 1069,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/font-directory-notices/nerd-fonts-LICENSE",
+        "size": 6200,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/font-provider-index.json",
+        "size": 1185169,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/index.mjs",
+        "size": 5747,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/base/properties.css",
+        "size": 208,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/base/reset.css",
+        "size": 1386,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/base/rootcolor.css",
+        "size": 256,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/alert.css",
+        "size": 14829,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/avatar.css",
+        "size": 5925,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/badge.css",
+        "size": 14943,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/breadcrumbs.css",
+        "size": 5229,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/button.css",
+        "size": 45219,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/checkbox.css",
+        "size": 19809,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/collapse.css",
+        "size": 32979,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/divider.css",
+        "size": 10023,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/dropdown.css",
+        "size": 22813,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/fieldset.css",
+        "size": 3423,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/fileinput.css",
+        "size": 38157,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/input.css",
+        "size": 29115,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/kbd.css",
+        "size": 5925,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/link.css",
+        "size": 9717,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/loading.css",
+        "size": 12648,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/menu.css",
+        "size": 57483,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/progress.css",
+        "size": 11570,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/radio.css",
+        "size": 14062,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/range.css",
+        "size": 26583,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/select.css",
+        "size": 39699,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/skeleton.css",
+        "size": 970,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/stat.css",
+        "size": 8313,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/status.css",
+        "size": 9735,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/table.css",
+        "size": 14211,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/textarea.css",
+        "size": 20673,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/components/toggle.css",
+        "size": 25779,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/LICENSE",
+        "size": 1071,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/package.json",
+        "size": 2282,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/theme/dark.css",
+        "size": 1186,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/theme/light.css",
+        "size": 1156,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/daisyui/utilities/join.css",
+        "size": 10239,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/hack/hack-bold.woff2",
+        "size": 108008,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/hack/hack-regular.woff2",
+        "size": 106236,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/hack/LICENSE.md",
+        "size": 3744,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/hack/manifest.json",
+        "size": 1331,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/ionicons/icons.data",
+        "size": 754839,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/ionicons/LICENSE",
+        "size": 1099,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/ionicons/manifest.json",
+        "size": 343137,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/ionicons/selected/add-normalization.json",
+        "size": 545,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/ionicons/selected/add-original.svg",
+        "size": 221,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/ionicons/SOURCE.json",
+        "size": 580,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/lobe-icons/icons.data",
+        "size": 2410118,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/lobe-icons/LICENSE",
+        "size": 1064,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/lobe-icons/manifest.json",
+        "size": 225035,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/lobe-icons/selected/adobe-normalization.json",
+        "size": 699,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/lobe-icons/selected/adobe-original.svg",
+        "size": 279,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/minimal-icons/icons.data",
+        "size": 179515,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/minimal-icons/LICENSE",
+        "size": 1062,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/minimal-icons/manifest.json",
+        "size": 24304,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/minimal-icons/selected/ic-add-normalization.json",
+        "size": 586,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/minimal-icons/selected/ic-add-original.svg",
+        "size": 1261,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/open-props/gradients.min.css",
+        "size": 5580,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/open-props/LICENSE",
+        "size": 1068,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/open-props/package.json",
+        "size": 20957,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/remixicon-apache/icons.data",
+        "size": 1792618,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/remixicon-apache/License",
+        "size": 11357,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/remixicon-apache/manifest.json",
+        "size": 785927,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/remixicon-apache/SOURCE.json",
+        "size": 541,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/remixicon-current/License",
+        "size": 7198,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/remixicon-current/manifest.json",
+        "size": 570848,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/simple-icons/data/simple-icons.json",
+        "size": 456920,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/simple-icons/DISCLAIMER.md",
+        "size": 4607,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/simple-icons/download-index.json",
+        "size": 1303288,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/simple-icons/LICENSE.md",
+        "size": 6569,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/simple-icons/manifest.json",
+        "size": 973702,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/simple-icons/selected/activitypub-normalization.json",
+        "size": 538,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/simple-icons/selected/activitypub-original.svg",
+        "size": 302,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/simple-icons/selected/activitypub.svg",
+        "size": 291,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/tabler/icons.json",
+        "size": 2139981,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/tabler/info.json",
+        "size": 534,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/tabler/LICENSE.txt",
+        "size": 1073,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/tabler/metadata.json",
+        "size": 3,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/packs/tabler/package.json",
+        "size": 660,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/providers.json",
+        "size": 7887,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/stock-directory-LICENSE",
+        "size": 6556,
+        "mode": 420
+      },
+      {
+        "path": "src/resources/stock-directory.json",
+        "size": 52937,
+        "mode": 420
+      },
+      {
+        "path": "src/review/index.mjs",
+        "size": 10034,
+        "mode": 420
+      },
+      {
+        "path": "src/shapes/index.mjs",
+        "size": 4213,
+        "mode": 420
+      },
+      {
+        "path": "src/svg/index.js",
+        "size": 10304,
+        "mode": 420
+      },
+      {
+        "path": "src/textures/index.mjs",
+        "size": 12084,
+        "mode": 420
+      },
+      {
+        "path": "src/textures/license.mjs",
+        "size": 1123,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/atomic-catalog.json",
+        "size": 19891,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/atomic.mjs",
+        "size": 21177,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/index.mjs",
+        "size": 15146,
+        "mode": 420
+      },
+      {
+        "path": "tools/acquire-npm-package.py",
+        "size": 7360,
+        "mode": 420
+      },
+      {
+        "path": "tools/build-release-site.mjs",
+        "size": 2861,
+        "mode": 420
+      },
+      {
+        "path": "tools/build-skill-zip.py",
+        "size": 1451,
+        "mode": 420
+      },
+      {
+        "path": "tools/check-method-contrast.mjs",
+        "size": 2071,
+        "mode": 420
+      },
+      {
+        "path": "tools/font-vector/backend.py",
+        "size": 7788,
+        "mode": 420
+      },
+      {
+        "path": "tools/font-vector/fonts.py",
+        "size": 11401,
+        "mode": 420
+      },
+      {
+        "path": "tools/font-vector/requirements-linux-py312.lock",
+        "size": 1338,
+        "mode": 420
+      },
+      {
+        "path": "tools/font-vector/vectors.py",
+        "size": 9262,
+        "mode": 420
+      },
+      {
+        "path": "tools/generate-method-studies.mjs",
+        "size": 50486,
+        "mode": 420
+      },
+      {
+        "path": "tools/generate-review-example.mjs",
+        "size": 5283,
+        "mode": 420
+      },
+      {
+        "path": "tools/prepare-item-source.mjs",
+        "size": 9426,
+        "mode": 420
+      },
+      {
+        "path": "tools/probe-method-fonts.py",
+        "size": 8363,
+        "mode": 420
+      },
+      {
+        "path": "tools/render-method-studies.mjs",
+        "size": 2585,
+        "mode": 420
+      }
+    ],
+    "entryCount": 392,
+    "bundled": []
+  }
+]

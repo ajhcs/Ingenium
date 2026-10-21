@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-US" dir="ltr" data-appearance="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Record inspector · R-1048</title>
+<style>
+/* Editable visual roles. The warning owns its palette; all other regions inherit. */
+:root { color-scheme: light; --page:#edf1ee; --surface:#ffffff; --ink:#182d27; --muted:#50645c; --line:#c4d0c9; --accent:#205f49; --soft:#e8f0eb; }
+:root[data-appearance="dark"] { color-scheme:dark; --page:#111b18; --surface:#1b2a24; --ink:#edf4ee; --muted:#b2c5b8; --line:#4a6153; --accent:#a0d9b8; --soft:#283f32; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--page); color:var(--ink); font:16px/1.5 system-ui, sans-serif; }
+button,select { font:inherit; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:6px; min-height:44px; padding:8px 12px; }
+button { cursor:pointer; font-weight:600; }
+button:hover { background:var(--soft); }
+:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
+.frame { max-width:1160px; margin:0 auto; padding:40px 40px 32px; }
+.topline { display:flex; align-items:center; justify-content:space-between; gap:24px; padding-bottom:24px; border-bottom:1px solid var(--line); }
+.brand { font-size:14px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+.status { border:1px solid var(--line); padding:5px 12px; border-radius:99px; color:var(--muted); font-size:13px; }
+.toolbar { display:flex; flex-wrap:wrap; gap:16px; align-items:end; margin:28px 0 36px; }
+.control { display:grid; gap:6px; font-size:13px; font-weight:600; }
+.control select { min-width:190px; }
+.toolbar button { margin-inline-start:auto; }
+.record-head { display:flex; align-items:end; justify-content:space-between; flex-wrap:wrap; gap:16px; margin-bottom:24px; }
+.eyebrow { margin:0 0 4px; color:var(--muted); font-size:14px; }
+h1 { margin:0; font-size:42px; line-height:1.2; font-weight:650; letter-spacing:-.035em; }
+.revision { margin:0; color:var(--muted); }
+.sheet { background:var(--surface); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+.section-title { margin:0; padding:20px 28px; font-size:16px; font-weight:650; border-bottom:1px solid var(--line); }
+dl { margin:0; }
+.measurements { display:grid; grid-template-columns:1.1fr 1fr 1fr; }
+.field { padding:28px; min-width:0; }
+.field + .field { border-inline-start:1px solid var(--line); }
+dt { color:var(--muted); font-size:14px; margin-bottom:12px; }
+dd { margin:0; font-size:26px; font-weight:600; font-variant-numeric:tabular-nums; }
+.primary-value { font-size:38px; letter-spacing:-.025em; }
+.unit { font-size:18px; font-weight:400; color:var(--muted); }
+.warning { color-scheme:dark; --warning-bg:#30291d; --warning-ink:#fff2d5; --warning-muted:#e1cc9f; background:var(--warning-bg); color:var(--warning-ink); padding:24px 28px; display:flex; gap:16px; align-items:start; }
+.warning-mark { font-size:20px; width:28px; height:28px; text-align:center; border:1px solid var(--warning-muted); border-radius:50%; flex:none; line-height:26px; }
+.warning h2 { margin:0 0 4px; font-size:16px; }
+.warning p { margin:0; color:var(--warning-muted); max-width:70ch; font-size:14px; }
+.footnote { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px 24px; color:var(--muted); font-size:13px; margin-top:20px; }
+dialog { width:min(600px,calc(100% - 40px)); max-height:calc(100% - 40px); padding:28px; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:12px; }
+dialog::backdrop { background:rgb(0 0 0 / .6); }
+dialog h2 { font-size:24px; margin:0 0 16px; }
+dialog p { margin:0 0 16px; }
+dialog pre { overflow:auto; padding:16px; border:1px solid var(--line); border-radius:6px; background:var(--soft); font:13px/1.6 ui-monospace,monospace; direction:ltr; text-align:left; }
+dialog form { display:flex; justify-content:end; margin-top:24px; }
+@media(max-width:760px) { .frame { padding:24px 20px; } .measurements { grid-template-columns:1fr; } .field + .field { border-inline-start:0; border-top:1px solid var(--line); } .toolbar button { margin-inline-start:0; } .field { padding:22px; } .topline { align-items:start; } .brand { letter-spacing:.03em; } }
+</style>
+</head>
+<body>
+<div class="frame">
+  <header class="topline"><span class="brand" data-text="brand">Instrumentation / Inspector</span><span class="status" data-text="readonly">Read-only record</span></header>
+  <div class="toolbar" aria-label="Presentation" id="toolbar">
+    <label class="control"><span data-text="locale">Presentation locale</span><select id="locale"><option value="en-US">English · en-US</option><option value="de-DE">Deutsch · de-DE</option><option value="ar-EG" lang="ar">العربية · ar-EG</option></select></label>
+    <label class="control"><span data-text="appearance">Appearance</span><select id="appearance"><option value="light" data-text="light">Light</option><option value="dark" data-text="dark">Dark</option></select></label>
+    <button id="explain" type="button" aria-haspopup="dialog" data-text="explain">About this record</button>
+  </div>
+  <main>
+    <div class="record-head"><div><p class="eyebrow" data-text="subject">Subject ID</p><h1><bdi dir="ltr">R-1048</bdi></h1></div><p class="revision"><span data-text="revision">Revision</span> <bdi id="revision">7</bdi></p></div>
+    <section class="sheet" aria-labelledby="measure-title">
+      <h2 class="section-title" id="measure-title" data-text="measurements">Inspection record</h2>
+      <dl class="measurements">
+        <div class="field"><dt data-text="length">Length</dt><dd class="primary-value"><bdi id="length">1,234.5</bdi> <bdi class="unit" dir="ltr">mm</bdi></dd></div>
+        <div class="field"><dt data-text="date">Inspected on</dt><dd id="date">10/21/2026</dd></div>
+        <div class="field"><dt data-text="count">Count</dt><dd id="count">0</dd></div>
+      </dl>
+      <section class="warning" aria-labelledby="warning-title"><span class="warning-mark" aria-hidden="true">!</span><div><h2 id="warning-title"><span data-text="temperature">Temperature</span> <bdi dir="ltr">(°C)</bdi>: <span data-text="unknown">Unknown</span></h2><p data-text="warning">No temperature value is available in this record. Unknown is distinct from a measured zero.</p></div></section>
+    </section>
+    <footer class="footnote"><span data-text="synthetic">Synthetic record · Design proposal</span><span data-text="local">Presentation only · No saved changes</span></footer>
+  </main>
+</div>
+<dialog id="about" aria-labelledby="about-title" aria-describedby="about-description">
+  <h2 id="about-title" data-text="explain">About this record</h2>
+  <p id="about-description" data-text="description">Locale changes labels, numbers and the calendar date. The subject ID, revision and source values remain the same.</p>
+  <p data-text="policy">Length retains one decimal place in mm. The inspection date is a Gregorian calendar date, with no time or time-zone conversion. Count zero is a known value; temperature is unknown.</p>
+  <p data-text="source">Canonical record (read-only)</p><pre id="canonical" tabindex="0"></pre>
+  <p data-text="scope">The warning keeps its own dark appearance. This overlay inherits the selected appearance and reading direction. This proposal has no backend or persistence.</p>
+  <form method="dialog"><button data-text="close" autofocus>Close</button></form>
+</dialog>
+<script>
+'use strict';
+// One typed source. Presentation never writes into this record.
+const record = Object.freeze({subjectId:'R-1048',revision:7,lengthMm:1234.5,inspectedOn:'2026-10-21',temperatureC:null,count:0});
+const copy = {
+ 'en-US': {brand:'Instrumentation / Inspector',readonly:'Read-only record',locale:'Presentation locale',appearance:'Appearance',light:'Light',dark:'Dark',explain:'About this record',subject:'Subject ID',revision:'Revision',measurements:'Inspection record',length:'Length',date:'Inspected on',count:'Count',temperature:'Temperature',unknown:'Unknown',warning:'No temperature value is available in this record. Unknown is distinct from a measured zero.',synthetic:'Synthetic record · Design proposal',local:'Presentation only · No saved changes',description:'Locale changes labels, numbers and the calendar date. The subject ID, revision and source values remain the same.',policy:'Length retains one decimal place in mm. The inspection date is a Gregorian calendar date, with no time or time-zone conversion. Count zero is a known value; temperature is unknown.',source:'Canonical record (read-only)',scope:'The warning keeps its own dark appearance. This overlay inherits the selected appearance and reading direction. This proposal has no backend or persistence.',close:'Close'},
+ 'de-DE': {brand:'Messtechnik / Inspektor',readonly:'Schreibgeschützter Datensatz',locale:'Gebietsschema',appearance:'Darstellung',light:'Hell',dark:'Dunkel',explain:'Über diesen Datensatz',subject:'Objekt-ID',revision:'Revision',measurements:'Prüfdatensatz',length:'Länge',date:'Geprüft am',count:'Anzahl',temperature:'Temperatur',unknown:'Unbekannt',warning:'Für diesen Datensatz liegt kein Temperaturwert vor. Ein unbekannter Wert ist von einer gemessenen Null zu unterscheiden.',synthetic:'Synthetischer Datensatz · Designvorschlag',local:'Nur Darstellung · Keine Speicherung',description:'Das Gebietsschema ändert Beschriftungen, Zahlen und das Kalenderdatum. Objekt-ID, Revision und Quellwerte bleiben gleich.',policy:'Die Länge behält eine Nachkommastelle in mm. Das Prüfdatum ist ein gregorianisches Kalenderdatum ohne Uhrzeit oder Zeitzonenumrechnung. Die Anzahl Null ist bekannt; die Temperatur ist unbekannt.',source:'Kanonischer Datensatz (schreibgeschützt)',scope:'Der Warnbereich behält seine eigene dunkle Darstellung. Dieses Fenster übernimmt Darstellung und Leserichtung. Dieser Vorschlag hat kein Backend und speichert keine Daten.',close:'Schließen'},
+ 'ar-EG': {brand:'أجهزة القياس / المفتش',readonly:'سجل للقراءة فقط',locale:'الإعداد المحلي للعرض',appearance:'المظهر',light:'فاتح',dark:'داكن',explain:'حول هذا السجل',subject:'معرّف العنصر',revision:'المراجعة',measurements:'سجل الفحص',length:'الطول',date:'تاريخ الفحص',count:'العدد',temperature:'درجة الحرارة',unknown:'غير معروفة',warning:'لا تتوفر قيمة لدرجة الحرارة في هذا السجل. القيمة غير المعروفة تختلف عن الصفر المقاس.',synthetic:'سجل اصطناعي · مقترح تصميم',local:'عرض فقط · لا تُحفظ التغييرات',description:'يغيّر الإعداد المحلي التسميات والأرقام وتنسيق التاريخ. يظل معرّف العنصر والمراجعة والقيم الأصلية كما هي.',policy:'يحتفظ الطول بمنزلة عشرية واحدة بوحدة mm. تاريخ الفحص تاريخ ميلادي دون وقت أو تحويل للمنطقة الزمنية. العدد صفر قيمة معروفة؛ درجة الحرارة غير معروفة.',source:'السجل الأصلي (للقراءة فقط)',scope:'تحتفظ منطقة التنبيه بمظهرها الداكن. ترث هذه النافذة المظهر واتجاه القراءة المحددين. لا يتصل هذا المقترح بخادم ولا يحفظ البيانات.',close:'إغلاق'}
+};
+const localeSelect = document.querySelector('#locale');
+const appearanceSelect = document.querySelector('#appearance');
+const about = document.querySelector('#about');
+function render() {
+ const locale = localeSelect.value;
+ document.documentElement.lang = locale;
+ document.documentElement.dir = locale === 'ar-EG' ? 'rtl' : 'ltr';
+ document.documentElement.dataset.appearance = appearanceSelect.value;
+ const text = copy[locale];
+ document.querySelectorAll('[data-text]').forEach(el => el.textContent = text[el.dataset.text]);
+ document.querySelector('#toolbar').setAttribute('aria-label',text.locale+' / '+text.appearance);
+ document.title = text.measurements+' · '+record.subjectId;
+ const integer = new Intl.NumberFormat(locale,{maximumFractionDigits:0});
+ document.querySelector('#revision').textContent = integer.format(record.revision);
+ document.querySelector('#count').textContent = integer.format(record.count);
+ document.querySelector('#length').textContent = new Intl.NumberFormat(locale,{minimumFractionDigits:1,maximumFractionDigits:1}).format(record.lengthMm);
+ const [year,month,day] = record.inspectedOn.split('-').map(Number);
+ document.querySelector('#date').textContent = new Intl.DateTimeFormat(locale,{calendar:'gregory',year:'numeric',month:'2-digit',day:'2-digit',timeZone:'UTC'}).format(new Date(Date.UTC(year,month-1,day)));
+}
+document.querySelector('#canonical').textContent = JSON.stringify(record,null,2);
+localeSelect.addEventListener('change',render);
+appearanceSelect.addEventListener('change',render);
+document.querySelector('#explain').addEventListener('click',()=>about.showModal());
+render();
+</script>
+</body>
+</html>
