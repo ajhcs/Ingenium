@@ -22,3 +22,5 @@ Designed examples and later candidate checks are recorded separately. No claim o
 - [Independent initial review](reviews/source-synthesis-review.md) found a P2 package research-link issue, now corrected to immutable hosted paths. [Separate follow-up review](reviews/source-synthesis-followup-review.md) found no actionable issue. Final integrated metadata and ZIP checks are recorded separately after applying the follow-up.
 
 Baseline floating-point and Windows URL-path test failures above remain unchanged. Installed-client discovery, full accessibility, actual media jobs, conversion fidelity, animation-interruption execution and native model integration are unqualified.
+
+[Final integrated manifest](source-synthesis-final-validation.json) records guidance/ZIP identities, package scope and hosted verification. Draft PR #8 was confirmed open; all 15 research-link occurrences resolve to ten files in the complete hosted immutable research tree. The initial push stopped at Git ownership validation before execution; the branch was then pushed from the verified owner-matched shared repository without changing trust settings or permissions.

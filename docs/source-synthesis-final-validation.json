@@ -75,5 +75,16 @@
     "Baseline exact-floating report and Windows URL-path failures retained",
     "skill-creator yaml dependency unavailable; existing frontmatter/link/bundle checks used",
     "No installed-client/full accessibility/native model/media job/conversion/animation behavior qualification"
-  ]
+  ],
+  "hostedVerification": {
+    "pullRequest": "https://github.com/ajhcs/Ingenium/pull/8",
+    "verifiedSnapshotHead": "9d6bef0c7282aed01061841ff137457fd73bd244",
+    "draft": true,
+    "state": "OPEN",
+    "researchCommit": "3fa813e03e788997097443ca0cef8fae0bf68c24",
+    "researchLinkOccurrences": 15,
+    "uniqueResearchTargets": 10,
+    "missingTargets": [],
+    "method": "Authenticated GitHub tree metadata read; complete nontruncated hosted tree; no credential or trust configuration changed"
+  }
 }
