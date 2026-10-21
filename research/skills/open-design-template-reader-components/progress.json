@@ -1,0 +1,110 @@
+{
+  "readBatches": [
+    "batch-01.txt",
+    "batch-02.txt",
+    "batch-03.txt",
+    "batch-04.txt",
+    "batch-05.txt",
+    "batch-06.txt",
+    "batch-07.txt",
+    "batch-08.txt",
+    "batch-09.txt",
+    "batch-10.txt"
+  ],
+  "reader": "components_team",
+  "method": "complete deduplicated block reading with exact ordered source reconstruction",
+  "notes": [
+    {
+      "batch": "batch-01.txt",
+      "findings": "Aster: provenance and functional source preserve; no fake backend or endorsements. Audio: provider typed IDs versus prose is domain-specific; paid generation forbidden here. Blog: template quotas/70-20-10 proportions rejected. Clinical: preserve actual atypical data; source also instructs generating missing medical values, rejected for real data. Contact-widget contradicts zero-network/offline with Google Fonts CSS; backend demo honest but no SDK install. Critique scores/radar recipe not evidence, reject arbitrary taste numbers."
+    },
+    {
+      "batch": "batch-02.txt",
+      "findings": "Critique: evidence/actionable keep-fix useful but arbitrary0-10/radar quotas rejected; source contradicts own self-review permission before delivery versus same-turn ban. Dashboard/dating instruct plausible metrics and chart numbers: synthetic only, never real facts. DCF preserves source-vs-assumption classification but fixed growth caps/rates out of scope. Digital guide/RTL logical CSS useful, type bans/quotas not universal. Docs visual-only copy affordance does not establish behavior. HTML email browser preview does not establish email-client compatibility."
+    },
+    {
+      "batch": "batch-03.txt",
+      "findings": "Runbook: copyable commands need source/authority; no infrastructure operations here. Finance-report instructs believable numbers; reject for actual financial reports. FlowAI functional CSV exports visible rows explicit scope, useful example conditional. GitHub dashboard distinguishes observed stats from unavailable historical deltas and source/provenance, supports evidence taxonomy; fixed layout/metric quotas rejected. Guizang preserves missing imagery uncertainty but fixed default lowest-failure claim untested; immutable direction, no custom colors, forced template and CDN/source overwrite recipes conflict Ingenium scoped choices."
+    },
+    {
+      "batch": "batch-04.txt",
+      "findings": "Guizang: source author claims5 iteration rounds but not independently evaluated; hard presets, forced rhythm, crop ratios, serif-only, no user-defined hex rejected. Class preflight is implementation lookup, not universal ritual. HTML-ppt: same document in iframe does not guarantee same viewport/font/rendering; CDN dependencies qualify offline. Presenter-only notes versus audience content useful existing support-record principle. Actual shared-state/navigation across windows not exercised; source claims remain specified. Mismatched theme/template catalog14vs15 evidence requires exact source counts; no install or upstream renderer run."
+    },
+    {
+      "batch": "batch-05.txt",
+      "findings": "Course/graphify/hermes/knowledge/obsidian are focused HTML-PPT entrypoints, frontmatter maps onboarding/product-case/BYOK/incident/enterprise-adoption respectively, full repeated authoring paragraphs checked rather than family assumed. Common concrete dependency: copying source templates out-of-tree breaks parent-relative shared CSS/runtime paths; explicit rebind or inline required, retain license. Domain lesson: package-relative dependency paths and actual delivered context need verification. No template identity/defaults, forced authoring sequence or BYOK setup adopted."
+    },
+    {
+      "batch": "batch-06.txt",
+      "findings": "Pitch/presenter/product-launch full alias recipes read with distinct fundraising/live-demo/team-rollout context, no claim these are independent workflow innovations. Taste-brutalist/editorial fixed typography/palette/archetypes/caps/aesthetic bans rejected globally. Useful conditional delivery invariant: no-script/print should retain requested content; runtime keyboard/wheel/touch/dots share one active state, tested separately. Terminal presentation labels/classification must not fabricate actual confidentiality or official system state."
+    },
+    {
+      "batch": "batch-07.txt",
+      "findings": "Safety-alert/weekly/self-review/pastel/8bit precise frontmatter+entire unique bodies reviewed; many master-recipes repeated only with paths/classes; no new independent workflows. Eight-bit begins Zhangzara common body requiring preserved identity/runtime and full MIT notice; appropriate only if user selected that exact template, conflicts independent composition when withheld."
+    },
+    {
+      "batch": "batch-08.txt",
+      "findings": "Read full content in three contiguous<=12000-character slices after stripping hash-wrapper metadata only. Biennale/blockframe/blue-professional/bold-poster/broadside/capsule/cartesian/cobalt/coral entire unique blocks read. Their prose best-for/avoid and user-business narrative frontmatter sometimes diverge; labels are source suggestions not empirical suitability. Same strict substrate/template preservation not universal. Explicit retained full MIT notice obligation supports selected-file review, not blanket third-party rights."
+    },
+    {
+      "batch": "batch-09.txt",
+      "findings": "Read three contiguous<=12000character slices. Creative-mode has runtime sibling assets copy/inline explicit; Daisy,tri-tone,grove,long-table,mat,monochrome,neo-grid fullfrontmatter/style/avoid/source blocks read. Frontmatter industry roles are persona prompts not proof of expertise; long-table economics metadata conflicts low-density hospitality best-for prose. Keep content/audience/delivery separate from a style identity; do not infer authority from aesthetic."
+    },
+    {
+      "batch": "batch-10.txt",
+      "findings": "Read three contiguous<=12000character slices. Peoples-platform,pin/paper,pink-script,playful,raw-grid,retro-Windows,zine,sakura completeunique blocks. Pin/paper additionally needs bothstyles+runtime relativepaths. Digitalpaper/riso/wood descriptions do not qualify physicalprint/substrate. Curated posters/stories show many domain labels yet share authoring body; no independent superiority evidence. Fixed keepfont/palette/layout applies only selected exacttemplate not globalIngenium."
+    }
+  ],
+  "coverageType": "complete body text via exact ordered block reconstruction; not holistic evaluation of every skill combination",
+  "transportChecks": [
+    {
+      "batch": "batch-01.txt",
+      "sourceChars": 44322,
+      "returnedChars": 44322,
+      "blockHeaders": 115,
+      "endMarkers": 115
+    },
+    {
+      "batch": "batch-02.txt",
+      "sourceChars": 40482,
+      "returnedChars": 40482,
+      "blockHeaders": 92,
+      "endMarkers": 92
+    },
+    {
+      "batch": "batch-03.txt",
+      "sourceChars": 39361,
+      "returnedChars": 39361,
+      "blockHeaders": 80,
+      "endMarkers": 80
+    },
+    {
+      "batch": "batch-04.txt",
+      "sourceChars": 37971,
+      "returnedChars": 37971,
+      "blockHeaders": 88,
+      "endMarkers": 88
+    },
+    {
+      "batch": "batch-05.txt",
+      "sourceChars": 29697,
+      "returnedChars": 29697,
+      "blockHeaders": 23,
+      "endMarkers": 23
+    },
+    {
+      "batch": "batch-06.txt",
+      "sourceChars": 32564,
+      "returnedChars": 32564,
+      "blockHeaders": 40,
+      "endMarkers": 40
+    },
+    {
+      "batch": "batch-07.txt",
+      "sourceChars": 32535,
+      "returnedChars": 32535,
+      "blockHeaders": 32,
+      "endMarkers": 32
+    }
+  ]
+}
