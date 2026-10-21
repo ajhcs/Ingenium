@@ -1,0 +1,73 @@
+{
+  "scope": "Markdown structure, local links and output identities only",
+  "candidateFiles": [
+    {
+      "path": "skills/ingenium/SKILL.md",
+      "bytes": 5693,
+      "sha256": "00de0c898971a70e622228a8e3edda0bffe60bbdf9c51e063cc123eaad30519c",
+      "words": 769,
+      "matchesCurrentIntegration": true
+    },
+    {
+      "path": "skills/ingenium/references/design-methods.md",
+      "bytes": 1977,
+      "sha256": "0fca91fcfda5db8c5f62e87403671ea1c0b4b2d6754d9441c6f0dbfc8792c2d3",
+      "words": 249,
+      "matchesCurrentIntegration": true
+    },
+    {
+      "path": "skills/ingenium/references/diagram-meaning.md",
+      "bytes": 2982,
+      "sha256": "b39b8a007a173c8683e6a94f1b22ab3c38c82060dd8f58cf155d22a56488bebf",
+      "words": 394,
+      "matchesCurrentIntegration": true
+    },
+    {
+      "path": "skills/ingenium/references/presentation-context.md",
+      "bytes": 3370,
+      "sha256": "701025ea2866b8ba8e75e8038fcd86b3cfc561369e86b998899618b976b26ee9",
+      "words": 393,
+      "matchesCurrentIntegration": true
+    },
+    {
+      "path": "skills/ingenium/references/ui.md",
+      "bytes": 6929,
+      "sha256": "155b025a515b56198102cb0854df50e4224e4844a2bb86ff6fceeb7f5136896d",
+      "words": 816,
+      "matchesCurrentIntegration": true
+    },
+    {
+      "path": "skills/ingenium/references/methods/fontplate.md",
+      "bytes": 2385,
+      "sha256": "f34f3472b17753ad6d4b127127e9f09279788de9073291ad356e05e7d8253c40",
+      "words": 327,
+      "matchesCurrentIntegration": true
+    }
+  ],
+  "allNonempty": true,
+  "localLinksChecked": 34,
+  "brokenLocalLinks": [],
+  "frontmatterNameDescription": true,
+  "studyMethodRows": 8,
+  "selectedSourcePaths": [
+    {
+      "path": "upstream-skills/open-design/plugins/_official/atoms/token-map/SKILL.md",
+      "exists": true
+    },
+    {
+      "path": "upstream-skills/ui-ux-pro-max-skill/.claude/skills/design-system/references/token-architecture.md",
+      "exists": true
+    },
+    {
+      "path": "upstream-skills/ui-ux-pro-max-skill/.claude/skills/brand/references/update.md",
+      "exists": true
+    },
+    {
+      "path": "upstream-skills/ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/references/quick-reference.md",
+      "exists": true
+    }
+  ],
+  "runtimeTests": "not-run; no runtime interfaces changed",
+  "performanceEvaluation": "not-run",
+  "integration": "Root integrator copied candidate files; this lane only wrote astra-proposal"
+}

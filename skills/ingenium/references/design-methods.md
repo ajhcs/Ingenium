@@ -13,4 +13,6 @@ Use the smallest useful artifact. These methods are selectable, combinable and o
 | Which coordinated colors support the same roles? | [Palette families](methods/palette-families.md) |
 | Which type treatment supports identical reading content? | [Fontplate / type specimen](methods/fontplate.md) |
 
+For a diagram whose representation is still open, use [Diagram meaning](diagram-meaning.md) to distinguish relationships, messages, states, handoffs and service visibility.
+
 Keep representative content, settled choices and project editing policy. Identify static specification versus exercised prototype behavior. Native source/model obligations apply only when an authoritative binding is supplied; an original fixture remains a fixture. Deliver editable source and verified exports separately, with exact evidence and honest omissions. Rendering, deterministic checks and model critique do not establish taste, user acceptance, complete accessibility or engineering adequacy.

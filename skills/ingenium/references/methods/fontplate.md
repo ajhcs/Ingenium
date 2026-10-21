@@ -9,4 +9,6 @@ Use comparable real text at actual delivery sizes: headings, body, labels, numer
 
 Actually draw identical-copy fixed-metrics comparisons when comparing families. Include a realistic long label, numerals, 0O/1lI, units and relevant arrows/operators such as → ≤ Δ. Requested family and actual per-glyph rendered font are different evidence. If tuned-fit is omitted, say so; if included separately, show per-family metric deltas. A nominal match or small corpus does not establish all glyph coverage or family superiority.
 
+For terminal or icon-font use, include the actual symbol codepoints or ligature strings beside representative text. Inspect advance width, cell alignment, clipping and baseline in the intended renderer. Nerd Fonts' Mono, ordinary and Propo variants describe different spacing intentions; select for the usage context and verify it rather than treating the family suffix or an ASCII-only preview as proof.
+
 Use the [shared study contract](contract.md). Consequential interactions also use [connected sketches](../interaction-sketches.md).

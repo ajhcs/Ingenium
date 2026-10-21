@@ -2,6 +2,10 @@
 
 Choose a component for the current interaction; do not turn a component request into a page/template build. The main route has 26 Ingenium-authored recipes styled with pinned DaisyUI 5.7.50 CSS. A separate optional Bulma route retains six wrappers. Upstream CSS and notices remain exact; recipe categories, tags, markup and behavior are authored here.
 
+When replacing a web component's root or internal element, inspect the resulting DOM for the intended action semantics, accessible name, label/control and help/error associations, state attributes, and retained handlers and references. A visual substitution can change these relationships while looking identical. Placeholder text does not replace a persistent label. Exercise the affected keyboard and focus behavior in the actual exported composition.
+
+Where the delivery calls for it, inspect keyboard focus in forced-colors mode and in clipping or scrolling containers. Record unavailable conditions explicitly; a normal-theme screenshot or a solid-pair contrast result does not establish focus visibility there. For local theme or direction changes, use [Presentation contexts](presentation-context.md).
+
 ## Atomic recipes
 
 Open the installed source with `openResourceLibrary({id:'atomic-ui'})` from `src/resources/index.mjs`. For a separately supplied distribution, use `createAtomicUiLibrary({packageDir})` from `src/ui/atomic.mjs` (also exported by `src/ui/index.mjs`). Discovery needs no source probing; inspection/export verifies exact selected CSS and full MIT notice. The installed package bundles the selected CSS, not the whole distribution or upstream JavaScript/Tailwind runtime.

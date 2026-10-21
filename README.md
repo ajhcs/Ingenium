@@ -114,6 +114,19 @@ node --test tests/method-studies.test.mjs
 
 The renderer can use `--renderer-dir EXISTING_INSTALL`. The standalone guidance ZIP contains the method reference, without these helper scripts or example assets. [Invocation, artifact contracts and limits](docs/method-studies.md) · [Validation and provenance](docs/method-studies-validation.md) · [Long-title regression renders](examples/methods/regressions/title-width/README.md).
 
+## Selective source synthesis
+
+The optional guidance adds domain knowledge only when it applies. Existing eight methods and native model traceability remain in place. [Study scope, source pins, gap decisions and limitations](docs/source-synthesis.md).
+
+| Need | Support | Evidence boundary |
+| --- | --- | --- |
+| Related themes, locale or direction | [Presentation contexts](skills/ingenium/references/presentation-context.md): authoritative values, semantic roles, inherited scope and formatted projections | [Original exercised fixture](examples/source-synthesis/README.md); partial locale/direction demonstration, no native binding or complete accessibility claim |
+| Choose a diagram representation | [Diagram meaning](skills/ingenium/references/diagram-meaning.md): relationships, messages, lifecycle, handoffs, visibility or time | Original inspected static diagrams; no formal semantic engine or executed behavior |
+| Customize a web component | [UI guidance](skills/ingenium/references/ui.md): preserve semantic associations and inspect affected focus conditions | Guidance only; new compositions and forced-colors behavior need their own checks |
+| Terminal or icon-font specimen | [Fontplate](skills/ingenium/references/methods/fontplate.md): actual symbols, neighboring text and cell advance | Guidance only; no new fonts, global install or selected binary qualification |
+
+These are source-grounded hypotheses about useful guidance. They do not establish improved model performance or future-model compatibility.
+
 ## Define connected interactions before implementation
 
 For consequential interaction choices, use a small editable low-fidelity walkthrough grounded in relevant actual UI precedents. Expose choices, shared state, feedback and recovery; reconcile findings with requirements and model/data contracts, and review the first connected path before expanding. This is an iterative definition route, without a fixed layout or screen quota. See [Connected wireframes](skills/ingenium/references/interaction-sketches.md).

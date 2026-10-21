@@ -23,14 +23,20 @@ class GuidanceBundleTest(unittest.TestCase):
             with zipfile.ZipFile(archive) as source:
                 names = source.namelist()
                 self.assertTrue(all(name.startswith("ingenium/") for name in names))
-                self.assertTrue(all(name.endswith(".md") or name == "ingenium/LICENSE" for name in names))
+                notices = ("LICENSE", "LICENSE-IMPECCABLE", "NOTICE-IMPECCABLE")
+                allowed_notices = {"ingenium/" + name for name in notices}
+                self.assertTrue(allowed_notices.issubset(names))
+                self.assertTrue(all(name.endswith(".md") or name in allowed_notices for name in names))
                 source.extractall(directory / "consumer")
             skill = directory / "consumer/ingenium"
             self.assertEqual((skill / "SKILL.md").read_bytes(),
                              (ROOT / "skills/ingenium/SKILL.md").read_bytes())
             self.assertEqual((skill / "LICENSE").read_bytes(), (ROOT / "LICENSE").read_bytes())
+            for notice in notices:
+                self.assertEqual((skill / notice).read_bytes(),
+                                 (ROOT / "skills/ingenium" / notice).read_bytes())
             for document in skill.rglob("*.md"):
-                for target in re.findall(r"\]\(([^)]+)\)", document.read_text()):
+                for target in re.findall(r"\]\(([^)]+)\)", document.read_text(encoding="utf-8")):
                     if re.match(r"https?://|#", target):
                         continue
                     resolved = (document.parent / target.split("#")[0]).resolve()
