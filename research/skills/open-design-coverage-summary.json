@@ -1,0 +1,31 @@
+{
+  "source": "nexu-io/open-design",
+  "pin": "8d820a698908dc279ef3d5aeb4ce6d156211a499",
+  "paths": 549,
+  "unique_sha256": 461,
+  "completed": 549,
+  "remaining": 0,
+  "read_status_counts": [
+    {
+      "status": "complete-normalized-template-and-variable-fields-read",
+      "count": 85
+    },
+    {
+      "status": "full-body-read",
+      "count": 60
+    },
+    {
+      "status": "full-semantic-read",
+      "count": 24
+    },
+    {
+      "status": "read-complete-block-reconstruction",
+      "count": 302
+    },
+    {
+      "status": "read-full",
+      "count": 78
+    }
+  ],
+  "limits": "Exact body/text reading evidence only; references retain their separate statuses. Block reconstruction is not holistic per-skill evaluation. No upstream script execution, runtime validation, asset/license clearance or future-model superiority claim."
+}

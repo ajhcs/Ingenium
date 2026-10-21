@@ -15,8 +15,22 @@ if (Test-Path -LiteralPath $bPath) {
     $m.evidence = 'open-design-b-inventory.csv;open-design-b-review.md'
   }
 }
-# A302's completed reconstruction/read evidence is merged only after its owner
-# supplies the final inventory. Never infer semantic reading from file hashing.
+# A302 is merged only from the owner's completed reconstruction/read receipts.
+# Pending aggregation never promotes a file. Hashing alone is not reading.
+$aPath = Join-Path $PSScriptRoot 'open-design-template-reader-components/coverage.json'
+if (Test-Path -LiteralPath $aPath) {
+  $a = Get-Content -LiteralPath $aPath -Raw -Encoding utf8 | ConvertFrom-Json
+  if ($a.pin -cne '8d820a698908dc279ef3d5aeb4ce6d156211a499') {throw 'A source pin mismatch'}
+  if ($a.counts.assignedFiles -eq 302 -and $a.counts.completeFiles -eq 302 -and $a.counts.partialFiles -eq 0 -and $a.counts.readBatches -eq 40 -and $a.counts.readSemanticBlocks -eq $a.counts.semanticBlocks) {
+    foreach ($r in $a.files) {
+      $m = $ledger | Where-Object {$_.path -ceq $r.path}
+      if (@($m).Count -ne 1 -or $m.sha256 -cne $r.sha256 -or $r.read_status -cne 'read-complete-block-reconstruction' -or @($r.missingSemanticBlocks).Count -ne 0) {throw "A source/read evidence mismatch: $($r.path)"}
+      $m.read_status = $r.read_status
+      $m.reader = @($r.reader) -join ';'
+      $m.evidence = 'open-design-template-reader-components/coverage.json;block-manifest.json;completed batch reader receipts'
+    }
+  }
+}
 foreach ($m in $ledger) {
   $file = Join-Path $root $m.path
   $hash = (Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash.ToLowerInvariant()
@@ -31,4 +45,6 @@ $aliases = $ledger | Group-Object sha256 | ForEach-Object {
   }
 }
 $aliases | Export-Csv -NoTypeInformation -LiteralPath (Join-Path $PSScriptRoot 'open-design-byte-aliases.csv') -Encoding utf8
-[pscustomobject]@{paths=@($ledger).Count;unique_sha256=@($ledger | Group-Object sha256).Count;completed=@($ledger | Where-Object {$_.read_status -ne 'inventoried-not-read'}).Count;remaining=@($ledger | Where-Object {$_.read_status -eq 'inventoried-not-read'}).Count} | ConvertTo-Json
+$summary = [pscustomobject]@{source='nexu-io/open-design';pin='8d820a698908dc279ef3d5aeb4ce6d156211a499';paths=@($ledger).Count;unique_sha256=@($ledger | Group-Object sha256).Count;completed=@($ledger | Where-Object {$_.read_status -ne 'inventoried-not-read'}).Count;remaining=@($ledger | Where-Object {$_.read_status -eq 'inventoried-not-read'}).Count;read_status_counts=@($ledger | Group-Object read_status | ForEach-Object {[pscustomobject]@{status=$_.Name;count=$_.Count}});limits='Exact body/text reading evidence only; references retain their separate statuses. Block reconstruction is not holistic per-skill evaluation. No upstream script execution, runtime validation, asset/license clearance or future-model superiority claim.'}
+$summary | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $PSScriptRoot 'open-design-coverage-summary.json') -Encoding utf8
+$summary | ConvertTo-Json -Depth 5
