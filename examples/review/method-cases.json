@@ -1,0 +1,45 @@
+{
+  "scope": "Prospective recommendation comparisons only; no historical run or effectiveness claim.",
+  "cases": [
+    {
+      "method": "Structural wireframe",
+      "before": "Too many cards; remove two.",
+      "after": "Identify competing information for the selected task. Propose grouping while keeping required information and actions. Any user-impact claim stays tentative."
+    },
+    {
+      "method": "Wireflow",
+      "before": "Polish the labels but leave valid input leading directly to Saved.",
+      "after": "Name the misleading edge. Require a matching fresh acknowledgement, while keeping failure, retry and retained values."
+    },
+    {
+      "method": "Same-screen sequence",
+      "before": "Clear invalid input, add Apply All, or rewind revision identity on Undo.",
+      "after": "Retain raw input separately, preserve automatic valid updates, resolve active drafts before model Undo, and restore values through a new revision."
+    },
+    {
+      "method": "Desktop workflow",
+      "before": "Replace simultaneous panes with a wizard because fewer choices seem easier.",
+      "after": "Inspect the cross-pane task. Preserve free navigation, shared editing ownership and necessary comparison context; disclose the cost of any proposed disclosure."
+    },
+    {
+      "method": "Empty/error states",
+      "before": "Explain an unknown failure as a dropped connection.",
+      "after": "State the known failure, retained work and available next action. Keep independent regions available."
+    },
+    {
+      "method": "Element collage",
+      "before": "Vary words, type, color and shape, then call the shape superior.",
+      "after": "Label exploration honestly, or compare the requested factor on identical content. Keep preference open and inspect compatibility separately."
+    },
+    {
+      "method": "Palette families",
+      "before": "Pick the family with the highest average contrast.",
+      "after": "Check each applicable role pair and state. Preserve semantic roles and noncolor cues; distinguish focus from selection and leave taste open."
+    },
+    {
+      "method": "Fontplate",
+      "before": "Replace an established family because a detector calls it overused.",
+      "after": "Inspect actual reading content, roles, wrapping and glyph evidence. Preserve fixed metrics or disclose tuned changes; retain font-binding uncertainty."
+    }
+  ]
+}

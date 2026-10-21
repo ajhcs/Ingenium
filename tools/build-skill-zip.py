@@ -10,7 +10,8 @@ def build(destination):
     files = [(skill / "SKILL.md", "ingenium/SKILL.md")]
     files.extend((source, "ingenium/" + source.relative_to(skill).as_posix())
                  for source in sorted((skill / "references").rglob("*.md")))
-    files.append((skill / "LICENSE", "ingenium/LICENSE"))
+    for notice in ("LICENSE", "LICENSE-IMPECCABLE", "NOTICE-IMPECCABLE"):
+        files.append((skill / notice, "ingenium/" + notice))
     # Read before creating the output. No private files, helpers or dependencies.
     contents = [(name, source.read_bytes()) for source, name in files]
     with zipfile.ZipFile(destination, "x", compression=zipfile.ZIP_DEFLATED) as archive:

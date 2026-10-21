@@ -149,6 +149,15 @@
       "copyright": "Copyright (c) 2021 Adam Argyle",
       "distribution": "Not vendored; explicit local pinned data package required; selected export retains full exact package notice",
       "qualification": "Three pinned declarations; authored presentation separate; inline SVG noise is renderer-only and outside static-icon admission"
+    },
+    {
+      "name": "Impeccable selected review practices",
+      "version": "e3083ac3301e4d10517dd6cb58ab645bc2cb6e1b",
+      "source": "https://github.com/pbakaus/impeccable",
+      "license": "Apache-2.0",
+      "use": "Modified critique/polish review paragraph only; no runtime or typography/native-platform adaptation",
+      "distribution": "skills/ingenium/references/methods/contract.md with LICENSE-IMPECCABLE and NOTICE-IMPECCABLE",
+      "qualification": "Source inspection; no upstream execution or general effectiveness claim"
     }
   ],
   "guidance": [

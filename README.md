@@ -89,6 +89,8 @@ Invoke `$ingenium`, `/ingenium`, or “Use Ingenium” in your client, then ask 
 | Palette families | The same semantic roles and applied content across color families | [Color comparison](examples/methods/source/palette-families.svg) | Declared opaque pairs measured; live focus, hover and dark mode untested. |
 | Fontplate / type specimen | Actual text, role sizes, density, numbers and character distinctions | [Type roles](examples/methods/source/fontplate.svg) | Static type comparison; system fallback and per-glyph face identity unresolved. |
 
+For critique or refinement, tie each recommendation to task evidence and the choices it preserves. [Selected Impeccable adaptation](docs/impeccable-review.md) · [Controlled before/after example](examples/review/README.md).
+
 The original **Relay** studies below use a fictional repair-team workspace. Ingenium's existing paper, green and acid-yellow editorial framing surrounds an illustrative Relay palette; the product styling is a scoped example choice. Each is editable SVG with a separate PNG preview. Click a preview to inspect the full 1200 × 800 render.
 
 | Structure and route | State and workspace |

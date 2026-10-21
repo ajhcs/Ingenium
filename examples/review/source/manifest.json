@@ -1,0 +1,38 @@
+{
+  "schema": "ingenium-review-example/1",
+  "authorship": "Original synthetic Ingenium fixture; MIT",
+  "comparison": "Error-copy-only prospective case; no claim previous Relay study contained this defect.",
+  "changed": [
+    "error message",
+    "editorial variant title and accessible description"
+  ],
+  "held": [
+    "all fixture values and policies",
+    "pane geometry",
+    "selection",
+    "working and durable revisions",
+    "request freshness",
+    "invalid draft retention",
+    "automatic update policy",
+    "Undo new revision",
+    "editing ownership",
+    "independent note"
+  ],
+  "execution": "Static specification only; no product actions executed.",
+  "artifacts": [
+    {
+      "id": "before",
+      "file": "before.svg",
+      "bytes": 5905,
+      "sha256": "0bcfdbd0e29c3482858887fa4e796719fdf4993258df0d820073f0cc1c7f51d7",
+      "fixtureSha256": "0268285506e44d8fb0e823782f0c73609f391a8b3ee077dc319175e84de3617c"
+    },
+    {
+      "id": "after",
+      "file": "after.svg",
+      "bytes": 5934,
+      "sha256": "142a52e1b9085acada4d7d308ebf234732cb2760cf6caeac3725dfda670c4e8d",
+      "fixtureSha256": "0268285506e44d8fb0e823782f0c73609f391a8b3ee077dc319175e84de3617c"
+    }
+  ]
+}
