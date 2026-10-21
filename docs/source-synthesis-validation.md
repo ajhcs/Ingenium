@@ -12,3 +12,13 @@ Windows Node 24.13.0. Git's checkout line-ending conversion initially changed by
 - `tests/package.test.mjs` initially failed on CRLF frontmatter and Windows URL pathname handling in its malformed-record test. Neither failure demonstrates candidate behavior; Windows portability is outside this study's selected changes.
 
 Designed examples and later candidate checks are recorded separately. No claim of future-model compatibility, user acceptance, complete accessibility or installed-client qualification follows from these results.
+
+## Candidate and final integration
+
+- Required frontmatter/discovery and relative reference checks pass through the existing canonical-package test. The local skill-creator validator could not run because its Python environment lacks `yaml`; no installation was attempted.
+- The standalone guidance ZIP was rebuilt. Both bundle tests pass, including deterministic output, relative link resolution, and exact preservation of the main license plus Impeccable license/notice. The test previously rejected those PR7 notices; the corrected allowlist now verifies all three byte for byte and reads Markdown as UTF-8.
+- The original theme/locale fixture was actually rendered and exercised in the existing browser; source record preservation, formatting, narrow overflow and keyboard disclosure were observed. The original diagram was rendered with existing Sharp 0.35.5 and inspected, corrected and re-rendered. See example manifests for hashes and scope.
+- [One matched observed task](../examples/source-synthesis/matched/README.md) used the same Sol model/setting/task for baseline and initial candidate. Both passed the tested mechanical conditions. The later optional design-evidence/delivery/interruption additions were separately reviewed, but were not performance-tested by this pair.
+- [Independent initial review](reviews/source-synthesis-review.md) found a P2 package research-link issue, now corrected to immutable hosted paths. [Separate follow-up review](reviews/source-synthesis-followup-review.md) found no actionable issue. Final integrated metadata and ZIP checks are recorded separately after applying the follow-up.
+
+Baseline floating-point and Windows URL-path test failures above remain unchanged. Installed-client discovery, full accessibility, actual media jobs, conversion fidelity, animation-interruption execution and native model integration are unqualified.

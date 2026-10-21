@@ -1,0 +1,79 @@
+{
+  "scope": "Final integrated guidance identity, links, method count, package surface and public path scan; no outcome-performance claim",
+  "baseline": "f70db6171196c2c4452bc53eb24e82ba7cad5d9c",
+  "files": [
+    {
+      "path": "skills/ingenium/SKILL.md",
+      "bytes": 5932,
+      "sha256": "a28619c00db0c508dbaeb3d5b3091ba6d12ba227b75ba308748897c228efa43f"
+    },
+    {
+      "path": "skills/ingenium/references/design-methods.md",
+      "bytes": 1977,
+      "sha256": "0fca91fcfda5db8c5f62e87403671ea1c0b4b2d6754d9441c6f0dbfc8792c2d3"
+    },
+    {
+      "path": "skills/ingenium/references/presentation-context.md",
+      "bytes": 3370,
+      "sha256": "701025ea2866b8ba8e75e8038fcd86b3cfc561369e86b998899618b976b26ee9"
+    },
+    {
+      "path": "skills/ingenium/references/diagram-meaning.md",
+      "bytes": 2982,
+      "sha256": "b39b8a007a173c8683e6a94f1b22ab3c38c82060dd8f58cf155d22a56488bebf"
+    },
+    {
+      "path": "skills/ingenium/references/design-evidence.md",
+      "bytes": 2414,
+      "sha256": "b0dd1a7f8a6f4a744125fc6543087b56884fb8c1972b59ed89cb3c51a3d38cf5"
+    },
+    {
+      "path": "skills/ingenium/references/delivery-context.md",
+      "bytes": 3107,
+      "sha256": "90bee15b04731b8ed6a63122c4e5454e55963ce114a02fb23a313f75f5d7a453"
+    },
+    {
+      "path": "skills/ingenium/references/interaction-sketches.md",
+      "bytes": 6823,
+      "sha256": "2d9595216bc4968e98810eb81d94d5c213a347d2f2f54162dae705891af41b36"
+    },
+    {
+      "path": "skills/ingenium/references/ui.md",
+      "bytes": 6929,
+      "sha256": "155b025a515b56198102cb0854df50e4224e4844a2bb86ff6fceeb7f5136896d"
+    },
+    {
+      "path": "skills/ingenium/references/methods/fontplate.md",
+      "bytes": 2385,
+      "sha256": "f34f3472b17753ad6d4b127127e9f09279788de9073291ad356e05e7d8253c40"
+    }
+  ],
+  "relativeGuidanceLinks": 90,
+  "brokenRelativeGuidanceLinks": [],
+  "methods": 8,
+  "openDesignSkillPaths": 549,
+  "openDesignReadStatuses": [
+    "read-full",
+    "read-complete-block-reconstruction",
+    "full-body-read",
+    "complete-normalized-template-and-variable-fields-read",
+    "full-semantic-read"
+  ],
+  "guidanceZip": {
+    "path": "site/assets/downloads/ingenium-skill.zip",
+    "bytes": 95138,
+    "sha256": "eedb700214f52c20cd2b585717cacc7a143acad359c96e130265675162eec1ae",
+    "entries": 45
+  },
+  "runtimeDiffEmpty": true,
+  "packageFiles": 411,
+  "researchPackaged": false,
+  "privateMachinePathMatches": [],
+  "pairedEvaluationScope": "Initial candidate134638d only; design-evidence/delivery/interruption additions not exercised by that pair",
+  "independentReview": "Initial P2 package links corrected; separate follow-up no actionable findings",
+  "limitations": [
+    "Baseline exact-floating report and Windows URL-path failures retained",
+    "skill-creator yaml dependency unavailable; existing frontmatter/link/bundle checks used",
+    "No installed-client/full accessibility/native model/media job/conversion/animation behavior qualification"
+  ]
+}

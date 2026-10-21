@@ -1,0 +1,11 @@
+{
+  "guidanceFiles": 6,
+  "localGuidanceLinks": 34,
+  "loadingResources": 13,
+  "sourcePaths": 549,
+  "distinctSourceHashes": 461,
+  "reconstructedTemplateFiles": 302,
+  "readBatches": 40,
+  "coveredSemanticBlocks": 2579,
+  "issues": []
+}
