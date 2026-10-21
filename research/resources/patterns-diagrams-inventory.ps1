@@ -1,4 +1,4 @@
-param([string]$Workspace = (Resolve-Path "$PSScriptRoot/../../..").Path)
+param([Parameter(Mandatory)][string]$SourceDirectory, [string]$RepositoryDirectory = (Resolve-Path "$PSScriptRoot/../..").Path)
 $ErrorActionPreference = 'Stop'
 $out = $PSScriptRoot
 $configs = @(
@@ -7,9 +7,12 @@ $configs = @(
 )
 $summary = @()
 $configs[1].full += @('docs/adr/0002-semantic-patterns-do-not-expand-the-taxonomy.md','docs/adr/0005-label-geometry-is-verified.md','skills/diagram-design/references/type-dependency.md','skills/diagram-design/references/type-tree.md','skills/diagram-design/references/type-swimlane.md','skills/diagram-design/references/type-flowchart.md')
+$configs[1].prose += @('skills/diagram-design/references/animation.md','skills/diagram-design/references/doctor.md','skills/diagram-design/references/output-spec.md')
+$diagramPartial = @('skills/diagram-design/references/import-drawio.md','skills/diagram-design/references/import-excalidraw.md','skills/diagram-design/references/onboarding.md','skills/diagram-design/references/profiles.md','skills/diagram-design/references/export.md','skills/diagram-design/references/primitive-icons.md')
 foreach ($config in $configs) {
-  $root = Join-Path $Workspace ('sources/'+$config.name)
+  $root = Join-Path $SourceDirectory $config.name
   $tree = git -C $root ls-tree -r $config.sha
+  if ($LASTEXITCODE -ne 0) { throw "Cannot enumerate pinned source tree: $($config.name)" }
   $rows = foreach ($line in $tree) {
     if ($line -notmatch '^\d+ blob ([0-9a-f]+)\t(.+)$') { throw "Unexpected tree entry: $line" }
     $oid=$Matches[1]; $path=$Matches[2]
@@ -25,6 +28,7 @@ foreach ($config in $configs) {
     elseif ($path -match '(?i)\.(png|jpg|jpeg|gif|webp|svg|woff2?|ttf|pdf)$') { $class='binary-or-visual-resource-not-reviewed' }
     if ($config.full -ccontains $path) { $status='read-full' }
     if ($config.prose -ccontains $path) { $status='read-prose-code-fences-omitted' }
+    if ($config.name -eq 'diagram-design' -and $diagramPartial -ccontains $path) { $status='selected-operational-prose-sections-read-code-and-data-omitted' }
     if ($config.name -eq 'java-design-patterns' -and $path -ceq 'README.md') { $status='read-introduction-through-license-before-contributors' }
     [pscustomobject]@{ repository=$config.name; commit=$config.sha; path=$path; gitBlobSHA1=$oid; classification=$class; readStatus=$status }
   }
@@ -33,9 +37,12 @@ foreach ($config in $configs) {
 }
 $summary | ConvertTo-Json | Set-Content -Encoding utf8 (Join-Path $out 'patterns-diagrams-summary.json')
 $summary | Format-Table
-$localRoot = Join-Path $Workspace 'team-resources'
+$localRoot = $RepositoryDirectory
 $localPaths = @('skills/ingenium/SKILL.md','skills/ingenium/references/domains.md','skills/ingenium/references/composition.md','skills/ingenium/references/interaction-sketches.md','skills/ingenium/references/design-methods.md','skills/ingenium/references/svg.md','skills/ingenium/references/checks.md','skills/ingenium/references/resource-libraries.md','skills/ingenium/references/methods/contract.md','skills/ingenium/references/methods/state-sequence.md')
 $localRows = foreach ($path in $localPaths) {
-  [pscustomobject]@{ repository='Ingenium'; commit='f70db6171196c2c4452bc53eb24e82ba7cad5d9c'; path=$path; gitBlobSHA1=(git -C $localRoot rev-parse ('f70db6171196c2c4452bc53eb24e82ba7cad5d9c:'+$path)); classification='baseline-comparison-guidance'; readStatus='read-full' }
+  $bytes = [System.IO.File]::ReadAllBytes((Join-Path $localRoot $path))
+  $header = [System.Text.Encoding]::UTF8.GetBytes("blob $($bytes.Length)`0")
+  $digest = [System.Convert]::ToHexString([System.Security.Cryptography.SHA1]::HashData([byte[]]($header + $bytes))).ToLowerInvariant()
+  [pscustomobject]@{ repository='Ingenium'; commit='f70db6171196c2c4452bc53eb24e82ba7cad5d9c'; path=$path; workingCopyBlobSHA1=$digest; classification='baseline-comparison-guidance'; readStatus='read-full' }
 }
 $localRows | Export-Csv -NoTypeInformation -Encoding utf8 (Join-Path $out 'patterns-diagrams-ingenium-comparison.csv')

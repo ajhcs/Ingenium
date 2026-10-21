@@ -1,0 +1,278 @@
+{
+  "repository": "bradtraversy/design-resources-for-developers",
+  "commit": "035bac33121d13f51983c2997ba7369abdce082c",
+  "sections": [
+    {
+      "heading": "Table of Contents",
+      "sha256": "1b2142f0af8efa4981017b241dc69d890055a986d9c803d018478cecb7dd2f29",
+      "lines": 37,
+      "catalogRows": 0,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "UI Graphics",
+      "sha256": "1ec3a5e7f7238dee74b931a65c24d6f9747ff1da71c65d7686dcd30347f95c62",
+      "lines": 59,
+      "catalogRows": 48,
+      "status": "close-read-directory-rows",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Fonts",
+      "sha256": "d7d1f2c38f57d8435395bcf4901981ae44b1cd9546d9340ec87479346789af24",
+      "lines": 59,
+      "catalogRows": 48,
+      "status": "close-read-directory-rows",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Colors",
+      "sha256": "f3155febd9da465e06ac3f1d340bcb51069b8b4d77c5239b67989c9abe294ee9",
+      "lines": 99,
+      "catalogRows": 89,
+      "status": "close-read-directory-rows",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Icons",
+      "sha256": "1858bc773b22bcc036c53215841634c28c41d0fe73c50d83b16f73f47185f509",
+      "lines": 81,
+      "catalogRows": 70,
+      "status": "close-read-directory-rows",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Logos",
+      "sha256": "82a5d92b75bc54c27a9f2a448c3f02563756e702f949ee33a73855e3516f3385",
+      "lines": 25,
+      "catalogRows": 14,
+      "status": "close-read-directory-rows",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Favicons",
+      "sha256": "91f0ebb2b4c610df866fe5d5ad50bdc7ba70fa343dd532e546d09ddfc624f23f",
+      "lines": 24,
+      "catalogRows": 12,
+      "status": "close-read-directory-rows",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Icon Fonts",
+      "sha256": "3bb639bc03a6ae2328097c0463bc98b09a70bee071d3c0acfeff818d46a1bb48",
+      "lines": 34,
+      "catalogRows": 23,
+      "status": "close-read-directory-rows",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Stock Photos",
+      "sha256": "c63b211826f6c181043afd50da581f4ad23784e0432733209868d345490b08dd",
+      "lines": 52,
+      "catalogRows": 41,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Stock Videos",
+      "sha256": "04b04ddfa4026e543e35ad83e5fb9292c6ee18a3363483ce084587dc933ba63c",
+      "lines": 22,
+      "catalogRows": 11,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Stock Music & Sound Effects",
+      "sha256": "00c5a9a97108a8543de47b76b5872faa950fa625aa5fc08d3d01d2ce6e8422c4",
+      "lines": 25,
+      "catalogRows": 14,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Vectors & Clip Art",
+      "sha256": "72179fab0d2e9e326e63effa8396f78a50ce73f2a81dbae2c1b9ae36477b1fca",
+      "lines": 43,
+      "catalogRows": 32,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Product & Image Mockups",
+      "sha256": "cd91ef491623da75ef094b75a7fc0157afea3e49e30cc17d3b6859d52bc584b2",
+      "lines": 36,
+      "catalogRows": 25,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "HTML & CSS Templates",
+      "sha256": "8499e0b78edecdc3680d91e577505a49e3ff5b37790c72a9d975ac4e78e1566c",
+      "lines": 42,
+      "catalogRows": 32,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "CSS Frameworks",
+      "sha256": "90f87e83aa34565f6112735e68724679023f1a993a57c9453cecd08c0489aaea",
+      "lines": 76,
+      "catalogRows": 65,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "CSS Methodologies",
+      "sha256": "5eab75db56124122fb2ed42c9ad83ae0de85bcd2782645265f8b416715e52fe4",
+      "lines": 17,
+      "catalogRows": 6,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "CSS Animations",
+      "sha256": "e684a6c39d3fdd9acad30383b45e32a67e3a578ded86c16592f2c0518f73fef4",
+      "lines": 40,
+      "catalogRows": 29,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Javascript Animation Libraries",
+      "sha256": "ba2b4ced46fc83e9ecbcf9ba5cd9c51cd70f0b7bd71de24f38ef01b0a63f9585",
+      "lines": 48,
+      "catalogRows": 37,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Javascript Chart Libraries",
+      "sha256": "a7ab0123fa4949ee075692f1a5d9cb3b9c902a4bf3b7d511979b5c1c8fe1c6ea",
+      "lines": 26,
+      "catalogRows": 15,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "UI Components & Kits",
+      "sha256": "093e85fc0499d8e5d5f121db89f6925bae4ce0ca9f215eb3801f6e9d43326876",
+      "lines": 83,
+      "catalogRows": 70,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "React UI Libraries",
+      "sha256": "56b8442de9a843a6392a843384f379ffad4f9083dcdf291b3d60b77c97c288d3",
+      "lines": 92,
+      "catalogRows": 80,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Vue UI Libraries",
+      "sha256": "cbd0d2d073e2ae777d9ce2a317992c576c778aa5afbfb4eedfb71b60eed5e8a9",
+      "lines": 55,
+      "catalogRows": 44,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Angular UI Libraries",
+      "sha256": "6e2c12eea3b09a28b1bc50e98ecd5cb01e9f34450406a09818003ed65564dbcb",
+      "lines": 29,
+      "catalogRows": 19,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Svelte UI Libraries",
+      "sha256": "5214ab465632435a4263d89aa9ca7b373be1d1037b018d1b4d31e29bcbf89568",
+      "lines": 27,
+      "catalogRows": 15,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "React Native UI Libraries",
+      "sha256": "d48ce463b4891adbc036dffd3b3188a8529821565c4f7a3cd78a9ea5dd2e1c77",
+      "lines": 25,
+      "catalogRows": 14,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Design Systems & Style Guides",
+      "sha256": "3c0350e9e944caa79edd845b013be1275b9f3ba51793f49549b9611c28614573",
+      "lines": 56,
+      "catalogRows": 45,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Online Design Tools",
+      "sha256": "c33515697aa66bdcc949db09c5165e60128620fc28f1dec2e1f7b56fc6dfbd35",
+      "lines": 116,
+      "catalogRows": 105,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Downloadable Design Software",
+      "sha256": "8815e50eac16c6f911f425e53cbe865c6c79af1fe6f9e8ed129abe37e76b8854",
+      "lines": 30,
+      "catalogRows": 19,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Design Inspiration",
+      "sha256": "7e1547a5478fb0512dc617d6ede30c3602cc737033f6a3389a5d0bcd7706ca92",
+      "lines": 60,
+      "catalogRows": 49,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Image Compression",
+      "sha256": "964d7d3c2715f7281e4f24e0b99ca25bcdde2f8d444fb704604676772909d9b7",
+      "lines": 63,
+      "catalogRows": 52,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Chrome Extensions",
+      "sha256": "454a34a3107c9ea661733e81709117b25f383873814598ff7e35b05541b53e59",
+      "lines": 50,
+      "catalogRows": 39,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Firefox Extensions",
+      "sha256": "c6a1af5ba46c7dcfde85f6101606fcd65c3f1905978addf54b873243a7d3bae8",
+      "lines": 36,
+      "catalogRows": 25,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "AI Graphic Design Tools",
+      "sha256": "fd3cc279ccbf4350ed555d9b7a7d6550d792e1e6b929a73add7b299eb9ae31ca",
+      "lines": 18,
+      "catalogRows": 8,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    },
+    {
+      "heading": "Others",
+      "sha256": "dd4f6a78d29735472a812970f173c793e17ccb49f797900589759516286c5c69",
+      "lines": 97,
+      "catalogRows": 87,
+      "status": "heading-and-row-structured-scan",
+      "reason": "Directory leads are source metadata, not adopted resources"
+    }
+  ]
+}

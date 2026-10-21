@@ -1,0 +1,125 @@
+{
+  "baseline": "f70db6171196c2c4452bc53eb24e82ba7cad5d9c",
+  "hashScope": "gitBlobSHA1 identifies exact baseline object; workingCopySHA256 identifies inspected checkout bytes (may use CRLF)",
+  "files": [
+    {
+      "path": "skills/ingenium/SKILL.md",
+      "bytes": 5467,
+      "gitBlobSHA1": "f5eb78731486b45d3ac78b697259cf1d5f3d305a",
+      "workingCopySHA256": "1a03bd2cb8c1e38b6fd19d3e0385a16ea59094d39741d2d822964a37e77af24a",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "docs/resource-library-status.md",
+      "bytes": 3864,
+      "gitBlobSHA1": "7fd8cccd736a9865895854b216d23fa097ad42b5",
+      "workingCopySHA256": "1c3f34866cd23ecde8f69c81a187652bc18a01a4ddee66a0034107ab4db50e51",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/resource-libraries.md",
+      "bytes": 3733,
+      "gitBlobSHA1": "82db450df6711b376066a1da8209af0e1d83a687",
+      "workingCopySHA256": "af8741f810433dafef234b53b51c8c32a48b880c84c24a1920dc518d4a998e83",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/bundled-resources.md",
+      "bytes": 5511,
+      "gitBlobSHA1": "4fc149a907b08b8f78f2664acafeb10828475dae",
+      "workingCopySHA256": "d349ef9af30fa764d715d4803e3be25fd97b6193fdd0d7910823040c1a481bff",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/font-download.md",
+      "bytes": 4433,
+      "gitBlobSHA1": "01c92cabf9a49eb050011f727c69c76034057429",
+      "workingCopySHA256": "cfed2874c438a26b884a91248b2e426c4f19c891a778ac50411da4915dcdb336",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/font-packs.md",
+      "bytes": 6502,
+      "gitBlobSHA1": "5bec12c6eafdacb32b77c09b23551b270966dd64",
+      "workingCopySHA256": "55606ccc5a390feeb8cc44f3083bbd70785b485970630a748fc87a85fa9d1bc8",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/fonts-catalog.md",
+      "bytes": 4927,
+      "gitBlobSHA1": "134b5141dcfd457cef3082a9521b399782846ae1",
+      "workingCopySHA256": "ca7bcdd7b1e1b5eda57c0656c3a68b1fca609290e9a9f5c2a1ad61993ee12def",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/fonts.md",
+      "bytes": 8466,
+      "gitBlobSHA1": "6cd8c6e7ad1788774e7db27d41e003e2b994c487",
+      "workingCopySHA256": "05586ce1f5a2d688149186c7a320213fdf8ca6407fa99fa5b478cb8d358a5a6e",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/package-sources.md",
+      "bytes": 4368,
+      "gitBlobSHA1": "fb6eb41589ee311102c9b40cbf38cc0540e98040",
+      "workingCopySHA256": "43a6708ea68a6caaeee5e694261976be836313afa25299ef2d7b1df9fee1ca2e",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/catalog.md",
+      "bytes": 7222,
+      "gitBlobSHA1": "925720efcc7fd31086e11a28606e4c90f6609470",
+      "workingCopySHA256": "9dbee914b53d349a8c16a4fb77b94396bca0faf69e5c4d823ef0386ad00468a8",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/svg-packs.md",
+      "bytes": 1600,
+      "gitBlobSHA1": "4a4dcf3b2c9d7493a6d8de777fbe8e3352510638",
+      "workingCopySHA256": "7bd86179a5b9c36aa7185e61c54ebb24020dbfa069779223082c9065da0f9bb9",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/brand-download.md",
+      "bytes": 4568,
+      "gitBlobSHA1": "645e607e78b8ddf6a38bb0777dfe6f108a5626a9",
+      "workingCopySHA256": "6951bfc7b92e45c41b722ca14381c4025739cf657bf0f3ef6842af0d72661a36",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "skills/ingenium/references/checks.md",
+      "bytes": 8640,
+      "gitBlobSHA1": "aab90b7536aa5e6ac10f289812ab33f5add6e3e8",
+      "workingCopySHA256": "2bd9dd9ee24a1f232d97657336092c7a7b99d94b08e521947463375a9c7971be",
+      "readStatus": "selected-sections-read"
+    },
+    {
+      "path": "skills/ingenium/references/methods/fontplate.md",
+      "bytes": 1991,
+      "gitBlobSHA1": "40df03018c1539b941ddb06134ec6b878d03981c",
+      "workingCopySHA256": "d405cfacba9855cf47743a8bc75419258788e7609a539fdcde6efe6267935595",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "src/resources/index.mjs",
+      "bytes": 5747,
+      "gitBlobSHA1": "4f204ce51e86d80b19e5eb73ddabbf886e585e38",
+      "workingCopySHA256": "5fe800d3c060a5c2e4379b672af6e9949c2ab8954a4c9137a70ffb8ee600b6fc",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "src/resources/providers.json",
+      "bytes": 7887,
+      "gitBlobSHA1": "0d26834ff97d2312a45486ec13fc89bdd6be0588",
+      "workingCopySHA256": "93787bcce9a3522ec81f8510bd42cb6638a2315d722eff1c30d6e176a1d056e1",
+      "readStatus": "read-full"
+    },
+    {
+      "path": "src/catalog/font-download.mjs",
+      "bytes": 13835,
+      "gitBlobSHA1": "57864309c75f51dbf7356934fea7c6d82829ed23",
+      "workingCopySHA256": "8775d64367bcf155263947ea2641280df41108a930a73144043bd1b115ad0e25",
+      "readStatus": "selected-sections-read"
+    }
+  ]
+}
