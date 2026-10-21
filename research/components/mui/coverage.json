@@ -1,0 +1,21 @@
+{
+  "source": "https://github.com/mui/material-ui",
+  "pin": "2a8f217d7919d80d8760a7b63d6d97a70530deaf",
+  "defaultBranch": "master",
+  "commitTime": "2026-10-21T21:37:40Z",
+  "classification": "React component monorepo with seven actual skill entrypoints; four integration skills, canonical review skill plus Claude shim, and release skill",
+  "trackedFiles": 41537,
+  "skillEntrypoints": 7,
+  "skillSupportFiles": 30,
+  "relevantDomainDocuments": 183,
+  "inventoryRecords": 218,
+  "fullContentReviewed": 44,
+  "indexedOnly": 174,
+  "selectedDomainDocsReviewed": 9,
+  "linkEdges": 115,
+  "localLinksPresent": 84,
+  "localLinksMissing": 0,
+  "externalOrUnresolved": 31,
+  "sha256Basis": "exact working-tree bytes; gitBlob separately identifies immutable committed blob (checkout line endings can differ)",
+  "limits": "Checkpoint requested by team lead to free synthesis slot. All seven skills and all their colocated support files reviewed; material/system Markdown docs systematically indexed, only nine selected domain docs fully reviewed. No demos, UI behavior, implementation, browser, or accessibility conformance executed."
+}

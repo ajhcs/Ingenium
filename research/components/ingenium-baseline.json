@@ -1,0 +1,126 @@
+{
+  "commit": "f70db6171196c2c4452bc53eb24e82ba7cad5d9c",
+  "status": "source-comparison baseline, not installed-client behavior",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "ccdd4d8384b1974834e0b4e14f3527ea6800739ac423406b90c6cda7c59127cb",
+      "bytes": 764,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "docs/contracts.md",
+      "sha256": "2a07ade262e501b1985632c66c22ea7a03cd511cc6933487711ab34a4cb0c77e",
+      "bytes": 20335,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/SKILL.md",
+      "sha256": "1a03bd2cb8c1e38b6fd19d3e0385a16ea59094d39741d2d822964a37e77af24a",
+      "bytes": 5467,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/design-methods.md",
+      "sha256": "fc442093de2eefeccbac8dfa0f8dddbe7bcfc348b4215e034a60ba531ad527a3",
+      "bytes": 1819,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/interaction-sketches.md",
+      "sha256": "6b6291dfc5a037ba56d1a814e2fefe804191a1c7a2b222679e438e51141381b0",
+      "bytes": 6253,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/checks.md",
+      "sha256": "2bd9dd9ee24a1f232d97657336092c7a7b99d94b08e521947463375a9c7971be",
+      "bytes": 8640,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/ui.md",
+      "sha256": "490fb708607a3894965a35d094deed539f913a2893600348163cc4822b30ab64",
+      "bytes": 6177,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/resource-libraries.md",
+      "sha256": "af8741f810433dafef234b53b51c8c32a48b880c84c24a1920dc518d4a998e83",
+      "bytes": 3733,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/composition.md",
+      "sha256": "606619d823e436e361cc52b1cdcf49aa4bfab1889fedeae679d164ae01194258",
+      "bytes": 5195,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/domains.md",
+      "sha256": "4b50b2b36aefa2d6b67928f7520ae30bb63d87ad4b83f10d9adcb433aae2f185",
+      "bytes": 1034,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/record-contract.md",
+      "sha256": "0e7d84f0193e8324cde4bda70f274591e15377a11e78ab6e0b2e36c240961c19",
+      "bytes": 6511,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/methods/contract.md",
+      "sha256": "5326b2491fda93263ab6544e2d4c613ceccba056ef4801f274afc84692c48839",
+      "bytes": 4512,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/methods/desktop-workflow.md",
+      "sha256": "cc2dd685b02c6f3a2111389b40e52f461d55b56d901d8091ff3d5879ec60ec14",
+      "bytes": 1630,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/methods/element-collage.md",
+      "sha256": "f3f03e0637eb7b154e86fe26e7c9d761e35969f2922750906340fa9be34bf28e",
+      "bytes": 1581,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/methods/empty-error.md",
+      "sha256": "f3cab7db2d9e814aa77fa783e0003f96a6f88a02ca898fadcea115a0ec67c460",
+      "bytes": 1631,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/methods/fontplate.md",
+      "sha256": "d405cfacba9855cf47743a8bc75419258788e7609a539fdcde6efe6267935595",
+      "bytes": 1991,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/methods/palette-families.md",
+      "sha256": "303928979e9df51c9285c2511db49f558510426a62680639e7f519b9860d6c07",
+      "bytes": 1406,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/methods/state-sequence.md",
+      "sha256": "0293da4f9c5503e1a44bb35b3c7eecda1f71662b134a8ac5e2264946292649fe",
+      "bytes": 1913,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/methods/structural-wireframe.md",
+      "sha256": "0cfa0ca7770b9c0ceb3135b1f8a727b43f79b6eb4a2a5094a2cfcd96c86ce1fa",
+      "bytes": 1075,
+      "readStatus": "read-full-source-text"
+    },
+    {
+      "path": "skills/ingenium/references/methods/wireflow.md",
+      "sha256": "db940bdfca2211bdd460c5b5ba4b55a5802d425763f3aa642000642fcb3a0616",
+      "bytes": 1217,
+      "readStatus": "read-full-source-text"
+    }
+  ]
+}
