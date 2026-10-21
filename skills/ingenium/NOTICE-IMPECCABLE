@@ -1,0 +1,13 @@
+Selected review-practice adaptation from Impeccable
+Source: https://github.com/pbakaus/impeccable/tree/e3083ac3301e4d10517dd6cb58ab645bc2cb6e1b
+Copyright 2025-2026 Paul Bakaus
+
+Impeccable builds on Anthropic's original frontend-design skill.
+Original work: https://github.com/anthropics/skills/tree/main/skills/frontend-design
+Original license: Apache License 2.0
+Copyright 2025 Anthropic, PBC
+Relevant historical notice: https://github.com/pbakaus/impeccable/blob/5613891aa64f92ba2982338c0436b76d67bcdb8e/NOTICE.md
+
+Ingenium changes: selected critique/polish practices recomposed into the review paragraph in references/methods/contract.md. Automatic summaries are reconciled with task observations, preserved choices and authoritative source obligations; no score, fixed style or upstream runtime is adopted. Modified by ajhcs and contributors, 2026.
+
+The adapted review paragraph is distributed under Apache-2.0; see LICENSE-IMPECCABLE. Surrounding original Ingenium guidance remains MIT. No native-platform references or Typecraft typography additions are adapted in this change. No endorsement is implied.

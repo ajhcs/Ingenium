@@ -1,0 +1,71 @@
+{
+  "schema": "ingenium-review-fixture/1",
+  "acquisition": "original-synthetic",
+  "subject": {
+    "id": "order.R-1048",
+    "title": "Bench lamp",
+    "issue": "Switch moves freely; lamp stays off."
+  },
+  "selection": "order.R-1048",
+  "editing": {
+    "owner": "assignment-inspector",
+    "sharedSession": "assignment.R-1048",
+    "rawDraft": null,
+    "validUpdates": "automatic",
+    "invalidInput": {
+      "raw": "Mina?",
+      "version": 3,
+      "retained": true,
+      "workingUnchanged": {
+        "revision": 2,
+        "assignee": "Mina Patel"
+      }
+    },
+    "undo": {
+      "precondition": "resolve or discard active raw draft",
+      "valueFrom": 1,
+      "newRevision": 3,
+      "assignee": "Unassigned",
+      "inheritsReceipt": false
+    }
+  },
+  "working": {
+    "revision": 2,
+    "assignee": "Mina Patel"
+  },
+  "durable": {
+    "revision": 1,
+    "assignee": "Unassigned"
+  },
+  "request": {
+    "id": "save-q1",
+    "requestedRevision": 2,
+    "status": "failed",
+    "cause": "unknown",
+    "retry": "fresh save-q2; retained values",
+    "receiptAcceptance": "only matching fresh request and revision"
+  },
+  "independentNote": {
+    "owner": "note-session",
+    "raw": "Inspect switch housing before service.",
+    "retained": true
+  },
+  "presentation": {
+    "width": 1200,
+    "height": 800,
+    "panes": [
+      "queue",
+      "work-detail",
+      "assignment-inspector"
+    ],
+    "font": "sans-serif"
+  },
+  "claims": {
+    "editing": "specified-only",
+    "save": "specified-only",
+    "retry": "specified-only",
+    "undo": "specified-only",
+    "nativeBinding": "absent",
+    "acceptance": "not-established"
+  }
+}

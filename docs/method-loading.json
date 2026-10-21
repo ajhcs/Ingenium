@@ -14,8 +14,8 @@
     },
     {
       "path": "skills/ingenium/references/methods/contract.md",
-      "utf8Bytes": 3510,
-      "wordsWhitespaceSplit": 452
+      "utf8Bytes": 4491,
+      "wordsWhitespaceSplit": 574
     },
     {
       "path": "skills/ingenium/references/methods/desktop-workflow.md",
@@ -90,5 +90,5 @@
     "otherContext": "Agent memory registry search and helper code are excluded from guidance-only total; no total-context or token efficiency claim.",
     "result": "Editable original palette study generated, existing renderer exported, pixels inspected; only palette method leaf read, no wireflow or desktop leaf."
   },
-  "targetsAndLimits": "New router229/shared452/selected leaves144\u2013268 words satisfy proposed per-reference targets. Existing full SKILL740 words and legacy checks reference were preserved; no claim every proposed loading budget or model-performance improvement is achieved."
+  "targetsAndLimits": "Current router 229/shared 574/selected leaves 144-268 whitespace-separated words meet their local per-reference targets. Existing SKILL 740 words and legacy checks reference remain unchanged. The shared contract includes the selected Impeccable review adaptation. observedForwardCase is a historical exact-resource measurement; no new total-context, model-token, efficiency or effectiveness claim is made."
 }
