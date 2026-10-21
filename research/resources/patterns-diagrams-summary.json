@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "java-design-patterns",
+    "commit": "4cabb204f240240bea319605a5ffa46ded728001",
+    "trackedFiles": 3827,
+    "skillFiles": 0,
+    "references": 0,
+    "read": 13
+  },
+  {
+    "repository": "diagram-design",
+    "commit": "7a12007b5a4246894f342a2e52e78facbc62eca3",
+    "trackedFiles": 686,
+    "skillFiles": 1,
+    "references": 63,
+    "read": 18
+  }
+]
