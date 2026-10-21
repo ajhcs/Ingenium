@@ -4,13 +4,13 @@
   "resources": [
     {
       "path": "skills/ingenium/SKILL.md",
-      "utf8Bytes": 5432,
-      "wordsWhitespaceSplit": 740
+      "utf8Bytes": 5932,
+      "wordsWhitespaceSplit": 796
     },
     {
       "path": "skills/ingenium/references/design-methods.md",
-      "utf8Bytes": 1803,
-      "wordsWhitespaceSplit": 229
+      "utf8Bytes": 1977,
+      "wordsWhitespaceSplit": 249
     },
     {
       "path": "skills/ingenium/references/methods/contract.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "skills/ingenium/references/methods/fontplate.md",
-      "utf8Bytes": 1979,
-      "wordsWhitespaceSplit": 268
+      "utf8Bytes": 2385,
+      "wordsWhitespaceSplit": 327
     },
     {
       "path": "skills/ingenium/references/methods/palette-families.md",
@@ -90,5 +90,27 @@
     "otherContext": "Agent memory registry search and helper code are excluded from guidance-only total; no total-context or token efficiency claim.",
     "result": "Editable original palette study generated, existing renderer exported, pixels inspected; only palette method leaf read, no wireflow or desktop leaf."
   },
-  "targetsAndLimits": "Current router 229/shared 574/selected leaves 144-268 whitespace-separated words meet their local per-reference targets. Existing SKILL 740 words and legacy checks reference remain unchanged. The shared contract includes the selected Impeccable review adaptation. observedForwardCase is a historical exact-resource measurement; no new total-context, model-token, efficiency or effectiveness claim is made."
+  "targetsAndLimits": "Resource counts describe the source-synthesis candidate. They are measurements, not new per-reference quotas. observedForwardCase preserves its historical exact-resource measurement; no new total-context, model-token, efficiency or effectiveness claim is made.",
+  "conditionalReferences": [
+    {
+      "path": "skills/ingenium/references/presentation-context.md",
+      "utf8Bytes": 3370,
+      "wordsWhitespaceSplit": 393
+    },
+    {
+      "path": "skills/ingenium/references/diagram-meaning.md",
+      "utf8Bytes": 2982,
+      "wordsWhitespaceSplit": 394
+    },
+    {
+      "path": "skills/ingenium/references/design-evidence.md",
+      "utf8Bytes": 2414,
+      "wordsWhitespaceSplit": 279
+    },
+    {
+      "path": "skills/ingenium/references/delivery-context.md",
+      "utf8Bytes": 3107,
+      "wordsWhitespaceSplit": 350
+    }
+  ]
 }

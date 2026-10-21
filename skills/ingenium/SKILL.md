@@ -29,6 +29,8 @@ Read a reference only when its task applies:
 | Discover local helpers or export SVG to PNG | [Capabilities](references/capabilities.md) or [SVG](references/svg.md) |
 | Measure layout, contrast or owned local browser states | [Scoped checks](references/checks.md) |
 | Create an original font or perform supported vector operations | [Font/vector tools](references/fonts.md) |
+| Interpret research evidence or permitted design precedents | [Design evidence](references/design-evidence.md) |
+| Check generated media, converted exports or motion output | [Media and delivery context](references/delivery-context.md) |
 | Persist a machine-readable decision record | [Record contract](references/record-contract.md) |
 | Define or review consequential interactions through connected wireframes | [Connected wireframes](references/interaction-sketches.md) |
 | Choose a wireframe, wireflow, state sequence, desktop study, empty/error study, collage, palette family or type specimen | [Design methods](references/design-methods.md) |
