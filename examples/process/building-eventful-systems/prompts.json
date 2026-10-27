@@ -1,0 +1,15 @@
+{
+  "study": "building-eventful-systems",
+  "content": "Original fictional design study",
+  "recorded_asset_prompts": [
+    {
+      "kind": "recorded-image-generation-prompt",
+      "tool": "Built-in ImageGen",
+      "prompt": "Use case: illustration-story. Asset type: original engraving-style natural-history bird illustration for a technical book cover, illustration asset only. A tall grey heron standing in a shallow ripple of water, full elegant bird from crest to the complete long thin legs and toes, side profile facing right, anatomically plausible S-curved long neck and long straight pointed bill, calm attentive stance. Newly drawn in the tradition of an exceptionally fine copperplate natural-history engraving: thousands of delicate black ink hatch and cross-hatch marks, exquisite layered wing-feather detail, subtle stippled tonal transitions on the neck and breast, tiny precise eye, a few spare engraved water ripples beneath the feet. Primarily monochrome dark charcoal ink with restrained pale warm-grey shading. Genuine transparent background, crisp isolated silhouette, no rectangular paper sheet, no frame. Leave comfortable breathing room around the entire bird; do not crop feet, bill or crest. No labels, words, scientific captions, numbers, logos, signatures or watermark. Entirely original drawing, not a reproduction of an antique plate.",
+      "asset": "source/assets/eventful-heron-engraving.png",
+      "transparent_background": true
+    }
+  ],
+  "no_generation_note": null,
+  "stage_prompt_note": "The reusable briefs in the README were written later from the design sources. They are not transcripts of historical stage instructions."
+}

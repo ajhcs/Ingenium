@@ -1,0 +1,15 @@
+{
+  "study": "architectures-of-thought",
+  "content": "Original fictional design study",
+  "recorded_asset_prompts": [
+    {
+      "kind": "recorded-image-generation-prompt",
+      "tool": "Built-in ImageGen",
+      "prompt": "Use case: product-mockup. Asset type: original sculptural paper-mobile photograph cutout for the upper image field of an elegant technical book cover; photograph of an object only, no typography. Create a real hand-assembled balanced hanging mobile with a slender warm-brass central vertical suspension, one long delicately tilted horizontal brass rod, two shorter branch rods hung beneath it, and exactly four curved folded-paper leaf forms at the ends. Two leaves are matte oxblood/burgundy with pale rose folded facets, two are muted slate-blue with pale blue folded facets. Sophisticated minimalist kinetic sculpture, actual thin paper edges and delicate fibers, small visible brass connection loops, physically plausible joints and gravity, asymmetrical but balanced. Front three-quarter product photograph, the entire hanging sculpture including top wire and all four paper leaves fully in frame. Soft gallery daylight, beautiful soft highlights and subtle photographic grain, tactile physical paper, very high detail. Isolated on a genuine transparent background, no plinth, no room, no text, no logos, no book/cover mockup, no watermark.",
+      "asset": "source/assets/thought-paper-mobile.png",
+      "transparent_background": true
+    }
+  ],
+  "no_generation_note": null,
+  "stage_prompt_note": "The reusable briefs in the README were written later from the design sources. They are not transcripts of historical stage instructions."
+}

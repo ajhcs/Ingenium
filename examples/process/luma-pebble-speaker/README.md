@@ -2,7 +2,7 @@
 
 A two-dimensional product-hero concept for a fictional pebble speaker.
 
-[Back to the showcase](../../../README.md#nine-studies) · [Editable final](source/final-01.svg) · [Prompt record](prompts.json)
+[Back to the showcase](../../../README.md#thirteen-studies) · [Editable final](source/final-01.svg) · [Prompt record](prompts.json)
 
 ## Four views
 

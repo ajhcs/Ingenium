@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "study_id": "building-eventful-systems",
+  "title": "Building Eventful Systems",
+  "board": "assets-board.svg",
+  "pages": [
+    {
+      "source": "final-01.svg",
+      "label": "Cover",
+      "width": 1000,
+      "height": 1500,
+      "layers": [
+        {
+          "id": "ground",
+          "label": "Selected ground",
+          "category": "background",
+          "node_indices": [
+            0
+          ],
+          "asset": "asset-kit/page-01-ground.svg",
+          "description": "Selected ground, exported without changing its paint or geometry."
+        },
+        {
+          "id": "material-setting",
+          "label": "Native material setting",
+          "category": "artwork",
+          "node_indices": [
+            1
+          ],
+          "asset": "asset-kit/page-01-material-setting.svg",
+          "description": "The original replaceable image placement or authored native drawing, with coordinates and clipping preserved."
+        },
+        {
+          "id": "hero",
+          "label": "Original image or native motif",
+          "category": "artwork",
+          "node_indices": [
+            2
+          ],
+          "asset": "asset-kit/page-01-hero.svg",
+          "description": "The original replaceable image placement or authored native drawing, with coordinates and clipping preserved."
+        },
+        {
+          "id": "metadata",
+          "label": "Publication details",
+          "category": "detail",
+          "node_indices": [
+            3,
+            7
+          ],
+          "asset": "asset-kit/page-01-metadata.svg",
+          "description": "Publication metadata or construction guides in their original coordinates."
+        },
+        {
+          "id": "display-type",
+          "label": "Title and editorial typesetting",
+          "category": "typography",
+          "node_indices": [
+            4,
+            5,
+            6
+          ],
+          "asset": "asset-kit/page-01-display-type.svg",
+          "description": "Editable licensed live text or explicitly authored glyph paths; no new font file is claimed."
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "id": "component-ground",
+      "label": "Selected ground",
+      "kind": "background",
+      "path": "asset-kit/page-01-ground.svg",
+      "status": "used",
+      "description": "Selected ground, exported without changing its paint or geometry."
+    },
+    {
+      "id": "component-material-setting",
+      "label": "Native material setting",
+      "kind": "svg",
+      "path": "asset-kit/page-01-material-setting.svg",
+      "status": "used",
+      "description": "The original replaceable image placement or authored native drawing, with coordinates and clipping preserved."
+    },
+    {
+      "id": "component-hero",
+      "label": "Original image or native motif",
+      "kind": "svg",
+      "path": "asset-kit/page-01-hero.svg",
+      "status": "used",
+      "description": "The original replaceable image placement or authored native drawing, with coordinates and clipping preserved."
+    },
+    {
+      "id": "component-metadata",
+      "label": "Publication details",
+      "kind": "svg",
+      "path": "asset-kit/page-01-metadata.svg",
+      "status": "used",
+      "description": "Publication metadata or construction guides in their original coordinates."
+    },
+    {
+      "id": "component-display-type",
+      "label": "Title and editorial typesetting",
+      "kind": "type-treatment",
+      "path": "asset-kit/page-01-display-type.svg",
+      "status": "used",
+      "description": "Editable licensed live text or explicitly authored glyph paths; no new font file is claimed."
+    },
+    {
+      "id": "generated-artwork",
+      "label": "Original heron engraving",
+      "kind": "image",
+      "path": "assets/eventful-heron-engraving.png",
+      "status": "used",
+      "description": "Original ImageGen asset retained unchanged; exact prompt and generation provenance remain in assets/."
+    },
+    {
+      "id": "google-ibmplexsans-normal",
+      "label": "IBM Plex Sans / normal",
+      "kind": "font",
+      "path": "../../fonts/google-ibmplexsans-normal/font.ttf",
+      "status": "used",
+      "description": "Unchanged licensed font file. Notices: fonts/google-ibmplexsans-normal/notice-1-ibmplexsans-1.txt"
+    },
+    {
+      "id": "google-newsreader-normal",
+      "label": "Newsreader / normal",
+      "kind": "font",
+      "path": "../../fonts/google-newsreader-normal/font.ttf",
+      "status": "used",
+      "description": "Unchanged licensed font file. Notices: fonts/google-newsreader-normal/notice-1-newsreader-1.txt"
+    },
+    {
+      "id": "google-ibmplexmono-normal",
+      "label": "IBM Plex Mono / normal",
+      "kind": "font",
+      "path": "../../fonts/google-ibmplexmono-normal/font.ttf",
+      "status": "used",
+      "description": "Unchanged licensed font file. Notices: fonts/google-ibmplexmono-normal/notice-1-ibmplexmono-1.txt"
+    },
+    {
+      "id": "gradient-candidate",
+      "label": "Linen warmth",
+      "kind": "gradient",
+      "path": "asset-kit/background-gradient.svg",
+      "status": "candidate",
+      "description": "An optional authored SVG atmosphere/material candidate; separated from the used ground so the current selected composition remains intact."
+    },
+    {
+      "id": "palette",
+      "label": "Selected palette swatches",
+      "kind": "palette",
+      "path": "asset-kit/palette.svg",
+      "status": "used",
+      "description": "Editable native swatches extracted from selected vector/type paints plus complementary material colors."
+    },
+    {
+      "id": "type-specimen-selected",
+      "label": "Selected type specimen",
+      "kind": "type-treatment",
+      "path": "asset-kit/type-specimen-selected.svg",
+      "status": "used",
+      "description": "Actual licensed families and live original title/glyph content, newly isolated for reuse."
+    },
+    {
+      "id": "type-specimen-candidate",
+      "label": "Alternative type specimen",
+      "kind": "type-treatment",
+      "path": "asset-kit/type-specimen-candidate.svg",
+      "status": "candidate",
+      "description": "Live type materials drawn from the preserved B direction; not a newly authored font."
+    },
+    {
+      "id": "detail-specimen",
+      "label": "Publication detail specimen",
+      "kind": "svg",
+      "path": "asset-kit/detail-specimen.svg",
+      "status": "used",
+      "description": "Cropped native detail component."
+    }
+  ],
+  "background_options": [
+    {
+      "id": "source",
+      "label": "Current ground",
+      "asset": null,
+      "mode": "background",
+      "status": "used"
+    },
+    {
+      "id": "gradient",
+      "label": "Linen warmth",
+      "asset": "asset-kit/background-gradient.svg",
+      "mode": "background",
+      "status": "candidate"
+    }
+  ],
+  "fonts_note": "Licensed font families and custom typesetting; no newly authored font file is claimed. ",
+  "chronology": "Asset selection was reopened after the finished mixed-media iteration following the user’s request for modular materials and progressive assembly.",
+  "source_hash": "5db4862dcc47499b6ec852727b32cd64b7058f09e3d22c180bf8f6c93e43113e",
+  "resource_base": "Resolve board, page and layer paths from the source directory containing the finished SVGs."
+}

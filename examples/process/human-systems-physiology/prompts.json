@@ -1,0 +1,15 @@
+{
+  "study": "human-systems-physiology",
+  "content": "Original fictional design study",
+  "recorded_asset_prompts": [
+    {
+      "kind": "recorded-image-generation-prompt",
+      "tool": "Built-in ImageGen",
+      "prompt": "Use case: scientific-educational. Asset type: original sculptural educational illustration cutout for a physiology textbook cover, artwork only, no labels or typography. Create a beautifully crafted, anatomically convincing human-heart teaching model, three-quarter anterior view, with one restrained cutaway window into the ventricles so muscular chamber structure can be appreciated. It should look like a sophisticated hand-painted wax/resin museum teaching model photographed in soft studio light, tactile matte surfaces and subtle sculptural tool marks, warm terracotta and muted coral myocardium, deep red major arteries, restrained blue venous vessels, tiny precise surface coronary vessels. Complete heart and major superior vessels fully in frame, centered with generous breathing room. Educational and elegant, no blood, wounds, gore or surgical scene. Genuine transparent background, natural soft edge shadows only. No letters, diagrams, numbers, arrows, captions, titles, branding, logos, watermark, tabletop or surrounding room. This is a newly created conceptual cover illustration, not a diagnostic image or replica of a specific existing museum model.",
+      "asset": "source/assets/human-heart-model.png",
+      "transparent_background": true
+    }
+  ],
+  "no_generation_note": null,
+  "stage_prompt_note": "The reusable briefs in the README were written later from the design sources. They are not transcripts of historical stage instructions."
+}

@@ -4,7 +4,7 @@
 
 Ingenium is a creative skill for Codex and Claude, with a guided route for ChatGPT. Bring a rough idea, a reference, or a design already in progress. Explore its ingredients, make choices about composition and materials, and refine an assembly you can continue to edit.
 
-[Get started](#get-started) · [Explore the process](#a-design-you-can-shape) · [Nine studies](#nine-studies) · [Client setup](docs/install.md) · [Live demos](https://ajhcs.github.io/Ingenium/)
+[Get started](#get-started) · [Explore the process](#a-design-you-can-shape) · [Thirteen studies](#thirteen-studies) · [Client setup](docs/install.md) · [Live demos](https://ajhcs.github.io/Ingenium/)
 
 ## A design you can shape
 
@@ -21,7 +21,7 @@ These views are a way to make choices together, not a mandatory sequence for eve
 
 *Peel — The citrus book. Follow the four views, open the sources and see how the final composition was assembled.*
 
-## Nine studies
+## Thirteen studies
 
 Each study page shows the four views, its editable files and the available prompt record. Click a study to follow its decisions from rough components to a refined design.
 
@@ -31,7 +31,13 @@ Each study page shows the four views, its editable files and the available promp
 | [![The Last Meridian book cover](docs/assets/process/the-last-meridian-final.jpg)](examples/process/the-last-meridian/README.md)<br>**[The Last Meridian](examples/process/the-last-meridian/README.md)** · A speculative-fiction cover for a journey across a divided world. | [![LUMA pebble speaker concept](docs/assets/process/luma-pebble-speaker-final.jpg)](examples/process/luma-pebble-speaker/README.md)<br>**[LUMA](examples/process/luma-pebble-speaker/README.md)** · A two-dimensional product-hero concept with replaceable speaker imagery. | [![Phase Shift event poster](docs/assets/process/phase-shift-night-signal-final.jpg)](examples/process/phase-shift-night-signal/README.md)<br>**[Phase Shift](examples/process/phase-shift-night-signal/README.md)** · An electronic-music poster using a kinetic optical language. |
 | [![Undergrowth field guide cover](docs/assets/process/undergrowth-field-guide-final.jpg)](examples/process/undergrowth-field-guide/README.md)<br>**[Undergrowth](examples/process/undergrowth-field-guide/README.md)** · A botanical cover with oversized type and ginkgo foliage. | [![FORM magazine cover](docs/assets/process/form-listening-issue-final.jpg)](examples/process/form-listening-issue/README.md)<br>**[FORM 08](examples/process/form-listening-issue/README.md)** · A culture magazine issue about listening in public, with a generated editorial portrait. | [![Paper Plays exhibition poster](docs/assets/process/paper-plays-exhibition-final.jpg)](examples/process/paper-plays-exhibition/README.md)<br>**[Paper Plays](examples/process/paper-plays-exhibition/README.md)** · An exhibition poster combining paper-letter artwork and live type. |
 
-The studies use original fictional content. Some use generated raster imagery as a replaceable layer; others use vector artwork. Editable SVG layout and text do not make a generated image itself a vector. LUMA is a visual concept, not an engineered product. Individual pages identify assets, prompts, fonts and limitations.
+
+| Systems and ideas | Biology and objects |
+| --- | --- |
+| [![Building Eventful Systems](docs/assets/process/building-eventful-systems-final.jpg)](examples/process/building-eventful-systems/README.md)<br>**[Building Eventful Systems](examples/process/building-eventful-systems/README.md)** · A technical book cover about reliable streams, queues and state, paired with an engraving-style heron. | [![ASTER](docs/assets/process/aster-sensor-study-final.jpg)](examples/process/aster-sensor-study/README.md)<br>**[ASTER](examples/process/aster-sensor-study/README.md)** · A fictional sensor enclosure study with an exploded assembly and component index. |
+| [![Architectures of Thought](docs/assets/process/architectures-of-thought-final.jpg)](examples/process/architectures-of-thought/README.md)<br>**[Architectures of Thought](examples/process/architectures-of-thought/README.md)** · A textbook cover about models, graphs and reasoning, featuring a sculptural paper mobile. | [![Human Systems](docs/assets/process/human-systems-physiology-final.jpg)](examples/process/human-systems-physiology/README.md)<br>**[Human Systems](examples/process/human-systems-physiology/README.md)** · A physiology textbook cover featuring a conceptual heart teaching model. |
+
+The studies use original fictional content. Some use generated raster imagery as a replaceable layer; others use vector artwork. Editable SVG layout and text do not make a generated image itself a vector. LUMA and ASTER are visual concepts, not engineered products; the Human Systems heart is conceptual cover art, not an anatomical atlas. Individual pages identify assets, prompts, fonts and limitations.
 
 ## Explore each process
 
@@ -254,6 +260,106 @@ The selected artwork is native vector; no image-generation prompt was recorded f
 [Full prompt record](examples/process/paper-plays-exhibition/prompts.json)
 
 </details>
+
+</details>
+
+
+<details>
+<summary><strong>Building Eventful Systems</strong> — A technical book cover about reliable streams, queues and state, paired with an engraving-style heron.</summary>
+
+[![Building Eventful Systems: ingredients, composition, assets and final assembly](docs/assets/process/building-eventful-systems-stages.jpg)](examples/process/building-eventful-systems/README.md)
+
+| Stage | Reusable prompt |
+| --- | --- |
+| Ingredients | Gather the title, subtitle, authors, heron and compact technical-book type. |
+| Composition | Balance a compact title hierarchy against a tall bird illustration. |
+| Asset studio | Develop an isolated engraving-style heron and select readable type. |
+| Assembly and refinement | Assemble the cover and refine the relationship between the illustration and the book details. |
+
+[Four views and editable source](examples/process/building-eventful-systems/README.md)
+
+<details>
+<summary>Recorded image prompt</summary>
+
+**Asset:** `eventful-heron-engraving.png`
+
+> Use case: illustration-story. Asset type: original engraving-style natural-history bird illustration for a technical book cover, illustration asset only. A tall grey heron standing in a shallow ripple of water, full elegant bird from crest to the complete long thin legs and toes, side profile facing right, anatomically plausible S-curved long neck and long straight pointed bill, calm attentive stance. Newly drawn in the tradition of an exceptionally fine copperplate natural-history engraving: thousands of delicate black ink hatch and cross-hatch marks, exquisite layered wing-feather detail, subtle stippled tonal transitions on the neck and breast, tiny precise eye, a few spare engraved water ripples beneath the feet. Primarily monochrome dark charcoal ink with restrained pale warm-grey shading. Genuine transparent background, crisp isolated silhouette, no rectangular paper sheet, no frame. Leave comfortable breathing room around the entire bird; do not crop feet, bill or crest. No labels, words, scientific captions, numbers, logos, signatures or watermark. Entirely original drawing, not a reproduction of an antique plate.
+
+[Full prompt record](examples/process/building-eventful-systems/prompts.json)
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>Architectures of Thought</strong> — A textbook cover about models, graphs and reasoning, featuring a sculptural paper mobile.</summary>
+
+[![Architectures of Thought: ingredients, composition, assets and final assembly](docs/assets/process/architectures-of-thought-stages.jpg)](examples/process/architectures-of-thought/README.md)
+
+| Stage | Reusable prompt |
+| --- | --- |
+| Ingredients | Gather the title, edition, authors and forms suggesting a balanced paper mobile. |
+| Composition | Position the title and mobile in distinct fields with a clear reading order. |
+| Asset studio | Develop an isolated paper-mobile image and choose an editorial type treatment. |
+| Assembly and refinement | Combine the mobile and editable cover text; refine spacing and visual balance. |
+
+[Four views and editable source](examples/process/architectures-of-thought/README.md)
+
+<details>
+<summary>Recorded image prompt</summary>
+
+**Asset:** `thought-paper-mobile.png`
+
+> Use case: product-mockup. Asset type: original sculptural paper-mobile photograph cutout for the upper image field of an elegant technical book cover; photograph of an object only, no typography. Create a real hand-assembled balanced hanging mobile with a slender warm-brass central vertical suspension, one long delicately tilted horizontal brass rod, two shorter branch rods hung beneath it, and exactly four curved folded-paper leaf forms at the ends. Two leaves are matte oxblood/burgundy with pale rose folded facets, two are muted slate-blue with pale blue folded facets. Sophisticated minimalist kinetic sculpture, actual thin paper edges and delicate fibers, small visible brass connection loops, physically plausible joints and gravity, asymmetrical but balanced. Front three-quarter product photograph, the entire hanging sculpture including top wire and all four paper leaves fully in frame. Soft gallery daylight, beautiful soft highlights and subtle photographic grain, tactile physical paper, very high detail. Isolated on a genuine transparent background, no plinth, no room, no text, no logos, no book/cover mockup, no watermark.
+
+[Full prompt record](examples/process/architectures-of-thought/prompts.json)
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>Human Systems</strong> — A physiology textbook cover featuring a conceptual heart teaching model.</summary>
+
+[![Human Systems: ingredients, composition, assets and final assembly](docs/assets/process/human-systems-physiology-stages.jpg)](examples/process/human-systems-physiology/README.md)
+
+| Stage | Reusable prompt |
+| --- | --- |
+| Ingredients | Gather the title, subtitle, author, edition and a heart-model concept. |
+| Composition | Arrange the title and central heart image for an educational cover. |
+| Asset studio | Develop an isolated conceptual teaching-model illustration and select the cover typography. |
+| Assembly and refinement | Assemble the image and editable type; refine their scale and hierarchy. |
+
+[Four views and editable source](examples/process/human-systems-physiology/README.md)
+
+<details>
+<summary>Recorded image prompt</summary>
+
+**Asset:** `human-heart-model.png`
+
+> Use case: scientific-educational. Asset type: original sculptural educational illustration cutout for a physiology textbook cover, artwork only, no labels or typography. Create a beautifully crafted, anatomically convincing human-heart teaching model, three-quarter anterior view, with one restrained cutaway window into the ventricles so muscular chamber structure can be appreciated. It should look like a sophisticated hand-painted wax/resin museum teaching model photographed in soft studio light, tactile matte surfaces and subtle sculptural tool marks, warm terracotta and muted coral myocardium, deep red major arteries, restrained blue venous vessels, tiny precise surface coronary vessels. Complete heart and major superior vessels fully in frame, centered with generous breathing room. Educational and elegant, no blood, wounds, gore or surgical scene. Genuine transparent background, natural soft edge shadows only. No letters, diagrams, numbers, arrows, captions, titles, branding, logos, watermark, tabletop or surrounding room. This is a newly created conceptual cover illustration, not a diagnostic image or replica of a specific existing museum model.
+
+[Full prompt record](examples/process/human-systems-physiology/prompts.json)
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>ASTER</strong> — A fictional sensor enclosure study with an exploded assembly and component index.</summary>
+
+[![ASTER: ingredients, composition, assets and final assembly](docs/assets/process/aster-sensor-study-stages.jpg)](examples/process/aster-sensor-study/README.md)
+
+| Stage | Reusable prompt |
+| --- | --- |
+| Ingredients | Gather the enclosure, lid, display window, inner plate, foot and component labels. |
+| Composition | Arrange the rough enclosure illustration, component labels and title in a neutral hierarchy. |
+| Asset studio | Draw editable enclosure components, surface textures and technical marks in SVG. |
+| Assembly and refinement | Refine the exploded assembly and labels; add a closed form and enlarged edge section to the final study. |
+
+[Four views and editable source](examples/process/aster-sensor-study/README.md)
+
+The selected artwork is native vector; no image-generation prompt was recorded for it.
 
 </details>
 

@@ -146,10 +146,74 @@
       ],
       "prompt_record": "prompts.json",
       "visual_precedent": "Plakatszene Luzern — folded poster ribbons"
+    },
+    {
+      "id": "building-eventful-systems",
+      "title": "Building Eventful Systems",
+      "case": "building-eventful-systems/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "Designing Data-Intensive Applications — 2nd Edition"
+    },
+    {
+      "id": "architectures-of-thought",
+      "title": "Architectures of Thought",
+      "case": "architectures-of-thought/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "Introduction to Algorithms — Third Edition"
+    },
+    {
+      "id": "human-systems-physiology",
+      "title": "Human Systems — An integrated physiology",
+      "case": "human-systems-physiology/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "Physiology — The Big Picture, 3rd Edition"
+    },
+    {
+      "id": "aster-sensor-study",
+      "title": "ASTER — Sensor Form Study",
+      "case": "aster-sensor-study/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "TRUPER Expert — Welder Parts and Connections"
     }
   ],
-  "study_count": 9,
-  "finished_pages": 12,
+  "study_count": 13,
+  "finished_pages": 16,
   "font_manifest": "fonts/manifest.json",
   "chronology": "Vector studies came first. Mixed-media and modular asset exploration were reopened later; the four views are presented together for inspection.",
   "source_scope": "Original synthetic artwork, exact available image-generation prompts, reusable SVG layers and licensed fonts. Private briefs, source-reference artwork, local receipts and machine paths are excluded."
