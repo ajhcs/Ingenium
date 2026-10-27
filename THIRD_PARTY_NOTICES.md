@@ -33,3 +33,7 @@ Google Fonts, Nerd Fonts and free-font indexes contain bounded source/tree metad
 ## Selected Impeccable review practices
 
 The modified review paragraph in skills/ingenium/references/methods/contract.md adapts selected critique/polish practices from [Impeccable e3083ac](https://github.com/pbakaus/impeccable/tree/e3083ac3301e4d10517dd6cb58ab645bc2cb6e1b) under Apache-2.0. Complete license and relevant Paul Bakaus/Anthropic attribution and modification notices are retained at skills/ingenium/LICENSE-IMPECCABLE and skills/ingenium/NOTICE-IMPECCABLE, including in the guidance ZIP. Other original Ingenium work remains MIT. No upstream runtime, hooks, native-platform or Typecraft typography material is included. See docs/impeccable-review.md for scope and source lineage.
+
+## Fonts in the progressive process showcase
+
+The original process studies bundle selected unchanged Google Fonts files and embed their bytes in SVG artwork. Full family-specific copyright and SIL Open Font License 1.1 notices accompany the files under `examples/process/fonts/`; `manifest.json` records exact hashes and pinned upstream sources. These font terms remain separate from the project MIT license. New ImageGen subjects and native vector artwork are original synthetic examples; their prompt records distinguish generated images, original lettering and licensed typefaces. No reference artwork or private source documents are redistributed.

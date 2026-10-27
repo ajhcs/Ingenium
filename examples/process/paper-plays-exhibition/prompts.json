@@ -1,0 +1,17 @@
+{
+  "study": "paper-plays-exhibition",
+  "content": "Original fictional design study",
+  "recorded_asset_prompts": [
+    {
+      "kind": "recorded-image-generation-prompt",
+      "tool": "Built-in ImageGen",
+      "prompt": "Use case: stylized-concept / product-mockup. Asset type: a photographed physical paper-letter sculpture to be placed as a replaceable artwork asset within an editable exhibition-poster SVG. Generate the sculpture only, not a finished poster. Subject: two carefully aligned rows of original sculptural letters made by folding and curling thick colored paper, spelling exactly PAPER on the first row and PLAYS on the second row. Text, verbatim: PAPER / PLAYS. Five letters in each row. Letters must remain immediately readable, with clear counters and complete silhouettes. Invent the letter construction rather than imitating a known typeface: broad paper bands, folded returns, occasional rolled edges, visible paper thickness and believable joins. Letter colors move across coral-pink, saffron yellow, cornflower blue, leaf green and lilac, with each letter a distinct sheet color and a darker folded reverse. Subtle fibrous paper texture, crisp physical cut edges and soft tiny self-shadows. Camera: near-frontal with a small above-right perspective so folded depth is visible; both rows have a level baseline; generous transparent padding around all letters, no letter touching the frame. Lighting: diffuse bright tabletop studio light, gentle warm bounce, refined museum design-photography quality. Genuine transparent alpha background, no tabletop or cast shadow plane. No other words, no captions, no logos, no border, no graphic poster background, no people, no tools or props. Original physical lettering artwork only.",
+      "asset": "source/assets/paper-sculpture-v1.png",
+      "transparent_background": true,
+      "reference_role": null,
+      "reference_assets": []
+    }
+  ],
+  "no_generation_note": null,
+  "stage_prompt_note": "The reusable briefs in the README were written later from the design sources. They are not transcripts of historical stage instructions."
+}

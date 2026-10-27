@@ -158,6 +158,15 @@
       "use": "Modified critique/polish review paragraph only; no runtime or typography/native-platform adaptation",
       "distribution": "skills/ingenium/references/methods/contract.md with LICENSE-IMPECCABLE and NOTICE-IMPECCABLE",
       "qualification": "Source inspection; no upstream execution or general effectiveness claim"
+    },
+    {
+      "name": "Selected Google Fonts for progressive process studies",
+      "version": "google/fonts 47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "use": "Unchanged selected fonts and embedded SVG font data in original synthetic design studies",
+      "source": "https://github.com/google/fonts/tree/47d54ca1ebb14fd864695f1d39dc734f39017c33",
+      "license": "SIL Open Font License 1.1, with family-specific copyright notices",
+      "distribution": "Selected files, full notices and pinned metadata under examples/process/fonts",
+      "qualification": "Font terms remain separate from original artwork/code licensing; no complete new font family is claimed."
     }
   ],
   "guidance": [
