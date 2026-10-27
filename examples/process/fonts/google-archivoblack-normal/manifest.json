@@ -1,0 +1,15 @@
+{
+  "id": "google-archivoblack-normal",
+  "family": "Archivo Black",
+  "style": "normal",
+  "weight": 400,
+  "axes": {},
+  "sourceURL": "https://github.com/google/fonts/blob/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/archivoblack/ArchivoBlack-Regular.ttf",
+  "sha256": "dd9a89a019b4849f66ab75455fe7bdf931311042cbb0f0f97acc061539703180",
+  "file": "font.ttf",
+  "license": "SIL Open Font License 1.1",
+  "notices": [
+    "notice-1-archivoblack-1.txt",
+    "notice-2-archivoblack-2.txt"
+  ]
+}

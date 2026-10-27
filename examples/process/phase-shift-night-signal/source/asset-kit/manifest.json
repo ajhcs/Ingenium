@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "study_id": "phase-shift-night-signal",
+  "title": "PHASE SHIFT — Night Signal 004",
+  "board": "assets-board.svg",
+  "pages": [
+    {
+      "source": "final-01.svg",
+      "label": "Selected design",
+      "width": 800,
+      "height": 1120,
+      "layers": [
+        {
+          "id": "ground",
+          "label": "Selected ground",
+          "category": "background",
+          "node_indices": [
+            0
+          ],
+          "asset": "asset-kit/page-01-ground.svg",
+          "description": "Current selected surface; preserved exactly from the finish."
+        },
+        {
+          "id": "primary-type",
+          "label": "Headline and introduction",
+          "category": "typography",
+          "node_indices": [
+            3,
+            4
+          ],
+          "asset": "asset-kit/page-01-primary-type.svg",
+          "description": "Editable heading/deck. PHASE SHIFT includes bespoke authored letter paths; all other font use is licensed typesetting."
+        },
+        {
+          "id": "main-art",
+          "label": "Main artwork or diagram",
+          "category": "artwork",
+          "node_indices": [
+            5
+          ],
+          "asset": "asset-kit/page-01-main-art.svg",
+          "description": "Actual authored diagram/motif or linked generated illustration. Integrated native diagram indices remain grouped with their figure."
+        },
+        {
+          "id": "detail",
+          "label": "Annotations and fine rules",
+          "category": "detail",
+          "node_indices": [
+            2,
+            7,
+            12
+          ],
+          "asset": "asset-kit/page-01-detail.svg",
+          "description": "Actual counts, callouts, construction details, halo or registration rules."
+        },
+        {
+          "id": "support-type",
+          "label": "Supporting information",
+          "category": "typography",
+          "node_indices": [
+            1,
+            6,
+            8,
+            9,
+            10,
+            11,
+            13
+          ],
+          "asset": "asset-kit/page-01-support-type.svg",
+          "description": "Actual date, venue, labels, inventory or footer typesetting."
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "id": "ground",
+      "label": "Selected ground",
+      "kind": "background",
+      "path": "asset-kit/page-01-ground.svg",
+      "status": "used",
+      "description": "Current selected surface; preserved exactly from the finish."
+    },
+    {
+      "id": "primary-type",
+      "label": "Headline and introduction",
+      "kind": "svg",
+      "path": "asset-kit/page-01-primary-type.svg",
+      "status": "used",
+      "description": "Editable heading/deck. PHASE SHIFT includes bespoke authored letter paths; all other font use is licensed typesetting."
+    },
+    {
+      "id": "main-art",
+      "label": "Main artwork or diagram",
+      "kind": "svg",
+      "path": "asset-kit/page-01-main-art.svg",
+      "status": "used",
+      "description": "Actual authored diagram/motif or linked generated illustration. Integrated native diagram indices remain grouped with their figure."
+    },
+    {
+      "id": "detail",
+      "label": "Annotations and fine rules",
+      "kind": "svg",
+      "path": "asset-kit/page-01-detail.svg",
+      "status": "used",
+      "description": "Actual counts, callouts, construction details, halo or registration rules."
+    },
+    {
+      "id": "support-type",
+      "label": "Supporting information",
+      "kind": "svg",
+      "path": "asset-kit/page-01-support-type.svg",
+      "status": "used",
+      "description": "Actual date, venue, labels, inventory or footer typesetting."
+    },
+    {
+      "id": "google-ibmplexmono-normal",
+      "label": "IBM Plex Mono — licensed face",
+      "kind": "font",
+      "path": "../../fonts/google-ibmplexmono-normal/font.ttf",
+      "status": "used",
+      "description": "Unchanged licensed font bytes. Family-specific notices: fonts/google-ibmplexmono-normal/notice-1-ibmplexmono-1.txt"
+    },
+    {
+      "id": "google-ibmplexsans-normal",
+      "label": "IBM Plex Sans — licensed face",
+      "kind": "font",
+      "path": "../../fonts/google-ibmplexsans-normal/font.ttf",
+      "status": "used",
+      "description": "Unchanged licensed font bytes. Family-specific notices: fonts/google-ibmplexsans-normal/notice-1-ibmplexsans-1.txt"
+    },
+    {
+      "id": "google-newsreader-normal",
+      "label": "Newsreader — licensed face",
+      "kind": "font",
+      "path": "../../fonts/google-newsreader-normal/font.ttf",
+      "status": "candidate",
+      "description": "Unchanged licensed font bytes. Family-specific notices: fonts/google-newsreader-normal/notice-1-newsreader-1.txt"
+    },
+    {
+      "id": "google-spacegrotesk-normal",
+      "label": "Space Grotesk — licensed face",
+      "kind": "font",
+      "path": "../../fonts/google-spacegrotesk-normal/font.ttf",
+      "status": "used",
+      "description": "Unchanged licensed font bytes. Family-specific notices: fonts/google-spacegrotesk-normal/notice-1-spacegrotesk-1.txt"
+    },
+    {
+      "id": "gradient",
+      "label": "Optional custom gradient + fine vector grain",
+      "kind": "gradient",
+      "path": "asset-kit/background-gradient.svg",
+      "status": "candidate",
+      "description": "New native SVG radial gradient and original fine line grain. An optional material candidate; current flat ground remains selected."
+    },
+    {
+      "id": "palette",
+      "label": "Selected palette swatches",
+      "kind": "palette",
+      "path": "asset-kit/palette.svg",
+      "status": "used",
+      "description": "Actual selected design colors as editable rectangles and hexadecimal labels."
+    },
+    {
+      "id": "type-treatment",
+      "label": "Live type treatment with licensed faces",
+      "kind": "type-treatment",
+      "path": "asset-kit/type-treatment.svg",
+      "status": "used",
+      "description": "Actual heading and introduction set as editable live text in the retained licensed faces. Custom typesetting does not mean a newly authored font file."
+    },
+    {
+      "id": "bespoke-lettering",
+      "label": "PHASE SHIFT — bespoke authored lettering",
+      "kind": "lettering",
+      "path": "asset-kit/bespoke-lettering.svg",
+      "status": "used",
+      "description": "Original manually constructed SVG letter paths. This is bespoke lettering for these words, not a complete new font or a licensed-font substitution."
+    }
+  ],
+  "background_options": [
+    {
+      "id": "source",
+      "label": "Current ground",
+      "asset": null,
+      "mode": "background",
+      "status": "used"
+    },
+    {
+      "id": "gradient",
+      "label": "Optional custom gradient / fine SVG grain",
+      "asset": "asset-kit/background-gradient.svg",
+      "mode": "background",
+      "status": "candidate"
+    }
+  ],
+  "fonts_note": "Licensed font families and custom typesetting; no newly authored font file is claimed. PHASE SHIFT and the PAPER PLAYS native alternative have actually authored bespoke letter paths, distinct from complete font files.",
+  "chronology": "Asset selection was reopened after the finished mixed-media iteration following the user request for modular materials and progressive assembly. The material kit was refreshed after scoped user review refinements; the current selected design is mapped explicitly. Prior finish, board and controls are preserved in iterations/user-review-refinement-20261027; direction options remain unchanged.",
+  "resource_base": "Resolve board, page and layer paths from the source directory containing the finished SVGs.",
+  "source_hash": "7ea3181d8fb5977091303313f55c3ef41afd35c40b15139ab043a04db024bae2"
+}

@@ -1,0 +1,15 @@
+{
+  "study": "form-listening-issue",
+  "content": "Original fictional design study",
+  "recorded_asset_prompts": [
+    {
+      "kind": "recorded-image-generation-prompt",
+      "tool": "Built-in ImageGen",
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial portrait cutout for a culture-magazine cover, photography asset only, no typography. Primary request: create an entirely fictional adult woman in her late thirties with a short dark bob and a thoughtful, quietly confident expression, wearing a beautifully tailored desaturated sage-green jacket over a natural ivory top. Three-quarter seated portrait, head through upper thighs, torso angled gently toward camera, one hand resting naturally near the collar/upper chest as if listening to someone off camera; complete anatomically natural hands, no floating separate hand. Beautiful face with natural skin detail, tiny pores, faint smile lines; no beauty retouch plastic. Premium independent-magazine portrait photography, medium-format film feel, soft large north-window light from camera left, very gentle shadow, subtle warm fine grain. Composition: tall portrait, subject occupies most of the asset height, head with comfortable top breathing room, shoulders and elbows intact, calm sculptural pose, minimal accessories. Isolated on a genuinely transparent background, clean natural hair edges. No text, no logos, no watermark, no frame, no magazine mockup, no copied identity or recognizable celebrity.",
+      "asset": "source/assets/form-portrait.png",
+      "transparent_background": true
+    }
+  ],
+  "no_generation_note": null,
+  "stage_prompt_note": "The reusable briefs in the README were written later from the design sources. They are not transcripts of historical stage instructions."
+}

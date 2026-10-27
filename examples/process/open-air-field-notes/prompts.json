@@ -1,0 +1,17 @@
+{
+  "study": "open-air-field-notes",
+  "content": "Original fictional design study",
+  "recorded_asset_prompts": [
+    {
+      "kind": "recorded-image-generation-prompt",
+      "tool": "Built-in ImageGen",
+      "prompt": "Use case: illustration-story. Asset type: original bird-illustration artwork for the central field of a garden-music poster; the poster typography and colored background will be built separately in editable SVG. Generate exactly three graceful swallows in flight, no scenery. Arrange them as an airy horizontal diagonal group: one larger swallow at upper left banking toward the right, one at center right gliding left, one smaller at lower left. Keep their complete silhouettes separate with generous clear gaps. Style: finely painted gouache and colored-pencil editorial natural-history illustration, warm ivory breast, cool mist-blue and slate-gray upper wings, a restrained dark navy eye and slender beak, delicate layered feather brushmarks and subtle handmade paper texture. Lyrical and light rather than cartoonish; convincing wing anatomy and forked tails, but elegant simplified shapes suit a cultural festival poster. Soft, consistent illumination and crisp cutout contours. Genuine transparent alpha background everywhere outside the birds. No branches, no landscape, no sky, no frame, no lettering, no logos, no text, no border, no fourth bird. Entirely original imagery, not a reproduction of any referenced poster. This is a visual illustration asset only.",
+      "asset": "source/assets/swallows-gouache-v1.png",
+      "transparent_background": true,
+      "reference_role": null,
+      "reference_assets": []
+    }
+  ],
+  "no_generation_note": null,
+  "stage_prompt_note": "The reusable briefs in the README were written later from the design sources. They are not transcripts of historical stage instructions."
+}

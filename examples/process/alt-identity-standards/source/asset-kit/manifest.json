@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "study_id": "alt-identity-standards",
+  "title": "ALT — Identity standards",
+  "board": "assets-board.svg",
+  "pages": [
+    {
+      "source": "final-01.svg",
+      "label": "Identity standards",
+      "width": 760.0,
+      "height": 1000.0,
+      "layers": [
+        {
+          "id": "ground",
+          "label": "Paper ground",
+          "category": "background",
+          "node_indices": [
+            0
+          ],
+          "asset": "asset-kit/page-01-ground.svg",
+          "description": "Current full-page ground; remains the selected surface."
+        },
+        {
+          "id": "art",
+          "label": "Image, mark and semantic graphics",
+          "category": "artwork",
+          "node_indices": [
+            3
+          ],
+          "asset": "asset-kit/page-01-art.svg",
+          "description": "Native geometry and replaceable image layers; diagram labels stay with their diagram where meaningful."
+        },
+        {
+          "id": "display",
+          "label": "Display typesetting",
+          "category": "typography",
+          "node_indices": [
+            4,
+            5
+          ],
+          "asset": "asset-kit/page-01-display.svg",
+          "description": "Live title and major-number typesetting using licensed font families."
+        },
+        {
+          "id": "copy",
+          "label": "Reading copy and labels",
+          "category": "typography",
+          "node_indices": [
+            1,
+            2,
+            7,
+            9
+          ],
+          "asset": "asset-kit/page-01-copy.svg",
+          "description": "Editable authored body copy, captions and section labels."
+        },
+        {
+          "id": "detail",
+          "label": "Rules and publication details",
+          "category": "detail",
+          "node_indices": [
+            6,
+            8
+          ],
+          "asset": "asset-kit/page-01-detail.svg",
+          "description": "Fine rules, folios and finishing cues kept separately reusable."
+        }
+      ]
+    },
+    {
+      "source": "final-02.svg",
+      "label": "The mark",
+      "width": 760.0,
+      "height": 1000.0,
+      "layers": [
+        {
+          "id": "ground",
+          "label": "Paper ground",
+          "category": "background",
+          "node_indices": [
+            0
+          ],
+          "asset": "asset-kit/page-02-ground.svg",
+          "description": "Current full-page ground; remains the selected surface."
+        },
+        {
+          "id": "art",
+          "label": "Image, mark and semantic graphics",
+          "category": "artwork",
+          "node_indices": [
+            1,
+            11,
+            30
+          ],
+          "asset": "asset-kit/page-02-art.svg",
+          "description": "Native geometry and replaceable image layers; diagram labels stay with their diagram where meaningful."
+        },
+        {
+          "id": "display",
+          "label": "Display typesetting",
+          "category": "typography",
+          "node_indices": [
+            6,
+            35
+          ],
+          "asset": "asset-kit/page-02-display.svg",
+          "description": "Live title and major-number typesetting using licensed font families."
+        },
+        {
+          "id": "copy",
+          "label": "Reading copy and labels",
+          "category": "typography",
+          "node_indices": [
+            2,
+            3,
+            5,
+            10,
+            34,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "asset": "asset-kit/page-02-copy.svg",
+          "description": "Editable authored body copy, captions and section labels."
+        },
+        {
+          "id": "detail",
+          "label": "Rules and publication details",
+          "category": "detail",
+          "node_indices": [
+            4,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33
+          ],
+          "asset": "asset-kit/page-02-detail.svg",
+          "description": "Fine rules, folios and finishing cues kept separately reusable."
+        }
+      ]
+    },
+    {
+      "source": "final-03.svg",
+      "label": "Color and use",
+      "width": 760.0,
+      "height": 1000.0,
+      "layers": [
+        {
+          "id": "ground",
+          "label": "Paper ground",
+          "category": "background",
+          "node_indices": [
+            0
+          ],
+          "asset": "asset-kit/page-03-ground.svg",
+          "description": "Current full-page ground; remains the selected surface."
+        },
+        {
+          "id": "art",
+          "label": "Image, mark and semantic graphics",
+          "category": "artwork",
+          "node_indices": [
+            1,
+            11,
+            14,
+            17,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "asset": "asset-kit/page-03-art.svg",
+          "description": "Native geometry and replaceable image layers; diagram labels stay with their diagram where meaningful."
+        },
+        {
+          "id": "display",
+          "label": "Display typesetting",
+          "category": "typography",
+          "node_indices": [
+            6
+          ],
+          "asset": "asset-kit/page-03-display.svg",
+          "description": "Live title and major-number typesetting using licensed font families."
+        },
+        {
+          "id": "copy",
+          "label": "Reading copy and labels",
+          "category": "typography",
+          "node_indices": [
+            2,
+            3,
+            5,
+            10,
+            12,
+            13,
+            15,
+            16,
+            18,
+            19,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "asset": "asset-kit/page-03-copy.svg",
+          "description": "Editable authored body copy, captions and section labels."
+        },
+        {
+          "id": "detail",
+          "label": "Rules and publication details",
+          "category": "detail",
+          "node_indices": [
+            4,
+            7,
+            8,
+            9
+          ],
+          "asset": "asset-kit/page-03-detail.svg",
+          "description": "Fine rules, folios and finishing cues kept separately reusable."
+        }
+      ]
+    },
+    {
+      "source": "final-04.svg",
+      "label": "Field equipment",
+      "width": 760.0,
+      "height": 1000.0,
+      "layers": [
+        {
+          "id": "ground",
+          "label": "Paper ground",
+          "category": "background",
+          "node_indices": [
+            0
+          ],
+          "asset": "asset-kit/page-04-ground.svg",
+          "description": "Current full-page ground; remains the selected surface."
+        },
+        {
+          "id": "art",
+          "label": "Image, mark and semantic graphics",
+          "category": "artwork",
+          "node_indices": [
+            1,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            28,
+            30,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "asset": "asset-kit/page-04-art.svg",
+          "description": "Native geometry and replaceable image layers; diagram labels stay with their diagram where meaningful."
+        },
+        {
+          "id": "display",
+          "label": "Display typesetting",
+          "category": "typography",
+          "node_indices": [
+            6
+          ],
+          "asset": "asset-kit/page-04-display.svg",
+          "description": "Live title and major-number typesetting using licensed font families."
+        },
+        {
+          "id": "copy",
+          "label": "Reading copy and labels",
+          "category": "typography",
+          "node_indices": [
+            2,
+            3,
+            5,
+            10,
+            15,
+            16,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "asset": "asset-kit/page-04-copy.svg",
+          "description": "Editable authored body copy, captions and section labels."
+        },
+        {
+          "id": "detail",
+          "label": "Rules and publication details",
+          "category": "detail",
+          "node_indices": [
+            4,
+            7,
+            8,
+            9,
+            25,
+            27,
+            29,
+            31
+          ],
+          "asset": "asset-kit/page-04-detail.svg",
+          "description": "Fine rules, folios and finishing cues kept separately reusable."
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "id": "ground",
+      "label": "Current paper ground",
+      "kind": "background",
+      "path": "asset-kit/background-current.svg",
+      "status": "used",
+      "description": "Exact flat surface extracted from the current cover; no publication change."
+    },
+    {
+      "id": "gradient",
+      "label": "Optional material gradient",
+      "kind": "gradient",
+      "path": "asset-kit/background-gradient.svg",
+      "status": "candidate",
+      "description": "New original SVG gradient probe, not applied to the selected finish."
+    },
+    {
+      "id": "palette",
+      "label": "Current palette",
+      "kind": "palette",
+      "path": "asset-kit/palette.svg",
+      "status": "used",
+      "description": "Separate editable vector swatches."
+    },
+    {
+      "id": "type",
+      "label": "Licensed-family type treatment",
+      "kind": "type-treatment",
+      "path": "asset-kit/type-treatment.svg",
+      "status": "used",
+      "description": "Actual live type specimens with embedded licensed faces; no new typeface is claimed."
+    },
+    {
+      "id": "native",
+      "label": "Custom ALT polygon lettering",
+      "kind": "lettering",
+      "path": "asset-kit/native-component.svg",
+      "status": "used",
+      "description": "Original authored polygon lettering."
+    },
+    {
+      "id": "font-1",
+      "label": "IBM Plex Mono",
+      "kind": "font",
+      "path": "../../fonts/google-ibmplexmono-normal/font.ttf",
+      "status": "used",
+      "description": "Unchanged licensed TTF; full notices and provenance are retained beside it."
+    },
+    {
+      "id": "font-2",
+      "label": "IBM Plex Sans",
+      "kind": "font",
+      "path": "../../fonts/google-ibmplexsans-normal/font.ttf",
+      "status": "used",
+      "description": "Unchanged licensed TTF; full notices and provenance are retained beside it."
+    },
+    {
+      "id": "font-3",
+      "label": "Space Grotesk",
+      "kind": "font",
+      "path": "../../fonts/google-spacegrotesk-normal/font.ttf",
+      "status": "used",
+      "description": "Unchanged licensed TTF; full notices and provenance are retained beside it."
+    }
+  ],
+  "background_options": [
+    {
+      "id": "source",
+      "label": "Current ground",
+      "asset": null,
+      "mode": "background",
+      "status": "used"
+    },
+    {
+      "id": "gradient",
+      "label": "Optional material gradient",
+      "asset": "asset-kit/background-gradient.svg",
+      "mode": "background",
+      "status": "candidate"
+    }
+  ],
+  "fonts_note": "Licensed font families and original live typesetting. The ALT mark is authored polygon lettering. No new font file is claimed. Layer SVGs use unchanged local relative TTF URLs; board and type specimen embed font bytes.",
+  "chronology": "Asset selection reopened after the finished mixed-media iteration following the user request for modular materials and progressive assembly. Existing selected stages and A/B directions are unchanged.",
+  "resource_base": "Resolve board, page and layer paths from the source directory containing the finished SVGs.",
+  "source_hash": "d831da4202a6ac63ef612481d0c3229bb66a994dccd13ec89e44973f5a8297bd"
+}

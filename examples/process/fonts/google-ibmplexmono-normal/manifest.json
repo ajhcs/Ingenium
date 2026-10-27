@@ -1,0 +1,14 @@
+{
+  "id": "google-ibmplexmono-normal",
+  "family": "IBM Plex Mono",
+  "style": "normal",
+  "weight": 400,
+  "axes": {},
+  "sourceURL": "https://github.com/google/fonts/blob/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+  "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+  "file": "font.ttf",
+  "license": "SIL Open Font License 1.1",
+  "notices": [
+    "notice-1-ibmplexmono-1.txt"
+  ]
+}

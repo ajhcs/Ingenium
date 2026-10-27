@@ -1,0 +1,23 @@
+{
+  "id": "google-newsreader-normal",
+  "family": "Newsreader",
+  "style": "normal",
+  "weight": 400,
+  "axes": {
+    "opsz": {
+      "min": 6,
+      "max": 72
+    },
+    "wght": {
+      "min": 200,
+      "max": 800
+    }
+  },
+  "sourceURL": "https://github.com/google/fonts/blob/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/newsreader/Newsreader[opsz,wght].ttf",
+  "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+  "file": "font.ttf",
+  "license": "SIL Open Font License 1.1",
+  "notices": [
+    "notice-1-newsreader-1.txt"
+  ]
+}

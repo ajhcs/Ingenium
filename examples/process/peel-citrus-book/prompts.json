@@ -1,0 +1,15 @@
+{
+  "study": "peel-citrus-book",
+  "content": "Original fictional design study",
+  "recorded_asset_prompts": [
+    {
+      "kind": "recorded-image-generation-prompt",
+      "tool": "Built-in ImageGen",
+      "prompt": "Use case: stylized-concept. Asset type: original finely textured citrus illustration for the image panel of an artful food book. An extreme close-up composition of several sliced blood oranges and grapefruit cross-sections, packed and cropped boldly at the edges. Exquisite organic citrus anatomy: uneven translucent juice vesicles, irregular segments, tiny seeds, thick pale pith and thin rind. It must feel tactile and finely observed rather than perfect repeated vector circles. Medium: a contemporary hand-printed botanical food illustration combining dense colored-pencil and gouache detail with slightly broken two-ink screenprint texture on warm uncoated cream paper. Restrict the colors to vivid vermilion/orange-red and warm cream, with subtle pigment variation, paper tooth, sharp fibrous detail. Full-bleed portrait-oriented art asset, no tabletop props, no surrounding room, no words, no title, no author, no logos or watermark, no book or poster mockup. Entirely original composition.",
+      "asset": "source/assets/peel-citrus-texture.png",
+      "transparent_background": false
+    }
+  ],
+  "no_generation_note": null,
+  "stage_prompt_note": "The reusable briefs in the README were written later from the design sources. They are not transcripts of historical stage instructions."
+}

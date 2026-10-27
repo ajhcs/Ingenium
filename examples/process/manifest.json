@@ -1,0 +1,156 @@
+{
+  "studies": [
+    {
+      "id": "peel-citrus-book",
+      "title": "Peel — The citrus book",
+      "case": "peel-citrus-book/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "Steak — The Whole Story"
+    },
+    {
+      "id": "the-last-meridian",
+      "title": "The Last Meridian",
+      "case": "the-last-meridian/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "Brave New World — geometric cover"
+    },
+    {
+      "id": "undergrowth-field-guide",
+      "title": "Undergrowth — The quiet life of city plants",
+      "case": "undergrowth-field-guide/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "Plant Fever — The World on the Windowsill"
+    },
+    {
+      "id": "alt-identity-standards",
+      "title": "ALT — Identity standards",
+      "case": "alt-identity-standards/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg",
+        "source/final-02.svg",
+        "source/final-03.svg",
+        "source/final-04.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "NASA — Graphics Standards Manual 1976"
+    },
+    {
+      "id": "form-listening-issue",
+      "title": "FORM 08 — Listening in public",
+      "case": "form-listening-issue/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "Port 35 — Colman Domingo"
+    },
+    {
+      "id": "luma-pebble-speaker",
+      "title": "LUMA — Pebble Speaker",
+      "case": "luma-pebble-speaker/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "YA-MAN — Floating Device Product Hero"
+    },
+    {
+      "id": "open-air-field-notes",
+      "title": "Open Air — Field Notes",
+      "case": "open-air-field-notes/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "Exil — Mizmorim chamber music festival"
+    },
+    {
+      "id": "phase-shift-night-signal",
+      "title": "PHASE SHIFT — Night Signal 004",
+      "case": "phase-shift-night-signal/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "Paraçek at Gaskessel — kinetic green poster"
+    },
+    {
+      "id": "paper-plays-exhibition",
+      "title": "Paper Plays",
+      "case": "paper-plays-exhibition/README.md",
+      "stages": [
+        "stages/01-ingredients.png",
+        "stages/02-composition.png",
+        "stages/03-assets.png",
+        "stages/04-final.png"
+      ],
+      "native_finals": [
+        "source/final-01.svg"
+      ],
+      "prompt_record": "prompts.json",
+      "visual_precedent": "Plakatszene Luzern — folded poster ribbons"
+    }
+  ],
+  "study_count": 9,
+  "finished_pages": 12,
+  "font_manifest": "fonts/manifest.json",
+  "chronology": "Vector studies came first. Mixed-media and modular asset exploration were reopened later; the four views are presented together for inspection.",
+  "source_scope": "Original synthetic artwork, exact available image-generation prompts, reusable SVG layers and licensed fonts. Private briefs, source-reference artwork, local receipts and machine paths are excluded."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "google-bodonimoda-normal",
+  "family": "Bodoni Moda",
+  "style": "normal",
+  "weight": 400,
+  "axes": {
+    "opsz": {
+      "min": 6,
+      "max": 96
+    },
+    "wght": {
+      "min": 400,
+      "max": 900
+    }
+  },
+  "sourceURL": "https://github.com/google/fonts/blob/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/bodonimoda/BodoniModa[opsz,wght].ttf",
+  "sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf",
+  "file": "font.ttf",
+  "license": "SIL Open Font License 1.1",
+  "notices": [
+    "notice-1-bodonimoda-1.txt"
+  ]
+}

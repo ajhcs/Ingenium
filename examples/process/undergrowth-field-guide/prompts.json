@@ -1,0 +1,15 @@
+{
+  "study": "undergrowth-field-guide",
+  "content": "Original fictional design study",
+  "recorded_asset_prompts": [
+    {
+      "kind": "recorded-image-generation-prompt",
+      "tool": "Built-in ImageGen",
+      "prompt": "Use case: illustration-story. Asset type: original botanical illustration cutout for an illustrated plant field-guide cover; art asset only. Primary request: a fresh, richly observed ginkgo biloba sprig, one slender slightly curved stem rising diagonally from lower right toward upper left, with 10 to 12 naturally varied fan-shaped ginkgo leaves. The leaves must feel individually painted and observed, not duplicated symbols: some broad fans, some folded, one small young leaf, irregular scalloped margins and characteristic central notches, delicate radiating veins. Style: exquisite natural-history gouache and colored-pencil botanical plate, rich matte pigment, fine dry-brush and printed-paper texture within the paint, subtle waxy highlights, warm olive, pine, ochre and sage greens. Contemporary art-book illustration with real organic texture and graceful asymmetrical silhouette. Portrait composition, complete stem and leaves retained, no planter or pot, no surrounding objects. Genuine transparent background. No lettering, labels, borders, title, watermark, page or cover mockup. Entirely new artwork, not a copy of an existing botanical plate.",
+      "asset": "source/assets/undergrowth-ginkgo.png",
+      "transparent_background": true
+    }
+  ],
+  "no_generation_note": null,
+  "stage_prompt_note": "The reusable briefs in the README were written later from the design sources. They are not transcripts of historical stage instructions."
+}
