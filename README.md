@@ -425,6 +425,11 @@ If your workspace has custom Skills enabled, use **Plugins → Skills → Create
 
 ## More ways to work
 
+The [optional tools companion](docs/tools.md) inspects a running local project
+and compares its rendered content and controls before and after a redesign.
+It is packaged separately, with no mandatory dependencies; the basic skill
+continues to work on its own.
+
 Ingenium can also help with interaction studies, type specimens, color families, diagrams and design critique. Choose the method that answers your question; a static study describes intended behavior rather than proving that an application implements it.
 
 [First-study walkthrough](docs/quickstart.md) · [Design methods](docs/method-studies.md) · [Editable examples](examples/release/README.md) · [Source synthesis](docs/source-synthesis.md) · [Installation and troubleshooting](docs/install.md)

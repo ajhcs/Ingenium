@@ -91,6 +91,10 @@ For chat uploads, use the client's skill management screen to replace or disable
 
 ## Optional full checkout and helpers
 
+For local project inspection and preservation checks, the smaller
+[optional tools companion](tools.md) can be packaged and installed separately.
+It has no mandatory dependencies and does not change the basic skill install.
+
 The guidance ZIP and `skills add` do **not** include `bin/`, `src/`, resource data, example generators or their dependencies. To use those separately:
 
 ```sh

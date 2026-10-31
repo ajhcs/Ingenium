@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { studies } from '../site/studies.mjs';
 
 // Dependency-free staging of the authored static presentation; never deploys it.
 const repository = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -31,6 +32,20 @@ async function inspect(directory) {
   }
 }
 await inspect(source);
+// Reuse the committed process previews; do not duplicate large artwork in Git.
+const processImages = new Map();
+for (const study of Object.values(studies)) if (study.id) {
+  if (!/^[a-z0-9-]+$/.test(study.id)) throw new Error('Invalid process study id');
+  for (const suffix of ['final', 'stages']) {
+    const name = `${study.id}-${suffix}.jpg`;
+    const original = path.join(repository, 'docs/assets/process', name);
+    if (!(await fs.lstat(original)).isFile()) throw new Error('Missing process preview: ' + name);
+    processImages.set(path.resolve(source, 'assets/process', name), original);
+  }
+  for (const relative of [study.source, study.case]) {
+    if (!(await fs.lstat(path.join(repository, relative))).isFile()) throw new Error('Missing study source: ' + relative);
+  }
+}
 if (!files.includes(path.join(source, 'index.html'))) throw new Error('Missing site/index.html');
 let references = 0;
 for (const file of files.filter(file => /\.(html|css)$/.test(file))) {
@@ -44,7 +59,7 @@ for (const file of files.filter(file => /\.(html|css)$/.test(file))) {
     if (!clean) continue;
     const resolved = path.resolve(path.dirname(file), clean);
     if (resolved !== source && !resolved.startsWith(source + path.sep)) throw new Error('Site reference leaves site/: ' + url);
-    let stat = await fs.stat(resolved).catch(() => null);
+    let stat = await fs.stat(processImages.get(resolved) ?? resolved).catch(() => null);
     if (stat?.isDirectory()) stat = await fs.stat(path.join(resolved, 'index.html')).catch(() => null);
     if (!stat?.isFile()) throw new Error('Missing site reference: ' + path.relative(source, file) + ' -> ' + url);
     references++;
@@ -52,5 +67,7 @@ for (const file of files.filter(file => /\.(html|css)$/.test(file))) {
 }
 await fs.mkdir(path.dirname(destination), { recursive: true });
 await fs.cp(source, destination, { recursive: true, errorOnExist: true, force: false });
+await fs.mkdir(path.join(destination, 'assets/process'));
+for (const [virtual, original] of processImages) await fs.copyFile(original, path.join(destination, path.relative(source, virtual)));
 await fs.writeFile(path.join(destination, '.nojekyll'), '');
-console.log(JSON.stringify({ status: 'staged', files: files.length, checkedLocalReferences: references, output: destination, deployed: false }));
+console.log(JSON.stringify({ status: 'staged', files: files.length + processImages.size, reusedProcessImages: processImages.size, checkedLocalReferences: references, output: destination, deployed: false }));
