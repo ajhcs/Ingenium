@@ -1,5 +1,36 @@
 # Slice 1 component contracts
 
+## Optional project tools companion
+
+The separate `@ajhcs/ingenium-tools` companion packages only browser inspection,
+preservation comparison, report primitives and its CLI. It has no mandatory
+dependencies, install scripts, hooks, server or automatic downloads. The basic
+skill and its guidance ZIP remain independently usable. Packaging is an explicit
+local operation, not publication or installation into a client.
+
+`createProjectBrowserSession({url, adapterDir?, executablePath?})` is an additive
+browser entrypoint for an explicitly selected, trusted local project. Only HTTP
+loopback URLs and requests to that exact origin are allowed; redirects are
+refused and WebSockets obey the same origin boundary. The existing fixture entrypoint retains its
+blocked-network contract. Both reuse the same measurements and optional adapters.
+
+`inspectProject({url, outputDir, profiles?, previousSnapshotPath?, adapterDir?,
+executablePath?})` exclusively creates a new evidence directory. Profiles name
+viewports, optional reduced motion, states and authored journeys. It saves full
+observations, screenshots, a rendered inventory, the common report and a compact
+summary. Missing adapters, failed captures and unmatched comparison states remain
+explicit; they never count as preservation passes. Inspection may execute the
+selected project's scripts and authored interactions with the operator's local
+authority; it is not a hostile-content sandbox.
+
+`compareInventories(before, after)` compares observed semantic content, links,
+form attributes and controls without layout/style coordinates. Removed items and
+changed attributes are evidence for review, not proof of broken or preserved
+runtime behavior. Runtime values and checked state are not persisted. Captured
+states, accessible-name approximations and declarative wiring are bounded;
+framework event listeners, backend effects and unvisited routes remain untested.
+Private project captures belong outside Git. No upstream code is imported.
+
 ## Original method studies
 
 `tools/generate-method-studies.mjs` exports pure `buildMethodStudies({subjectTitle?, collageSpacingScale?}={})` returning eight original synthetic static SVG study records. `writeMethodStudies(outputDir, options={})` accepts the same finite options. The canonical title drives linked visible projections and preserves domain identity; the bounded collage bar magnification is presentation-only. `verifyMethodStudySources(sourceDir)` checks current bytes against the supplied source manifest and reports pass/fail without semantic claims. The authoring CLI (`OUTPUT_DIR [--options OPTIONS.json]`) exclusively creates a new source directory with editable SVGs and a source manifest; `--verify SOURCE_DIR` is read-only. `tools/render-method-studies.mjs` exports async `renderMethodStudies({sourceDir, outputDir, rendererDir?, sharpModule?})`; it probes the existing optional renderer, exclusively creates a new output directory, exports separate PNGs through the existing SVG boundary and writes a distinct render manifest only after all eight exports succeed. Failure may leave a partial newly created directory; it is not a completed collection. No install, client registration or product behavior is performed. Source records use `ingenium-method-study/1` metadata with stable artifact/scenario IDs, authored revision, purpose/audience, fidelity/interactivity, explicit modelVersion/binding assumptions, claim-level subject/result/evidence/limits/toolVersion/sourceRevision fields, view-element IDs, omissions and unresolved decisions. A view-element identity differs from its shared synthetic domain subject. Raw draft, valid working value, view state, specified validation revision and acknowledged-save revision remain distinct; local validity never implies Saved. Valid updates follow the declared automatic policy; invalid drafts retain the last valid model. Stale receipts require matching request ID/revision and freshness, and are not accepted as current evidence. Undo creates a new semantic revision rather than rewinding identity. These are static illustrative contracts, not native model/API bindings or executed state transitions. Collage metadata declares treatment variables/held content; fontplate metadata separates fixed-metrics and tuned-fit comparison modes without claiming a winner. These example-authoring helpers do not change the existing component interfaces. Actual exports, provenance and integrity are checked separately from taste, interaction behavior, accessibility or engineering acceptance.

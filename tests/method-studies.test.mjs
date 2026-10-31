@@ -66,7 +66,13 @@ test('published previews and contrast evidence bind the current editable sources
   for (const source of contrast.sources) {
     assert.equal(source.sha256, digest(await readFile(new URL(`../examples/methods/source/${source.id}.svg`, import.meta.url))));
   }
-  assert.deepEqual(contrast,checkMethodContrast(),'retained pair ratios, statuses and source bindings match a fresh computation');
+  const fresh = checkMethodContrast();
+  // Node 22 and 24 differ by a few floating-point units in exponentiation.
+  // Compare identities/statuses exactly; tolerate only arithmetic noise in receipts.
+  for (const [index, pair] of contrast.pairs.entries()) {
+    assert.ok(Math.abs(pair.ratio - fresh.pairs[index].ratio) <= 8 * Number.EPSILON * Math.max(1, pair.ratio), 'retained contrast arithmetic remains equivalent');
+  }
+  assert.deepEqual(contrast, { ...fresh, pairs: fresh.pairs.map((pair, index) => ({ ...pair, ratio: contrast.pairs[index].ratio })) }, 'statuses and source bindings match exactly; contrast thresholds remain unrounded');
   assert.ok(contrast.pairs.every(pair => pair.status === 'pass' && pair.ratio >= pair.threshold));
 });
 

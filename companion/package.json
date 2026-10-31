@@ -1,0 +1,11 @@
+{
+  "name": "@ajhcs/ingenium-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Optional local project inspection and preservation inventory for Ingenium",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "ingenium-tools": "./bin/ingenium-tools.mjs" },
+  "files": ["bin/", "src/", "README.md", "LICENSE"]
+}

@@ -3,6 +3,8 @@ import { pathToFileURL } from 'node:url';
 import { resolve, isAbsolute, join } from 'node:path';
 import { realpath } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
+import { localProjectUrl, isProjectRequest } from './local-url.mjs';
+import { capturePageInventory } from './inventory.mjs';
 
 const hash = value => createHash('sha256').update(value).digest('hex');
 const json = value => JSON.parse(JSON.stringify(value));
@@ -22,6 +24,16 @@ async function dependencies(adapterDir) {
 
 /** Explicit optional adapter. The supplied HTML must be owned, trusted synthetic content. */
 export async function createBrowserSession({ adapterDir, executablePath } = {}) {
+  return prepareSession({ adapterDir, executablePath });
+}
+
+/** Explicit project entrypoint. Fixture inspection never enables local networking. */
+export async function createProjectBrowserSession({ url, adapterDir, executablePath } = {}) {
+  const origin = localProjectUrl(url).origin;
+  return prepareSession({ adapterDir, executablePath, origin });
+}
+
+async function prepareSession({ adapterDir, executablePath, origin }) {
   for (const [key, value] of Object.entries({ adapterDir, executablePath })) {
     if (value !== undefined && (typeof value !== 'string' || !value.trim())) return { status: 'error', capability: { available: false, reason: `${key} must be a nonempty string when provided`, code: 'INVALID_SELECTOR' } };
   }
@@ -39,9 +51,31 @@ export async function createBrowserSession({ adapterDir, executablePath } = {}) 
     browser = await playwright.chromium.launch({ headless: true, chromiumSandbox: true, ...(executablePath ? { executablePath } : {}) });
     const context = await browser.newContext({ serviceWorkers: 'block' });
     let network = [];
-    await context.route('**/*', route => { network.push({ url: route.request().url(), status: 'blocked' }); return route.abort('blockedbyclient'); });
+    await context.route('**/*', async route => {
+      const url = route.request().url();
+      if (origin && isProjectRequest(url, origin)) {
+        // Chromium can follow redirects without invoking another route handler.
+        // Fetch with no redirects, then fulfill; require the final URL explicitly.
+        let response;
+        try {
+          response = await route.fetch({ maxRedirects: 0, timeout: 15000 });
+          if (response.status() >= 300 && response.status() < 400) {
+            network.push({ url, status: 'blocked-redirect', reason: 'Select the final loopback URL explicitly' });
+            return await route.abort('blockedbyclient');
+          }
+          return await route.fulfill({ response });
+        } catch {
+          network.push({ url, status: 'request-error' });
+          return await route.abort('failed').catch(() => {});
+        } finally { await response?.dispose(); }
+      }
+      network.push({ url, status: 'blocked' }); return route.abort('blockedbyclient');
+    });
     if (typeof context.routeWebSocket !== 'function') throw new Error('Compatible Playwright routeWebSocket required for external network guard');
-    await context.routeWebSocket('**/*', socket => { network.push({ url: socket.url(), status: 'blocked-websocket' }); socket.close(); });
+    await context.routeWebSocket('**/*', socket => {
+      if (origin && isProjectRequest(socket.url(), origin, true)) { socket.connectToServer(); return; }
+      network.push({ url: socket.url(), status: 'blocked-websocket' }); socket.close();
+    });
     const page = await context.newPage();
     page.setDefaultTimeout(5000);
     const consoleErrors = [];
@@ -62,10 +96,15 @@ export async function createBrowserSession({ adapterDir, executablePath } = {}) 
         if (step.action === 'click') await locator.click();
         else if (step.action === 'focus') await locator.focus();
         else if (step.action === 'press') await (locator ? locator.press(step.key) : page.keyboard.press(step.key));
+        else if (step.action === 'fill') await locator.fill(step.value);
         else if (step.action === 'waitFor') await locator.waitFor({ state: 'visible' });
         else if (step.action === 'expectFocus') {
           const matches = await locator.evaluate(el => el === document.activeElement);
           evidence.push({ ...step, status: matches ? 'pass' : 'fail' });
+          continue;
+        } else if (step.action === 'expectText' || step.action === 'expectValue') {
+          const value = step.action === 'expectText' ? await locator.innerText() : await locator.inputValue();
+          evidence.push({ ...step, status: value === step.value ? 'pass' : 'fail' });
           continue;
         } else throw new Error(`Unsupported journey action: ${step.action}`);
         evidence.push({ ...step, status: 'pass' });
@@ -73,7 +112,7 @@ export async function createBrowserSession({ adapterDir, executablePath } = {}) 
       return evidence;
     }
     const session = {
-      async inspect({ html, profile, state = { name: 'default' }, journeys = [], screenshotPath } = {}) {
+      async inspect({ html, url, profile, state = { name: 'default' }, journeys = [], screenshotPath } = {}) {
         const scope = { profile: typeof profile?.name === 'string' ? profile.name : 'unspecified', state: typeof state?.name === 'string' ? state.name : 'default' };
         let authoredExceptions = [];
         const issues = [];
@@ -86,11 +125,13 @@ export async function createBrowserSession({ adapterDir, executablePath } = {}) 
         busy = true;
         let sourceHash;
         try {
-          if (typeof html !== 'string' || !html.trim()) throw new TypeError('html must contain owned synthetic HTML');
-          const allowedProfile = new Set(['name', 'viewport', 'textSpacing', 'expectedFonts', 'exceptions', 'delivery']);
+          if (origin) { localProjectUrl(url, origin); if (html !== undefined) throw new TypeError('Project inspection takes a URL, not fixture HTML'); }
+          else if (url !== undefined || typeof html !== 'string' || !html.trim()) throw new TypeError('html must contain owned synthetic HTML; use the project entrypoint for URLs');
+          const allowedProfile = new Set(['name', 'viewport', 'textSpacing', 'expectedFonts', 'exceptions', 'delivery', 'reducedMotion']);
           if (!profile || typeof profile !== 'object' || Array.isArray(profile) || Object.keys(profile).some(key => !allowedProfile.has(key))) throw new TypeError('Unsupported profile field; browser zoom is not implemented');
           if (typeof profile.name !== 'string' || !profile.name.trim() || !Number.isInteger(profile.viewport?.width) || !Number.isInteger(profile.viewport?.height) || profile.viewport.width < 1 || profile.viewport.height < 1 || Object.keys(profile.viewport).some(key => !['width', 'height'].includes(key))) throw new TypeError('profile requires name and positive integer viewport width/height only');
           if (profile.textSpacing !== undefined && typeof profile.textSpacing !== 'boolean') throw new TypeError('textSpacing must be boolean');
+          if (profile.reducedMotion !== undefined && typeof profile.reducedMotion !== 'boolean') throw new TypeError('reducedMotion must be boolean');
           if (profile.delivery !== undefined && typeof profile.delivery !== 'string') throw new TypeError('delivery must be a string');
           if (profile.expectedFonts !== undefined && (!Array.isArray(profile.expectedFonts) || profile.expectedFonts.some(font => typeof font !== 'string' || !font.trim()) || new Set(profile.expectedFonts).size !== profile.expectedFonts.length)) throw new TypeError('expectedFonts must be distinct nonempty CSS font strings');
           if (profile.exceptions !== undefined && (!Array.isArray(profile.exceptions) || profile.exceptions.some(e => !e || typeof e !== 'object' || ['rule', 'target', 'reason'].some(key => typeof e[key] !== 'string' || !e[key].trim())))) throw new TypeError('exceptions must be an array of authored rule/target/reason records');
@@ -98,16 +139,24 @@ export async function createBrowserSession({ adapterDir, executablePath } = {}) 
           if (!state || typeof state.name !== 'string' || !state.name.trim()) throw new TypeError('state requires a name');
           if (!Array.isArray(journeys)) throw new TypeError('journeys must be an array');
           if (screenshotPath && !isAbsolute(screenshotPath)) throw new TypeError('screenshotPath must be absolute');
-          sourceHash = hash(html);
+          if (!origin) sourceHash = hash(html);
           network = [];
           consoleErrors.length = 0;
           await page.goto('about:blank');
           await page.setViewportSize(profile.viewport);
-          await page.setContent(html, { waitUntil: 'load', timeout: 10000 });
+          await page.emulateMedia({ reducedMotion: profile.reducedMotion ? 'reduce' : 'no-preference' });
+          if (origin) {
+            const response = await page.goto(url, { waitUntil: 'load', timeout: 15000 });
+            localProjectUrl(page.url(), origin);
+            if (!response || !response.ok()) throw new Error(`Project navigation failed: HTTP ${response?.status() ?? 'unavailable'}`);
+            raw.url = page.url();
+          } else await page.setContent(html, { waitUntil: 'load', timeout: 10000 });
           if (profile.textSpacing) await page.addStyleTag({ content: '* {line-height:1.5 !important;letter-spacing:0.12em !important;word-spacing:0.16em !important} p {margin-block-end:2em !important}' });
           raw.state = await steps(state.steps);
+          if (origin) localProjectUrl(page.url(), origin);
           if (raw.state.some(step => step.status === 'fail')) issue('state-assertion', state.name, 'fail', { steps: raw.state, note: 'Authored state assertion did not hold.' });
           await page.evaluate(() => Promise.race([document.fonts.ready, new Promise((_, reject) => setTimeout(() => reject(new Error('Font readiness timed out')), 5000))]));
+          if (origin) { sourceHash = hash(await page.content()); raw.inventory = await page.evaluate(capturePageInventory); }
           raw.fonts = await page.evaluate(expected => ({ status: document.fonts.status, faces: [...document.fonts].map(f => ({ family: f.family, status: f.status })), expected: expected.map(font => ({ font, available: document.fonts.check(font) })) }), profile.expectedFonts ?? []);
           issue('font-readiness', 'document', raw.fonts.status === 'loaded' && !raw.fonts.faces.some(f => f.status === 'error') ? 'pass' : 'fail', raw.fonts);
           for (const font of raw.fonts.expected) issue('font-availability', font.font, font.available ? 'review-needed' : 'fail', { ...font, note: 'CSS FontFaceSet availability does not prove exact glyph selection; fallback may occur.' });
@@ -151,16 +200,20 @@ export async function createBrowserSession({ adapterDir, executablePath } = {}) 
               raw.journeys.push({ name: journey.name, steps: result });
               const assertions = result.filter(s => s.action === 'expectFocus');
               issue('keyboard-focus-journey', journey.name, assertions.length ? (assertions.some(s => s.status === 'fail') ? 'fail' : 'pass') : 'review-needed', { steps: result, note: 'Only authored actions and explicit focus assertions were tested.' });
+              const contentAssertions = result.filter(s => ['expectText', 'expectValue'].includes(s.action));
+              if (contentAssertions.length) issue('authored-journey', journey.name, contentAssertions.some(s => s.status === 'fail') ? 'fail' : 'pass', { steps: result, note: 'Exact authored text/value assertions only; keyboard coverage is separate.' });
             } catch (error) {
               raw.journeys.push({ name: journey.name, error: error.message });
               issue('keyboard-focus-journey', journey.name, 'error', { reason: error.message });
             }
           }
           if (!journeys.length) issue('keyboard-focus-journey', 'document', 'not-run', { reason: 'No named journeys authored' });
+          if (origin) localProjectUrl(page.url(), origin);
           raw.network = [...network]; raw.console = [...consoleErrors];
           if (network.length) issue('blocked-network', 'document', 'review-needed', { count: network.length });
           if (consoleErrors.length) issue('page-errors', 'document', 'error', { errors: [...consoleErrors] });
-          return { status: issues.some(i => i.status === 'error') ? 'error' : issues.some(i => i.status === 'fail') ? 'fail' : issues.some(i => i.status === 'review-needed') ? 'review-needed' : 'pass', scope, sourceHash, environment, issues, raw, limitations };
+          const limits = origin ? ['Selected loopback origin and captured states only; redirects are refused. Blocked resources may affect the result.', ...limitations.slice(1), 'Inventory does not prove event handlers or backend behavior.'] : limitations;
+          return { status: issues.some(i => i.status === 'error') ? 'error' : issues.some(i => i.status === 'fail') ? 'fail' : issues.some(i => i.status === 'review-needed') ? 'review-needed' : 'pass', scope, sourceHash, environment, issues, raw, limitations: limits };
         } catch (error) {
           issue('browser-inspection', 'document', 'error', { reason: error.message });
           raw.network = [...network]; raw.console = [...consoleErrors];
