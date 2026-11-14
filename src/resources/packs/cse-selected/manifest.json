@@ -2130,7 +2130,27 @@
       },
       "file": "masters/palette-src-ports-direction-right.svg",
       "sha256": "e01e8276feb8f1a255b9cc0cda75ab97285350cb7d6e6c51769da0091d15924a",
-      "fontDependent": true
+      "fontDependent": true,
+      "fontHandoff": {
+        "scope": "derived.svg only; original.svg appearance is not qualified",
+        "originalDeclaredFamilies": [
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "originalBinaryIdentity": "not recorded in source master",
+        "derivativePolicy": "Explicit authored derivative replaces Arial family with pinned Liberation Sans; original master unchanged",
+        "fontFiles": [
+          "fonts/LiberationSans-Bold.ttf"
+        ],
+        "requestedWeights": [
+          600
+        ],
+        "resolvedWeights": [
+          700
+        ],
+        "limits": "Live text remains editable. Embedded-font SVG behavior is renderer dependent; browser rendering evidence does not qualify arbitrary SVG editors or historical original appearance."
+      }
     },
     {
       "group": "connectors",
@@ -2177,7 +2197,27 @@
       },
       "file": "masters/palette-src-ports-direction-left.svg",
       "sha256": "f2b34aa814f181e536c301f7aebb12af0dbae906341ba14fa5c14ccd38addf76",
-      "fontDependent": true
+      "fontDependent": true,
+      "fontHandoff": {
+        "scope": "derived.svg only; original.svg appearance is not qualified",
+        "originalDeclaredFamilies": [
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "originalBinaryIdentity": "not recorded in source master",
+        "derivativePolicy": "Explicit authored derivative replaces Arial family with pinned Liberation Sans; original master unchanged",
+        "fontFiles": [
+          "fonts/LiberationSans-Bold.ttf"
+        ],
+        "requestedWeights": [
+          600
+        ],
+        "resolvedWeights": [
+          700
+        ],
+        "limits": "Live text remains editable. Embedded-font SVG behavior is renderer dependent; browser rendering evidence does not qualify arbitrary SVG editors or historical original appearance."
+      }
     },
     {
       "group": "connectors",
@@ -2224,7 +2264,27 @@
       },
       "file": "masters/palette-src-ports-direction-both-h.svg",
       "sha256": "307bf5348afb58809f0b1473397d28fe8b8a5ad14f9460523e854389b2eb90c3",
-      "fontDependent": true
+      "fontDependent": true,
+      "fontHandoff": {
+        "scope": "derived.svg only; original.svg appearance is not qualified",
+        "originalDeclaredFamilies": [
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "originalBinaryIdentity": "not recorded in source master",
+        "derivativePolicy": "Explicit authored derivative replaces Arial family with pinned Liberation Sans; original master unchanged",
+        "fontFiles": [
+          "fonts/LiberationSans-Bold.ttf"
+        ],
+        "requestedWeights": [
+          600
+        ],
+        "resolvedWeights": [
+          700
+        ],
+        "limits": "Live text remains editable. Embedded-font SVG behavior is renderer dependent; browser rendering evidence does not qualify arbitrary SVG editors or historical original appearance."
+      }
     },
     {
       "group": "connectors",
@@ -2271,7 +2331,27 @@
       },
       "file": "masters/palette-src-ports-direction-none.svg",
       "sha256": "118427eff5ecfa29b7be7dccf3b0a6635cedfe41e1a65fcb0bf0efe6ee5e41df",
-      "fontDependent": true
+      "fontDependent": true,
+      "fontHandoff": {
+        "scope": "derived.svg only; original.svg appearance is not qualified",
+        "originalDeclaredFamilies": [
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "originalBinaryIdentity": "not recorded in source master",
+        "derivativePolicy": "Explicit authored derivative replaces Arial family with pinned Liberation Sans; original master unchanged",
+        "fontFiles": [
+          "fonts/LiberationSans-Bold.ttf"
+        ],
+        "requestedWeights": [
+          600
+        ],
+        "resolvedWeights": [
+          700
+        ],
+        "limits": "Live text remains editable. Embedded-font SVG behavior is renderer dependent; browser rendering evidence does not qualify arbitrary SVG editors or historical original appearance."
+      }
     },
     {
       "group": "connectors",
@@ -2319,7 +2399,29 @@
       },
       "file": "masters/palette-refined-connections-connections-page2-loop-feedback.svg",
       "sha256": "a17076f146ef0cbc037b5189f9117ff0522fc39c2d7ec828e5eea41dc0e4f675",
-      "fontDependent": true
+      "fontDependent": true,
+      "fontHandoff": {
+        "scope": "derived.svg only; original.svg appearance is not qualified",
+        "originalDeclaredFamilies": [
+          "DejaVu Sans",
+          "DejaVu Sans Mono"
+        ],
+        "originalBinaryIdentity": "not recorded in source master",
+        "derivativePolicy": "Retain named DejaVu families; embed pinned current binaries, without claiming historical original binary identity",
+        "fontFiles": [
+          "fonts/DejaVuSans-Bold.ttf",
+          "fonts/DejaVuSansMono.ttf"
+        ],
+        "requestedWeights": [
+          400,
+          700
+        ],
+        "resolvedWeights": [
+          400,
+          700
+        ],
+        "limits": "Live text remains editable. Embedded-font SVG behavior is renderer dependent; browser rendering evidence does not qualify arbitrary SVG editors or historical original appearance."
+      }
     },
     {
       "group": "connectors",
@@ -2367,7 +2469,29 @@
       },
       "file": "masters/palette-refined-connections-connections-page1-loop-split-rejoin.svg",
       "sha256": "f74deb0f5d003ef96a635572ccab58c0582df3a1f3a1c10028e76567de9c0c8f",
-      "fontDependent": true
+      "fontDependent": true,
+      "fontHandoff": {
+        "scope": "derived.svg only; original.svg appearance is not qualified",
+        "originalDeclaredFamilies": [
+          "DejaVu Sans",
+          "DejaVu Sans Mono"
+        ],
+        "originalBinaryIdentity": "not recorded in source master",
+        "derivativePolicy": "Retain named DejaVu families; embed pinned current binaries, without claiming historical original binary identity",
+        "fontFiles": [
+          "fonts/DejaVuSans-Bold.ttf",
+          "fonts/DejaVuSansMono.ttf"
+        ],
+        "requestedWeights": [
+          400,
+          700
+        ],
+        "resolvedWeights": [
+          400,
+          700
+        ],
+        "limits": "Live text remains editable. Embedded-font SVG behavior is renderer dependent; browser rendering evidence does not qualify arbitrary SVG editors or historical original appearance."
+      }
     },
     {
       "group": "schematic",
@@ -3234,8 +3358,89 @@
       },
       "file": "masters/doc-dimension.svg",
       "sha256": "66d5e62110ab083aa4f4557ff99a84e173499a3cc015bbbe7dcc8fa3b2992fc6",
-      "fontDependent": true
+      "fontDependent": true,
+      "fontHandoff": {
+        "scope": "derived.svg only; original.svg appearance is not qualified",
+        "originalDeclaredFamilies": [
+          "Arial",
+          "sans-serif"
+        ],
+        "originalBinaryIdentity": "not recorded in source master",
+        "derivativePolicy": "Explicit authored derivative replaces Arial family with pinned Liberation Sans; original master unchanged",
+        "fontFiles": [
+          "fonts/LiberationSans-Regular.ttf"
+        ],
+        "requestedWeights": [
+          400
+        ],
+        "resolvedWeights": [
+          400
+        ],
+        "limits": "Live text remains editable. Embedded-font SVG behavior is renderer dependent; browser rendering evidence does not qualify arbitrary SVG editors or historical original appearance."
+      }
     }
   ],
-  "limits": "Exact source artwork, not model semantics or engineering approval. Source origin references and status retained per item. SVG admission and separate visual/handoff evidence required."
+  "limits": "Exact source artwork, not model semantics or engineering approval. Source origin references and status retained per item. SVG admission and separate visual/handoff evidence required.",
+  "fonts": [
+    {
+      "file": "fonts/LiberationSans-Regular.ttf",
+      "sha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49",
+      "bytes": 350200,
+      "family": "Liberation Sans",
+      "style": "normal",
+      "weight": 400,
+      "postScriptName": "LiberationSans",
+      "version": "Version 2.00.1",
+      "notice": "LICENSE-font-liberation.txt",
+      "origin": "Retained fontLiberation 0.1.0 data; binary version 2.00.1; upstream distribution identity not independently verified",
+      "sourceURL": "https://cran.r-project.org/package=fontLiberation",
+      "modifications": "none",
+      "noticeSHA256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b"
+    },
+    {
+      "file": "fonts/LiberationSans-Bold.ttf",
+      "sha256": "d723d5a272970aedf296ef6fc628180df6074bce7769701ea9e0d222c052668c",
+      "bytes": 353936,
+      "family": "Liberation Sans",
+      "style": "normal",
+      "weight": 700,
+      "postScriptName": "LiberationSans-Bold",
+      "version": "Version 2.00.1",
+      "notice": "LICENSE-font-liberation.txt",
+      "origin": "Retained fontLiberation 0.1.0 data; binary version 2.00.1; upstream distribution identity not independently verified",
+      "sourceURL": "https://cran.r-project.org/package=fontLiberation",
+      "modifications": "none",
+      "noticeSHA256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b"
+    },
+    {
+      "file": "fonts/DejaVuSans-Bold.ttf",
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+      "bytes": 708920,
+      "family": "DejaVu Sans",
+      "style": "normal",
+      "weight": 700,
+      "postScriptName": "DejaVuSans-Bold",
+      "version": "Version 2.37",
+      "notice": "LICENSE-font-dejavu.txt",
+      "origin": "Debian fonts-dejavu-core 2.37-8; unmodified upstream DejaVu 2.37 font",
+      "sourceURL": "https://dejavu-fonts.github.io/",
+      "modifications": "none",
+      "noticeSHA256": "4d0644fe20b43d078496305a2c178620ceb71d257e0f623f1bdf07c4561bddd8"
+    },
+    {
+      "file": "fonts/DejaVuSansMono.ttf",
+      "sha256": "c805f9436dbc268644c1d9584f01a601a653e028e08fd74b9b949f6cf8304d88",
+      "bytes": 343140,
+      "family": "DejaVu Sans Mono",
+      "style": "normal",
+      "weight": 400,
+      "postScriptName": "DejaVuSansMono",
+      "version": "Version 2.37",
+      "notice": "LICENSE-font-dejavu.txt",
+      "origin": "Debian fonts-dejavu-core 2.37-8; unmodified upstream DejaVu 2.37 font",
+      "sourceURL": "https://dejavu-fonts.github.io/",
+      "modifications": "none",
+      "noticeSHA256": "4d0644fe20b43d078496305a2c178620ceb71d257e0f623f1bdf07c4561bddd8"
+    }
+  ]
 }

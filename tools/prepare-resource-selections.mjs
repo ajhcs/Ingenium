@@ -8,7 +8,7 @@ const selected=Object.freeze([
   {id:'resource-hack',directory:'src/resources/packs/hack',opening:'manifest.json',notices:['LICENSE.md']},
   {id:'resource-cse-fonts',directory:'src/resources/packs/cse-fonts',opening:'manifest.json',notices:['inter-OFL.txt','space-OFL.txt']},
   {id:'resource-liberation-sans',directory:'src/resources/packs/liberation-sans',opening:'manifest.json',notices:['LICENSE']},
-  {id:'resource-cse-selected',directory:'src/resources/packs/cse-selected',opening:'manifest.json',notices:['LICENSE']},
+  {id:'resource-cse-selected',directory:'src/resources/packs/cse-selected',opening:'manifest.json',notices:['LICENSE','LICENSE-font-liberation.txt','LICENSE-font-dejavu.txt']},
   {id:'resource-atomic-ui',directory:'src/resources/packs/daisyui',opening:'package.json',notices:['LICENSE']},
   {id:'resource-materials',directory:'src/resources/packs/open-props',opening:'package.json',notices:['LICENSE']},
   {id:'resource-recipes',directory:'examples/evolution/resource-recipes',opening:'README.md',notices:['LICENSE','CSE-LICENSE.txt']},

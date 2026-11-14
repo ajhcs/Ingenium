@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.2.0-alpha.3 — prerelease
+
+Closes the seven selected CSE live-text handoffs with pinned fonts, complete notices and editable standalone SVG derivatives. Original masters remain byte-identical. Five originals name Arial without a recorded binary; their explicitly authored derivatives use Liberation Sans. Two retain their named DejaVu families. Qualification identifies the derivative scope and binds font bytes and notices, so changed dependencies cannot keep a current qualification.
+
+HTML generation now routes to a portable responsive starter and a concrete inspect/repair/deliver procedure. It covers useful text width, long content, full control labels, keyboard table scrolling, doubled text and actual browser zoom as separate observations. The guidance ZIP includes the original editable starter. Initial failures remain distinct from repaired outputs; selected successful checks do not guarantee every future generated page.
+
+Upgrade notes:
+
+- Replace the selected CSE resource pack alongside the core helper to receive the font-complete handoffs. Existing exported sources are not rewritten. Preserve every accompanying font notice.
+- The guidance ZIP now includes `assets/responsive-starter.html`; retain the directory when copying the skill. It remains usable without Node or a renderer.
+- Browser-capable real-client evaluation can explicitly select `--sandbox danger-full-access`; the default remains `workspace-write`. This opts out of the client command sandbox for an operator-controlled evaluation and is never selected automatically.
+- Open a fresh client session after updating guidance or the global plugin. Actual-client checks [12](https://github.com/ajhcs/Ingenium/issues/12), [13](https://github.com/ajhcs/Ingenium/issues/13) and [14](https://github.com/ajhcs/Ingenium/issues/14) remain open.
+
 ## 0.2.0-alpha.2 — prerelease
 
 Repairs release-audit findings in continuation, resource edits, exports and the website. Continuation includes the brief and actual decision values and checks explicitly referenced current sources and outputs. Recipe handoffs retain the selected current state across later edits; unchanged palette acquisition works; task discovery includes bounded texture and icon routes. Document recipes wrap representative long content, and the featured document reflows at narrow widths and enlarged text.

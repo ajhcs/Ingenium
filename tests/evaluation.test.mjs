@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
-import { readFile, mkdir, mkdtemp, writeFile, rm, symlink } from 'node:fs/promises';
+import { readFile, mkdir, mkdtemp, writeFile, rm, symlink, chmod } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
-import { inventory, prepareCase, validateManifest, main } from '../tools/run-behavioral-evaluation.mjs';
+import { inventory, prepareCase, validateManifest, main, runCase } from '../tools/run-behavioral-evaluation.mjs';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const manifest = JSON.parse(await readFile(new URL('./fixtures/evaluation/manifest.json', import.meta.url), 'utf8'));
 async function fixture(t) {
@@ -58,4 +58,21 @@ test('documented preparation works with a new parent tree and keeps destination 
   assert.equal(results[0].status, 'not-run');
   assert.equal(results.length, 1);
   await assert.rejects(main(args), /EEXIST/);
+});
+
+test('execution sandbox defaults to workspace-write and unrestricted execution requires an explicit selection', async t => {
+  const dir = await fixture(t), skillDir = path.join(dir, 'candidate'), client = path.join(dir, 'fake-client');
+  await mkdir(skillDir);
+  await writeFile(path.join(skillDir, 'SKILL.md'), 'Synthetic candidate');
+  await writeFile(client, '#!/usr/bin/env node\nif (process.argv.includes("--version")) console.log("fake 1"); else console.log(JSON.stringify(process.argv.slice(2)));\n');
+  await chmod(client, 0o755);
+  const base = { manifest, id: 'minimal-brief', skillDir, client, model: 'synthetic' };
+  await assert.rejects(runCase({ ...base, sandbox: 'unsafe', outputDir: path.join(dir, 'invalid') }), /Sandbox/);
+  for (const [name, sandbox] of [['default', undefined], ['explicit', 'danger-full-access']]) {
+    const result = await runCase({ ...base, ...(sandbox ? { sandbox } : {}), outputDir: path.join(dir, name) });
+    assert.equal(result.environment.sandbox, sandbox || 'workspace-write');
+    const invocation = result.environment.invocation;
+    assert.equal(invocation[invocation.indexOf('-s') + 1], sandbox || 'workspace-write');
+    assert.equal(result.status, 'observed-needs-review');
+  }
 });

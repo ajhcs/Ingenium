@@ -8,9 +8,9 @@
   },
   "cseCatalogCount": 1076,
   "cseCatalogSHA256": "1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
-  "candidateCount": 105,
-  "candidateNewSelections": 78,
-  "status": "Fresh edit/export/copy/reopen evidence for exact source, recipe and notice digests; retained prior evidence identities. Independent release review and semantic acceptance remain separate.",
+  "candidateCount": 112,
+  "candidateNewSelections": 85,
+  "status": "Fresh sandbox-enabled Chromium acquisition, two edits, export, copy and reopen observations for 112 exact source/recipe/notice bindings. Seven live-text qualifications scope derived.svg only and bind fonts, notices and actual custom rendered glyph identities; original historical appearance and SVG editor support remain unqualified.",
   "records": [
     {
       "providerId": "cse-selected",
@@ -24,12 +24,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-cylinder",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-cylinder",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-cylinder"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-cylinder",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-cylinder",
+        "release-repair-20261114/cse-selected/mech-cylinder"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -43,12 +47,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-servo",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-servo",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-servo"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-servo",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-servo",
+        "release-repair-20261114/cse-selected/mech-servo"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -62,12 +70,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-beam",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-beam",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-beam"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-beam",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-beam",
+        "release-repair-20261114/cse-selected/mech-beam"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -81,12 +93,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-frame",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-frame",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-frame"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-frame",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-frame",
+        "release-repair-20261114/cse-selected/mech-frame"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -100,12 +116,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-support",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-support",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-support"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-support",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-support",
+        "release-repair-20261114/cse-selected/mech-support"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -119,12 +139,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-bracket",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-bracket",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-bracket"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-bracket",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-bracket",
+        "release-repair-20261114/cse-selected/mech-bracket"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -138,12 +162,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-foundation",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-foundation",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-foundation"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-foundation",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-foundation",
+        "release-repair-20261114/cse-selected/mech-foundation"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -157,12 +185,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-drill",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-drill",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-drill"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-drill",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-drill",
+        "release-repair-20261114/cse-selected/mech-drill"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -176,12 +208,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-gear",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-gear",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-gear"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-gear",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-gear",
+        "release-repair-20261114/cse-selected/mech-gear"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -195,12 +231,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-pulley",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-pulley",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-pulley"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-pulley",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-pulley",
+        "release-repair-20261114/cse-selected/mech-pulley"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -214,12 +254,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-belt",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-belt",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-belt"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-belt",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-belt",
+        "release-repair-20261114/cse-selected/mech-belt"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -233,12 +277,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-chain",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-chain",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-chain"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-chain",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-chain",
+        "release-repair-20261114/cse-selected/mech-chain"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -252,12 +300,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-cam",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-cam",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-cam"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-cam",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-cam",
+        "release-repair-20261114/cse-selected/mech-cam"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -271,12 +323,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-lever",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-lever",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-lever"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-lever",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-lever",
+        "release-repair-20261114/cse-selected/mech-lever"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -290,12 +346,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-linkage",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-linkage",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-linkage"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-linkage",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-linkage",
+        "release-repair-20261114/cse-selected/mech-linkage"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -309,12 +369,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-bearing",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-bearing",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-bearing"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-bearing",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-bearing",
+        "release-repair-20261114/cse-selected/mech-bearing"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -328,12 +392,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-spring",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-spring",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-spring"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-spring",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-spring",
+        "release-repair-20261114/cse-selected/mech-spring"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -347,12 +415,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-shaft",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-shaft",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-shaft"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-shaft",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-shaft",
+        "release-repair-20261114/cse-selected/mech-shaft"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -366,12 +438,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-coupling",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-coupling",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-coupling"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-coupling",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-coupling",
+        "release-repair-20261114/cse-selected/mech-coupling"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -385,12 +461,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-joint",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-joint",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-joint"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-joint",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-joint",
+        "release-repair-20261114/cse-selected/mech-joint"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -404,12 +484,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-fastener",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-fastener",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-fastener"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-fastener",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-fastener",
+        "release-repair-20261114/cse-selected/mech-fastener"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -423,12 +507,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-motor",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-motor",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-motor"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-motor",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-motor",
+        "release-repair-20261114/cse-selected/mech-motor"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -442,12 +530,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-actuator",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-actuator",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-actuator"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-actuator",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-actuator",
+        "release-repair-20261114/cse-selected/mech-actuator"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -461,12 +553,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/mech-piston",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/mech-piston",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/mech-piston"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/mech-piston",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/mech-piston",
+        "release-repair-20261114/cse-selected/mech-piston"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -480,12 +576,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-terminal-physical",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-terminal-physical",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-terminal-physical"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-terminal-physical",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-terminal-physical",
+        "release-repair-20261114/cse-selected/elec-terminal-physical"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -499,12 +599,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-plug-physical",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-plug-physical",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-plug-physical"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-plug-physical",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-plug-physical",
+        "release-repair-20261114/cse-selected/elec-plug-physical"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -518,12 +622,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-socket-physical",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-socket-physical",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-socket-physical"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-socket-physical",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-socket-physical",
+        "release-repair-20261114/cse-selected/elec-socket-physical"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -537,12 +645,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-signal-ground",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-signal-ground",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-signal-ground"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-signal-ground",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-signal-ground",
+        "release-repair-20261114/cse-selected/elec-signal-ground"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -556,12 +668,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-protective-earth",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-protective-earth",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-protective-earth"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-protective-earth",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-protective-earth",
+        "release-repair-20261114/cse-selected/elec-protective-earth"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -575,12 +691,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/palette-src-foundation-foundation-crossings-gap-artwork",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/palette-src-foundation-foundation-crossings-gap-artwork",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-crossings-gap-artwork"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/palette-src-foundation-foundation-crossings-gap-artwork",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/palette-src-foundation-foundation-crossings-gap-artwork",
+        "release-repair-20261114/cse-selected/palette-src-foundation-foundation-crossings-gap-artwork"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -594,12 +714,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/palette-src-foundation-foundation-crossings-bridge-artwork",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/palette-src-foundation-foundation-crossings-bridge-artwork",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-crossings-bridge-artwork"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/palette-src-foundation-foundation-crossings-bridge-artwork",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/palette-src-foundation-foundation-crossings-bridge-artwork",
+        "release-repair-20261114/cse-selected/palette-src-foundation-foundation-crossings-bridge-artwork"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -613,12 +737,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-connector-physical",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-connector-physical",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-connector-physical"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-connector-physical",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-connector-physical",
+        "release-repair-20261114/cse-selected/elec-connector-physical"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -632,12 +760,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-connector-schematic",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-connector-schematic",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-connector-schematic"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-connector-schematic",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-connector-schematic",
+        "release-repair-20261114/cse-selected/elec-connector-schematic"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -651,12 +783,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-terminal-schematic",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-terminal-schematic",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-terminal-schematic"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-terminal-schematic",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-terminal-schematic",
+        "release-repair-20261114/cse-selected/elec-terminal-schematic"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -670,12 +806,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-plug-schematic",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-plug-schematic",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-plug-schematic"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-plug-schematic",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-plug-schematic",
+        "release-repair-20261114/cse-selected/elec-plug-schematic"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -689,12 +829,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-socket-schematic",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-socket-schematic",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-socket-schematic"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-socket-schematic",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-socket-schematic",
+        "release-repair-20261114/cse-selected/elec-socket-schematic"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -708,12 +852,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/comp-network-connection",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/comp-network-connection",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/comp-network-connection"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/comp-network-connection",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/comp-network-connection",
+        "release-repair-20261114/cse-selected/comp-network-connection"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -727,12 +875,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-resistor-schematic",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-resistor-schematic",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-resistor-schematic"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-resistor-schematic",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-resistor-schematic",
+        "release-repair-20261114/cse-selected/elec-resistor-schematic"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -746,12 +898,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-capacitor-schematic",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-capacitor-schematic",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-capacitor-schematic"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-capacitor-schematic",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-capacitor-schematic",
+        "release-repair-20261114/cse-selected/elec-capacitor-schematic"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -765,12 +921,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-inductor-schematic",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-inductor-schematic",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-inductor-schematic"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-inductor-schematic",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-inductor-schematic",
+        "release-repair-20261114/cse-selected/elec-inductor-schematic"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -784,12 +944,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/elec-diode-schematic",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/elec-diode-schematic",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/elec-diode-schematic"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/elec-diode-schematic",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/elec-diode-schematic",
+        "release-repair-20261114/cse-selected/elec-diode-schematic"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -803,12 +967,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/fluid-valve-schematic",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/fluid-valve-schematic",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/fluid-valve-schematic"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/fluid-valve-schematic",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/fluid-valve-schematic",
+        "release-repair-20261114/cse-selected/fluid-valve-schematic"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -822,12 +990,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/fluid-pump-schematic",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/fluid-pump-schematic",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/fluid-pump-schematic"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/fluid-pump-schematic",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/fluid-pump-schematic",
+        "release-repair-20261114/cse-selected/fluid-pump-schematic"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -841,12 +1013,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/actions-inspect",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/actions-inspect",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/actions-inspect"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/actions-inspect",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/actions-inspect",
+        "release-repair-20261114/cse-selected/actions-inspect"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -860,12 +1036,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/actions-repair",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/actions-repair",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/actions-repair"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/actions-repair",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/actions-repair",
+        "release-repair-20261114/cse-selected/actions-repair"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -879,12 +1059,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/warnings-prohibition",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/warnings-prohibition",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/warnings-prohibition"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/warnings-prohibition",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/warnings-prohibition",
+        "release-repair-20261114/cse-selected/warnings-prohibition"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -898,12 +1082,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/doc-reference-arrow",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/doc-reference-arrow",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/doc-reference-arrow"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/doc-reference-arrow",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/doc-reference-arrow",
+        "release-repair-20261114/cse-selected/doc-reference-arrow"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -917,12 +1105,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/annotations-information",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/annotations-information",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/annotations-information"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/annotations-information",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/annotations-information",
+        "release-repair-20261114/cse-selected/annotations-information"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -936,12 +1128,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/annotations-note",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/annotations-note",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/annotations-note"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/annotations-note",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/annotations-note",
+        "release-repair-20261114/cse-selected/annotations-note"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -955,12 +1151,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/palette-src-foundation-foundation-arrowheads-open-v-artwork",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/palette-src-foundation-foundation-arrowheads-open-v-artwork",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-open-v-artwork"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/palette-src-foundation-foundation-arrowheads-open-v-artwork",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-open-v-artwork",
+        "release-repair-20261114/cse-selected/palette-src-foundation-foundation-arrowheads-open-v-artwork"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -974,12 +1174,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/palette-src-foundation-foundation-arrowheads-filled-triangle-artwork",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/palette-src-foundation-foundation-arrowheads-filled-triangle-artwork",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-filled-triangle-artwork"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/palette-src-foundation-foundation-arrowheads-filled-triangle-artwork",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-filled-triangle-artwork",
+        "release-repair-20261114/cse-selected/palette-src-foundation-foundation-arrowheads-filled-triangle-artwork"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -993,12 +1197,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork",
+        "release-repair-20261114/cse-selected/palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork"
+      ]
     },
     {
       "providerId": "cse-selected",
@@ -1012,12 +1220,16 @@
       ],
       "origin": "selected CSE master",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-selected/palette-src-foundation-foundation-arrowheads-notched-artwork",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-selected/palette-src-foundation-foundation-arrowheads-notched-artwork",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "48164d9a26e2c47c3b032b1816aa4ceccb26f5c25471b27cd4a4cc0a052fdb29",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f148ceba2b5d340be0c45ce00d108828e0b2ec71db4096f77721cbb7eaf2ed8a",
       "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c",
-      "previousEvidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-notched-artwork"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-selected/palette-src-foundation-foundation-arrowheads-notched-artwork",
+      "evidenceHistory": [
+        "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-notched-artwork",
+        "release-repair-20261114/cse-selected/palette-src-foundation-foundation-arrowheads-notched-artwork"
+      ]
     },
     {
       "providerId": "atomic-ui",
@@ -1031,12 +1243,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/atomic-ui/button",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/atomic-ui/button",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "2f8d9d2e0908e9f992578d8cf732df497c083d5ef13133bf327b1b22ea075d0a",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "c4b23cbb37020f5e3e562dff3c274e2c327ac5af998562310b31a4e6fc604df6",
       "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a",
-      "previousEvidenceId": "resource-evidence-v5/atomic-ui-button"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/atomic-ui/button",
+      "evidenceHistory": [
+        "resource-evidence-v5/atomic-ui-button",
+        "release-repair-20261114/atomic-ui/button"
+      ]
     },
     {
       "providerId": "atomic-ui",
@@ -1050,12 +1266,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/atomic-ui/input",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/atomic-ui/input",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "2f8d9d2e0908e9f992578d8cf732df497c083d5ef13133bf327b1b22ea075d0a",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "c4b23cbb37020f5e3e562dff3c274e2c327ac5af998562310b31a4e6fc604df6",
       "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a",
-      "previousEvidenceId": "resource-evidence-v5/atomic-ui-input"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/atomic-ui/input",
+      "evidenceHistory": [
+        "resource-evidence-v5/atomic-ui-input",
+        "release-repair-20261114/atomic-ui/input"
+      ]
     },
     {
       "providerId": "atomic-ui",
@@ -1069,12 +1289,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/atomic-ui/checkbox",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/atomic-ui/checkbox",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "2f8d9d2e0908e9f992578d8cf732df497c083d5ef13133bf327b1b22ea075d0a",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "c4b23cbb37020f5e3e562dff3c274e2c327ac5af998562310b31a4e6fc604df6",
       "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a",
-      "previousEvidenceId": "resource-evidence-v5/atomic-ui-checkbox"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/atomic-ui/checkbox",
+      "evidenceHistory": [
+        "resource-evidence-v5/atomic-ui-checkbox",
+        "release-repair-20261114/atomic-ui/checkbox"
+      ]
     },
     {
       "providerId": "atomic-ui",
@@ -1088,12 +1312,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/atomic-ui/alert",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/atomic-ui/alert",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "2f8d9d2e0908e9f992578d8cf732df497c083d5ef13133bf327b1b22ea075d0a",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "c4b23cbb37020f5e3e562dff3c274e2c327ac5af998562310b31a4e6fc604df6",
       "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a",
-      "previousEvidenceId": "resource-evidence-v5/atomic-ui-alert"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/atomic-ui/alert",
+      "evidenceHistory": [
+        "resource-evidence-v5/atomic-ui-alert",
+        "release-repair-20261114/atomic-ui/alert"
+      ]
     },
     {
       "providerId": "atomic-ui",
@@ -1107,12 +1335,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/atomic-ui/badge",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/atomic-ui/badge",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "2f8d9d2e0908e9f992578d8cf732df497c083d5ef13133bf327b1b22ea075d0a",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "c4b23cbb37020f5e3e562dff3c274e2c327ac5af998562310b31a4e6fc604df6",
       "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a",
-      "previousEvidenceId": "resource-evidence-v5/atomic-ui-badge"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/atomic-ui/badge",
+      "evidenceHistory": [
+        "resource-evidence-v5/atomic-ui-badge",
+        "release-repair-20261114/atomic-ui/badge"
+      ]
     },
     {
       "providerId": "atomic-ui",
@@ -1126,12 +1358,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/atomic-ui/range",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/atomic-ui/range",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "2f8d9d2e0908e9f992578d8cf732df497c083d5ef13133bf327b1b22ea075d0a",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "c4b23cbb37020f5e3e562dff3c274e2c327ac5af998562310b31a4e6fc604df6",
       "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a",
-      "previousEvidenceId": "resource-evidence-v5/atomic-ui-range"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/atomic-ui/range",
+      "evidenceHistory": [
+        "resource-evidence-v5/atomic-ui-range",
+        "release-repair-20261114/atomic-ui/range"
+      ]
     },
     {
       "providerId": "atomic-ui",
@@ -1145,12 +1381,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/atomic-ui/table",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/atomic-ui/table",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "2f8d9d2e0908e9f992578d8cf732df497c083d5ef13133bf327b1b22ea075d0a",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "c4b23cbb37020f5e3e562dff3c274e2c327ac5af998562310b31a4e6fc604df6",
       "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a",
-      "previousEvidenceId": "resource-evidence-v5/atomic-ui-table"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/atomic-ui/table",
+      "evidenceHistory": [
+        "resource-evidence-v5/atomic-ui-table",
+        "release-repair-20261114/atomic-ui/table"
+      ]
     },
     {
       "providerId": "atomic-ui",
@@ -1164,12 +1404,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/atomic-ui/progress",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/atomic-ui/progress",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "2f8d9d2e0908e9f992578d8cf732df497c083d5ef13133bf327b1b22ea075d0a",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "c4b23cbb37020f5e3e562dff3c274e2c327ac5af998562310b31a4e6fc604df6",
       "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a",
-      "previousEvidenceId": "resource-evidence-v5/atomic-ui-progress"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/atomic-ui/progress",
+      "evidenceHistory": [
+        "resource-evidence-v5/atomic-ui-progress",
+        "release-repair-20261114/atomic-ui/progress"
+      ]
     },
     {
       "providerId": "materials",
@@ -1183,12 +1427,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/materials/gradient-1",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/materials/gradient-1",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e6e742a4641f43aed53860215636ab66fa1d789e4c42dcb7c062805191e4a66d",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "d3e53856d29793fefb0503cd41723f1e2e132349194030e96d72301923cc523c",
       "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842",
-      "previousEvidenceId": "resource-evidence-v5/materials-gradient-1"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/materials/gradient-1",
+      "evidenceHistory": [
+        "resource-evidence-v5/materials-gradient-1",
+        "release-repair-20261114/materials/gradient-1"
+      ]
     },
     {
       "providerId": "materials",
@@ -1202,12 +1450,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/materials/gradient-2",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/materials/gradient-2",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e6e742a4641f43aed53860215636ab66fa1d789e4c42dcb7c062805191e4a66d",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "d3e53856d29793fefb0503cd41723f1e2e132349194030e96d72301923cc523c",
       "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842",
-      "previousEvidenceId": "resource-evidence-v5/materials-gradient-2"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/materials/gradient-2",
+      "evidenceHistory": [
+        "resource-evidence-v5/materials-gradient-2",
+        "release-repair-20261114/materials/gradient-2"
+      ]
     },
     {
       "providerId": "materials",
@@ -1221,12 +1473,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/materials/gradient-3",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/materials/gradient-3",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e6e742a4641f43aed53860215636ab66fa1d789e4c42dcb7c062805191e4a66d",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "d3e53856d29793fefb0503cd41723f1e2e132349194030e96d72301923cc523c",
       "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842",
-      "previousEvidenceId": "resource-evidence-v5/materials-gradient-3"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/materials/gradient-3",
+      "evidenceHistory": [
+        "resource-evidence-v5/materials-gradient-3",
+        "release-repair-20261114/materials/gradient-3"
+      ]
     },
     {
       "providerId": "materials",
@@ -1240,12 +1496,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/materials/gradient-4",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/materials/gradient-4",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e6e742a4641f43aed53860215636ab66fa1d789e4c42dcb7c062805191e4a66d",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "d3e53856d29793fefb0503cd41723f1e2e132349194030e96d72301923cc523c",
       "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842",
-      "previousEvidenceId": "resource-evidence-v5/materials-gradient-4"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/materials/gradient-4",
+      "evidenceHistory": [
+        "resource-evidence-v5/materials-gradient-4",
+        "release-repair-20261114/materials/gradient-4"
+      ]
     },
     {
       "providerId": "materials",
@@ -1259,12 +1519,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/materials/gradient-5",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/materials/gradient-5",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e6e742a4641f43aed53860215636ab66fa1d789e4c42dcb7c062805191e4a66d",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "d3e53856d29793fefb0503cd41723f1e2e132349194030e96d72301923cc523c",
       "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842",
-      "previousEvidenceId": "resource-evidence-v5/materials-gradient-5"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/materials/gradient-5",
+      "evidenceHistory": [
+        "resource-evidence-v5/materials-gradient-5",
+        "release-repair-20261114/materials/gradient-5"
+      ]
     },
     {
       "providerId": "materials",
@@ -1278,12 +1542,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/materials/gradient-6",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/materials/gradient-6",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e6e742a4641f43aed53860215636ab66fa1d789e4c42dcb7c062805191e4a66d",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "d3e53856d29793fefb0503cd41723f1e2e132349194030e96d72301923cc523c",
       "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842",
-      "previousEvidenceId": "resource-evidence-v5/materials-gradient-6"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/materials/gradient-6",
+      "evidenceHistory": [
+        "resource-evidence-v5/materials-gradient-6",
+        "release-repair-20261114/materials/gradient-6"
+      ]
     },
     {
       "providerId": "materials",
@@ -1297,12 +1565,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/materials/gradient-7",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/materials/gradient-7",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e6e742a4641f43aed53860215636ab66fa1d789e4c42dcb7c062805191e4a66d",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "d3e53856d29793fefb0503cd41723f1e2e132349194030e96d72301923cc523c",
       "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842",
-      "previousEvidenceId": "resource-evidence-v5/materials-gradient-7"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/materials/gradient-7",
+      "evidenceHistory": [
+        "resource-evidence-v5/materials-gradient-7",
+        "release-repair-20261114/materials/gradient-7"
+      ]
     },
     {
       "providerId": "materials",
@@ -1316,12 +1588,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/materials/gradient-8",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/materials/gradient-8",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e6e742a4641f43aed53860215636ab66fa1d789e4c42dcb7c062805191e4a66d",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "d3e53856d29793fefb0503cd41723f1e2e132349194030e96d72301923cc523c",
       "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842",
-      "previousEvidenceId": "resource-evidence-v5/materials-gradient-8"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/materials/gradient-8",
+      "evidenceHistory": [
+        "resource-evidence-v5/materials-gradient-8",
+        "release-repair-20261114/materials/gradient-8"
+      ]
     },
     {
       "providerId": "hack",
@@ -1335,12 +1611,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/hack/hack-regular-woff2",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/hack/hack-regular-woff2",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "b20c780daccbc1d07c3380232261028932283bfb42d70bb90dacf51d260a846c",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "3a64165f3ab86494169bb70112eb2a46ede01dafa26f3a9d933bbdecfbb49f1c",
       "noticeSHA256": "3d5af5eb1edc72791c55b333647e5e312102c8013f2747383530b5570b71613b",
-      "previousEvidenceId": "resource-evidence-v5/hack-hack-regular-woff2"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/hack/hack-regular-woff2",
+      "evidenceHistory": [
+        "resource-evidence-v5/hack-hack-regular-woff2",
+        "release-repair-20261114/hack/hack-regular-woff2"
+      ]
     },
     {
       "providerId": "hack",
@@ -1354,12 +1634,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/hack/hack-bold-woff2",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/hack/hack-bold-woff2",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "b20c780daccbc1d07c3380232261028932283bfb42d70bb90dacf51d260a846c",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "3a64165f3ab86494169bb70112eb2a46ede01dafa26f3a9d933bbdecfbb49f1c",
       "noticeSHA256": "3d5af5eb1edc72791c55b333647e5e312102c8013f2747383530b5570b71613b",
-      "previousEvidenceId": "resource-evidence-v5/hack-hack-bold-woff2"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/hack/hack-bold-woff2",
+      "evidenceHistory": [
+        "resource-evidence-v5/hack-hack-bold-woff2",
+        "release-repair-20261114/hack/hack-bold-woff2"
+      ]
     },
     {
       "providerId": "cse-fonts",
@@ -1373,12 +1657,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/cse-fonts/inter-400-woff2",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-fonts/inter-400-woff2",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "49b6081d68860a7b0189f824df8158a920b11b4ac8749aabb99118cba9f212eb",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "cca2cbe0a7e8af4bcd06635addc8aa08f1f44288723f58f34fd3ef7a35e8420a",
       "noticeSHA256": "b6e50acc9edd6c18193ae3b729701480f7820fa5fd33d159d43a724699cb78e4",
-      "previousEvidenceId": "font-evidence-v5/cse-fonts-inter-400-woff2"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-fonts/inter-400-woff2",
+      "evidenceHistory": [
+        "font-evidence-v5/cse-fonts-inter-400-woff2",
+        "release-repair-20261114/cse-fonts/inter-400-woff2"
+      ]
     },
     {
       "providerId": "cse-fonts",
@@ -1392,12 +1680,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-fonts/inter-700-woff2",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-fonts/inter-700-woff2",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "49b6081d68860a7b0189f824df8158a920b11b4ac8749aabb99118cba9f212eb",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "cca2cbe0a7e8af4bcd06635addc8aa08f1f44288723f58f34fd3ef7a35e8420a",
       "noticeSHA256": "b6e50acc9edd6c18193ae3b729701480f7820fa5fd33d159d43a724699cb78e4",
-      "previousEvidenceId": "font-evidence-v5/cse-fonts-inter-700-woff2"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-fonts/inter-700-woff2",
+      "evidenceHistory": [
+        "font-evidence-v5/cse-fonts-inter-700-woff2",
+        "release-repair-20261114/cse-fonts/inter-700-woff2"
+      ]
     },
     {
       "providerId": "cse-fonts",
@@ -1411,12 +1703,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-fonts/space-grotesk-400-woff2",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-fonts/space-grotesk-400-woff2",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "49b6081d68860a7b0189f824df8158a920b11b4ac8749aabb99118cba9f212eb",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "cca2cbe0a7e8af4bcd06635addc8aa08f1f44288723f58f34fd3ef7a35e8420a",
       "noticeSHA256": "4b23fa6d794f18024fae0f2587ffd8f270318134622d154a886a99608f9569e9",
-      "previousEvidenceId": "font-evidence-v5/cse-fonts-space-grotesk-400-woff2"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-fonts/space-grotesk-400-woff2",
+      "evidenceHistory": [
+        "font-evidence-v5/cse-fonts-space-grotesk-400-woff2",
+        "release-repair-20261114/cse-fonts/space-grotesk-400-woff2"
+      ]
     },
     {
       "providerId": "cse-fonts",
@@ -1430,12 +1726,16 @@
       ],
       "origin": "retained local source",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/cse-fonts/space-grotesk-700-woff2",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/cse-fonts/space-grotesk-700-woff2",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "49b6081d68860a7b0189f824df8158a920b11b4ac8749aabb99118cba9f212eb",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "cca2cbe0a7e8af4bcd06635addc8aa08f1f44288723f58f34fd3ef7a35e8420a",
       "noticeSHA256": "4b23fa6d794f18024fae0f2587ffd8f270318134622d154a886a99608f9569e9",
-      "previousEvidenceId": "font-evidence-v5/cse-fonts-space-grotesk-700-woff2"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/cse-fonts/space-grotesk-700-woff2",
+      "evidenceHistory": [
+        "font-evidence-v5/cse-fonts-space-grotesk-700-woff2",
+        "release-repair-20261114/cse-fonts/space-grotesk-700-woff2"
+      ]
     },
     {
       "providerId": "liberation-sans",
@@ -1449,12 +1749,16 @@
       ],
       "origin": "local retained source; fontLiberation upstream distribution unverified",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/liberation-sans/liberation-sans-regular-ttf",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/liberation-sans/liberation-sans-regular-ttf",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e06201a8a69025b2887c1f73eb46fb01a4de1aadc2652179fe6a7a8fa753c6bd",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "e020109ffdf56f30216c05877b9d0ab2998cd55ba0e37727284aae3cdc666688",
       "noticeSHA256": "c81e3f295aebf12725b11141858bd52a8333f079c1ddfee4650f7a8859d566d9",
-      "previousEvidenceId": "font-evidence-v5/liberation-sans-liberation-sans-regular-ttf"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/liberation-sans/liberation-sans-regular-ttf",
+      "evidenceHistory": [
+        "font-evidence-v5/liberation-sans-liberation-sans-regular-ttf",
+        "release-repair-20261114/liberation-sans/liberation-sans-regular-ttf"
+      ]
     },
     {
       "providerId": "liberation-sans",
@@ -1468,12 +1772,16 @@
       ],
       "origin": "local retained source; fontLiberation upstream distribution unverified",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/liberation-sans/liberation-sans-bold-ttf",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/liberation-sans/liberation-sans-bold-ttf",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e06201a8a69025b2887c1f73eb46fb01a4de1aadc2652179fe6a7a8fa753c6bd",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "e020109ffdf56f30216c05877b9d0ab2998cd55ba0e37727284aae3cdc666688",
       "noticeSHA256": "c81e3f295aebf12725b11141858bd52a8333f079c1ddfee4650f7a8859d566d9",
-      "previousEvidenceId": "font-evidence-v5/liberation-sans-liberation-sans-bold-ttf"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/liberation-sans/liberation-sans-bold-ttf",
+      "evidenceHistory": [
+        "font-evidence-v5/liberation-sans-liberation-sans-bold-ttf",
+        "release-repair-20261114/liberation-sans/liberation-sans-bold-ttf"
+      ]
     },
     {
       "providerId": "palettes",
@@ -1487,12 +1795,16 @@
       ],
       "origin": "retained @radix-ui/colors 3.0.0",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/palettes/radix-blue-light",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/palettes/radix-blue-light",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "0e08907717c230b9d809b77dc001e940e4eac152a88294ad3ed80693a9f93375",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "afc6055114fbbf21b7f428b0bf31d0ca8df76384ee0769107afb62094d1fc583",
       "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d",
-      "previousEvidenceId": "palette-evidence-v5/radix-blue-light"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/palettes/radix-blue-light",
+      "evidenceHistory": [
+        "palette-evidence-v5/radix-blue-light",
+        "release-repair-20261114/palettes/radix-blue-light"
+      ]
     },
     {
       "providerId": "palettes",
@@ -1506,12 +1818,16 @@
       ],
       "origin": "retained @radix-ui/colors 3.0.0",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/palettes/radix-gray-light",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/palettes/radix-gray-light",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "0e08907717c230b9d809b77dc001e940e4eac152a88294ad3ed80693a9f93375",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "afc6055114fbbf21b7f428b0bf31d0ca8df76384ee0769107afb62094d1fc583",
       "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d",
-      "previousEvidenceId": "palette-evidence-v5/radix-gray-light"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/palettes/radix-gray-light",
+      "evidenceHistory": [
+        "palette-evidence-v5/radix-gray-light",
+        "release-repair-20261114/palettes/radix-gray-light"
+      ]
     },
     {
       "providerId": "palettes",
@@ -1525,12 +1841,16 @@
       ],
       "origin": "retained @radix-ui/colors 3.0.0",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/palettes/radix-red-light",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/palettes/radix-red-light",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "0e08907717c230b9d809b77dc001e940e4eac152a88294ad3ed80693a9f93375",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "afc6055114fbbf21b7f428b0bf31d0ca8df76384ee0769107afb62094d1fc583",
       "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d",
-      "previousEvidenceId": "palette-evidence-v5/radix-red-light"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/palettes/radix-red-light",
+      "evidenceHistory": [
+        "palette-evidence-v5/radix-red-light",
+        "release-repair-20261114/palettes/radix-red-light"
+      ]
     },
     {
       "providerId": "palettes",
@@ -1544,12 +1864,16 @@
       ],
       "origin": "retained @radix-ui/colors 3.0.0",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/palettes/radix-amber-light",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/palettes/radix-amber-light",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "0e08907717c230b9d809b77dc001e940e4eac152a88294ad3ed80693a9f93375",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "afc6055114fbbf21b7f428b0bf31d0ca8df76384ee0769107afb62094d1fc583",
       "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d",
-      "previousEvidenceId": "palette-evidence-v5/radix-amber-light"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/palettes/radix-amber-light",
+      "evidenceHistory": [
+        "palette-evidence-v5/radix-amber-light",
+        "release-repair-20261114/palettes/radix-amber-light"
+      ]
     },
     {
       "providerId": "palettes",
@@ -1563,12 +1887,16 @@
       ],
       "origin": "retained @radix-ui/colors 3.0.0",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/palettes/radix-green-light",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/palettes/radix-green-light",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "0e08907717c230b9d809b77dc001e940e4eac152a88294ad3ed80693a9f93375",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "afc6055114fbbf21b7f428b0bf31d0ca8df76384ee0769107afb62094d1fc583",
       "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d",
-      "previousEvidenceId": "palette-evidence-v5/radix-green-light"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/palettes/radix-green-light",
+      "evidenceHistory": [
+        "palette-evidence-v5/radix-green-light",
+        "release-repair-20261114/palettes/radix-green-light"
+      ]
     },
     {
       "providerId": "palettes",
@@ -1582,12 +1910,16 @@
       ],
       "origin": "retained @radix-ui/colors 3.0.0",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/palettes/radix-teal-light",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/palettes/radix-teal-light",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "0e08907717c230b9d809b77dc001e940e4eac152a88294ad3ed80693a9f93375",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "afc6055114fbbf21b7f428b0bf31d0ca8df76384ee0769107afb62094d1fc583",
       "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d",
-      "previousEvidenceId": "palette-evidence-v5/radix-teal-light"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/palettes/radix-teal-light",
+      "evidenceHistory": [
+        "palette-evidence-v5/radix-teal-light",
+        "release-repair-20261114/palettes/radix-teal-light"
+      ]
     },
     {
       "providerId": "palettes",
@@ -1601,12 +1933,16 @@
       ],
       "origin": "retained @radix-ui/colors 3.0.0",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/palettes/radix-violet-light",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/palettes/radix-violet-light",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "0e08907717c230b9d809b77dc001e940e4eac152a88294ad3ed80693a9f93375",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "afc6055114fbbf21b7f428b0bf31d0ca8df76384ee0769107afb62094d1fc583",
       "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d",
-      "previousEvidenceId": "palette-evidence-v5/radix-violet-light"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/palettes/radix-violet-light",
+      "evidenceHistory": [
+        "palette-evidence-v5/radix-violet-light",
+        "release-repair-20261114/palettes/radix-violet-light"
+      ]
     },
     {
       "providerId": "palettes",
@@ -1620,12 +1956,16 @@
       ],
       "origin": "retained @radix-ui/colors 3.0.0",
       "newlySelected": false,
-      "evidenceId": "release-repair-20261114/palettes/radix-slate-light",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/palettes/radix-slate-light",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "0e08907717c230b9d809b77dc001e940e4eac152a88294ad3ed80693a9f93375",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "afc6055114fbbf21b7f428b0bf31d0ca8df76384ee0769107afb62094d1fc583",
       "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d",
-      "previousEvidenceId": "palette-evidence-v5/radix-slate-light"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/palettes/radix-slate-light",
+      "evidenceHistory": [
+        "palette-evidence-v5/radix-slate-light",
+        "release-repair-20261114/palettes/radix-slate-light"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1640,12 +1980,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/doc-title",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/doc-title",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "fe361bb6406bf3d960bab4d6030ca2faec4d68dbdbf3f3d9bf7880c9751fb1e0",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "66dcce314aa87f923cad08d11b979bd0234ab837c6c42dbda0464e320f6b6d07",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/doc-title"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/doc-title",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/doc-title",
+        "release-repair-20261114/recipes/doc-title"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1660,12 +2004,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/doc-revision",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/doc-revision",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "2d4408f68409db6a60cf7f803a1ef37a482649f3dc62b4d9507b561d5b145345",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "cfabdaddf13dd24798d6afefc983fca3f37dbe36ba3892a6aa72d122866c6b63",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/doc-revision"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/doc-revision",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/doc-revision",
+        "release-repair-20261114/recipes/doc-revision"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1680,12 +2028,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/doc-requirements",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/doc-requirements",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "79399da1f5278cfa107d8d1d740d7232c0022ebd2e2378aec963d66077f55ef8",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "3ceaa2cc158d22f338f0a34a6d5edab3ee7862267cc578542cb70b9bfecbe8fd",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/doc-requirements"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/doc-requirements",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/doc-requirements",
+        "release-repair-20261114/recipes/doc-requirements"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1700,12 +2052,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/doc-legend",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/doc-legend",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "f7facf97aeab4bfcf42d883d6e42e2ed3294894163013f3d28253be5be23fe22",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f1a11e8322a8a776e18db1aeec06fb42a38e28ae71614412cba7ba0d9d54fbfd",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/doc-legend"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/doc-legend",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/doc-legend",
+        "release-repair-20261114/recipes/doc-legend"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1720,12 +2076,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/doc-caution",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/doc-caution",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "3d1ec7eed99d085b641a1d330273d11d4135059283923390acede4b702baba43",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "306cd1548d3663b0e0c6ad1b55138184ffc95881b0304ee29b45d367a25c2468",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/doc-caution"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/doc-caution",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/doc-caution",
+        "release-repair-20261114/recipes/doc-caution"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1740,12 +2100,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/doc-caption",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/doc-caption",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "2da1cad1ce558f8f73a3bbff1097894a9d930ad448b3c9582c13ef29f09f6441",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "9e110cdb760c190c39a18557ccb8708dd5671008ef87aa5e275b43c086cf2674",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/doc-caption"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/doc-caption",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/doc-caption",
+        "release-repair-20261114/recipes/doc-caption"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1760,12 +2124,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/doc-metric",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/doc-metric",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "a34b35583ec10479f7c52aa7b25f05f26e875b16e2e15bd38b1f100d63d72f40",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f6f1cec6eac174c90ca71d73404e17129355946d34f45e1f25b1256001a26e50",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/doc-metric"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/doc-metric",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/doc-metric",
+        "release-repair-20261114/recipes/doc-metric"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1780,12 +2148,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/doc-issues",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/doc-issues",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "46cd200bb9665d127be7d0a83e4863bb6b30be4ac9395f9bcb3cbf56e1260148",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "319200cffbd189a9dd750fcbe61a3445b07f225ab57bade8c3a676ab007f51d3",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/doc-issues"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/doc-issues",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/doc-issues",
+        "release-repair-20261114/recipes/doc-issues"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1800,12 +2172,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/chart-bar",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/chart-bar",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "c74d73a0a57093d047e54a44750bd470b47308a51c314c5571c83cff773834c5",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "21c3a756cc8c9362ec4c6c96a1fe67705a944a041b51a827face246c6a3e82b8",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/chart-bar"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/chart-bar",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/chart-bar",
+        "release-repair-20261114/recipes/chart-bar"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1820,12 +2196,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/chart-line",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/chart-line",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "223dc09894ebaccacf734e8f72a36b69dc49910ae4b28085b672f36f4654f256",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "29ae7720bf085bddf418fbef3eb883e6e0ad22f7d94979f95f4979d8d74af301",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/chart-line"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/chart-line",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/chart-line",
+        "release-repair-20261114/recipes/chart-line"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1840,12 +2220,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/chart-dot",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/chart-dot",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "e56d0389aeac7ffbb00e4f480faebb062f9eb37b4269cba03c9adac1a49be092",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "a7892ec20bbe8b3fc153d9b132561617ebbf5b202e5e47918c79daf882df6194",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/chart-dot"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/chart-dot",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/chart-dot",
+        "release-repair-20261114/recipes/chart-dot"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1860,12 +2244,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/chart-range",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/chart-range",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "575b324a70f9ebf532e3499b03b03cd0a11d725faa574d9a7b5988c49d08c0ef",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "054deabc1551ff2c58250554618c45d2b9e4d09bb49767d6b4b903618d4c780e",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/chart-range"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/chart-range",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/chart-range",
+        "release-repair-20261114/recipes/chart-range"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1880,12 +2268,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/diagram-chain",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/diagram-chain",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "c1a862f23194c27bd926ac04256e0ef9e79510ff98d396143d72cbd0c4d2a81c",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "455320e2f96fb39cc2c940427fbd8f4d0fd3d43fee3d632c51198d6891b2636a",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/diagram-chain"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/diagram-chain",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/diagram-chain",
+        "release-repair-20261114/recipes/diagram-chain"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1900,12 +2292,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/diagram-hub",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/diagram-hub",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "19542691bec75be388ebef8613e11105140055f3db7d6ea29278c0e0307dcea1",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "f5e3784c1ac43f225a30944e1171b125ca79a576f0ec90ff659de49ab630f6a0",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/diagram-hub"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/diagram-hub",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/diagram-hub",
+        "release-repair-20261114/recipes/diagram-hub"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1920,12 +2316,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/diagram-branch",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/diagram-branch",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "3a26613a108621c38bfeb8c4246c08cd6b3cd45ae8245efc7c442781720fc52d",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "2ec48046559a2a2e020984dd9eea208841fb4f0c1489c3f2a1027300e6ec6e08",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/diagram-branch"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/diagram-branch",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/diagram-branch",
+        "release-repair-20261114/recipes/diagram-branch"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1940,12 +2340,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/diagram-join",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/diagram-join",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "1c7cb5cbb80384044a7dae8d6259b6790e4c1f6933db9751bd3b1d698ac44ea8",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "038ffa4121f30e6291e8ad2cf2d56dce0a53f5d92645ceade8cd6560565137c8",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/diagram-join"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/diagram-join",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/diagram-join",
+        "release-repair-20261114/recipes/diagram-join"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1960,12 +2364,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/image-contours",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/image-contours",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "1e5ceab8adabbabae9536cecac5111494a9443c7a81606b0dea0cd6ca9691d64",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "a1701176d93a7b197ae268ebc35a486b66b7d6345d7a9442b3ab65d275cb3c2f",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/image-contours"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/image-contours",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/image-contours",
+        "release-repair-20261114/recipes/image-contours"
+      ]
     },
     {
       "providerId": "recipes",
@@ -1980,12 +2388,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/image-sensor",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/image-sensor",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "4b4ff05028c46b2d4841cf1ddcd2acc61805ab7dd72e3d362f848d3dfe51d214",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "372ab18079191a188f6b4f8696b39d0638a68784f5aa6c327cdbdf7f134669ca",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/image-sensor"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/image-sensor",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/image-sensor",
+        "release-repair-20261114/recipes/image-sensor"
+      ]
     },
     {
       "providerId": "recipes",
@@ -2000,12 +2412,16 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/image-field",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/image-field",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "54678fc499480579ac662aced24b16c9467f465aa91f7c44e8f17cbd96d5b558",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "110c190c1ffa04d80d22588b1667fdf135e4af1353564fdd0e363e5048978e95",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/image-field"
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/image-field",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/image-field",
+        "release-repair-20261114/recipes/image-field"
+      ]
     },
     {
       "providerId": "recipes",
@@ -2020,57 +2436,179 @@
       ],
       "origin": "original synthetic recipe with attributed CSE colors",
       "newlySelected": true,
-      "evidenceId": "release-repair-20261114/recipes/image-orbit",
+      "evidenceId": "font-layout-20261114/requalification-105-v2-sandbox/recipes/image-orbit",
       "tier": "handoff-qualified",
-      "limits": "Two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
-      "recipeSHA256": "1948b0fbc605c28cec98cda0cfb64f9a422fd1711c6dc9fddd889d33ecc53812",
+      "limits": "Sandbox-enabled Chromium: two selected edits exported, copied with all file hashes verified, and reopened in Chromium. Delivered README generator reproduced the current SVG; separate PNG export checked. Technical workflow evidence only; no user or engineering acceptance.",
+      "recipeSHA256": "2fd938fce81fa9b4a607e6aabb1c89fb96b281da5ed1c7f53310a75a91da12d7",
       "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a",
-      "previousEvidenceId": "recipe-portable-evidence-v5/image-orbit"
-    }
-  ],
-  "held": [
+      "previousEvidenceId": "font-layout-20261114/requalification-105-v1/recipes/image-orbit",
+      "evidenceHistory": [
+        "recipe-portable-evidence-v5/image-orbit",
+        "release-repair-20261114/recipes/image-orbit"
+      ]
+    },
     {
+      "previousEvidenceId": "font-layout-20261114/seven-v2/palette-src-ports-direction-right",
+      "evidenceHistory": [],
       "providerId": "cse-selected",
       "assetId": "palette-src-ports-direction-right",
+      "family": "connectors",
+      "sourceRevision": "sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
       "sourceSHA256": "e01e8276feb8f1a255b9cc0cda75ab97285350cb7d6e6c51769da0091d15924a",
-      "reason": "Named system-font dependencies not included in handoff."
+      "derivedSHA256": "835f46f46f05633877176957b517ea48ebf133ac0ee7cc3ce202d261b23a4710",
+      "noticeIds": [
+        "cse-mit",
+        "liberation-ofl"
+      ],
+      "origin": "preserved selected CSE master; explicit font-bound derivative",
+      "newlySelected": true,
+      "evidenceId": "font-layout-20261114/seven-v3-sandbox/palette-src-ports-direction-right",
+      "tier": "handoff-qualified",
+      "qualificationScope": "derived.svg only",
+      "originalAppearance": "not-qualified",
+      "limits": "Original screenshot is a current host fallback observation, not a historical Arial reference. Exact source/derived font bytes, editable text, two controlled exports and copied offline Chromium custom glyph identities observed. Sandbox-enabled Chromium; isolated unrelated serif-only fontconfig directory, remote HTTP blocked and offline context. SVG editor support and user/engineering acceptance untested.",
+      "recipeSHA256": "581e7f0da3ba1461a787aab60a6ef738545029b64a460550ec749e930902d57a",
+      "noticeSHA256": "754be8aa0347b6d2da2faa5bddd9a358a2813f057e1aa8e16ebcf575df8d9ed5"
     },
     {
+      "previousEvidenceId": "font-layout-20261114/seven-v2/palette-src-ports-direction-left",
+      "evidenceHistory": [],
       "providerId": "cse-selected",
       "assetId": "palette-src-ports-direction-left",
+      "family": "connectors",
+      "sourceRevision": "sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
       "sourceSHA256": "f2b34aa814f181e536c301f7aebb12af0dbae906341ba14fa5c14ccd38addf76",
-      "reason": "Named system-font dependencies not included in handoff."
+      "derivedSHA256": "9b0abaefdcb1400b61f7baf4093df39cb4402a4cbb169d7e2531fa9bd9e07409",
+      "noticeIds": [
+        "cse-mit",
+        "liberation-ofl"
+      ],
+      "origin": "preserved selected CSE master; explicit font-bound derivative",
+      "newlySelected": true,
+      "evidenceId": "font-layout-20261114/seven-v3-sandbox/palette-src-ports-direction-left",
+      "tier": "handoff-qualified",
+      "qualificationScope": "derived.svg only",
+      "originalAppearance": "not-qualified",
+      "limits": "Original screenshot is a current host fallback observation, not a historical Arial reference. Exact source/derived font bytes, editable text, two controlled exports and copied offline Chromium custom glyph identities observed. Sandbox-enabled Chromium; isolated unrelated serif-only fontconfig directory, remote HTTP blocked and offline context. SVG editor support and user/engineering acceptance untested.",
+      "recipeSHA256": "581e7f0da3ba1461a787aab60a6ef738545029b64a460550ec749e930902d57a",
+      "noticeSHA256": "754be8aa0347b6d2da2faa5bddd9a358a2813f057e1aa8e16ebcf575df8d9ed5"
     },
     {
+      "previousEvidenceId": "font-layout-20261114/seven-v2/palette-src-ports-direction-both-h",
+      "evidenceHistory": [],
       "providerId": "cse-selected",
       "assetId": "palette-src-ports-direction-both-h",
+      "family": "connectors",
+      "sourceRevision": "sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
       "sourceSHA256": "307bf5348afb58809f0b1473397d28fe8b8a5ad14f9460523e854389b2eb90c3",
-      "reason": "Named system-font dependencies not included in handoff."
+      "derivedSHA256": "ef426bd8bbd6c9a1862f68dac4e620768351d1cdf39ef1c49f042a19c6f9a52c",
+      "noticeIds": [
+        "cse-mit",
+        "liberation-ofl"
+      ],
+      "origin": "preserved selected CSE master; explicit font-bound derivative",
+      "newlySelected": true,
+      "evidenceId": "font-layout-20261114/seven-v3-sandbox/palette-src-ports-direction-both-h",
+      "tier": "handoff-qualified",
+      "qualificationScope": "derived.svg only",
+      "originalAppearance": "not-qualified",
+      "limits": "Original screenshot is a current host fallback observation, not a historical Arial reference. Exact source/derived font bytes, editable text, two controlled exports and copied offline Chromium custom glyph identities observed. Sandbox-enabled Chromium; isolated unrelated serif-only fontconfig directory, remote HTTP blocked and offline context. SVG editor support and user/engineering acceptance untested.",
+      "recipeSHA256": "581e7f0da3ba1461a787aab60a6ef738545029b64a460550ec749e930902d57a",
+      "noticeSHA256": "754be8aa0347b6d2da2faa5bddd9a358a2813f057e1aa8e16ebcf575df8d9ed5"
     },
     {
+      "previousEvidenceId": "font-layout-20261114/seven-v2/palette-src-ports-direction-none",
+      "evidenceHistory": [],
       "providerId": "cse-selected",
       "assetId": "palette-src-ports-direction-none",
+      "family": "connectors",
+      "sourceRevision": "sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
       "sourceSHA256": "118427eff5ecfa29b7be7dccf3b0a6635cedfe41e1a65fcb0bf0efe6ee5e41df",
-      "reason": "Named system-font dependencies not included in handoff."
+      "derivedSHA256": "fe4476ddecfe5d8ac68bb1608837b8559cb7cbbf27c2970d84eff7dc28041835",
+      "noticeIds": [
+        "cse-mit",
+        "liberation-ofl"
+      ],
+      "origin": "preserved selected CSE master; explicit font-bound derivative",
+      "newlySelected": true,
+      "evidenceId": "font-layout-20261114/seven-v3-sandbox/palette-src-ports-direction-none",
+      "tier": "handoff-qualified",
+      "qualificationScope": "derived.svg only",
+      "originalAppearance": "not-qualified",
+      "limits": "Original screenshot is a current host fallback observation, not a historical Arial reference. Exact source/derived font bytes, editable text, two controlled exports and copied offline Chromium custom glyph identities observed. Sandbox-enabled Chromium; isolated unrelated serif-only fontconfig directory, remote HTTP blocked and offline context. SVG editor support and user/engineering acceptance untested.",
+      "recipeSHA256": "581e7f0da3ba1461a787aab60a6ef738545029b64a460550ec749e930902d57a",
+      "noticeSHA256": "754be8aa0347b6d2da2faa5bddd9a358a2813f057e1aa8e16ebcf575df8d9ed5"
     },
     {
+      "previousEvidenceId": "font-layout-20261114/seven-v2/palette-refined-connections-connections-page2-loop-feedback",
+      "evidenceHistory": [],
       "providerId": "cse-selected",
       "assetId": "palette-refined-connections-connections-page2-loop-feedback",
+      "family": "connectors",
+      "sourceRevision": "sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
       "sourceSHA256": "a17076f146ef0cbc037b5189f9117ff0522fc39c2d7ec828e5eea41dc0e4f675",
-      "reason": "Named system-font dependencies not included in handoff."
+      "derivedSHA256": "9ee0cb360b2f292b6b5b6e1e0e70ee8de67b986c28ffc30eaf716571e5426f86",
+      "noticeIds": [
+        "cse-mit",
+        "dejavu-bitstream-arev"
+      ],
+      "origin": "preserved selected CSE master; explicit font-bound derivative",
+      "newlySelected": true,
+      "evidenceId": "font-layout-20261114/seven-v3-sandbox/palette-refined-connections-connections-page2-loop-feedback",
+      "tier": "handoff-qualified",
+      "qualificationScope": "derived.svg only",
+      "originalAppearance": "not-qualified",
+      "limits": "Original screenshot is a current host fallback observation, not a historical Arial reference. Exact source/derived font bytes, editable text, two controlled exports and copied offline Chromium custom glyph identities observed. Sandbox-enabled Chromium; isolated unrelated serif-only fontconfig directory, remote HTTP blocked and offline context. SVG editor support and user/engineering acceptance untested.",
+      "recipeSHA256": "414825054193b4301235a699dcab1436034fec43c0aeefbc297e42fd1b468f21",
+      "noticeSHA256": "785e708ca12ff74c3ad071b3f9afd21be741fbb4c9b6e0a9c6fbd6d6c55704dc"
     },
     {
+      "previousEvidenceId": "font-layout-20261114/seven-v2/palette-refined-connections-connections-page1-loop-split-rejoin",
+      "evidenceHistory": [],
       "providerId": "cse-selected",
       "assetId": "palette-refined-connections-connections-page1-loop-split-rejoin",
+      "family": "connectors",
+      "sourceRevision": "sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
       "sourceSHA256": "f74deb0f5d003ef96a635572ccab58c0582df3a1f3a1c10028e76567de9c0c8f",
-      "reason": "Named system-font dependencies not included in handoff."
+      "derivedSHA256": "8bcd7be776704f5db79ca6fe8ce48fa87c77ac26830e479d8885569a2bb88777",
+      "noticeIds": [
+        "cse-mit",
+        "dejavu-bitstream-arev"
+      ],
+      "origin": "preserved selected CSE master; explicit font-bound derivative",
+      "newlySelected": true,
+      "evidenceId": "font-layout-20261114/seven-v3-sandbox/palette-refined-connections-connections-page1-loop-split-rejoin",
+      "tier": "handoff-qualified",
+      "qualificationScope": "derived.svg only",
+      "originalAppearance": "not-qualified",
+      "limits": "Original screenshot is a current host fallback observation, not a historical Arial reference. Exact source/derived font bytes, editable text, two controlled exports and copied offline Chromium custom glyph identities observed. Sandbox-enabled Chromium; isolated unrelated serif-only fontconfig directory, remote HTTP blocked and offline context. SVG editor support and user/engineering acceptance untested.",
+      "recipeSHA256": "414825054193b4301235a699dcab1436034fec43c0aeefbc297e42fd1b468f21",
+      "noticeSHA256": "785e708ca12ff74c3ad071b3f9afd21be741fbb4c9b6e0a9c6fbd6d6c55704dc"
     },
     {
+      "previousEvidenceId": "font-layout-20261114/seven-v2/doc-dimension",
+      "evidenceHistory": [],
       "providerId": "cse-selected",
       "assetId": "doc-dimension",
+      "family": "annotations",
+      "sourceRevision": "sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
       "sourceSHA256": "66d5e62110ab083aa4f4557ff99a84e173499a3cc015bbbe7dcc8fa3b2992fc6",
-      "reason": "Named system-font dependencies not included in handoff."
+      "derivedSHA256": "fd878a510c99bb02e0e7c4bd10d0813161d338ade1b8784e9bf530a7366cca58",
+      "noticeIds": [
+        "cse-mit",
+        "liberation-ofl"
+      ],
+      "origin": "preserved selected CSE master; explicit font-bound derivative",
+      "newlySelected": true,
+      "evidenceId": "font-layout-20261114/seven-v3-sandbox/doc-dimension",
+      "tier": "handoff-qualified",
+      "qualificationScope": "derived.svg only",
+      "originalAppearance": "not-qualified",
+      "limits": "Original screenshot is a current host fallback observation, not a historical Arial reference. Exact source/derived font bytes, editable text, two controlled exports and copied offline Chromium custom glyph identities observed. Sandbox-enabled Chromium; isolated unrelated serif-only fontconfig directory, remote HTTP blocked and offline context. SVG editor support and user/engineering acceptance untested.",
+      "recipeSHA256": "80a0c2cf0405dd9e871ed3e79a4d83a79a0ea9b4d6e73376bb24c847c00fd6a6",
+      "noticeSHA256": "754be8aa0347b6d2da2faa5bddd9a358a2813f057e1aa8e16ebcf575df8d9ed5"
     }
   ],
-  "qualifiedCount": 105
+  "held": [],
+  "qualifiedCount": 112
 }

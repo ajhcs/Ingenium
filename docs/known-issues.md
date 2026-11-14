@@ -1,12 +1,12 @@
 # Known limitations and open verification
 
-The 0.2.0-alpha.2 prerelease retains the following limits, ordered by observed user impact. The [compatibility matrix](compatibility.md) identifies actual tested client routes and release identities.
+The 0.2.0-alpha.3 prerelease closes the seven selected font handoffs and adds a tested responsive generation-and-repair route. The following evidence boundaries remain. The [compatibility matrix](compatibility.md) identifies actual tested client routes and release identities.
 
-## 1. Generated narrow layouts still need actual inspection
+## 1. Generated pages still require inspection before delivery
 
-After the responsive-guidance revision, two of three fresh generated pages still overflowed at 320 CSS pixels with 200% text; the third needed visual review. A subsequent browser-guided repair passed the selected checks while preserving content and interaction. These are separate outcomes, not a first-run reliability pass.
+The alpha.3 guidance includes an editable responsive starter and a concrete generation, inspection and repair route. Three fresh requested-model tasks (Sol, Terra and Astra) and a repeated original realistic-content case produced delivered pages that passed the selected narrow/enlarged-text, content and keyboard checks. Independent actual Chromium 200% zoom measurements also showed no page overflow at effective widths of 320, 390 and 768 CSS pixels.
 
-The alpha.2 curated document and recipe fixes repair those specific delivered examples. They do not establish reliable layout for arbitrary generated content. Inspect representative long text, narrow widths, enlarged text and affected keyboard interactions before delivery; preserve the initial failure and the corrected version. Repeated fresh generation and independent visual review remain the highest-priority follow-up in the [roadmap](../ROADMAP.md).
+One retained first version measured 326px wide at 320px with doubled root text; its repaired delivery measured 320px. The other two first versions had no measured page overflow and received table refinements. These are delivered-output observations, not a guarantee of first-pass generation. Earlier alpha.1/alpha.2 failures remain historical evidence. New content, fonts, state changes and unvisited browsers still need their own inspection. Browser launch refusal remains unverified; the final local evaluation explicitly supplied available tooling and an operator-selected execution environment that permitted Chromium's sandbox.
 
 ## 2. Three actual-client checks remain open
 
@@ -18,9 +18,11 @@ The alpha.2 curated document and recipe fixes repair those specific delivered ex
 
 Codex CLI, package extraction and automated browser checks do not substitute for these routes. The maintained local plugin catalog is also distinct from a public marketplace catalog.
 
-## 3. Seven CSE selections remain held for font closure
+## 3. Font qualification identifies the derivative
 
-Resource availability, exact source identity, supported edits, rendered glyph identity and qualification are separate fields. Seven font-dependent CSE selections remain unavailable for complete handoff qualification until their font closure is resolved. A catalog entry alone is not a qualified resource. Selected artwork is not a native engineering-model binding or an assertion of engineering adequacy.
+All seven selected live-text handoffs now contain exact embedded and separate font bytes, complete notices, editable derivatives and source-specific provenance. Copied standalone derivatives were observed offline with the expected custom font glyph identities. Five preserved originals name Arial without a recorded binary; their explicitly authored derivatives use Liberation Sans. Two preserve their named DejaVu families. Qualification covers `derived.svg`, while the historical original font appearance remains unqualified.
+
+The observed route uses Chromium. Native SVG-editor font handling, print behavior, arbitrary replacement text and user acceptance are separate. Selected artwork is not a native engineering-model binding or an assertion of engineering adequacy.
 
 ## Other bounded checks
 
