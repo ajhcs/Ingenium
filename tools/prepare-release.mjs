@@ -15,6 +15,14 @@ async function sourceInventory(sourceRoot) {
 }
 function archive(sourceRoot,stage,output,kind) { execFileSync('python3',[join(sourceRoot,'tools/release-archive.py'),stage,output,kind],{stdio:'pipe'}); }
 function inspectArchive(sourceRoot,path,kind) { return JSON.parse(execFileSync('python3',[join(sourceRoot,'tools/release-archive.py'),'--inspect',path,kind],{encoding:'utf8',maxBuffer:32*1024*1024})); }
+function resourceMember(path) {
+  relativeFile(path);
+  // Resource ZIPs overlay an installed helper. Only separate data roots may be
+  // supplied by callers; runtime and release metadata remain preparer-owned.
+  if (!/^src\/resources\/packs\/[^/]+\/.+/.test(path) && !path.startsWith('examples/evolution/resource-recipes/')) throw Error(`Resource pack member would overwrite helper runtime or reserved metadata: ${path}`);
+  if (coreFiles.includes(path) || companionFiles.includes(path)) throw Error(`Resource pack member would overwrite helper runtime: ${path}`);
+  return path;
+}
 function checkBudget(bytes,max,label) { if(bytes>max)throw Error(`${label} budget exceeded (${bytes} > ${max}); request a reviewed adjustment or explicitly selected separate packs`); }
 export async function prepareRelease({outputDir,development=false,sourceRoot=root,resourcePacks=[],studies=[]}={}) {
   if(typeof outputDir!=='string'||!outputDir.trim()||typeof development!=='boolean'||!Array.isArray(resourcePacks)||!Array.isArray(studies))throw Error('Choose a new outputDir, explicit boolean development and selection arrays');
@@ -65,11 +73,12 @@ export async function prepareRelease({outputDir,development=false,sourceRoot=roo
     if(manifest.schema!=='ingenium-release-selection/1'||!/^[-a-z0-9]+$/.test(manifest.id)||!Array.isArray(manifest.files)||!manifest.files.length||!Array.isArray(manifest.notices)||!manifest.notices.length)throw Error('Expected explicit release selection manifest with id, files and full notices');
     if(artifacts.some(a=>a.id===manifest.id))throw Error('Duplicate artifact ID');
     const names=new Set();
-    for(const item of manifest.files) { relativeFile(item.path); if(item.path.split('/').some(p=>['work','node_modules','.git','.env'].includes(p)))throw Error('Private or working-data selection refused'); if(names.has(item.path))throw Error('Duplicate selected member'); names.add(item.path); const bytes=await sourceBytes(sourceRoot,item.path); if(item.bytes!==bytes.length||item.sha256!==digest(bytes))throw Error(`Selected member identity changed: ${item.path}`); }
+    const memberPath=flavor==='resource-pack'?resourceMember:relativeFile;
+    for(const item of manifest.files) { memberPath(item.path); if(item.path.split('/').some(p=>['work','node_modules','.git','.env'].includes(p)))throw Error('Private or working-data selection refused'); if(names.has(item.path))throw Error('Duplicate selected member'); names.add(item.path); const bytes=await sourceBytes(sourceRoot,item.path); if(item.bytes!==bytes.length||item.sha256!==digest(bytes))throw Error(`Selected member identity changed: ${item.path}`); }
     const generated=Object.create(null),sourceNames=new Set(names);
     if(manifest.generatedFiles!==undefined&&(!Array.isArray(manifest.generatedFiles)||manifest.generatedFiles.length>64))throw Error('Expected at most64 generated text files');
     for(const item of manifest.generatedFiles??[]) {
-      relativeFile(item.path);
+      memberPath(item.path);
       if(item.path.split('/').some(p=>['work','node_modules','.git','.env'].includes(p)))throw Error('Private or working-data generated path refused');
       if(names.has(item.path)||typeof item.text!=='string')throw Error('Duplicate generated member or missing UTF-8 text');
       const bytes=Buffer.from(item.text,'utf8');
@@ -81,7 +90,8 @@ export async function prepareRelease({outputDir,development=false,sourceRoot=roo
     if(flavor==='editable-study'&&(!manifest.instructions||!names.has(relativeFile(manifest.instructions))))throw Error('Editable study requires included opening/editing instructions');
     const maxCompressed=manifest.maxCompressedBytes??10*1024*1024,maxSource=manifest.maxSourceBytes??50*1024*1024;
     if(!Number.isSafeInteger(maxCompressed)||maxCompressed<1||!Number.isSafeInteger(maxSource)||maxSource<1)throw Error('Invalid selected budgets');
-    const staged=await stageFiles({sourceRoot,outputDir:join(output,'stages',manifest.id),files:manifest.files.map(f=>f.path),identity:{...base,artifactFlavor:flavor},generated:{...generated,'release/selection.json':manifest}});
+    const metadataRoot=flavor==='resource-pack'?`release/packs/${manifest.id}`:'release';
+    const staged=await stageFiles({sourceRoot,outputDir:join(output,'stages',manifest.id),files:manifest.files.map(f=>f.path),identity:{...base,artifactFlavor:flavor},identityPath:`${metadataRoot}/identity.json`,generated:{...generated,[`${metadataRoot}/selection.json`]:manifest}});
     checkBudget(staged.sourceBytes,maxSource,manifest.id+' source');
     await pack(manifest.id,flavor,staged.outputDir,'zip',maxCompressed,manifest.openingFile);
   }

@@ -6,15 +6,17 @@ import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { prepareRelease } from '../tools/prepare-release.mjs';
 import { coreFiles } from '../tools/package-core.mjs';
+import { resourceSelections } from '../tools/prepare-resource-selections.mjs';
 import { companionFiles } from '../tools/package-companion.mjs';
 const root=resolve(import.meta.dirname,'..');
 const hash=b=>createHash('sha256').update(b).digest('hex');
-async function fixture(t) {
+async function fixture(t, {withResources=false}={}) {
   const base=await mkdtemp(join(root,'work/release-test-'));t.after(()=>rm(base,{recursive:true,force:true}));
   const source=join(base,'source');await mkdir(source);
   const names=new Set([...coreFiles,'companion/package.json','docs/tools.md','tools/package-core.mjs','tools/package-companion.mjs','tools/release-files.mjs','tools/release-archive.py','tools/build-skill-zip.py','tools/prepare-release.mjs']);
   async function skill(dir){for(const item of await readdir(join(root,dir),{withFileTypes:true})){const name=dir+'/'+item.name;if(item.isDirectory())await skill(name);else names.add(name);}}
   await skill('skills/ingenium');
+  if(withResources)for(const selection of await resourceSelections())for(const member of selection.files)names.add(member.path);
   for(const name of names){await mkdir(dirname(join(source,name)),{recursive:true});await copyFile(join(root,name),join(source,name));}
   execFileSync('git',['init','-q',source]);execFileSync('git',['-C',source,'add','.']);
   execFileSync('git',['-C',source,'-c','user.name=Synthetic test','-c','user.email=synthetic@example.invalid','commit','-qm','Synthetic release fixture']);
@@ -105,4 +107,58 @@ test('explicit selected packs retain exact member identities and refuse missing 
   selected.generatedFiles[0].sha256=hash(openingText);
   selected.notices=['absent-notice'];await writeFile(join(source,'selection.json'),JSON.stringify(selected));
   await assert.rejects(prepareRelease({sourceRoot:source,outputDir:join(base,'missing-notice'),development:true,studies:['selection.json']}),/notice/);
+});
+
+test('all seven complete resource ZIPs overlay an npm-installed core without replacing its identity or runtime',async t=>{
+  const {base,source}=await fixture(t,{withResources:true});
+  const selections=await resourceSelections({sourceRoot:source});assert.equal(selections.length,7);
+  const inputs=[];
+  for(const selection of selections) { const path=selection.id+'.json';await writeFile(join(source,path),JSON.stringify(selection));inputs.push(path); }
+  const prepared=await prepareRelease({sourceRoot:source,outputDir:join(base,'all-packs'),development:true,resourcePacks:inputs});
+  const consumer=join(base,'consumer');await mkdir(consumer);
+  const npm=resolve(dirname(process.execPath),'../lib/node_modules/npm/bin/npm-cli.js');
+  const core=prepared.artifacts.find(a=>a.id==='core-tools');
+  execFileSync(process.execPath,[npm,'install','--prefix',consumer,'--offline','--ignore-scripts','--omit=optional','--no-audit','--no-fund','--cache',join(base,'npm-cache'),join(prepared.outputDir,core.path)],{cwd:consumer,stdio:'pipe'});
+  const pkg=join(consumer,'node_modules/@ajhcs/ingenium'),binary=join(consumer,'node_modules/.bin/ingenium');
+  const identity=await readFile(join(pkg,'release/identity.json'));
+  const before=JSON.parse(execFileSync(process.execPath,[binary,'version','--json'],{cwd:consumer,encoding:'utf8'}));
+  const runtime=await readFile(join(pkg,'src/resources/task-selection.mjs'));
+  for(const pack of prepared.artifacts.filter(a=>a.flavor==='resource-pack')) {
+    execFileSync('python3',['-c','import sys,zipfile\nwith zipfile.ZipFile(sys.argv[1]) as z:\n assert "release/identity.json" not in z.namelist()\n assert "release/selection.json" not in z.namelist()\n z.extractall(sys.argv[2])',join(prepared.outputDir,pack.path),pkg]);
+    const packIdentity=JSON.parse(await readFile(join(pkg,'release/packs',pack.id,'identity.json')));
+    assert.equal(packIdentity.artifactFlavor,'resource-pack');assert.equal(packIdentity.buildId,prepared.buildId);
+    assert.equal(JSON.parse(await readFile(join(pkg,'release/packs',pack.id,'selection.json'))).id,pack.id);
+    assert.deepEqual(await readFile(join(pkg,'release/identity.json')),identity);
+    assert.deepEqual(JSON.parse(execFileSync(process.execPath,[binary,'version','--json'],{cwd:consumer,encoding:'utf8'})),before);
+  }
+  assert.deepEqual(await readFile(join(pkg,'src/resources/task-selection.mjs')),runtime);
+  const resources=await import(join(pkg,'src/resources/index.mjs'));
+  for(const providerId of ['hack','cse-fonts','liberation-sans','atomic-ui','materials','cse-selected','recipes']) {
+    const page=await resources.searchTaskResources({sourceIds:[providerId],limit:1});
+    assert.equal(page.sources[0].status,'available',JSON.stringify(page.sources));assert.equal(page.entries.length,1);
+    const detail=await resources.inspectTaskResource({providerId,assetId:page.entries[0].assetId});
+    const data=detail.sourceDetails;
+    const originalSHA256=providerId==='atomic-ui'?data.selectedFiles.find(f=>f.file===data.styles[0]).sha256:providerId==='materials'?data.declarationSHA256:providerId==='cse-selected'?data.selectedSource.sha256:data.sha256;
+    const outputDir=join(consumer,'selected-'+providerId);
+    const selected=await resources.acquireTaskResource({selection:{providerId,assetId:detail.assetId,sourceRevision:detail.sourceRevision,originalSHA256},outputDir});
+    assert.ok(selected.notices.length);assert.ok(selected.files.length);
+    if(providerId==='recipes') {
+      execFileSync(process.execPath,['recipes.mjs',detail.assetId,'regenerated'],{cwd:outputDir,stdio:'pipe'});
+      assert.match(await readFile(join(outputDir,'regenerated/revised.svg'),'utf8'),/<svg/);
+    }
+  }
+});
+
+test('resource selection refuses runtime, package and reserved release metadata collision attempts',async t=>{
+  const {base,source}=await fixture(t,{withResources:true});
+  const original=(await resourceSelections({sourceRoot:source}))[0];
+  for(const [index,path] of ['package.json','bin/ingenium.mjs','src/resources/task-selection.mjs','release/identity.json','release/selection.json','release/packs/resource-hack/identity.json'].entries()) {
+    for(const generated of [false,true]) {
+      const selected=structuredClone(original),text='Caller supplied conflicting metadata\n';
+      if(generated)selected.generatedFiles=[{path,text,bytes:Buffer.byteLength(text),sha256:hash(text)}];
+      else {await mkdir(dirname(join(source,path)),{recursive:true});if(!['package.json','bin/ingenium.mjs','src/resources/task-selection.mjs'].includes(path))await writeFile(join(source,path),text);const b=await readFile(join(source,path));selected.files.push({path,bytes:b.length,sha256:hash(b)});}
+      await writeFile(join(source,'conflict.json'),JSON.stringify(selected));
+      await assert.rejects(prepareRelease({sourceRoot:source,outputDir:join(base,`conflict-${index}-${generated}`),development:true,resourcePacks:['conflict.json']}),/Resource pack member would overwrite/);
+    }
+  }
 });

@@ -29,7 +29,10 @@ permissions:
 
 jobs:
   selected-browser:
-    runs-on: ubuntu-latest
+    # This explicit supported image permits Chromium's unprivileged sandbox.
+    # Keep sandboxing enabled; newer Ubuntu AppArmor policy rejects downloaded
+    # Chromium by default. See docs/compatibility.md for the tested environments.
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
