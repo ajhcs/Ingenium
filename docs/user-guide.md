@@ -6,26 +6,17 @@ Ingenium is an experimental portable creative workflow. It helps explore a direc
 
 The workflow is [a readable skill](../skills/ingenium/SKILL.md). Optional Node helpers add selected resources, records, SVG export and bounded checks. There is no required server, backend or account connection. The host client still supplies its own model and tools.
 
-## Installation and discovery
+## Start a study
 
-Follow [installation](install.md) for the standalone guidance and optional prepared archives. A manual project-local source-copy lifecycle was observed in Codex CLI 0.169.0. Desktop, Claude Code, ChatGPT and Claude chat routes have separate outstanding tests; see [compatibility](compatibility.md). Installing helpers does not register the skill with a client.
+Describe the audience, purpose, medium and content, including anything that must remain unchanged. Ask for an editable source and a separate export when your client supports them. Try the [Field Station brief](quickstart.md), then open and inspect the result.
 
-### Prepared Node helpers
+## Revise and return
 
-The optional **core** archive supplies the `ingenium` command and core modules. The smaller **inspection** companion supplies `ingenium-tools`; browser adapters remain separately selected. Both need Node 22+ and neither is necessary for a simple conversation. The prepared archive filenames are `core-tools-0.2.0-alpha.1.tgz` and `inspection-tools-0.2.0-alpha.1.tgz` for a clean candidate; development builds include a `-development-<buildId>` suffix. Use the exact paths and hashes in the provided `artifacts.json`. Preparation is local and does not itself publish those files.
+Say what to keep and what to change: “Keep the open layout for this invitation; explore a less formal title.” Keep the original and earlier studies for comparison. To change a retained decision later, identify the decision and explicitly reopen it. A choice for one artifact does not establish a universal preference.
 
-With a supplied archive and a chosen consumer directory, install without a clone, registry lookup or install scripts:
+## Export and inspect
 
-```sh
-npm install --prefix /path/to/consumer --offline --ignore-scripts --omit=optional /absolute/path/to/core-tools-0.2.0-alpha.1.tgz
-/path/to/consumer/node_modules/.bin/ingenium version --json
-```
-
-For inspection, substitute the supplied `inspection-tools` archive and run `ingenium-tools version --json`. Use the actual filename from the manifest, especially for development builds. The core archive contains helper code and provider metadata; selected data packs and editable examples are separate. See [tools](tools.md) for inspection capabilities and [installation](install.md#optional-prepared-helpers) for details. No npm registry publication is required or claimed.
-
-### Optional renderer
-
-Sharp supports a bounded static SVG-to-PNG export. A copied plugin may have no Node dependencies. You can explicitly install the renderer into a separate user-owned directory and pass `--renderer-dir` to both discovery and export; follow the exact [renderer setup](../skills/ingenium/references/renderer-setup.md). Discovery never installs tools. A missing renderer leaves prose, records and editable source work available.
+Request the source and separate export, then open both in the intended application. Check wording, fonts, dimensions and interactions at the intended size. Preserve notices and unresolved questions; report unavailable exports and checks honestly.
 
 ## A productive study
 
@@ -50,7 +41,28 @@ node examples/worked/fieldwork/build.mjs work/fieldwork-study
 
 Keep the generated font notices with the artifacts. Open `work/fieldwork-study/standalone.html` in a browser for the self-contained website study. Existing output directories are refused. Choose a new directory after an interrupted or failed generation; inspect partial output rather than silently overwriting it.
 
-These studies are historical examples with stated limits. They do not demonstrate audience success, broad stylistic range or superiority over another workflow. SVG font behavior varies by renderer and editor; inspect the actual destination. Embedded-font SVGs may be outside the optional strict SVG export helper's supported subset.
+These studies are historical examples with stated limits. They do not demonstrate audience success, broad stylistic range or superiority over another workflow. SVG font behavior varies by renderer and editor; inspect the actual destination. Embedded-font SVGs may be outside the optional strict SVG export helper's supported subset. For the retained process-study SVGs, use the separate [study export guide](study-export.md).
+
+## Installation and discovery
+
+Follow [installation](install.md) for the standalone guidance and optional released archives. A manual project-local source-copy lifecycle was observed in Codex CLI 0.169.0. Desktop, Claude Code, ChatGPT and Claude chat routes have separate outstanding tests; see [compatibility](compatibility.md). Installing helpers does not register the skill with a client.
+
+### Prepared Node helpers
+
+The optional **core** archive supplies the `ingenium` command and core modules. The smaller **inspection** companion supplies `ingenium-tools`; browser adapters remain separately selected. Both need Node 22+ and neither is necessary for a simple conversation. The [0.2.0-alpha.2 prerelease](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.2) provides `core-tools-0.2.0-alpha.2.tgz` and `inspection-tools-0.2.0-alpha.2.tgz`. Local development preparations include a `-development-<buildId>` suffix. Use the exact paths and hashes in the accompanying `artifacts.json`; local preparation does not itself publish files.
+
+With a supplied archive and a chosen consumer directory, install without a clone, registry lookup or install scripts:
+
+```sh
+npm install --prefix /path/to/consumer --offline --ignore-scripts --omit=optional /absolute/path/to/core-tools-0.2.0-alpha.2.tgz
+/path/to/consumer/node_modules/.bin/ingenium version --json
+```
+
+For inspection, substitute the supplied `inspection-tools` archive and run `ingenium-tools version --json`. Use the actual filename from the manifest, especially for development builds. The core archive contains helper code and provider metadata; selected data packs and editable examples are separate. See [tools](tools.md) for inspection capabilities and [installation](install.md#optional-released-helpers) for details. No npm registry publication is required or claimed.
+
+### Optional renderer
+
+Sharp supports a bounded static SVG-to-PNG export. A copied plugin may have no Node dependencies. You can explicitly install the renderer into a separate user-owned directory and pass `--renderer-dir` to both discovery and export; follow the exact [renderer setup](../skills/ingenium/references/renderer-setup.md). Discovery never installs tools. A missing renderer leaves prose, records and editable source work available.
 
 ## Resources without a template
 
@@ -74,6 +86,6 @@ The [record format](../skills/ingenium/references/record-contract.md) distinguis
 
 ## Status and rights
 
-Current source candidate: experimental 0.2.0-alpha.1. The immutable 0.1.0 preview is historical; it is not this candidate. “V3” identifies a development study tranche; it is not a semantic package version or a claim of general release qualification. Optional Node helpers target Node 22+. Actual desktop discovery and broad cross-client/browser qualification remain unverified.
+Current distribution: experimental [0.2.0-alpha.2 prerelease](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.2). The immutable 0.1.0 preview is historical. “V3” identifies a development study tranche; it is not a semantic package version or a claim of general release qualification. Optional Node helpers target Node 22+. Actual desktop discovery and broad cross-client/browser qualification remain unverified.
 
 Original code and synthetic artwork use [MIT](../LICENSE). Retained third-party resources have separate terms: see [third-party notices](../THIRD_PARTY_NOTICES.md), [component identities](../THIRD_PARTY.json) and [worked-study font notices](../examples/worked/fonts/FONT-NOTICES.txt). Resource availability does not itself establish that a particular use is legally sufficient.

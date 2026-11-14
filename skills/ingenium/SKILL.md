@@ -23,6 +23,8 @@ For responsive web work, inspect actual narrow and enlarged-text renderings. Pre
 
 Read a reference only when its task applies:
 
+For a small resource task—CSE connector, document fragment, palette, texture, font or icon—start with [Task resources](references/task-resources.md): bounded search, exact selection and retained current editable state.
+
 | Current need | Reference |
 | --- | --- |
 | Find or adapt fonts, symbols, colors, surfaces or UI parts | [Resource routes](references/resource-libraries.md), then the selected route only |

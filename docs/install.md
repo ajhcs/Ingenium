@@ -1,107 +1,79 @@
 # Install Ingenium
 
-Choose the client you use. The standalone skill contains creative guidance and supporting references; your client provides its model and tools. No Ingenium server, API key or renderer is required. Optional helpers can be installed from supplied prepared archives; a checkout is not required for that route.
+Download the [0.2.0-alpha.2 guidance ZIP](https://github.com/ajhcs/Ingenium/releases/download/v0.2.0-alpha.2/ingenium-guidance-0.2.0-alpha.2.zip) from the [release](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.2). It contains creative instructions and supporting references. Your client supplies its model and tools; Ingenium requires no server, API key or renderer. The [downloads page](https://ajhcs.github.io/Ingenium/downloads/) explains the separate optional helpers, resource packs and editable studies.
 
-| Client | Install | Invoke |
-| --- | --- | --- |
-| Codex app / CLI | Project-local `.agents/skills/ingenium` | `$ingenium` |
-| Claude Code | Project-local `.claude/skills/ingenium` | `/ingenium` |
-| ChatGPT | Paste instructions, or upload when your workspace supports Skills | Ask “Use Ingenium” |
-| Claude chat | Upload the guidance ZIP in Customize → Skills | Enable it, then ask “Use Ingenium” |
+The release includes `artifacts.json` and `SHA256SUMS` for checking archive identity. `ingenium/RELEASE.md` inside the guidance ZIP records its version, source commit and build. Keep the complete folder, including references and notices.
 
-## Codex app or CLI
+## Codex CLI or desktop: project-local skill
 
-A manual project-local source-copy route was observed in Codex CLI 0.169.0, including discovery, invocation, source-candidate upgrade and removal. Desktop and the installer command below are separate routes; see [observed compatibility](compatibility.md).
+1. Extract the guidance ZIP using your file manager. Its top-level folder is `ingenium`.
+2. In your chosen project, create `.agents/skills/` and place the complete `ingenium` folder inside it. The entry point is `.agents/skills/ingenium/SKILL.md`. Preserve any existing copy and local edits before replacing it.
+3. Open a fresh Codex conversation in that project. Confirm Ingenium appears in the skill picker, then send `$ingenium` with [a first brief](quickstart.md).
 
-To use the third-party installer, open a terminal in the project you want Codex to work on:
+If it does not appear, check that exact path, reopen the project and restart the client. Check which source the picker shows if another Ingenium skill is installed. This route requires no Node installation. It is project-local, so other projects do not inherit it. See OpenAI's [local skill locations](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills).
+
+The manual project-local route has been exercised in Codex CLI 0.169.0. The desktop lifecycle remains [tracked separately in issue 13](https://github.com/ajhcs/Ingenium/issues/13); see the [observed compatibility record](compatibility.md).
+
+### Optional source installer
+
+With Node/npm, the third-party [Vercel skills installer](https://github.com/vercel-labs/skills) is another route:
 
 ```sh
 npx skills@1.7.2 add ajhcs/Ingenium --skill ingenium --agent codex
 ```
 
-The installer selects its repository source at invocation; it may provide different bytes from a separately prepared candidate. This uses the third-party [Vercel skills installer](https://github.com/vercel-labs/skills), requires Node/npm and installs into this project by default. Confirm the selected skill and project scope. Review any replacement prompt if Ingenium is already installed. It does not install the optional Ingenium helper package.
+Run it in the target project, review the selected skill and scope, and preserve existing edits. It selects repository source at invocation, so its bytes can differ from the versioned release ZIP. It does not install the optional helper package. The observed manual lifecycle does not establish this installer's complete client lifecycle.
 
-Open a fresh Codex conversation **in that project**. Confirm Ingenium appears in the skill picker and send `$ingenium` followed by [the first brief](quickstart.md). If it does not appear, check `.agents/skills/ingenium/SKILL.md`, reopen the project and restart the client. Check which source the picker shows if another Ingenium skill is already installed.
+### Plugin marketplaces
 
-This follows OpenAI's [local skill locations and symlink support](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills). The app and CLI share this project-local skill route; installation in one project does not make it available in all projects.
-
-### Plugin marketplaces are separate
-
-Root `plugin.json` remains Ingenium's portable OpenAI manifest. The documented `codex plugin marketplace add owner/repo` command adds a **catalog**; it is not a universal plugin-install command. This repository currently provides no marketplace catalog. Use the skill route above. See [OpenAI plugin authoring and marketplace instructions](https://developers.openai.com/plugins/build/plugins#add-a-marketplace-from-the-cli) for that separate mechanism.
+Root `plugin.json` is the portable OpenAI manifest. A marketplace command needs a catalog; this repository does not publish one. The maintained BuilderBob installation uses a separate local catalog and has its own [observed installation record](compatibility.md). That installation does not make a public marketplace route available to other users. Use the guidance ZIP above, or follow [OpenAI's marketplace instructions](https://developers.openai.com/plugins/build/plugins#add-a-marketplace-from-the-cli) with an explicitly selected catalog.
 
 ## Claude Code
 
-Run in your target project:
+Extract the same guidance ZIP and place its complete `ingenium` folder under `.claude/skills/` in your chosen project. Start a fresh Claude Code session, check `/skills`, and invoke `/ingenium` with your brief. The entry point should be `.claude/skills/ingenium/SKILL.md`.
+
+The optional third-party source installer is:
 
 ```sh
 npx skills@1.7.2 add ajhcs/Ingenium --skill ingenium --agent claude-code
 ```
 
-Check the installer summary, then start Claude Code in that project. Check `/skills` and invoke `/ingenium` with your brief. Confirm `.claude/skills/ingenium/SKILL.md` exists. If the installer uses a symlink to a canonical `.agents/skills/ingenium` copy, keep both. If it is absent, check those paths, restart Claude Code and inspect any organization policy restricting project skills. Avoid installing a second copy under the same name.
+If it creates a symlink to a shared `.agents/skills/ingenium` copy, keep both. Inspect paths and organization policy if discovery fails, and avoid a second copy with the same name. See [Anthropic's project skill instructions](https://code.claude.com/docs/en/skills). An authenticated Claude Code lifecycle is unavailable here and remains [issue 12](https://github.com/ajhcs/Ingenium/issues/12).
 
-See Anthropic's [project skill locations, invocation and supporting files](https://code.claude.com/docs/en/skills). A standalone skill uses `/ingenium`, without a plugin namespace.
+## ChatGPT and Claude chat
 
-## Manual install without Node
+For an ordinary conversation, paste the instruction text from `ingenium/SKILL.md` and add your brief. Attach any named reference files the task needs. Ask for editable downloadable files when the client can create them; otherwise retain the source text and treat its visual review as pending. Pasting instructions does not create persistent skill discovery, and linking a repository does not establish that the chat read it.
 
-Obtain the supplied prepared guidance ZIP and verify its identity using its `artifacts.json` manifest. For a clean `0.2.0-alpha.1` candidate the filename is `ingenium-guidance-0.2.0-alpha.1.zip`; development builds add a `-development-<buildId>` suffix. Extract it: the top-level folder is `ingenium`, containing `SKILL.md`, `references/`, `RELEASE.md` and `LICENSE`. Preparation does not mean the candidate has been published.
-
-In your target project, create `.agents/skills/` for Codex or `.claude/skills/` for Claude Code. Move the complete `ingenium` folder into it. If that destination already exists, preserve it and inspect which version you have before replacing anything. Open a fresh client conversation and verify discovery as above. This works through your file manager and needs no terminal installer.
-
-Alternatively, copy `skills/ingenium/` from a retained full checkout, or symlink that directory into the same project-local location. Keep the checkout available if you use a symlink. Never copy just `SKILL.md`: the references belong with it.
-
-## ChatGPT
-
-### Start in an ordinary conversation
-
-Open [SKILL.md](../skills/ingenium/SKILL.md), copy its instruction text into the conversation and add your brief. Ask ChatGPT to follow those instructions for this conversation. If it needs a named reference, attach that Markdown file from the supplied guidance ZIP. Ask for downloadable editable files when file creation is available; otherwise retain the source text yourself and treat visual review as pending.
-
-This route does not require a custom Skills menu and does not create persistent discovery. Merely linking a GitHub repository does not guarantee the chat has read its files.
-
-### Workspaces with Skills enabled
-
-OpenAI currently lists eligible **Business, Enterprise, Healthcare and Edu** users, subject to workspace settings and availability. Do not assume a personal Pro subscription includes custom skill upload. If the UI is available, go to **Plugins → Skills → Create → Upload from your computer**, select the guidance ZIP and complete any product review. Start a new conversation, ask to use Ingenium and confirm it actually loads.
-
-See OpenAI's [current Skills eligibility, upload and management guide](https://help.openai.com/en/articles/20001066-skills-in-chatgpt). Account availability and actual upload have not been tested by this repository. Installing a local Codex skill does not establish that it is available in ChatGPT.
-
-## Claude chat
-
-1. Obtain the supplied guidance ZIP and keep it zipped for upload.
-2. Enable **Code execution and file creation** in **Settings → Capabilities**, subject to organization settings.
-3. Open **Customize → Skills → + → Create skill → Upload a skill** and select the ZIP.
-4. Enable Ingenium, start a fresh chat and say “Use Ingenium” with your brief. Confirm Claude loads it and open the actual files it produces.
-
-Anthropic currently lists Skills for Free, Pro, Max, Team and Enterprise, with code execution enabled. See [Claude Skills setup](https://support.claude.com/en/articles/12512180-use-skills-in-claude) and [custom-skill ZIP structure](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills). Our ZIP contains `ingenium/SKILL.md` and all its guidance references. Optional full-repository code is linked online and is not bundled. Actual account upload remains untested here.
+Where your account offers custom Skills, upload the complete guidance ZIP through its skill-management interface, enable it, start a fresh conversation and confirm it loads. Account eligibility and interface details are controlled by the client: see [ChatGPT Skills](https://help.openai.com/en/articles/20001066-skills-in-chatgpt), [Claude Skills](https://support.claude.com/en/articles/12512180-use-skills-in-claude), and [Claude's custom ZIP structure](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills). Actual chat upload, file access and later continuation remain [issue 14](https://github.com/ajhcs/Ingenium/issues/14).
 
 ## Update or remove
 
-For the terminal installer, run from the **same project**:
+For a manual copy, preserve your existing Ingenium folder and local edits. Download the desired release ZIP, verify its identity, and replace only the folder you installed. Open a fresh session and check the loaded source. To remove it, remove that folder or symlink only; retain files you created during your studies. A retained checkout can also be symlinked deliberately, but updating that checkout changes the linked instructions.
+
+For the source installer, run from the same project:
 
 ```sh
-# Review updates for this project's Ingenium skill only.
 npx skills@1.7.2 update ingenium --project
-# Remove this project's Ingenium skill from its agent locations:
 npx skills@1.7.2 remove ingenium
 ```
 
-These are the installer's documented commands; do not add `--global` unless you intentionally manage a user-wide installation. Preserve local edits before updating. See [upstream scope and lifecycle options](https://github.com/vercel-labs/skills#other-commands).
+Review scope before running either command. In our installer 1.7.2 check, agent-filtered removal reported success while leaving the shared `.agents/skills/ingenium` folder discoverable. Skill-name removal cleared the tested installation. If you share a skill across clients, inspect remaining paths before assuming one client's access has ended. See the [upstream lifecycle commands](https://github.com/vercel-labs/skills#other-commands).
 
-Use the skill-name removal above when retiring Ingenium from the project. In our `1.7.2` check, an agent-filtered Codex removal reported success but retained the shared `.agents/skills/ingenium` folder, which Codex can still discover. Removing by skill name cleared the tested installation. If you share Ingenium with multiple agents and want to remove only one agent's access, inspect the remaining paths instead of assuming a successful message makes it unavailable.
+For chat uploads, replace or disable the uploaded skill in that client's management screen. For pasted guidance, start a new conversation with the new text. Updating one route does not update other copies.
 
-For manual copies, preserve your current copy, download the new ZIP and replace only the Ingenium folder you installed. To remove it, remove that folder or symlink only. For symlinks, update the retained checkout deliberately; removing the link leaves the checkout intact.
+## Optional released helpers
 
-For chat uploads, use the client's skill management screen to replace or disable your uploaded skill; uploading a new ZIP does not update existing copies elsewhere. For pasted guidance, start a new conversation with the new instructions. These operations do not remove files you created during a study.
+Use these only when your task needs their capabilities. Guidance does not contain the helper runtime, resource data or example generators. The release supplies [core-tools-0.2.0-alpha.2.tgz](https://github.com/ajhcs/Ingenium/releases/download/v0.2.0-alpha.2/core-tools-0.2.0-alpha.2.tgz) for continuation, records, resources and delivery, and [inspection-tools-0.2.0-alpha.2.tgz](https://github.com/ajhcs/Ingenium/releases/download/v0.2.0-alpha.2/inspection-tools-0.2.0-alpha.2.tgz) for scoped browser inspection. No npm registry publication is claimed.
 
-## Optional prepared helpers
-
-The standalone guidance does not include `bin/`, `src/`, resource data or example generators. For a clean `0.2.0-alpha.1` candidate, a prepared artifact set can include `core-tools-0.2.0-alpha.1.tgz` and the separate `inspection-tools-0.2.0-alpha.1.tgz`. Development filenames contain `-development-<buildId>`; use the actual paths and SHA-256 values recorded in the supplied `artifacts.json`. These archives are prepared locally; their presence and publication must be established from the actual delivery, not inferred from a filename.
-
-With Node 22+ and npm, install a supplied core archive into a user-selected consumer directory:
+After downloading and verifying an archive, use Node 22+ and npm in a selected consumer directory:
 
 ```sh
-npm install --prefix /path/to/consumer --offline --ignore-scripts --omit=optional /absolute/path/to/core-tools-0.2.0-alpha.1.tgz
+npm install --prefix /path/to/consumer --offline --ignore-scripts --omit=optional /absolute/path/to/core-tools-0.2.0-alpha.2.tgz
 /path/to/consumer/node_modules/.bin/ingenium version --json
 ```
 
-Replace the archive path with the exact supplied filename. For inspection, install the separate inspection archive into a consumer and run its `ingenium-tools version --json`. The [user guide](user-guide.md#prepared-node-helpers) explains the division; [tools](tools.md) documents the optional browser adapter. Optional resource packs and editable examples are separate. Helper installation does not register the skill with a client. Missing optional renderers leave editable source and guidance usable.
+For the separate inspection archive, use the same installation pattern and run `ingenium-tools version --json`. Version output identifies the installed artifact. Browser, SVG and native font adapters are separate explicit selections; helper installation does not register the guidance with a client. See the [user guide](user-guide.md#prepared-node-helpers) and [tool setup](tools.md).
 
-Developers with a checkout can run the local release preparer to produce artifacts; dirty source requires explicit development mode and is labelled as such. Neither preparation nor this guide publishes or installs a release. The immutable [0.1.0 preview release](https://github.com/ajhcs/Ingenium/releases/tag/v0.1.0) is historical and does not contain this `0.2.0-alpha.1` candidate. No npm registry publication is claimed.
+Resource ZIPs overlay the matching core helper root (`CONSUMER/node_modules/@ajhcs/ingenium`); their separate identities live under `release/packs/` and must not replace the core identity. Extract editable study ZIPs into their own new directories and follow the included `OPENING.md`. Missing optional tools leave source and guidance usable.
+
+Developers can prepare archives from a checkout. Dirty source requires explicit development mode and carries a development identity. A local preparation is distinct from the published, versioned release above.

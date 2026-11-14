@@ -67,14 +67,14 @@ async function fileReceipts(root) {
 /** Execute only an explicitly validated local route set. Optional signal is outside plan JSON. */
 export async function inspectProjectSet({ plan, outputDir, previousSnapshotPath, adapterDir, executablePath, signal } = {}) {
   const validation = validateInspectionPlan(plan);
-  if (!validation.valid) { const error = new TypeError(validation.errors.map(e => `${e.path}: ${e.message}`).join('\n')); error.code = 'INVALID_INSPECTION_PLAN'; error.errors = validation.errors; throw error; }
+  if (!validation.valid) { const error = new TypeError(validation.errors.map(e => `${e.path}: ${e.message}`).join('\n')); error.code = 'INVALID_INSPECTION_PLAN'; error.category = 'usage'; error.stage = 'preflight'; error.field = validation.errors[0]?.path; error.errors = validation.errors; throw error; }
   plan = structuredClone(plan);
   if (signal !== undefined && (!(signal instanceof AbortSignal))) throw new TypeError('signal must be an AbortSignal');
   for (const [key, value] of Object.entries({ adapterDir, executablePath, previousSnapshotPath })) if (value !== undefined && (typeof value !== 'string' || !value.trim())) throw new TypeError(`${key} must be a nonempty string`);
   let previous;
   if (previousSnapshotPath) {
-    const stat = await lstat(previousSnapshotPath); if (!stat.isFile() || stat.size > 8 * 1024 * 1024) throw new TypeError('Previous snapshot must be a regular file of at most8 MiB');
-    previous = JSON.parse(await readFile(previousSnapshotPath, 'utf8')); const valid = validateInspectionSnapshot(previous); if (!valid.valid) throw new TypeError(valid.errors[0].message);
+    const stat = await lstat(previousSnapshotPath); if (!stat.isFile() || stat.size > 8 * 1024 * 1024) throw Object.assign(new TypeError('Previous snapshot must be a regular file of at most8 MiB'), { code: 'INVALID_INSPECTION_SNAPSHOT', category: 'usage', stage: 'preflight', field: '--previous' });
+    previous = JSON.parse(await readFile(previousSnapshotPath, 'utf8')); const valid = validateInspectionSnapshot(previous); if (!valid.valid) throw Object.assign(new TypeError(valid.errors[0].message), { code: 'INVALID_INSPECTION_SNAPSHOT', category: 'usage', stage: 'preflight', field: '--previous' });
   }
   const destination = await preflightOutput(outputDir), expanded = expandInspectionPlan(plan), planHash = hashIdentity(plan), originIdentity = hashIdentity({ origin: plan.origin });
   const coverage = { requested: expanded.cells.length, captured: 0, failed: 0, missing: expanded.cells.length, cells: expanded.cells.map(c => ({ scope: c.scope, status: 'missing' })) };

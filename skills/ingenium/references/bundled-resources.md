@@ -1,5 +1,7 @@
 # Installed resources and selected downloads
 
+For an ordinary small resource task, start with [Task resources](task-resources.md): bounded search across bundled CSE masters, document recipes, palettes, fonts, original textures, web primitives and icon metadata; then inspect one exact selection. This is the shortest route to the expanded library.
+
 Use `src/resources/index.mjs` relative to the installed plugin. `discoverResources()` reads compact provider summaries. It does not fetch, execute upstream code, register fonts or admit every catalog entry. Choose a provider and use the matching route below; factories return different interfaces.
 
 | Provider ID | Retained scope | Next operation |

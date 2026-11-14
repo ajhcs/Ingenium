@@ -101,7 +101,7 @@ export async function prepareRelease({outputDir,development=false,sourceRoot=roo
   const stagedContent=[];
   for(const name of ['companion','core',...artifacts.filter(a=>['resource-pack','editable-study'].includes(a.flavor)).map(a=>a.id)])stagedContent.push({stage:name,files:await inventory(join(output,'stages',name))});
   await writeFile(join(output,'source-content.json'),JSON.stringify({schema:'ingenium-release-content/1',development,files,selected,stagedContent,archiveContents},null,2)+'\n',{flag:'wx'});
-  const manifest={schema:'ingenium-release-artifacts/1',version,sourceRevision,sourceTree,buildId,prepared:true,published:false,artifacts};
+  const manifest={schema:'ingenium-release-artifacts/1',version,sourceRevision,sourceTree,buildId,prepared:true,published:false,...(development?{development:true}:{}),artifacts};
   await writeFile(join(output,'artifacts.json'),JSON.stringify(manifest,null,2)+'\n',{flag:'wx'});
   return {...manifest,outputDir:output,development,installed:false,deployed:false};
 }

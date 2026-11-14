@@ -2,7 +2,9 @@
 
 Run `ingenium help` for the current exhaustive operation inventory. Run
 `ingenium help FAMILY OPERATION` or add `--help` anywhere for a narrower view.
-`ingenium-tools help` covers the separate inspection companion. Help and version
+`ingenium-tools help` covers the separate inspection companion. Narrow help
+includes operation-specific examples, argument meanings and output boundaries
+in text and JSON; it does not repeat unrelated examples. Help and version
 make no adapter probe, install, network request or output file. No arguments return
 help with exit 0.
 
@@ -39,9 +41,18 @@ ingenium project open-version selected-store first-version new-editable-copy
 ingenium project recover selected-store --inspect --json
 ```
 
-`continue` validates the portable envelope and summarizes opening sources,
-recorded choices, questions and next action; it does not commit, invoke a model or
-launch an editor. History and diff are read-only. Version selectors are a named
+`continue` validates the portable envelope and summarizes the brief, exact
+records-v1 choices, opening sources, questions and next action. It checks SHA-256
+for each explicit current `sources` and `outputs` reference relative to the
+continuation file's directory, regardless of the command working directory.
+Missing or changed refs produce `sourceVerification.status:fail` and exit 1;
+the summary retains the brief and choices so the source can be reconciled.
+The containing directory must be canonical; symlink components and files over
+64 MiB refuse verification. Empty refs report `not-applicable`, not a source pass.
+Historical version refs, descriptive record paths and linked dependency
+completeness are outside this check. Failed or unavailable exports described only
+in delivery metadata are not claimed files and are not opened.
+The command writes no store or files, commits nothing and launches no editor. History and diff are read-only. Version selectors are a named
 version ID or `commit:<sha256>`. `open-version` copies the verified historical
 closure to a new destination. Diff uses each selected version's sources and
 previews, normalizes verified UTF-8 text sources up to 1 MiB, and leaves other
@@ -76,14 +87,15 @@ and selected download commands remain in the central help inventory.
 Health uses ordinary local renderer resolution and static resource metadata by
 default. Browser/Python probes require explicit selectors; `--probes` accepts a
 comma-separated subset of `renderer,browser,font-vector,resources`.
-`--require ID` turns an unusable required capability into exit 2. Missing optional
+`--require ID` returns 2 for an absent or unselected required capability and 1
+for an errored selected capability. Missing optional
 tools alone do not fail ordinary diagnosis. The companion marks core-only probes
 `not-selected`. No automatic installs, home/global directory scan or installed
 agent-client inference occurs.
 
 Exit 1 means a check, operation or conflict failed; exit 2 means usage or required
 coverage/capability is unavailable. Unknown, duplicate and missing flags, and
-malformed JSON, now consistently return 2; missing selected renderers also return
+malformed JSON and invalid inspection profiles/baseline schemas consistently return 2; missing selected renderers also return
 2. Read the structured category/stage/nextStep before retrying. Exit 130 means
 interrupted after cleanup where possible; retained outputs may be partial. Keep
 them for inspection and retry with a new destination.

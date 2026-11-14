@@ -1,6 +1,6 @@
 # Current helper interfaces
 
-Ingenium's guidance works without these helpers. The optional helpers require Node 22 or later. This is the current interface index for the 0.2.0-alpha.1 candidate; [contracts.md](../contracts.md) retains earlier implementation decisions and their chronology.
+Ingenium's guidance works without these helpers. The optional helpers require Node 22 or later. This is the current interface index for the 0.2.0-alpha.2 release; [contracts.md](../contracts.md) retains earlier implementation decisions and their chronology.
 
 | Task | Interface | Contract |
 | --- | --- | --- |

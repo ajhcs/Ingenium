@@ -10,6 +10,8 @@ on:
       - 'bin/**'
       - 'tests/**'
       - 'tools/ci-browser/**'
+      - 'tools/export-study-svg.mjs'
+      - 'tools/build-study-bundles.mjs'
       - '.github/workflows/inspection-checks.yml'
   push:
     branches: [main, codex/ingenium-approved-evolution]
@@ -21,6 +23,8 @@ on:
       - 'bin/**'
       - 'tests/**'
       - 'tools/ci-browser/**'
+      - 'tools/export-study-svg.mjs'
+      - 'tools/build-study-bundles.mjs'
       - '.github/workflows/inspection-checks.yml'
   workflow_dispatch:
 
@@ -49,4 +53,6 @@ jobs:
           export TMPDIR="$PWD/work"
           export INGENIUM_BROWSER_ADAPTER_DIR="$PWD/tools/ci-browser"
           export INGENIUM_BROWSER_EXECUTABLE="$(node -e "console.log(require('./tools/ci-browser/node_modules/playwright').chromium.executablePath())")"
-          node --test tests/browser.test.mjs tests/inspection-*.test.mjs tests/project-tools.test.mjs tests/health.test.mjs tests/cli-inspect-set.test.mjs
+          export INGENIUM_STUDY_PLAYWRIGHT="$PWD/tools/ci-browser/node_modules/playwright"
+          export INGENIUM_STUDY_CHROMIUM="$INGENIUM_BROWSER_EXECUTABLE"
+          node --test tests/browser.test.mjs tests/inspection-*.test.mjs tests/project-tools.test.mjs tests/health.test.mjs tests/cli-inspect-set.test.mjs tests/cli-repairs.test.mjs tests/study-export.test.mjs

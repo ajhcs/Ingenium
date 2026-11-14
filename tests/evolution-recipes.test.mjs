@@ -41,3 +41,16 @@ test('data and graph validation refuses malformed selections',async()=>{
  await assert.rejects(renderRecipe('diagram-chain',{edges}),/endpoints/);
  await assert.rejects(renderRecipe('image-field',{accent:'url(x)'}),/hex color/);
 });
+test('ordinary document wording wraps without dropping units or relationship wording',async()=>{
+ const title='Technical specification for remote field station monitoring',svg=await renderRecipe('doc-title',{title});assert.ok(svg.includes('<tspan'));assert.equal([...svg.matchAll(/<tspan[^>]*>(.*?)<\/tspan>/g)].map(m=>m[1]).join('').includes(title),true);
+ const rows=[['REQ-01','The system shall display the measured pressure in kPa.','Inspection'],['REQ-02','Preserve all measured units and relationship directions.','Demonstration']],table=await renderRecipe('doc-requirements',{rows});const text=[...table.matchAll(/<tspan[^>]*>(.*?)<\/tspan>/g)].map(m=>m[1]).join('');for(const row of rows)for(const cell of row)assert.ok(text.includes(cell));
+ await assert.rejects(renderRecipe('doc-title',{title:'x'.repeat(61)}),/bounded/);
+});
+
+test('astral characters before a word break use code-point boundaries and preserve all text',async()=>{
+ const title='😀'.repeat(12)+' '+'W'.repeat(40),svg=await renderRecipe('doc-title',{title});
+ const lines=[...svg.matchAll(/<tspan[^>]*>(.*?)<\/tspan>/g)].map(m=>m[1]);
+ assert.equal(lines[0],'😀'.repeat(12)+' ');
+ assert.ok(lines.slice(1,4).every(line=>/^W{1,15}$/.test(line)));
+ assert.equal(lines.slice(0,4).join(''),title);
+});

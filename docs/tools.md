@@ -10,10 +10,10 @@ browser measurements and report format. No npm publication is claimed.
 
 ## Install a supplied companion archive
 
-With Node 22+ and npm, select the `inspection-tools` archive from the supplied `artifacts.json` and verify its SHA-256. A clean `0.2.0-alpha.1` candidate is named `inspection-tools-0.2.0-alpha.1.tgz`; a development build includes a `-development-<buildId>` suffix. Use the actual filename in the manifest. Preparation does not mean an archive has been published.
+With Node 22+ and npm, select the `inspection-tools` archive from the supplied `artifacts.json` and verify its SHA-256. A clean `0.2.0-alpha.2` candidate is named `inspection-tools-0.2.0-alpha.2.tgz`; a development build includes a `-development-<buildId>` suffix. Use the actual filename in the manifest. Preparation does not mean an archive has been published.
 
 ```sh
-npm install --prefix /path/to/consumer --offline --ignore-scripts --omit=optional /absolute/path/to/inspection-tools-0.2.0-alpha.1.tgz
+npm install --prefix /path/to/consumer --offline --ignore-scripts --omit=optional /absolute/path/to/inspection-tools-0.2.0-alpha.2.tgz
 /path/to/consumer/node_modules/.bin/ingenium-tools version --json
 ```
 
