@@ -13,6 +13,9 @@ def build(destination, *, repository=None, identity=None):
     files = [(skill / "SKILL.md", "ingenium/SKILL.md")]
     files.extend((source, "ingenium/" + source.relative_to(skill).as_posix())
                  for source in sorted((skill / "references").rglob("*.md")))
+    # Explicit original editable example, not an unbounded assets directory.
+    files.append((skill / "assets/responsive-starter.html",
+                  "ingenium/assets/responsive-starter.html"))
     for notice in ("LICENSE", "LICENSE-IMPECCABLE", "NOTICE-IMPECCABLE"):
         files.append((skill / notice, "ingenium/" + notice))
     # Ignore rules are a packaging boundary, not permission to bundle private notes.

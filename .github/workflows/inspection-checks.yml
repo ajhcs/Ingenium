@@ -7,6 +7,8 @@ on:
       - 'src/project/**'
       - 'src/cli/**'
       - 'src/checks/**'
+      - 'src/resources/**'
+      - 'skills/ingenium/**'
       - 'bin/**'
       - 'tests/**'
       - 'tools/ci-browser/**'
@@ -20,6 +22,8 @@ on:
       - 'src/project/**'
       - 'src/cli/**'
       - 'src/checks/**'
+      - 'src/resources/**'
+      - 'skills/ingenium/**'
       - 'bin/**'
       - 'tests/**'
       - 'tools/ci-browser/**'
@@ -55,4 +59,4 @@ jobs:
           export INGENIUM_BROWSER_EXECUTABLE="$(node -e "console.log(require('./tools/ci-browser/node_modules/playwright').chromium.executablePath())")"
           export INGENIUM_STUDY_PLAYWRIGHT="$PWD/tools/ci-browser/node_modules/playwright"
           export INGENIUM_STUDY_CHROMIUM="$INGENIUM_BROWSER_EXECUTABLE"
-          node --test tests/browser.test.mjs tests/inspection-*.test.mjs tests/project-tools.test.mjs tests/health.test.mjs tests/cli-inspect-set.test.mjs tests/cli-repairs.test.mjs tests/study-export.test.mjs
+          node --test tests/browser.test.mjs tests/inspection-*.test.mjs tests/project-tools.test.mjs tests/health.test.mjs tests/cli-inspect-set.test.mjs tests/cli-repairs.test.mjs tests/study-export.test.mjs tests/responsive-guidance.test.mjs tests/cse-font-closure.test.mjs tests/cse-font-browser.test.mjs

@@ -1,6 +1,6 @@
 {
   "name": "@ajhcs/ingenium",
-  "version": "0.2.0-alpha.2",
+  "version": "0.2.0-alpha.3",
   "description": "Portable creative guidance for editable engineering graphics, documents and websites, with optional local helpers",
   "type": "module",
   "private": true,

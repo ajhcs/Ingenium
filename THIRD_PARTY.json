@@ -342,6 +342,23 @@
       "source": "examples/evolution/resource-recipes/catalog.json",
       "additionalNotice": "examples/evolution/CSE-LICENSE.txt",
       "limits": "Original synthetic document, chart, diagram and illustration recipes with selected CSE palette references. No copied private design brief."
+    },
+    "cseFontHandoffs": {
+      "scope": "Seven font-complete derived SVG handoffs; original master bytes and font declarations preserved",
+      "families": [
+        "Liberation Sans Regular and Bold, binary version 2.00.1",
+        "DejaVu Sans Bold and Sans Mono Regular, version 2.37"
+      ],
+      "sources": [
+        "Retained fontLiberation 0.1.0 local data; upstream distribution identity not independently verified",
+        "Debian fonts-dejavu-core 2.37-8"
+      ],
+      "notices": [
+        "src/resources/packs/cse-selected/LICENSE-font-liberation.txt",
+        "src/resources/packs/cse-selected/LICENSE-font-dejavu.txt"
+      ],
+      "provenance": "src/resources/packs/cse-selected/manifest.json",
+      "limits": "Five Arial-first originals use explicitly authored Liberation Sans derivatives; original historical appearance and native editor support remain unqualified. No Arial binary redistributed."
     }
   }
 }

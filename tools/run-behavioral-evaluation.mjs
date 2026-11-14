@@ -83,14 +83,15 @@ async function launch(client, args, outputDir, timeoutMs, tempRoot) {
   });
 }
 export async function runCase(options) {
-  const { client, model, timeoutMs = 600000, tempRoot } = options;
+  const { client, model, timeoutMs = 600000, tempRoot, sandbox = 'workspace-write' } = options;
+  if (!['workspace-write', 'danger-full-access'].includes(sandbox)) throw new Error('Sandbox must be workspace-write or danger-full-access');
   if (!client || !path.isAbsolute(client) || !model) throw new Error('Explicit absolute client executable and model are required');
   if (!Number.isInteger(timeoutMs) || timeoutMs < 1000 || timeoutMs > 3600000) throw new Error('Timeout must be 1000..3600000 milliseconds');
   if (tempRoot && !path.isAbsolute(tempRoot)) throw new Error('Temporary root must be an explicit absolute existing directory');
   const clientVersion = (await executeFile(client, ['--version'], { timeout: 5000, maxBuffer: 65536 })).stdout.trim();
   const { receipt, projectDir, prompt } = await prepareCase(options);
-  const args = ['-a', 'never', 'exec', '--ignore-user-config', '--ephemeral', '--skip-git-repo-check', '-m', model, '-c', 'model_reasoning_effort="low"', '-s', 'workspace-write', '--json', '-C', projectDir, '-o', path.join(options.outputDir, 'producer-final.txt'), prompt];
-  receipt.environment = { route: 'Codex CLI project-local .agents/skills', clientVersion, requestedModel: model, platform: process.platform, arch: process.arch, node: process.version, startedAt: new Date().toISOString(), invocation: args.slice(0, -1), client };
+  const args = ['-a', 'never', 'exec', '--ignore-user-config', '--ephemeral', '--skip-git-repo-check', '-m', model, '-c', 'model_reasoning_effort="low"', '-s', sandbox, '--json', '-C', projectDir, '-o', path.join(options.outputDir, 'producer-final.txt'), prompt];
+  receipt.environment = { route: 'Codex CLI project-local .agents/skills', clientVersion, requestedModel: model, sandbox, platform: process.platform, arch: process.arch, node: process.version, startedAt: new Date().toISOString(), invocation: args.slice(0, -1), client };
   receipt.limits = ['Model behavior observed only for these exact inputs and candidate bytes.', 'Process completion is not a behavioral verdict. Independent evaluator must inspect events, sources and requested outputs.', 'No generic-assistant comparison or native-editor qualification.'];
   receipt.status = 'running';
   await writeFile(path.join(options.outputDir, 'result.json'), JSON.stringify(receipt, null, 2) + '\n');
@@ -103,7 +104,7 @@ export async function runCase(options) {
   return receipt;
 }
 export async function main(args) {
-  const options = {}, allowed = new Set(['manifest', 'case', 'output', 'skill', 'client', 'model', 'repeat', 'timeout-ms', 'temp-root']);
+  const options = {}, allowed = new Set(['manifest', 'case', 'output', 'skill', 'client', 'model', 'repeat', 'timeout-ms', 'temp-root', 'sandbox']);
   let execute = false;
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--run') { if (execute) throw new Error('Duplicate --run'); execute = true; continue; }
@@ -112,6 +113,7 @@ export async function main(args) {
     options[key] = args[++i];
   }
   for (const key of ['case', 'output', 'skill']) if (!options[key]) throw new Error(`Required --${key}`);
+  if (options.sandbox && !['workspace-write', 'danger-full-access'].includes(options.sandbox)) throw new Error('Sandbox must be workspace-write or danger-full-access');
   const manifest = JSON.parse(await readFile(options.manifest ?? path.join(fixtureRoot, 'manifest.json'), 'utf8'));
   const count = Number(options.repeat ?? 3);
   if (!Number.isInteger(count) || count < 1 || count > 20) throw new Error('--repeat must be 1..20');
@@ -119,7 +121,7 @@ export async function main(args) {
   await mkdir(options.output, { recursive: false });
   const receipts = [];
   for (let repetition = 1; repetition <= count; repetition++) {
-    const spec = { manifest, id: options.case, outputDir: path.resolve(options.output, `run-${repetition}`), skillDir: path.resolve(options.skill), repetition, client: options.client, model: options.model, tempRoot: options['temp-root'], timeoutMs: Number(options['timeout-ms'] ?? 600000) };
+    const spec = { manifest, id: options.case, outputDir: path.resolve(options.output, `run-${repetition}`), skillDir: path.resolve(options.skill), repetition, client: options.client, model: options.model, tempRoot: options['temp-root'], sandbox: options.sandbox, timeoutMs: Number(options['timeout-ms'] ?? 600000) };
     receipts.push(execute ? await runCase(spec) : (await prepareCase(spec)).receipt);
   }
   return receipts;

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Field instrument review — responsive starter</title>
+  <style>
+    /* Original synthetic example. Adapt primitives; preserve the user's content. */
+    * { box-sizing: border-box; }
+    html { font-size: 100%; }
+    body { margin: 0; font: 1rem/1.55 system-ui, sans-serif; color: #172d32; background: #f5f7f6; }
+    .page { max-inline-size: 72rem; margin-inline: auto; padding: 1rem min(.75rem, 3vw) 3rem; }
+    h1 { font-size: 1rem; line-height: 1.35; }
+    h2 { font-size: 1rem; line-height: 1.4; }
+    h1, h2, p { margin-block: 0 1rem; }
+    .prose { max-inline-size: 65ch; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: 1.5rem; }
+    .grid > *, .panel, .actions > * { min-inline-size: 0; }
+    .panel { border-block-start: 2px solid #6d8589; padding-block: 1rem; }
+    .status { font-weight: 650; }
+    .token { overflow-wrap: anywhere; }
+    .actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+    button, textarea { font: inherit; max-inline-size: 100%; min-inline-size: 0; }
+    button { white-space: normal; text-align: start; padding: .5rem min(.5rem, 2vw); border: 2px solid #244d54; background: #244d54; color: white; cursor: pointer; }
+    label { display: block; margin-block-end: .5rem; }
+    textarea { display: block; inline-size: 100%; min-block-size: 6rem; padding: .375rem; margin-block-end: 1rem; }
+    summary { cursor: pointer; font-weight: 650; }
+    details > div { margin-block-start: .75rem; }
+    :focus-visible { outline: 3px solid #8a4100; outline-offset: 3px; }
+    .table-scroll { max-inline-size: 100%; min-inline-size: 0; overflow: auto; border: 1px solid #6d8589; }
+    table { border-collapse: collapse; table-layout: fixed; min-inline-size: 36rem; inline-size: 100%; background: white; }
+    caption { text-align: start; font-weight: 650; padding: .5rem; }
+    th, td { text-align: start; vertical-align: top; padding: .5rem; border-block-end: 1px solid #a5b7b7; }
+    a { color: #244d54; }
+    @media (min-width: 48rem) { h1 { font-size: 1.75rem; } h2 { font-size: 1.25rem; } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="prose">
+      <p>Field instrument review</p>
+      <h1>Community measurement, calibration and cross-disciplinary fieldwork orientation</h1>
+      <p class="status">Provisional: review required before measurements inform decisions.</p>
+    </header>
+    <div class="grid">
+      <section class="panel" aria-labelledby="review-heading">
+        <h2 id="review-heading">Review information</h2>
+        <p class="prose">The north instrument shelter remains open for supervised calibration practice. Retain the provisional status and contact the named review owner before using measurements for consequential decisions.</p>
+        <p>Reference pressure: <strong>125 kPa</strong></p>
+        <p>Review owners: <bdi dir="auto">محطة Field Station 12</bdi> / <bdi dir="auto">צוות Delta</bdi> / Mira Chen</p>
+        <p>Reference: <span class="token">FIELD_STATION_CALIBRATION_REFERENCE_2026_11_REVISION_001</span></p>
+        <details>
+          <summary>Review the complete instrument calibration and maintenance history</summary>
+          <div class="prose"><p>No maintenance-history records were supplied. The provisional status remains unchanged.</p></div>
+        </details>
+      </section>
+      <section class="panel" aria-labelledby="note-heading">
+        <h2 id="note-heading">Review note</h2>
+        <label for="review-note">Observations for the instrument calibration review</label>
+        <textarea id="review-note" rows="3">Check the north shelter reference before the next supervised visit.</textarea>
+        <div class="actions"><button id="preview-note" type="button">Preview the complete instrument calibration review note</button></div>
+        <p id="note-status" role="status" aria-live="polite"></p>
+        <p id="note-preview" class="prose token"></p>
+      </section>
+    </div>
+    <section class="panel" aria-labelledby="records-heading">
+      <h2 id="records-heading">Inspection records</h2>
+      <p id="scroll-hint">If columns extend beyond the view, focus the table area and use the arrow keys to scroll horizontally.</p>
+      <div class="table-scroll" role="region" aria-labelledby="records-heading" aria-describedby="scroll-hint" tabindex="0">
+        <table>
+          <caption>Synthetic instrument checks</caption>
+          <thead><tr><th scope="col">Instrument</th><th scope="col">Pressure</th><th scope="col">Review status</th><th scope="col">Next action</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">North shelter reference</th><td>125 kPa</td><td>Provisional</td><td>Confirm calibration history</td></tr>
+            <tr><th scope="row">Portable field reference</th><td>118 kPa</td><td>Review required</td><td>Retain the supplied reading</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><a href="#review-heading">Return to review information</a></p>
+    </section>
+  </main>
+  <script>
+    document.getElementById('preview-note').addEventListener('click', () => {
+      document.getElementById('note-preview').textContent = document.getElementById('review-note').value;
+      document.getElementById('note-status').textContent = 'Preview updated. This example does not save the note.';
+    });
+  </script>
+</body>
+</html>

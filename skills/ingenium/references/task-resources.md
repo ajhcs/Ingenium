@@ -12,7 +12,7 @@ const chosen = page.entries[0]; // Select only after reviewing the few returned 
 const detail = await inspectTaskResource(chosen);
 ```
 
-Use `cse-selected` for bundled CSE source masters, `recipes` for eight document fragments, four charts, four directed diagrams and four conceptual illustrations, `textures` for original digital tiles, `palettes` for Radix scales, `hack`/`cse-fonts`/`liberation-sans` for fonts, `atomic-ui` for web primitives, and `materials` for CSS declarations. Optional packs report missing data explicitly. `cse` is an optional larger metadata catalog requiring `selectors.cseRuntimeDir`; the bundled selection needs no CSE installation. Font-dependent held masters stay held.
+Use `cse-selected` for bundled CSE source masters, `recipes` for eight document fragments, four charts, four directed diagrams and four conceptual illustrations, `textures` for original digital tiles, `palettes` for Radix scales, `hack`/`cse-fonts`/`liberation-sans` for fonts, `atomic-ui` for web primitives, and `materials` for CSS declarations. Optional packs report missing data explicitly. `cse` is an optional larger metadata catalog requiring `selectors.cseRuntimeDir`; the bundled selection needs no CSE installation. Seven live-text CSE handoffs supply pinned embedded fonts, separate binaries and full notices. Read `qualificationScope` and `font-provenance.json`: qualification covers the derivative; five Arial originals use an explicitly authored Liberation Sans derivative and their historical font appearance remains unqualified. Preserve `original.svg` unchanged.
 
 For an exact document fragment:
 

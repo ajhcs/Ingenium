@@ -2,7 +2,7 @@
 
 Observations below were made on 2026-11-14. Client support is specific to a
 route, client version, environment and identified bytes. The current distribution is
-[0.2.0-alpha.2](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.2);
+[0.2.0-alpha.3](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.3);
 its release notes carry the subsequent publication and installation verification.
 The retained observations below identify their own source or release explicitly.
 Package extraction and helper tests do not establish agent discovery.
@@ -13,16 +13,16 @@ separately documented capabilities.
 | --- | --- | --- |
 | Codex CLI, project-local `.agents/skills/ingenium` | CLI 0.169.0 on Ubuntu 24.04 x86-64, observed 2026-11-14. Actual fresh discovery, invocation, editable output, two title-only edits in separate sessions, changed-source candidate upgrade, removal and fresh discovery absence were observed. User outputs survived upgrade/removal unchanged. | Evidence qualifies the manual project-local copy route with ephemeral CLI sessions and existing authentication. A prepared release-package upgrade is still distinct from the observed source-candidate upgrade. |
 | Codex desktop, project-local skill | This development conversation is not a desktop lifecycle receipt. | Observe a selected actual desktop session against the candidate, including fresh discovery, upgrade and removal. Tracked in [issue 13](https://github.com/ajhcs/Ingenium/issues/13). |
-| Codex CLI, BuilderBob local plugin catalog | Observed with CLI 0.169.0 on Ubuntu 24.04 x86-64: enabled `ingenium@ingenium-local-review` upgraded to released 0.2.0-alpha.1 using the supported CLI. All 1,043 source/cache files matched the selected release composition. A fresh external-project session discovered the installed guidance, edited only a requested title and selected an offline bundled font. | This qualifies the selected local catalog and fresh CLI session, not a public marketplace or desktop lifecycle. See the current release notes for the later alpha.2 upgrade and readback. Removal of the user's global installation was not exercised. |
+| Codex CLI, BuilderBob local plugin catalog | Observed with CLI 0.169.0 on Ubuntu 24.04 x86-64: enabled `ingenium@ingenium-local-review` upgraded to released 0.2.0-alpha.2 using the supported CLI. All 1,049 source/cache files matched the selected release composition. A fresh external-project session discovered the installed guidance, edited only a requested title and acquired an offline crosshatch texture with the requested density. | This qualifies the selected local catalog and fresh CLI session, not a public marketplace or desktop lifecycle. See the current release notes for the alpha.3 upgrade and readback. Removal of the user's global installation was not exercised. |
 | Claude Code, project-local skill | No authenticated Claude Code environment was available. | Exercise discovery, invocation, edits, upgrade and removal in an existing accessible client/account and disposable project. Tracked in [issue 12](https://github.com/ajhcs/Ingenium/issues/12). |
 | ChatGPT chat, guidance paste/upload | Not run; no selected chat upload/session-control route is available to the evaluation harness. | Observe guidance loading, file creation, preview and later persistence separately in an accessible actual chat. Tracked in [issue 14](https://github.com/ajhcs/Ingenium/issues/14). |
 | Claude chat, guidance paste/upload | Not run; no selected Claude chat upload/session-control route is available. | Observe guidance loading, file creation, preview and later persistence separately in an accessible actual chat. Tracked in [issue 14](https://github.com/ajhcs/Ingenium/issues/14). |
 
-The released alpha.1 global observation binds source commit
-`08887bc9fbabd99ae99671f04c29a5e4f892c1bb` and build
-`863f6edb870ea7b5c078683906fd73933726a53d685a340d9534084d1f741eb9`.
+The retained released alpha.2 global observation binds source commit
+`2c3037ea0886e61e3ccce16f1a13c0e966932e8f` and build
+`6fcd476500cb74d081f6aab49b8ace4c3b3a0cf172deb4dbd22e2f60dd0bc9ca`.
 The full installed path/hash inventory had SHA-256
-`7ec76bcb50493ae1369d1fe7344adcd7fef52964024f1655a6c8fad58cb4b040`.
+`c2a4af1799f2d5531d8c0205058591929912bd0d7155d3f08c5767caa9926a9b`.
 The composition included exact tagged support files plus the published core,
 guidance and seven selected resource packs; this is broader than the guidance ZIP.
 
@@ -50,6 +50,20 @@ explicit repair using browser feedback then preserved the original file, content
 and passed the selected reflow and keyboard checks. This intervention and the
 earlier failures remain separate outcomes. Model output still needs relevant
 artifact inspection; these observations do not establish universal reliability.
+
+The alpha.3 responsive evaluation used a 49-file source skill inventory, SHA-256
+`5f533d3493b6e0842cdb282fca3e688916b888a6dd2c7e8987b89d97cacb4cc9`.
+Three fresh tasks requested `gpt-6.1-sol`, `gpt-6.1-terra` and `gpt-6-astra`,
+and a fourth repeated the original realistic-content task. Each had explicit
+existing local browser paths and operator-selected full process access; Chromium's
+own sandbox remained enabled. All four delivered pages passed independent
+content, keyboard and selected reflow checks; actual 200% browser zoom was
+measured separately from doubled root text. One first version overflowed at
+320px/200% text and was repaired before delivery; the other two first versions
+had no measured page overflow and received table refinements. Earlier failed,
+unavailable and interrupted attempts remain separate observations. These runs
+qualify the exercised delivery workflow, not every future generation or a client
+UI lifecycle. Publication notes identify the later extracted and installed bytes.
 
 The requested model in the Codex availability probe was `gpt-6.1-sol`. The model
 reported only the broader identity exposed to its context; this is not independent
@@ -81,7 +95,7 @@ This creates fresh disposable projects and records `not-run`. To execute, add
 `--run --client /absolute/path/to/codex --model YOUR_SELECTED_MODEL` using an
 existing authenticated client. The harness uses `--ignore-user-config`, never
 writes client configuration or credentials, and never changes installed user
-skills. Client session state remains governed by that client's own ephemeral
+skills. The default sandbox is `workspace-write`; explicit `--sandbox danger-full-access` disables that boundary for trusted tasks and is recorded in the receipt. Use it only when the selected task and environment authorize unrestricted execution. Client session state remains governed by that client's own ephemeral
 execution behavior; no new account or API key is created.
 
 Behavioral repetition is bounded observation, not a population reliability claim.
