@@ -12,7 +12,7 @@
         "title"
       ],
       "license": "MIT",
-      "sha256": "8f26a325a4ab5172638a5ba8550eb020cd57ba6bfb71595f0a0feec7c05c7563",
+      "sha256": "44b97a13c3bce2bb032ed2cd79113ceaf700bd55c5976a7ffa51997ca727a143",
       "sourceId": "doc-title-original",
       "derivedId": "doc-title-revised",
       "sourceRevision": "1"
@@ -28,7 +28,7 @@
         "rows"
       ],
       "license": "MIT",
-      "sha256": "19b9a9604b2f8f1f71b27f76f9baae3b1157920745b535be15844d41c067e9e4",
+      "sha256": "7f1b7f0bf9343efac39c544acc120d434c3b75eeae7aa56c1657d6e67926b484",
       "sourceId": "doc-revision-original",
       "derivedId": "doc-revision-revised",
       "sourceRevision": "1"
@@ -44,7 +44,7 @@
         "rows"
       ],
       "license": "MIT",
-      "sha256": "2aefed781a185b4865dfeac40a9d1a8ce18e7f9358502843e1278cfe3bb9521c",
+      "sha256": "8fa18d37750d1a3184675a73c53ecc4f34385d54c84b409783275e68d4df14f6",
       "sourceId": "doc-requirements-original",
       "derivedId": "doc-requirements-revised",
       "sourceRevision": "1"
@@ -60,7 +60,7 @@
         "rows"
       ],
       "license": "MIT",
-      "sha256": "3c15e96e3b8af4d65cf62b2c12d1a90ca70b84f98db4986fe6f3e8d5ebcf67e7",
+      "sha256": "a2801863cf00b06aaa241ca07147c334d5a1e83caf6db3734f3d1551f281448d",
       "sourceId": "doc-legend-original",
       "derivedId": "doc-legend-revised",
       "sourceRevision": "1"
@@ -76,7 +76,7 @@
         "body"
       ],
       "license": "MIT",
-      "sha256": "4e9cb9e981221a311825009ef11049fa9339c7c55d5fe045097d001998f7b88f",
+      "sha256": "4aab6fbb4c73c0c93cfb4588ddda5e6178d1e7cce11b9fc2aadc3182972293d8",
       "sourceId": "doc-caution-original",
       "derivedId": "doc-caution-revised",
       "sourceRevision": "1"
@@ -92,7 +92,7 @@
         "body"
       ],
       "license": "MIT",
-      "sha256": "0ad173eecf4119cb83bb06996b77e429d52a67ebfe9a979d3544af4609a2eebc",
+      "sha256": "bbb6dce2fd24e3345e9996547054a89f9c206d36ebe425cea656bcd8c06ca097",
       "sourceId": "doc-caption-original",
       "derivedId": "doc-caption-revised",
       "sourceRevision": "1"
@@ -108,7 +108,7 @@
         "note"
       ],
       "license": "MIT",
-      "sha256": "1eb9c6f5d0174cd606a588f9b043c6edd555fa1be94f94e51ac60eb45ba874a8",
+      "sha256": "0bc3045bb6e5d52c85221a5ea8470ea0d0814cb05ac2a1f95ea953c3f65ceea6",
       "sourceId": "doc-metric-original",
       "derivedId": "doc-metric-revised",
       "sourceRevision": "1"
@@ -124,7 +124,7 @@
         "rows"
       ],
       "license": "MIT",
-      "sha256": "a3d1e881b1549f5e879209f03d7ffd5f2f7cfbbab1d586131cb35afa67315239",
+      "sha256": "6ff2263e12855201fcbe2ed3fd68cde1c439171604ca66ce004c539b3a58f3aa",
       "sourceId": "doc-issues-original",
       "derivedId": "doc-issues-revised",
       "sourceRevision": "1"

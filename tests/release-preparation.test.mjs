@@ -84,6 +84,7 @@ test('dirty candidates refuse, explicit development inventories changed bytes, m
   const {base,source}=await fixture(t);await writeFile(join(source,'README.md'),'Original synthetic edited documentation\n');
   await assert.rejects(prepareRelease({sourceRoot:source,outputDir:join(base,'refused')}),/Dirty source/);
   const result=await prepareRelease({sourceRoot:source,outputDir:join(base,'development'),development:true});
+  assert.equal(JSON.parse(await readFile(join(result.outputDir,'artifacts.json'))).development,true);
   const receipt=JSON.parse(await readFile(join(result.outputDir,'source-content.json')));
   assert.equal(receipt.development,true);assert.equal(receipt.files.find(f=>f.path==='README.md').sha256,hash(await readFile(join(source,'README.md'))));
   const identity=JSON.parse(await readFile(join(result.outputDir,'stages/core/release/identity.json')));assert.equal(identity.development,true);assert.equal(identity.buildId,result.buildId);

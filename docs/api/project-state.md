@@ -4,6 +4,22 @@ Import from `src/project-state/index.mjs`. Node 22 or later is required for the 
 
 `validateProjectState(state)` is pure and returns `{valid,errors:[{code,path,message,nextStep}]}`. `createContinuation({projectId,brief,record?,...fields})` returns a detached validated envelope with defaults `schema:'ingenium-project/1'`, `revision:0`, `sources:[]`, `outputs:[]`, `nextAction:null`. Required project identity and brief are caller supplied. `migrateProjectState(state)` validates and copies known v1 only; unknown schemas refuse without replacement. Standalone records require explicit `createContinuation({record,projectId,brief})`.
 
+The standalone `ingenium project continue CONTINUATION.json` command adds a
+read-only filesystem check without changing this pure API. Its
+`ingenium-continuation-summary/1` result retains `brief`, exact nested record
+`choices`, current `openingSources`/`previews`, questions and next action. Additive
+`sourceVerification` includes `status` (`pass`, `fail`, `not-applicable`), `verified`
+count and per-ref `kind`, `id`, `path`, expected hash, actual hash when readable,
+status and actionable failure code. Current `sources` and `outputs` resolve only
+from the continuation document's canonical directory, with nonsymlink regular
+files bounded at 64 MiB each. Missing refs report `SOURCE_MISSING`; changed hashes
+report `SOURCE_CHANGED`; path, bound and read failures remain explicit. Any failed
+ref makes the command exit 1 while retaining the summary. No refs gives
+`not-applicable` and exit 0. Historical refs, linked dependency completeness,
+descriptive record paths and delivery-only failed/unavailable exports are outside
+this check. The command never creates a store or rewrites hashes. It does not
+establish semantic preservation, rights or acceptance.
+
 The exact envelope is documented in [project-state-v1.schema.json](../../schemas/project-state-v1.schema.json). Runtime validation also checks ten JSON levels, 1 MiB total JSON, 32 KiB brief, 8 KiB other strings (UTF-8), 256 refs per array, 128 versions/questions/resource selections, resolved version ancestry and safe normalized POSIX paths. Paths cannot contain absolute, drive/UNC, dot/dotdot, backslash, percent-encoded, fragment or query components. Unknown fields, accessors, sparse arrays, cycles and non-JSON values refuse. Each version has its own source/preview identity namespace; current sources/outputs share one namespace. Embedded DeliveryV1 uses the same pure delivery validator.
 
 The optional unchanged nested records-v1 record is the sole structured decision authority. Descriptive records-v1 `source`/`path` fields are never opened. Without a record, no structured chosen-context protection is claimed. Hashes establish integrity, not user authorization or acceptance.

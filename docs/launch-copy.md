@@ -10,7 +10,7 @@ Ingenium helps turn an uncertain creative direction into editable studies and ch
 
 A question, a sketch, a feeling that something is almost right. Ingenium helps make the next creative choice clearer: explore a direction, make something you can react to, review it in context, and keep the source and the choices that matter.
 
-It is an experimental portable plugin with no required backend or account connection. Optional local helpers support selected resources, SVG exports and scoped checks. Start with one useful study.
+Ingenium 0.2.0-alpha.2 is an experimental portable plugin with no required backend or account connection. Optional local helpers support selected resources, SVG exports and scoped checks. Start with one useful study.
 
 ## Repository announcement
 
@@ -18,7 +18,7 @@ Introducing Ingenium: an experimental portable creative workflow for exploring d
 
 The repository includes an original synthetic engineering graphic, technical document and website, alongside publication, identity and wayfinding examples. You can inspect their sources and stated limits. Optional Node 22+ helpers add records, selective resources, static SVG export and bounded review tools. The workflow itself has no required server or backend.
 
-A manual project-local source-copy route has been observed in Codex CLI; see the [client compatibility record](compatibility.md) for its scope and for other routes still awaiting tests. Prepared guidance, core and inspection archives are separate artifacts; preparation alone does not publish them. The package declares `private: true`.
+The [0.2.0-alpha.2 release](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.2) supplies guidance, core and inspection helpers, selected resource packs and editable studies as separate versioned archives. The [live guide and downloads](https://ajhcs.github.io/Ingenium/) explain how to use them. Codex CLI observations cover project-local guidance and a separately maintained local plugin catalog; see the [client compatibility record](compatibility.md) and release notes for their exact scope. Claude Code, desktop and chat lifecycle checks remain open. The package is distributed through GitHub releases; it is not published to npm.
 
 Start here: [quickstart](quickstart.md). Explore [worked sources](../examples/worked/README.md). Browse [the repository](https://github.com/ajhcs/Ingenium).
 

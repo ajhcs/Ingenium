@@ -11,7 +11,10 @@ The inert command inventory is `commands` / `toolCommands` in
 `src/cli/commands.mjs`; `parseCommand(args, product?)` and
 `commandHelp({product?,topic?})` use the same inventory. `--help` and `-h` anywhere
 preempt argument validation, probes, input reads and output creation. No arguments
-print root help and return 0. `help [family [operation]]` narrows the inventory.
+print root help and return 0. `help [family [operation]]` narrows the inventory
+and includes matching examples, argument meanings and output boundaries only.
+Each help `commands` entry adds `arguments`, `examples` and `outputs`; top-level
+examples/outputs aggregate only the matched commands.
 
 `version({product?})` resolves package-relative `release/identity.json`, without
 Git or network. Prepared artifacts expose their retained release identity;
@@ -36,7 +39,8 @@ Malformed JSON reports no raw payload. Exit codes are 0 completed/help/version,
 1 failed check/operation/conflict/corrupt state, 2 malformed usage or required
 selected capability unavailable, and 130 interruption. Plain health returns 0
 for a completed diagnosis even when optional tools are missing;
-`health --require browser` returns 2 unless browser is usable.
+`health --require browser` returns 0 when usable, 2 for absent/not-selected,
+and 1 when the selected probe reports error.
 
 Migration: malformed flags and JSON that previously reached generic error catches
 now return 2. Rendering with a missing explicitly selected renderer now returns 2;

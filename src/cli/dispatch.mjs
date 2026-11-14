@@ -30,7 +30,9 @@ export async function dispatchModern(parsed, write, { product = 'ingenium', sign
     if (required && !['renderer', 'browser', 'font-vector', 'resources'].includes(required)) throw usageError('--require expects renderer, browser, font-vector or resources');
     if (required && probes && !probes.includes(required)) throw usageError('--require must name a requested probe');
     const result = await health({ selectors, ...(probes ? { probes } : {}) }, { product });
-    write(result); return required && result.capabilities.find(c => c.id === required)?.status !== 'usable' ? 2 : 0;
+    write(result);
+    const requiredStatus = result.capabilities.find(c => c.id === required)?.status;
+    return required ? requiredStatus === 'usable' ? 0 : requiredStatus === 'error' ? 1 : 2 : 0;
   }
   if (entry.path.startsWith('resources task-')) {
     const api = await import('../resources/task-selection.mjs');
@@ -46,7 +48,9 @@ export async function dispatchModern(parsed, write, { product = 'ingenium', sign
       const state = await readJson(p[0], { maxBytes: 1024 * 1024 });
       const validation = api.validateProjectState(state);
       if (!validation.valid) { const first = validation.errors[0]; throw new CliError(first?.code ?? 'CONTINUATION_INVALID', first?.message ?? 'Invalid continuation.', { field: first?.path, nextStep: first?.nextStep }); }
-      write({ schema: 'ingenium-continuation-summary/1', projectId: state.projectId, revision: state.revision, openingSources: state.sources, previews: state.outputs, choices: state.record?.decisions ?? [], openQuestions: state.openQuestions, nextAction: state.nextAction, saved: false }); return 0;
+      const { summarizeContinuation } = await import('./continuation.mjs');
+      const summary = await summarizeContinuation(state, p[0]);
+      write(summary); return summary.sourceVerification.status === 'fail' ? 1 : 0;
     }
     const store = api.createProjectStore({ root: resolve(p[0]) });
     if (operation === 'history') {

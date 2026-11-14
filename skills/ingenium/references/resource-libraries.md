@@ -1,11 +1,14 @@
 # Choose a resource route
 
+For an ordinary small resource task, start with [Task resources](task-resources.md): bounded search across bundled CSE masters, document recipes, palettes, fonts, original textures, web primitives and icon metadata; then inspect one exact selection. This is the shortest route to the expanded library.
+
 Start with the design purpose, then inspect a few relevant candidates. Resources support the organizing idea; a default icon, font or effect is not itself a direction. Full-design/template libraries remain excluded. Respect any reference withholding in the brief.
 
 Read only the chosen route. Prefer installed data when it fits; catalog browsing does not require a download.
 
 | Need | Route |
 | --- | --- |
+| CSE connector, document fragment, palette, texture or small mixed resource request | [Task resources](task-resources.md): bounded unified search and exact selection |
 | Browse the twelve source repositories and bundled assets | [Bundled resources](bundled-resources.md): compact provider summaries, paged metadata, selected factories |
 | Select a Simple Icons original for user-local use | [Brand download](brand-download.md): optional selected download, separate finite presentation |
 | Select a Voxel PNG for user-local use | [Local assets](local-assets.md): full custom terms, unchanged pixels, offline reuse |
@@ -22,7 +25,7 @@ Read only the chosen route. Prefer installed data when it fits; catalog browsing
 
 Use the actual installed plugin root. With Node 22+, the CLI is `node /actual/plugin/root/bin/ingenium.mjs`; JavaScript examples use ES modules and imports relative to that root. Replace sample filesystem paths with explicit existing source/tool directories and new output paths. Helpers create export directories under existing canonical parents and refuse existing outputs. A failed operation can leave a partial new directory for inspection.
 
-Discover metadata, request a small page, inspect a selected entry and its notices, then explicitly acquire or adapt it. Follow `nextOffset` only when another page is useful; do not load whole indexes into context. Methods differ by route—there is no universal search/acquire signature. Use the linked interface's actual fields.
+Discover metadata, request a small page, inspect a selected entry and its notices, then explicitly acquire or adapt it. Follow `nextOffset` only when another page is useful; do not load whole indexes into context. The task facade unifies supported offline selections and returns scoped routes for icon acquisition. Legacy provider methods differ. Use the linked interface's actual fields.
 
 Networking is off by default in download clients. Enable it only for the intended selected acquisition. Do not bulk-download a collection, install optional tooling during discovery, retry a denied route through another endpoint, or refetch corrupt retained output silently. Preserve original bytes, full available notices, scoped source declarations and derivation records. Distinguish upstream categories from inferred name tokens and Ingenium-authored tags. Catalog counts do not imply every entry passes admission, rendering or rights review.
 

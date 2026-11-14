@@ -4,12 +4,12 @@ import { stageFiles, sourceBytes } from './release-files.mjs';
 import { companionFiles } from './package-companion.mjs';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 export const coreFiles=Object.freeze([...new Set([
-  ...companionFiles, 'bin/ingenium.mjs', 'package.json', 'plugin.json', 'LICENSE', 'THIRD_PARTY_NOTICES.md', 'THIRD_PARTY.json',
+  ...companionFiles, 'bin/ingenium.mjs', 'src/cli/continuation.mjs', 'package.json', 'plugin.json', 'LICENSE', 'THIRD_PARTY_NOTICES.md', 'THIRD_PARTY.json',
   'src/assets/cache.mjs','src/assets/index.mjs','src/assets/packages.mjs','src/assets/svg.mjs','src/assets/transport.mjs',
   'src/catalog/brand-download.mjs','src/catalog/font-download.mjs','src/catalog/font-packs.mjs','src/catalog/index.mjs','src/catalog/local-assets.mjs','src/catalog/svg-packs.mjs',
   'src/delivery/index.mjs','src/delivery/schema.mjs','src/delivery/dependencies.mjs','src/font-vector/index.mjs','src/items/index.mjs','src/layout/index.mjs','src/materials/index.mjs','src/palettes/index.mjs',
   'src/project-state/index.mjs','src/project-state/schema.mjs','src/project-state/files.mjs','src/project-state/store.mjs','src/project-state/diff.mjs',
-  'src/records/index.mjs','src/resources/index.mjs','src/resources/task-selection.mjs','src/resources/cse-adapter.mjs','src/resources/cse-selected.mjs','src/resources/palette-task.mjs','src/resources/recipe-task.mjs','src/resources/recipe-pins.json','src/resources/qualification.mjs','src/resources/qualification-records.json',
+  'src/records/index.mjs','src/resources/index.mjs','src/resources/task-selection.mjs','src/resources/cse-adapter.mjs','src/resources/cse-selected.mjs','src/resources/palette-task.mjs','src/resources/recipe-task.mjs','src/resources/texture-task.mjs','src/resources/icon-routes.mjs','src/resources/recipe-pins.json','src/resources/qualification.mjs','src/resources/qualification-records.json',
   'src/resources/providers.json','src/resources/font-provider-index.json','src/resources/stock-directory.json','src/resources/stock-directory-LICENSE',
   'src/resources/font-directory-notices/free-font-LICENSE','src/resources/font-directory-notices/nerd-fonts-LICENSE',
   'src/review/index.mjs','src/shapes/index.mjs','src/svg/index.js','src/textures/index.mjs','src/textures/license.mjs',
@@ -17,7 +17,7 @@ export const coreFiles=Object.freeze([...new Set([
   'src/palettes/source/LICENSE','src/palettes/source/provenance.json',
   ...['amber','blue','gray','green','red','slate','teal','violet'].flatMap(x=>[`src/palettes/source/${x}.css`,`src/palettes/source/${x}-dark.css`]),
   'docs/api/cli.md','docs/api/delivery.md','docs/api/inspection.md','docs/api/resources.md','docs/api/workflow.md','docs/api/project-state.md','schemas/project-state-v1.schema.json','docs/cli/README.md','docs/cli/troubleshooting.md',
-  'tools/prepare-item-source.mjs','tools/font-vector/backend.py','tools/font-vector/fonts.py','tools/font-vector/vectors.py','tools/font-vector/requirements-linux-py312.lock',
+  'tools/prepare-item-source.mjs','tools/export-study-svg.mjs','docs/study-export.md','tools/font-vector/backend.py','tools/font-vector/fonts.py','tools/font-vector/vectors.py','tools/font-vector/requirements-linux-py312.lock',
 ])]);
 export async function stageCore(outputDir,{sourceRoot=root,identity}={}) {
   // Keep source development metadata unchanged; the staged helper has no test tree.

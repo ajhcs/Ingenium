@@ -18,7 +18,7 @@ export async function verifyReleaseSource({ manifestPath, releaseTag, releaseInf
   if (manifest.version !== pkg.version || manifest.sourceRevision !== git('rev-parse', 'HEAD') || manifest.sourceTree !== git('rev-parse', 'HEAD^{tree}')) throw Error('Release manifest does not match the checked-out source');
   if (!/^[a-f0-9]{64}$/.test(manifest.buildId ?? '') || !Array.isArray(manifest.artifacts) || !manifest.artifacts.length) throw Error('Missing release build identity or artifacts');
   // Development preparation retains the source version but adds a development
-  // suffix to archive names. Its top-level manifest need not carry that flag.
+  // suffix to archive names. Older top-level manifests may omit that flag.
   if (manifest.artifacts.some(a => typeof a?.path !== 'string' || !['zip', 'tgz'].some(ext => a.path.endsWith(`-${pkg.version}.${ext}`)))) throw Error('Expected distributable archive names without a development suffix');
   return { sourceRevision: manifest.sourceRevision, sourceTree: manifest.sourceTree, buildId: manifest.buildId, version: manifest.version, artifacts: manifest.artifacts.length };
 }

@@ -1,5 +1,6 @@
 """Standalone delivery must work without the developer checkout."""
 import importlib.util
+import json
 import pathlib
 import re
 import shutil
@@ -46,7 +47,8 @@ class GuidanceBundleTest(unittest.TestCase):
                     self.assertTrue(resolved.is_file(), (document, target))
 
     def test_guidance_release_identity_is_markdown_only_and_preserves_shared_build(self):
-        identity = {"schema": "ingenium-release/1", "version": "0.2.0-alpha.1",
+        version = json.loads((ROOT / "package.json").read_text())["version"]
+        identity = {"schema": "ingenium-release/1", "version": version,
                     "sourceRevision": "a" * 40, "sourceTree": "b" * 40,
                     "buildId": "c" * 64, "artifactFlavor": "guidance"}
         with tempfile.TemporaryDirectory(dir=ROOT / "work") as directory:
@@ -55,7 +57,7 @@ class GuidanceBundleTest(unittest.TestCase):
             self.assertLessEqual(archive.stat().st_size, 512 * 1024)
             with zipfile.ZipFile(archive) as source:
                 release = source.read("ingenium/RELEASE.md").decode()
-                self.assertIn("version: 0.2.0-alpha.1", release)
+                self.assertIn("version: " + version, release)
                 self.assertIn("buildId: " + "c" * 64, release)
                 self.assertFalse(any(name.endswith((".mjs", ".js", ".json", ".py")) for name in source.namelist()))
 

@@ -12,7 +12,7 @@ Choose an editable [engineering graphic](examples/evolution/engineering-graphic/
 
 Ask Ingenium: “Create an editable engineering overview titled Field Station, dated 18 April 2030, with the invitation ‘Review the revised system.’ Show Sensor → Controller → Display.” Then ask: “Change only the title treatment. Preserve the exact wording, date, invitation, component labels, and connection directions.” [Follow the quickstart](docs/quickstart.md). A simple request needs no form or project store.
 
-Install the standalone guidance using the [client setup guide](docs/install.md). Prepared core and inspection archives are optional and separate; their availability depends on the actual prepared artifact manifest. The current `0.2.0-alpha.1` candidate is not represented here as a published release. The [compatibility record](docs/compatibility.md) distinguishes observed Codex CLI behavior from client routes not yet tested.
+Install the standalone guidance using the [client setup guide](docs/install.md). [Release 0.2.0-alpha.2](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.2) supplies the guidance ZIP, optional core and inspection helpers, selected resource packs and editable studies. [Choose a download](https://ajhcs.github.io/Ingenium/downloads/). The [compatibility record](docs/compatibility.md) identifies the observed Codex CLI routes and the client checks still open.
 
 ## A design you can shape
 

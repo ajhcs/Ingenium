@@ -8,18 +8,39 @@ const sha=s=>createHash('sha256').update(s).digest('hex');
 const txt=(x,y,s,size=18,extra='')=>`<text x="${x}" y="${y}" font-size="${size}" ${extra}>${esc(s)}</text>`;
 const line=(x1,y1,x2,y2,color='#385260')=>`<path d="M${x1} ${y1} L${x2} ${y2}" fill="none" stroke="${color}" stroke-width="2"/>`;
 const rect=(x,y,w,h,fill='#fff')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="4" fill="${fill}" stroke="#90B6CB"/>`;
+// Conservative sans-serif advance estimates leave room around ordinary labels.
+// Unknown glyphs use a wide advance; long tokens wrap without losing characters.
+const advance=c=>/[MW@%]/.test(c)?1.2:/[mw]/.test(c)?0.95:/[A-Z]/.test(c)?0.85:/[a-z0-9]/.test(c)?0.7:/\s/.test(c)?0.4:/[.,:;!'|]/.test(c)?0.4:/[-/()[\]]/.test(c)?0.5:1.1;
+function textBlock(x,y,value,width,size=18,extra=''){
+ const lines=[];let rest=String(value);
+ while([...rest].reduce((sum,c)=>sum+advance(c)*size,0)>width){const chars=[...rest];let count=0,used=0;while(count<chars.length&&used+advance(chars[count])*size<=width){used+=advance(chars[count])*size;count++;}count=Math.max(1,count);const space=chars.slice(0,count).lastIndexOf(' ');const cut=space>0?space+1:count;lines.push(chars.slice(0,cut).join(''));rest=chars.slice(cut).join('');}
+ lines.push(rest);const leading=Math.ceil(size*1.35);
+ return {svg:`<text x="${x}" y="${y}" font-size="${size}" ${extra}>${lines.map((v,i)=>`<tspan x="${x}" dy="${i?leading:0}">${esc(v)}</tspan>`).join('')}</text>`,height:lines.length*leading};
+}
 function renderDoc(id,p){
- const t=(x,y,v,size=18,extra='')=>txt(x,y,v,size,extra);
- if(id==='doc-title')return `${rect(40,45,720,310)}${t(65,95,p.title,36,'font-weight="700"')}${line(65,120,735,120)}${t(65,170,'DOCUMENT',13)}${t(65,205,p.identifier,23)}${t(430,170,'ISSUED',13)}${t(430,205,p.date,23)}`;
- if(['doc-revision','doc-requirements','doc-issues'].includes(id)){
+ let body='',bottom=360;
+ const block=(x,y,v,w,size=18,extra='')=>textBlock(x,y,v,w,size,extra);
+ if(id==='doc-title'){
+  const title=block(65,95,p.title,670,36,'font-weight="700"'),divider=95+title.height,meta=divider+55;
+  const identifier=block(65,meta+35,p.identifier,330,23),date=block(430,meta+35,p.date,305,23);bottom=meta+35+Math.max(identifier.height,date.height)+35;
+  body=`${rect(40,45,720,bottom-45)}${title.svg}${line(65,divider,735,divider)}${txt(65,meta,'DOCUMENT',13)}${identifier.svg}${txt(430,meta,'ISSUED',13)}${date.svg}`;
+ }else if(['doc-revision','doc-requirements','doc-issues'].includes(id)){
   const headings=id==='doc-revision'?['ISSUE','CHANGE']:id==='doc-requirements'?['ID','REQUIREMENT','METHOD']:['ID','ACTION','STATUS'];
-  const xs=headings.length===2?[60,200]:[60,180,565];
-  return `${t(40,55,id==='doc-revision'?'REVISION HISTORY':id==='doc-requirements'?'REQUIREMENTS':'ISSUES & ACTIONS',20,'font-weight="700"')}${line(40,78,760,78)}${headings.map((v,i)=>t(xs[i],112,v,13,'font-weight="700"')).join('')}${p.rows.map((row,i)=>`${line(40,135+i*65,760,135+i*65,'#c6d7df')}${row.map((v,j)=>t(xs[j],165+i*65,v,17)).join('')}`).join('')}`;
+  const xs=headings.length===2?[60,200]:[60,180,565],widths=headings.length===2?[115,535]:[95,360,170];
+  body=`${txt(40,55,id==='doc-revision'?'REVISION HISTORY':id==='doc-requirements'?'REQUIREMENTS':'ISSUES & ACTIONS',20,'font-weight="700"')}${line(40,78,760,78)}${headings.map((v,i)=>txt(xs[i],112,v,13,'font-weight="700"')).join('')}`;
+  let y=135;for(const row of p.rows){const cells=row.map((v,j)=>block(xs[j],y+30,v,widths[j],17));body+=line(40,y,760,y,'#c6d7df')+cells.map(c=>c.svg).join('');y+=Math.max(65,...cells.map(c=>c.height+35));}bottom=y+20;
+ }else if(id==='doc-legend'){
+  body=txt(40,60,'RELATIONSHIP KEY',20,'font-weight="700"');let y=120;
+  for(const r of p.rows){const label=block(240,y+6,r[1],495,20);body+=`<path d="M60 ${y} H205" stroke="#DA5C18" stroke-width="3" ${r[0]==='dashed'?'stroke-dasharray="8 6"':''}/>${label.svg}`;y+=Math.max(75,label.height+25);}bottom=y;
+ }else if(id==='doc-caution'){
+  const heading=block(65,100,p.heading,670,20,'fill="#fff" font-weight="700"'),headerBottom=100+heading.height,content=block(65,headerBottom+40,p.body,670,20);bottom=headerBottom+40+content.height+30;
+  body=`${rect(40,65,720,bottom-65,'#fff8f0')}<path d="M40 65 H760 V${headerBottom} H40 Z" fill="#DA5C18"/>${heading.svg}${content.svg}`;
+ }else if(id==='doc-caption'){
+  const heading=block(40,120,p.heading,720,14,'font-weight="700" fill="#9a3f12"'),content=block(40,120+heading.height+30,p.body,720,26,'font-weight="700"'),note=block(40,150+heading.height+content.height+20,p.note,720,16);bottom=170+heading.height+content.height+note.height+30;body=line(40,80,760,80)+heading.svg+content.svg+note.svg;
+ }else{
+  const heading=block(65,100,p.heading,670,19),value=block(65,100+heading.height+80,p.value,670,72,'font-weight="700"'),unit=block(65,180+heading.height+value.height+15,p.unit,670,23),note=block(65,195+heading.height+value.height+unit.height+25,p.note,670,16);bottom=220+heading.height+value.height+unit.height+note.height+30;body=rect(40,50,720,bottom-50)+heading.svg+value.svg+unit.svg+note.svg;
  }
- if(id==='doc-legend')return `${t(40,60,'RELATIONSHIP KEY',20,'font-weight="700"')}${p.rows.map((r,i)=>`<path d="M60 ${120+i*75} H205" stroke="#DA5C18" stroke-width="3" ${r[0]==='dashed'?'stroke-dasharray="8 6"':''}/>${t(240,126+i*75,r[1],20)}`).join('')}`;
- if(id==='doc-caution')return `<rect x="40" y="65" width="720" height="225" rx="4" fill="#fff8f0" stroke="#DA5C18" stroke-width="2"/><path d="M40 65 H760 V116 H40 Z" fill="#DA5C18"/>${t(65,100,p.heading,20,'fill="#fff" font-weight="700"')}${t(65,175,p.body,20)}`;
- if(id==='doc-caption')return `${line(40,80,760,80)}${t(40,120,p.heading,14,'font-weight="700" fill="#9a3f12"')}${t(40,165,p.body,26,'font-weight="700"')}${t(40,205,p.note,16)}`;
- return `${rect(40,50,720,265)}${t(65,100,p.heading,19)}${t(65,205,p.value,72,'font-weight="700"')}${t(175,205,p.unit,23)}${t(65,260,p.note,16)}`;
+ return {content:body,height:Math.max(400,Math.ceil(bottom+40))};
 }
 function renderChart(id,p){
  const vals=p.data.flatMap(r=>r.slice(1));const max=Math.ceil(Math.max(...vals,1)*1.15); const scale=v=>110+590*v/max;
@@ -49,9 +70,11 @@ function renderImage(id,p){
  return `<circle cx="400" cy="200" r="102" fill="#e5f0f4" stroke="#385260" stroke-width="3"/><ellipse cx="400" cy="200" rx="290" ry="95" transform="rotate(-18 400 200)" fill="none" stroke="#385260" stroke-width="3"/><path d="M346 150 Q390 165 365 198 T410 245 M450 120 Q420 160 460 180 T445 260" fill="none" stroke="#90B6CB" stroke-width="4"/><path d="M640 96 l24 -12 18 16 -24 12 Z" fill="${a}" stroke="#385260" stroke-width="2"/>`;
 }
 export async function loadRecipe(id){if(!/^[a-z][a-z0-9-]{0,40}$/.test(id))throw Error('Invalid recipe ID'); const catalog=JSON.parse(await readFile(resolve(here,'catalog.json'),'utf8'));if(!catalog.entries.some(e=>e.id===id))throw Error('Unknown recipe');return JSON.parse(await readFile(resolve(here,'examples',`${id}.json`),'utf8'));}
-export async function renderRecipe(id,overrides={}){
- const recipe=await loadRecipe(id);if(!overrides||Array.isArray(overrides)||typeof overrides!=='object'||Object.keys(overrides).some(k=>!Object.hasOwn(recipe.edit,k)))throw Error('Overrides must use permitted edit fields');
- const p={...recipe.original,...overrides}; const data=JSON.stringify(p);
+export async function renderRecipe(id,overrides={}){return renderLoaded(id,await loadRecipe(id),overrides);}
+function renderLoaded(id,recipe,overrides={},original=false){
+ if(!overrides||Array.isArray(overrides)||typeof overrides!=='object'||Object.keys(overrides).some(k=>!Object.hasOwn(recipe.edit,k)))throw Error('Overrides must use permitted edit fields');
+ if(recipe.current && (typeof recipe.current!=='object'||Array.isArray(recipe.current)||Object.keys(recipe.current).some(k=>!Object.hasOwn(recipe.original,k))||Object.keys(recipe.original).some(k=>!Object.hasOwn(recipe.current,k)||!Object.hasOwn(recipe.edit,k)&&JSON.stringify(recipe.current[k])!==JSON.stringify(recipe.original[k]))))throw Error('Current state must preserve original fields outside permitted edits');
+ const p={...(original?recipe.original:recipe.current??recipe.original),...overrides}; const data=JSON.stringify(p);
  const short = x => typeof x==='string' && x.trim().length>0 && [...x].length<=60;
  if(recipe.kind==='document' && (p.rows ? !Array.isArray(p.rows)||p.rows.length!==2||p.rows.some(row=>!Array.isArray(row)||row.length!==(id==='doc-revision'||id==='doc-legend'?2:3)||row.some(x=>!short(x))) : Object.values(p).some(x=>!short(x)))) throw Error('Document values must be bounded short text with the original table shape');
  if(recipe.kind==='diagram' && (!Array.isArray(p.nodes)||p.nodes.length!==3||p.nodes.some(x=>!short(x))||!Array.isArray(p.edges)||p.edges.length!==2||p.edges.some(e=>!Array.isArray(e)||e.length!==3||e.some(x=>!short(x)))))throw Error('Diagram needs three bounded labels and two labelled connections');if(data.length>4096||/[\u0000-\u001f]/.test(data))throw Error('Parameters exceed bounds');
@@ -59,13 +82,15 @@ export async function renderRecipe(id,overrides={}){
  if(recipe.kind==='diagram' && p.edges.some((edge,i)=>edge[0]!==recipe.original.edges[i][0] || edge[1]!==recipe.original.edges[i][1]))throw Error('Diagram endpoints are protected; only connection labels may change');
  if(recipe.kind==='chart'&&(!Array.isArray(p.data)||p.data.length!==3||p.data.some(r=>!Array.isArray(r)||r.length!==(id==='chart-range'?3:2)||typeof r[0]!=='string'||r[0].length>30||r.slice(1).some(x=>!Number.isFinite(x)||x<0||x>10000)||(r.length===3&&r[1]>r[2]))))throw Error('Chart needs three bounded nonnegative sample rows and ordered ranges');
  if(recipe.kind==='chart' && p.data.some((row,i)=>row[0]!==recipe.original.data[i][0]))throw Error('Chart category and time labels are protected');
- const content=recipe.kind==='document'?renderDoc(id,p):recipe.kind==='chart'?renderChart(id,p):recipe.kind==='diagram'?renderDiagram(id,p):renderImage(id,p);
- return `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400"><title>${esc(recipe.title)}</title><desc>${esc(recipe.description)}; original synthetic example.</desc><rect width="800" height="400" fill="#f7f9f9"/><g fill="#172f3c" font-family="sans-serif">${content}</g></svg>\n`;
+ const document=recipe.kind==='document'?renderDoc(id,p):null;const height=document?.height??400;
+ const content=document?document.content:recipe.kind==='chart'?renderChart(id,p):recipe.kind==='diagram'?renderDiagram(id,p):renderImage(id,p);
+ return `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="${height}" viewBox="0 0 800 ${height}"><title>${esc(recipe.title)}</title><desc>${esc(recipe.description)}; original synthetic example.</desc><rect width="800" height="${height}" fill="#f7f9f9"/><g fill="#172f3c" font-family="sans-serif">${content}</g></svg>\n`;
 }
 export async function writeRecipe({id,outputDir,overrides}={}){
- const recipe=await loadRecipe(id);const selected=overrides??recipe.edit; const original=await renderRecipe(id), revised=await renderRecipe(id,selected);
- const license=await readFile(resolve(here,'LICENSE'),'utf8');const cseLicense=await readFile(resolve(here,'CSE-LICENSE.txt'),'utf8');await mkdir(outputDir);const note=`# ${recipe.title}\n\nOpen revised.svg in an SVG editor; text and geometry remain editable. Original: original.svg. Second edit: ${Object.keys(selected).join(', ')}. Preserve the remaining input in input.json. Next: revise only a permitted field or adapt a separate copy; recheck relationships and units. Content is synthetic and has no engineering acceptance. Retain LICENSE and CSE-LICENSE.txt. Palette colors C32-B and C27-B derive from CSE 0.2.0-alpha.8; hue carries no engineering semantics. Generic fonts vary by environment.\n`;
- for(const [name,data] of Object.entries({'original.svg':original,'revised.svg':revised,'input.json':JSON.stringify(recipe,null,2)+'\n','README.md':note,'LICENSE':license,'CSE-LICENSE.txt':cseLicense}))await writeFile(resolve(outputDir,name),data,{flag:'wx'});
+ const recipe=await loadRecipe(id);const selected=overrides??(recipe.current?{}:recipe.edit); const original=renderLoaded(id,recipe,{},true), revised=renderLoaded(id,recipe,selected);
+ const saved={...recipe,current:{...(recipe.current??recipe.original),...selected}};
+ const license=await readFile(resolve(here,'LICENSE'),'utf8');const cseLicense=await readFile(resolve(here,'CSE-LICENSE.txt'),'utf8');await mkdir(outputDir);const note=`# ${recipe.title}\n\nOpen revised.svg in an SVG editor; text and geometry remain editable. Original: original.svg. Second edit: ${Object.keys(selected).join(', ')}. Current editable values are saved in input.json under current; original remains the protected source state. Next: revise only a permitted field or adapt a separate copy; recheck relationships and units. Content is synthetic and has no engineering acceptance. Retain LICENSE and CSE-LICENSE.txt. Palette colors C32-B and C27-B derive from CSE 0.2.0-alpha.8; hue carries no engineering semantics. Generic fonts vary by environment.\n`;
+ for(const [name,data] of Object.entries({'original.svg':original,'revised.svg':revised,'input.json':JSON.stringify(saved,null,2)+'\n','README.md':note,'LICENSE':license,'CSE-LICENSE.txt':cseLicense}))await writeFile(resolve(outputDir,name),data,{flag:'wx'});
  const receipt={schema:'ingenium-recipe-output/1',id,sourceId:`${id}-original`,derivedId:`${id}-revised`,originalSHA256:sha(original),derivedSHA256:sha(revised),edit:selected};await writeFile(resolve(outputDir,'receipt.json'),JSON.stringify(receipt,null,2)+'\n',{flag:'wx'});return receipt;
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){if(process.argv.length!==4){console.error('Usage: node recipes.mjs RECIPE_ID NEW_OUTPUT_DIR');process.exitCode=2;}else console.log(JSON.stringify(await writeRecipe({id:process.argv[2],outputDir:resolve(process.argv[3])}),null,2));}

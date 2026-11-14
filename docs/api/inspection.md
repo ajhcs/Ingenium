@@ -1,11 +1,24 @@
 # Named local project inspection
 
-`src/project/index.mjs` exports `validateInspectionPlan(plan)`,
+`src/project/index.mjs` exports `validateInspectionProfiles(profiles)`,
+`validateInspectionPlan(plan)`,
 `inspectProjectSet(options)`, `validateInspectionSnapshot(snapshot)`,
 `renderInspectionReport(options)` and `writeInspectionReport(options)`.
 The existing `inspectProject` API and v1 single-route snapshots retain their shared
 context semantics. New v2 inspection does not infer fresh-state equivalence from
 old snapshots. No automatic snapshot migration is provided.
+
+`validateInspectionProfiles(profiles)` is an additive pure legacy validator that
+returns `{valid,errors:[{code,path,message,nextStep}]}`. Its paths refer to the
+supplied `$.profiles[index]` fields, including nested states/journeys/steps; the
+internal v2 projection is never shown as an input field. `inspectProject` uses it
+before output creation. Omitted states/journeys/steps retain their defaults;
+explicit null collections refuse at their supplied fields. Missing state/journey
+names also identify the exact supplied field. Invalid profiles and supplied baseline schemas expose
+usage/preflight error metadata; the CLI returns 2. Baselines selected by
+`--previous` retain their version requirement: v1 for `inspect`, v2 for
+`inspect-set`. Missing/unreadable baseline files remain filesystem operation
+failures. No validation result implies a browser capture or acceptance.
 
 ```js
 const plan = {

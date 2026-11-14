@@ -8,6 +8,8 @@ are not established by these command tests.
 | --- | --- | --- |
 | Unknown or duplicate flag, missing argument | Exit 2, category `usage`. Run the exact operation with `--help`; correct only that argument. | Tested before input access/output creation. |
 | JSON input fails to parse | Exit 2, `JSON_INVALID`. Correct the selected JSON file and retry; the diagnostic omits its raw content. | Tested with a synthetic secret-bearing malformed input. |
+| Invalid inspection config or prior snapshot | Exit 2, category `usage`, stage `preflight`. Correct the named supplied field; legacy profiles use `$.profiles[index]` paths. `inspect` accepts v1 baselines; `inspect-set` requires v2. | No output is created for schema/action/viewport refusal; snapshots are not automatically migrated. |
+| Missing or changed continuation source | `project continue` retains the brief/choices and reports failed source verification, exit 1. Restore exact bytes or explicitly reconcile the reference. | Only explicit current sources/outputs relative to the continuation document are hashed. No store or linked-resource traversal. |
 | Missing PNG renderer | `health --renderer-dir DIR --probes renderer` reports `absent`; render returns 2. Select an existing compatible renderer explicitly. | Tested with an empty selected directory; no fallback/install. |
 | Incompatible selected renderer | Health reports `error`; rendering returns 1. Check the selected module against the documented renderer version. | Missing versus incompatible adapters are distinct outcomes. |
 | No browser selected | Health reports `not-selected`; ordinary health exits 0. Select existing adapters and executable when browser work is needed. | No browser probe runs without a selector. |
