@@ -1,6 +1,6 @@
 # Known limitations and open verification
 
-The 0.2.0-alpha.1 candidate remains unpublished. The [compatibility matrix](compatibility.md) distinguishes the tested manual project-local Codex CLI route from other clients.
+The 0.2.0-alpha.1 prerelease retains the following verification limits. The [compatibility matrix](compatibility.md) distinguishes the tested manual project-local Codex CLI route from other clients.
 
 | Follow-up | Scope and evidence needed |
 | --- | --- |

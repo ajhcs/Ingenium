@@ -8,6 +8,11 @@ on:
         type: boolean
         required: true
         default: false
+      release_tag:
+        description: Published release tag to verify and deploy (required for publication)
+        type: string
+        required: false
+        default: ''
 
 permissions:
   contents: read
@@ -21,11 +26,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.release_tag || github.sha }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Stage authored site and verify local references
-        run: node tools/build-release-site.mjs work/pages-site
+      - name: Require a release for publication
+        if: inputs.deploy && !inputs.release_tag
+        run: |
+          echo 'Publishing requires an explicit published release_tag.' >&2
+          exit 1
+      - name: Download the published release
+        if: inputs.release_tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        run: |
+          mkdir -p work/published-release
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json tagName,isDraft > work/release-info.json
+          gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --dir work/published-release
+          node tools/verify-release-source.mjs work/published-release/artifacts.json "$RELEASE_TAG" work/release-info.json
+      - name: Stage authored site and verify local references and release bytes
+        env:
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        run: |
+          if [ -n "$RELEASE_TAG" ]; then
+            node tools/build-release-site.mjs work/pages-site work/published-release/artifacts.json
+          else
+            node tools/build-release-site.mjs work/pages-site
+          fi
       - uses: actions/upload-pages-artifact@v4
         with:
           path: work/pages-site

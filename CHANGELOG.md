@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.2.0-alpha.1 — candidate, unpublished
+## 0.2.0-alpha.1 — prerelease
 
 The candidate adds direct create, compare, revise, review, and continue routes for engineering graphics, documents, and websites. Small tasks can produce editable source with a short continuation note; structured records and durable history remain optional.
 
