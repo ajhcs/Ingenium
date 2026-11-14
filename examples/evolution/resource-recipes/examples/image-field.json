@@ -1,0 +1,13 @@
+{
+  "id": "image-field",
+  "kind": "imagery",
+  "title": "Field station illustration",
+  "description": "Original cabin, mast and ground illustration",
+  "original": {
+    "accent": "#DA5C18",
+    "detail": "mast"
+  },
+  "edit": {
+    "accent": "#9a3f12"
+  }
+}

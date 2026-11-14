@@ -1,0 +1,70 @@
+{
+  "schema": "ingenium-resource-union-audit/1",
+  "currentQualified": 105,
+  "historicalDemonstrated": 35,
+  "exactKnownOverlap": 10,
+  "minimumDistinctUnion": 130,
+  "currentNewConservative": 78,
+  "historicalRecoveredRange": [
+    35,
+    92
+  ],
+  "endpointAtRecoveredUpper": 128,
+  "overlaps": [
+    {
+      "current": "materials/gradient-4",
+      "historical": "open-props-gradient-4",
+      "sourceSHA256": "0f61b7ef2656e90052b5aaf2917a13f04dea34f7716db6aa51def737b6fc5059"
+    },
+    {
+      "current": "materials/gradient-8",
+      "historical": "open-props-gradient-8",
+      "sourceSHA256": "a675b5683d8eb1a5695946fb901299ef7f843aa6e02d03021f19ea8a589310ef"
+    },
+    {
+      "current": "palettes/radix-blue-light",
+      "historical": "radix-blue-light",
+      "sourceSHA256": "01862cc2b3c61bc4d7724d764b919124ae83fb2b00c0aaa55bf9c7d94557459f"
+    },
+    {
+      "current": "palettes/radix-gray-light",
+      "historical": "radix-gray-light",
+      "sourceSHA256": "254092c943058abe44b2405b97385737d8577b52195569e35830b8830bf288bb"
+    },
+    {
+      "current": "palettes/radix-red-light",
+      "historical": "radix-red-light",
+      "sourceSHA256": "b6ff5723edb3161efb8e0217ee373d0d4f844f63f921f0fd88fe970754a9b7a2"
+    },
+    {
+      "current": "palettes/radix-amber-light",
+      "historical": "radix-amber-light",
+      "sourceSHA256": "18ec7c43c6f21b3747aeecbac362ae0096dabef0a9f68095f676b57be7af6150"
+    },
+    {
+      "current": "palettes/radix-green-light",
+      "historical": "radix-green-light",
+      "sourceSHA256": "65e22a890eeacb3ac9853430fdd0233f0b86bcaa74a786763fb3069d283d95aa"
+    },
+    {
+      "current": "palettes/radix-teal-light",
+      "historical": "radix-teal-light",
+      "sourceSHA256": "3d29355081895911aa99d4fd53cd50cf6ed1aac381341507be2d471bbedfd083"
+    },
+    {
+      "current": "palettes/radix-violet-light",
+      "historical": "radix-violet-light",
+      "sourceSHA256": "9cea56f1c78c2d0c7e3050facb62f39dec761dd711cb11a09538da9435225c6f"
+    },
+    {
+      "current": "palettes/radix-slate-light",
+      "historical": "radix-slate-light",
+      "sourceSHA256": "bb43cc7c9d444eead943972afb8926e73878b2df5b98f06f6e8b46c6d2e662d8"
+    }
+  ],
+  "limits": [
+    "Historical interval covers indexed recovered records only, not an exhaustive census.",
+    "Uncertain historical rows are retained separately and are not needed for the union lower bound.",
+    "Source/model/diagram identities remain distinct; no engineering or user acceptance is inferred."
+  ]
+}

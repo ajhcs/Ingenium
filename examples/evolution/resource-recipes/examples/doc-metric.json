@@ -1,0 +1,15 @@
+{
+  "id": "doc-metric",
+  "kind": "document",
+  "title": "Measure summary",
+  "description": "Measure, value, units and condition",
+  "original": {
+    "heading": "Inspection interval",
+    "value": "30",
+    "unit": "days",
+    "note": "Illustrative planning value"
+  },
+  "edit": {
+    "note": "Illustrative maintenance planning value"
+  }
+}

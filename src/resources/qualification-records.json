@@ -1,0 +1,1971 @@
+{
+  "schema": "ingenium-resource-inventory/1",
+  "baseline": {
+    "lowerBound": 35,
+    "upperBoundForRecoveredGroups": 92,
+    "status": "recovered-evidence-bounds-reviewed",
+    "source": "historical-baseline.json"
+  },
+  "cseCatalogCount": 1076,
+  "cseCatalogSHA256": "1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+  "candidateCount": 105,
+  "candidateNewSelections": 78,
+  "status": "Scoped handoff qualification independently reviewed for exact listed source, recipe and notice digests; not model, design or user acceptance.",
+  "records": [
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-cylinder",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "511a12aca62f84f2b3dd0d0552dd08adcbb68635765e9d1211ef5923613824a3",
+      "derivedSHA256": "ba34494726440c0aa472f7078082eeebc525369136300c2c11b9de928b969ad4",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-cylinder",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-servo",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "d72061560f88f738119167af76bb2211648ee67423f63d17f9ba8c74e4a74673",
+      "derivedSHA256": "a849536c0ab53ca62a8912374322b46aba818deff65ee74fb9969b33478bf079",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-servo",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-beam",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "7e66b5cda290602b5ff9938b6f23a5bb04bf4ee895ea5b18e04bfb5ebb898a04",
+      "derivedSHA256": "125d26345c0122950b42f675955ed548dca42c7b547b97f86e4221825df5614c",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-beam",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-frame",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "df91478cddc258a25758867782e5f9ee350fda4b1494ded8681a429fb4a79cb8",
+      "derivedSHA256": "56d2e88c104eb4a8e9e98c2399d6433cff86dc498122eb9801777bdab11fe37f",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-frame",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-support",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "c4177ea180e2248310299f82e82dff741840618c335c0df5cacf9908eb51c5c7",
+      "derivedSHA256": "459e3642569cd874ba53ccc67918a1ba4471febc8166a063392eb3e493211343",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-support",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-bracket",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "dbc8c5ade8011f0bb11aea4e1fc6679204cd3676f2ce0bb9f556f779571d6039",
+      "derivedSHA256": "f16f633ff52b0687251e31e175753ffaf9b133b6f6228fc16858bbbc38b98410",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-bracket",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-foundation",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "3c422da5f8954bec2c588b7b71cf7edf95d50e97d5bc48be4238e4bbea9f5e60",
+      "derivedSHA256": "8da367472902931d6b8d3d6d78a92bf512c0a7e9bfa14eb057d9ba5ac66110a8",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-foundation",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-drill",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "72a6c9ab45dd4531a735f45d6a1a3ccdaecfeb39b40c28830588822375592e5a",
+      "derivedSHA256": "42360007744e0f37c0c17dd792300bff239213fb1ed5928ca4817b965e42ee93",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-drill",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-gear",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "7e50ce6ab3ec83e046d57fd0b9faf3eec05033305d8e37f7aa1c7f47b662c3b1",
+      "derivedSHA256": "87789665689aee0bda8a8fd29b866d3f8ffa79225d2f0310bd8cea717c0f9d8f",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-gear",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-pulley",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "1c18303f35369b093310c22dff5c654a9d063183e5a1f1774b662de9895e9e03",
+      "derivedSHA256": "fff795e11c8e0b161ced53c1ca6c21bd19a405705c7a0de615ce26a862080140",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-pulley",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-belt",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "3c842147284a7032de5066f0e4183045f4d82ce5e0b485721756545ef3d6c62d",
+      "derivedSHA256": "617ee1cfa5fcb00d4fcc2d67b19088b757ebf20717121fea103c3515a9662bde",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-belt",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-chain",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "e7cdab589711b563239f5cba80d0a26d26f94a568e7cb45f20cb3b90819080f2",
+      "derivedSHA256": "1b9bd73334c00ff7208f555271d851904662702bdf0c38f63244b145ba52a23f",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-chain",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-cam",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "34814759e13ac3d68e04c59d3b835bfcd0d2071219f26c978151deeec9c80718",
+      "derivedSHA256": "52df88102b6ae5a6c54422f7dfc13813db7840a62c416240a22afdbd26ae853c",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-cam",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-lever",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "1538f0152ccc0dd75f38c37b23f61cc99a026e4d3802615760e0c9c31fdcdbe2",
+      "derivedSHA256": "a6daead4eee135737296dded9eb06f0f1cd1affa3ea67dbd0ebfd27481f7c1ac",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-lever",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-linkage",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "f1d7c790d29bb3095acab99e25763f3d495f9163d200da912ecbe3886e628afc",
+      "derivedSHA256": "821b77b2f7398cb802c621f2f43fc4497a81459862f3824d74ffd6a99ff26e2e",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-linkage",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-bearing",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "8cd244edda5b3d005abe0b850e35e3112cbc921251ddebb0ba78a8200865a597",
+      "derivedSHA256": "da5f7ebcb710abfbfdf892247a59ec309a0980acb747c7f5379de26d6daa44e4",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-bearing",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-spring",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "98811f0f1787e4dff396580ca2d3cfc64fea29b19a17fbab2033e6afaadcca4a",
+      "derivedSHA256": "24188e6dc142109d3f1bac9f070fab626275cb3860248abb530cad02729c6b67",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-spring",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-shaft",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "5f50d5ed0911b36a3ea0509c66165601e3bc04f1cec6011decdddde4820b516c",
+      "derivedSHA256": "71b5832ce7ec491e11a5b30f0e5e626ed4c208b03494523828d1b2c97a9574d6",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-shaft",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-coupling",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "9f76bfc407aa3d43f183c71430c6819b95ae8b22d3f710c0fb7aa38062156d02",
+      "derivedSHA256": "ca8ac9953c75c0c8e1d946519029dc8135698b6527e2f621e767f36cc4cb2c23",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-coupling",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-joint",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "f98e2682045c5d314aa1f54239465f0cd26fea59165847224ffefd754dece688",
+      "derivedSHA256": "cd127f6742a066c63734d7b23e4255ebac7d906bc12f399df28297fdaf749504",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-joint",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-fastener",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "6597dcdc2a1cdfe9be872b7294c3ca6c8259198f0326abef0f33946286f499ca",
+      "derivedSHA256": "28d704cbdde36fa65e95efc8c0f9f4b79d4b6cd51c8ecc8c8d9ea334456e1f87",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-fastener",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-motor",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "d9c2e349ddb634120d077f3cc1b8d2c6e9cada7bcb4d0e91163ef375588b58bc",
+      "derivedSHA256": "bdcdb91259c9fca0a880676cf2543b3420a60f442dfbb71ebf17b4c081da4a76",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-motor",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-actuator",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "f9f4aa2e906b4c32da024eff82204433b21f2bcafcb71c034c77a105d2b9e4ed",
+      "derivedSHA256": "1f9a1691986bdce5ad7dbbdda32a5fe42c8f8a454ff56a3f91adc6ef750429d4",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-actuator",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "mech-piston",
+      "family": "engineering-components",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "e83355deedd2d275943afefda64aaad6e628d14ddaddfd59abaf6cbc2bd14153",
+      "derivedSHA256": "4c3ee54d243e8983d21e92cbd96b527d7d89f01c003f69939991926dc356696a",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/mech-piston",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-terminal-physical",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "148e478f33ca1e0e78d64fc83a65e6528173e3151ae85b31ff28c7881693d448",
+      "derivedSHA256": "579c87ecc226238320f509e0f92c7781fa0d2c006d6759a58977c4b66f0dbc38",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-terminal-physical",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-plug-physical",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "cf01a953530047ddd0005a0fb50f17c078b7dc59a698f913cc35f2d28003e402",
+      "derivedSHA256": "bf12f84139ce0103e2f9c0a32a1d15da89c7a5a1514b1eb67e504abf72483d96",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-plug-physical",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-socket-physical",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "dd8323fa733ddd8f591d6128ad6f9fbd9daeca224a9efe43820ede5a3943628a",
+      "derivedSHA256": "0a9a3bf475d217152b82bcb06cceac47136fe0048121fc0b0c0bf30e969fdf92",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-socket-physical",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-signal-ground",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "6c8873d32357da9b767cee61ff8fe1b228d97ef6e00de3aec7b2941a93dadf69",
+      "derivedSHA256": "0456aeb8e9ed5ffa33c23d6e1f78003049da492c46a5ae97e912cec782b05323",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-signal-ground",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-protective-earth",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "8547dc35aad3b1aa3da75abb3dd4e1b4d2aa27711b078928e1a4e51c89a127d1",
+      "derivedSHA256": "7e9cc63a467beb023b658fda5aab99a52fca7a817237541ccbff98e4b47a3e43",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-protective-earth",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-src-foundation-foundation-crossings-gap-artwork",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "b71bd718f8b971c7188f6e2a2aee5e47d14d468ae142da29728a496848a37edf",
+      "derivedSHA256": "2fa69421c4c9936a76ca050c7c2d038393e9b56237725a031d9361819a944e7b",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-crossings-gap-artwork",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-src-foundation-foundation-crossings-bridge-artwork",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "c59b1bad4ffacc8f6ea1082c550db6aaade3d1895d42ad5f3e48e7b10d709042",
+      "derivedSHA256": "8988f4caf83260420a2f3898bcddf363b9756cee10ac4fdd40c605945b1c6b8b",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-crossings-bridge-artwork",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-connector-physical",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "6a88a11c003b9b0db914c9d9b571b9c13944400010695fbf0dc4e7a0c5cc80e6",
+      "derivedSHA256": "ddc59312f963a9041a7cd4fdd18f450e2fa853dd617afb8d3695e5741c95c48d",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-connector-physical",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-connector-schematic",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "a31bd482bc19373bdb58cab8a9d790b06cca1491601cc6eb73ccd4b537230ade",
+      "derivedSHA256": "5b9be9584551ca90252e523e0e64a20e0f9c1171c9923e2e3cd6d51ea196802d",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-connector-schematic",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-terminal-schematic",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "f713f4fd5b01ccc19073f9d25c9cf151ab7e64082a43f7694b3050f29d3a5747",
+      "derivedSHA256": "4b97b3e1d82ccaa9929b729be76b80a045f5244318aba0298ec5fba10306b850",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-terminal-schematic",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-plug-schematic",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "8e77e4ed8d2d423dd79c235fd5ebbd98936d24b97eaa3bbe33a268d748b7166b",
+      "derivedSHA256": "0f19393d299f3362449fa939a3d87fbfa67560aeff151038a1b9c79d986b739b",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-plug-schematic",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-socket-schematic",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "ea89938e27ef723e62a51cf822ca4752e24d4aba8beac28e0a47d3913fd4320a",
+      "derivedSHA256": "8428c3ebe0d0adf2288f6e0fe1447cc528f05140df764f21d479951cee0b1ca8",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-socket-schematic",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "comp-network-connection",
+      "family": "connectors-ports-routing",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "f71d0549f78af83aa1c3ac339eacfbe89425e70ec17ce4898e955e6b7e260739",
+      "derivedSHA256": "d9188ad21f1af878038fc069060f90e8a59b6a0ff05792725c2eaf2d84b680f9",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/comp-network-connection",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-resistor-schematic",
+      "family": "schematic-pictograms",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "c961c283ff198da47ed7c7dd2a41b3142e0db787cf4ca579d242482ea9a19209",
+      "derivedSHA256": "3be78efd6d29e3dd6e562f8157048ff2dc67a589115cd8dd2578538a5d72eb9a",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-resistor-schematic",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-capacitor-schematic",
+      "family": "schematic-pictograms",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "780acacdbffefb9010d6c5ff51f3d23a27702bfc4d42bc76c513105f7f7bd7f8",
+      "derivedSHA256": "23ae98780685aa214020a143d19cac2efd92fd31426b69b37d39cf1066043c4c",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-capacitor-schematic",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-inductor-schematic",
+      "family": "schematic-pictograms",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "44776c1c6085b4667b9e8cf2b9bbb5267930c427fcd578abc832c89c66fb49e2",
+      "derivedSHA256": "48dde0c895c1bcb50b0bac0d1ab4ed4d051618d3162509ee0591a47443c63983",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-inductor-schematic",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "elec-diode-schematic",
+      "family": "schematic-pictograms",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "b3ddaf78e362ce1b261228a5724507e68aba727005d385b6788b1f63bcd08165",
+      "derivedSHA256": "2e270c64ff316c13d5d461bb665a7f4ca9650cc5ab68a2a43f6b482a4f96739b",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/elec-diode-schematic",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "fluid-valve-schematic",
+      "family": "schematic-pictograms",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "bde33247f5e7446edad119db5827e8ca0b22b8cb8b39acde1a052373c886c8fd",
+      "derivedSHA256": "0fa33bce5262926d04811568ba35b894f0de6e50a9568de95c04807c09ca6169",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/fluid-valve-schematic",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "fluid-pump-schematic",
+      "family": "schematic-pictograms",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "9e8bde1eb4fa0de3fde9dff174c0cf367a2584472d7c153b78066acfe8d0ed36",
+      "derivedSHA256": "4e076dc4cdc971a25067a01124fccd93b7f50574909833fd88e96de9adafa835",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/fluid-pump-schematic",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "actions-inspect",
+      "family": "schematic-pictograms",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "26ebecf6da5b4c8303b721c4ae2c92940ec0a4c72e1f70a8dcf164caae130ca1",
+      "derivedSHA256": "52eb627de4420a09b8179a5bb8ebe176e2ef52fc43ccd01cacead0e799883e8b",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/actions-inspect",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "actions-repair",
+      "family": "schematic-pictograms",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "21bd427b3e43aa22287ff9bcabb0446b4240bb5d36b1758429e0e987db1ec35e",
+      "derivedSHA256": "a9dc8ebc4095f4cf022d7d0e252c86da00cff31a4a3b1141d63dfa46de347d2d",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/actions-repair",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "warnings-prohibition",
+      "family": "annotations-technical-labels",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "091923e6e445fa174e238cc7b4fb636ae6e8440efbf0976d76f3556dadb469df",
+      "derivedSHA256": "fb5d0779724ef1c3ced2d926515f38df8c2b6a89c4d083158d65f82808e4943f",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/warnings-prohibition",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "doc-reference-arrow",
+      "family": "annotations-technical-labels",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "78a4dbf213666963682ffd5f23bc12f9663cac160351ce245fb8847cd1099cad",
+      "derivedSHA256": "7f6feb90b1ab7e912ecef71cc03d39aa18b413dd40b862f7b8d36765f0678146",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/doc-reference-arrow",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "annotations-information",
+      "family": "annotations-technical-labels",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "bb5b918d876103d9ff8a05df29e7a9947d12d8d2fc445afe7d2ebd82f3ddb0b8",
+      "derivedSHA256": "21563646181251825840c182a99c39e334fbb9c6e37329a5c9e9f241164e9e8a",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/annotations-information",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "annotations-note",
+      "family": "annotations-technical-labels",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "acd27a0a5c06c52c1881016cc63031d2e0d3817890f308730584b2da64538066",
+      "derivedSHA256": "9889fed894aa17f2ce8e8093fdc914b2329634d0b4ee012c1291ea85067392e8",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/annotations-note",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-src-foundation-foundation-arrowheads-open-v-artwork",
+      "family": "annotations-technical-labels",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "61fcf92637df63dab3a6d64e480abb4e6bb6e0a1ddc5f5a5c105a4b37647a787",
+      "derivedSHA256": "539a97e7b6ecbf03a556de556b3a595b274e857f0c66b126747e3c99c2d6c569",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-open-v-artwork",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-src-foundation-foundation-arrowheads-filled-triangle-artwork",
+      "family": "annotations-technical-labels",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "4365fedc339af55afd15c6fadc0269e2ccf5c40a177800710c86b1279bba8abd",
+      "derivedSHA256": "7002594c0edfb8c4cab350b328d7f385051386313d6d0ba20b1881f290963e7b",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-filled-triangle-artwork",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork",
+      "family": "annotations-technical-labels",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "a6a8f728e4305f95e0a943eac46208088b13f57580cdd3fd091c79e644678ff8",
+      "derivedSHA256": "45815fdd65efdbb7d52b76759739495ce8fca6d57577a6c7e654e66dba362490",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-src-foundation-foundation-arrowheads-notched-artwork",
+      "family": "annotations-technical-labels",
+      "sourceRevision": "CSE 0.2.0-alpha.8; catalog sha256:1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "sourceSHA256": "a5926312d1637f2e77a2bb94ec0faf1855afdfc7eafad271a154601b8e30fb43",
+      "derivedSHA256": "0434da3f7ef78846b43912e8b45f6df76c397944a0c71ec41c941d7ed9f01329",
+      "noticeIds": [
+        "cse-mit"
+      ],
+      "origin": "selected CSE master",
+      "newlySelected": true,
+      "evidenceId": "cse-evidence-ink-v5/palette-src-foundation-foundation-arrowheads-notched-artwork",
+      "tier": "handoff-qualified",
+      "limits": "Two scale and ink edits, exported and reopened in Chromium; CSE status and model semantics unchanged.",
+      "recipeSHA256": "d99b96a3f05ea5792945f55bb5e0af6d300d418fe1a1001bf5dabb2c6bb06ba6",
+      "noticeSHA256": "b17bd55fedd59de15e5fe7b884462c74d53d471efa35e912659a0a4641da913c"
+    },
+    {
+      "providerId": "atomic-ui",
+      "assetId": "button",
+      "family": "web-primitives",
+      "sourceRevision": "npm:daisyui@5.7.50",
+      "sourceSHA256": "4d07575e606c449516855782ed0011bc5dce76027e72e719971d2a5040cef9eb",
+      "derivedSHA256": "1ac0ee8a45a4441a6607546b438acde14caf186ec8f0c9c39f8832352d69df69",
+      "noticeIds": [
+        "LICENSE.daisyui.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/atomic-ui-button",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "dbf4b52ca0d151c7e44bc3eafebd52ffae5c14c3e133f6cac39a6d9905d90aff",
+      "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a"
+    },
+    {
+      "providerId": "atomic-ui",
+      "assetId": "input",
+      "family": "web-primitives",
+      "sourceRevision": "npm:daisyui@5.7.50",
+      "sourceSHA256": "11616d2db0b5299e62bca15ecbdfad77ccfd43605dee045576aeacd9f1fddf6e",
+      "derivedSHA256": "1b24d3748aad5bf415e0a57f2946b42080120af521b357719229ca7b18897818",
+      "noticeIds": [
+        "LICENSE.daisyui.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/atomic-ui-input",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "dbf4b52ca0d151c7e44bc3eafebd52ffae5c14c3e133f6cac39a6d9905d90aff",
+      "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a"
+    },
+    {
+      "providerId": "atomic-ui",
+      "assetId": "checkbox",
+      "family": "web-primitives",
+      "sourceRevision": "npm:daisyui@5.7.50",
+      "sourceSHA256": "c4d6737608155f6710d122baeb42017fdc4d86789fdf723cb7af8fa508fcfb31",
+      "derivedSHA256": "3a7340bb898db7a0a73352bde6eeea7d380d40d8db9b8b35cb9d8040f9394a52",
+      "noticeIds": [
+        "LICENSE.daisyui.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/atomic-ui-checkbox",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "dbf4b52ca0d151c7e44bc3eafebd52ffae5c14c3e133f6cac39a6d9905d90aff",
+      "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a"
+    },
+    {
+      "providerId": "atomic-ui",
+      "assetId": "alert",
+      "family": "web-primitives",
+      "sourceRevision": "npm:daisyui@5.7.50",
+      "sourceSHA256": "eed18cbd74bb30b328d3e55c94568151e990e115a103403eba184ef188091ce1",
+      "derivedSHA256": "c95b3757b8e08a94f323a3d1ab7c679b26605784e63c5e8c71768acda67da4fd",
+      "noticeIds": [
+        "LICENSE.daisyui.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/atomic-ui-alert",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "dbf4b52ca0d151c7e44bc3eafebd52ffae5c14c3e133f6cac39a6d9905d90aff",
+      "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a"
+    },
+    {
+      "providerId": "atomic-ui",
+      "assetId": "badge",
+      "family": "web-primitives",
+      "sourceRevision": "npm:daisyui@5.7.50",
+      "sourceSHA256": "9a2db673cefc560caec464850946ac76feed7245889afd127ac9087ad4c03b4b",
+      "derivedSHA256": "175464974c982c3718f6fb0a62d0f6f69ca647d5f3407f59bff5ad5dbe17d62c",
+      "noticeIds": [
+        "LICENSE.daisyui.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/atomic-ui-badge",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "dbf4b52ca0d151c7e44bc3eafebd52ffae5c14c3e133f6cac39a6d9905d90aff",
+      "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a"
+    },
+    {
+      "providerId": "atomic-ui",
+      "assetId": "range",
+      "family": "web-primitives",
+      "sourceRevision": "npm:daisyui@5.7.50",
+      "sourceSHA256": "dd1b0720304a857add75fd473bae0355ae81c82ae6010eb52791ee9b08e5ce27",
+      "derivedSHA256": "061ad799b44d4d6583991bb450029901c8db534a6d6c50f6d83e21be832ff6b3",
+      "noticeIds": [
+        "LICENSE.daisyui.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/atomic-ui-range",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "dbf4b52ca0d151c7e44bc3eafebd52ffae5c14c3e133f6cac39a6d9905d90aff",
+      "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a"
+    },
+    {
+      "providerId": "atomic-ui",
+      "assetId": "table",
+      "family": "web-primitives",
+      "sourceRevision": "npm:daisyui@5.7.50",
+      "sourceSHA256": "b4bfc009c7530e1f07d2dbd883c69bb4907e79fac00feae250c84851ed45ca6a",
+      "derivedSHA256": "1dfad042c5210aeb2704a8636237e2de911c6ecfd348a2e8a49ac40da5f0dff4",
+      "noticeIds": [
+        "LICENSE.daisyui.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/atomic-ui-table",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "dbf4b52ca0d151c7e44bc3eafebd52ffae5c14c3e133f6cac39a6d9905d90aff",
+      "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a"
+    },
+    {
+      "providerId": "atomic-ui",
+      "assetId": "progress",
+      "family": "web-primitives",
+      "sourceRevision": "npm:daisyui@5.7.50",
+      "sourceSHA256": "d06bd11921a9097351e4fe2bd6de519ebb2c9b50a3fd4e9c37182dacaef78340",
+      "derivedSHA256": "1d1c513701c21aada61a432f8c171ad5a1e0b18e6ceebe82fdd436884c7c83f9",
+      "noticeIds": [
+        "LICENSE.daisyui.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/atomic-ui-progress",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "dbf4b52ca0d151c7e44bc3eafebd52ffae5c14c3e133f6cac39a6d9905d90aff",
+      "noticeSHA256": "e8f4cb0357111e40620581f2e13b7930d57a4f47d16e364a14533628f0fa690a"
+    },
+    {
+      "providerId": "materials",
+      "assetId": "gradient-1",
+      "family": "textures-materials",
+      "sourceRevision": "npm:open-props@1.7.23",
+      "sourceSHA256": "5dde647bb06ed213360677677b7de3ac0e8d3c7eba3f82a7bc3503feb8100eec",
+      "derivedSHA256": "a124c62ecc3571bb9061acab88eb3b28f85aa0be43c3cc20077ee15f3ebb1c1c",
+      "noticeIds": [
+        "LICENSE.open-props.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/materials-gradient-1",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "228b8d290964c60e7812d74c1297d1e17507301335c67b28aa9193cdc9e9b3d7",
+      "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842"
+    },
+    {
+      "providerId": "materials",
+      "assetId": "gradient-2",
+      "family": "textures-materials",
+      "sourceRevision": "npm:open-props@1.7.23",
+      "sourceSHA256": "b9f76ce72a99d8fe328cc2aa8ac0525052e1ec69d8634492d60573f04f02d6c4",
+      "derivedSHA256": "514751d6f15c67449087834010eba336dcbb23549e316e7340cd9b89df902f22",
+      "noticeIds": [
+        "LICENSE.open-props.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/materials-gradient-2",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "228b8d290964c60e7812d74c1297d1e17507301335c67b28aa9193cdc9e9b3d7",
+      "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842"
+    },
+    {
+      "providerId": "materials",
+      "assetId": "gradient-3",
+      "family": "textures-materials",
+      "sourceRevision": "npm:open-props@1.7.23",
+      "sourceSHA256": "49574a6e0bdd75a348eecd00b04814b0e744d83c9729f7d4580c4d54ece54c70",
+      "derivedSHA256": "44820b2d4011004b83a4778bd562c83920591553984fa70abaf727c8ccb3ec71",
+      "noticeIds": [
+        "LICENSE.open-props.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/materials-gradient-3",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "228b8d290964c60e7812d74c1297d1e17507301335c67b28aa9193cdc9e9b3d7",
+      "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842"
+    },
+    {
+      "providerId": "materials",
+      "assetId": "gradient-4",
+      "family": "textures-materials",
+      "sourceRevision": "npm:open-props@1.7.23",
+      "sourceSHA256": "0f61b7ef2656e90052b5aaf2917a13f04dea34f7716db6aa51def737b6fc5059",
+      "derivedSHA256": "62d731a4aad0582ce18bcc0481a5077cae3a1c6ad77b352067b7ae77004d0888",
+      "noticeIds": [
+        "LICENSE.open-props.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/materials-gradient-4",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "228b8d290964c60e7812d74c1297d1e17507301335c67b28aa9193cdc9e9b3d7",
+      "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842"
+    },
+    {
+      "providerId": "materials",
+      "assetId": "gradient-5",
+      "family": "textures-materials",
+      "sourceRevision": "npm:open-props@1.7.23",
+      "sourceSHA256": "ceccc7a54bc2491010ba67a8a9c66f190234959e2430c7c57a64f83090e9f3c1",
+      "derivedSHA256": "08734f9904b6f8ac184334d2daf14117b522a5ac7ffdc21f076621dd3f896d4f",
+      "noticeIds": [
+        "LICENSE.open-props.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/materials-gradient-5",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "228b8d290964c60e7812d74c1297d1e17507301335c67b28aa9193cdc9e9b3d7",
+      "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842"
+    },
+    {
+      "providerId": "materials",
+      "assetId": "gradient-6",
+      "family": "textures-materials",
+      "sourceRevision": "npm:open-props@1.7.23",
+      "sourceSHA256": "687ebf7ccdd388c5c12760e471c776c434b1b4dfacd4cdbd604a28eaf7c88403",
+      "derivedSHA256": "25c36b34d66e8aae7fb67a37476af9f23147ad9173ab3bbb5f18fe1eee8def47",
+      "noticeIds": [
+        "LICENSE.open-props.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/materials-gradient-6",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "228b8d290964c60e7812d74c1297d1e17507301335c67b28aa9193cdc9e9b3d7",
+      "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842"
+    },
+    {
+      "providerId": "materials",
+      "assetId": "gradient-7",
+      "family": "textures-materials",
+      "sourceRevision": "npm:open-props@1.7.23",
+      "sourceSHA256": "99a4039e50955a6ac077121e82290985050ad877dab948165f9ffcb64fb1b559",
+      "derivedSHA256": "2f6557b3522d5111384fa2831559eb3b7ed6559a9a75aac70e240a8e1502700c",
+      "noticeIds": [
+        "LICENSE.open-props.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/materials-gradient-7",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "228b8d290964c60e7812d74c1297d1e17507301335c67b28aa9193cdc9e9b3d7",
+      "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842"
+    },
+    {
+      "providerId": "materials",
+      "assetId": "gradient-8",
+      "family": "textures-materials",
+      "sourceRevision": "npm:open-props@1.7.23",
+      "sourceSHA256": "a675b5683d8eb1a5695946fb901299ef7f843aa6e02d03021f19ea8a589310ef",
+      "derivedSHA256": "f70eb3ca46ed45e19e9eee102df069231a97cf37df19925551e635b9214c8105",
+      "noticeIds": [
+        "LICENSE.open-props.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/materials-gradient-8",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "228b8d290964c60e7812d74c1297d1e17507301335c67b28aa9193cdc9e9b3d7",
+      "noticeSHA256": "afad1b015d4bf88fa19918ef32b44d7dd08d9364e3f9e7d4bf1562a472872842"
+    },
+    {
+      "providerId": "hack",
+      "assetId": "hack-regular-woff2",
+      "family": "font-faces",
+      "sourceRevision": "git:b47d21f808fbf4784565feccde2213ef2af924b3",
+      "sourceSHA256": "0b0ef254dfc7afc172528e3166eace813989e1cf77f576ddae5f5e8fb2897c06",
+      "derivedSHA256": "e7d96903bfe254faed28a8c8f032615dfb7e321216d4df65c95279306fc484f9",
+      "noticeIds": [
+        "notice-1-hack-license.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/hack-hack-regular-woff2",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "745f48c1bd8b0a8b6552de8f7235077de58f0044d108ddb7d3f1773f9f4be1ea",
+      "noticeSHA256": "3d5af5eb1edc72791c55b333647e5e312102c8013f2747383530b5570b71613b"
+    },
+    {
+      "providerId": "hack",
+      "assetId": "hack-bold-woff2",
+      "family": "font-faces",
+      "sourceRevision": "git:b47d21f808fbf4784565feccde2213ef2af924b3",
+      "sourceSHA256": "d5a65190e12d1d7a4e804085dc3cc2bc8264ba0f63351bb8c8905c501fa69aa3",
+      "derivedSHA256": "f729812ee8a95a7d7879d5fa781f2e179e201c920d0d82c140996f0dda1fefeb",
+      "noticeIds": [
+        "notice-1-hack-license.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "resource-evidence-v5/hack-hack-bold-woff2",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "745f48c1bd8b0a8b6552de8f7235077de58f0044d108ddb7d3f1773f9f4be1ea",
+      "noticeSHA256": "3d5af5eb1edc72791c55b333647e5e312102c8013f2747383530b5570b71613b"
+    },
+    {
+      "providerId": "cse-fonts",
+      "assetId": "inter-400-woff2",
+      "family": "font-faces",
+      "sourceRevision": "sha256:5dca8cd15c4c3acc0b66b9eba7b73ba5f6b12049bbe51a31c6d55e3e24aa5d26",
+      "sourceSHA256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "derivedSHA256": "e7d96903bfe254faed28a8c8f032615dfb7e321216d4df65c95279306fc484f9",
+      "noticeIds": [
+        "notice-1-inter-ofl.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": false,
+      "evidenceId": "font-evidence-v5/cse-fonts-inter-400-woff2",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable. Identical font bytes were selected in the historical installed flow.",
+      "recipeSHA256": "707169a9291d751249205fc64a0f09d64ec62477ca08b1195e028d9ec4960989",
+      "noticeSHA256": "b6e50acc9edd6c18193ae3b729701480f7820fa5fd33d159d43a724699cb78e4"
+    },
+    {
+      "providerId": "cse-fonts",
+      "assetId": "inter-700-woff2",
+      "family": "font-faces",
+      "sourceRevision": "sha256:5dca8cd15c4c3acc0b66b9eba7b73ba5f6b12049bbe51a31c6d55e3e24aa5d26",
+      "sourceSHA256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "derivedSHA256": "f729812ee8a95a7d7879d5fa781f2e179e201c920d0d82c140996f0dda1fefeb",
+      "noticeIds": [
+        "notice-1-inter-ofl.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": true,
+      "evidenceId": "font-evidence-v5/cse-fonts-inter-700-woff2",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "707169a9291d751249205fc64a0f09d64ec62477ca08b1195e028d9ec4960989",
+      "noticeSHA256": "b6e50acc9edd6c18193ae3b729701480f7820fa5fd33d159d43a724699cb78e4"
+    },
+    {
+      "providerId": "cse-fonts",
+      "assetId": "space-grotesk-400-woff2",
+      "family": "font-faces",
+      "sourceRevision": "sha256:5dca8cd15c4c3acc0b66b9eba7b73ba5f6b12049bbe51a31c6d55e3e24aa5d26",
+      "sourceSHA256": "65fd17fcbd2e2f522940b5f67ead3d23329e02891aa5495e74d11a499c0b0673",
+      "derivedSHA256": "e7d96903bfe254faed28a8c8f032615dfb7e321216d4df65c95279306fc484f9",
+      "noticeIds": [
+        "notice-1-space-ofl.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": true,
+      "evidenceId": "font-evidence-v5/cse-fonts-space-grotesk-400-woff2",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "707169a9291d751249205fc64a0f09d64ec62477ca08b1195e028d9ec4960989",
+      "noticeSHA256": "4b23fa6d794f18024fae0f2587ffd8f270318134622d154a886a99608f9569e9"
+    },
+    {
+      "providerId": "cse-fonts",
+      "assetId": "space-grotesk-700-woff2",
+      "family": "font-faces",
+      "sourceRevision": "sha256:5dca8cd15c4c3acc0b66b9eba7b73ba5f6b12049bbe51a31c6d55e3e24aa5d26",
+      "sourceSHA256": "35f8aec56cfd5cbfdb03cc68733a54a0b05bb3617ffcd5fd332badc0b045ca55",
+      "derivedSHA256": "f729812ee8a95a7d7879d5fa781f2e179e201c920d0d82c140996f0dda1fefeb",
+      "noticeIds": [
+        "notice-1-space-ofl.txt"
+      ],
+      "origin": "retained local source",
+      "newlySelected": true,
+      "evidenceId": "font-evidence-v5/cse-fonts-space-grotesk-700-woff2",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "707169a9291d751249205fc64a0f09d64ec62477ca08b1195e028d9ec4960989",
+      "noticeSHA256": "4b23fa6d794f18024fae0f2587ffd8f270318134622d154a886a99608f9569e9"
+    },
+    {
+      "providerId": "liberation-sans",
+      "assetId": "liberation-sans-regular-ttf",
+      "family": "font-faces",
+      "sourceRevision": "sha256:8ef7499145a4746ca5bf728db21f02b85c226dc8ac075b12c279e07622621465",
+      "sourceSHA256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49",
+      "derivedSHA256": "38a49fca13b24a2aea512b43e25611d511ef85a74b90012f833cd9045f01f50b",
+      "noticeIds": [
+        "notice-1-liberation-ofl.txt"
+      ],
+      "origin": "local retained source; fontLiberation upstream distribution unverified",
+      "newlySelected": true,
+      "evidenceId": "font-evidence-v5/liberation-sans-liberation-sans-regular-ttf",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "fe66483c45d4ccc645170b45b85a67bf2271c60029eec6bc260987bda7ba3f8d",
+      "noticeSHA256": "c81e3f295aebf12725b11141858bd52a8333f079c1ddfee4650f7a8859d566d9"
+    },
+    {
+      "providerId": "liberation-sans",
+      "assetId": "liberation-sans-bold-ttf",
+      "family": "font-faces",
+      "sourceRevision": "sha256:8ef7499145a4746ca5bf728db21f02b85c226dc8ac075b12c279e07622621465",
+      "sourceSHA256": "d723d5a272970aedf296ef6fc628180df6074bce7769701ea9e0d222c052668c",
+      "derivedSHA256": "bc0f41a39879def552ae2d3cc0fcb1fac1661e8c21f1b358cd2cb1fafdecf38e",
+      "noticeIds": [
+        "notice-1-liberation-ofl.txt"
+      ],
+      "origin": "local retained source; fontLiberation upstream distribution unverified",
+      "newlySelected": true,
+      "evidenceId": "font-evidence-v5/liberation-sans-liberation-sans-bold-ttf",
+      "tier": "handoff-qualified",
+      "limits": "Two edits, export, copied-handoff hash reopen and Chromium rendering; exact font identity separately observed where applicable.",
+      "recipeSHA256": "fe66483c45d4ccc645170b45b85a67bf2271c60029eec6bc260987bda7ba3f8d",
+      "noticeSHA256": "c81e3f295aebf12725b11141858bd52a8333f079c1ddfee4650f7a8859d566d9"
+    },
+    {
+      "providerId": "palettes",
+      "assetId": "radix-blue-light",
+      "family": "palette-families",
+      "sourceRevision": "npm:@radix-ui/colors@3.0.0",
+      "sourceSHA256": "01862cc2b3c61bc4d7724d764b919124ae83fb2b00c0aaa55bf9c7d94557459f",
+      "derivedSHA256": "7e94cf8f86174e1328a639bc2262b2d25a3827bfee4fb6bb05ac896c575b5862",
+      "noticeIds": [
+        "radix-mit"
+      ],
+      "origin": "retained @radix-ui/colors 3.0.0",
+      "newlySelected": false,
+      "evidenceId": "palette-evidence-v5/radix-blue-light",
+      "tier": "handoff-qualified",
+      "limits": "Two explicit token edits, original CSS, MIT notice and rendered preview; no contrast or aesthetic acceptance inferred.",
+      "recipeSHA256": "c4f345079aecc192808274ebdb901f9f4a5c949f5dc6c1a909e676d9dc90073d",
+      "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d"
+    },
+    {
+      "providerId": "palettes",
+      "assetId": "radix-gray-light",
+      "family": "palette-families",
+      "sourceRevision": "npm:@radix-ui/colors@3.0.0",
+      "sourceSHA256": "254092c943058abe44b2405b97385737d8577b52195569e35830b8830bf288bb",
+      "derivedSHA256": "d44133fa5ed5de46fc3b70bc3b926b834cf393e4b1451be9d366c3f2997f6c9e",
+      "noticeIds": [
+        "radix-mit"
+      ],
+      "origin": "retained @radix-ui/colors 3.0.0",
+      "newlySelected": false,
+      "evidenceId": "palette-evidence-v5/radix-gray-light",
+      "tier": "handoff-qualified",
+      "limits": "Two explicit token edits, original CSS, MIT notice and rendered preview; no contrast or aesthetic acceptance inferred.",
+      "recipeSHA256": "c4f345079aecc192808274ebdb901f9f4a5c949f5dc6c1a909e676d9dc90073d",
+      "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d"
+    },
+    {
+      "providerId": "palettes",
+      "assetId": "radix-red-light",
+      "family": "palette-families",
+      "sourceRevision": "npm:@radix-ui/colors@3.0.0",
+      "sourceSHA256": "b6ff5723edb3161efb8e0217ee373d0d4f844f63f921f0fd88fe970754a9b7a2",
+      "derivedSHA256": "696d0bfcd5a3d4cc7d544a3ee4685589c848ac038b9d05a9629950208f2373d6",
+      "noticeIds": [
+        "radix-mit"
+      ],
+      "origin": "retained @radix-ui/colors 3.0.0",
+      "newlySelected": false,
+      "evidenceId": "palette-evidence-v5/radix-red-light",
+      "tier": "handoff-qualified",
+      "limits": "Two explicit token edits, original CSS, MIT notice and rendered preview; no contrast or aesthetic acceptance inferred.",
+      "recipeSHA256": "c4f345079aecc192808274ebdb901f9f4a5c949f5dc6c1a909e676d9dc90073d",
+      "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d"
+    },
+    {
+      "providerId": "palettes",
+      "assetId": "radix-amber-light",
+      "family": "palette-families",
+      "sourceRevision": "npm:@radix-ui/colors@3.0.0",
+      "sourceSHA256": "18ec7c43c6f21b3747aeecbac362ae0096dabef0a9f68095f676b57be7af6150",
+      "derivedSHA256": "a9d9755b294e67f5b67f60a3fced3a19acf31be5bc5b0aaffc727ef6d2880e97",
+      "noticeIds": [
+        "radix-mit"
+      ],
+      "origin": "retained @radix-ui/colors 3.0.0",
+      "newlySelected": false,
+      "evidenceId": "palette-evidence-v5/radix-amber-light",
+      "tier": "handoff-qualified",
+      "limits": "Two explicit token edits, original CSS, MIT notice and rendered preview; no contrast or aesthetic acceptance inferred.",
+      "recipeSHA256": "c4f345079aecc192808274ebdb901f9f4a5c949f5dc6c1a909e676d9dc90073d",
+      "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d"
+    },
+    {
+      "providerId": "palettes",
+      "assetId": "radix-green-light",
+      "family": "palette-families",
+      "sourceRevision": "npm:@radix-ui/colors@3.0.0",
+      "sourceSHA256": "65e22a890eeacb3ac9853430fdd0233f0b86bcaa74a786763fb3069d283d95aa",
+      "derivedSHA256": "463d55efb10587db421843805a1585bb2760343a3d7b35e8e2b7894e9748ee25",
+      "noticeIds": [
+        "radix-mit"
+      ],
+      "origin": "retained @radix-ui/colors 3.0.0",
+      "newlySelected": false,
+      "evidenceId": "palette-evidence-v5/radix-green-light",
+      "tier": "handoff-qualified",
+      "limits": "Two explicit token edits, original CSS, MIT notice and rendered preview; no contrast or aesthetic acceptance inferred.",
+      "recipeSHA256": "c4f345079aecc192808274ebdb901f9f4a5c949f5dc6c1a909e676d9dc90073d",
+      "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d"
+    },
+    {
+      "providerId": "palettes",
+      "assetId": "radix-teal-light",
+      "family": "palette-families",
+      "sourceRevision": "npm:@radix-ui/colors@3.0.0",
+      "sourceSHA256": "3d29355081895911aa99d4fd53cd50cf6ed1aac381341507be2d471bbedfd083",
+      "derivedSHA256": "11cdeecaaee9830297534bc53c5979be5f25e6aabdc5b3a569929a9691e5cfaa",
+      "noticeIds": [
+        "radix-mit"
+      ],
+      "origin": "retained @radix-ui/colors 3.0.0",
+      "newlySelected": false,
+      "evidenceId": "palette-evidence-v5/radix-teal-light",
+      "tier": "handoff-qualified",
+      "limits": "Two explicit token edits, original CSS, MIT notice and rendered preview; no contrast or aesthetic acceptance inferred.",
+      "recipeSHA256": "c4f345079aecc192808274ebdb901f9f4a5c949f5dc6c1a909e676d9dc90073d",
+      "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d"
+    },
+    {
+      "providerId": "palettes",
+      "assetId": "radix-violet-light",
+      "family": "palette-families",
+      "sourceRevision": "npm:@radix-ui/colors@3.0.0",
+      "sourceSHA256": "9cea56f1c78c2d0c7e3050facb62f39dec761dd711cb11a09538da9435225c6f",
+      "derivedSHA256": "e83675bec80df48cd3e1e6c5441f0f7a8a2c9a95c3336b081640adfad92e66e3",
+      "noticeIds": [
+        "radix-mit"
+      ],
+      "origin": "retained @radix-ui/colors 3.0.0",
+      "newlySelected": false,
+      "evidenceId": "palette-evidence-v5/radix-violet-light",
+      "tier": "handoff-qualified",
+      "limits": "Two explicit token edits, original CSS, MIT notice and rendered preview; no contrast or aesthetic acceptance inferred.",
+      "recipeSHA256": "c4f345079aecc192808274ebdb901f9f4a5c949f5dc6c1a909e676d9dc90073d",
+      "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d"
+    },
+    {
+      "providerId": "palettes",
+      "assetId": "radix-slate-light",
+      "family": "palette-families",
+      "sourceRevision": "npm:@radix-ui/colors@3.0.0",
+      "sourceSHA256": "bb43cc7c9d444eead943972afb8926e73878b2df5b98f06f6e8b46c6d2e662d8",
+      "derivedSHA256": "d19b556e13912a3048448f40ec7acbe4380b94dc4e8392a40c6ce0989312a5e9",
+      "noticeIds": [
+        "radix-mit"
+      ],
+      "origin": "retained @radix-ui/colors 3.0.0",
+      "newlySelected": false,
+      "evidenceId": "palette-evidence-v5/radix-slate-light",
+      "tier": "handoff-qualified",
+      "limits": "Two explicit token edits, original CSS, MIT notice and rendered preview; no contrast or aesthetic acceptance inferred.",
+      "recipeSHA256": "c4f345079aecc192808274ebdb901f9f4a5c949f5dc6c1a909e676d9dc90073d",
+      "noticeSHA256": "d9bdd43a430a8cf75084026e25aec1d6781f222448b325f29f1e6b456330fa1d"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "doc-title",
+      "family": "document-fragments",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "8f26a325a4ab5172638a5ba8550eb020cd57ba6bfb71595f0a0feec7c05c7563",
+      "derivedSHA256": "17baccd6d4ac57c61cc50bdac1a94100bef8c28430467fdff81f955b10ddd707",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/doc-title",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "fc12362a9242e6a7ea1c0d40fab92afb196d2b916bc53ab5701577de3cab7e78",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "doc-revision",
+      "family": "document-fragments",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "19b9a9604b2f8f1f71b27f76f9baae3b1157920745b535be15844d41c067e9e4",
+      "derivedSHA256": "81bc16d6b53205754ef48d40dc90e7d4bd57c5c7789a898d1dcbc870ce9bdb6b",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/doc-revision",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "9a1dc9ca7a36342c1a9ab2a036adec3474363191ea84a2c4d13ab8142bf46858",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "doc-requirements",
+      "family": "document-fragments",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "2aefed781a185b4865dfeac40a9d1a8ce18e7f9358502843e1278cfe3bb9521c",
+      "derivedSHA256": "d3c4cb588debd3f419eb47fcdc6ff69a8806983432ee960d7e220c03464b37cd",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/doc-requirements",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "d450aadf28c3431255ec066d9a6f363e397e5bbc913b577d1cd386de2a96cbb4",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "doc-legend",
+      "family": "document-fragments",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "3c15e96e3b8af4d65cf62b2c12d1a90ca70b84f98db4986fe6f3e8d5ebcf67e7",
+      "derivedSHA256": "298195a4eb4f4f17d303dd0b8a8d833dac28d2db90b810b955400b9396263d2f",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/doc-legend",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "66156f7b3d438bb1b3e899717c4efdb61a0df3ef0b184899c9812c105f7fa685",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "doc-caution",
+      "family": "document-fragments",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "4e9cb9e981221a311825009ef11049fa9339c7c55d5fe045097d001998f7b88f",
+      "derivedSHA256": "93fc3ff131b378876da26759a9b93423c32d6785e043b38dfffa09c6e99a2201",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/doc-caution",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "a5a3d4d45692412d4190df233306482207e85a503bd051d0941822e8e1521a9e",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "doc-caption",
+      "family": "document-fragments",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "0ad173eecf4119cb83bb06996b77e429d52a67ebfe9a979d3544af4609a2eebc",
+      "derivedSHA256": "004b4d48ededcc22a62933e3316ceb8d3fc12337c5bf9b16e23fc1e838a51561",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/doc-caption",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "63e7c07faa045530525dc07a669e2902b19ad6e5f2afa766497c5d6985cdc385",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "doc-metric",
+      "family": "document-fragments",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "1eb9c6f5d0174cd606a588f9b043c6edd555fa1be94f94e51ac60eb45ba874a8",
+      "derivedSHA256": "1f9cff0685873a686ea6fe307dc97c7613bb9a6528a40aaf162850390c045ce8",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/doc-metric",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "1f0cc88bb333211c517c7619eb7b10874e6e82c5612638cd5b66aebe184f1df5",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "doc-issues",
+      "family": "document-fragments",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "a3d1e881b1549f5e879209f03d7ffd5f2f7cfbbab1d586131cb35afa67315239",
+      "derivedSHA256": "ba5b0b8bfb70e9f4b560106a46fffa7e864121cab5bc162e1bd1dc46025a9407",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/doc-issues",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "d161c7f3ff18bd329770b3d63e23be814d8307828265f7b199dc3147a36497d3",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "chart-bar",
+      "family": "chart-plot-components",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "afe985b29cae12f47504736aac65c3c598eaca4f731793ae3f8e7614716c3fe6",
+      "derivedSHA256": "df8665bb570750ad70e87a7dc3f01901f71cccf058a8494fd8c48b6d8f5a77f0",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/chart-bar",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "b0fdf8ebb70865712c2c9e052889a67edb0df902ad3a02e74783d78ed9759a58",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "chart-line",
+      "family": "chart-plot-components",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "d4e275a6a365d3e2933dbc4df3bd8b5a7a762fe72cd83ecc39cd62bd6ef127e8",
+      "derivedSHA256": "d37e5c7bae9b826e9038b62e5a2f0ff26ea7e768cb27b849669f1a32a7cdde83",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/chart-line",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "061d9cdc246e854a5cf727d44052039c309bacf96f715c607f0e0a267103fca5",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "chart-dot",
+      "family": "chart-plot-components",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "c9b5558a3a03a40198ecfefcbcc4caf732c9e4274d8ce29e5bd6f86f417a5810",
+      "derivedSHA256": "8ddab1d966d58c0e14bc332ea86185e9d733e24787d99561e6462e49dc9930ed",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/chart-dot",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "edb354586a1209cc85d031910f9774fa16292373ea09a389d5fa8083e0d2ace7",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "chart-range",
+      "family": "chart-plot-components",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "732e26f3cac8d6cd1d42c7dc6f072591facd29f6dc767341fdea500dd93d3ed2",
+      "derivedSHA256": "67c15eac02341a44fd3714430fca7654e79390da3b07ca8a7da08c5933743ad8",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/chart-range",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "38d5eda4f087c63b6ad2b4d62ad6fe79644b2261db861b949a1bdae8a84ab45e",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "diagram-chain",
+      "family": "diagram-layout-recipes",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "a0b32afa6768780776d5d7603c8df3b380adbc1a0d625d78e7f9843506174479",
+      "derivedSHA256": "7416abfb17a47b9a04fe1ea354d34156a04ab7d3db46ac25364ad6231f33b3ca",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/diagram-chain",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "2dabba545093c25049f6f62c1ca22b8e3f3fd1881d4565b4cfa21e1c7ca82d06",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "diagram-hub",
+      "family": "diagram-layout-recipes",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "cfb4962adb19657cf22adfac1d1c6cfad234e2dbf9fd031d8070900706f08338",
+      "derivedSHA256": "2e30be80b9d4ec56966adb6cc00ac0e34ec2c0734587b1dfbf554157a0e59657",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/diagram-hub",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "d14b13d325a6e9460dcdd91612c22e84eb77ffbbe97bf649c89f23b3a8516cb6",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "diagram-branch",
+      "family": "diagram-layout-recipes",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "4fe609494d4090a27e96d0f06498c7790e21b7b1c2a9a2da587f72d94c17083b",
+      "derivedSHA256": "821185aef8c1a84023ff762f38f1c6232875aac1f5e1d35def22c83ca50db57f",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/diagram-branch",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "82a356f12c76ab6192d3bb5dac08a2ddafdad23957c3239ee708876ed0fd7b7e",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "diagram-join",
+      "family": "diagram-layout-recipes",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "72ff95365a292a45b9e707a0f97310851edda4ae3378cfcbc72ea5ff1fbaac13",
+      "derivedSHA256": "ca87c6e10f5ddf46bd5901ff587291f48291bf744abaf6653916510c4a362bfa",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/diagram-join",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "8f3063b59509aa83b19dde564eefe4b6028077e439e46fc6df9e5c71194717da",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "image-contours",
+      "family": "original-imagery",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "2f335e6b020787fd6dffd774c26a5d7b39b3705cda18a097719707337a7f2a8b",
+      "derivedSHA256": "273a53410002a5991fe9a2988e35e6b5bc567d97753ee16077ccae6b2f013f4f",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/image-contours",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "45a81278579a2b23784c58c4ecd54f73179473df4f3b34b40cdb8495ddec40a8",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "image-sensor",
+      "family": "original-imagery",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "3de2eff5c5102e2ecc333e8c16844e01def834f64ce8f267f597828e410b92c9",
+      "derivedSHA256": "886eaf24ffb42e21d8c40919a8512ef58f2ec73d4509299c4c8fb8a98bcf76ab",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/image-sensor",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "fa2814f5f3974db0464d2b8785a135bb03fb54c1110c7acbadbad3122ff1db49",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "image-field",
+      "family": "original-imagery",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "f7e9fef1e1a19da018f1ac1f4a67ea1bc08f3de2c825def75e9b5d81ec770bdf",
+      "derivedSHA256": "8cd16fb53c59dbc9001c9b309d851c2dee9681e21ec5824e014b0a443293b1b2",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/image-field",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "6310cb9894c6f6bedf59569086876a2a2d82e6bbb3c4d30507017952755b8ded",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    },
+    {
+      "providerId": "recipes",
+      "assetId": "image-orbit",
+      "family": "original-imagery",
+      "sourceRevision": "sha256:3b35a03f56fa2a889d710b507837c6474ff17a7839e5958bf9419f925c8777cb",
+      "sourceSHA256": "1060275cbc3488c4f33ca78b421729478e6e2c77fe4ab8270ac8006fdb6f5a40",
+      "derivedSHA256": "74bfeaabf3c431d1c67f5c142705f10dee49812288cbb45f90818378259af089",
+      "noticeIds": [
+        "ingenium-mit",
+        "cse-mit"
+      ],
+      "origin": "original synthetic recipe with attributed CSE colors",
+      "newlySelected": true,
+      "evidenceId": "recipe-portable-evidence-v5/image-orbit",
+      "tier": "handoff-qualified",
+      "limits": "Two edits and render/reopen evidence from producer; generic font rendering varies and no engineering acceptance inferred.",
+      "recipeSHA256": "76caabe223a66671521acb862c7456d04edda4e57f4d05d9df26b0311b5f48e0",
+      "noticeSHA256": "cab1087ad0ee9276df9bbcba133fbd21a6826f19e5b5016a6dab0e310abdf86a"
+    }
+  ],
+  "held": [
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-src-ports-direction-right",
+      "sourceSHA256": "e01e8276feb8f1a255b9cc0cda75ab97285350cb7d6e6c51769da0091d15924a",
+      "reason": "Named system-font dependencies not included in handoff."
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-src-ports-direction-left",
+      "sourceSHA256": "f2b34aa814f181e536c301f7aebb12af0dbae906341ba14fa5c14ccd38addf76",
+      "reason": "Named system-font dependencies not included in handoff."
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-src-ports-direction-both-h",
+      "sourceSHA256": "307bf5348afb58809f0b1473397d28fe8b8a5ad14f9460523e854389b2eb90c3",
+      "reason": "Named system-font dependencies not included in handoff."
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-src-ports-direction-none",
+      "sourceSHA256": "118427eff5ecfa29b7be7dccf3b0a6635cedfe41e1a65fcb0bf0efe6ee5e41df",
+      "reason": "Named system-font dependencies not included in handoff."
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-refined-connections-connections-page2-loop-feedback",
+      "sourceSHA256": "a17076f146ef0cbc037b5189f9117ff0522fc39c2d7ec828e5eea41dc0e4f675",
+      "reason": "Named system-font dependencies not included in handoff."
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "palette-refined-connections-connections-page1-loop-split-rejoin",
+      "sourceSHA256": "f74deb0f5d003ef96a635572ccab58c0582df3a1f3a1c10028e76567de9c0c8f",
+      "reason": "Named system-font dependencies not included in handoff."
+    },
+    {
+      "providerId": "cse-selected",
+      "assetId": "doc-dimension",
+      "sourceSHA256": "66d5e62110ab083aa4f4557ff99a84e173499a3cc015bbbe7dcc8fa3b2992fc6",
+      "reason": "Named system-font dependencies not included in handoff."
+    }
+  ],
+  "qualifiedCount": 105
+}

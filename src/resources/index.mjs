@@ -49,3 +49,5 @@ export async function detailsResourceDirectory({id,entryId,offset=0,limit=12}={}
  if(e.release?.assets){e.release={...e.release,assets:e.release.assets.slice(0,8)};}
  return{provider:d.provider,entry:e,files:selectedFiles,sourceURL:e.url??e.repositoryURL??'https://github.com/'+d.provider.repository+'/tree/'+d.provider.commit,meaning:'Linked/source metadata only. Retain the selected file and its exact full notice before using a local font pack. No linked website or font payload fetched.'};
 }
+
+export {searchTaskResources,inspectTaskResource,acquireTaskResource} from './task-selection.mjs';

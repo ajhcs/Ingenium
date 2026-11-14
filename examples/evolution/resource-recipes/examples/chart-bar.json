@@ -1,0 +1,39 @@
+{
+  "id": "chart-bar",
+  "kind": "chart",
+  "title": "Category bar chart",
+  "description": "Three category counts",
+  "original": {
+    "unit": "samples",
+    "data": [
+      [
+        "North",
+        12
+      ],
+      [
+        "East",
+        8
+      ],
+      [
+        "West",
+        16
+      ]
+    ]
+  },
+  "edit": {
+    "data": [
+      [
+        "North",
+        12
+      ],
+      [
+        "East",
+        10
+      ],
+      [
+        "West",
+        16
+      ]
+    ]
+  }
+}

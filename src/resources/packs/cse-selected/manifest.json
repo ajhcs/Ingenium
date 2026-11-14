@@ -1,0 +1,3241 @@
+{
+  "schema": "ingenium-cse-source-pack/1",
+  "sourceRelease": "0.2.0-alpha.8",
+  "sourceCatalogSHA256": "1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+  "license": "MIT",
+  "licenseFile": "LICENSE",
+  "licenseSHA256": "cf0749c76303222ba5cdf97e6d2fd75b60adf6027f9b7e9c031899e583727fa6",
+  "records": [
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-cylinder",
+        "name": "Cylinder and piston \u2014 section",
+        "category": "actuation",
+        "treatment": "flat explanatory diagram",
+        "meaning": "A cutaway actuator cylinder contains a piston and rod.",
+        "limitations": "Hatching indicates a section only; seals, ports, fluid and operation are not specified.",
+        "file": "components/mech-cylinder.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M017",
+        "status": "proposed; earlier domain study",
+        "source_study": "domain-iconography-01",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat side, section, or face view",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "511a12aca62f84f2b3dd0d0552dd08adcbb68635765e9d1211ef5923613824a3",
+        "source_file": "icons/domain/mech-cylinder.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-cylinder.svg",
+      "sha256": "511a12aca62f84f2b3dd0d0552dd08adcbb68635765e9d1211ef5923613824a3",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-servo",
+        "name": "Servo actuator",
+        "category": "actuation",
+        "treatment": "physical technical illustration",
+        "meaning": "A rotary servo-style housing has an output horn.",
+        "limitations": "A housing does not establish a feedback controller, position, accuracy or any specific product.",
+        "file": "components/mech-servo.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M018",
+        "status": "proposed; drafting-style revision",
+        "source_study": "domain-iconography-01",
+        "edit_status": "redrawn",
+        "edit_reason": "Select the source-inspected clean reconstruction from candidate 02. Show a housing with the output boss and horn connected to its top face.",
+        "projection": "parallel oblique exterior",
+        "style_variant": "graphite",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "clean_file": "clean-icons/mech-servo.svg",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "d72061560f88f738119167af76bb2211648ee67423f63d17f9ba8c74e4a74673",
+        "source_file": "icons/domain/mech-servo.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-servo.svg",
+      "sha256": "d72061560f88f738119167af76bb2211648ee67423f63d17f9ba8c74e4a74673",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-beam",
+        "name": "Beam",
+        "category": "structure",
+        "treatment": "flat explanatory diagram",
+        "meaning": "A straight beam rests on two simple supports.",
+        "limitations": "Support restraint, loading, cross-section and deflection are unspecified.",
+        "file": "components/mech-beam.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M019",
+        "status": "proposed; earlier domain study",
+        "source_study": "domain-iconography-01",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat side, section, or face view",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "7e66b5cda290602b5ff9938b6f23a5bb04bf4ee895ea5b18e04bfb5ebb898a04",
+        "source_file": "icons/domain/mech-beam.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-beam.svg",
+      "sha256": "7e66b5cda290602b5ff9938b6f23a5bb04bf4ee895ea5b18e04bfb5ebb898a04",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-frame",
+        "name": "Frame",
+        "category": "structure",
+        "treatment": "flat explanatory diagram",
+        "meaning": "A portal-shaped frame has two columns and a connected cross-member.",
+        "limitations": "Joint rigidity, stability and material are not determined.",
+        "file": "components/mech-frame.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M020",
+        "status": "proposed; earlier domain study",
+        "source_study": "domain-iconography-01",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat side, section, or face view",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "df91478cddc258a25758867782e5f9ee350fda4b1494ded8681a429fb4a79cb8",
+        "source_file": "icons/domain/mech-frame.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-frame.svg",
+      "sha256": "df91478cddc258a25758867782e5f9ee350fda4b1494ded8681a429fb4a79cb8",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-support",
+        "name": "Support",
+        "category": "structure",
+        "treatment": "flat explanatory diagram",
+        "meaning": "A triangular support carries a pinned contact over a base.",
+        "limitations": "The rendering does not fully define constraint freedoms or a standardized support symbol.",
+        "file": "components/mech-support.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M021",
+        "status": "proposed; earlier domain study",
+        "source_study": "domain-iconography-01",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat side, section, or face view",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "c4177ea180e2248310299f82e82dff741840618c335c0df5cacf9908eb51c5c7",
+        "source_file": "icons/domain/mech-support.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-support.svg",
+      "sha256": "c4177ea180e2248310299f82e82dff741840618c335c0df5cacf9908eb51c5c7",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-bracket",
+        "name": "Bracket",
+        "category": "structure",
+        "treatment": "Editable, precise light technical linework. Contour 1.8, features 1.05 and axes 0.7 units where applicable; spring wire is a constant-width projected boundary study.",
+        "meaning": "An L-shaped bracket has holes on its two legs.",
+        "limitations": "This simplified outline specifies no mounting hardware, geometry or load capacity.",
+        "file": "components/mech-bracket.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M022",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "decision_required",
+        "edit_reason": "Reduce contour weight without deciding whether the legs are a flat plate or bent angle.",
+        "projection": "Flat L outline retained, with one hole in each leg and no thickness assigned.",
+        "style_variant": "clean",
+        "source_owner": "remaining-mechanical",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "alternative_file": "decisions/candidate-04-mech-bracket-1.svg",
+        "comparison_alternative_view": "archived flat plate",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "dbc8c5ade8011f0bb11aea4e1fc6679204cd3676f2ce0bb9f556f779571d6039",
+        "source_file": "icons/domain/mech-bracket.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-bracket.svg",
+      "sha256": "dbc8c5ade8011f0bb11aea4e1fc6679204cd3676f2ce0bb9f556f779571d6039",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-foundation",
+        "name": "Foundation",
+        "category": "structure",
+        "treatment": "flat explanatory diagram",
+        "meaning": "A column meets a hatched footing on a ground line.",
+        "limitations": "A conceptual section only; soil, reinforcement and anchorage are not specified.",
+        "file": "components/mech-foundation.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M023",
+        "status": "proposed; earlier domain study",
+        "source_study": "domain-iconography-01",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat side, section, or face view",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "3c422da5f8954bec2c588b7b71cf7edf95d50e97d5bc48be4238e4bbea9f5e60",
+        "source_file": "icons/domain/mech-foundation.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-foundation.svg",
+      "sha256": "3c422da5f8954bec2c588b7b71cf7edf95d50e97d5bc48be4238e4bbea9f5e60",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-drill",
+        "name": "Drill",
+        "category": "manufacturing",
+        "treatment": "flat explanatory diagram",
+        "meaning": "A pointed twist drill touches the upper face of a workpiece.",
+        "limitations": "The shape indicates a process, not a specified hole or cutting condition.",
+        "file": "components/mech-drill.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M026",
+        "status": "proposed; earlier domain study",
+        "source_study": "domain-iconography-01",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat side, section, or face view",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "functions and operational behavior",
+          "sysml_v2": [
+            "ActionDefinition",
+            "ActionUsage"
+          ],
+          "sysml_v1": [
+            "Activity",
+            "Action"
+          ],
+          "cse_skills": [
+            "develop-operational-scenarios",
+            "develop-system-architecture"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "The drawing may illustrate a declared action; it specifies neither execution order nor control semantics."
+        },
+        "sha256": "72a6c9ab45dd4531a735f45d6a1a3ccdaecfeb39b40c28830588822375592e5a",
+        "source_file": "icons/domain/mech-drill.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-drill.svg",
+      "sha256": "72a6c9ab45dd4531a735f45d6a1a3ccdaecfeb39b40c28830588822375592e5a",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-gear",
+        "name": "Gear \u2014 physical form",
+        "category": "mechanism",
+        "treatment": "Editable, precise light technical linework. Contour 1.8, features 1.05 and axes 0.7 units where applicable; spring wire is a constant-width projected boundary study.",
+        "meaning": "Face view of a toothed wheel with hub and bore.",
+        "limitations": "Teeth are conventionalized and not a manufacturable involute, specification or gear ratio.",
+        "file": "components/mech-gear.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M001",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "refined",
+        "edit_reason": "Reduce the heavy perimeter and subordinate the face circles and axes.",
+        "projection": "Face view unchanged; hub, bore, tooth points and centerlines are unchanged.",
+        "style_variant": "clean",
+        "source_owner": "remaining-mechanical",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "7e50ce6ab3ec83e046d57fd0b9faf3eec05033305d8e37f7aa1c7f47b662c3b1",
+        "source_file": "icons/domain/mech-gear.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-gear.svg",
+      "sha256": "7e50ce6ab3ec83e046d57fd0b9faf3eec05033305d8e37f7aa1c7f47b662c3b1",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-pulley",
+        "name": "Pulley",
+        "category": "mechanism",
+        "treatment": "Editable, precise light technical linework. Contour 1.8, features 1.05 and axes 0.7 units where applicable; spring wire is a constant-width projected boundary study.",
+        "meaning": "Face view of a grooved pulley with a rope tangent to its rim.",
+        "limitations": "Shaft support and rope load are omitted.",
+        "file": "components/mech-pulley.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M002",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "variants_saved",
+        "edit_reason": "Reduce the weight without inventing a new rope or sheave geometry.",
+        "projection": "Face view unchanged, including the two tangent rope tails and near-coincident upper arc.",
+        "style_variant": "clean",
+        "source_owner": "remaining-mechanical",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "alternative_file": "decisions/candidate-03-mech-pulley.svg",
+        "prior_edit_status": "decision_required",
+        "palette_variants_status": "all displayed options saved; no exclusive default",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "1c18303f35369b093310c22dff5c654a9d063183e5a1f1774b662de9895e9e03",
+        "source_file": "icons/domain/mech-pulley.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-pulley.svg",
+      "sha256": "1c18303f35369b093310c22dff5c654a9d063183e5a1f1774b662de9895e9e03",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-belt",
+        "name": "Belt drive",
+        "category": "mechanism",
+        "treatment": "Editable, precise light technical linework. Contour 1.8, features 1.05 and axes 0.7 units where applicable; spring wire is a constant-width projected boundary study.",
+        "meaning": "A continuous belt wraps two wheel rims.",
+        "limitations": "Equal drawn wheel sizes do not specify a drive ratio, belt tension or performance.",
+        "file": "components/mech-belt.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M003",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "refined",
+        "edit_reason": "Reduce the visibly heavy wheel rims and subordinate the belt/detail lines.",
+        "projection": "Face view unchanged; two equal wheels and both belt boundaries stay in their prior positions.",
+        "style_variant": "graphite",
+        "source_owner": "remaining-mechanical",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "clean_file": "clean-icons/mech-belt.svg",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "3c842147284a7032de5066f0e4183045f4d82ce5e0b485721756545ef3d6c62d",
+        "source_file": "icons/domain/mech-belt.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-belt.svg",
+      "sha256": "3c842147284a7032de5066f0e4183045f4d82ce5e0b485721756545ef3d6c62d",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-chain",
+        "name": "Chain drive",
+        "category": "mechanism",
+        "treatment": "flat explanatory chain-drive diagram",
+        "meaning": "A loop of chain rollers wraps two sprocket positions.",
+        "limitations": "Rollers and pitch line are simplified; tooth engagement, pitch and load are not specified.",
+        "file": "components/mech-chain.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M004",
+        "status": "proposed; drafting-style revision",
+        "source_study": "domain-iconography-01",
+        "edit_status": "redrawn",
+        "edit_reason": "Use the candidate-02 planar roller loop with its more even spacing; retain an explanatory view without implying a physical 3D assembly.",
+        "projection": "planar face view",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "e7cdab589711b563239f5cba80d0a26d26f94a568e7cb45f20cb3b90819080f2",
+        "source_file": "icons/domain/mech-chain.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-chain.svg",
+      "sha256": "e7cdab589711b563239f5cba80d0a26d26f94a568e7cb45f20cb3b90819080f2",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-cam",
+        "name": "Cam and follower",
+        "category": "mechanism",
+        "treatment": "Editable, precise light technical linework. Contour 1.8, features 1.05 and axes 0.7 units where applicable; spring wire is a constant-width projected boundary study.",
+        "meaning": "An eccentric cam profile contacts a roller follower.",
+        "limitations": "The drawn profile does not define lift, timing or a validated contact analysis.",
+        "file": "components/mech-cam.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M005",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "refined",
+        "edit_reason": "Reduce the outline and follower weight while preserving the stated contact geometry.",
+        "projection": "Flat face view unchanged, including the eccentric bore, contacting follower and axis.",
+        "style_variant": "clean",
+        "source_owner": "remaining-mechanical",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "34814759e13ac3d68e04c59d3b835bfcd0d2071219f26c978151deeec9c80718",
+        "source_file": "icons/domain/mech-cam.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-cam.svg",
+      "sha256": "34814759e13ac3d68e04c59d3b835bfcd0d2071219f26c978151deeec9c80718",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-lever",
+        "name": "Lever",
+        "category": "mechanism",
+        "treatment": "flat explanatory diagram",
+        "meaning": "A straight lever rests on a pivot support.",
+        "limitations": "No load, fulcrum friction or lever ratio is specified.",
+        "file": "components/mech-lever.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M006",
+        "status": "proposed; earlier domain study",
+        "source_study": "domain-iconography-01",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat side, section, or face view",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "1538f0152ccc0dd75f38c37b23f61cc99a026e4d3802615760e0c9c31fdcdbe2",
+        "source_file": "icons/domain/mech-lever.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-lever.svg",
+      "sha256": "1538f0152ccc0dd75f38c37b23f61cc99a026e4d3802615760e0c9c31fdcdbe2",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-linkage",
+        "name": "Four-bar linkage",
+        "category": "mechanism",
+        "treatment": "flat explanatory diagram",
+        "meaning": "Three connected links join two grounded pivot points, forming a four-bar linkage.",
+        "limitations": "Drawn geometry is illustrative; mobility, stiffness and motion are not solved.",
+        "file": "components/mech-linkage.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M007",
+        "status": "proposed; earlier domain study",
+        "source_study": "domain-iconography-01",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat side, section, or face view",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "f1d7c790d29bb3095acab99e25763f3d495f9163d200da912ecbe3886e628afc",
+        "source_file": "icons/domain/mech-linkage.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-linkage.svg",
+      "sha256": "f1d7c790d29bb3095acab99e25763f3d495f9163d200da912ecbe3886e628afc",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-bearing",
+        "name": "Rolling-element bearing",
+        "category": "component",
+        "treatment": "Editable, precise light technical linework. Contour 1.8, features 1.05 and axes 0.7 units where applicable; spring wire is a constant-width projected boundary study.",
+        "meaning": "Concentric races and six balls depict a bearing in face view.",
+        "limitations": "Simplified geometry does not specify the bearing type, load rating or clearances.",
+        "file": "components/mech-bearing.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M008",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "refined",
+        "edit_reason": "Reduce heavy ring outlines while preserving all six ball/race contacts.",
+        "projection": "Face view unchanged: two principal rings, two race circles, six balls and two centerlines.",
+        "style_variant": "clean",
+        "source_owner": "remaining-mechanical",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "8cd244edda5b3d005abe0b850e35e3112cbc921251ddebb0ba78a8200865a597",
+        "source_file": "icons/domain/mech-bearing.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-bearing.svg",
+      "sha256": "8cd244edda5b3d005abe0b850e35e3112cbc921251ddebb0ba78a8200865a597",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-spring",
+        "name": "Spring",
+        "category": "component",
+        "treatment": "Editable, precise light technical linework. Contour 1.8, features 1.05 and axes 0.7 units where applicable; spring wire is a constant-width projected boundary study.",
+        "meaning": "A conventionalized side view of a helical compression spring.",
+        "limitations": "This is not a free-body spring constant or a coil manufacturing drawing.",
+        "file": "components/mech-spring.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M009",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "variants_saved",
+        "edit_reason": "Offer a visible wire-boundary proposal while preserving the byte-identical 03 centerline and the earlier three-turn boundary study.",
+        "projection": "Parallel-oblique projected open helix retained. A new constant-width wire-boundary view uses the same four-turn center path as 03; it is not an exact projected round-wire CAD silhouette.",
+        "style_variant": "clean",
+        "source_owner": "remaining-mechanical",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "comparison_candidate_qualifier": "WIRE BOUNDARY",
+        "study_file": "studies/mech-spring-style.svg",
+        "study_note": "Optional earlier three-turn wire-boundary style study, separate from the four-turn wire-boundary candidate 04 primary and the preserved candidate 03 centerline. Manufacturer photographs support the general helix, not this exact projection or depicted thickness. No dimensions or performance are specified.",
+        "alternative_file": "decisions/candidate-04-mech-spring-1.svg",
+        "comparison_alternative_view": "wire centerline",
+        "prior_edit_status": "decision_required",
+        "palette_variants_status": "all displayed options saved; no exclusive default",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "98811f0f1787e4dff396580ca2d3cfc64fea29b19a17fbab2033e6afaadcca4a",
+        "source_file": "icons/domain/mech-spring.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-spring.svg",
+      "sha256": "98811f0f1787e4dff396580ca2d3cfc64fea29b19a17fbab2033e6afaadcca4a",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-shaft",
+        "name": "Stepped shaft",
+        "category": "component",
+        "treatment": "technical illustration",
+        "meaning": "A longitudinal outline shows a stepped shaft and its axis.",
+        "limitations": "Diameters, lengths and surface requirements are unspecified.",
+        "file": "components/mech-shaft.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M010",
+        "status": "proposed; candidate 03",
+        "source_study": "domain-iconography-01",
+        "edit_status": "preserved_sample",
+        "edit_reason": "Keep the exact BASE01 source bytes as the primary. The author-sample redraw is handled in the separate sample study.",
+        "projection": "baseline orthographic or side view",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "5f50d5ed0911b36a3ea0509c66165601e3bc04f1cec6011decdddde4820b516c",
+        "source_file": "icons/domain/mech-shaft.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-shaft.svg",
+      "sha256": "5f50d5ed0911b36a3ea0509c66165601e3bc04f1cec6011decdddde4820b516c",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-coupling",
+        "name": "Flanged shaft coupling",
+        "category": "component",
+        "treatment": "Light technical drawing with solid outlines, controlled face/detail strokes, and a separate optional understated underside tone.",
+        "meaning": "Two opposed flanges connect coaxial shaft ends.",
+        "limitations": "Fasteners and gap are conventionalized; torque capacity and joint fit are unknown.",
+        "file": "components/mech-coupling.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M011",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "decision_required",
+        "edit_reason": "Make the meeting flange halves and near-face attachment legible, give the two visible fastener indications more room, and avoid a centerline passing through the visible material.",
+        "projection": "Parallel oblique exterior, as in candidate 03; all coaxial circular end planes use the same 0.42 projected ellipse ratio, and the common axis is rotated -14 degrees in the page. The near flange and hub faces are explicitly occluded by the components in front. The centerline is now visible beyond the silhouette rather than drawn over the solid.",
+        "style_variant": "graphite",
+        "source_owner": "pilot-assembly",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "clean_file": "clean-icons/mech-coupling.svg",
+        "alternative_file": "decisions/candidate-04-mech-coupling-1.svg",
+        "comparison_alternative_view": "neutral face marks",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "9f76bfc407aa3d43f183c71430c6819b95ae8b22d3f710c0fb7aa38062156d02",
+        "source_file": "icons/domain/mech-coupling.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-coupling.svg",
+      "sha256": "9f76bfc407aa3d43f183c71430c6819b95ae8b22d3f710c0fb7aa38062156d02",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-joint",
+        "name": "Pinned joint",
+        "category": "component",
+        "treatment": "physical technical illustration",
+        "meaning": "Two overlapping link ends share a pin in a simple joint.",
+        "limitations": "Only the pin connection is shown; degrees of freedom and assembly details are not prescribed.",
+        "file": "components/mech-joint.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M012",
+        "status": "proposed; drafting-style revision",
+        "source_study": "domain-iconography-01",
+        "edit_status": "redrawn",
+        "edit_reason": "Select the source-inspected clean reconstruction from candidate 02. Show two overlapping links on distinct planes joined by one visible common pin; suppress hidden contours.",
+        "projection": "parallel oblique lap-joint view",
+        "style_variant": "graphite",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "clean_file": "clean-icons/mech-joint.svg",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "f98e2682045c5d314aa1f54239465f0cd26fea59165847224ffefd754dece688",
+        "source_file": "icons/domain/mech-joint.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-joint.svg",
+      "sha256": "f98e2682045c5d314aa1f54239465f0cd26fea59165847224ffefd754dece688",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-fastener",
+        "name": "Bolt",
+        "category": "component",
+        "treatment": "Editable, precise light technical linework. Contour 1.8, features 1.05 and axes 0.7 units where applicable; spring wire is a constant-width projected boundary study.",
+        "meaning": "A hex-head bolt in side elevation with a conventional thread indication.",
+        "limitations": "The thread, head standard, length and fastening condition are not specified.",
+        "file": "components/mech-fastener.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M013",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "refined",
+        "edit_reason": "Lighten the bolt contour and thread indicators without changing features.",
+        "projection": "Side elevation unchanged, with the head, shank and conventional thread marks.",
+        "style_variant": "clean",
+        "source_owner": "remaining-mechanical",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "6597dcdc2a1cdfe9be872b7294c3ca6c8259198f0326abef0f33946286f499ca",
+        "source_file": "icons/domain/mech-fastener.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-fastener.svg",
+      "sha256": "6597dcdc2a1cdfe9be872b7294c3ca6c8259198f0326abef0f33946286f499ca",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-motor",
+        "name": "Motor",
+        "category": "actuation",
+        "treatment": "Editable technical illustration; white line version plus a removable surface-tone group.",
+        "meaning": "A motor housing, mounting foot and output shaft in side view.",
+        "limitations": "Motor type, power, control and motion are not represented.",
+        "file": "components/mech-motor.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M014",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "refined",
+        "edit_reason": "Clarify the foot and shaft attachment and align the end face, shaft and collar. Change the three unassigned 03 transverse strokes to three axial cooling-ridge indications on the housing.",
+        "projection": "Stylized parallel-oblique exterior; horizontal shaft axis, coaxial vertical-axis end ellipses and a level supporting foot.",
+        "style_variant": "graphite",
+        "source_owner": "pilot-equipment",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "clean_file": "clean-icons/mech-motor.svg",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "d9c2e349ddb634120d077f3cc1b8d2c6e9cada7bcb4d0e91163ef375588b58bc",
+        "source_file": "icons/domain/mech-motor.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-motor.svg",
+      "sha256": "d9c2e349ddb634120d077f3cc1b8d2c6e9cada7bcb4d0e91163ef375588b58bc",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-actuator",
+        "name": "Linear actuator",
+        "category": "actuation",
+        "treatment": "physical technical illustration",
+        "meaning": "A linear actuator body with an extending output rod.",
+        "limitations": "Power source, feedback, stroke and force are unspecified.",
+        "file": "components/mech-actuator.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M015",
+        "status": "proposed; drafting-style revision",
+        "source_study": "domain-iconography-01",
+        "edit_status": "redrawn",
+        "edit_reason": "Select the source-inspected clean reconstruction from candidate 02. Show shallow housing and an attached output rod, preserving the original face features.",
+        "projection": "parallel oblique exterior",
+        "style_variant": "graphite",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "clean_file": "clean-icons/mech-actuator.svg",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "f9f4aa2e906b4c32da024eff82204433b21f2bcafcb71c034c77a105d2b9e4ed",
+        "source_file": "icons/domain/mech-actuator.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-actuator.svg",
+      "sha256": "f9f4aa2e906b4c32da024eff82204433b21f2bcafcb71c034c77a105d2b9e4ed",
+      "fontDependent": false
+    },
+    {
+      "group": "engineering",
+      "component": {
+        "id": "mech-piston",
+        "name": "Piston and rod",
+        "category": "actuation",
+        "treatment": "Editable, precise light technical linework. Contour 1.8, features 1.05 and axes 0.7 units where applicable; spring wire is a constant-width projected boundary study.",
+        "meaning": "A piston head with ring grooves connects to a rod.",
+        "limitations": "The detached object is illustrative; no cylinder or working fluid is shown.",
+        "file": "components/mech-piston.svg",
+        "sources": [
+          "local-palette",
+          "asme-views"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Mechanical and structural",
+        "serial": "M016",
+        "status": "proposed; candidate 04",
+        "source_study": "domain-iconography-01",
+        "edit_status": "decision_required",
+        "edit_reason": "Recommend the simpler unmarked generic view while keeping exact 03, a reweighted dot-present view and the older alternate available.",
+        "projection": "Flat view retained. Proposed primary omits only the unexplained head circle; head, grooves, rod and end circle remain in their prior locations.",
+        "style_variant": "clean",
+        "source_owner": "remaining-mechanical",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "alternative_file": "decisions/candidate-04-mech-piston-2.svg",
+        "comparison_alternative_view": "dot present",
+        "family": "Mechanical and structural",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "e83355deedd2d275943afefda64aaad6e628d14ddaddfd59abaf6cbc2bd14153",
+        "source_file": "icons/domain/mech-piston.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/mech-piston.svg",
+      "sha256": "e83355deedd2d275943afefda64aaad6e628d14ddaddfd59abaf6cbc2bd14153",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "elec-terminal-physical",
+        "name": "Terminal \u2014 screw terminal physical",
+        "category": "References and connections",
+        "treatment": "physical technical illustration",
+        "meaning": "A single slotted screw-clamp position on a rectangular terminal face viewed from above.",
+        "limitations": "Simplified from one repeated position on a terminal strip; no wire size, internal construction or rating is specified.",
+        "file": "components/elec-terminal-physical.svg",
+        "sources": [
+          "references.json#elec-terminal-physical"
+        ],
+        "notes": "Source-bound independent redraw; see the indicated ledger for inspected figures and limits.",
+        "group": "group-b",
+        "serial": "E010",
+        "status": "proposed; drafting-style revision",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "redrawn",
+        "edit_reason": "Select the source-inspected clean reconstruction from candidate 02. Show one shallow block with its original single slotted screw face and edge boundaries.",
+        "projection": "parallel oblique top face",
+        "style_variant": "graphite",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "not applicable to the modified candidate",
+        "clean_file": "clean-icons/elec-terminal-physical.svg",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "148e478f33ca1e0e78d64fc83a65e6528173e3151ae85b31ff28c7881693d448",
+        "source_file": "icons/domain/elec-terminal-physical.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-terminal-physical.svg",
+      "sha256": "148e478f33ca1e0e78d64fc83a65e6528173e3151ae85b31ff28c7881693d448",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "elec-plug-physical",
+        "name": "Plug \u2014 physical side view",
+        "category": "References and connections",
+        "treatment": "physical technical illustration",
+        "meaning": "A generic two-blade plug with a molded body and cable neck in side view.",
+        "limitations": "Based on a two-flat-blade example and visually corresponding to the two-slot socket illustration; no actual mating fit, voltage, rating or standard conformity is established.",
+        "file": "components/elec-plug-physical.svg",
+        "sources": [
+          "review-supplement.json#elec-plug-physical"
+        ],
+        "notes": "Source-bound independent redraw; see the indicated ledger for inspected figures and limits.",
+        "group": "group-b",
+        "serial": "E011",
+        "status": "proposed; drafting-style revision",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "redrawn",
+        "edit_reason": "Select the source-inspected clean reconstruction from candidate 02. Show shallow molded-body depth while retaining two blades and the cable-neck detail.",
+        "projection": "parallel oblique side view",
+        "style_variant": "graphite",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "not applicable to the modified candidate",
+        "clean_file": "clean-icons/elec-plug-physical.svg",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "cf01a953530047ddd0005a0fb50f17c078b7dc59a698f913cc35f2d28003e402",
+        "source_file": "icons/domain/elec-plug-physical.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-plug-physical.svg",
+      "sha256": "cf01a953530047ddd0005a0fb50f17c078b7dc59a698f913cc35f2d28003e402",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "elec-socket-physical",
+        "name": "Socket \u2014 physical mating face",
+        "category": "References and connections",
+        "treatment": "physical technical illustration",
+        "meaning": "A generic two-contact socket mating face with two recessed rectangular slots.",
+        "limitations": "Based on a two-slot receptacle example and visually corresponding to the two-blade plug illustration; no actual mating fit, voltage, rating or standard conformity is established.",
+        "file": "components/elec-socket-physical.svg",
+        "sources": [
+          "review-supplement.json#elec-socket-physical"
+        ],
+        "notes": "Source-bound independent redraw; see the indicated ledger for inspected figures and limits.",
+        "group": "group-b",
+        "serial": "E012",
+        "status": "proposed; drafting-style revision",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "redrawn",
+        "edit_reason": "Select the source-inspected clean reconstruction from candidate 02. Show housing depth while preserving the two coplanar filled slot marks.",
+        "projection": "parallel oblique mating face",
+        "style_variant": "graphite",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "not applicable to the modified candidate",
+        "clean_file": "clean-icons/elec-socket-physical.svg",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "dd8323fa733ddd8f591d6128ad6f9fbd9daeca224a9efe43820ede5a3943628a",
+        "source_file": "icons/domain/elec-socket-physical.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-socket-physical.svg",
+      "sha256": "dd8323fa733ddd8f591d6128ad6f9fbd9daeca224a9efe43820ede5a3943628a",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "elec-signal-ground",
+        "name": "Ground \u2014 signal reference",
+        "category": "References and connections",
+        "treatment": "simplified schematic",
+        "meaning": "A downward open triangle with one upper lead represents a local signal reference.",
+        "limitations": "The symbol does not establish protective bonding or an earth connection; its convention depends on the drawing legend.",
+        "file": "components/elec-signal-ground.svg",
+        "sources": [
+          "references.json#elec-signal-ground"
+        ],
+        "notes": "Source-bound independent redraw; see the indicated ledger for inspected figures and limits.",
+        "group": "group-b",
+        "serial": "E032",
+        "status": "proposed; source-referenced and cross-reviewed",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat schematic or functional pictogram",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "original bytes only",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "electrical schematic reference",
+          "sysml_v2": [],
+          "sysml_v1": [],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Local electrical reference notation; explicitly bind the model potential or reference role. The symbol does not automatically declare a part or attachment."
+        },
+        "sha256": "6c8873d32357da9b767cee61ff8fe1b228d97ef6e00de3aec7b2941a93dadf69",
+        "source_file": "icons/domain/elec-signal-ground.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-signal-ground.svg",
+      "sha256": "6c8873d32357da9b767cee61ff8fe1b228d97ef6e00de3aec7b2941a93dadf69",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "elec-protective-earth",
+        "name": "Protective earth \u2014 reference mark",
+        "category": "References and connections",
+        "treatment": "simplified schematic",
+        "meaning": "A circled three-bar protective-earth reference mark with one upper lead.",
+        "limitations": "The graphic does not prove bonding, installation, formal conformity or safety qualification.",
+        "file": "components/elec-protective-earth.svg",
+        "sources": [
+          "references.json#elec-protective-earth"
+        ],
+        "notes": "Source-bound independent redraw; see the indicated ledger for inspected figures and limits.",
+        "group": "group-b",
+        "serial": "E033",
+        "status": "proposed; source-referenced and cross-reviewed",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat schematic or functional pictogram",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "original bytes only",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "electrical schematic reference",
+          "sysml_v2": [],
+          "sysml_v1": [],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Local electrical reference notation; explicitly bind the model potential or reference role. The symbol does not automatically declare a part or attachment."
+        },
+        "sha256": "8547dc35aad3b1aa3da75abb3dd4e1b4d2aa27711b078928e1a4e51c89a127d1",
+        "source_file": "icons/domain/elec-protective-earth.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-protective-earth.svg",
+      "sha256": "8547dc35aad3b1aa3da75abb3dd4e1b4d2aa27711b078928e1a4e51c89a127d1",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "palette-src-foundation-foundation-crossings-gap-artwork",
+        "name": "No connection: gap \u2014 artwork",
+        "family": "Palette artwork",
+        "category": "palette specimen",
+        "treatment": "editable artwork; presentation card and heading removed",
+        "file": "components/palette-src-foundation-foundation-crossings-gap-artwork.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "src-foundation-foundation-crossings-gap",
+        "source_group_ordinal": 64,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved-palette presentation derivative",
+        "sha256": "b71bd718f8b971c7188f6e2a2aee5e47d14d468ae142da29728a496848a37edf",
+        "children": [],
+        "bounds": [
+          -1.25,
+          -1.25,
+          302.5,
+          182.5
+        ],
+        "mapping": {
+          "principle": "connectivity and routing presentation",
+          "sysml_v2": [
+            "ConnectionUsage",
+            "InterfaceUsage",
+            "FlowUsage"
+          ],
+          "sysml_v1": [
+            "Connector",
+            "ItemFlow",
+            "Dependency"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Preserve endpoint IDs and directed versus undirected relations. Crossings, route groups and labels do not create junctions or shared resources."
+        },
+        "variant_of": "palette-src-foundation-foundation-crossings-gap"
+      },
+      "file": "masters/palette-src-foundation-foundation-crossings-gap-artwork.svg",
+      "sha256": "b71bd718f8b971c7188f6e2a2aee5e47d14d468ae142da29728a496848a37edf",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "palette-src-foundation-foundation-crossings-bridge-artwork",
+        "name": "No connection: bridge \u2014 artwork",
+        "family": "Palette artwork",
+        "category": "palette specimen",
+        "treatment": "editable artwork; presentation card and heading removed",
+        "file": "components/palette-src-foundation-foundation-crossings-bridge-artwork.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "src-foundation-foundation-crossings-bridge",
+        "source_group_ordinal": 65,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved-palette presentation derivative",
+        "sha256": "c59b1bad4ffacc8f6ea1082c550db6aaade3d1895d42ad5f3e48e7b10d709042",
+        "children": [],
+        "bounds": [
+          -1.25,
+          -1.25,
+          302.5,
+          182.5
+        ],
+        "mapping": {
+          "principle": "connectivity and routing presentation",
+          "sysml_v2": [
+            "ConnectionUsage",
+            "InterfaceUsage",
+            "FlowUsage"
+          ],
+          "sysml_v1": [
+            "Connector",
+            "ItemFlow",
+            "Dependency"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Preserve endpoint IDs and directed versus undirected relations. Crossings, route groups and labels do not create junctions or shared resources."
+        },
+        "variant_of": "palette-src-foundation-foundation-crossings-bridge"
+      },
+      "file": "masters/palette-src-foundation-foundation-crossings-bridge-artwork.svg",
+      "sha256": "c59b1bad4ffacc8f6ea1082c550db6aaade3d1895d42ad5f3e48e7b10d709042",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "elec-connector-physical",
+        "name": "Connector \u2014 mated physical",
+        "category": "References and connections",
+        "treatment": "physical technical illustration",
+        "meaning": "Two mated multi-contact connector housings, with a coupling collar, in a simplified side view.",
+        "limitations": "Generic illustration based on a cylindrical mated connector; the contact count, family, dimensions, pinout and physical fit are unspecified.",
+        "file": "components/elec-connector-physical.svg",
+        "sources": [
+          "references.json#elec-connector-physical"
+        ],
+        "notes": "Source-bound independent redraw; see the indicated ledger for inspected figures and limits.",
+        "group": "group-b",
+        "serial": "E009",
+        "status": "proposed; drafting-style revision",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "redrawn",
+        "edit_reason": "Select the source-inspected clean reconstruction from candidate 02. Show coaxial mated shells and central collar while preserving two cable edges at each end; the right cable jacket occludes the rear face where it emerges.",
+        "projection": "parallel oblique exterior",
+        "style_variant": "graphite",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_FORM",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "not applicable to the modified candidate",
+        "clean_file": "clean-icons/elec-connector-physical.svg",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "6a88a11c003b9b0db914c9d9b571b9c13944400010695fbf0dc4e7a0c5cc80e6",
+        "source_file": "icons/domain/elec-connector-physical.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-connector-physical.svg",
+      "sha256": "6a88a11c003b9b0db914c9d9b571b9c13944400010695fbf0dc4e7a0c5cc80e6",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "elec-connector-schematic",
+        "name": "Connector \u2014 unmated two-contact schematic",
+        "category": "References and connections",
+        "treatment": "simplified schematic",
+        "meaning": "Two independent pairs of plug and socket contacts shown separated by visible gaps.",
+        "limitations": "Unmated schematic example; no electrical connection crosses either gap and no polarity or mating standard is specified.",
+        "file": "components/elec-connector-schematic.svg",
+        "sources": [
+          "references.json#elec-connector-schematic"
+        ],
+        "notes": "Source-bound independent redraw; see the indicated ledger for inspected figures and limits.",
+        "group": "group-b",
+        "serial": "E034",
+        "status": "proposed; source-referenced and cross-reviewed",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat schematic or functional pictogram",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "original bytes only",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "a31bd482bc19373bdb58cab8a9d790b06cca1491601cc6eb73ccd4b537230ade",
+        "source_file": "icons/domain/elec-connector-schematic.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-connector-schematic.svg",
+      "sha256": "a31bd482bc19373bdb58cab8a9d790b06cca1491601cc6eb73ccd4b537230ade",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "elec-terminal-schematic",
+        "name": "Terminal \u2014 schematic",
+        "category": "References and connections",
+        "treatment": "simplified schematic",
+        "meaning": "A single terminal represented by a hollow ring between two conductor stubs.",
+        "limitations": "Local adaptation of the terminal-circle convention, distinct from the palette junction dot. The circle alone does not establish a particular terminal type or formal conformity.",
+        "file": "components/elec-terminal-schematic.svg",
+        "sources": [
+          "review-supplement.json#elec-terminal-schematic"
+        ],
+        "notes": "Source-bound independent redraw; see the indicated ledger for inspected figures and limits.",
+        "group": "group-b",
+        "serial": "E035",
+        "status": "proposed; source-referenced and cross-reviewed",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat schematic or functional pictogram",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "original bytes only",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "f713f4fd5b01ccc19073f9d25c9cf151ab7e64082a43f7694b3050f29d3a5747",
+        "source_file": "icons/domain/elec-terminal-schematic.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-terminal-schematic.svg",
+      "sha256": "f713f4fd5b01ccc19073f9d25c9cf151ab7e64082a43f7694b3050f29d3a5747",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "elec-plug-schematic",
+        "name": "Plug \u2014 pin contacts schematic",
+        "category": "References and connections",
+        "treatment": "simplified schematic",
+        "meaning": "Two separate schematic plug-side pins represented by filled contact tips and plain leads.",
+        "limitations": "No contact polarity, physical housing or mating standard is specified.",
+        "file": "components/elec-plug-schematic.svg",
+        "sources": [
+          "review-supplement.json#elec-plug-schematic"
+        ],
+        "notes": "Source-bound independent redraw; see the indicated ledger for inspected figures and limits.",
+        "group": "group-b",
+        "serial": "E036",
+        "status": "proposed; source-referenced and cross-reviewed",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat schematic or functional pictogram",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "original bytes only",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "8e77e4ed8d2d423dd79c235fd5ebbd98936d24b97eaa3bbe33a268d748b7166b",
+        "source_file": "icons/domain/elec-plug-schematic.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-plug-schematic.svg",
+      "sha256": "8e77e4ed8d2d423dd79c235fd5ebbd98936d24b97eaa3bbe33a268d748b7166b",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "elec-socket-schematic",
+        "name": "Socket \u2014 receptacle contacts schematic",
+        "category": "References and connections",
+        "treatment": "simplified schematic",
+        "meaning": "Two separate schematic socket-side contacts represented by curves with plain leads.",
+        "limitations": "No contact polarity or mating standard is specified.",
+        "file": "components/elec-socket-schematic.svg",
+        "sources": [
+          "review-supplement.json#elec-socket-schematic"
+        ],
+        "notes": "Source-bound independent redraw; see the indicated ledger for inspected figures and limits.",
+        "group": "group-b",
+        "serial": "E037",
+        "status": "proposed; source-referenced and cross-reviewed",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat schematic or functional pictogram",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "original bytes only",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "ea89938e27ef723e62a51cf822ca4752e24d4aba8beac28e0a47d3913fd4320a",
+        "source_file": "icons/domain/elec-socket-schematic.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-socket-schematic.svg",
+      "sha256": "ea89938e27ef723e62a51cf822ca4752e24d4aba8beac28e0a47d3913fd4320a",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "comp-network-connection",
+        "name": "Network connection",
+        "category": "Computing \u00b7 exchange",
+        "treatment": "simplified schematic",
+        "meaning": "A continuous connection between two explicit endpoints.",
+        "limitations": "Generic local illustration; labels and context supply the precise meaning. The icon does not establish a model relation, operational status, capability, or standard conformance.",
+        "file": "components/comp-network-connection.svg",
+        "sources": [
+          "nist-cloud"
+        ],
+        "origin": "computing-field",
+        "domain": "Computing and networking",
+        "serial": "C028",
+        "status": "proposed; drafting-style revision",
+        "source_study": "domain-iconography-01",
+        "edit_status": "refined",
+        "edit_reason": "Kept the flat simplified schematic and its existing elements: A continuous connection between two explicit endpoints. Refined only the existing line hierarchy.",
+        "projection": "flat two-dimensional",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-cf",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Computing and networking",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "f71d0549f78af83aa1c3ac339eacfbe89425e70ec17ce4898e955e6b7e260739",
+        "source_file": "icons/domain/comp-network-connection.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/comp-network-connection.svg",
+      "sha256": "f71d0549f78af83aa1c3ac339eacfbe89425e70ec17ce4898e955e6b7e260739",
+      "fontDependent": false
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "palette-src-ports-direction-right",
+        "name": "Input",
+        "family": "Design palette",
+        "category": "palette specimen",
+        "treatment": "editable palette component",
+        "file": "components/palette-src-ports-direction-right.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "src-ports-direction-right",
+        "source_group_ordinal": 67,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved palette; source status retained",
+        "sha256": "e01e8276feb8f1a255b9cc0cda75ab97285350cb7d6e6c51769da0091d15924a",
+        "children": [
+          "palette-src-ports-direction-right-artwork"
+        ],
+        "bounds": [
+          -1.25,
+          -1.25,
+          302.5,
+          197.5
+        ],
+        "mapping": {
+          "principle": "interface boundary",
+          "sysml_v2": [
+            "PortDefinition",
+            "PortUsage"
+          ],
+          "sysml_v1": [
+            "Port",
+            "ProxyPort"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Boundary placement, identifiers and direction must be bound to declared model ports; arrows do not infer conjugation or compatibility."
+        }
+      },
+      "file": "masters/palette-src-ports-direction-right.svg",
+      "sha256": "e01e8276feb8f1a255b9cc0cda75ab97285350cb7d6e6c51769da0091d15924a",
+      "fontDependent": true
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "palette-src-ports-direction-left",
+        "name": "Output",
+        "family": "Design palette",
+        "category": "palette specimen",
+        "treatment": "editable palette component",
+        "file": "components/palette-src-ports-direction-left.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "src-ports-direction-left",
+        "source_group_ordinal": 68,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved palette; source status retained",
+        "sha256": "f2b34aa814f181e536c301f7aebb12af0dbae906341ba14fa5c14ccd38addf76",
+        "children": [
+          "palette-src-ports-direction-left-artwork"
+        ],
+        "bounds": [
+          -1.25,
+          -1.25,
+          302.5,
+          197.5
+        ],
+        "mapping": {
+          "principle": "interface boundary",
+          "sysml_v2": [
+            "PortDefinition",
+            "PortUsage"
+          ],
+          "sysml_v1": [
+            "Port",
+            "ProxyPort"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Boundary placement, identifiers and direction must be bound to declared model ports; arrows do not infer conjugation or compatibility."
+        }
+      },
+      "file": "masters/palette-src-ports-direction-left.svg",
+      "sha256": "f2b34aa814f181e536c301f7aebb12af0dbae906341ba14fa5c14ccd38addf76",
+      "fontDependent": true
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "palette-src-ports-direction-both-h",
+        "name": "Bidirectional",
+        "family": "Design palette",
+        "category": "palette specimen",
+        "treatment": "editable palette component",
+        "file": "components/palette-src-ports-direction-both-h.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "src-ports-direction-both-h",
+        "source_group_ordinal": 69,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved palette; source status retained",
+        "sha256": "307bf5348afb58809f0b1473397d28fe8b8a5ad14f9460523e854389b2eb90c3",
+        "children": [
+          "palette-src-ports-direction-both-h-artwork"
+        ],
+        "bounds": [
+          -1.25,
+          -1.25,
+          302.5,
+          197.5
+        ],
+        "mapping": {
+          "principle": "interface boundary",
+          "sysml_v2": [
+            "PortDefinition",
+            "PortUsage"
+          ],
+          "sysml_v1": [
+            "Port",
+            "ProxyPort"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Boundary placement, identifiers and direction must be bound to declared model ports; arrows do not infer conjugation or compatibility."
+        }
+      },
+      "file": "masters/palette-src-ports-direction-both-h.svg",
+      "sha256": "307bf5348afb58809f0b1473397d28fe8b8a5ad14f9460523e854389b2eb90c3",
+      "fontDependent": true
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "palette-src-ports-direction-none",
+        "name": "Unspecified",
+        "family": "Design palette",
+        "category": "palette specimen",
+        "treatment": "editable palette component",
+        "file": "components/palette-src-ports-direction-none.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "src-ports-direction-none",
+        "source_group_ordinal": 70,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved palette; source status retained",
+        "sha256": "118427eff5ecfa29b7be7dccf3b0a6635cedfe41e1a65fcb0bf0efe6ee5e41df",
+        "children": [
+          "palette-src-ports-direction-none-artwork"
+        ],
+        "bounds": [
+          -1.25,
+          -1.25,
+          302.5,
+          197.5
+        ],
+        "mapping": {
+          "principle": "interface boundary",
+          "sysml_v2": [
+            "PortDefinition",
+            "PortUsage"
+          ],
+          "sysml_v1": [
+            "Port",
+            "ProxyPort"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Boundary placement, identifiers and direction must be bound to declared model ports; arrows do not infer conjugation or compatibility."
+        }
+      },
+      "file": "masters/palette-src-ports-direction-none.svg",
+      "sha256": "118427eff5ecfa29b7be7dccf3b0a6635cedfe41e1a65fcb0bf0efe6ee5e41df",
+      "fontDependent": true
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "palette-refined-connections-connections-page2-loop-feedback",
+        "name": "Feedback loop",
+        "family": "Design palette",
+        "category": "palette specimen",
+        "treatment": "editable palette assembly",
+        "file": "components/palette-refined-connections-connections-page2-loop-feedback.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "refined-connections-connections-page2-loop-feedback",
+        "source_group_ordinal": 219,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved palette; source status retained",
+        "sha256": "a17076f146ef0cbc037b5189f9117ff0522fc39c2d7ec828e5eea41dc0e4f675",
+        "children": [
+          "palette-anonymous-220",
+          "palette-anonymous-221"
+        ],
+        "bounds": [
+          -1.25,
+          -1.25,
+          1352.5,
+          272.5
+        ],
+        "mapping": {
+          "principle": "behavior or topology pattern",
+          "sysml_v2": [
+            "ActionUsage",
+            "ConnectionUsage"
+          ],
+          "sysml_v1": [
+            "Activity",
+            "Connector"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Bind the selected context explicitly: physical topology differs from action fork/join/decision/merge. This drawing supplies no synchronization semantics."
+        }
+      },
+      "file": "masters/palette-refined-connections-connections-page2-loop-feedback.svg",
+      "sha256": "a17076f146ef0cbc037b5189f9117ff0522fc39c2d7ec828e5eea41dc0e4f675",
+      "fontDependent": true
+    },
+    {
+      "group": "connectors",
+      "component": {
+        "id": "palette-refined-connections-connections-page1-loop-split-rejoin",
+        "name": "Split-and-rejoin",
+        "family": "Design palette",
+        "category": "palette specimen",
+        "treatment": "editable palette assembly",
+        "file": "components/palette-refined-connections-connections-page1-loop-split-rejoin.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "refined-connections-connections-page1-loop-split-rejoin",
+        "source_group_ordinal": 216,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved palette; source status retained",
+        "sha256": "f74deb0f5d003ef96a635572ccab58c0582df3a1f3a1c10028e76567de9c0c8f",
+        "children": [
+          "palette-anonymous-217",
+          "palette-anonymous-218"
+        ],
+        "bounds": [
+          -1.25,
+          -1.25,
+          1352.5,
+          272.5
+        ],
+        "mapping": {
+          "principle": "behavior or topology pattern",
+          "sysml_v2": [
+            "ActionUsage",
+            "ConnectionUsage"
+          ],
+          "sysml_v1": [
+            "Activity",
+            "Connector"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Bind the selected context explicitly: physical topology differs from action fork/join/decision/merge. This drawing supplies no synchronization semantics."
+        }
+      },
+      "file": "masters/palette-refined-connections-connections-page1-loop-split-rejoin.svg",
+      "sha256": "f74deb0f5d003ef96a635572ccab58c0582df3a1f3a1c10028e76567de9c0c8f",
+      "fontDependent": true
+    },
+    {
+      "group": "schematic",
+      "component": {
+        "id": "elec-resistor-schematic",
+        "name": "Resistor \u2014 rectangular schematic",
+        "category": "Passive components",
+        "treatment": "simplified schematic",
+        "meaning": "A two-terminal rectangular resistor mark.",
+        "limitations": "Local simplified mark; not verified for formal standard conformity or a specific device.",
+        "file": "components/elec-resistor-schematic.svg",
+        "sources": [
+          "ohio-symbols"
+        ],
+        "notes": "This is a selected circuit-drawing convention, not evidence of formal IEC compliance.",
+        "group": "group-a",
+        "serial": "E019",
+        "status": "proposed; source-referenced and cross-reviewed",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat schematic or functional pictogram",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "original bytes only",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "c961c283ff198da47ed7c7dd2a41b3142e0db787cf4ca579d242482ea9a19209",
+        "source_file": "icons/domain/elec-resistor-schematic.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-resistor-schematic.svg",
+      "sha256": "c961c283ff198da47ed7c7dd2a41b3142e0db787cf4ca579d242482ea9a19209",
+      "fontDependent": false
+    },
+    {
+      "group": "schematic",
+      "component": {
+        "id": "elec-capacitor-schematic",
+        "name": "Capacitor \u2014 unpolarized schematic",
+        "category": "Passive components",
+        "treatment": "simplified schematic",
+        "meaning": "A two-terminal capacitor with equal plates and no indicated polarity.",
+        "limitations": "Local simplified mark; not verified for formal standard conformity or a specific device.",
+        "file": "components/elec-capacitor-schematic.svg",
+        "sources": [
+          "ohio-symbols",
+          "doe-symbols-1"
+        ],
+        "notes": "This separate unpolarized notation should not be paired as a wiring representation of the illustrated electrolytic package.",
+        "group": "group-a",
+        "serial": "E020",
+        "status": "proposed; source-referenced and cross-reviewed",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat schematic or functional pictogram",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "original bytes only",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "780acacdbffefb9010d6c5ff51f3d23a27702bfc4d42bc76c513105f7f7bd7f8",
+        "source_file": "icons/domain/elec-capacitor-schematic.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-capacitor-schematic.svg",
+      "sha256": "780acacdbffefb9010d6c5ff51f3d23a27702bfc4d42bc76c513105f7f7bd7f8",
+      "fontDependent": false
+    },
+    {
+      "group": "schematic",
+      "component": {
+        "id": "elec-inductor-schematic",
+        "name": "Inductor \u2014 schematic",
+        "category": "Passive components",
+        "treatment": "simplified schematic",
+        "meaning": "A two-terminal inductor coil without a core material designation.",
+        "limitations": "Local simplified mark; not verified for formal standard conformity or a specific device.",
+        "file": "components/elec-inductor-schematic.svg",
+        "sources": [
+          "ohio-symbols",
+          "doe-symbols-1"
+        ],
+        "notes": "Coil orientation and number of drawn arcs are presentation choices; no magnetic core material is specified.",
+        "group": "group-a",
+        "serial": "E021",
+        "status": "proposed; source-referenced and cross-reviewed",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat schematic or functional pictogram",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "original bytes only",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "44776c1c6085b4667b9e8cf2b9bbb5267930c427fcd578abc832c89c66fb49e2",
+        "source_file": "icons/domain/elec-inductor-schematic.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-inductor-schematic.svg",
+      "sha256": "44776c1c6085b4667b9e8cf2b9bbb5267930c427fcd578abc832c89c66fb49e2",
+      "fontDependent": false
+    },
+    {
+      "group": "schematic",
+      "component": {
+        "id": "elec-diode-schematic",
+        "name": "Diode \u2014 rectifier schematic",
+        "category": "Semiconductors and integrated circuits",
+        "treatment": "simplified schematic",
+        "meaning": "A rectifier diode mark, with anode on the left and cathode bar on the right.",
+        "limitations": "Local simplified mark; not verified for formal standard conformity or a specific device.",
+        "file": "components/elec-diode-schematic.svg",
+        "sources": [
+          "illinois-symbols",
+          "doe-symbols-2"
+        ],
+        "notes": "Source conventions differ in fill; this diagram adopts the Illinois outline and makes no formal-standard compliance claim.",
+        "group": "group-a",
+        "serial": "E022",
+        "status": "proposed; source-referenced and cross-reviewed",
+        "source_study": "electrical-reference-refinement-01",
+        "domain": "Electrical and electronics",
+        "edit_status": "retained",
+        "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+        "projection": "flat schematic or functional pictogram",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-em",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "prior_electrical_review": "original bytes only",
+        "family": "Electrical and electronics",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "b3ddaf78e362ce1b261228a5724507e68aba727005d385b6788b1f63bcd08165",
+        "source_file": "icons/domain/elec-diode-schematic.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/elec-diode-schematic.svg",
+      "sha256": "b3ddaf78e362ce1b261228a5724507e68aba727005d385b6788b1f63bcd08165",
+      "fontDependent": false
+    },
+    {
+      "group": "schematic",
+      "component": {
+        "id": "fluid-valve-schematic",
+        "name": "Valve: schematic",
+        "category": "fluid",
+        "treatment": "simplified schematic",
+        "meaning": "A generic in-line valve with a stem and hand operator.",
+        "limitations": "Two ends represent one illustrative line. Valve type, fail position, flow state and standard conformance are unspecified.",
+        "file": "components/fluid-valve-schematic.svg",
+        "sources": [
+          "palette",
+          "isa-scope",
+          "iso-fluid-scope"
+        ],
+        "origin": "fluid-medical",
+        "domain": "Fluid, pneumatic, hydraulic and thermal",
+        "serial": "F033",
+        "status": "proposed; drafting-style revision",
+        "source_study": "domain-iconography-01",
+        "edit_status": "refined",
+        "edit_reason": "Retained candidate 02 line-weight refinement after matching the original geometry. Preserved both line ends, opposing triangles and hand operator.",
+        "projection": "flat",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-fm",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Fluid, pneumatic, hydraulic and thermal",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "bde33247f5e7446edad119db5827e8ca0b22b8cb8b39acde1a052373c886c8fd",
+        "source_file": "icons/domain/fluid-valve-schematic.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/fluid-valve-schematic.svg",
+      "sha256": "bde33247f5e7446edad119db5827e8ca0b22b8cb8b39acde1a052373c886c8fd",
+      "fontDependent": false
+    },
+    {
+      "group": "schematic",
+      "component": {
+        "id": "fluid-pump-schematic",
+        "name": "Pump: schematic",
+        "category": "fluid",
+        "treatment": "simplified schematic",
+        "meaning": "A generic pump in a single flow line.",
+        "limitations": "Filled triangle shows illustrative left-to-right flow; it is not a verified hydraulic, pneumatic or process-standard symbol.",
+        "file": "components/fluid-pump-schematic.svg",
+        "sources": [
+          "palette",
+          "isa-scope",
+          "iso-fluid-scope"
+        ],
+        "origin": "fluid-medical",
+        "domain": "Fluid, pneumatic, hydraulic and thermal",
+        "serial": "F034",
+        "status": "proposed; drafting-style revision",
+        "source_study": "domain-iconography-01",
+        "edit_status": "refined",
+        "edit_reason": "Retained candidate 02 line-weight refinement after matching the original geometry. Preserved both line ends and the filled directional triangle.",
+        "projection": "flat",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-fm",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Fluid, pneumatic, hydraulic and thermal",
+        "mapping": {
+          "principle": "physical or logical system element",
+          "sysml_v2": [
+            "PartDefinition",
+            "PartUsage"
+          ],
+          "sysml_v1": [
+            "Block",
+            "PartProperty"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Represents an explicitly selected component or resource. Illustration, schematic and formal SysML notation retain their separate treatments."
+        },
+        "sha256": "9e8bde1eb4fa0de3fde9dff174c0cf367a2584472d7c153b78066acfe8d0ed36",
+        "source_file": "icons/domain/fluid-pump-schematic.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/fluid-pump-schematic.svg",
+      "sha256": "9e8bde1eb4fa0de3fde9dff174c0cf367a2584472d7c153b78066acfe8d0ed36",
+      "fontDependent": false
+    },
+    {
+      "group": "schematic",
+      "component": {
+        "id": "actions-inspect",
+        "name": "Inspect",
+        "category": "actions",
+        "treatment": "diagrammatic symbol",
+        "meaning": "Magnifier beside a mechanical component and bore.",
+        "limitations": "The depiction does not assert any inspection result.",
+        "status": "proposed; drafting-style revision",
+        "source_study": "symbols-study-02",
+        "file": "components/actions-inspect.svg",
+        "edit_status": "retained",
+        "edit_reason": "Reviewed the existing candidate: its flat view, semantic marks, and proportions suit this role; no unsupported change was introduced.",
+        "projection": "original view; no depth added",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-core",
+        "serial": "I013",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "actions",
+        "mapping": {
+          "principle": "functions and operational behavior",
+          "sysml_v2": [
+            "ActionDefinition",
+            "ActionUsage"
+          ],
+          "sysml_v1": [
+            "Activity",
+            "Action"
+          ],
+          "cse_skills": [
+            "develop-operational-scenarios",
+            "develop-system-architecture"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "The drawing may illustrate a declared action; it specifies neither execution order nor control semantics."
+        },
+        "sha256": "26ebecf6da5b4c8303b721c4ae2c92940ec0a4c72e1f70a8dcf164caae130ca1",
+        "source_file": "icons/concepts/actions-inspect.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/actions-inspect.svg",
+      "sha256": "26ebecf6da5b4c8303b721c4ae2c92940ec0a4c72e1f70a8dcf164caae130ca1",
+      "fontDependent": false
+    },
+    {
+      "group": "schematic",
+      "component": {
+        "id": "actions-repair",
+        "name": "Repair",
+        "category": "actions",
+        "treatment": "technical illustration",
+        "meaning": "An open-end wrench engaging a hexagonal fastener.",
+        "limitations": "The depiction does not specify the repair procedure or outcome.",
+        "status": "proposed; drafting-style revision",
+        "source_study": "symbols-study-02",
+        "file": "components/actions-repair.svg",
+        "edit_status": "retained",
+        "edit_reason": "Reviewed the existing candidate: its flat view, semantic marks, and proportions suit this role; no unsupported change was introduced.",
+        "projection": "orthographic front or plan view retained",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-core",
+        "serial": "I014",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": true,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "actions",
+        "mapping": {
+          "principle": "functions and operational behavior",
+          "sysml_v2": [
+            "ActionDefinition",
+            "ActionUsage"
+          ],
+          "sysml_v1": [
+            "Activity",
+            "Action"
+          ],
+          "cse_skills": [
+            "develop-operational-scenarios",
+            "develop-system-architecture"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "The drawing may illustrate a declared action; it specifies neither execution order nor control semantics."
+        },
+        "sha256": "21bd427b3e43aa22287ff9bcabb0446b4240bb5d36b1758429e0e987db1ec35e",
+        "source_file": "icons/concepts/actions-repair.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/actions-repair.svg",
+      "sha256": "21bd427b3e43aa22287ff9bcabb0446b4240bb5d36b1758429e0e987db1ec35e",
+      "fontDependent": false
+    },
+    {
+      "group": "annotations",
+      "component": {
+        "id": "warnings-prohibition",
+        "name": "Prohibition",
+        "category": "warnings",
+        "treatment": "diagrammatic symbol",
+        "meaning": "Example prohibition: no hand contact. The prohibited action is depicted beneath the bar and named in text.",
+        "limitations": "",
+        "status": "proposed; earlier concept study",
+        "source_study": "symbols-study-02",
+        "file": "components/warnings-prohibition.svg",
+        "edit_status": "retained",
+        "edit_reason": "Reviewed the existing candidate: its flat view, semantic marks, and proportions suit this role; no unsupported change was introduced.",
+        "projection": "original view; no depth added",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-core",
+        "serial": "I048",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "warnings",
+        "mapping": {
+          "principle": "presentation and evidence annotation",
+          "sysml_v2": [],
+          "sysml_v1": [],
+          "cse_skills": [
+            "plan-engineering-evidence",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "UI controls, document marks and statuses annotate a view; they create no model state or verification result."
+        },
+        "sha256": "091923e6e445fa174e238cc7b4fb636ae6e8440efbf0976d76f3556dadb469df",
+        "source_file": "icons/concepts/warnings-prohibition.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/warnings-prohibition.svg",
+      "sha256": "091923e6e445fa174e238cc7b4fb636ae6e8440efbf0976d76f3556dadb469df",
+      "fontDependent": false
+    },
+    {
+      "group": "annotations",
+      "component": {
+        "id": "doc-reference-arrow",
+        "name": "Reference leader",
+        "category": "drawing annotation",
+        "treatment": "simplified schematic",
+        "meaning": "A leader terminates on a particular feature of a part.",
+        "limitations": "The leader has no attached instruction; its intended reference must be supplied in a drawing.",
+        "file": "components/doc-reference-arrow.svg",
+        "sources": [
+          "iso-lines"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Drawing and document symbols",
+        "serial": "D011",
+        "status": "proposed; earlier domain study",
+        "source_study": "domain-iconography-01",
+        "edit_status": "retained",
+        "edit_reason": "Reviewed the existing candidate: its flat view, semantic marks, and proportions suit this role; no unsupported change was introduced.",
+        "projection": "original view; no depth added",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-core",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Drawing and document symbols",
+        "mapping": {
+          "principle": "presentation and evidence annotation",
+          "sysml_v2": [],
+          "sysml_v1": [],
+          "cse_skills": [
+            "plan-engineering-evidence",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "UI controls, document marks and statuses annotate a view; they create no model state or verification result."
+        },
+        "sha256": "78a4dbf213666963682ffd5f23bc12f9663cac160351ce245fb8847cd1099cad",
+        "source_file": "icons/domain/doc-reference-arrow.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/doc-reference-arrow.svg",
+      "sha256": "78a4dbf213666963682ffd5f23bc12f9663cac160351ce245fb8847cd1099cad",
+      "fontDependent": false
+    },
+    {
+      "group": "annotations",
+      "component": {
+        "id": "annotations-information",
+        "name": "Information",
+        "category": "annotations",
+        "treatment": "interface icon",
+        "meaning": "Information cue; use text to state the information.",
+        "limitations": "",
+        "status": "proposed; drafting-style revision",
+        "source_study": "symbols-study-02",
+        "file": "components/annotations-information.svg",
+        "edit_status": "retained",
+        "edit_reason": "Reviewed the existing candidate: its flat view, semantic marks, and proportions suit this role; no unsupported change was introduced.",
+        "projection": "original view; no depth added",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-core",
+        "serial": "I043",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "annotations",
+        "mapping": {
+          "principle": "presentation and evidence annotation",
+          "sysml_v2": [],
+          "sysml_v1": [],
+          "cse_skills": [
+            "plan-engineering-evidence",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "UI controls, document marks and statuses annotate a view; they create no model state or verification result."
+        },
+        "sha256": "bb5b918d876103d9ff8a05df29e7a9947d12d8d2fc445afe7d2ebd82f3ddb0b8",
+        "source_file": "icons/concepts/annotations-information.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/annotations-information.svg",
+      "sha256": "bb5b918d876103d9ff8a05df29e7a9947d12d8d2fc445afe7d2ebd82f3ddb0b8",
+      "fontDependent": false
+    },
+    {
+      "group": "annotations",
+      "component": {
+        "id": "annotations-note",
+        "name": "Note",
+        "category": "annotations",
+        "treatment": "interface pictogram",
+        "meaning": "A notepad with binding and ruled text represents a note.",
+        "limitations": "",
+        "status": "proposed; drafting-style revision",
+        "source_study": "symbols-study-02",
+        "file": "components/annotations-note.svg",
+        "edit_status": "retained",
+        "edit_reason": "Reviewed the existing candidate: its flat view, semantic marks, and proportions suit this role; no unsupported change was introduced.",
+        "projection": "original view; no depth added",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-core",
+        "serial": "I044",
+        "queue_route": "CLARIFY_TREATMENT",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "annotations",
+        "mapping": {
+          "principle": "presentation and evidence annotation",
+          "sysml_v2": [],
+          "sysml_v1": [],
+          "cse_skills": [
+            "plan-engineering-evidence",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "UI controls, document marks and statuses annotate a view; they create no model state or verification result."
+        },
+        "sha256": "acd27a0a5c06c52c1881016cc63031d2e0d3817890f308730584b2da64538066",
+        "source_file": "icons/concepts/annotations-note.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/annotations-note.svg",
+      "sha256": "acd27a0a5c06c52c1881016cc63031d2e0d3817890f308730584b2da64538066",
+      "fontDependent": false
+    },
+    {
+      "group": "annotations",
+      "component": {
+        "id": "palette-src-foundation-foundation-arrowheads-open-v-artwork",
+        "name": "Open V \u2014 artwork",
+        "family": "Palette artwork",
+        "category": "palette specimen",
+        "treatment": "editable artwork; presentation card and heading removed",
+        "file": "components/palette-src-foundation-foundation-arrowheads-open-v-artwork.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "src-foundation-foundation-arrowheads-open-v",
+        "source_group_ordinal": 47,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved-palette presentation derivative",
+        "sha256": "61fcf92637df63dab3a6d64e480abb4e6bb6e0a1ddc5f5a5c105a4b37647a787",
+        "children": [],
+        "bounds": [
+          -1.25,
+          -1.25,
+          302.5,
+          182.5
+        ],
+        "mapping": {
+          "principle": "connectivity and routing presentation",
+          "sysml_v2": [
+            "ConnectionUsage",
+            "InterfaceUsage",
+            "FlowUsage"
+          ],
+          "sysml_v1": [
+            "Connector",
+            "ItemFlow",
+            "Dependency"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Preserve endpoint IDs and directed versus undirected relations. Crossings, route groups and labels do not create junctions or shared resources."
+        },
+        "variant_of": "palette-src-foundation-foundation-arrowheads-open-v"
+      },
+      "file": "masters/palette-src-foundation-foundation-arrowheads-open-v-artwork.svg",
+      "sha256": "61fcf92637df63dab3a6d64e480abb4e6bb6e0a1ddc5f5a5c105a4b37647a787",
+      "fontDependent": false
+    },
+    {
+      "group": "annotations",
+      "component": {
+        "id": "palette-src-foundation-foundation-arrowheads-filled-triangle-artwork",
+        "name": "Filled triangle \u2014 artwork",
+        "family": "Palette artwork",
+        "category": "palette specimen",
+        "treatment": "editable artwork; presentation card and heading removed",
+        "file": "components/palette-src-foundation-foundation-arrowheads-filled-triangle-artwork.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "src-foundation-foundation-arrowheads-filled-triangle",
+        "source_group_ordinal": 48,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved-palette presentation derivative",
+        "sha256": "4365fedc339af55afd15c6fadc0269e2ccf5c40a177800710c86b1279bba8abd",
+        "children": [],
+        "bounds": [
+          -1.25,
+          -1.25,
+          302.5,
+          182.5
+        ],
+        "mapping": {
+          "principle": "connectivity and routing presentation",
+          "sysml_v2": [
+            "ConnectionUsage",
+            "InterfaceUsage",
+            "FlowUsage"
+          ],
+          "sysml_v1": [
+            "Connector",
+            "ItemFlow",
+            "Dependency"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Preserve endpoint IDs and directed versus undirected relations. Crossings, route groups and labels do not create junctions or shared resources."
+        },
+        "variant_of": "palette-src-foundation-foundation-arrowheads-filled-triangle"
+      },
+      "file": "masters/palette-src-foundation-foundation-arrowheads-filled-triangle-artwork.svg",
+      "sha256": "4365fedc339af55afd15c6fadc0269e2ccf5c40a177800710c86b1279bba8abd",
+      "fontDependent": false
+    },
+    {
+      "group": "annotations",
+      "component": {
+        "id": "palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork",
+        "name": "Hollow triangle \u2014 artwork",
+        "family": "Palette artwork",
+        "category": "palette specimen",
+        "treatment": "editable artwork; presentation card and heading removed",
+        "file": "components/palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "src-foundation-foundation-arrowheads-hollow-triangle",
+        "source_group_ordinal": 49,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved-palette presentation derivative",
+        "sha256": "a6a8f728e4305f95e0a943eac46208088b13f57580cdd3fd091c79e644678ff8",
+        "children": [],
+        "bounds": [
+          -1.25,
+          -1.25,
+          302.5,
+          182.5
+        ],
+        "mapping": {
+          "principle": "connectivity and routing presentation",
+          "sysml_v2": [
+            "ConnectionUsage",
+            "InterfaceUsage",
+            "FlowUsage"
+          ],
+          "sysml_v1": [
+            "Connector",
+            "ItemFlow",
+            "Dependency"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Preserve endpoint IDs and directed versus undirected relations. Crossings, route groups and labels do not create junctions or shared resources."
+        },
+        "variant_of": "palette-src-foundation-foundation-arrowheads-hollow-triangle"
+      },
+      "file": "masters/palette-src-foundation-foundation-arrowheads-hollow-triangle-artwork.svg",
+      "sha256": "a6a8f728e4305f95e0a943eac46208088b13f57580cdd3fd091c79e644678ff8",
+      "fontDependent": false
+    },
+    {
+      "group": "annotations",
+      "component": {
+        "id": "palette-src-foundation-foundation-arrowheads-notched-artwork",
+        "name": "Notched arrowhead \u2014 artwork",
+        "family": "Palette artwork",
+        "category": "palette specimen",
+        "treatment": "editable artwork; presentation card and heading removed",
+        "file": "components/palette-src-foundation-foundation-arrowheads-notched-artwork.svg",
+        "source_file": "palette/complete-palette.svg",
+        "source_element_id": "src-foundation-foundation-arrowheads-notched",
+        "source_group_ordinal": 50,
+        "source_package": "engineering-palette-complete-05",
+        "approval_state": "saved-palette presentation derivative",
+        "sha256": "a5926312d1637f2e77a2bb94ec0faf1855afdfc7eafad271a154601b8e30fb43",
+        "children": [],
+        "bounds": [
+          -1.25,
+          -1.25,
+          302.5,
+          182.5
+        ],
+        "mapping": {
+          "principle": "connectivity and routing presentation",
+          "sysml_v2": [
+            "ConnectionUsage",
+            "InterfaceUsage",
+            "FlowUsage"
+          ],
+          "sysml_v1": [
+            "Connector",
+            "ItemFlow",
+            "Dependency"
+          ],
+          "cse_skills": [
+            "develop-system-architecture",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "Preserve endpoint IDs and directed versus undirected relations. Crossings, route groups and labels do not create junctions or shared resources."
+        },
+        "variant_of": "palette-src-foundation-foundation-arrowheads-notched"
+      },
+      "file": "masters/palette-src-foundation-foundation-arrowheads-notched-artwork.svg",
+      "sha256": "a5926312d1637f2e77a2bb94ec0faf1855afdfc7eafad271a154601b8e30fb43",
+      "fontDependent": false
+    },
+    {
+      "group": "annotations",
+      "component": {
+        "id": "doc-dimension",
+        "name": "Dimension",
+        "category": "drawing annotation",
+        "treatment": "simplified schematic",
+        "meaning": "Extension and dimension lines span a part feature with symbolic length L.",
+        "limitations": "L has no value or units; the mark is not a manufacturing dimension.",
+        "file": "components/doc-dimension.svg",
+        "sources": [
+          "iso-dimension"
+        ],
+        "origin": "mechanical-documents",
+        "domain": "Drawing and document symbols",
+        "serial": "D009",
+        "status": "proposed; earlier domain study",
+        "source_study": "domain-iconography-01",
+        "edit_status": "retained",
+        "edit_reason": "Reviewed the existing candidate: its flat view, semantic marks, and proportions suit this role; no unsupported change was introduced.",
+        "projection": "original view; no depth added",
+        "style_variant": "clean or unchanged",
+        "source_owner": "group-core",
+        "queue_route": "REFINE_2D",
+        "caption_dependent": false,
+        "prior_approval_state": "proposed",
+        "approval_state": "proposed",
+        "family": "Drawing and document symbols",
+        "mapping": {
+          "principle": "presentation and evidence annotation",
+          "sysml_v2": [],
+          "sysml_v1": [],
+          "cse_skills": [
+            "plan-engineering-evidence",
+            "generate-engineering-diagrams"
+          ],
+          "relation": "applicable modeling context; explicit model binding required",
+          "formal_sysml_glyph": false,
+          "rationale": "UI controls, document marks and statuses annotate a view; they create no model state or verification result."
+        },
+        "sha256": "66d5e62110ab083aa4f4557ff99a84e173499a3cc015bbbe7dcc8fa3b2992fc6",
+        "source_file": "icons/domain/doc-dimension.svg",
+        "source_package": "engineering-palette-complete-05",
+        "children": []
+      },
+      "file": "masters/doc-dimension.svg",
+      "sha256": "66d5e62110ab083aa4f4557ff99a84e173499a3cc015bbbe7dcc8fa3b2992fc6",
+      "fontDependent": true
+    }
+  ],
+  "limits": "Exact source artwork, not model semantics or engineering approval. Source origin references and status retained per item. SVG admission and separate visual/handoff evidence required."
+}

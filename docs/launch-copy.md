@@ -16,9 +16,9 @@ It is an experimental portable plugin with no required backend or account connec
 
 Introducing Ingenium: an experimental portable creative workflow for exploring directions, making editable studies and preserving scoped choices.
 
-The repository includes original synthetic publication, website, identity and wayfinding examples. You can inspect their sources and stated limits. Optional Node 22+ helpers add records, selective resources, static SVG export and bounded review tools. The workflow itself has no required server or backend.
+The repository includes an original synthetic engineering graphic, technical document and website, alongside publication, identity and wayfinding examples. You can inspect their sources and stated limits. Optional Node 22+ helpers add records, selective resources, static SVG export and bounded review tools. The workflow itself has no required server or backend.
 
-Try it through a client-supported local plugin source, then verify actual discovery in a fresh conversation. Portable package structure has been checked; verify discovery in your client. Desktop discovery remains unverified. The package declares `private: true`; use the source/local tarball route.
+A manual project-local source-copy route has been observed in Codex CLI; see the [client compatibility record](compatibility.md) for its scope and for other routes still awaiting tests. Prepared guidance, core and inspection archives are separate artifacts; preparation alone does not publish them. The package declares `private: true`.
 
 Start here: [quickstart](quickstart.md). Explore [worked sources](../examples/worked/README.md). Browse [the repository](https://github.com/ajhcs/Ingenium).
 
@@ -28,8 +28,8 @@ One workflow, several editable formats. These fictional historical studies show 
 
 ## Video description
 
-See Ingenium's intent → study → review → preserve workflow through original synthetic artifacts. The demonstration shows actual authored results and editable sources. It does not claim autonomous client behavior, production suitability or a guaranteed design outcome. Captions and a transcript accompany the video.
+See Ingenium's intent → study → review → preserve workflow through original synthetic artifacts. The demonstration shows actual authored results and editable sources. It does not claim autonomous client behavior, production suitability or a guaranteed design outcome. Include captions and a transcript if a video is actually produced and shared.
 
 ## Sharing assets
 
-The public site contains original demonstration images and a downloadable editable study archive. Video variants include a walkthrough, a short teaser and a portrait edit when present in the final delivery. Keep the relevant notices with redistributed fonts and sources. Use the actual final asset links from the site; do not present unavailable media as delivered.
+The site source contains original demonstration images and editable study sources; advertise downloads only when the actual artifact is staged and available. Video variants include a walkthrough, a short teaser and a portrait edit when present in the final delivery. Keep the relevant notices with redistributed fonts and sources. Use the actual final asset links from the site; do not present unavailable media as delivered.

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "cse-selected-fonts",
+  "provider": "CSE selected Fontsource data",
+  "version": "0.2.0-alpha.8",
+  "commit": "alpha.8-pinned-fontsource-5.3.0",
+  "fonts": [
+    {
+      "path": "inter-400.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "bytes": 23664,
+      "family": "Inter",
+      "style": "normal",
+      "weight": 400,
+      "format": "woff2",
+      "sourceURL": "https://www.npmjs.com/package/@fontsource/inter/v/5.3.0",
+      "id": "inter-400-woff2",
+      "noticeIds": [
+        "inter-ofl"
+      ]
+    },
+    {
+      "path": "inter-700.woff2",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "bytes": 24356,
+      "family": "Inter",
+      "style": "normal",
+      "weight": 700,
+      "format": "woff2",
+      "sourceURL": "https://www.npmjs.com/package/@fontsource/inter/v/5.3.0",
+      "id": "inter-700-woff2",
+      "noticeIds": [
+        "inter-ofl"
+      ]
+    },
+    {
+      "path": "space-grotesk-400.woff2",
+      "sha256": "65fd17fcbd2e2f522940b5f67ead3d23329e02891aa5495e74d11a499c0b0673",
+      "bytes": 13388,
+      "family": "Space Grotesk",
+      "style": "normal",
+      "weight": 400,
+      "format": "woff2",
+      "sourceURL": "https://www.npmjs.com/package/@fontsource/space-grotesk/v/5.3.0",
+      "id": "space-grotesk-400-woff2",
+      "noticeIds": [
+        "space-ofl"
+      ]
+    },
+    {
+      "path": "space-grotesk-700.woff2",
+      "sha256": "35f8aec56cfd5cbfdb03cc68733a54a0b05bb3617ffcd5fd332badc0b045ca55",
+      "bytes": 12840,
+      "family": "Space Grotesk",
+      "style": "normal",
+      "weight": 700,
+      "format": "woff2",
+      "sourceURL": "https://www.npmjs.com/package/@fontsource/space-grotesk/v/5.3.0",
+      "id": "space-grotesk-700-woff2",
+      "noticeIds": [
+        "space-ofl"
+      ]
+    }
+  ],
+  "notices": [
+    {
+      "path": "inter-OFL.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "bytes": 4477,
+      "license": "OFL-1.1",
+      "sourceURL": "https://github.com/ajhcs/computable-systems-engineering",
+      "id": "inter-ofl"
+    },
+    {
+      "path": "space-OFL.txt",
+      "sha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943",
+      "bytes": 4401,
+      "license": "OFL-1.1",
+      "sourceURL": "https://github.com/ajhcs/computable-systems-engineering",
+      "id": "space-ofl"
+    }
+  ],
+  "limits": "Exact unmodified CSE-bundled Fontsource data; tested glyph coverage is separate."
+}

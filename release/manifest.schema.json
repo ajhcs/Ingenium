@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ingenium.example/schemas/release-artifacts-v1.json",
+  "title": "Ingenium prepared release artifacts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "version", "sourceRevision", "sourceTree", "buildId", "prepared", "published", "artifacts"],
+  "properties": {
+    "schema": {"const": "ingenium-release-artifacts/1"},
+    "version": {"type": "string", "minLength": 1},
+    "sourceRevision": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+    "sourceTree": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+    "buildId": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "prepared": {"const": true},
+    "published": {"const": false},
+    "artifacts": {
+      "type": "array", "minItems": 3,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "flavor", "path", "bytes", "sha256"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "flavor": {"enum": ["guidance", "core-tools", "inspection-tools", "resource-pack", "editable-study"]},
+          "path": {"type": "string", "minLength": 1, "pattern": "^[^/\\\\:]+$"},
+          "bytes": {"type": "integer", "minimum": 1},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "openingFile": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

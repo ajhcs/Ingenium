@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Field Station review</title><style>body{margin:0;background:#f3eedf;color:#173d42;font:1rem/1.5 system-ui,sans-serif}main{max-width:42rem;margin:auto;padding:1.5rem}h1{font-size:1.8rem;line-height:1.2;overflow-wrap:anywhere}p,button{overflow-wrap:anywhere}img{max-width:100%;image-rendering:auto}button{font:inherit;padding:.75rem}button:focus-visible{outline:3px solid currentColor;outline-offset:3px}[hidden]{display:none}</style></head><body><main>
+<h1 id="title">Field Station pressure review</h1>
+<p id="threshold">Pressure limit: 125 kPa</p>
+<p id="status">Provisional: review required</p>
+<p id="owner">Review owner: Mira Chen</p>
+<figure><img id="sample" src="imperfect.png" width="240" height="160" alt="Synthetic low-resolution blue and green color grid; no instrument data"><figcaption>Original synthetic low-resolution sample; no physical measurement represented.</figcaption></figure>
+<p id="notice">The north shelter opens for supervised practice.</p>
+<button id="toggle" type="button" aria-expanded="false" aria-controls="history">Review the complete instrument calibration and maintenance history</button>
+<div id="history" hidden>No maintenance-history records supplied.</div>
+</main><script>document.getElementById('toggle').addEventListener('click',function(){const open=this.getAttribute('aria-expanded')!=='true';this.setAttribute('aria-expanded',String(open));document.getElementById('history').hidden=!open})</script></body></html>

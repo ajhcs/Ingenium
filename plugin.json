@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ingenium",
-  "version": "0.1.0",
-  "description": "Develop creative direction and editable design studies with optional, selectively loaded design resources.",
+  "version": "0.2.0-alpha.1",
+  "description": "Create and revise editable engineering graphics, documents and websites with lightweight creative guidance and optional local tools.",
   "author": {
     "name": "ajhcs"
   },

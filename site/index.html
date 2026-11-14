@@ -14,15 +14,15 @@
   <meta property="og:image:height" content="760">
   <title>Ingenium — Shape an idea. Keep the work editable.</title>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/fonts/DejaVuSerif.ttf" as="font" type="font/ttf" crossorigin>
+
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" type="module"></script>
+
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header wrap">
   <a class="brand" href="./" aria-label="Ingenium home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2v28M2 16h28M6 6l20 20M26 6 6 26"/></svg><span>ingenium</span></a>
-  <nav aria-label="Main navigation"><a href="#studies">Studies</a><a href="#workflow">How it works</a><a href="https://github.com/ajhcs/Ingenium/blob/main/docs/user-guide.md">Guide</a><a href="https://github.com/ajhcs/Ingenium/tree/main">GitHub <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></nav>
+  <nav aria-label="Main navigation"><a href="studies/">Studies</a><a href="guide/">Guide</a><a href="resources/">Resources</a><a href="downloads/">Downloads</a><a href="https://github.com/ajhcs/Ingenium/tree/main">GitHub <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></nav>
   <a class="button small header-cta" href="#start">Start a study <span aria-hidden="true">↗</span></a>
 </header>
 <main id="main">
@@ -33,7 +33,7 @@
       <div class="actions"><a class="button" href="#start">Start a study <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a><a class="text-link" href="#studies">Explore the work <span aria-hidden="true">↓</span></a></div>
       <p class="hero-note">No required backend or account connection.<br>Optional local tools.</p>
     </div>
-    <figure class="hero-art"><div class="hero-stage"><img src="assets/process/peel-citrus-book-final.jpg" width="693" height="1040" alt="Peel citrus book cover with bold editable type and a textured red citrus illustration."></div><figcaption><span>Peel <span class="caption-light">/ mixed-media cover study</span></span><a href="https://github.com/ajhcs/Ingenium/blob/main/examples/process/peel-citrus-book/README.md">Four views and source <span aria-hidden="true">↗</span></a></figcaption></figure>
+    <figure class="hero-art"><div class="hero-stage"><img src="assets/demos/peel-hero.jpg" width="693" height="1040" alt="Peel citrus book cover with bold editable type and a textured red citrus illustration."></div><figcaption><span>Peel <span class="caption-light">/ mixed-media cover study</span></span><a href="https://github.com/ajhcs/Ingenium/blob/main/examples/process/peel-citrus-book/README.md">Four views and source <span aria-hidden="true">↗</span></a></figcaption></figure>
     <p class="hero-foot">A study is something to react to.<br><span>Not a verdict.</span></p>
   </section>
 
@@ -48,52 +48,22 @@
     <p class="workflow-bottom">A question can be enough. So can one study.<br><a href="https://github.com/ajhcs/Ingenium/blob/main/skills/ingenium/SKILL.md">Read the portable workflow <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></p>
   </section>
 
-  <section class="studies section-space" id="studies" aria-labelledby="studies-title">
-    <div class="wrap">
-      <div class="section-heading heading-row"><div><p class="index">02 / In the work</p><h2 id="studies-title">See the pieces.<br>Shape the whole.</h2></div><p class="section-intro">Explore the assembly and its ingredients.<br>Keep the type, layout and artwork available<br>for the next revision.</p></div>
-      <div class="study-tabs" role="group" aria-label="Choose a study">
-        <button type="button" data-study="peel" aria-pressed="true">Peel</button>
-        <button type="button" data-study="alt" aria-pressed="false">ALT</button>
-        <button type="button" data-study="form" aria-pressed="false">FORM 08</button>
-        <button type="button" data-study="open-air" aria-pressed="false">Open Air</button>
-        <button type="button" data-study="aster" aria-pressed="false">ASTER</button>
-        <button type="button" data-study="fieldwork" aria-pressed="false">Website</button>
-      </div>
-      <div class="study-view">
-        <div>
-          <div class="process-switch" role="group" aria-label="Study view"><button type="button" data-view="final" aria-pressed="true">Final assembly</button><button type="button" data-view="process" aria-pressed="false">Four process views</button></div>
-          <figure class="study-image"><img id="study-image" src="assets/process/peel-citrus-book-final.jpg" width="693" height="1040" loading="lazy" alt="Peel citrus cover study."></figure>
-          <p class="process-hint" id="process-hint" hidden>Scroll the image to explore each view. Open the study for individual stages.</p>
-        </div>
-        <div class="study-detail">
-          <p class="index" id="study-label">Book cover · mixed media</p><h3 id="study-title">Peel</h3>
-          <p id="study-description">A citrus monograph with bold editable type and a separate textured illustration. Change the words, crop or artwork without flattening the whole cover.</p>
-          <p class="study-limit" id="study-limit">The illustration is raster artwork; layout and text remain editable SVG. Print production is untested.</p>
-          <a class="text-link" id="study-source" href="https://github.com/ajhcs/Ingenium/blob/main/examples/process/peel-citrus-book/source/final-01.svg">Open editable source <span aria-hidden="true">↗</span></a>
-          <a class="text-link" id="study-process" href="https://github.com/ajhcs/Ingenium/blob/main/examples/process/peel-citrus-book/README.md">Follow the four views <span aria-hidden="true">↗</span></a>
-          <a class="text-link live-study" id="live-study" href="studies/fieldwork/" hidden>Open the interactive website <span aria-hidden="true">↗</span></a>
-          <details class="study-prompt"><summary>Try a brief like this</summary><p id="reuse-prompt">Use Ingenium to make a cover for a fictional citrus book called Peel. Show two different compositions with the same title. Keep typography editable and develop any illustration as a separate replaceable asset. Preview the result at cover size.</p><button type="button" id="copy-study-prompt">Copy this brief</button><p id="study-copy-status" role="status"></p><small>New reusable briefs, not transcripts of the historical sessions.</small></details>
-          <p class="live-status" id="study-status" aria-live="polite"></p>
-        </div>
-      </div>
-      <div class="study-more"><a href="https://github.com/ajhcs/Ingenium/blob/main/README.md#thirteen-studies">Explore all thirteen process studies <span aria-hidden="true">↗</span></a><a href="assets/demos/editable-studies.zip" download>Historical editable-study archive (.zip)</a></div>
-    </div>
-  </section>
+  <section class="studies section-space" id="studies"><div class="wrap"><p class="index">02 / In the work</p><h2>See the pieces.<br>Shape the whole.</h2><p>Explore individual views, source files and editable projects from the retained studies.</p><p><a class="text-link" href="studies/">Explore all studies →</a> · <a class="text-link" href="studies/fieldwork/">Open Fieldwork →</a></p></div></section>
 
   <section class="watch wrap section-space" id="watch" aria-labelledby="watch-title">
     <div class="section-heading heading-row"><div><p class="index">03 / A closer look</p><h2 id="watch-title">See the workflow.</h2></div><p class="section-intro">From intent to an editable result.<br>A retained walkthrough using the earlier studies.</p></div>
     <div class="video-frame"><video controls playsinline preload="metadata" poster="assets/video/poster.jpg" width="1920" height="1080"><source src="assets/video/ingenium-demo.mp4" type="video/mp4"><track kind="captions" src="assets/video/captions.vtt" srclang="en" label="English"><p>Your browser cannot play this video. <a href="assets/video/ingenium-demo.mp4">Download the walkthrough</a>.</p></video></div>
-    <div class="media-links"><a href="https://github.com/ajhcs/Ingenium/releases/tag/v0.1.0">Package and all downloads</a><a href="assets/video/transcript.txt">Read the transcript</a><a href="assets/video/ingenium-demo.mp4" download>Download the walkthrough</a><a href="assets/video/teaser.mp4" download>Short version</a><a href="assets/video/portrait.mp4" download>Portrait version</a><a href="assets/video/voiceover-script.md">Voiceover script</a><a href="assets/video/video-source.zip" download>Editable video source (.zip)</a></div>
+    <div class="media-links"><a href="https://github.com/ajhcs/Ingenium/releases/tag/v0.1.0">Historical 0.1.0 release</a><a href="assets/video/transcript.txt">Read the transcript</a><a href="assets/video/ingenium-demo.mp4" download>Download the walkthrough</a><a href="assets/video/teaser.mp4" download>Short version</a><a href="assets/video/portrait.mp4" download>Portrait version</a><a href="assets/video/voiceover-script.md">Voiceover script</a><a href="assets/video/video-source.zip" download>Editable video source (.zip)</a></div>
   </section>
 
   <section class="start section-space" id="start" aria-labelledby="start-title">
     <div class="wrap">
       <div class="section-heading heading-row"><div><p class="index">04 / Begin here</p><h2 id="start-title">Your first<br>useful result.</h2></div><p class="section-intro">No grand brief required.<br>Pick one uncertainty. Make one useful thing.</p></div>
-      <div class="start-grid"><div class="install-steps"><article><span>1</span><div><h3>Choose your client.</h3><p><a href="https://github.com/ajhcs/Ingenium/blob/main/docs/install.md">Set up Codex, ChatGPT or Claude</a>. Use a project-local skill, a guidance ZIP or instructions pasted into chat.</p></div></article><article><span>2</span><div><h3>Load the guidance.</h3><p>In Codex use <code>$ingenium</code>; in Claude Code use <code>/ingenium</code>. For Claude chat, <a href="assets/downloads/ingenium-skill.zip" download>download the guidance ZIP</a> and enable it in Customize → Skills. ChatGPT setup depends on your workspace.</p></div></article><article><span>3</span><div><h3>Make something you can revise.</h3><p>Start with the prompt here, open the editable files, then say what to keep and what to change.</p></div></article><a class="button light" href="https://github.com/ajhcs/Ingenium/blob/main/docs/install.md">Choose your setup <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></div>
-      <div class="prompt-panel"><div class="prompt-label"><span>A first prompt</span><button id="copy-prompt" type="button">Copy prompt <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="7" y="3" width="10" height="11" rx="1"/><path d="M13 17H4a1 1 0 0 1-1-1V7"/></svg></button></div><p id="prompt-text">Use Ingenium. I am making a poster for a fictional evening garden event. It should feel quiet and welcoming, with a title, a date and a short invitation. Show two different organizing ideas as editable SVG studies. Keep the wording the same so I can compare the hierarchy. Do not use image generation or external references.</p><div class="prompt-footer"><span>Try one. React. Refine.</span><span id="copy-status" role="status" aria-live="polite"></span></div></div></div>
+      <div class="start-grid"><div class="install-steps"><article><span>1</span><div><h3>Choose your client.</h3><p><a href="https://github.com/ajhcs/Ingenium/blob/main/docs/install.md">Set up Codex, ChatGPT or Claude</a>. Use a project-local skill, a guidance ZIP or instructions pasted into chat.</p></div></article><article><span>2</span><div><h3>Load the guidance.</h3><p>In Codex use <code>$ingenium</code>; in Claude Code use <code>/ingenium</code>. For Claude chat, <a href="downloads/">see downloads</a> and enable it in Customize → Skills. ChatGPT setup depends on your workspace.</p></div></article><article><span>3</span><div><h3>Make something you can revise.</h3><p>Start with the prompt here, open the editable files, then say what to keep and what to change.</p></div></article><a class="button light" href="https://github.com/ajhcs/Ingenium/blob/main/docs/install.md">Choose your setup <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></div>
+      <div class="prompt-panel"><div class="prompt-label"><span>A first prompt</span><a href="guide/">Open guide</a></div><p id="prompt-text">Create an editable engineering overview titled Field Station, dated 18 April 2030, with the invitation “Review the revised system.” Show Sensor → Controller → Display.</p><p>Next: Change only the title treatment. Preserve the exact wording, date, invitation, component labels, and connection directions.</p><div class="prompt-footer"><span>Try one. React. Refine.</span><span id="copy-status" role="status" aria-live="polite"></span></div></div></div>
       <details class="helper-details"><summary>Inspect a local project with the optional tools <span aria-hidden="true">+</span></summary><div class="helper-body"><p>Capture a running local project, then compare the content and controls after a redesign. The basic creative skill works without this companion.</p><pre><code>node bin/ingenium-tools.mjs inspect http://127.0.0.1:5173/ work/before
 node bin/ingenium-tools.mjs inspect http://127.0.0.1:5173/ work/after --previous work/before/snapshot.json</code></pre><p>Node 22+, an existing Playwright/axe adapter and Chromium are required. Choose new evidence directories. Missing checks remain explicit.</p><a href="https://github.com/ajhcs/Ingenium/blob/main/docs/tools.md">Companion setup and inspection guide</a><span aria-hidden="true"> · </span><a href="https://github.com/ajhcs/Ingenium/blob/main/skills/ingenium/references/renderer-setup.md">SVG renderer setup</a></div></details>
-      <p class="install-note">Experimental package 0.1.0 · Package declares private: true.<br>Portable package structure checked. Verify discovery in your client.<br>Desktop discovery unverified. Client installation routes vary.</p>
+      <p class="install-note">Experimental development build · Package declares private: true.<br>Portable package structure checked. Verify discovery in your client.<br>Desktop discovery unverified. Client installation routes vary.</p>
     </div>
   </section>
 
@@ -101,6 +71,6 @@ node bin/ingenium-tools.mjs inspect http://127.0.0.1:5173/ work/after --previous
 
   <section class="closing wrap"><svg class="closing-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2v28M2 16h28M6 6l20 20M26 6 6 26"/></svg><h2>Bring an<br>unfinished idea.</h2><p>Start with a question, an artifact, or the feeling<br>that something is almost right.</p><div class="actions"><a class="button" href="https://github.com/ajhcs/Ingenium/blob/main/docs/quickstart.md">Read the quickstart <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a><a class="text-link" href="https://github.com/ajhcs/Ingenium/tree/main">Get the source <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></div></section>
 </main>
-<footer class="site-footer wrap"><a class="brand" href="./">ingenium</a><p>MIT code and original artwork.<br><a href="assets/fonts/FONT-NOTICES.txt">Font notices</a> · <a href="https://github.com/ajhcs/Ingenium/blob/main/THIRD_PARTY_NOTICES.md">Third-party notices</a></p><p>No tracking.<br>Experimental, and open to revision.</p><a href="https://github.com/ajhcs/Ingenium/tree/main">GitHub <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></footer>
+<footer class="site-footer wrap"><a class="brand" href="./">ingenium</a><p>MIT code and original artwork.<br><a href="studies/fieldwork/font-400/LICENSE.txt">Font notices</a> · <a href="https://github.com/ajhcs/Ingenium/blob/main/THIRD_PARTY_NOTICES.md">Third-party notices</a></p><p>No tracking.<br>Experimental, and open to revision.</p><a href="https://github.com/ajhcs/Ingenium/tree/main">GitHub <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></footer>
 </body>
 </html>

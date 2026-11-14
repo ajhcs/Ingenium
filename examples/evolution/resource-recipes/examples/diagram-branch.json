@@ -1,0 +1,44 @@
+{
+  "id": "diagram-branch",
+  "kind": "diagram",
+  "title": "Decision branch",
+  "description": "A decision with two labelled outcomes",
+  "original": {
+    "nodes": [
+      "Check",
+      "Accept",
+      "Retry"
+    ],
+    "edges": [
+      [
+        "Check",
+        "Accept",
+        "pass"
+      ],
+      [
+        "Check",
+        "Retry",
+        "fail"
+      ]
+    ]
+  },
+  "edit": {
+    "nodes": [
+      "Check",
+      "Accept",
+      "Retry"
+    ],
+    "edges": [
+      [
+        "Check",
+        "Accept",
+        "pass"
+      ],
+      [
+        "Check",
+        "Retry",
+        "repeat"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "ingenium-brief/1",
+  "id": "field-station",
+  "title": "Field Station",
+  "date": "18 April 2030",
+  "invitation": "Review the revised system.",
+  "components": [
+    {
+      "id": "sensor",
+      "label": "Sensor"
+    },
+    {
+      "id": "controller",
+      "label": "Controller"
+    },
+    {
+      "id": "display",
+      "label": "Display"
+    }
+  ],
+  "connections": [
+    {
+      "from": "sensor",
+      "to": "controller",
+      "label": "measurement"
+    },
+    {
+      "from": "controller",
+      "to": "display",
+      "label": "reading"
+    }
+  ],
+  "request": "Create an editable engineering overview titled Field Station, dated 18 April 2030, with the invitation “Review the revised system.” Show Sensor → Controller → Display.",
+  "revisionRequest": "Change only the title treatment. Preserve the exact wording, date, invitation, component labels, and connection directions.",
+  "limits": [
+    "Original fictional system; no measured or accepted engineering design is claimed."
+  ]
+}

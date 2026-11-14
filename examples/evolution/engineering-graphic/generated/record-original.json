@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "field-station-record",
+  "revision": 0,
+  "purpose": "Create an editable engineering overview titled Field Station, dated 18 April 2030, with the invitation “Review the revised system.” Show Sensor → Controller → Display.",
+  "evidence": [
+    {
+      "id": "brief",
+      "statement": "Create an editable engineering overview titled Field Station, dated 18 April 2030, with the invitation “Review the revised system.” Show Sensor → Controller → Display."
+    }
+  ],
+  "interpretations": [],
+  "decisions": [
+    {
+      "id": "direction",
+      "question": "What relationship is shown?",
+      "scope": "overview",
+      "status": "chosen",
+      "choice": "Sensor to Controller to Display",
+      "evidenceIds": [
+        "brief"
+      ],
+      "interpretationIds": []
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "overview",
+      "description": "Editable overview",
+      "evidenceIds": [
+        "brief"
+      ],
+      "decisionIds": [
+        "direction"
+      ],
+      "path": "original.svg"
+    }
+  ]
+}

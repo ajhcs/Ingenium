@@ -1,0 +1,13 @@
+{
+  "id": "doc-caution",
+  "kind": "document",
+  "title": "Caution panel",
+  "description": "Signal word and bounded instruction",
+  "original": {
+    "heading": "CAUTION",
+    "body": "Disconnect the supply before inspection."
+  },
+  "edit": {
+    "body": "Disconnect and verify the supply before inspection."
+  }
+}

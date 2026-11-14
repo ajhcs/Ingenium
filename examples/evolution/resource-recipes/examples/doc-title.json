@@ -1,0 +1,14 @@
+{
+  "id": "doc-title",
+  "kind": "document",
+  "title": "Document title block",
+  "description": "Title, identifier and issue date",
+  "original": {
+    "title": "Field Station",
+    "identifier": "FS-01",
+    "date": "18 April 2030"
+  },
+  "edit": {
+    "title": "Field Station overview"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "diagram-join",
+  "kind": "diagram",
+  "title": "Two inputs to one receiver",
+  "description": "Two independent sources feed one receiver",
+  "original": {
+    "nodes": [
+      "Input A",
+      "Input B",
+      "Receiver"
+    ],
+    "edges": [
+      [
+        "Input A",
+        "Receiver",
+        "signal A"
+      ],
+      [
+        "Input B",
+        "Receiver",
+        "signal B"
+      ]
+    ]
+  },
+  "edit": {
+    "nodes": [
+      "Input A",
+      "Input B",
+      "Receiver"
+    ],
+    "edges": [
+      [
+        "Input A",
+        "Receiver",
+        "signal A"
+      ],
+      [
+        "Input B",
+        "Receiver",
+        "signal C"
+      ]
+    ]
+  }
+}

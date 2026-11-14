@@ -37,3 +37,13 @@ The modified review paragraph in skills/ingenium/references/methods/contract.md 
 ## Fonts in the progressive process showcase
 
 The original process studies bundle selected unchanged Google Fonts files and embed their bytes in SVG artwork. Full family-specific copyright and SIL Open Font License 1.1 notices accompany the files under `examples/process/fonts/`; `manifest.json` records exact hashes and pinned upstream sources. These font terms remain separate from the project MIT license. New ImageGen subjects and native vector artwork are original synthetic examples; their prompt records distinguish generated images, original lettering and licensed typefaces. No reference artwork or private source documents are redistributed.
+
+## Selected CSE resources and engineering examples
+
+The selected CSE artwork pack retains exact source SVGs, metadata, and the complete MIT notice from computable-systems-engineering 0.2.0-alpha.8 under `src/resources/packs/cse-selected/`. The pinned catalog digest and each selected source hash are retained beside the artwork. Presentation derivatives remain separate from originals; an artwork identifier is not a native model or diagram-instance identifier. Original Field Station examples and recipes retain the CSE notice at `examples/evolution/CSE-LICENSE.txt` for the selected palette references.
+
+Four unmodified CSE-bundled Fontsource files (Inter regular/bold and Space Grotesk regular/bold) retain their complete family-specific OFL1.1 notices at `src/resources/packs/cse-fonts/inter-OFL.txt` and `space-OFL.txt`. The manifest records exact bytes and source labels. Browser-reported PostScript identity may differ from a family label and is retained in qualification evidence rather than rewritten.
+
+The selected Liberation Sans regular/bold files are unmodified retained fontLiberation0.1.0 data. Their complete OFL1.1 notice and hashes are in `src/resources/packs/liberation-sans/`; binary name tables report2.00.1. Upstream distribution identity was not independently established. This limitation does not change or replace the retained font notice.
+
+The twenty document, chart, diagram-layout and illustration recipes under `examples/evolution/resource-recipes/` are original synthetic MIT work with editable source and declared sample data. Selected CSE palette references retain their separate source notice. These recipe and font additions do not change the terms of any earlier resource pack.

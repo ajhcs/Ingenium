@@ -1,0 +1,39 @@
+{
+  "id": "chart-dot",
+  "kind": "chart",
+  "title": "Dot comparison",
+  "description": "Measured values by station",
+  "original": {
+    "unit": "kPa",
+    "data": [
+      [
+        "A",
+        30
+      ],
+      [
+        "B",
+        45
+      ],
+      [
+        "C",
+        38
+      ]
+    ]
+  },
+  "edit": {
+    "data": [
+      [
+        "A",
+        30
+      ],
+      [
+        "B",
+        42
+      ],
+      [
+        "C",
+        38
+      ]
+    ]
+  }
+}

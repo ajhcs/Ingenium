@@ -1,0 +1,7 @@
+Supplied title: Community measurement, calibration and cross-disciplinary fieldwork orientation — an intentionally long title for a small viewport
+Supplied status: Provisional: review required (do not communicate by color alone)
+Supplied unit: 125 kPa
+Supplied long action label: Review the complete instrument calibration and maintenance history
+Supplied mixed-direction names: محطة Field Station 12 / צוות Delta / Mira Chen
+Supplied awkward token: FIELD_STATION_CALIBRATION_REFERENCE_2026_11_REVISION_001
+Supplied late replacement: The north instrument shelter remains open for supervised calibration practice; visitors must retain the provisional status and contact the named review owner before using any measurements for consequential decisions.

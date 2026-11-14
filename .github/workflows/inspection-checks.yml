@@ -1,0 +1,49 @@
+name: Local inspection checks
+
+on:
+  pull_request:
+    paths:
+      - 'src/browser/**'
+      - 'src/project/**'
+      - 'src/cli/**'
+      - 'src/checks/**'
+      - 'bin/**'
+      - 'tests/**'
+      - 'tools/ci-browser/**'
+      - '.github/workflows/inspection-checks.yml'
+  push:
+    branches: [main, codex/ingenium-approved-evolution]
+    paths:
+      - 'src/browser/**'
+      - 'src/project/**'
+      - 'src/cli/**'
+      - 'src/checks/**'
+      - 'bin/**'
+      - 'tests/**'
+      - 'tools/ci-browser/**'
+      - '.github/workflows/inspection-checks.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  selected-browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Install explicit test adapters
+        run: npm ci --prefix tools/ci-browser --ignore-scripts
+      - name: Install the matching test Chromium
+        run: node tools/ci-browser/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Exercise local inspection with actual Chromium
+        shell: bash
+        run: |
+          mkdir -p work
+          export TMPDIR="$PWD/work"
+          export INGENIUM_BROWSER_ADAPTER_DIR="$PWD/tools/ci-browser"
+          export INGENIUM_BROWSER_EXECUTABLE="$(node -e "console.log(require('./tools/ci-browser/node_modules/playwright').chromium.executablePath())")"
+          node --test tests/browser.test.mjs tests/inspection-*.test.mjs tests/project-tools.test.mjs tests/health.test.mjs tests/cli-inspect-set.test.mjs

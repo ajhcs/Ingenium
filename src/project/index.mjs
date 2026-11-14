@@ -4,6 +4,8 @@ import { createProjectBrowserSession } from '../browser/index.mjs';
 import { localProjectUrl } from '../browser/local-url.mjs';
 import { createReport, hashIdentity } from '../checks/index.mjs';
 import { compareInventories } from './preservation.mjs';
+import { validateInspectionPlan } from './plan.mjs';
+import { validateInspectionSnapshot } from './inspect-set.mjs';
 
 export { compareInventories } from './preservation.mjs';
 const writeJson = (path, value) => writeFile(path, JSON.stringify(value, null, 2) + '\n', { flag: 'wx' });
@@ -23,6 +25,16 @@ function validateProfiles(profiles) {
   for (const p of profiles) {
     if (!name.test(p?.name) || seen.has(p.name)) throw new TypeError('Profiles need unique stable names');
     seen.add(p.name);
+    const { name: profileName, states: authoredStates, journeys: authoredJourneys, ...options } = p;
+    const statesForValidation = authoredStates ?? [{ name: 'default' }];
+    for (const [index, state] of (Array.isArray(statesForValidation) ? statesForValidation : []).entries()) {
+      if (!state || Object.keys(state).some(key => !['name', 'steps'].includes(key))) throw new TypeError(`profiles.${p.name}.states[${index}]: unsupported state field`);
+    }
+    for (const [index, journey] of (Array.isArray(authoredJourneys) ? authoredJourneys : []).entries()) {
+      if (!journey || Object.keys(journey).some(key => !['name', 'steps'].includes(key))) throw new TypeError(`profiles.${p.name}.journeys[${index}]: unsupported journey field`);
+    }
+    const validation = validateInspectionPlan({ schema: 'ingenium-inspection-plan/1', origin: 'http://127.0.0.1', routes: [{ id: 'legacy', path: '/', profiles: [profileName], states: (Array.isArray(statesForValidation) ? statesForValidation : []).map(state => ({ id: state?.name, steps: state?.steps ?? [] })), journeys: (Array.isArray(authoredJourneys) ? authoredJourneys : []).map(journey => ({ id: journey?.name, mode: 'fresh', fromStateId: statesForValidation[0]?.name, steps: journey?.steps ?? [] })) }], profiles: [{ id: profileName, ...options }], budgets: { maxCaptures: 64, deadlineMs: 120000 } });
+    if (!validation.valid) throw new TypeError(validation.errors.map(error => `${error.path}: ${error.message}`).join('; '));
     if (!p.viewport || !Number.isInteger(p.viewport.width) || !Number.isInteger(p.viewport.height) || p.viewport.width < 1 || p.viewport.height < 1 || p.viewport.width > 4096 || p.viewport.height > 4096) throw new TypeError('Profile viewport dimensions must be integers in 1..4096');
     const journeyNames = new Set();
     if (!Array.isArray(p.journeys ?? []) || (p.journeys ?? []).length > 16) throw new TypeError('Supply at most 16 named journeys');
@@ -48,11 +60,16 @@ export async function inspectProject({ url, outputDir, profiles = defaults, prev
   if (typeof outputDir !== 'string' || !outputDir.trim()) throw new TypeError('A new outputDir is required');
   validateProfiles(profiles);
   const previous = previousSnapshotPath ? await readProjectJson(previousSnapshotPath) : undefined;
-  if (previous && (previous.version !== 1 || previous.kind !== 'ingenium-project' || !Array.isArray(previous.pages) || previous.pages.length > 16 || previous.route !== target.pathname + target.search + target.hash)) throw new TypeError('Previous snapshot must describe the same route with at most 16 captured states');
+  if (previousSnapshotPath && (!previous || typeof previous !== 'object')) throw new TypeError('Previous snapshot must be an object');
+  if (previous && (Object.keys(previous).some(key => !['version', 'kind', 'route', 'pages'].includes(key)) || previous.version !== 1 || previous.kind !== 'ingenium-project' || !Array.isArray(previous.pages) || previous.pages.length > 16 || previous.route !== target.pathname + target.search + target.hash)) throw new TypeError('Previous snapshot must describe the same route with at most 16 captured states');
   if (previous) {
     const keys = previous.pages.map(p => hashIdentity(p.scope));
     if (new Set(keys).size !== keys.length) throw new TypeError('Previous snapshot contains duplicate scopes');
-    for (const p of previous.pages) compareInventories(p.inventory, p.inventory);
+    for (const p of previous.pages) {
+      if (!p || Object.keys(p).some(key => !['scope', 'planHash', 'inventory'].includes(key)) || !p.scope || Object.keys(p.scope).some(key => !['profile', 'state'].includes(key))) throw new TypeError('Previous snapshot has unsupported nested fields');
+      const validated = validateInspectionSnapshot({ schema: 'ingenium-inspection-snapshot/2', originIdentity: hashIdentity({ origin: target.origin }), planHash: '0'.repeat(64), cells: [{ routeId: 'legacy', normalizedURL: target.href, scope: { route: 'legacy', ...p.scope, phase: 'after-state-before-journeys' }, planHash: p.planHash, inventory: p.inventory, captured: true }] });
+      if (!validated.valid) throw new TypeError(validated.errors[0].message);
+    }
   }
   const destination = resolve(outputDir);
   await mkdir(destination); await mkdir(join(destination, 'raw')); await mkdir(join(destination, 'views'));
@@ -97,3 +114,8 @@ export async function inspectProject({ url, outputDir, profiles = defaults, prev
   await writeJson(files.snapshot, snapshot); await writeJson(files.report, report); await writeJson(files.summary, summary);
   return summary;
 }
+
+export { validateInspectionPlan };
+export { inspectProjectSet } from './inspect-set.mjs';
+export { validateInspectionSnapshot };
+export { renderInspectionReport, writeInspectionReport } from './report.mjs';

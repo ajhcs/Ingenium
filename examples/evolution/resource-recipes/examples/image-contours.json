@@ -1,0 +1,13 @@
+{
+  "id": "image-contours",
+  "kind": "imagery",
+  "title": "Topographic contours",
+  "description": "Layered original closed terrain contours",
+  "original": {
+    "accent": "#DA5C18",
+    "detail": "ridge"
+  },
+  "edit": {
+    "accent": "#9a3f12"
+  }
+}

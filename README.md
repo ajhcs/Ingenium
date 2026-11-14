@@ -4,7 +4,15 @@
 
 Ingenium is a creative skill for Codex and Claude, with a guided route for ChatGPT. Bring a rough idea, a reference, or a design already in progress. Explore its ingredients, make choices about composition and materials, and refine an assembly you can continue to edit.
 
-[Get started](#get-started) · [Explore the process](#a-design-you-can-shape) · [Thirteen studies](#thirteen-studies) · [Client setup](docs/install.md) · [Live demos](https://ajhcs.github.io/Ingenium/)
+[Start and install](docs/install.md) · [Quickstart](docs/quickstart.md) · [Client compatibility](docs/compatibility.md) · [Studies](#thirteen-studies)
+
+## Start with a real task
+
+Choose an editable [engineering graphic](examples/evolution/engineering-graphic/README.md), [technical document](examples/evolution/document/README.md), or [small website](examples/evolution/website/README.md). Each fictional Field Station example includes sources and continuation notes.
+
+Ask Ingenium: “Create an editable engineering overview titled Field Station, dated 18 April 2030, with the invitation ‘Review the revised system.’ Show Sensor → Controller → Display.” Then ask: “Change only the title treatment. Preserve the exact wording, date, invitation, component labels, and connection directions.” [Follow the quickstart](docs/quickstart.md). A simple request needs no form or project store.
+
+Install the standalone guidance using the [client setup guide](docs/install.md). Prepared core and inspection archives are optional and separate; their availability depends on the actual prepared artifact manifest. The current `0.2.0-alpha.1` candidate is not represented here as a published release. The [compatibility record](docs/compatibility.md) distinguishes observed Codex CLI behavior from client routes not yet tested.
 
 ## A design you can shape
 
@@ -391,37 +399,7 @@ These are reusable prompts written for this README, not transcripts of the histo
 
 ## Get started
 
-The creative guidance needs no Node runtime, server or API key of its own. Your client supplies the model and file tools. The optional terminal installer uses Node/npm; [manual installation](docs/install.md#manual-install-without-node) does not.
-
-### Codex app or CLI
-
-Run in the project where you want to use Ingenium:
-
-```sh
-npx skills@1.7.2 add ajhcs/Ingenium --skill ingenium --agent codex
-```
-
-Open a fresh Codex conversation in that project, confirm Ingenium appears in the skill picker, and invoke **`$ingenium`** with your brief.
-
-### Claude Code
-
-Run in your project:
-
-```sh
-npx skills@1.7.2 add ajhcs/Ingenium --skill ingenium --agent claude-code
-```
-
-Start Claude Code there, check `/skills`, and use **`/ingenium`** with your brief. Both commands use the third-party [Vercel skills installer](https://github.com/vercel-labs/skills) and install project-local guidance. Review its prompt before confirming; it can replace an existing skill of the same name. See [update, remove and troubleshooting](docs/install.md#update-or-remove).
-
-### ChatGPT
-
-Without custom skill upload, copy the [Ingenium instructions](skills/ingenium/SKILL.md) into your conversation, then add your brief. If a named reference is needed, attach that file from the [guidance ZIP](https://github.com/ajhcs/Ingenium/raw/refs/heads/main/site/assets/downloads/ingenium-skill.zip). This uses the instructions in that conversation; it does not install a persistent skill.
-
-If your workspace has custom Skills enabled, use **Plugins → Skills → Create → Upload from your computer**. Do not assume a personal Pro subscription includes this feature. See [workspace eligibility and setup](docs/install.md#chatgpt).
-
-### Claude chat
-
-[Download the guidance ZIP](https://github.com/ajhcs/Ingenium/raw/refs/heads/main/site/assets/downloads/ingenium-skill.zip), then go to **Customize → Skills → + → Create skill → Upload a skill**. Upload the ZIP, enable Ingenium and start a new chat with “Use Ingenium.” Code execution and file creation must be enabled. See [Claude chat setup](docs/install.md#claude-chat).
+Use the [installation guide](docs/install.md) to select guidance and optional helpers, then follow the [first task](docs/quickstart.md). The standalone skill needs no Node runtime, server or API key of its own. Your client supplies its model and file tools; optional helpers require Node 22 or later. Client-specific evidence and remaining tests are in [compatibility](docs/compatibility.md).
 
 ## More ways to work
 

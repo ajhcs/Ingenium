@@ -1,0 +1,59 @@
+{
+  "schema": "ingenium-cse-selected-source/1",
+  "sourceRelease": "0.2.0-alpha.8",
+  "catalogSHA256": "1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+  "sourcePath": "assets/engineering-library/components/mech-rotation.svg",
+  "sourceNotice": "LICENSE",
+  "noticeSHA256": "cf0749c76303222ba5cdf97e6d2fd75b60adf6027f9b7e9c031899e583727fa6",
+  "entry": {
+    "id": "mech-rotation",
+    "name": "Rotation",
+    "category": "motion",
+    "treatment": "simplified schematic",
+    "meaning": "A disc with a curved arrow indicates rotation about its center.",
+    "limitations": "Direction is an example, not measured motion.",
+    "file": "components/mech-rotation.svg",
+    "sources": [
+      "local-palette"
+    ],
+    "origin": "mechanical-documents",
+    "domain": "Mechanical and structural",
+    "serial": "M036",
+    "status": "proposed; earlier domain study",
+    "source_study": "domain-iconography-01",
+    "edit_status": "retained",
+    "edit_reason": "Preserve the baseline view and its described meaning; BASE02 package artwork is byte-identical.",
+    "projection": "flat schematic or functional pictogram",
+    "style_variant": "clean or unchanged",
+    "source_owner": "group-em",
+    "queue_route": "REFINE_2D",
+    "caption_dependent": false,
+    "prior_approval_state": "proposed",
+    "approval_state": "proposed",
+    "family": "Mechanical and structural",
+    "mapping": {
+      "principle": "functions and operational behavior",
+      "sysml_v2": [
+        "ActionDefinition",
+        "ActionUsage"
+      ],
+      "sysml_v1": [
+        "Activity",
+        "Action"
+      ],
+      "cse_skills": [
+        "develop-operational-scenarios",
+        "develop-system-architecture"
+      ],
+      "relation": "applicable modeling context; explicit model binding required",
+      "formal_sysml_glyph": false,
+      "rationale": "The drawing may illustrate a declared action; it specifies neither execution order nor control semantics."
+    },
+    "sha256": "e238137ea509366ea3c9ba829a443dbf366e2627047fe769576611714c63c601",
+    "source_file": "icons/domain/mech-rotation.svg",
+    "source_package": "engineering-palette-complete-05",
+    "children": []
+  },
+  "qualification": "source-only; strict SVG admission, selected edit/export/reopen/handoff not yet established",
+  "identityNote": "Artwork ID is separate from model and diagram instance IDs."
+}

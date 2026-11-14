@@ -305,5 +305,43 @@
         "scope": "Metadata bundled, no pixels redistributed. Explicit selected user-local acquisition; full custom terms permit use/modification and prohibit republishing as icon packs/libraries/templates/generators."
       }
     ]
+  },
+  "selectedEvolutionResources": {
+    "cseArtwork": {
+      "sourceRelease": "0.2.0-alpha.8",
+      "catalogSHA256": "1a75aae3836202b203f08936d1e6d3f6745c124fd431a24cbe1c26d7f38628c6",
+      "source": "https://github.com/ajhcs/computable-systems-engineering",
+      "license": "MIT",
+      "notice": "src/resources/packs/cse-selected/LICENSE",
+      "provenance": "src/resources/packs/cse-selected/source.json",
+      "limits": "Selected source artwork and retained semantics; no native model binding or engineering acceptance inferred."
+    },
+    "cseFonts": {
+      "sourceRelease": "0.2.0-alpha.8",
+      "source": "https://github.com/ajhcs/computable-systems-engineering",
+      "license": "OFL-1.1",
+      "notices": [
+        "src/resources/packs/cse-fonts/inter-OFL.txt",
+        "src/resources/packs/cse-fonts/space-OFL.txt"
+      ],
+      "provenance": "src/resources/packs/cse-fonts/manifest.json",
+      "limits": "Unmodified selected Inter and Space Grotesk files; glyph and rendered-font qualification is separate from family labels."
+    },
+    "liberationSans": {
+      "source": "https://cran.r-project.org/package=fontLiberation",
+      "retainedDistribution": "fontLiberation 0.1.0 local data",
+      "binaryVersion": "2.00.1",
+      "license": "OFL-1.1",
+      "notice": "src/resources/packs/liberation-sans/LICENSE",
+      "provenance": "src/resources/packs/liberation-sans/manifest.json",
+      "limits": "Exact retained binary hashes; upstream distribution identity not independently verified."
+    },
+    "originalRecipes": {
+      "license": "MIT",
+      "notice": "examples/evolution/resource-recipes/LICENSE",
+      "source": "examples/evolution/resource-recipes/catalog.json",
+      "additionalNotice": "examples/evolution/CSE-LICENSE.txt",
+      "limits": "Original synthetic document, chart, diagram and illustration recipes with selected CSE palette references. No copied private design brief."
+    }
   }
 }

@@ -6,3 +6,6 @@ src/resources/packs/*/icons.data -diff
 examples/source-synthesis/matched/*/inspector.html -text whitespace=-blank-at-eol
 # Preserve the supplied font notices, including their original line endings.
 examples/process/fonts/*/*.txt -text whitespace=-blank-at-eol,-blank-at-eof
+
+# Preserve the exact retained third-party notice bytes, including its final blank line.
+src/resources/packs/liberation-sans/LICENSE -whitespace

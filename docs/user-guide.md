@@ -1,29 +1,27 @@
 # Ingenium user guide
 
+Start with [Field Station](quickstart.md): create, compare, revise, review or continue in ordinary language. The graphic, document and website provide editable sources and continuation notes. Structured records and checks are optional when the task calls for them.
+
 Ingenium is an experimental portable creative workflow. It helps explore a direction, make editable studies, react to them and preserve scoped choices for later revision. It can start from a question, an existing artifact, or an impression such as “this feels too corporate.” That impression is a useful clue, not a complete specification.
 
 The workflow is [a readable skill](../skills/ingenium/SKILL.md). Optional Node helpers add selected resources, records, SVG export and bounded checks. There is no required server, backend or account connection. The host client still supplies its own model and tools.
 
 ## Installation and discovery
 
-Follow the [platform setup guide](install.md) for exact Codex app/CLI, Claude Code, ChatGPT and Claude chat routes, including manual installation, first invocation, updates and removal. Standalone skill installation supplies guidance and references; optional helpers below require a separate full checkout or helper tarball. Actual desktop discovery and chat upload remain unverified here.
+Follow [installation](install.md) for the standalone guidance and optional prepared archives. A manual project-local source-copy lifecycle was observed in Codex CLI 0.169.0. Desktop, Claude Code, ChatGPT and Claude chat routes have separate outstanding tests; see [compatibility](compatibility.md). Installing helpers does not register the skill with a client.
 
-### Local tarball for Node helpers
+### Prepared Node helpers
 
-The package declares `private: true`. Use a local checkout or tarball; these instructions do not rely on an npm registry publication. With Node 22+ and npm, run from the checkout. Choose new owned consumer/output directories; use different names if these paths already contain your work.
+The optional **core** archive supplies the `ingenium` command and core modules. The smaller **inspection** companion supplies `ingenium-tools`; browser adapters remain separately selected. Both need Node 22+ and neither is necessary for a simple conversation. The prepared archive filenames are `core-tools-0.2.0-alpha.1.tgz` and `inspection-tools-0.2.0-alpha.1.tgz` for a clean candidate; development builds include a `-development-<buildId>` suffix. Use the exact paths and hashes in the provided `artifacts.json`. Preparation is local and does not itself publish those files.
+
+With a supplied archive and a chosen consumer directory, install without a clone, registry lookup or install scripts:
 
 ```sh
-mkdir -p work/helper-consumer work/npm-cache
-printf '%s\n' '{"name":"ingenium-local-consumer","private":true,"version":"1.0.0","type":"module"}' > work/helper-consumer/package.json
-npm pack --offline --ignore-scripts --cache "$PWD/work/npm-cache" --pack-destination "$PWD/work"
-npm install --prefix "$PWD/work/helper-consumer" --offline --ignore-scripts --omit=optional --cache "$PWD/work/npm-cache" "$PWD/work/ajhcs-ingenium-0.1.0.tgz"
-node work/helper-consumer/node_modules/@ajhcs/ingenium/bin/ingenium.mjs check work/helper-consumer/node_modules/@ajhcs/ingenium/examples/records/poster.json
-node work/helper-consumer/node_modules/@ajhcs/ingenium/examples/composition/listening-garden.mjs "$PWD/work/listening-garden"
+npm install --prefix /path/to/consumer --offline --ignore-scripts --omit=optional /absolute/path/to/core-tools-0.2.0-alpha.1.tgz
+/path/to/consumer/node_modules/.bin/ingenium version --json
 ```
 
-Use the archive filename printed by npm if the package version changes. The consumer has its own manifest, explicit absolute installation prefix and cache. This route omits optional dependencies and does not access the registry or run install scripts. The last command creates a new editable SVG study and layout record; its output directory must not already exist. `check` validates the decision record, not the generated layout or aesthetic quality.
-
-Installing a tarball supplies local helpers; it does not register a plugin in a client. If a client supports a local plugin directory, the installed package root is `work/helper-consumer/node_modules/@ajhcs/ingenium`. Verify discovery separately. Keep generated work outside the installed package. For PNG export, set up or explicitly select a separate optional renderer as described below.
+For inspection, substitute the supplied `inspection-tools` archive and run `ingenium-tools version --json`. Use the actual filename from the manifest, especially for development builds. The core archive contains helper code and provider metadata; selected data packs and editable examples are separate. See [tools](tools.md) for inspection capabilities and [installation](install.md#optional-prepared-helpers) for details. No npm registry publication is required or claimed.
 
 ### Optional renderer
 
@@ -42,7 +40,7 @@ For example, “Keep the open layout for this invitation; explore a less formal 
 
 A question, text comparison, visual fragment, specification or finished artifact can each be sufficient. Common study types include publication covers, posters, identity explorations, responsive HTML/CSS pages and wayfinding studies. Available tools determine which exports and reviews can actually be performed.
 
-The exact [showcased study snapshots](../examples/release/README.md) preserve the V3 publication, identity and wayfinding sources and the V2 website. The separately retained [earlier worked examples](../examples/worked/README.md) have original synthetic publication, website, identity and wayfinding generators. The commands below generate that earlier tranche, not the showcased V3 snapshots. These generators use Node built-ins and local fonts. Run from the package root with a new output directory and an existing parent, for example:
+The exact [showcased study snapshots](../examples/release/README.md) preserve the V3 publication, identity and wayfinding sources and the V2 website. The separately retained [earlier worked examples](../examples/worked/README.md) have original synthetic publication, website, identity and wayfinding generators. The commands below generate that earlier tranche, not the showcased V3 snapshots. These generators use Node built-ins and local fonts. They are not in the prepared core helper: use a full source checkout or a separately supplied complete study source with its dependencies. From the source root, choose a new output directory and an existing parent, for example:
 
 ```sh
 mkdir -p work
@@ -76,6 +74,6 @@ The [record format](../skills/ingenium/references/record-contract.md) distinguis
 
 ## Status and rights
 
-Current package version: experimental 0.1.0. “V3” identifies a development study tranche; it is not a semantic package version or a claim of general release qualification. Optional Node helpers target Node 22+. Actual desktop discovery and broad cross-client/browser qualification remain unverified.
+Current source candidate: experimental 0.2.0-alpha.1. The immutable 0.1.0 preview is historical; it is not this candidate. “V3” identifies a development study tranche; it is not a semantic package version or a claim of general release qualification. Optional Node helpers target Node 22+. Actual desktop discovery and broad cross-client/browser qualification remain unverified.
 
 Original code and synthetic artwork use [MIT](../LICENSE). Retained third-party resources have separate terms: see [third-party notices](../THIRD_PARTY_NOTICES.md), [component identities](../THIRD_PARTY.json) and [worked-study font notices](../examples/worked/fonts/FONT-NOTICES.txt). Resource availability does not itself establish that a particular use is legally sufficient.
