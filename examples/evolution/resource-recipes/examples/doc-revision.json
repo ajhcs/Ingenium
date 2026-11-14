@@ -1,0 +1,30 @@
+{
+  "id": "doc-revision",
+  "kind": "document",
+  "title": "Revision history",
+  "description": "Issue and change history",
+  "original": {
+    "rows": [
+      [
+        "A",
+        "Initial issue"
+      ],
+      [
+        "B",
+        "Diagram revised"
+      ]
+    ]
+  },
+  "edit": {
+    "rows": [
+      [
+        "A",
+        "Initial issue"
+      ],
+      [
+        "B",
+        "Diagram and caption revised"
+      ]
+    ]
+  }
+}

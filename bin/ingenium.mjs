@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 import { readFile, realpath, mkdir, writeFile } from 'node:fs/promises';
-import { fileURLToPath } from 'node:url';
 import { dirname, resolve, join } from 'node:path';
+import { executeCli, runBinary, isEntrypoint } from '../src/cli/runtime.mjs';
+import { dispatchModern } from '../src/cli/dispatch.mjs';
 
-export async function main(args, write = value => console.log(JSON.stringify(value, null, 2))) {
+async function legacyMain(args, write) {
   const [command, ...rest] = args;
   const selector = values => values.length === 0 ? {} : values.length === 2 && ['--sharp-module', '--renderer-dir'].includes(values[0])
     ? { [values[0] === '--sharp-module' ? 'sharpModule' : 'rendererDir']: values[1] } : null;
@@ -163,10 +164,12 @@ export async function main(args, write = value => console.log(JSON.stringify(val
     }
     write({ error: 'Usage: ingenium catalog|svg-pack|font-pack|atomic|shapes|palettes|library|items|ui|materials (see resource-libraries reference) | capabilities [--renderer-dir DIR | --sharp-module MODULE] | check RECORD.json | render SOURCE.svg OUTPUT.png [--renderer-dir DIR | --sharp-module MODULE] | review FIXTURE.json NEW_OUTPUT_DIR [--adapter-dir DIR] [--executable-path FILE] [--renderer-dir DIR] [--previous REPORT.json]' });
     return 2;
-  } catch (error) {
-    write({ error: error.message, ...(error.code ? { code: error.code } : {}), ...(error.setup ? { setup: error.setup } : {}) });
-    return 1;
-  }
+  } catch (error) { throw error; }
 }
 
-if (process.argv[1] && fileURLToPath(import.meta.url) === await realpath(process.argv[1])) process.exitCode = await main(process.argv.slice(2));
+export async function main(args, write, { signal } = {}) {
+  return executeCli(args, write, { signal, dispatch: (parsed, emit) => parsed.modern
+    ? dispatchModern(parsed, emit, { signal }) : legacyMain(parsed.args, emit) });
+}
+
+if (await isEntrypoint(import.meta.url)) process.exitCode = await runBinary(main, process.argv.slice(2));

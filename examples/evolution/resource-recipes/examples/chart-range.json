@@ -1,0 +1,45 @@
+{
+  "id": "chart-range",
+  "kind": "chart",
+  "title": "Interval chart",
+  "description": "Lower and upper bounds by option",
+  "original": {
+    "unit": "minutes",
+    "data": [
+      [
+        "A",
+        10,
+        18
+      ],
+      [
+        "B",
+        14,
+        24
+      ],
+      [
+        "C",
+        8,
+        15
+      ]
+    ]
+  },
+  "edit": {
+    "data": [
+      [
+        "A",
+        10,
+        18
+      ],
+      [
+        "B",
+        14,
+        22
+      ],
+      [
+        "C",
+        8,
+        15
+      ]
+    ]
+  }
+}

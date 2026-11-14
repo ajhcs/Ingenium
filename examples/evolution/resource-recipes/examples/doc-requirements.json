@@ -1,0 +1,34 @@
+{
+  "id": "doc-requirements",
+  "kind": "document",
+  "title": "Requirements register",
+  "description": "Requirement IDs with verification methods",
+  "original": {
+    "rows": [
+      [
+        "REQ-01",
+        "Display reading",
+        "Inspection"
+      ],
+      [
+        "REQ-02",
+        "Label connections",
+        "Review"
+      ]
+    ]
+  },
+  "edit": {
+    "rows": [
+      [
+        "REQ-01",
+        "Display reading",
+        "Inspection"
+      ],
+      [
+        "REQ-02",
+        "Label connections",
+        "Demonstration"
+      ]
+    ]
+  }
+}

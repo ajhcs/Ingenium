@@ -1,0 +1,722 @@
+{
+  "schema": "ingenium-resource-baseline/1",
+  "status": "bounded-recovered-evidence-independently-reviewed",
+  "count": 35,
+  "records": [
+    {
+      "id": "radix-blue-light",
+      "family": "palette",
+      "sourceSHA256": "01862cc2b3c61bc4d7724d764b919124ae83fb2b00c0aaa55bf9c7d94557459f",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-blue-dark",
+      "family": "palette",
+      "sourceSHA256": "6a27324f2ad7d53649d40bddfd397db276d4fad8626945fd54d903190ba58c23",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-gray-light",
+      "family": "palette",
+      "sourceSHA256": "254092c943058abe44b2405b97385737d8577b52195569e35830b8830bf288bb",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-gray-dark",
+      "family": "palette",
+      "sourceSHA256": "f6b0d39917f70f87bfc208ed0cedb407314669e3ca298d34a750ec0da6e99bc1",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-red-light",
+      "family": "palette",
+      "sourceSHA256": "b6ff5723edb3161efb8e0217ee373d0d4f844f63f921f0fd88fe970754a9b7a2",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-red-dark",
+      "family": "palette",
+      "sourceSHA256": "c65a4340bf310a3f37473a2db1986ec0e7af35fb41541f63b10364240c7825e1",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-amber-light",
+      "family": "palette",
+      "sourceSHA256": "18ec7c43c6f21b3747aeecbac362ae0096dabef0a9f68095f676b57be7af6150",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-amber-dark",
+      "family": "palette",
+      "sourceSHA256": "b1f84ce5cb8336b54c926c78bb89787df56d2bbe277dcd6a453d16d074d74013",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-green-light",
+      "family": "palette",
+      "sourceSHA256": "65e22a890eeacb3ac9853430fdd0233f0b86bcaa74a786763fb3069d283d95aa",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-green-dark",
+      "family": "palette",
+      "sourceSHA256": "2cebb00388fd84a41e39c51c184293b8cf2eeeb4424946e7fa6f9aba9b2b5dec",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-teal-light",
+      "family": "palette",
+      "sourceSHA256": "3d29355081895911aa99d4fd53cd50cf6ed1aac381341507be2d471bbedfd083",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-teal-dark",
+      "family": "palette",
+      "sourceSHA256": "56a7e2e6738018c69ceae81581ac76ea65df3691b5e049a7d73ce44ed3f2b4e3",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-violet-light",
+      "family": "palette",
+      "sourceSHA256": "9cea56f1c78c2d0c7e3050facb62f39dec761dd711cb11a09538da9435225c6f",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-violet-dark",
+      "family": "palette",
+      "sourceSHA256": "d5e78921fc90422e160cce26276485cc4aae85f86b3691ac94c00df1c631fc70",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-slate-light",
+      "family": "palette",
+      "sourceSHA256": "bb43cc7c9d444eead943972afb8926e73878b2df5b98f06f6e8b46c6d2e662d8",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "radix-slate-dark",
+      "family": "palette",
+      "sourceSHA256": "a51e5cba0956c571c878a698db438209c652c5775e88eabc80f5ab6af34281bd",
+      "revision": "@radix-ui/colors 3.0.0",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed selection, token edit, serialization, computed browser values and offline repeat; no DeliveryV1 implied."
+    },
+    {
+      "id": "bulma-button",
+      "family": "web",
+      "sourceSHA256": "67fa26df1ca9e95d8f2adc7c04fa1b15fa3d24257470ebc10cc68b9aab914bee",
+      "revision": "bulma 1.0.4 plus authored wrapper",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed edited controls, offline reacquisition and browser interaction; CSS hash shared across distinct wrappers."
+    },
+    {
+      "id": "bulma-input",
+      "family": "web",
+      "sourceSHA256": "67fa26df1ca9e95d8f2adc7c04fa1b15fa3d24257470ebc10cc68b9aab914bee",
+      "revision": "bulma 1.0.4 plus authored wrapper",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed edited controls, offline reacquisition and browser interaction; CSS hash shared across distinct wrappers."
+    },
+    {
+      "id": "bulma-dialog",
+      "family": "web",
+      "sourceSHA256": "67fa26df1ca9e95d8f2adc7c04fa1b15fa3d24257470ebc10cc68b9aab914bee",
+      "revision": "bulma 1.0.4 plus authored wrapper",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed edited controls, offline reacquisition and browser interaction; CSS hash shared across distinct wrappers."
+    },
+    {
+      "id": "bulma-select",
+      "family": "web",
+      "sourceSHA256": "67fa26df1ca9e95d8f2adc7c04fa1b15fa3d24257470ebc10cc68b9aab914bee",
+      "revision": "bulma 1.0.4 plus authored wrapper",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed edited controls, offline reacquisition and browser interaction; CSS hash shared across distinct wrappers."
+    },
+    {
+      "id": "bulma-notification",
+      "family": "web",
+      "sourceSHA256": "67fa26df1ca9e95d8f2adc7c04fa1b15fa3d24257470ebc10cc68b9aab914bee",
+      "revision": "bulma 1.0.4 plus authored wrapper",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed edited controls, offline reacquisition and browser interaction; CSS hash shared across distinct wrappers."
+    },
+    {
+      "id": "bulma-tabs",
+      "family": "web",
+      "sourceSHA256": "67fa26df1ca9e95d8f2adc7c04fa1b15fa3d24257470ebc10cc68b9aab914bee",
+      "revision": "bulma 1.0.4 plus authored wrapper",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed edited controls, offline reacquisition and browser interaction; CSS hash shared across distinct wrappers."
+    },
+    {
+      "id": "open-props-gradient-4",
+      "family": "material",
+      "sourceSHA256": "906302fc41c9e0215c28f033a1570daf318dd7695a175c06ce43e29844c09108",
+      "revision": "open-props 1.7.23 selected declaration",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed edited output, actual browser render, original/notice and offline reacquisition."
+    },
+    {
+      "id": "open-props-gradient-8",
+      "family": "material",
+      "sourceSHA256": "2d88f37ca6b77887a9ed0fe9e1e7d9cbac89c9581f43da8ae4e87167fea38793",
+      "revision": "open-props 1.7.23 selected declaration",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed edited output, actual browser render, original/notice and offline reacquisition."
+    },
+    {
+      "id": "open-props-noise-1",
+      "family": "material",
+      "sourceSHA256": "2e61612f531cc08085e7d1c9684373fe50fe18f3b41f2ddce8a0964e4d222369",
+      "revision": "open-props 1.7.23 selected declaration",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/installed-proof/RESULTS.json",
+          "sha256": "43057595aaea14b078c63e8a5907e7f5aaab5450196505be291317cd86e74c9c"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Installed edited output, actual browser render, original/notice and offline reacquisition."
+    },
+    {
+      "id": "open-sans-400",
+      "family": "font",
+      "sourceSHA256": "0e44026ad31376af1b56593cd4acb4f353f8e8789c51759e18f64578e4ef296a",
+      "revision": "@fontsource/open-sans 5.3.0",
+      "notice": "OFL-1.1",
+      "evidence": [
+        {
+          "name": "library-fonts-v3-20261017/QUALIFICATION.json",
+          "sha256": "78f7cf25066bd1596919eaeac0febabb272ef11c9f8eb8a5105533e17b635446"
+        },
+        {
+          "name": "library-fonts-v3-20261017/RENDER-PROOF.json",
+          "sha256": "d7d3fdd611bdf2554866c5c4bcb5edfcb4c90773a0f6207c928139e6e5ada4d8"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Selected CSS/binary and notice, custom font glyph rendering, edited specimen and offline repeat."
+    },
+    {
+      "id": "open-sans-700",
+      "family": "font",
+      "sourceSHA256": "594a622208d1dad5d1dd58aef74f212ce7132d8f0aa5bacea6cfeb86d308c17a",
+      "revision": "@fontsource/open-sans 5.3.0",
+      "notice": "OFL-1.1",
+      "evidence": [
+        {
+          "name": "library-fonts-v3-20261017/QUALIFICATION.json",
+          "sha256": "78f7cf25066bd1596919eaeac0febabb272ef11c9f8eb8a5105533e17b635446"
+        },
+        {
+          "name": "library-fonts-v3-20261017/RENDER-PROOF.json",
+          "sha256": "d7d3fdd611bdf2554866c5c4bcb5edfcb4c90773a0f6207c928139e6e5ada4d8"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Selected CSS/binary and notice, custom font glyph rendering, edited specimen and offline repeat."
+    },
+    {
+      "id": "open-sans-400-italic",
+      "family": "font",
+      "sourceSHA256": "3b50909a098195a8a3fda73fe29c260724e6f9ca624dd750cb8af7cb0c9198e2",
+      "revision": "@fontsource/open-sans 5.3.0",
+      "notice": "OFL-1.1",
+      "evidence": [
+        {
+          "name": "library-fonts-v3-20261017/QUALIFICATION.json",
+          "sha256": "78f7cf25066bd1596919eaeac0febabb272ef11c9f8eb8a5105533e17b635446"
+        },
+        {
+          "name": "library-fonts-v3-20261017/RENDER-PROOF.json",
+          "sha256": "d7d3fdd611bdf2554866c5c4bcb5edfcb4c90773a0f6207c928139e6e5ada4d8"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Selected CSS/binary and notice, custom font glyph rendering, edited specimen and offline repeat."
+    },
+    {
+      "id": "fraunces-400",
+      "family": "font",
+      "sourceSHA256": "e558f39453a9c611908be04294b50dea5f21ae6c49b41c6e47f4115e91f90209",
+      "revision": "@fontsource/fraunces 5.3.0",
+      "notice": "OFL-1.1",
+      "evidence": [
+        {
+          "name": "library-fonts-v3-20261017/QUALIFICATION.json",
+          "sha256": "78f7cf25066bd1596919eaeac0febabb272ef11c9f8eb8a5105533e17b635446"
+        },
+        {
+          "name": "library-fonts-v3-20261017/RENDER-PROOF.json",
+          "sha256": "d7d3fdd611bdf2554866c5c4bcb5edfcb4c90773a0f6207c928139e6e5ada4d8"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Selected CSS/binary and notice, custom font glyph rendering, edited specimen and offline repeat."
+    },
+    {
+      "id": "fraunces-700",
+      "family": "font",
+      "sourceSHA256": "c38570d224b830056e69484bb9e768e1d3fa7ba4755c8891a3c6d366194d2ff3",
+      "revision": "@fontsource/fraunces 5.3.0",
+      "notice": "OFL-1.1",
+      "evidence": [
+        {
+          "name": "library-fonts-v3-20261017/QUALIFICATION.json",
+          "sha256": "78f7cf25066bd1596919eaeac0febabb272ef11c9f8eb8a5105533e17b635446"
+        },
+        {
+          "name": "library-fonts-v3-20261017/RENDER-PROOF.json",
+          "sha256": "d7d3fdd611bdf2554866c5c4bcb5edfcb4c90773a0f6207c928139e6e5ada4d8"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Selected CSS/binary and notice, custom font glyph rendering, edited specimen and offline repeat."
+    },
+    {
+      "id": "fraunces-400-italic",
+      "family": "font",
+      "sourceSHA256": "475b154af19c6b4ef371db22078b5044a078ce2467e11ef22a7b87f77837caf3",
+      "revision": "@fontsource/fraunces 5.3.0",
+      "notice": "OFL-1.1",
+      "evidence": [
+        {
+          "name": "library-fonts-v3-20261017/QUALIFICATION.json",
+          "sha256": "78f7cf25066bd1596919eaeac0febabb272ef11c9f8eb8a5105533e17b635446"
+        },
+        {
+          "name": "library-fonts-v3-20261017/RENDER-PROOF.json",
+          "sha256": "d7d3fdd611bdf2554866c5c4bcb5edfcb4c90773a0f6207c928139e6e5ada4d8"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Selected CSS/binary and notice, custom font glyph rendering, edited specimen and offline repeat."
+    },
+    {
+      "id": "tabler-sun",
+      "family": "symbol",
+      "sourceSHA256": "98cbe5d5d130a6e37d8d506dffc70261bf6f53abacf195b92aeebacf528d095d",
+      "revision": "@iconify-json/tabler 1.2.42",
+      "notice": "MIT",
+      "evidence": [
+        {
+          "name": "library-symbols-v3-20261017/COLLECTION-QUALIFICATION.json",
+          "sha256": "6132760541572fd65c4216aa4ab3823fa792b82adf022455f9b9b5183bc54382"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Selected source, colored derivative, full notice, repeat and rendered proof. Other sun illustrations excluded from conservative count as duplicate concept."
+    },
+    {
+      "id": "fluent-seedling",
+      "family": "illustration",
+      "sourceSHA256": "78f4821c2a73d68fd2d248cb313b6532e5307dfd91b2e9caff77afa88fd7c983",
+      "revision": "@iconify-json/fluent-emoji-flat 1.2.6",
+      "notice": "Microsoft MIT snapshot",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/ILLUSTRATIONS-INSTALLED.json",
+          "sha256": "1555c754134f711e3e5f8261cd3915301b3d6118c1864294eef6886f7f65baee"
+        },
+        {
+          "name": "library-resources-v3-20261017/ILLUSTRATIONS-INSTALLED-BINDING.json",
+          "sha256": "ebc7c8edc9c32d2f1397d0e780708027c43c816dd18c3fc49ceab65c68f5e0b1"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Selected recolor, exact original and notices, offline repeat and rendered binding; upstream artwork-release binding unknown."
+    },
+    {
+      "id": "fluent-books",
+      "family": "illustration",
+      "sourceSHA256": "359a4437bedd26a1203bae7890cbf7cf017e3e194ea3853025f1e0969b5cbe84",
+      "revision": "@iconify-json/fluent-emoji-flat 1.2.6",
+      "notice": "Microsoft MIT snapshot",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/ILLUSTRATIONS-INSTALLED.json",
+          "sha256": "1555c754134f711e3e5f8261cd3915301b3d6118c1864294eef6886f7f65baee"
+        },
+        {
+          "name": "library-resources-v3-20261017/ILLUSTRATIONS-INSTALLED-BINDING.json",
+          "sha256": "ebc7c8edc9c32d2f1397d0e780708027c43c816dd18c3fc49ceab65c68f5e0b1"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Selected recolor, exact original and notices, offline repeat and rendered binding; upstream artwork-release binding unknown."
+    },
+    {
+      "id": "fluent-artist-palette",
+      "family": "illustration",
+      "sourceSHA256": "cc42a057ab842c9b462d7dadca2c10b09f81b41ac3f2aecfe4d7b56008eb1642",
+      "revision": "@iconify-json/fluent-emoji-flat 1.2.6",
+      "notice": "Microsoft MIT snapshot",
+      "evidence": [
+        {
+          "name": "library-resources-v3-20261017/ILLUSTRATIONS-INSTALLED.json",
+          "sha256": "1555c754134f711e3e5f8261cd3915301b3d6118c1864294eef6886f7f65baee"
+        },
+        {
+          "name": "library-resources-v3-20261017/ILLUSTRATIONS-INSTALLED-BINDING.json",
+          "sha256": "ebc7c8edc9c32d2f1397d0e780708027c43c816dd18c3fc49ceab65c68f5e0b1"
+        }
+      ],
+      "status": "historically-demonstrated",
+      "scope": "Selected recolor, exact original and notices, offline repeat and rendered binding; upstream artwork-release binding unknown."
+    }
+  ],
+  "held": [
+    {
+      "group": "DaisyUI atomic 26",
+      "count": 26,
+      "receipt": {
+        "name": "ui-atomic-20261017/HANDOFF.json",
+        "sha256": "4144b0d26c1aa3364de61c8995fc2e77673201659b633c24800fc089b476be73"
+      },
+      "reason": "Checkout proof only; installed-consumer and independent review were explicitly pending.",
+      "ids": [
+        "button",
+        "disclosure",
+        "dropdown",
+        "input",
+        "textarea",
+        "select",
+        "checkbox",
+        "radio",
+        "toggle",
+        "range",
+        "file-input",
+        "fieldset",
+        "alert",
+        "progress",
+        "loading",
+        "skeleton",
+        "status",
+        "badge",
+        "avatar",
+        "table",
+        "kbd",
+        "stat",
+        "breadcrumbs",
+        "menu",
+        "pagination",
+        "divider"
+      ]
+    },
+    {
+      "group": "Original textures 6",
+      "count": 6,
+      "receipt": {
+        "name": "texture-originals-20261017/HANDOFF.json",
+        "sha256": "7ca6f51c790047373f2810b2381dc9fc83aafe3e512e9cb0c348a3d0ad7314c3"
+      },
+      "reason": "Checkout proof only; installed-consumer and independent review were explicitly pending.",
+      "ids": [
+        "dot-screen",
+        "parallel-hatch",
+        "crosshatch",
+        "woven-grid",
+        "repeated-authored-letterform",
+        "seeded-grain"
+      ]
+    },
+    {
+      "group": "Phosphor and Pixelarticons sun",
+      "count": 2,
+      "receipt": {
+        "name": "library-symbols-v3-20261017/COLLECTION-QUALIFICATION.json",
+        "sha256": "6132760541572fd65c4216aa4ab3823fa792b82adf022455f9b9b5183bc54382"
+      },
+      "reason": "Distinct source artworks with independent selected/export/render evidence; exact contribution to baseline remains under review.",
+      "ids": [
+        "ph-sun",
+        "pixelarticons-sun"
+      ]
+    },
+    {
+      "group": "Previously omitted Inter 400, Space Mono 400, Lucide sun and six shapes",
+      "count": 9,
+      "receipt": {
+        "name": "library-integration-v3-20261017/final-package-flow-v2/RESULTS.json",
+        "sha256": "ec8e43b6021dea711cf7adea16ec46cd189a4ebaa25fc1fae2281d9094fb439b"
+      },
+      "ids": [
+        "inter-400",
+        "space-mono-400",
+        "lucide-sun",
+        "shape-circle",
+        "shape-ellipse",
+        "shape-rectangle",
+        "shape-triangle",
+        "shape-hexagon",
+        "shape-star"
+      ],
+      "reason": "Prior installed selected exports and offline repeat exist; item-level edit, rendered reopen and handoff scope are under review. Inter 400 matches a current selected font byte-for-byte."
+    },
+    {
+      "group": "Previously omitted selected icon, local-only image and Hack fonts",
+      "count": 8,
+      "receipt": {
+        "name": "resource-final-20261017/final2/QUALIFICATION.json",
+        "sha256": "62f6f3ce50c68c2028500e192163418c358cd9d7e208f314e659570aed7b08d0"
+      },
+      "ids": [
+        "lobe-icons/adobe",
+        "ionicons/add",
+        "minimal-icons/ic-add",
+        "remixicon-apache/add-line",
+        "simple-icons/activitypub",
+        "hack/hack-bold-woff2",
+        "hack/hack-regular-woff2",
+        "voxel-icon/pencil"
+      ],
+      "reason": "Individually selected/exported; prior handoff comparability under review. Hack binaries match current selections. Voxel remains local-only and restricted; no redistribution is inferred."
+    },
+    {
+      "group": "Previously omitted selected local font acquisitions",
+      "count": 3,
+      "receipt": {
+        "name": "font-local-flow-20261017/HANDOFF.json",
+        "sha256": "9d2d80828fa30d5087c11e75593321933d5c52ecb4f7d23095fd2f0365a70583"
+      },
+      "ids": [
+        "google-abel-regular",
+        "nerd-hack-regular",
+        "free-font-negatape"
+      ],
+      "reason": "Live acquisition and rendered specimen recorded; item-level edit/handoff comparability remains under review."
+    },
+    {
+      "group": "Previously omitted selected item illustrations",
+      "count": 2,
+      "receipt": {
+        "name": "library-items-20261017/RENDER-PROOF.json",
+        "sha256": "68aa6d6071951140f0885e2df0246cd60df5cea08bd075d7fcbf61c47cf7877f"
+      },
+      "ids": [
+        "fluent-rocket",
+        "hero-anchors-away"
+      ],
+      "reason": "Both rendered originals and derivatives; upstream Fluent artwork binding unknown. Hero full legalcode was unavailable, so its rights remain held."
+    },
+    {
+      "group": "Earlier original generated palette",
+      "count": 1,
+      "receipt": {
+        "name": "library-colors-20261017/HANDOFF.json",
+        "sha256": "1a7d72429798d8e9e22a95cd45acb3d75cd13c78569400622fed0f6ac124a8f8"
+      },
+      "ids": [
+        "synthetic-warm-ramp"
+      ],
+      "reason": "Rendered generated anchor ramp; whether complete standalone handoff meets current criterion remains under review. A second synthetic palette was a derivative and is not counted separately."
+    }
+  ],
+  "limits": [
+    "These bounds cover the enumerated recovered record groups; they do not claim every historical selection has been found.",
+    "A selected source is counted once; different source artworks are not treated as duplicates merely because their subject is the same.",
+    "Historical semantic installed render/reopen and offline reacquisition evidence predates DeliveryV1; it does not imply user acceptance."
+  ],
+  "lowerBound": 35,
+  "upperBoundForRecoveredGroups": 92
+}

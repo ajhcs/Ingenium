@@ -1,0 +1,329 @@
+{
+  "schema": "ingenium-resource-recipes/1",
+  "entries": [
+    {
+      "id": "doc-title",
+      "kind": "document",
+      "title": "Document title block",
+      "description": "Title, identifier and issue date",
+      "source": "assets/doc-title.svg",
+      "parameters": "examples/doc-title.json",
+      "permittedEdit": [
+        "title"
+      ],
+      "license": "MIT",
+      "sha256": "8f26a325a4ab5172638a5ba8550eb020cd57ba6bfb71595f0a0feec7c05c7563",
+      "sourceId": "doc-title-original",
+      "derivedId": "doc-title-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "doc-revision",
+      "kind": "document",
+      "title": "Revision history",
+      "description": "Issue and change history",
+      "source": "assets/doc-revision.svg",
+      "parameters": "examples/doc-revision.json",
+      "permittedEdit": [
+        "rows"
+      ],
+      "license": "MIT",
+      "sha256": "19b9a9604b2f8f1f71b27f76f9baae3b1157920745b535be15844d41c067e9e4",
+      "sourceId": "doc-revision-original",
+      "derivedId": "doc-revision-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "doc-requirements",
+      "kind": "document",
+      "title": "Requirements register",
+      "description": "Requirement IDs with verification methods",
+      "source": "assets/doc-requirements.svg",
+      "parameters": "examples/doc-requirements.json",
+      "permittedEdit": [
+        "rows"
+      ],
+      "license": "MIT",
+      "sha256": "2aefed781a185b4865dfeac40a9d1a8ce18e7f9358502843e1278cfe3bb9521c",
+      "sourceId": "doc-requirements-original",
+      "derivedId": "doc-requirements-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "doc-legend",
+      "kind": "document",
+      "title": "Relationship key",
+      "description": "Labels and line treatments for supplied relationships",
+      "source": "assets/doc-legend.svg",
+      "parameters": "examples/doc-legend.json",
+      "permittedEdit": [
+        "rows"
+      ],
+      "license": "MIT",
+      "sha256": "3c15e96e3b8af4d65cf62b2c12d1a90ca70b84f98db4986fe6f3e8d5ebcf67e7",
+      "sourceId": "doc-legend-original",
+      "derivedId": "doc-legend-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "doc-caution",
+      "kind": "document",
+      "title": "Caution panel",
+      "description": "Signal word and bounded instruction",
+      "source": "assets/doc-caution.svg",
+      "parameters": "examples/doc-caution.json",
+      "permittedEdit": [
+        "body"
+      ],
+      "license": "MIT",
+      "sha256": "4e9cb9e981221a311825009ef11049fa9339c7c55d5fe045097d001998f7b88f",
+      "sourceId": "doc-caution-original",
+      "derivedId": "doc-caution-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "doc-caption",
+      "kind": "document",
+      "title": "Figure caption",
+      "description": "Figure identifier, title and source note",
+      "source": "assets/doc-caption.svg",
+      "parameters": "examples/doc-caption.json",
+      "permittedEdit": [
+        "body"
+      ],
+      "license": "MIT",
+      "sha256": "0ad173eecf4119cb83bb06996b77e429d52a67ebfe9a979d3544af4609a2eebc",
+      "sourceId": "doc-caption-original",
+      "derivedId": "doc-caption-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "doc-metric",
+      "kind": "document",
+      "title": "Measure summary",
+      "description": "Measure, value, units and condition",
+      "source": "assets/doc-metric.svg",
+      "parameters": "examples/doc-metric.json",
+      "permittedEdit": [
+        "note"
+      ],
+      "license": "MIT",
+      "sha256": "1eb9c6f5d0174cd606a588f9b043c6edd555fa1be94f94e51ac60eb45ba874a8",
+      "sourceId": "doc-metric-original",
+      "derivedId": "doc-metric-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "doc-issues",
+      "kind": "document",
+      "title": "Issue and action register",
+      "description": "Open issues with named next action",
+      "source": "assets/doc-issues.svg",
+      "parameters": "examples/doc-issues.json",
+      "permittedEdit": [
+        "rows"
+      ],
+      "license": "MIT",
+      "sha256": "a3d1e881b1549f5e879209f03d7ffd5f2f7cfbbab1d586131cb35afa67315239",
+      "sourceId": "doc-issues-original",
+      "derivedId": "doc-issues-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "chart-bar",
+      "kind": "chart",
+      "title": "Category bar chart",
+      "description": "Three category counts",
+      "source": "assets/chart-bar.svg",
+      "parameters": "examples/chart-bar.json",
+      "permittedEdit": [
+        "data"
+      ],
+      "license": "MIT",
+      "sha256": "afe985b29cae12f47504736aac65c3c598eaca4f731793ae3f8e7614716c3fe6",
+      "sourceId": "chart-bar-original",
+      "derivedId": "chart-bar-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "chart-line",
+      "kind": "chart",
+      "title": "Time series",
+      "description": "Measurements over three time points",
+      "source": "assets/chart-line.svg",
+      "parameters": "examples/chart-line.json",
+      "permittedEdit": [
+        "data"
+      ],
+      "license": "MIT",
+      "sha256": "d4e275a6a365d3e2933dbc4df3bd8b5a7a762fe72cd83ecc39cd62bd6ef127e8",
+      "sourceId": "chart-line-original",
+      "derivedId": "chart-line-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "chart-dot",
+      "kind": "chart",
+      "title": "Dot comparison",
+      "description": "Measured values by station",
+      "source": "assets/chart-dot.svg",
+      "parameters": "examples/chart-dot.json",
+      "permittedEdit": [
+        "data"
+      ],
+      "license": "MIT",
+      "sha256": "c9b5558a3a03a40198ecfefcbcc4caf732c9e4274d8ce29e5bd6f86f417a5810",
+      "sourceId": "chart-dot-original",
+      "derivedId": "chart-dot-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "chart-range",
+      "kind": "chart",
+      "title": "Interval chart",
+      "description": "Lower and upper bounds by option",
+      "source": "assets/chart-range.svg",
+      "parameters": "examples/chart-range.json",
+      "permittedEdit": [
+        "data"
+      ],
+      "license": "MIT",
+      "sha256": "732e26f3cac8d6cd1d42c7dc6f072591facd29f6dc767341fdea500dd93d3ed2",
+      "sourceId": "chart-range-original",
+      "derivedId": "chart-range-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "diagram-chain",
+      "kind": "diagram",
+      "title": "Directed chain",
+      "description": "Sequential directed relationships",
+      "source": "assets/diagram-chain.svg",
+      "parameters": "examples/diagram-chain.json",
+      "permittedEdit": [
+        "nodes",
+        "edges"
+      ],
+      "license": "MIT",
+      "sha256": "a0b32afa6768780776d5d7603c8df3b380adbc1a0d625d78e7f9843506174479",
+      "sourceId": "diagram-chain-original",
+      "derivedId": "diagram-chain-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "diagram-hub",
+      "kind": "diagram",
+      "title": "Hub and spokes",
+      "description": "One source sends two distinct outputs",
+      "source": "assets/diagram-hub.svg",
+      "parameters": "examples/diagram-hub.json",
+      "permittedEdit": [
+        "nodes",
+        "edges"
+      ],
+      "license": "MIT",
+      "sha256": "cfb4962adb19657cf22adfac1d1c6cfad234e2dbf9fd031d8070900706f08338",
+      "sourceId": "diagram-hub-original",
+      "derivedId": "diagram-hub-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "diagram-branch",
+      "kind": "diagram",
+      "title": "Decision branch",
+      "description": "A decision with two labelled outcomes",
+      "source": "assets/diagram-branch.svg",
+      "parameters": "examples/diagram-branch.json",
+      "permittedEdit": [
+        "nodes",
+        "edges"
+      ],
+      "license": "MIT",
+      "sha256": "4fe609494d4090a27e96d0f06498c7790e21b7b1c2a9a2da587f72d94c17083b",
+      "sourceId": "diagram-branch-original",
+      "derivedId": "diagram-branch-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "diagram-join",
+      "kind": "diagram",
+      "title": "Two inputs to one receiver",
+      "description": "Two independent sources feed one receiver",
+      "source": "assets/diagram-join.svg",
+      "parameters": "examples/diagram-join.json",
+      "permittedEdit": [
+        "nodes",
+        "edges"
+      ],
+      "license": "MIT",
+      "sha256": "72ff95365a292a45b9e707a0f97310851edda4ae3378cfcbc72ea5ff1fbaac13",
+      "sourceId": "diagram-join-original",
+      "derivedId": "diagram-join-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "image-contours",
+      "kind": "imagery",
+      "title": "Topographic contours",
+      "description": "Layered original closed terrain contours",
+      "source": "assets/image-contours.svg",
+      "parameters": "examples/image-contours.json",
+      "permittedEdit": [
+        "accent"
+      ],
+      "license": "MIT",
+      "sha256": "2f335e6b020787fd6dffd774c26a5d7b39b3705cda18a097719707337a7f2a8b",
+      "sourceId": "image-contours-original",
+      "derivedId": "image-contours-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "image-sensor",
+      "kind": "imagery",
+      "title": "Sensor enclosure illustration",
+      "description": "Exploded conceptual enclosure and separate probe",
+      "source": "assets/image-sensor.svg",
+      "parameters": "examples/image-sensor.json",
+      "permittedEdit": [
+        "accent"
+      ],
+      "license": "MIT",
+      "sha256": "3de2eff5c5102e2ecc333e8c16844e01def834f64ce8f267f597828e410b92c9",
+      "sourceId": "image-sensor-original",
+      "derivedId": "image-sensor-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "image-field",
+      "kind": "imagery",
+      "title": "Field station illustration",
+      "description": "Original cabin, mast and ground illustration",
+      "source": "assets/image-field.svg",
+      "parameters": "examples/image-field.json",
+      "permittedEdit": [
+        "accent"
+      ],
+      "license": "MIT",
+      "sha256": "f7e9fef1e1a19da018f1ac1f4a67ea1bc08f3de2c825def75e9b5d81ec770bdf",
+      "sourceId": "image-field-original",
+      "derivedId": "image-field-revised",
+      "sourceRevision": "1"
+    },
+    {
+      "id": "image-orbit",
+      "kind": "imagery",
+      "title": "Orbital observation illustration",
+      "description": "Original planet, orbit and observation craft",
+      "source": "assets/image-orbit.svg",
+      "parameters": "examples/image-orbit.json",
+      "permittedEdit": [
+        "accent"
+      ],
+      "license": "MIT",
+      "sha256": "1060275cbc3488c4f33ca78b421729478e6e2c77fe4ab8270ac8006fdb6f5a40",
+      "sourceId": "image-orbit-original",
+      "derivedId": "image-orbit-revised",
+      "sourceRevision": "1"
+    }
+  ]
+}

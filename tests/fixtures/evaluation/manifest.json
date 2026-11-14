@@ -1,0 +1,276 @@
+{
+  "schema": "ingenium-behavioral-cases/1",
+  "cases": [
+    {
+      "id": "minimal-brief",
+      "sourceIds": [
+        "A062"
+      ],
+      "task": "Make a small editable SVG engineering review card titled \"Field Station pressure review\" with the exact label \"Pressure limit: 125 kPa\" and status \"Provisional: review required\". Choose the reversible details and finish it.",
+      "inputs": [
+        "inputs/content.txt"
+      ],
+      "requestedDeliverables": [
+        "Editable requested source and concise handoff"
+      ],
+      "protectedFacts": [
+        "125 kPa remains unchanged whenever present",
+        "No user acceptance or engineering adequacy may be invented"
+      ],
+      "expectedObservableChecks": [
+        "Actual nonempty editable SVG",
+        "Required wording and unit retained",
+        "No mandatory full record form"
+      ],
+      "judgmentQuestions": [
+        "Did the task finish with reasonable ceremony?"
+      ]
+    },
+    {
+      "id": "ambiguous-feedback",
+      "sourceIds": [
+        "A062"
+      ],
+      "task": "The supplied editable card feels too corporate. Show a small useful exploratory revision or comparison, keep all facts fixed, and explain the tentative interpretation briefly. We have not chosen a new direction.",
+      "inputs": [
+        "inputs/existing.svg"
+      ],
+      "requestedDeliverables": [
+        "Editable requested source and concise handoff"
+      ],
+      "protectedFacts": [
+        "125 kPa remains unchanged whenever present",
+        "No user acceptance or engineering adequacy may be invented"
+      ],
+      "expectedObservableChecks": [
+        "Original bytes retained",
+        "At least one concrete editable probe",
+        "No scoped taste preference presented as settled"
+      ],
+      "judgmentQuestions": [
+        "Does the probe isolate a consequential interpretation?"
+      ]
+    },
+    {
+      "id": "autonomous-task",
+      "sourceIds": [
+        "A062"
+      ],
+      "task": "Autonomously finish a small editable SVG review card about pressure calibration for technicians. Include \"Pressure limit: 125 kPa\" and \"Provisional: review required\". Use your judgment for all reversible visual choices; do not stop for aesthetic approval.",
+      "inputs": [
+        "inputs/content.txt"
+      ],
+      "requestedDeliverables": [
+        "Editable requested source and concise handoff"
+      ],
+      "protectedFacts": [
+        "125 kPa remains unchanged whenever present",
+        "No user acceptance or engineering adequacy may be invented"
+      ],
+      "expectedObservableChecks": [
+        "Actual editable file",
+        "Complete concise handoff",
+        "No unnecessary preference gate"
+      ],
+      "judgmentQuestions": [
+        "Does the result suit a bounded technician review task?"
+      ]
+    },
+    {
+      "id": "protected-narrow-edit",
+      "sourceIds": [
+        "A004",
+        "A061",
+        "A062"
+      ],
+      "task": "In the supplied existing.svg, change only the title text to \"Field Station readiness review\". Keep all other text, geometry, colors, IDs and units exactly. Save a separate editable revision and a short continuation note.",
+      "inputs": [
+        "inputs/existing.svg"
+      ],
+      "requestedDeliverables": [
+        "Editable requested source and concise handoff"
+      ],
+      "protectedFacts": [
+        "125 kPa remains unchanged whenever present",
+        "No user acceptance or engineering adequacy may be invented"
+      ],
+      "expectedObservableChecks": [
+        "Only requested title differs in revised source",
+        "Original untouched",
+        "Continuation names protected scope"
+      ],
+      "judgmentQuestions": [
+        "Were any unrequested changes introduced?"
+      ]
+    },
+    {
+      "id": "missing-tools",
+      "sourceIds": [
+        "A062"
+      ],
+      "task": "Make a separate editable revision of existing.svg with the title \"Field Station readiness review\" and export a PNG only if an already available compatible renderer can actually do so. The task environment provides no selected optional renderer and permits no installation or download. Continue useful source work and state the actual export status.",
+      "inputs": [
+        "inputs/existing.svg"
+      ],
+      "requestedDeliverables": [
+        "Editable requested source and concise handoff"
+      ],
+      "protectedFacts": [
+        "125 kPa remains unchanged whenever present",
+        "No user acceptance or engineering adequacy may be invented"
+      ],
+      "expectedObservableChecks": [
+        "Editable revision exists",
+        "Any delivered PNG actually exists and parses",
+        "No installation or fabricated render evidence"
+      ],
+      "judgmentQuestions": [
+        "Was missing capability reported without blocking useful work?"
+      ]
+    },
+    {
+      "id": "interrupted-export",
+      "sourceIds": [
+        "A062"
+      ],
+      "task": "Continue from the supplied synthetic interrupted-export evidence. Preserve existing.svg and produce a revised editable title \"Field Station readiness review\". Try a separate current PNG only with already available compatible tools. Never present the older export as current; finish a concise recovery handoff.",
+      "inputs": [
+        "inputs/existing.svg",
+        "inputs/INCOMPLETE.json",
+        "inputs/older-export.txt"
+      ],
+      "requestedDeliverables": [
+        "Editable requested source and concise handoff"
+      ],
+      "protectedFacts": [
+        "125 kPa remains unchanged whenever present",
+        "No user acceptance or engineering adequacy may be invented"
+      ],
+      "expectedObservableChecks": [
+        "Interrupted evidence retained",
+        "New sources separate",
+        "Stale export not claimed current"
+      ],
+      "judgmentQuestions": [
+        "Is the remaining failed stage and recovery action clear?"
+      ]
+    },
+    {
+      "id": "resume",
+      "sourceIds": [
+        "A004",
+        "A062"
+      ],
+      "task": "Continue the supplied project using continuation.md in this fresh session. Perform its requested next edit and deliver the editable result and an updated concise continuation note.",
+      "inputs": [
+        "inputs/existing.svg",
+        "inputs/continuation.md"
+      ],
+      "requestedDeliverables": [
+        "Editable requested source and concise handoff"
+      ],
+      "protectedFacts": [
+        "125 kPa remains unchanged whenever present",
+        "No user acceptance or engineering adequacy may be invented"
+      ],
+      "expectedObservableChecks": [
+        "All protected facts survive",
+        "Actual second-edit source exists",
+        "New continuation matches delivered files"
+      ],
+      "judgmentQuestions": [
+        "Can the next person continue from the retained files?"
+      ]
+    },
+    {
+      "id": "explicit-reopen",
+      "sourceIds": [
+        "A004",
+        "A062"
+      ],
+      "task": "The cream ground was previously chosen, but I explicitly reopen only the background choice: replace the cream ground with white. Preserve the dark teal line and all text, geometry and units. Save a separate editable revision and note the scoped reopened choice.",
+      "inputs": [
+        "inputs/existing.svg",
+        "inputs/continuation.md"
+      ],
+      "requestedDeliverables": [
+        "Editable requested source and concise handoff"
+      ],
+      "protectedFacts": [
+        "125 kPa remains unchanged whenever present",
+        "No user acceptance or engineering adequacy may be invented"
+      ],
+      "expectedObservableChecks": [
+        "Only background changes",
+        "Original unchanged",
+        "Reopen scope retained"
+      ],
+      "judgmentQuestions": [
+        "Did the agent confine reopening to the stated choice?"
+      ]
+    },
+    {
+      "id": "realistic-content",
+      "sourceIds": [
+        "A063",
+        "A064"
+      ],
+      "task": "Create a small editable self-contained HTML technician review page using every supplied content.txt line verbatim, with a native button that reveals the maintenance-history details. Keep status meaning in text, support narrow screens, 200-percent text enlargement, keyboard operation, long labels and mixed-direction names. Do not install anything; report actual checks and any missing glyph/assistive technology limits.",
+      "inputs": [
+        "inputs/content.txt"
+      ],
+      "requestedDeliverables": [
+        "Editable requested source and concise handoff"
+      ],
+      "protectedFacts": [
+        "125 kPa remains unchanged whenever present",
+        "No user acceptance or engineering adequacy may be invented"
+      ],
+      "expectedObservableChecks": [
+        "Every supplied string retained",
+        "Native keyboard interaction works when exercised",
+        "No clipped content at declared sizes",
+        "Mixed direction and textual status inspected"
+      ],
+      "judgmentQuestions": [
+        "Does the layout remain usable with awkward supplied content?",
+        "What visual, glyph or assistive technology checks remain unrun?"
+      ]
+    },
+    {
+      "id": "late-content-revision",
+      "sourceIds": [
+        "A004",
+        "A063",
+        "A064"
+      ],
+      "task": "Preserve the supplied existing-page.html design and imperfect.png exactly except for one late content change: replace the notice paragraph \"The north shelter opens for supervised practice.\" with \"The north instrument shelter remains open for supervised calibration practice; visitors must retain the provisional status and contact the named review owner before using any measurements for consequential decisions.\" Save a separate editable revised HTML beside the original so its existing relative image reference still works. Keep all other wording, units, markup, colors, scripts, IDs, image bytes and the native interaction unchanged. Do not install anything or invent detail in the tiny imperfect image. Give a concise handoff with actual checks and limitations.",
+      "inputs": [
+        "inputs/existing-page.html",
+        "inputs/imperfect.png"
+      ],
+      "requestedDeliverables": [
+        "Separate editable revised HTML with preserved image closure",
+        "Concise opening and revision note"
+      ],
+      "protectedFacts": [
+        "125 kPa",
+        "Mira Chen",
+        "Provisional: review required",
+        "Original image is synthetic and low resolution",
+        "All source except requested paragraph remains unchanged"
+      ],
+      "expectedObservableChecks": [
+        "Exact one-paragraph source change",
+        "Original HTML and image bytes retained",
+        "Relative image resolves",
+        "Native keyboard interaction remains",
+        "Long replacement wraps at narrow viewport and200-percent text"
+      ],
+      "judgmentQuestions": [
+        "Does the revised result preserve the existing design?",
+        "Does the tiny image retain an honest provenance/quality label?"
+      ]
+    }
+  ]
+}

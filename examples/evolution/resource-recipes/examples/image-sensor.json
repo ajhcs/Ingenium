@@ -1,0 +1,13 @@
+{
+  "id": "image-sensor",
+  "kind": "imagery",
+  "title": "Sensor enclosure illustration",
+  "description": "Exploded conceptual enclosure and separate probe",
+  "original": {
+    "accent": "#DA5C18",
+    "detail": "probe"
+  },
+  "edit": {
+    "accent": "#9a3f12"
+  }
+}

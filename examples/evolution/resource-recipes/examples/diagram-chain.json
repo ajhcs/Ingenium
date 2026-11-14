@@ -1,0 +1,44 @@
+{
+  "id": "diagram-chain",
+  "kind": "diagram",
+  "title": "Directed chain",
+  "description": "Sequential directed relationships",
+  "original": {
+    "nodes": [
+      "Sensor",
+      "Controller",
+      "Display"
+    ],
+    "edges": [
+      [
+        "Sensor",
+        "Controller",
+        "measurement"
+      ],
+      [
+        "Controller",
+        "Display",
+        "reading"
+      ]
+    ]
+  },
+  "edit": {
+    "nodes": [
+      "Sensor",
+      "Controller",
+      "Display"
+    ],
+    "edges": [
+      [
+        "Sensor",
+        "Controller",
+        "signal"
+      ],
+      [
+        "Controller",
+        "Display",
+        "reading"
+      ]
+    ]
+  }
+}

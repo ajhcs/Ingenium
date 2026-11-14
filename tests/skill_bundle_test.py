@@ -2,6 +2,8 @@
 import importlib.util
 import pathlib
 import re
+import shutil
+import subprocess
 import tempfile
 import unittest
 import zipfile
@@ -42,6 +44,38 @@ class GuidanceBundleTest(unittest.TestCase):
                     resolved = (document.parent / target.split("#")[0]).resolve()
                     self.assertTrue(resolved.is_relative_to(skill), (document, target))
                     self.assertTrue(resolved.is_file(), (document, target))
+
+    def test_guidance_release_identity_is_markdown_only_and_preserves_shared_build(self):
+        identity = {"schema": "ingenium-release/1", "version": "0.2.0-alpha.1",
+                    "sourceRevision": "a" * 40, "sourceTree": "b" * 40,
+                    "buildId": "c" * 64, "artifactFlavor": "guidance"}
+        with tempfile.TemporaryDirectory(dir=ROOT / "work") as directory:
+            archive = pathlib.Path(directory) / "prepared.zip"
+            bundle.build(archive, identity=identity)
+            self.assertLessEqual(archive.stat().st_size, 512 * 1024)
+            with zipfile.ZipFile(archive) as source:
+                release = source.read("ingenium/RELEASE.md").decode()
+                self.assertIn("version: 0.2.0-alpha.1", release)
+                self.assertIn("buildId: " + "c" * 64, release)
+                self.assertFalse(any(name.endswith((".mjs", ".js", ".json", ".py")) for name in source.namelist()))
+
+    def test_source_zip_content_identity_does_not_depend_on_checkout_commit(self):
+        with tempfile.TemporaryDirectory(dir=ROOT / "work") as directory:
+            directory = pathlib.Path(directory)
+            source = directory / "source"
+            source.mkdir()
+            shutil.copytree(ROOT / "skills", source / "skills")
+            shutil.copyfile(ROOT / "package.json", source / "package.json")
+            subprocess.run(["git", "init", "-q", str(source)], check=True)
+            subprocess.run(["git", "-C", str(source), "add", "."], check=True)
+            bundle.build(directory / "first.zip", repository=source)
+            subprocess.run(["git", "-C", str(source), "-c", "user.name=Synthetic test", "-c", "user.email=synthetic@example.invalid", "commit", "-qm", "Synthetic guidance fixture"], check=True)
+            bundle.build(directory / "second.zip", repository=source)
+            self.assertEqual((directory / "first.zip").read_bytes(), (directory / "second.zip").read_bytes())
+            with zipfile.ZipFile(directory / "second.zip") as archive:
+                release = archive.read("ingenium/RELEASE.md").decode()
+                self.assertIn("sourceRevision: not-stamped", release)
+                self.assertIn("prepared: False", release)
 
     def test_reproducible_archive_refuses_existing_output(self):
         with tempfile.TemporaryDirectory(dir=ROOT / "work") as directory:

@@ -1,0 +1,30 @@
+{
+  "id": "doc-legend",
+  "kind": "document",
+  "title": "Relationship key",
+  "description": "Labels and line treatments for supplied relationships",
+  "original": {
+    "rows": [
+      [
+        "solid",
+        "Measurement"
+      ],
+      [
+        "dashed",
+        "Reference"
+      ]
+    ]
+  },
+  "edit": {
+    "rows": [
+      [
+        "solid",
+        "Measurement"
+      ],
+      [
+        "dashed",
+        "Context reference"
+      ]
+    ]
+  }
+}

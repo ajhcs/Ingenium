@@ -1,0 +1,44 @@
+{
+  "id": "diagram-hub",
+  "kind": "diagram",
+  "title": "Hub and spokes",
+  "description": "One source sends two distinct outputs",
+  "original": {
+    "nodes": [
+      "Hub",
+      "Store",
+      "Monitor"
+    ],
+    "edges": [
+      [
+        "Hub",
+        "Store",
+        "record"
+      ],
+      [
+        "Hub",
+        "Monitor",
+        "status"
+      ]
+    ]
+  },
+  "edit": {
+    "nodes": [
+      "Hub",
+      "Store",
+      "Monitor"
+    ],
+    "edges": [
+      [
+        "Hub",
+        "Store",
+        "record"
+      ],
+      [
+        "Hub",
+        "Monitor",
+        "health"
+      ]
+    ]
+  }
+}

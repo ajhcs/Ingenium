@@ -25,7 +25,7 @@ test('explicit empty renderer boundary never falls back and discovery performs n
   const source = '<svg width="3" height="2"><rect width="3" height="2" fill="red"/></svg>';
   await writeFile(sourcePath, source);
   const output = [];
-  assert.equal(await main(['render', sourcePath, outputPath, '--renderer-dir', dir], value => output.push(value)), 1);
+  assert.equal(await main(['render', sourcePath, outputPath, '--renderer-dir', dir], value => output.push(value)), 2);
   assert.equal(output[0].code, 'INGENIUM_RENDERER_ABSENT');
   assert.equal(output[0].setup.package, 'sharp@0.35.4');
   assert.equal(await readFile(sourcePath, 'utf8'), source);

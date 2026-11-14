@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ingenium.local/schemas/delivery-v1.schema.json",
+  "title": "Ingenium DeliveryV1",
+  "description": "Structural tooling schema. Runtime additionally checks bounded JSON, global unique IDs, resolved dependencies, opening identity, role/extension consistency and font notice dependencies. The explicit writer checks actual files, hashes and supported local resource references.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "projectId", "versionId", "openingFile", "artifacts", "tools", "checks", "limitations"],
+  "properties": {
+    "schema": { "const": "ingenium-delivery/1" },
+    "projectId": { "$ref": "#/$defs/id" },
+    "versionId": { "$ref": "#/$defs/id" },
+    "openingFile": { "$ref": "#/$defs/path" },
+    "artifacts": { "type": "array", "minItems": 2, "maxItems": 256, "items": { "$ref": "#/$defs/artifact" }, "allOf": [{ "contains": { "type": "object", "required": ["role"], "properties": { "role": { "const": "source" } } } }, { "contains": { "type": "object", "required": ["role"], "properties": { "role": { "const": "instructions" } } } }] },
+    "tools": { "type": "array", "maxItems": 256, "items": { "$ref": "#/$defs/tool" } },
+    "checks": { "type": "array", "maxItems": 256, "items": { "$ref": "#/$defs/check" } },
+    "limitations": { "$ref": "#/$defs/strings" }
+  },
+  "$defs": {
+    "id": { "type": "string", "maxLength": 128, "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$" },
+    "text": { "type": "string", "minLength": 1, "maxLength": 8192, "pattern": "\\S" },
+    "strings": { "type": "array", "maxItems": 256, "items": { "$ref": "#/$defs/text" } },
+    "refs": { "type": "array", "maxItems": 256, "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+    "path": { "type": "string", "minLength": 1, "maxLength": 1024, "pattern": "^(?!/)(?!.*(?:^|/)(?:\\.|\\.\\.)(?:/|$))(?!.*[\\\\\\u0000-\\u001f\\u007f:%?#])[^/]+(?:/[^/]+)*$" },
+    "artifact": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "path", "sha256", "mediaType", "role", "dependsOnIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "path": { "$ref": "#/$defs/path" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "mediaType": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "\\S" },
+        "role": { "enum": ["source", "export", "preview", "notice", "instructions"] },
+        "editableKind": { "enum": ["live-text", "outlined-lettering", "vector-geometry", "linked-image", "raster-layer", "code", "structured-data"] },
+        "editingNote": { "$ref": "#/$defs/text" }, "dependsOnIds": { "$ref": "#/$defs/refs" }
+      }
+    },
+    "tool": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "purpose", "required", "tested", "limitations"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "purpose": { "$ref": "#/$defs/text" }, "required": { "type": "boolean" }, "version": { "$ref": "#/$defs/text" }, "tested": { "enum": ["yes", "no"] }, "limitations": { "$ref": "#/$defs/strings" } }
+    },
+    "check": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "status", "scope", "evidenceIds"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "status": { "enum": ["pass", "fail", "review-needed", "not-run", "error", "not-applicable"] }, "scope": { "$ref": "#/$defs/text" }, "evidenceIds": { "$ref": "#/$defs/refs" } }
+    }
+  }
+}

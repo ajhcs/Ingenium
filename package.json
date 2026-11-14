@@ -1,7 +1,7 @@
 {
   "name": "@ajhcs/ingenium",
-  "version": "0.1.0",
-  "description": "Experimental portable creative design plugin and optional SVG export helper",
+  "version": "0.2.0-alpha.1",
+  "description": "Portable creative guidance for editable engineering graphics, documents and websites, with optional local helpers",
   "type": "module",
   "private": true,
   "license": "MIT",
@@ -27,8 +27,9 @@
     "companion/"
   ],
   "scripts": {
-    "test": "node --test tests/*.test.mjs tests/records/*.test.mjs tests/svg/*.test.js",
-    "test:installed-renderer": "node --test tests/installed/*.test.mjs"
+    "test": "node tools/run-tests.mjs",
+    "test:installed-renderer": "node --test tests/installed/*.test.mjs",
+    "test:python": "python3 tools/run-python-checks.py"
   },
   "optionalDependencies": {
     "sharp": "0.35.4"

@@ -1,0 +1,14 @@
+{
+  "id": "doc-caption",
+  "kind": "document",
+  "title": "Figure caption",
+  "description": "Figure identifier, title and source note",
+  "original": {
+    "heading": "FIGURE 01",
+    "body": "Field Station relationships",
+    "note": "Source: fictional brief"
+  },
+  "edit": {
+    "body": "Field Station relationship overview"
+  }
+}

@@ -8,20 +8,18 @@ The companion is a small, separate local package with no mandatory dependencies,
 install scripts, hooks, automatic downloads or server. It reuses Ingenium's
 browser measurements and report format. No npm publication is claimed.
 
-## Make and install the companion
+## Install a supplied companion archive
 
-From a full checkout with Node 22+ and npm, choose new directories:
+With Node 22+ and npm, select the `inspection-tools` archive from the supplied `artifacts.json` and verify its SHA-256. A clean `0.2.0-alpha.1` candidate is named `inspection-tools-0.2.0-alpha.1.tgz`; a development build includes a `-development-<buildId>` suffix. Use the actual filename in the manifest. Preparation does not mean an archive has been published.
 
 ```sh
-node tools/package-companion.mjs work/tools-package
-npm pack ./work/tools-package --ignore-scripts --pack-destination work
-npm install --prefix work/tools-consumer --ignore-scripts --omit=optional ./work/ajhcs-ingenium-tools-0.1.0.tgz
+npm install --prefix /path/to/consumer --offline --ignore-scripts --omit=optional /absolute/path/to/inspection-tools-0.2.0-alpha.1.tgz
+/path/to/consumer/node_modules/.bin/ingenium-tools version --json
 ```
 
-The installed command is `work/tools-consumer/node_modules/.bin/ingenium-tools`.
-It also runs directly as `node bin/ingenium-tools.mjs` from the checkout. The
-stager refuses an existing destination; a partial failed stage is not a package.
-The older full helper package and its SVG/resource interfaces remain separate.
+The second command reads the installed artifact's identity. Substitute the path to your supplied archive and consumer. The companion remains separate from the core helper and guidance; browser adapters are optional and are not installed by this command. Installing it does not register a client skill.
+
+Developers working from a checkout can stage the companion with `node tools/package-companion.mjs NEW_OUTPUT_DIR` and package that stage with npm. The stager refuses an existing destination; inspect a partial failure before retrying elsewhere. The normal end-user archive route above does not require this staging step or a checkout.
 
 ## Select an existing browser adapter
 

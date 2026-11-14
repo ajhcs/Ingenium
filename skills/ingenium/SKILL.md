@@ -3,6 +3,8 @@ name: ingenium
 description: Explore creative direction, refine editable design studies, or select and adapt design resources. Use for consequential visual choices or an explicit Ingenium request.
 ---
 
+Create, compare, revise, review, or continue from an ordinary request. For a small task, start with the useful result; no form, record, or project store is required. Add structured continuity only when it helps the work.
+
 Develop the person's intended design. Follow their scope and existing choices; use only the guidance and resources that help the current task. A question, text comparison, visual fragment or finished artifact can each be a sufficient result.
 
 Start with the next consequential uncertainty. Use existing context and reasonable, revisable assumptions; ask when an answer would materially change the work. Invite reactions through a small discriminating probe. “Too corporate” might concern type, language or composition: keep the interpretation tentative. A preference expressed about one comparison stays scoped to that comparison; do not invent taste scores.
@@ -16,6 +18,8 @@ Match rigor to the intended use and the user's requested depth: a quick study, m
 For consequential interaction choices, use a small connected low-fidelity wireframe as iterative definition before polish or implementation. Inspect relevant actual UI precedents, expose the choices and recovery behavior, and reconcile review findings with requirements and model/data contracts where applicable. Preserve the user’s feedback gate before expanding; neither a fixed layout nor one screen per step is implied. Read [Connected wireframes](references/interaction-sketches.md) when this applies.
 
 Render or preview the relevant result, inspect it at its intended size or interaction state, fix observed problems, and recheck the affected parts. Before reporting a file as delivered, verify its exact path exists and is nonempty, and open or parse it as appropriate. Confirm any export succeeded; stale files and later successful commands do not establish that. Build delivery lists from verified outputs and mark failed or omitted exports unavailable. Retain concise evidence of what changed. Stop when the requested outcome and relevant checks are satisfied; a new defect or unresolved claim can justify more work. Report an unavailable renderer or unsupported operation precisely while continuing useful source/text work. Numeric checks and model critique do not establish taste, user acceptance, complete accessibility or engineering adequacy.
+
+For responsive web work, inspect actual narrow and enlarged-text renderings. Preserve useful text width: reduce compounded gutters and oversized headings before ordinary words fragment; wrap exceptional long tokens without shrinking the requested text. Check content and keyboard use in the affected state. No horizontal overflow alone does not establish readable reflow.
 
 Read a reference only when its task applies:
 
@@ -37,3 +41,5 @@ Read a reference only when its task applies:
 | Make consequential physical or formal engineering claims | [Domain boundaries](references/domains.md) |
 
 Use a short reusable specification when it helps continuity; ordinary prose often suffices. Keep process notes in supporting records unless the artifact's audience needs them. Deliver the useful result, the checks actually performed and any remaining consequential uncertainty.
+
+[Release or source identity](RELEASE.md).

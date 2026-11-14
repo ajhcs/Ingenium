@@ -28,7 +28,7 @@ test('file review retains explicit missing capability and refuses to overwrite e
   const output = [];
   assert.equal(await main(['review', fixturePath, join(root, 'cli-evidence'), '--adapter-dir', empty], x => output.push(x)), 2);
   assert.equal(output[0].status, 'not-run');
-  assert.equal(await main(['review', fixturePath, join(root, 'invalid'), '--unknown', 'x'], () => {}), 1);
+  assert.equal(await main(['review', fixturePath, join(root, 'invalid'), '--unknown', 'x'], () => {}), 2);
   await assert.rejects(stat(join(root, 'invalid')), /ENOENT/);
   await assert.rejects(reviewFixture({ fixturePath, outputDir: join(root, 'empty-renderer'), rendererDir: '' }), /rendererDir/);
 });

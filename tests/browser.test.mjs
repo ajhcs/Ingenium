@@ -102,3 +102,43 @@ test('real optional adapter: actual geometry, axe, state and keyboard, reflow, f
   } finally { await session.close(); }
   assert.equal((await session.inspect({})).status, 'error');
 });
+
+test('plan browser process closes every explicitly created owned context', async () => {
+  const { createProjectBrowserRun } = await import('../src/browser/index.mjs');
+  const dir = await mkdtemp(join(tmpdir(), 'ingenium-browser-ownership-'));
+  const state = { opened: 0, closed: 0, browserClosed: 0 };
+  globalThis.__ingeniumOwnershipProbe = state;
+  try {
+    for (const name of ['playwright', '@axe-core/playwright']) {
+      await mkdir(join(dir, 'node_modules', name), { recursive: true });
+      await writeFile(join(dir, 'node_modules', name, 'package.json'), '{"version":"0.0.0","main":"index.cjs"}');
+    }
+    await writeFile(join(dir, 'node_modules/playwright/index.cjs'), `module.exports={chromium:{launch:async()=>({version:()=>"synthetic",close:async()=>{globalThis.__ingeniumOwnershipProbe.browserClosed++},newContext:async()=>{globalThis.__ingeniumOwnershipProbe.opened++;let closed=false;return {route:async()=>{},routeWebSocket:async()=>{},newPage:async()=>({setDefaultTimeout(){},on(){}}),close:async()=>{if(!closed){closed=true;globalThis.__ingeniumOwnershipProbe.closed++}}}}})}}`);
+    await writeFile(join(dir, 'node_modules/@axe-core/playwright/index.cjs'), 'module.exports=class AxeBuilder {}');
+    const prepared = await createProjectBrowserRun({ url: 'http://127.0.0.1:3000', allowedURLs: ['http://127.0.0.1:3000/a'], adapterDir: dir });
+    assert.equal(prepared.status, 'pass'); const a = await prepared.run.createSession(), b = await prepared.run.createSession(); await a.close(); await Promise.all([prepared.run.close(), prepared.run.close()]); assert.deepEqual(state, { opened: 3, closed: 3, browserClosed: 1 }); assert.equal((await b.inspect()).status, 'error'); await assert.rejects(prepared.run.createSession(), /closed/);
+  } finally { delete globalThis.__ingeniumOwnershipProbe; await rm(dir, { recursive: true, force: true }); }
+});
+
+test('failed initial context handoff still closes its owned browser process', async () => {
+  const { createProjectBrowserRun } = await import('../src/browser/index.mjs');
+  const dir = await mkdtemp(join(tmpdir(), 'ingenium-browser-handoff-')); globalThis.__ingeniumFailedHandoffClosed = 0;
+  try {
+    for (const name of ['playwright', '@axe-core/playwright']) { await mkdir(join(dir, 'node_modules', name), { recursive: true }); await writeFile(join(dir, 'node_modules', name, 'package.json'), '{"version":"0.0.0","main":"index.cjs"}'); }
+    await writeFile(join(dir, 'node_modules/playwright/index.cjs'), `module.exports={chromium:{launch:async()=>({version:()=>"synthetic",close:async()=>{globalThis.__ingeniumFailedHandoffClosed++},newContext:async()=>({route:async()=>{},routeWebSocket:async()=>{},newPage:async()=>({setDefaultTimeout(){},on(){}}),close:async()=>{throw Error("Synthetic initial context close failed")}})})}}`);
+    await writeFile(join(dir, 'node_modules/@axe-core/playwright/index.cjs'), 'module.exports=class AxeBuilder {}');
+    const result = await createProjectBrowserRun({ url: 'http://127.0.0.1:3000', allowedURLs: ['http://127.0.0.1:3000/a'], adapterDir: dir }); assert.equal(result.status, 'error'); assert.equal(result.capability.code, 'BROWSER_CONTEXT_CLOSE_ERROR'); assert.equal(result.run, undefined); assert.equal(globalThis.__ingeniumFailedHandoffClosed, 1);
+  } finally { delete globalThis.__ingeniumFailedHandoffClosed; await rm(dir, { recursive: true, force: true }); }
+});
+
+test('deadline awaits delayed startup ownership cleanup before returning a partial receipt', async () => {
+  const { inspectProjectSet } = await import('../src/project/index.mjs');
+  const dir = await mkdtemp(join(tmpdir(), 'ingenium-browser-delayed-')); globalThis.__ingeniumDelayedClosed = false;
+  try {
+    for (const name of ['playwright', '@axe-core/playwright']) { await mkdir(join(dir, 'node_modules', name), { recursive: true }); await writeFile(join(dir, 'node_modules', name, 'package.json'), '{"version":"0.0.0","main":"index.cjs"}'); }
+    await writeFile(join(dir, 'node_modules/playwright/index.cjs'), `module.exports={chromium:{launch:async()=>{await new Promise(r=>setTimeout(r,100));return {version:()=>"synthetic",close:async()=>{await new Promise(r=>setTimeout(r,10));globalThis.__ingeniumDelayedClosed=true},newContext:async()=>({route:async()=>{},routeWebSocket:async()=>{},newPage:async()=>({setDefaultTimeout(){},on(){}}),close:async()=>{}})}}}}`);
+    await writeFile(join(dir, 'node_modules/@axe-core/playwright/index.cjs'), 'module.exports=class AxeBuilder {}');
+    const plan = { schema: 'ingenium-inspection-plan/1', origin: 'http://127.0.0.1:3000', profiles: [{ id: 'desktop', viewport: { width: 320, height: 640 } }], routes: [{ id: 'overview', path: '/overview', profiles: ['desktop'], states: [{ id: 'default', steps: [] }] }], budgets: { maxCaptures: 1, deadlineMs: 20 } };
+    const result = await inspectProjectSet({ plan, adapterDir: dir, outputDir: join(dir, 'output') }); assert.equal(result.interruption, 'deadline'); assert.equal(result.complete, false); assert.equal(globalThis.__ingeniumDelayedClosed, true); assert.equal(result.coverage.captured, 0);
+  } finally { delete globalThis.__ingeniumDelayedClosed; await rm(dir, { recursive: true, force: true }); }
+});

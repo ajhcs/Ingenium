@@ -1,0 +1,34 @@
+{
+  "id": "doc-issues",
+  "kind": "document",
+  "title": "Issue and action register",
+  "description": "Open issues with named next action",
+  "original": {
+    "rows": [
+      [
+        "I-01",
+        "Confirm sensor range",
+        "Open"
+      ],
+      [
+        "I-02",
+        "Review label",
+        "Open"
+      ]
+    ]
+  },
+  "edit": {
+    "rows": [
+      [
+        "I-01",
+        "Confirm sensor range",
+        "Open"
+      ],
+      [
+        "I-02",
+        "Review label",
+        "Closed"
+      ]
+    ]
+  }
+}

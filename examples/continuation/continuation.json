@@ -1,0 +1,44 @@
+{
+  "schema": "ingenium-project/1",
+  "projectId": "synthetic-signal-continuation",
+  "revision": 0,
+  "brief": "Change only Sensor A to Sensor C; preserve Controller B, 5 V, direction and rectangles.",
+  "sources": [
+    {
+      "id": "signal-source",
+      "path": "signal.svg",
+      "sha256": "c4e7580e30cb9bf4227fbdcf81ab1312db90b13a5a0f6789df0726578a931ea8",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "opening-note",
+      "path": "OPEN.md",
+      "sha256": "2ee03aabdb71b372a6e9fce12c4a2fdc29ecfeec0de2f0ae4194d5722e8efc43",
+      "mediaType": "text/markdown"
+    }
+  ],
+  "outputs": [],
+  "nextAction": "Open signal.svg and change only the Sensor A label.",
+  "versions": [
+    {
+      "id": "direction-first",
+      "name": "Original illustrative signal direction",
+      "revision": 0,
+      "sources": [
+        {
+          "id": "signal-source",
+          "path": "signal.svg",
+          "sha256": "c4e7580e30cb9bf4227fbdcf81ab1312db90b13a5a0f6789df0726578a931ea8",
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "id": "opening-note",
+          "path": "OPEN.md",
+          "sha256": "2ee03aabdb71b372a6e9fce12c4a2fdc29ecfeec0de2f0ae4194d5722e8efc43",
+          "mediaType": "text/markdown"
+        }
+      ],
+      "previews": []
+    }
+  ]
+}

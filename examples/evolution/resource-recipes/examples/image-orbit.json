@@ -1,0 +1,13 @@
+{
+  "id": "image-orbit",
+  "kind": "imagery",
+  "title": "Orbital observation illustration",
+  "description": "Original planet, orbit and observation craft",
+  "original": {
+    "accent": "#DA5C18",
+    "detail": "orbit"
+  },
+  "edit": {
+    "accent": "#9a3f12"
+  }
+}

@@ -1,34 +1,35 @@
 #!/usr/bin/env node
-import { realpath } from 'node:fs/promises';
-import { fileURLToPath } from 'node:url';
-import { createBrowserSession } from '../src/browser/index.mjs';
-import { inspectProject, readProjectJson } from '../src/project/index.mjs';
-
-const usage = 'ingenium-tools capabilities [--adapter-dir DIR] [--executable-path FILE] | inspect LOOPBACK_URL NEW_OUTPUT_DIR [--config JSON] [--previous SNAPSHOT.json] [--adapter-dir DIR] [--executable-path FILE]';
-export async function main(args, write = value => console.log(JSON.stringify(value, null, 2))) {
-  const [command, ...rest] = args;
-  try {
-    if (!['capabilities', 'inspect'].includes(command)) { write({ usage }); return 2; }
-    const options = {}, flags = { '--adapter-dir': 'adapterDir', '--executable-path': 'executablePath', '--config': 'config', '--previous': 'previousSnapshotPath' };
-    if (command === 'inspect') { options.url = rest.shift(); options.outputDir = rest.shift(); }
-    for (let i = 0; i < rest.length; i += 2) {
-      const key = flags[rest[i]];
-      if (!key || !rest[i + 1] || options[key] !== undefined || command === 'capabilities' && !['adapterDir', 'executablePath'].includes(key)) throw new TypeError('Use unique supported flag/value pairs. ' + usage);
-      options[key] = rest[i + 1];
-    }
-    if (command === 'capabilities') {
+import { executeCli, runBinary, isEntrypoint, readJson } from '../src/cli/runtime.mjs';
+import { dispatchModern } from '../src/cli/dispatch.mjs';
+import { CliError, resultExit } from '../src/cli/errors.mjs';
+export async function main(args, write, { signal } = {}) {
+  return executeCli(args, write, { product: 'ingenium-tools', signal, dispatch: async (parsed, emit) => {
+    if (['health', 'version'].includes(parsed.entry.path)) return dispatchModern(parsed, emit, { product: 'ingenium-tools', signal });
+    const flags = parsed.flags, options = {};
+    for (const [flag, key] of Object.entries({ '--adapter-dir': 'adapterDir', '--executable-path': 'executablePath', '--previous': 'previousSnapshotPath' })) if (flags[flag] !== undefined) options[key] = flags[flag];
+    if (parsed.entry.path === 'capabilities') {
+      const { createBrowserSession } = await import('../src/browser/index.mjs');
       const prepared = await createBrowserSession(options);
-      try { write({ status: prepared.status, ...prepared.capability, operations: ['inspect', 'preservation-comparison'], downloads: false, hooks: false }); }
+      try { emit({ status: prepared.status, ...prepared.capability, operations: ['inspect', 'preservation-comparison'], downloads: false, hooks: false }); }
       finally { await prepared.session?.close(); }
-      return prepared.status === 'pass' ? 0 : prepared.status === 'not-run' ? 2 : 1;
+      return resultExit(prepared);
     }
-    if (options.config) {
-      const config = await readProjectJson(options.config); delete options.config;
-      if (!config || Object.keys(config).some(key => key !== 'profiles') || !Array.isArray(config.profiles)) throw new TypeError('Config accepts only profiles');
+    const api = await import('../src/project/index.mjs');
+    if (parsed.entry.path === 'inspect-set') {
+      const plan = await readJson(parsed.positionals[0], { maxBytes: 1024 * 1024 });
+      if (typeof api.inspectProjectSet !== 'function') throw new CliError('MODULE_UNAVAILABLE', 'Multi-route inspection is unavailable in this package.', { category: 'unavailable' });
+      const validation = api.validateInspectionPlan(plan);
+      if (!validation.valid) { const first = validation.errors[0]; throw new CliError(first?.code ?? 'CONFIG_INVALID', first?.message ?? 'Invalid inspection plan.', { field: first?.path, nextStep: first?.nextStep }); }
+      const result = await api.inspectProjectSet({ plan, outputDir: parsed.positionals[1], ...options, signal });
+      emit(result); return resultExit(result);
+    }
+    if (flags['--config']) {
+      const config = await readJson(flags['--config']);
+      if (!config || Object.keys(config).some(key => key !== 'profiles') || !Array.isArray(config.profiles)) throw new CliError('CONFIG_INVALID', 'Config accepts only profiles.');
       options.profiles = config.profiles;
     }
-    const result = await inspectProject(options); write(result);
-    return ['fail', 'error'].includes(result.status) ? 1 : result.status === 'not-run' ? 2 : 0;
-  } catch (error) { write({ error: error.message }); return 1; }
+    const result = await api.inspectProject({ url: parsed.positionals[0], outputDir: parsed.positionals[1], ...options });
+    emit(result); return resultExit(result);
+  } });
 }
-if (process.argv[1] && fileURLToPath(import.meta.url) === await realpath(process.argv[1])) process.exitCode = await main(process.argv.slice(2));
+if (await isEntrypoint(import.meta.url)) process.exitCode = await runBinary(main, process.argv.slice(2));

@@ -41,6 +41,8 @@ test('invalid plans refuse before creating output; missing adapter records incom
   const root = await temporary(t), url = 'http://127.0.0.1:3000/';
   await assert.rejects(inspectProject({ url, outputDir: join(root, 'invalid'), profiles: [] }));
   assert.deepEqual(await readdir(root), []);
+  await assert.rejects(inspectProject({ url, outputDir: join(root, 'invalid-action'), profiles: [{ name: 'desktop', viewport: { width: 320, height: 640 }, journeys: [{ name: 'late', steps: [{ action: 'fill', selector: '#field', value: 42 }] }] }] }), /value/);
+  assert.deepEqual(await readdir(root), []);
   const missing = await inspectProject({ url, outputDir: join(root, 'missing'), adapterDir: join(root, 'no-adapter') });
   assert.equal(missing.status, 'not-run'); assert.equal(missing.capturedStates, 0);
   const compared = await inspectProject({ url, outputDir: join(root, 'missing-again'), adapterDir: join(root, 'no-adapter'), previousSnapshotPath: missing.files.snapshot });
@@ -59,11 +61,11 @@ test('separate companion stages only its explicit closure and installs offline w
   assert.equal(manifest.name, '@ajhcs/ingenium-tools');
   assert.equal(manifest.dependencies, undefined); assert.equal(manifest.scripts, undefined);
   assert.equal(companionFiles.some(p => /resources|examples|skills|media/.test(p)), false);
-  assert.ok(result.sourceBytes < 65000, 'keep the companion source small');
+  assert.ok(result.sourceBytes < 384 * 1024, 'reviewed inspection companion source budget');
   await assert.rejects(stageCompanion(staged), /EEXIST/);
   const npm = resolve(dirname(process.execPath), '../lib/node_modules/npm/bin/npm-cli.js');
   const packed = JSON.parse(execFileSync(process.execPath, [npm, 'pack', staged, '--ignore-scripts', '--json', '--cache', join(root, 'cache')], { cwd: root, encoding: 'utf8' }))[0];
-  assert.ok(packed.size < 22000, 'compressed companion remains below 22 KB');
+  assert.ok(packed.size < 96 * 1024, 'reviewed companion compressed budget is96 KiB');
   assert.equal(packed.files.length, result.files);
   execFileSync(process.execPath, [npm, 'install', '--prefix', join(root, 'consumer'), '--ignore-scripts', '--offline', '--no-audit', '--no-fund', '--cache', join(root, 'cache'), join(root, packed.filename)], { encoding: 'utf8' });
   const installed = join(root, 'consumer/node_modules/@ajhcs/ingenium-tools');

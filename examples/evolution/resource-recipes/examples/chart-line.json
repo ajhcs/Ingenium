@@ -1,0 +1,39 @@
+{
+  "id": "chart-line",
+  "kind": "chart",
+  "title": "Time series",
+  "description": "Measurements over three time points",
+  "original": {
+    "unit": "°C",
+    "data": [
+      [
+        "08:00",
+        18
+      ],
+      [
+        "12:00",
+        22
+      ],
+      [
+        "16:00",
+        20
+      ]
+    ]
+  },
+  "edit": {
+    "data": [
+      [
+        "08:00",
+        18
+      ],
+      [
+        "12:00",
+        23
+      ],
+      [
+        "16:00",
+        20
+      ]
+    ]
+  }
+}

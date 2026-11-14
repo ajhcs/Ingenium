@@ -5,6 +5,7 @@ import { realpath } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { localProjectUrl, isProjectRequest } from './local-url.mjs';
 import { capturePageInventory } from './inventory.mjs';
+import { createDependencyCollector } from './network-observations.mjs';
 
 const hash = value => createHash('sha256').update(value).digest('hex');
 const json = value => JSON.parse(JSON.stringify(value));
@@ -33,26 +34,60 @@ export async function createProjectBrowserSession({ url, adapterDir, executableP
   return prepareSession({ adapterDir, executablePath, origin });
 }
 
-async function prepareSession({ adapterDir, executablePath, origin }) {
+/** One owned process, explicitly fresh contexts for inspection-plan runs. */
+export async function createProjectBrowserRun({ url, allowedURLs, adapterDir, executablePath, timeoutMs } = {}) {
+  const origin = localProjectUrl(url).origin;
+  if (!Array.isArray(allowedURLs) || !allowedURLs.length || allowedURLs.some(value => { try { return localProjectUrl(value, origin).href !== value; } catch { return true; } })) throw new TypeError('Select explicit named route URLs on the exact origin');
+  const prepared = await prepareSession({ adapterDir, executablePath, origin, allowedURLs, timeoutMs });
+  if (!prepared.session) return prepared;
+  const sharedBrowser = prepared._browser, loadedModules = prepared._modules;
+  try { await prepared.session.closeContext(); }
+  catch (error) {
+    await sharedBrowser.close().catch(() => {});
+    return { status: 'error', capability: { available: false, code: 'BROWSER_CONTEXT_CLOSE_ERROR', reason: error.message } };
+  }
+  let closed = false, closing;
+  const sessions = new Set();
+  const run = {
+    async createSession() {
+      if (closed) throw new Error('Browser run closed');
+      const next = await prepareSession({ adapterDir, executablePath, origin, allowedURLs, sharedBrowser, loadedModules, timeoutMs });
+      if (!next.session) throw new Error(next.capability.reason);
+      sessions.add(next.session); return next.session;
+    },
+    close() { closed = true; closing ??= (async () => { await Promise.allSettled([...sessions].map(s => s.closeContext())); await sharedBrowser.close(); })(); return closing; },
+  };
+  return { status: 'pass', capability: prepared.capability, run };
+}
+
+async function prepareSession({ adapterDir, executablePath, origin, allowedURLs, sharedBrowser, loadedModules, timeoutMs }) {
   for (const [key, value] of Object.entries({ adapterDir, executablePath })) {
     if (value !== undefined && (typeof value !== 'string' || !value.trim())) return { status: 'error', capability: { available: false, reason: `${key} must be a nonempty string when provided`, code: 'INVALID_SELECTOR' } };
   }
   let modules;
-  try { modules = await dependencies(adapterDir); }
+  try { modules = loadedModules ?? await dependencies(adapterDir); }
   catch (error) {
     return { status: ['MODULE_NOT_FOUND', 'ERR_MODULE_NOT_FOUND', 'ENOENT'].includes(error.code) ? 'not-run' : 'error', capability: { available: false, reason: error.message, code: error.code ?? 'LOAD_ERROR' } };
   }
-  let browser;
+  let browser, context;
   try {
     const playwright = modules.playwright.default ?? modules.playwright;
     const AxeBuilder = modules['@axe-core/playwright'].default;
     const Builder = typeof AxeBuilder === 'function' ? AxeBuilder : AxeBuilder?.default;
     if (!playwright.chromium?.launch || typeof Builder !== 'function') throw new Error('Incompatible Playwright/axe adapter API');
-    browser = await playwright.chromium.launch({ headless: true, chromiumSandbox: true, ...(executablePath ? { executablePath } : {}) });
-    const context = await browser.newContext({ serviceWorkers: 'block' });
-    let network = [];
+    browser = sharedBrowser ?? await playwright.chromium.launch({ headless: true, chromiumSandbox: true, ...(timeoutMs ? { timeout: timeoutMs } : {}), ...(executablePath ? { executablePath } : {}) });
+    context = await browser.newContext({ serviceWorkers: 'block' });
+    let network = [], forbiddenNavigations = [];
+    const dependencies = createDependencyCollector();
+    const requestURLs = new Set((allowedURLs ?? []).map(value => { const u = new URL(value); u.hash = ''; return u.href; }));
+    const allowedPageURL = value => !allowedURLs || allowedURLs.includes(value);
+    const checkPageURL = () => { if (forbiddenNavigations.length) throw new Error('Observed top-level navigation outside explicitly named routes'); if (origin) { localProjectUrl(page.url(), origin); if (!allowedPageURL(page.url())) throw new Error('Top-level navigation outside explicitly named routes'); } };
+    const recordDependency = (request, outcome, extras = {}) => dependencies.observe({ type: request.resourceType() === 'xhr' ? 'fetch' : request.resourceType(), selected: Boolean(origin && isProjectRequest(request.url(), origin)), outcome, ...extras });
     await context.route('**/*', async route => {
-      const url = route.request().url();
+      const request = route.request(), url = request.url(), started = performance.now();
+      if (allowedURLs && request.isNavigationRequest() && !request.frame().parentFrame() && !requestURLs.has(url)) {
+        network.push({ url, status: 'blocked-navigation' }); recordDependency(request, 'blocked-policy'); return route.abort('blockedbyclient');
+      }
       if (origin && isProjectRequest(url, origin)) {
         // Chromium can follow redirects without invoking another route handler.
         // Fetch with no redirects, then fulfill; require the final URL explicitly.
@@ -61,22 +96,25 @@ async function prepareSession({ adapterDir, executablePath, origin }) {
           response = await route.fetch({ maxRedirects: 0, timeout: 15000 });
           if (response.status() >= 300 && response.status() < 400) {
             network.push({ url, status: 'blocked-redirect', reason: 'Select the final loopback URL explicitly' });
+            recordDependency(request, 'blocked-redirect', { httpStatus: response.status(), elapsedMs: performance.now() - started });
             return await route.abort('blockedbyclient');
           }
+          recordDependency(request, response.status() >= 400 ? 'http-error' : 'loaded', { httpStatus: response.status(), elapsedMs: performance.now() - started });
           return await route.fulfill({ response });
         } catch {
-          network.push({ url, status: 'request-error' });
+          network.push({ url, status: 'request-error' }); recordDependency(request, 'transport-error', { elapsedMs: performance.now() - started });
           return await route.abort('failed').catch(() => {});
         } finally { await response?.dispose(); }
       }
-      network.push({ url, status: 'blocked' }); return route.abort('blockedbyclient');
+      network.push({ url, status: 'blocked' }); recordDependency(request, 'blocked-policy'); return route.abort('blockedbyclient');
     });
     if (typeof context.routeWebSocket !== 'function') throw new Error('Compatible Playwright routeWebSocket required for external network guard');
     await context.routeWebSocket('**/*', socket => {
       if (origin && isProjectRequest(socket.url(), origin, true)) { socket.connectToServer(); return; }
-      network.push({ url: socket.url(), status: 'blocked-websocket' }); socket.close();
+      network.push({ url: socket.url(), status: 'blocked-websocket' }); dependencies.observe({ type: 'websocket', outcome: 'blocked-policy' }); socket.close();
     });
     const page = await context.newPage();
+    page.on('framenavigated', frame => { if (allowedURLs && frame === page.mainFrame() && frame.url() !== 'about:blank' && !allowedPageURL(frame.url())) forbiddenNavigations.push(frame.url()); });
     page.setDefaultTimeout(5000);
     const consoleErrors = [];
     page.on('pageerror', error => consoleErrors.push(error.message));
@@ -92,6 +130,7 @@ async function prepareSession({ adapterDir, executablePath, origin }) {
     async function steps(items = []) {
       const evidence = [];
       for (const step of items) {
+        if (origin) checkPageURL();
         const locator = step.selector ? page.locator(step.selector) : undefined;
         if (step.action === 'click') await locator.click();
         else if (step.action === 'focus') await locator.focus();
@@ -100,20 +139,23 @@ async function prepareSession({ adapterDir, executablePath, origin }) {
         else if (step.action === 'waitFor') await locator.waitFor({ state: 'visible' });
         else if (step.action === 'expectFocus') {
           const matches = await locator.evaluate(el => el === document.activeElement);
+          if (origin) checkPageURL();
           evidence.push({ ...step, status: matches ? 'pass' : 'fail' });
           continue;
         } else if (step.action === 'expectText' || step.action === 'expectValue') {
           const value = step.action === 'expectText' ? await locator.innerText() : await locator.inputValue();
+          if (origin) checkPageURL();
           evidence.push({ ...step, status: value === step.value ? 'pass' : 'fail' });
           continue;
         } else throw new Error(`Unsupported journey action: ${step.action}`);
+        if (origin) checkPageURL();
         evidence.push({ ...step, status: 'pass' });
       }
       return evidence;
     }
     const session = {
-      async inspect({ html, url, profile, state = { name: 'default' }, journeys = [], screenshotPath } = {}) {
-        const scope = { profile: typeof profile?.name === 'string' ? profile.name : 'unspecified', state: typeof state?.name === 'string' ? state.name : 'default' };
+      async inspect({ html, url, profile, state = { name: 'default' }, journeys = [], screenshotPath, resume = false, scope: suppliedScope } = {}) {
+        const scope = { profile: typeof profile?.name === 'string' ? profile.name : 'unspecified', state: typeof state?.name === 'string' ? state.name : 'default', ...(suppliedScope ?? {}) };
         let authoredExceptions = [];
         const issues = [];
         const raw = { network: [], console: [], journeys: [] };
@@ -140,20 +182,21 @@ async function prepareSession({ adapterDir, executablePath, origin }) {
           if (!Array.isArray(journeys)) throw new TypeError('journeys must be an array');
           if (screenshotPath && !isAbsolute(screenshotPath)) throw new TypeError('screenshotPath must be absolute');
           if (!origin) sourceHash = hash(html);
-          network = [];
+          network = []; forbiddenNavigations = []; dependencies.reset();
           consoleErrors.length = 0;
-          await page.goto('about:blank');
+          if (!resume) await page.goto('about:blank');
           await page.setViewportSize(profile.viewport);
           await page.emulateMedia({ reducedMotion: profile.reducedMotion ? 'reduce' : 'no-preference' });
-          if (origin) {
+          if (origin && !resume) {
+            if (!allowedPageURL(url)) throw new Error('Top-level navigation outside explicitly named routes');
             const response = await page.goto(url, { waitUntil: 'load', timeout: 15000 });
             localProjectUrl(page.url(), origin);
             if (!response || !response.ok()) throw new Error(`Project navigation failed: HTTP ${response?.status() ?? 'unavailable'}`);
             raw.url = page.url();
-          } else await page.setContent(html, { waitUntil: 'load', timeout: 10000 });
+          } else if (!origin && !resume) await page.setContent(html, { waitUntil: 'load', timeout: 10000 });
           if (profile.textSpacing) await page.addStyleTag({ content: '* {line-height:1.5 !important;letter-spacing:0.12em !important;word-spacing:0.16em !important} p {margin-block-end:2em !important}' });
           raw.state = await steps(state.steps);
-          if (origin) localProjectUrl(page.url(), origin);
+          if (origin) checkPageURL();
           if (raw.state.some(step => step.status === 'fail')) issue('state-assertion', state.name, 'fail', { steps: raw.state, note: 'Authored state assertion did not hold.' });
           await page.evaluate(() => Promise.race([document.fonts.ready, new Promise((_, reject) => setTimeout(() => reject(new Error('Font readiness timed out')), 5000))]));
           if (origin) { sourceHash = hash(await page.content()); raw.inventory = await page.evaluate(capturePageInventory); }
@@ -184,7 +227,7 @@ async function prepareSession({ adapterDir, executablePath, origin }) {
             if (box.clippedBy.length) issue('ancestor-clipping', box.target, 'review-needed', { clippedBy: box.clippedBy, rect: box.rect });
             if ((box.overflowX > 0.5 && /hidden|clip/.test(box.overflowStyle.x)) || (box.overflowY > 0.5 && /hidden|clip/.test(box.overflowStyle.y))) issue('content-clipping', box.target, 'review-needed', { overflowX: box.overflowX, overflowY: box.overflowY, style: box.overflowStyle });
           }
-          raw.measurementState = { ...scope, phase: 'after-state-before-journeys' };
+          raw.measurementState = { ...scope, phase: scope.phase ?? 'after-state-before-journeys' };
           raw.axe = await new Builder({ page }).analyze();
           for (const [group, status] of [['violations', 'fail'], ['incomplete', 'review-needed'], ['passes', 'pass'], ['inapplicable', 'not-applicable']]) {
             for (const rule of raw.axe[group]) {
@@ -207,24 +250,26 @@ async function prepareSession({ adapterDir, executablePath, origin }) {
               issue('keyboard-focus-journey', journey.name, 'error', { reason: error.message });
             }
           }
-          if (!journeys.length) issue('keyboard-focus-journey', 'document', 'not-run', { reason: 'No named journeys authored' });
-          if (origin) localProjectUrl(page.url(), origin);
-          raw.network = [...network]; raw.console = [...consoleErrors];
+          if (!journeys.length && !suppliedScope) issue('keyboard-focus-journey', 'document', 'not-run', { reason: 'No named journeys authored' });
+          if (origin) checkPageURL();
+          raw.network = [...network]; raw.console = [...consoleErrors]; raw.dependencies = dependencies.snapshot(scope); if (origin) raw.url = page.url();
           if (network.length) issue('blocked-network', 'document', 'review-needed', { count: network.length });
           if (consoleErrors.length) issue('page-errors', 'document', 'error', { errors: [...consoleErrors] });
           const limits = origin ? ['Selected loopback origin and captured states only; redirects are refused. Blocked resources may affect the result.', ...limitations.slice(1), 'Inventory does not prove event handlers or backend behavior.'] : limitations;
           return { status: issues.some(i => i.status === 'error') ? 'error' : issues.some(i => i.status === 'fail') ? 'fail' : issues.some(i => i.status === 'review-needed') ? 'review-needed' : 'pass', scope, sourceHash, environment, issues, raw, limitations: limits };
         } catch (error) {
           issue('browser-inspection', 'document', 'error', { reason: error.message });
-          raw.network = [...network]; raw.console = [...consoleErrors];
+          raw.network = [...network]; raw.console = [...consoleErrors]; raw.dependencies = dependencies.snapshot(scope); if (origin) raw.url = page.url();
           return { status: 'error', scope, sourceHash, environment, issues, raw, limitations };
         } finally { busy = false; }
       },
-      async close() { closed = true; await browser.close(); }
+      async closeContext() { closed = true; await context.close(); },
+      async close() { closed = true; if (sharedBrowser) await context.close(); else await browser.close(); }
     };
-    return { status: 'pass', capability: { available: true, environment }, session };
+    return { status: 'pass', capability: { available: true, environment }, session, ...(allowedURLs ? { _browser: browser, _modules: modules } : {}) };
   } catch (error) {
-    if (browser) await browser.close().catch(() => {});
+    await context?.close?.().catch(() => {});
+    if (browser && !sharedBrowser) await browser.close().catch(() => {});
     return { status: 'error', capability: { available: false, reason: error.message, code: error.code ?? 'BROWSER_START_ERROR' } };
   }
 }

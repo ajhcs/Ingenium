@@ -1,3 +1,7 @@
+# Current interfaces and historical decisions
+
+For the 0.2.0-alpha.1 candidate, start with the [current API index](api/index.md), [CLI guide](cli/README.md), and [release preparation contract](release-preparation.md). The sections below retain earlier slice decisions as history; current per-component contracts take precedence where the additive implementation reconciles a prior limit. Records-v1 and scoped decision protections remain unchanged.
+
 # Slice 1 component contracts
 
 ## Optional project tools companion
