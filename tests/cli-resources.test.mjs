@@ -8,6 +8,11 @@ const capture = async args => { let result; const exit = await main(args, value 
 test('task CLI search/detail are offline; selected editable acquisition retains exact source and full notice', async t => {
   const root = await temporary(t), search = join(root, 'search.json'), detail = join(root, 'detail.json'), request = join(root, 'selected.json'), output = join(root, 'result');
   const originalFetch = globalThis.fetch; globalThis.fetch = () => { throw new Error('No network expected'); }; t.after(() => { globalThis.fetch = originalFetch; });
+  const help = await capture(['resources', 'task-acquire', '--help']);
+  assert.equal(help.exit, 0);
+  assert.match(help.result.outputs[0], /creates NEW_OUTPUT_DIR/i);
+  assert.match(help.result.outputs[0], /originalSHA256/);
+  assert.deepEqual(await readdir(root), []);
   await writeFile(search, JSON.stringify({ sourceIds: ['cse-selected'], query: 'gear', limit: 2 }));
   const found = await capture(['resources', 'task-search', search]); assert.equal(found.exit, 0, JSON.stringify(found.result)); assert.ok(found.result.entries.length);
   assert.equal(found.result.entries[0].qualificationTier, 'handoff-qualified');

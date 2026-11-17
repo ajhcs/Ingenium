@@ -22,9 +22,9 @@ export function planTask(options = {}) {
     operations.push(operation);
   };
   if (inputs.length || intent !== 'create') add('inspect-inputs', intent === 'continue' ? 'Read retained sources, instructions and scoped decisions before continuing.' : 'Inspect supplied content and identify protected wording, units, identities and choices.');
-  if (intent === 'compare') add('study', 'Compare only requested alternatives and named decision criteria; do not infer a winner.');
+  if (intent === 'compare') add('study', 'Compare the requested directions against the decision at hand. Give a reasoned recommendation when the choice is delegated. Record the person’s selection only when expressed.');
   else if (depth !== 'quick') add('study', depth === 'deep' ? 'Investigate named material uncertainty in stages; stop when the requested outcome is supported.' : 'Investigate a named uncertainty only if it changes the result.', true);
-  if (['create', 'revise', 'continue'].includes(intent)) add('edit', intent === 'create' ? 'Produce the requested result; default to one output unless more were requested.' : 'Apply the requested change into a new source while preserving protected content and settled choices.');
+  if (['create', 'revise', 'continue'].includes(intent)) add('edit', intent === 'create' ? 'Default to one output unless more were requested. When given creative direction, let a specific fact, experience or action in the brief shape the artifact.' : 'Apply the requested change into a new source while preserving protected content and settled choices.');
   add('review', depth === 'quick' ? 'Check the affected scope; use at most one targeted visual probe by default if useful and available.' : 'Check affected content and dependencies; add probes only to resolve named uncertainty.');
   if (deliverables.length && !['review', 'compare'].includes(intent)) add('export', 'Export only requested derivatives through available supported tools; report absent tools and failed exports honestly.', true);
   add('handoff', deliverables.length ? 'Include editable source, requested successful files and a concise opening/editing/continuation note.' : 'Return the requested result with a short change note and next useful action.');

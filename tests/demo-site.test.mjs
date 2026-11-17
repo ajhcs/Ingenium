@@ -9,6 +9,10 @@ test('staged site supplies every process study and current Fieldwork download', 
   const out=join(root,'site');
   const result=JSON.parse(execFileSync(process.execPath,['tools/build-release-site.mjs',out],{encoding:'utf8'}));
   assert.equal(result.studies,17); assert.equal(result.deployed,false);
+  const home = await readFile(join(out, 'index.html'), 'utf8');
+  assert.match(home, /href="#studies">Explore the work/);
+  assert.match(home, /href="play\/common-measure.html"/);
+  assert.deepEqual(await readFile(join(out, 'play/common-measure.html')), await readFile('skills/ingenium/assets/common-measure.html'));
   const manifest=JSON.parse(await readFile('examples/process/manifest.json','utf8'));
   for(const item of manifest.studies) {
     for(let i=1;i<=4;i++) assert.match(await readFile(join(out,'studies',item.id,String(i),'index.html'),'utf8'),/View stage source/);

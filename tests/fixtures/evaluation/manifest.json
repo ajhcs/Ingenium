@@ -271,6 +271,67 @@
         "Does the revised result preserve the existing design?",
         "Does the tiny image retain an honest provenance/quality label?"
       ]
+    },
+    {
+      "id": "open-commission",
+      "sourceIds": [],
+      "task": "The Oriole Cinema is showing the same silent short twice on 18 June. At 19:00 a pianist plays the score. At 20:00 the audience makes the score with paper and pencils. Admission to both is free. Make one editable announcement for the lobby. You have the art direction.",
+      "inputs": [],
+      "requestedDeliverables": ["One editable lobby announcement"],
+      "protectedFacts": [
+        "The same silent short is shown twice on 18 June at the Oriole Cinema",
+        "19:00 pianist and 20:00 audience using paper and pencils",
+        "Admission to both screenings is free"
+      ],
+      "expectedObservableChecks": [
+        "One finished editable announcement with both time-to-performer associations intact",
+        "The design delivers a direction without waiting for a style preference"
+      ],
+      "judgmentQuestions": [
+        "What did you notice first in the artifact before reading its handoff?",
+        "Which visible choice depends on this film being shown twice with different performers? What would need to change for a single screening?",
+        "Can you find the show you want to attend at lobby reading size? Where does the expressive choice help or get in the way?"
+      ]
+    },
+    {
+      "id": "explore-commission",
+      "sourceIds": [],
+      "task": "The Oriole Cinema is showing the same silent short twice on 18 June. At 19:00 a pianist plays the score. At 20:00 the audience makes the score with paper and pencils. Admission to both is free. Let's explore directions for a lobby announcement together. Show two small editable studies we can react to before we choose.",
+      "inputs": [],
+      "requestedDeliverables": [
+        "Two small editable studies with an unresolved choice"
+      ],
+      "protectedFacts": [
+        "Same short, venue, date, free admission, and both time-to-performer associations"
+      ],
+      "expectedObservableChecks": [
+        "Two editable visual studies",
+        "The person retains the choice of direction"
+      ],
+      "judgmentQuestions": [
+        "Do the studies differ in an organizing idea useful for this brief?",
+        "Does the response invite a concrete comparison without committing the choice?"
+      ]
+    },
+    {
+      "id": "ordinary-overview",
+      "sourceIds": [],
+      "task": "Create an editable engineering overview titled Field Station, dated 18 April 2030, with the invitation “Review the revised system.” Show Sensor → Controller → Display.",
+      "inputs": [],
+      "requestedDeliverables": [
+        "One editable engineering overview"
+      ],
+      "protectedFacts": [
+        "Exact title, date, and invitation",
+        "Sensor to Controller to Display in that order"
+      ],
+      "expectedObservableChecks": [
+        "One directly usable editable artifact",
+        "Exact supplied wording and directed connections"
+      ],
+      "judgmentQuestions": [
+        "Did the assistant choose routine presentation details and deliver the overview without reframing it as a creative commission or approval exercise?"
+      ]
     }
   ]
 }

@@ -40,7 +40,16 @@ export function validateManifest(manifest) {
   }
   return errors;
 }
-export async function prepareCase({ manifest, id, outputDir, skillDir, repetition = 1 }) {
+function evaluationSettings({ skillCue = 'named', reasoningEffort = 'low' }) {
+  if (!['named', 'none'].includes(skillCue)) throw new Error('--skill-cue expects named or none');
+  if (typeof reasoningEffort !== 'string' || !/^[a-z][a-z0-9-]{0,31}$/.test(reasoningEffort)) {
+    throw new Error('--reasoning-effort expects a client effort name or client-default');
+  }
+  return { skillCue, reasoningEffort };
+}
+export async function prepareCase(options) {
+  const { manifest, id, outputDir, skillDir, repetition = 1 } = options;
+  const settings = evaluationSettings(options);
   const errors = validateManifest(manifest);
   if (errors.length) throw new Error(errors.join('; '));
   const scenario = manifest.cases.find(item => item.id === id);
@@ -60,9 +69,12 @@ export async function prepareCase({ manifest, id, outputDir, skillDir, repetitio
     await mkdir(path.dirname(path.join(projectDir, input)), { recursive: true });
     await cp(source, path.join(projectDir, input), { errorOnExist: true });
   }
-  const prompt = `Use the project-local $ingenium skill for this task. Work only in this disposable project. Do not install anything, alter global configuration, contact external services, or modify the skill.\n\n${scenario.task}\n\n${scenario.inputs.length ? `Supplied local inputs: ${scenario.inputs.join(', ')}.` : ''}\n`;
+  const named = settings.skillCue === 'named';
+  const cue = named ? 'Use the project-local $ingenium skill for this task. ' : '';
+  const protectedTools = named ? 'the skill' : 'installed tooling';
+  const prompt = `${cue}Work only in this disposable project. Do not install anything, alter global configuration, contact external services, or modify ${protectedTools}.\n\n${scenario.task}\n\n${scenario.inputs.length ? `Supplied local inputs: ${scenario.inputs.join(', ')}.` : ''}\n`;
   await writeFile(path.join(outputDir, 'producer-prompt.txt'), prompt);
-  const receipt = { schema: 'ingenium-behavioral-result/1', id, repetition, releaseIdentity: { kind: 'development-skill-content', sha256: digest(JSON.stringify(skillInventory)), files: skillInventory }, environment: {}, status: 'not-run', evidenceFiles: ['producer-prompt.txt'], judgments: [], limits: ['Preparing a case does not execute client/model behavior.'], preparedInputs: await inventory(projectDir) };
+  const receipt = { schema: 'ingenium-behavioral-result/1', id, repetition, settings, releaseIdentity: { kind: 'development-skill-content', sha256: digest(JSON.stringify(skillInventory)), files: skillInventory }, environment: {}, status: 'not-run', evidenceFiles: ['producer-prompt.txt'], judgments: [], limits: ['Preparing a case does not execute client/model behavior.'], preparedInputs: await inventory(projectDir) };
   await writeFile(path.join(outputDir, 'result.json'), JSON.stringify(receipt, null, 2) + '\n');
   return { receipt, projectDir, prompt };
 }
@@ -90,21 +102,31 @@ export async function runCase(options) {
   if (tempRoot && !path.isAbsolute(tempRoot)) throw new Error('Temporary root must be an explicit absolute existing directory');
   const clientVersion = (await executeFile(client, ['--version'], { timeout: 5000, maxBuffer: 65536 })).stdout.trim();
   const { receipt, projectDir, prompt } = await prepareCase(options);
-  const args = ['-a', 'never', 'exec', '--ignore-user-config', '--ephemeral', '--skip-git-repo-check', '-m', model, '-c', 'model_reasoning_effort="low"', '-s', sandbox, '--json', '-C', projectDir, '-o', path.join(options.outputDir, 'producer-final.txt'), prompt];
+  const { reasoningEffort } = receipt.settings;
+  const effortArgs = reasoningEffort === 'client-default' ? [] : ['-c', `model_reasoning_effort=${JSON.stringify(reasoningEffort)}`];
+  const args = ['-a', 'never', 'exec', '--ignore-user-config', '--ephemeral', '--skip-git-repo-check', '-m', model, ...effortArgs, '-s', sandbox, '--json', '-C', projectDir, '-o', path.join(options.outputDir, 'producer-final.txt'), prompt];
   receipt.environment = { route: 'Codex CLI project-local .agents/skills', clientVersion, requestedModel: model, sandbox, platform: process.platform, arch: process.arch, node: process.version, startedAt: new Date().toISOString(), invocation: args.slice(0, -1), client };
   receipt.limits = ['Model behavior observed only for these exact inputs and candidate bytes.', 'Process completion is not a behavioral verdict. Independent evaluator must inspect events, sources and requested outputs.', 'No generic-assistant comparison or native-editor qualification.'];
   receipt.status = 'running';
   await writeFile(path.join(options.outputDir, 'result.json'), JSON.stringify(receipt, null, 2) + '\n');
-  try { receipt.process = await launch(client, args, options.outputDir, timeoutMs, tempRoot); receipt.status = receipt.process.code === 0 ? 'observed-needs-review' : 'client-error'; }
+  try {
+    receipt.process = await launch(client, args, options.outputDir, timeoutMs, tempRoot);
+    const { code, timedOut, overflow } = receipt.process;
+    receipt.status = code === 0 && !timedOut && !overflow ? 'observed-needs-review' : 'client-error';
+  }
   catch (error) { receipt.status = 'client-error'; receipt.error = String(error.message); }
   receipt.environment.finishedAt = new Date().toISOString();
   receipt.outputs = await inventory(projectDir);
-  receipt.evidenceFiles.push('client-events.jsonl', 'client-stderr.txt', 'producer-final.txt', 'project/');
+  const retained = await readdir(options.outputDir, { withFileTypes: true });
+  for (const name of ['client-events.jsonl', 'client-stderr.txt', 'producer-final.txt']) {
+    if (retained.some(entry => entry.name === name && entry.isFile())) receipt.evidenceFiles.push(name);
+  }
+  receipt.evidenceFiles.push('project/');
   await writeFile(path.join(options.outputDir, 'result.json'), JSON.stringify(receipt, null, 2) + '\n');
   return receipt;
 }
 export async function main(args) {
-  const options = {}, allowed = new Set(['manifest', 'case', 'output', 'skill', 'client', 'model', 'repeat', 'timeout-ms', 'temp-root', 'sandbox']);
+  const options = {}, allowed = new Set(['manifest', 'case', 'output', 'skill', 'client', 'model', 'repeat', 'timeout-ms', 'temp-root', 'sandbox', 'skill-cue', 'reasoning-effort']);
   let execute = false;
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--run') { if (execute) throw new Error('Duplicate --run'); execute = true; continue; }
@@ -113,6 +135,7 @@ export async function main(args) {
     options[key] = args[++i];
   }
   for (const key of ['case', 'output', 'skill']) if (!options[key]) throw new Error(`Required --${key}`);
+  const settings = evaluationSettings({ skillCue: options['skill-cue'], reasoningEffort: options['reasoning-effort'] });
   if (options.sandbox && !['workspace-write', 'danger-full-access'].includes(options.sandbox)) throw new Error('Sandbox must be workspace-write or danger-full-access');
   const manifest = JSON.parse(await readFile(options.manifest ?? path.join(fixtureRoot, 'manifest.json'), 'utf8'));
   const count = Number(options.repeat ?? 3);
@@ -121,9 +144,19 @@ export async function main(args) {
   await mkdir(options.output, { recursive: false });
   const receipts = [];
   for (let repetition = 1; repetition <= count; repetition++) {
-    const spec = { manifest, id: options.case, outputDir: path.resolve(options.output, `run-${repetition}`), skillDir: path.resolve(options.skill), repetition, client: options.client, model: options.model, tempRoot: options['temp-root'], sandbox: options.sandbox, timeoutMs: Number(options['timeout-ms'] ?? 600000) };
+    const spec = { ...settings, manifest, id: options.case, outputDir: path.resolve(options.output, `run-${repetition}`), skillDir: path.resolve(options.skill), repetition, client: options.client, model: options.model, tempRoot: options['temp-root'], sandbox: options.sandbox, timeoutMs: Number(options['timeout-ms'] ?? 600000) };
     receipts.push(execute ? await runCase(spec) : (await prepareCase(spec)).receipt);
   }
   return receipts;
 }
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main(process.argv.slice(2)).then(result => process.stdout.write(JSON.stringify(result.map(({id,repetition,status}) => ({id,repetition,status})), null, 2) + '\n')).catch(error => { process.stderr.write(`${error.message}\n`); process.exitCode = 1; });
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  try {
+    const results = await main(process.argv.slice(2));
+    const summary = results.map(({ id, repetition, status }) => ({ id, repetition, status }));
+    process.stdout.write(JSON.stringify(summary, null, 2) + '\n');
+    if (results.some(result => result.status === 'client-error')) process.exitCode = 1;
+  } catch (error) {
+    process.stderr.write(`${error.message}\n`);
+    process.exitCode = 1;
+  }
+}

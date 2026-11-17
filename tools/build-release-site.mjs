@@ -22,6 +22,7 @@ const projected=homepage.replace(briefSlot,(_,a,b,c)=>a+escape(brief.request)+b+
 
 const page=(title,body,base='../')=>`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} — Ingenium</title><link rel="icon" href="${base}assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="${base}style.css"><script src="${base}stage.js" defer></script></head><body><header class="page-header wrap"><a href="${base}">Ingenium</a><nav aria-label="Main navigation"><a href="${base}studies/">Studies</a><a href="${base}guide/">Guide</a><a href="${base}resources/">Resources</a><a href="${base}downloads/">Downloads</a></nav></header><main class="page-main wrap">${body}</main></body></html>`;
 async function write(rel,content){let p=path.join(out,rel);await fs.mkdir(path.dirname(p),{recursive:true});await fs.writeFile(p,content);}
+await write('play/common-measure.html', await fs.readFile(path.join(root, 'skills/ingenium/assets/common-measure.html')));
 let artifacts='', artifactVersion='', guidanceName='', artifactDevelopment=false;
 const studyArtifacts=new Map();
 if(artifactsManifestPath){

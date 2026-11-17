@@ -2,9 +2,17 @@
 
 **Shape an idea in stages. Keep the work editable.**
 
-Ingenium is a creative skill for Codex and Claude, with a guided route for ChatGPT. Bring a rough idea, a reference, or a design already in progress. Explore its ingredients, make choices about composition and materials, and refine an assembly you can continue to edit.
+Ingenium is a creative skill for Codex and Claude, with a guided route for ChatGPT. Ask for an editable design, explore a direction together, or request a precise revision. The guidance also covers commissions where you delegate art direction.
 
 [Start and install](docs/install.md) · [Quickstart](docs/quickstart.md) · [Client compatibility](docs/compatibility.md) · [Studies](#thirteen-studies)
+
+## Common Measure
+
+Two percussionists start together. One strikes every five pulses, the other every seven. The circular score places their next shared strike back at the top. Each instrument leaves its own family of engraved lines. The straight score underneath lets a player count individual strikes.
+
+![Common Measure. Navy and vermilion lines touch the rim at the two players’ strikes.](docs/assets/common-measure.png)
+
+Download the HTML, then open the saved file in your browser. Change the bell to six pulses and the players meet again after thirty. On a narrow screen, **Read the strike numbers** opens a text list that follows the browser's text size. **Save SVG** exports an editable print of the selected pair. The HTML also works offline from the extracted development guidance ZIP. [Download the instrument HTML](skills/ingenium/assets/common-measure.html?raw=true) · [Editable 5/7 score](examples/common-measure/common-measure-5-7.svg) · [Development guidance ZIP](site/assets/downloads/ingenium-skill.zip?raw=true)
 
 ## Start with a real task
 

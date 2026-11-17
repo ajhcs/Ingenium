@@ -29,7 +29,8 @@ class GuidanceBundleTest(unittest.TestCase):
                 notices = ("LICENSE", "LICENSE-IMPECCABLE", "NOTICE-IMPECCABLE")
                 allowed_notices = {"ingenium/" + name for name in notices}
                 self.assertTrue(allowed_notices.issubset(names))
-                editable_examples = {"ingenium/assets/responsive-starter.html"}
+                editable_examples = {"ingenium/assets/responsive-starter.html",
+                                     "ingenium/assets/common-measure.html"}
                 self.assertTrue(editable_examples.issubset(names))
                 self.assertTrue(all(name.endswith(".md") or name in allowed_notices or
                                     name in editable_examples for name in names))
@@ -37,8 +38,9 @@ class GuidanceBundleTest(unittest.TestCase):
             skill = directory / "consumer/ingenium"
             self.assertEqual((skill / "SKILL.md").read_bytes(),
                              (ROOT / "skills/ingenium/SKILL.md").read_bytes())
-            self.assertEqual((skill / "assets/responsive-starter.html").read_bytes(),
-                             (ROOT / "skills/ingenium/assets/responsive-starter.html").read_bytes())
+            for name in editable_examples:
+                self.assertEqual((directory / "consumer" / name).read_bytes(),
+                                 (ROOT / "skills" / name).read_bytes())
             self.assertEqual((skill / "LICENSE").read_bytes(), (ROOT / "LICENSE").read_bytes())
             for notice in notices:
                 self.assertEqual((skill / notice).read_bytes(),
