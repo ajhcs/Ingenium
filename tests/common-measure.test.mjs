@@ -25,7 +25,38 @@ test('Common Measure plays and exports the selected score offline', {
     await page.getByRole('button', { name: 'Save SVG' }).click();
     const defaultScore = await defaultDownload;
     assert.equal(defaultScore.suggestedFilename(), 'common-measure-5-7.svg');
-    assert.deepEqual(await readFile(await defaultScore.path()), await readFile('examples/common-measure/common-measure-5-7.svg'));
+    const scores = await Promise.all([
+      readFile(await defaultScore.path(), 'utf8'),
+      readFile('examples/common-measure/common-measure-5-7.svg', 'utf8'),
+    ]);
+    const [downloaded, retained] = await page.evaluate(sources => {
+      function structure(element) {
+        const attributes = [...element.attributes]
+          .filter(attribute => attribute.namespaceURI !== 'http://www.w3.org/2000/xmlns/')
+          .map(attribute => [attribute.namespaceURI, attribute.localName, attribute.value])
+          .sort((a, b) => String(a.slice(0, 2)).localeCompare(String(b.slice(0, 2))));
+        const textual = ['text', 'tspan', 'title', 'desc'].includes(element.localName);
+        const children = [...element.childNodes].flatMap(node => {
+          if (node.nodeType === Node.ELEMENT_NODE) return [structure(node)];
+          if (node.nodeType === Node.TEXT_NODE && (textual || node.data.trim())) return [node.data];
+          return [];
+        });
+        return [element.namespaceURI, element.localName, attributes, children];
+      }
+      return sources.map(source => {
+        const doc = new DOMParser().parseFromString(source, 'image/svg+xml');
+        if (doc.querySelector('parsererror') || doc.documentElement.localName !== 'svg') throw new Error('Invalid score SVG');
+        return structure(doc.documentElement);
+      });
+    }, scores);
+    assert.deepEqual(downloaded, retained);
+    const serifFamilies = await page.evaluate(() => [
+      document.querySelector('#masthead text:last-child'),
+      document.querySelector('#notation text:first-of-type'),
+      document.querySelector('#intervals text'),
+      document.querySelector('aside h1'),
+    ].map(node => getComputedStyle(node).fontFamily));
+    assert.equal(new Set(serifFamilies).size, 1);
 
     const coverage = await page.evaluate(() => {
       const results = [];

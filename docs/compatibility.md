@@ -79,9 +79,11 @@ repetitions. For browser tasks, select an existing short workspace temporary roo
 `--temp-root /absolute/short/workspace/tmp` when Chromium socket paths would exceed
 platform limits. Temporary paths are recorded; the harness never changes `HOME`
 or `CODEX_HOME`. Completion of the client process is recorded as
-`observed-needs-review`, never an automatic behavioral pass. Producer prompts,
-actual client events, editable outputs and independent evaluator observations
-remain separate. Private receipts belong under ignored `work/implementation/`.
+`observed-needs-review`. After inspecting its evidence, a reviewer can record
+the judgments and mark that receipt `reviewed`. Review records observations
+about the output and can include defects. Producer prompts, client events,
+editable outputs, and judgments remain separate. Private receipts belong under
+ignored `work/`.
 
 For example, from the source checkout with Node 22 or newer:
 
@@ -123,20 +125,29 @@ unavailable routes remain open and must not be described as qualified support.
 On 17 November 2026, Codex CLI 0.169.0 ran each of five briefs once per version
 with requested model `gpt-6.2-astra`, low reasoning effort, and the same named
 project-local skill cue. The two inputs were the skill tree from `afeb130` and
-the revised guidance with `SKILL.md` SHA-256
+the first revision with `SKILL.md` SHA-256
 `d0596a7d2f52cc0f93e615d76decda813a5d86cff2de5f4c66df849248b69e68`.
-Review included source comparison and separate Chromium renders. Common Measure
-was authored separately as a worked example. Its later graphics fixes did not
-change the instructions used in these runs.
+A separate model evaluator answered the manifest's questions from masked
+packets containing the sources, Chromium renders, and handoffs. Common Measure
+is a separately authored worked example.
 
 | Brief | Baseline and revised guidance |
 | --- | --- |
-| Delegated Oriole Cinema commission | Each delivered one editable poster. Both linked the pianist and audience scores through a transition from piano keys to pencil marks. The revised result paired the artwork and times in two columns. The baseline used a stronger free-admission footer. |
+| Delegated Oriole Cinema commission | Each delivered one editable poster. Both linked the pianist and audience scores through a transition from piano keys to pencil marks. The first revision paired the artwork and times in two columns. The baseline used a stronger free-admission footer. Both handoffs left the cost of the design choice unstated. |
 | Explore the same announcement together | Each delivered two studies and left the direction open. Both contrasted equal prominence for the screenings with an invitation that leads with the audience's role. |
 | Ambiguous feedback on a card | Each delivered a type-only probe and treated the interpretation as tentative. The original files kept their exact bytes. |
 | Protected title edit | Each delivered a separate SVG. A byte comparison confirmed that only the requested title text changed. |
 | Ordinary Field Station overview | Each delivered a single editable overview with the supplied wording and both directed links. |
 
-These paired observations cover a single run per brief and guidance version.
-Both versions showed comparable behavior on these tasks. The sessions explicitly
-named the skill, so automatic discovery remains unmeasured by this comparison.
+The follow-up guidance asks for one concrete benefit and one compromise in the
+handoff of a delegated commission. The ordinary overview and cinema brief
+each ran uncued against the baseline and follow-up guidance. All four session
+logs show a successful read of the project-local `SKILL.md`. The uncued
+follow-up cinema handoff says the free-admission line reads best up close while
+the illustration communicates across the lobby. In a separate named run, the
+handoff explicitly attributes the admission line's reading distance to the
+space given to the illustration.
+
+All 15 receipts have independently recorded answers. The evaluations use
+one run per brief, guidance version, and cue setting. [Per-run judgments and
+guidance hashes](behavioral-review.md).

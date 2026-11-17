@@ -10,7 +10,7 @@
   main { max-width: 75rem; margin: auto; padding: clamp(.65rem, 3vw, 3rem); display: grid; gap: clamp(1.25rem, 5vw, 5rem); align-items: center; }
   @media (min-width: 54rem) { main { grid-template-columns: minmax(0, 1.8fr) minmax(16rem, .85fr); } }
   #plate { display: block; width: 100%; height: auto; background: #faf2da; box-shadow: 0 4px 20px #25222520; }
-  h1 { font: normal 2.5rem/1.05 Georgia, 'Liberation Serif', serif; margin: 0 0 1rem; }
+  h1 { font: normal 2.5rem/1.05 'DejaVu Serif', 'Liberation Serif', Georgia, serif; margin: 0 0 1rem; }
   @media (max-width: 26rem) { h1 { font-size: 1.4rem; } }
   aside { min-width: 0; }
   aside p { max-width: 36ch; }
@@ -46,7 +46,7 @@
     <g id="engraving"></g>
     <g id="notation">
       <path d="M38 682H682" stroke="#152640"/>
-      <text x="38" y="731" font-family="Georgia, 'Liberation Serif', serif" font-size="41" letter-spacing="-1.4">Back together</text>
+      <text x="38" y="731" font-family="'DejaVu Serif', 'Liberation Serif', Georgia, serif" font-size="41" letter-spacing="-1.4">Back together</text>
       <text id="period-label" x="682" y="730" text-anchor="end" font-size="27" font-weight="bold"></text>
       <text id="wood-label" x="38" y="784" font-size="15" font-weight="bold"></text>
       <text id="bell-label" x="38" y="819" font-size="15" font-weight="bold" fill="#ab391d"></text>
@@ -145,7 +145,7 @@ function draw() {
       element(marks, 'circle', { cx: p.x, cy: p.y, r: 3.4, fill: rust });
     }
   }
-  const label = element(engraving, 'g', { id: 'intervals', 'text-anchor': 'middle', 'font-family': "Georgia, 'Liberation Serif', serif", 'font-style': 'italic' });
+  const label = element(engraving, 'g', { id: 'intervals', 'text-anchor': 'middle', 'font-family': "'DejaVu Serif', 'Liberation Serif', Georgia, serif", 'font-style': 'italic' });
   element(label, 'text', { x: cx, y: cy + 5, 'font-size': 19 }, piece.wood + ' / ' + piece.bell);
   const x0 = 218, x1 = 680;
   for (const [index, voice] of voices.entries()) {

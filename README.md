@@ -12,7 +12,7 @@ Two percussionists start together. One strikes every five pulses, the other ever
 
 ![Common Measure. Navy and vermilion lines touch the rim at the two players’ strikes.](docs/assets/common-measure.png)
 
-Download the HTML, then open the saved file in your browser. Change the bell to six pulses and the players meet again after thirty. On a narrow screen, **Read the strike numbers** opens a text list that follows the browser's text size. **Save SVG** exports an editable print of the selected pair. The HTML also works offline from the extracted development guidance ZIP. [Download the instrument HTML](skills/ingenium/assets/common-measure.html?raw=true) · [Editable 5/7 score](examples/common-measure/common-measure-5-7.svg) · [Development guidance ZIP](site/assets/downloads/ingenium-skill.zip?raw=true)
+Download and extract the guidance ZIP, then open `ingenium/assets/common-measure.html` in your browser. Change the bell to six pulses and the players meet again after thirty. On a narrow screen, **Read the strike numbers** opens a text list that follows the browser's text size. **Save SVG** exports an editable print of the selected pair. [Download the development guidance ZIP](site/assets/downloads/ingenium-skill.zip?raw=true) · [Editable 5/7 score](examples/common-measure/common-measure-5-7.svg)
 
 ## Start with a real task
 
