@@ -79,9 +79,11 @@ repetitions. For browser tasks, select an existing short workspace temporary roo
 `--temp-root /absolute/short/workspace/tmp` when Chromium socket paths would exceed
 platform limits. Temporary paths are recorded; the harness never changes `HOME`
 or `CODEX_HOME`. Completion of the client process is recorded as
-`observed-needs-review`, never an automatic behavioral pass. Producer prompts,
-actual client events, editable outputs and independent evaluator observations
-remain separate. Private receipts belong under ignored `work/implementation/`.
+`observed-needs-review`. After an independent review, use
+`tools/record-behavioral-review.mjs` to write a separate `result.reviewed.json`.
+The reviewed file records the judgments and the SHA-256 of the original
+`result.json`, which remains the producer receipt. Private receipts belong
+under ignored `work/`.
 
 For example, from the source checkout with Node 22 or newer:
 
@@ -93,7 +95,37 @@ node tools/run-behavioral-evaluation.mjs \
 
 This creates fresh disposable projects and records `not-run`. To execute, add
 `--run --client /absolute/path/to/codex --model YOUR_SELECTED_MODEL` using an
-existing authenticated client. The harness uses `--ignore-user-config`, never
+existing authenticated client.
+
+To record a review, create a JSON file with schema `ingenium-behavioral-review/1`,
+the evaluator's `reviewer` label, boolean `versionsMasked`, and
+`receiptSHA256` from the producer's `result.json`. The `judgments` array
+contains one `{question, answer, evidence}` per manifest question, in order.
+Each `evidence` entry is a file path relative to the review JSON. Then run:
+
+```sh
+node tools/record-behavioral-review.mjs work/evaluation/run-1 work/review/review.json
+```
+
+Pass the custom manifest as a third argument when reviewing a run that used one.
+The recorder validates the receipt, questions, and evidence references. The
+judgments remain the evaluator's responsibility. An existing reviewed file
+is preserved.
+
+By default the runner names `$ingenium` in the prompt and requests low reasoning
+effort, matching earlier runs. Use `--skill-cue none` to present the same task
+without the runner naming the skill. For a discovery check, choose a task and
+inputs that also omit its name. Inspect the client events for a read of the
+project-local candidate before attributing the result to that skill.
+
+Use `--reasoning-effort high` to request that level from a compatible model, or
+`--reasoning-effort client-default` to omit the override. The client determines
+which effort names the model accepts. Each result records the requested settings.
+When comparing models, hold the task, skill bytes, cue and effort setting fixed.
+If a client run fails, the CLI prints the repetition statuses and exits nonzero.
+Its receipt lists the evidence files present after that attempt.
+
+The harness uses `--ignore-user-config`, never
 writes client configuration or credentials, and never changes installed user
 skills. The default sandbox is `workspace-write`; explicit `--sandbox danger-full-access` disables that boundary for trusted tasks and is recorded in the receipt. Use it only when the selected task and environment authorize unrestricted execution. Client session state remains governed by that client's own ephemeral
 execution behavior; no new account or API key is created.
@@ -102,3 +134,56 @@ Behavioral repetition is bounded observation, not a population reliability claim
 Browser checks, native editors, glyph coverage, assistive technology, artistic
 acceptance and engineering adequacy require their own evidence. Unsupported or
 unavailable routes remain open and must not be described as qualified support.
+
+## Delegated direction and ordinary briefs
+
+On 17 November 2026, Codex CLI 0.169.0 ran each of five briefs once per version
+with requested model `gpt-6.2-astra`, low reasoning effort, and the same named
+project-local skill cue. The two inputs were the skill tree from `afeb130` and
+the first revision with `SKILL.md` SHA-256
+`d0596a7d2f52cc0f93e615d76decda813a5d86cff2de5f4c66df849248b69e68`.
+A separate model evaluator answered the manifest's questions from masked
+packets containing the sources, Chromium renders, and handoffs. Common Measure
+is a separately authored worked example.
+
+| Brief | Baseline and revised guidance |
+| --- | --- |
+| Delegated Oriole Cinema commission | Each delivered one editable poster. Both linked the pianist and audience scores through a transition from piano keys to pencil marks. The first revision paired the artwork and times in two columns. The baseline used a stronger free-admission footer. Both handoffs left the cost of the design choice unstated. |
+| Explore the same announcement together | Each delivered two studies and left the direction open. Both contrasted equal prominence for the screenings with an invitation that leads with the audience's role. |
+| Ambiguous feedback on a card | Each delivered a type-only probe and treated the interpretation as tentative. The original files kept their exact bytes. |
+| Protected title edit | Each delivered a separate SVG. A byte comparison confirmed that only the requested title text changed. |
+| Ordinary Field Station overview | Each delivered a single editable overview with the supplied wording and both directed links. |
+
+The first follow-up made a cost or compromise mandatory and added an explicit
+question to the scoring rubric. In the uncued and named cinema runs, both
+handoffs said the free-admission line “reads best up close.” The named run
+explicitly tied the cost to the space given to the illustration. This is
+observed compliance with the added instruction on that brief. The shared
+phrasing leaves open whether the guidance generalizes.
+
+The ordinary overview and cinema brief each ran uncued against the baseline
+and the first follow-up. All four logs show successful reads of `SKILL.md`.
+Each project supplied one local skill and the CLI ignored user configuration.
+These observations cover discovery in that setup. Selection among competing
+installed skills remains unmeasured.
+
+The current guidance asks for a material compromise when the artifact shows
+one. In a new pocket-map brief, both the
+mandatory and conditional versions named costs of schematic representation.
+The conditional run told readers to use the printed numbers because equal
+drawn spans represented walks of different lengths. That demonstrates a
+different kind of tradeoff on one brief. The same run's title clipped slightly
+at the right edge. In the repeated cinema brief, the conditional handoff gave
+its rationale but omitted that the headline and artwork pushed showtimes
+further down the page.
+
+The collaborative, ambiguous-feedback, and protected-edit cases were rerun
+with current guidance. The independent evaluator confirmed two distinct
+exploration studies with the choice left open. It also found that the
+exploration PNGs used different typography from the editable SVGs rendered in
+Chromium. The ambiguous-feedback probe changed only the heading font and
+kept its interpretation tentative. The protected edit changed only the
+requested title text.
+
+The assessment covers 21 completed runs. [Per-run judgments, coverage, and
+guidance hashes](behavioral-review.md).

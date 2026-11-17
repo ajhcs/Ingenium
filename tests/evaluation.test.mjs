@@ -3,7 +3,10 @@ import assert from 'node:assert/strict';
 import path from 'node:path';
 import { readFile, mkdir, mkdtemp, writeFile, rm, symlink, chmod } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
+import { spawnSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
 import { inventory, prepareCase, validateManifest, main, runCase } from '../tools/run-behavioral-evaluation.mjs';
+import { recordBehavioralReview } from '../tools/record-behavioral-review.mjs';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const manifest = JSON.parse(await readFile(new URL('./fixtures/evaluation/manifest.json', import.meta.url), 'utf8'));
 async function fixture(t) {
@@ -15,8 +18,47 @@ async function fixture(t) {
 }
 test('approved behavior manifest retains eight core jobs and realistic content separately', () => {
   assert.deepEqual(validateManifest(manifest), []);
-  assert.equal(manifest.cases.length, 10);
+  assert.equal(manifest.cases.length, 14);
+  for (const id of ['open-commission', 'delegated-pocket-map', 'explore-commission', 'ordinary-overview']) {
+    assert.ok(manifest.cases.some(item => item.id === id));
+  }
   for (const id of ['minimal-brief', 'ambiguous-feedback', 'autonomous-task', 'protected-narrow-edit', 'missing-tools', 'interrupted-export', 'resume', 'explicit-reopen', 'realistic-content']) assert.ok(manifest.cases.some(item => item.id === id));
+});
+
+test('review recorder binds answers to the exact successful receipt and preserves its bytes', async t => {
+  const runDir = await fixture(t);
+  const producerPath = path.join(runDir, 'result.json');
+  const reviewPath = path.join(runDir, 'review.json');
+  const producer = { schema: 'ingenium-behavioral-result/1', id: 'minimal-brief', status: 'observed-needs-review',
+    process: { code: 0, timedOut: false, overflow: false }, judgments: [] };
+  const producerText = JSON.stringify(producer);
+  await writeFile(producerPath, producerText);
+  await writeFile(path.join(runDir, 'handoff.txt'), 'Synthetic handoff.');
+  const review = { schema: 'ingenium-behavioral-review/1', reviewer: 'masked evaluator', versionsMasked: true,
+    receiptSHA256: createHash('sha256').update(producerText).digest('hex'),
+    judgments: [{ question: 'Did the task finish with reasonable ceremony?', answer: 'One card and a short handoff.',
+      evidence: ['handoff.txt'] }] };
+  const options = { runDir, reviewPath };
+
+  for (const [changed, error] of [
+    [{ receiptSHA256: 'different' }, /exact producer SHA-256/],
+    [{ judgments: [] }, /every judgment question/],
+    [{ judgments: [{ ...review.judgments[0], question: 'Different question' }] }, /ordered answer/],
+    [{ judgments: [{ ...review.judgments[0], evidence: ['../outside.txt'] }] }, /relative to the review JSON/],
+  ]) {
+    await writeFile(reviewPath, JSON.stringify({ ...review, ...changed }));
+    await assert.rejects(recordBehavioralReview(options), error);
+  }
+  await writeFile(reviewPath, JSON.stringify(review));
+  const output = await recordBehavioralReview(options);
+  const reviewedText = await readFile(output, 'utf8');
+  const reviewed = JSON.parse(reviewedText);
+  assert.equal(reviewed.status, 'reviewed');
+  assert.deepEqual(reviewed.judgments, review.judgments);
+  assert.equal(reviewed.review.receiptSHA256, review.receiptSHA256);
+  assert.equal(await readFile(producerPath, 'utf8'), producerText);
+  await assert.rejects(recordBehavioralReview(options), /EEXIST/);
+  assert.equal(await readFile(output, 'utf8'), reviewedText);
 });
 test('manifest refuses ambiguous identities and filesystem traversal before writes', () => {
   const bad = structuredClone(manifest);
@@ -32,6 +74,8 @@ test('prepared prompts omit evaluator answers, capture exact candidate bytes, an
   await writeFile(path.join(skillDir, 'SKILL.md'), '---\nname: ingenium\ndescription: Original harness test\n---\nSynthetic candidate.\n');
   const result = await prepareCase({ manifest, id: 'resume', skillDir, outputDir: path.join(dir, 'run') });
   assert.equal(result.receipt.status, 'not-run');
+  assert.deepEqual(result.receipt.settings, { skillCue: 'named', reasoningEffort: 'low' });
+  assert.match(result.prompt, /^Use the project-local \$ingenium skill/);
   assert.equal(result.receipt.judgments.length, 0);
   assert.ok(!result.prompt.includes('Can the next person'));
   assert.ok(result.receipt.preparedInputs.some(item => item.path === 'inputs/continuation.md'));
@@ -54,13 +98,20 @@ test('documented preparation works with a new parent tree and keeps destination 
   await writeFile(path.join(skillDir, 'SKILL.md'), '---\nname: ingenium\ndescription: Original preparation fixture\n---\nSynthetic candidate.\n');
   const output = path.join(dir, 'new-parent', 'evaluations', 'prepared');
   const args = ['--case', 'minimal-brief', '--repeat', '1', '--skill', skillDir, '--output', output];
-  const results = await main(args);
+  await assert.rejects(main([...args, '--skill-cue', 'sometimes']), /--skill-cue/);
+  await assert.rejects(main([...args, '--reasoning-effort', 'two words']), /--reasoning-effort/);
+  const results = await main([...args, '--skill-cue', 'none', '--reasoning-effort', 'client-default']);
   assert.equal(results[0].status, 'not-run');
   assert.equal(results.length, 1);
+  assert.deepEqual(results[0].settings, { skillCue: 'none', reasoningEffort: 'client-default' });
+  const prompt = await readFile(path.join(output, 'run-1/producer-prompt.txt'), 'utf8');
+  assert.doesNotMatch(prompt, /ingenium|skill/i);
+  assert.ok(prompt.includes(manifest.cases.find(item => item.id === 'minimal-brief').task));
+  assert.equal(await readFile(path.join(output, 'run-1/project/.agents/skills/ingenium/SKILL.md'), 'utf8'), await readFile(path.join(skillDir, 'SKILL.md'), 'utf8'));
   await assert.rejects(main(args), /EEXIST/);
 });
 
-test('execution sandbox defaults to workspace-write and unrestricted execution requires an explicit selection', async t => {
+test('client receives the selected reasoning override and sandbox, with reproducible defaults', async t => {
   const dir = await fixture(t), skillDir = path.join(dir, 'candidate'), client = path.join(dir, 'fake-client');
   await mkdir(skillDir);
   await writeFile(path.join(skillDir, 'SKILL.md'), 'Synthetic candidate');
@@ -68,11 +119,43 @@ test('execution sandbox defaults to workspace-write and unrestricted execution r
   await chmod(client, 0o755);
   const base = { manifest, id: 'minimal-brief', skillDir, client, model: 'synthetic' };
   await assert.rejects(runCase({ ...base, sandbox: 'unsafe', outputDir: path.join(dir, 'invalid') }), /Sandbox/);
-  for (const [name, sandbox] of [['default', undefined], ['explicit', 'danger-full-access']]) {
-    const result = await runCase({ ...base, ...(sandbox ? { sandbox } : {}), outputDir: path.join(dir, name) });
+  for (const [name, sandbox, reasoningEffort] of [
+    ['default', undefined, undefined],
+    ['explicit', 'danger-full-access', 'high'],
+    ['client', undefined, 'client-default'],
+  ]) {
+    const outputDir = path.join(dir, name);
+    const result = await runCase({ ...base, sandbox, reasoningEffort, outputDir });
     assert.equal(result.environment.sandbox, sandbox || 'workspace-write');
-    const invocation = result.environment.invocation;
+    const invocation = JSON.parse(await readFile(path.join(outputDir, 'client-events.jsonl'), 'utf8')).slice(0, -1);
+    assert.deepEqual(invocation, result.environment.invocation);
     assert.equal(invocation[invocation.indexOf('-s') + 1], sandbox || 'workspace-write');
+    assert.equal(result.settings.reasoningEffort, reasoningEffort ?? 'low');
+    if (reasoningEffort === 'client-default') {
+      assert.equal(invocation.includes('-c'), false);
+      assert.ok(!invocation.some(arg => arg.startsWith('model_reasoning_effort=')));
+    } else {
+      assert.ok(invocation.includes('-c'));
+      assert.equal(invocation[invocation.indexOf('-c') + 1], `model_reasoning_effort="${reasoningEffort ?? 'low'}"`);
+    }
     assert.equal(result.status, 'observed-needs-review');
   }
+});
+
+test('a rejected model request fails the CLI and retains only the evidence actually produced', async t => {
+  const dir = await fixture(t);
+  const client = path.join(dir, 'rejecting-client');
+  await writeFile(client, '#!/usr/bin/env node\nif (process.argv.includes("--version")) console.log("fixture 1"); else { console.error("Unknown fixture model"); process.exitCode = 1; }\n', { mode: 0o755 });
+  const output = path.join(dir, 'observations');
+  const run = spawnSync(process.execPath, [
+    path.join(root, 'tools/run-behavioral-evaluation.mjs'), '--case', 'minimal-brief',
+    '--skill', path.join(root, 'skills/ingenium'), '--output', output,
+    '--repeat', '1', '--run', '--client', client, '--model', 'unavailable-fixture',
+  ], { encoding: 'utf8' });
+  assert.equal(run.status, 1, run.stderr);
+  assert.equal(JSON.parse(run.stdout)[0].status, 'client-error');
+  const runDir = path.join(output, 'run-1');
+  const receipt = JSON.parse(await readFile(path.join(runDir, 'result.json'), 'utf8'));
+  assert.deepEqual(receipt.evidenceFiles, ['producer-prompt.txt', 'client-events.jsonl', 'client-stderr.txt', 'project/']);
+  assert.match(await readFile(path.join(runDir, 'client-stderr.txt'), 'utf8'), /Unknown fixture model/);
 });

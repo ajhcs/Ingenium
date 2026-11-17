@@ -1,15 +1,20 @@
 # Select a resource for the task
 
-Use this route first for a small offline resource request. Import from the actual installed plugin root with Node 22+. No project record, broad catalog dump, network, or optional parser is required for discovery.
+The standalone guidance ZIP supplies the workflow text. To run the examples, use a full plugin or a local core helper with the selected resource pack. If either is missing, identify what is unavailable and continue with the supplied assets where the request permits. See [local capabilities](capabilities.md) for package layouts.
+
+Run this example from the helper root with Node 22+. The request calls for a **schematic** connector. The same search also returns a physical connector.
 
 ```js
 import {searchTaskResources, inspectTaskResource, acquireTaskResource}
   from './src/resources/index.mjs';
 const page = await searchTaskResources({query:'connector', sourceIds:['cse-selected'], limit:4});
-// Other useful small searches: sourceIds:['recipes'], query:'requirements';
-// sourceIds:['textures'], query:'crosshatch'; sourceIds:['ionicons'], query:'add'.
-const chosen = page.entries[0]; // Select only after reviewing the few returned choices.
-const detail = await inspectTaskResource(chosen);
+const chosen = page.entries.find(entry => entry.assetId === 'elec-connector-schematic');
+if (chosen) {
+  const detail = await inspectTaskResource(chosen);
+  console.log(detail.assetId, detail.sourceRevision);
+} else {
+  console.log(page.sources, page.nextOffset);
+}
 ```
 
 Use `cse-selected` for bundled CSE source masters, `recipes` for eight document fragments, four charts, four directed diagrams and four conceptual illustrations, `textures` for original digital tiles, `palettes` for Radix scales, `hack`/`cse-fonts`/`liberation-sans` for fonts, `atomic-ui` for web primitives, and `materials` for CSS declarations. Optional packs report missing data explicitly. `cse` is an optional larger metadata catalog requiring `selectors.cseRuntimeDir`; the bundled selection needs no CSE installation. Seven live-text CSE handoffs supply pinned embedded fonts, separate binaries and full notices. Read `qualificationScope` and `font-provenance.json`: qualification covers the derivative; five Arial originals use an explicitly authored Liberation Sans derivative and their historical font appearance remains unqualified. Preserve `original.svg` unchanged.

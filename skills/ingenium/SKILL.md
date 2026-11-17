@@ -1,17 +1,19 @@
 ---
 name: ingenium
-description: Explore creative direction, refine editable design studies, or select and adapt design resources. Use for consequential visual choices or an explicit Ingenium request.
+description: Art-direct an open brief, explore visual directions together, or refine an editable design. Use for consequential choices in graphics, documents and interfaces, design resource selection, or an explicit Ingenium request.
 ---
 
-Create, compare, revise, review, or continue from an ordinary request. For a small task, start with the useful result; no form, record, or project store is required. Add structured continuity only when it helps the work.
+Develop the person's intended design. Follow their scope, supplied facts, and existing choices. For an ordinary creation brief, make the requested artifact using reasonable, reversible design choices. Use the audience, medium, and purpose already given. Ask only when a missing answer would materially change the result. A question, text comparison, or visual fragment can be enough when it meets the request. A quick resource lookup, wording fix, or export needs a direct result.
 
-Develop the person's intended design. Follow their scope and existing choices; use only the guidance and resources that help the current task. A question, text comparison, visual fragment or finished artifact can each be a sufficient result.
+When the person delegates art direction, choose what to bring forward and give it a job in the artifact. A dependency can determine reading order. A missing piece can occupy real space on a page. Build one resolved direction unless the brief asks for more. In a delegated commission, test whether the main design move depends on this subject. If a different commission could use the work with a new title and accent color, find a more specific organizing idea. In the handoff, name one benefit of the chosen direction. Check whether the artifact shows a material compromise for this use. When one exists, name it and say when it matters. Read [Art direction](references/art-direction.md) for a deeper study.
 
-Start with the next consequential uncertainty. Use existing context and reasonable, revisable assumptions; ask when an answer would materially change the work. Invite reactions through a small discriminating probe. “Too corporate” might concern type, language or composition: keep the interpretation tentative. A preference expressed about one comparison stays scoped to that comparison; do not invent taste scores.
+When the person asks to explore together, leave the consequential choice open. A small change to type, language, or composition can help locate why a draft feels “too corporate.” Keep the interpretation tentative. A preference expressed about one comparison stays scoped to that comparison. Do not invent taste scores.
+
+For a settled edit, change exactly the requested part. A form, project store, and presentation of variants are optional.
 
 When the person wants to discover the look together, work broad to narrow through concrete visual probes with their content, letting them react without needing design vocabulary. A palette comparison can use swatches and a small applied sample; a type or shape comparison can reuse the same diagram. Hold settled choices and other dimensions steady so their reaction has a clear subject. Make enough to learn from, then pause before committing a consequential preference that still needs their input. Colors, type, shapes and style are possible starting points, not a checklist or fixed order. Preserve the pace of a narrow edit or an explicitly autonomous request.
 
-When comparing overall directions, vary their organizing ideas—hierarchy, relationships, experience or material language—not only their colors. For a settled edit, preserve the chosen direction. Keep expressed facts, observations, interpretations and scoped decisions distinct; explicitly identify a choice being reopened. Preserve authoritative engineering meaning, units, thresholds and obligations.
+When comparing overall directions, give each a credible claim on the brief. Change what leads, what connects or what the audience does. A color-only comparison fits a color question. Keep expressed facts, observations, interpretations and scoped decisions distinct. Explicitly identify any choice being reopened. Preserve authoritative engineering meaning, units, thresholds and obligations.
 
 Match rigor to the intended use and the user's requested depth: a quick study, measured refinement or deeper delivery review. Adapt as feedback arrives. Use representative content and editable sources; preserve originals and make edits/exports separate. Build only the requested artifact types. Honor withheld references and templates; do not consult worked examples or full-design libraries to reconstruct a direction the user asked to develop independently.
 
@@ -27,6 +29,7 @@ For a small resource task—CSE connector, document fragment, palette, texture, 
 
 | Current need | Reference |
 | --- | --- |
+| Lead an open commission or rescue an interchangeable draft | [Art direction](references/art-direction.md) |
 | Find or adapt fonts, symbols, colors, surfaces or UI parts | [Resource routes](references/resource-libraries.md), then the selected route only |
 | Develop hierarchy, spacing, type roles or useful guides | [Measured composition](references/composition.md) |
 | Vary a theme, locale or direction while preserving meaning | [Presentation contexts](references/presentation-context.md) |
