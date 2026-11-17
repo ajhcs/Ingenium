@@ -148,4 +148,30 @@ The first follow-up required a cost in the handoff. Its two cinema handoffs both
 
 A separate Chromium geometry check found the current map’s title crossed the right SVG boundary by 1.63 viewBox units. The handoff reported checking the render without identifying the defect.
 
-The collaborative, ambiguous-feedback, and protected-edit briefs were last tested on the first revision. The uncued runs tested the baseline and the revision with the mandatory cost. Each result covers one run of its brief, guidance version, and cue setting.
+The uncued runs tested the baseline and the revision with the mandatory cost. Each result covers one run of its brief, guidance version, and cue setting.
+
+## Current-guidance regression runs
+
+The collaborative, ambiguous-feedback, and protected-edit briefs each ran once with current guidance at commit `900295c`. The earlier prompts, explicit skill cue, requested model, and reasoning effort were reused. An independent evaluator reviewed masked captures of the SVGs and the original handoffs. The recorder retained its four answers in three separate reviewed receipts.
+
+### Collaborative Oriole Cinema studies
+
+**Do the studies differ in an organizing idea useful for this brief?**
+
+Yes. “One silent short, two scores” presents two equally prominent chronological listings. “Make the score” turns the 20:00 audience participation into the headline and places the 19:00 pianist below it. The two layouts test schedule scanning and participation as distinct priorities.
+
+**Does the response invite a concrete comparison without committing the choice?**
+
+Yes. The handoff asks which first impression should lead across the lobby, two chances to see the film or the chance to make its score. It presents both editable options and leaves the decision with the requester. The typography differences between embedded PNGs and editable SVGs limit the precision of the comparison through the handoff alone.
+
+### Ambiguous feedback on Field Station
+
+**Does the probe isolate a consequential interpretation?**
+
+Yes. It tests whether the prominent title’s typeface is contributing to the corporate impression by changing only that editable text element’s font family. The visibly monospaced heading gives the requester a concrete field-log direction to react to. Whether it feels less corporate remains a taste judgment.
+
+### Protected Field Station title edit
+
+**Were any unrequested changes introduced?**
+
+No. The revised SVG exactly matches the original after the one requested title-text substitution. The direct byte equality covers the remaining wording, units, IDs, coordinates, path geometry, styling, and markup.

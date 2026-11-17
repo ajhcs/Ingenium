@@ -167,9 +167,8 @@ Each project supplied one local skill and the CLI ignored user configuration.
 These observations cover discovery in that setup. Selection among competing
 installed skills remains unmeasured.
 
-The collaborative, ambiguous-feedback, and protected-edit cases were last
-run against the first revision. The current guidance asks for a material
-compromise when the artifact shows one. In a new pocket-map brief, both the
+The current guidance asks for a material compromise when the artifact shows
+one. In a new pocket-map brief, both the
 mandatory and conditional versions named costs of schematic representation.
 The conditional run told readers to use the printed numbers because equal
 drawn spans represented walks of different lengths. That demonstrates a
@@ -178,5 +177,13 @@ at the right edge. In the repeated cinema brief, the conditional handoff gave
 its rationale but omitted that the headline and artwork pushed showtimes
 further down the page.
 
-The assessment covers 18 completed runs. [Per-run judgments, coverage, and
+The collaborative, ambiguous-feedback, and protected-edit cases were rerun
+with current guidance. The independent evaluator confirmed two distinct
+exploration studies with the choice left open. It also found that the
+exploration PNGs used different typography from the editable SVGs rendered in
+Chromium. The ambiguous-feedback probe changed only the heading font and
+kept its interpretation tentative. The protected edit changed only the
+requested title text.
+
+The assessment covers 21 completed runs. [Per-run judgments, coverage, and
 guidance hashes](behavioral-review.md).
