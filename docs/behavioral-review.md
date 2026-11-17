@@ -8,7 +8,8 @@ All runs used Codex CLI 0.169.0 with requested model `gpt-6.2-astra` and low rea
 | --- | --- |
 | Baseline | `47912672eb53290d677ac565b1ce2a786305963542f9820435478510e6dab5b2` |
 | First revision | `d0596a7d2f52cc0f93e615d76decda813a5d86cff2de5f4c66df849248b69e68` |
-| Follow-up revision | `0f26ab1d8d7753d2972689ecc80b02050dff2e09bb370d6f21c29b08a4699306` |
+| Follow-up revision with a mandatory cost | `0f26ab1d8d7753d2972689ecc80b02050dff2e09bb370d6f21c29b08a4699306` |
+| Current guidance with a conditional cost | `6a82f858805a47ffa22ded99e7f61dd65c1a4214e5a5436e28a57cf46ea1712f` |
 
 ## Initial named-skill runs
 
@@ -71,7 +72,7 @@ Five briefs ran once per guidance version with the same explicit skill cue.
 
 ## Follow-up runs
 
-The ordinary overview and delegated cinema commission ran uncued against the baseline and follow-up guidance. All four session logs show a successful read of the project-local `SKILL.md`. The follow-up guidance also ran the cinema commission once with the skill explicitly named.
+The ordinary overview and delegated cinema commission ran uncued against the baseline and follow-up guidance. All four session logs show a successful read of the project-local `SKILL.md`. Each disposable project supplied one skill, and the CLI ignored user configuration. Selection among competing installed skills remains unmeasured. The follow-up guidance also ran the cinema commission once with the skill explicitly named.
 
 ### Delegated Oriole Cinema commission
 
@@ -106,4 +107,45 @@ The ordinary overview and delegated cinema commission ran uncued against the bas
 - **Baseline, uncued.** Yes. The overview uses straightforward layout choices, with three identically styled boxes and two right-pointing arrows. It contains the exact title, date and review invitation, and the handoff delivers the editable SVG directly without requesting a design or approval decision.
 - **Follow-up revision, uncued.** Yes. It settles routine hierarchy through a bold heading and a dark center box, keeps Sensor → Controller → Display clearly directed, and displays the exact date and invitation. The handoff supplies one editable SVG and adds no approval exercise.
 
-Each result is one observed run of that brief, guidance version, and cue setting. The record supports a narrow comparison of the tested outputs and observed skill reads.
+## Delegated pocket map and conditional cost
+
+The first follow-up required a cost in the handoff. Its two cinema handoffs both said the free-admission line “reads best up close.” That is compliance with a new instruction on one brief. Both versions of the pocket-map run used the same explicit skill cue and prompt. The current guidance asks for a compromise when the artifact shows a material one. It also ran the cinema brief once with that cue.
+
+### Lowbank Garden pocket map
+
+**Can a first-time visitor trace either route and find the remaining distance at each waypoint?**
+
+- **Revision with mandatory cost.** Yes on the card. The shared Gate dot branches into routes marked 50 m and 140 m. Read 30 m left at Stone Steps, 105 m at Pond, and 65 m at Orchard. The five down-arrow labels give the next-leg distances, and both lines arrive at the Greenhouse. Zero at the destination is implied. Real-world turn guidance is outside what this diagram shows.
+- **Current guidance.** Yes for reading the route on the card. From Gate, follow Steps via Stone Steps (20 m leg, 30 m left) or step-free via Pond (35 m leg, 105 m left) and Orchard (40 m leg, 65 m left). The Greenhouse is 0 m left, reached after a 30 m or 65 m final leg. The Gate totals and solid versus dashed lines make the columns easy to distinguish. Guidance here is by landmark order. Actual wayfinding and pocket-print legibility were untested.
+
+**What benefit, if any, does the handoff attribute to the design?**
+
+- **Revision with mandatory cost.** The handoff says visitors can compare the 50 m and 140 m totals and read what remains at each landmark without summing the legs. The diagram supports that with route totals near the branch and bold remainder labels by the three intermediate stops.
+- **Current guidance.** The handoff says visitors can compare route totals at the Gate and read both the next leg and the remaining walk at intermediate stops. Its Pond example uses 40 m to the Orchard and 105 m to the Greenhouse, both visible on the map.
+
+**What material compromise, if any, does the handoff name? Does the artifact support it as a consequence of the design choice?**
+
+- **Revision with mandatory cost.** It says that prioritizing stop order and distance leaves compass directions and path geometry out. The diagram bears that out through schematic bends, no orientation, and an explicit not-to-scale footer. The drawn 50 m branch is even longer than the 140 m branch, so distance comparisons depend on labels. The longer real walk on the step-free route is a property of the route, independent of how it is drawn.
+- **Current guidance.** It says schematic spacing means visitors must read the printed distances to judge their walk. The graphic supports that cost: both route spans are equal even though the labels say 50 m and 140 m. The 90 m extra walk on the step-free route belongs to the route itself. The remaining concrete omission in the handoff is the heading’s edge fit.
+
+### Oriole Cinema under the current guidance
+
+**What did you notice first in the artifact before reading its handoff?**
+
+- **Current guidance.** The oversized “One silent short.” caught my eye first, followed by the red “Two scores.” and the long graphic beneath it.
+
+**Which visible choice depends on this film being shown twice with different performers? What would need to change for a single screening?**
+
+- **Current guidance.** One band changes from regularly spaced piano keys into pencils, mirroring the change from pianist to audience score in the two listings. A single screening would need one time and performer, a single instrument or material cue, and singular headline and admission wording.
+
+**Can you find the show you want to attend at lobby reading size? Where does the expressive choice help or get in the way?**
+
+- **Current guidance.** Yes in the captured A3 composition. The red times are large and each performer description sits in the same row as its time. The picture makes the two scoring modes recognizable, but its left-to-right split does not align with the top-to-bottom listings. The headline and illustration also put both times below most of the upper page. Physical lobby-distance usability was untested.
+
+**Does the handoff explicitly name a consequential cost or compromise of the chosen direction?**
+
+- **Current guidance.** No. The handoff explains the transformation from piano keys to pencils, says both times and admission remain prominent, and reports layout verification and editability. It does not state the visible cost that the large headline and illustration push the schedule down, or that the horizontal artwork and stacked times rely on the labels to complete the match.
+
+A separate Chromium geometry check found the current map’s title crossed the right SVG boundary by 1.63 viewBox units. The handoff reported checking the render without identifying the defect.
+
+The collaborative, ambiguous-feedback, and protected-edit briefs were last tested on the first revision. The uncued runs tested the baseline and the revision with the mandatory cost. Each result covers one run of its brief, guidance version, and cue setting.

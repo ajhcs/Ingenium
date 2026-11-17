@@ -4,7 +4,9 @@ import path from 'node:path';
 import { readFile, mkdir, mkdtemp, writeFile, rm, symlink, chmod } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
 import { inventory, prepareCase, validateManifest, main, runCase } from '../tools/run-behavioral-evaluation.mjs';
+import { recordBehavioralReview } from '../tools/record-behavioral-review.mjs';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const manifest = JSON.parse(await readFile(new URL('./fixtures/evaluation/manifest.json', import.meta.url), 'utf8'));
 async function fixture(t) {
@@ -16,11 +18,47 @@ async function fixture(t) {
 }
 test('approved behavior manifest retains eight core jobs and realistic content separately', () => {
   assert.deepEqual(validateManifest(manifest), []);
-  assert.equal(manifest.cases.length, 13);
-  for (const id of ['open-commission', 'explore-commission', 'ordinary-overview']) {
+  assert.equal(manifest.cases.length, 14);
+  for (const id of ['open-commission', 'delegated-pocket-map', 'explore-commission', 'ordinary-overview']) {
     assert.ok(manifest.cases.some(item => item.id === id));
   }
   for (const id of ['minimal-brief', 'ambiguous-feedback', 'autonomous-task', 'protected-narrow-edit', 'missing-tools', 'interrupted-export', 'resume', 'explicit-reopen', 'realistic-content']) assert.ok(manifest.cases.some(item => item.id === id));
+});
+
+test('review recorder binds answers to the exact successful receipt and preserves its bytes', async t => {
+  const runDir = await fixture(t);
+  const producerPath = path.join(runDir, 'result.json');
+  const reviewPath = path.join(runDir, 'review.json');
+  const producer = { schema: 'ingenium-behavioral-result/1', id: 'minimal-brief', status: 'observed-needs-review',
+    process: { code: 0, timedOut: false, overflow: false }, judgments: [] };
+  const producerText = JSON.stringify(producer);
+  await writeFile(producerPath, producerText);
+  await writeFile(path.join(runDir, 'handoff.txt'), 'Synthetic handoff.');
+  const review = { schema: 'ingenium-behavioral-review/1', reviewer: 'masked evaluator', versionsMasked: true,
+    receiptSHA256: createHash('sha256').update(producerText).digest('hex'),
+    judgments: [{ question: 'Did the task finish with reasonable ceremony?', answer: 'One card and a short handoff.',
+      evidence: ['handoff.txt'] }] };
+  const options = { runDir, reviewPath };
+
+  for (const [changed, error] of [
+    [{ receiptSHA256: 'different' }, /exact producer SHA-256/],
+    [{ judgments: [] }, /every judgment question/],
+    [{ judgments: [{ ...review.judgments[0], question: 'Different question' }] }, /ordered answer/],
+    [{ judgments: [{ ...review.judgments[0], evidence: ['../outside.txt'] }] }, /relative to the review JSON/],
+  ]) {
+    await writeFile(reviewPath, JSON.stringify({ ...review, ...changed }));
+    await assert.rejects(recordBehavioralReview(options), error);
+  }
+  await writeFile(reviewPath, JSON.stringify(review));
+  const output = await recordBehavioralReview(options);
+  const reviewedText = await readFile(output, 'utf8');
+  const reviewed = JSON.parse(reviewedText);
+  assert.equal(reviewed.status, 'reviewed');
+  assert.deepEqual(reviewed.judgments, review.judgments);
+  assert.equal(reviewed.review.receiptSHA256, review.receiptSHA256);
+  assert.equal(await readFile(producerPath, 'utf8'), producerText);
+  await assert.rejects(recordBehavioralReview(options), /EEXIST/);
+  assert.equal(await readFile(output, 'utf8'), reviewedText);
 });
 test('manifest refuses ambiguous identities and filesystem traversal before writes', () => {
   const bad = structuredClone(manifest);

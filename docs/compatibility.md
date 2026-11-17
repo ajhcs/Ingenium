@@ -79,11 +79,11 @@ repetitions. For browser tasks, select an existing short workspace temporary roo
 `--temp-root /absolute/short/workspace/tmp` when Chromium socket paths would exceed
 platform limits. Temporary paths are recorded; the harness never changes `HOME`
 or `CODEX_HOME`. Completion of the client process is recorded as
-`observed-needs-review`. After inspecting its evidence, a reviewer can record
-the judgments and mark that receipt `reviewed`. Review records observations
-about the output and can include defects. Producer prompts, client events,
-editable outputs, and judgments remain separate. Private receipts belong under
-ignored `work/`.
+`observed-needs-review`. After an independent review, use
+`tools/record-behavioral-review.mjs` to write a separate `result.reviewed.json`.
+The reviewed file records the judgments and the SHA-256 of the original
+`result.json`, which remains the producer receipt. Private receipts belong
+under ignored `work/`.
 
 For example, from the source checkout with Node 22 or newer:
 
@@ -96,6 +96,21 @@ node tools/run-behavioral-evaluation.mjs \
 This creates fresh disposable projects and records `not-run`. To execute, add
 `--run --client /absolute/path/to/codex --model YOUR_SELECTED_MODEL` using an
 existing authenticated client.
+
+To record a review, create a JSON file with schema `ingenium-behavioral-review/1`,
+the evaluator's `reviewer` label, boolean `versionsMasked`, and
+`receiptSHA256` from the producer's `result.json`. The `judgments` array
+contains one `{question, answer, evidence}` per manifest question, in order.
+Each `evidence` entry is a file path relative to the review JSON. Then run:
+
+```sh
+node tools/record-behavioral-review.mjs work/evaluation/run-1 work/review/review.json
+```
+
+Pass the custom manifest as a third argument when reviewing a run that used one.
+The recorder validates the receipt, questions, and evidence references. The
+judgments remain the evaluator's responsibility. An existing reviewed file
+is preserved.
 
 By default the runner names `$ingenium` in the prompt and requests low reasoning
 effort, matching earlier runs. Use `--skill-cue none` to present the same task
@@ -139,15 +154,29 @@ is a separately authored worked example.
 | Protected title edit | Each delivered a separate SVG. A byte comparison confirmed that only the requested title text changed. |
 | Ordinary Field Station overview | Each delivered a single editable overview with the supplied wording and both directed links. |
 
-The follow-up guidance asks for one concrete benefit and one compromise in the
-handoff of a delegated commission. The ordinary overview and cinema brief
-each ran uncued against the baseline and follow-up guidance. All four session
-logs show a successful read of the project-local `SKILL.md`. The uncued
-follow-up cinema handoff says the free-admission line reads best up close while
-the illustration communicates across the lobby. In a separate named run, the
-handoff explicitly attributes the admission line's reading distance to the
-space given to the illustration.
+The first follow-up made a cost or compromise mandatory and added an explicit
+question to the scoring rubric. In the uncued and named cinema runs, both
+handoffs said the free-admission line “reads best up close.” The named run
+explicitly tied the cost to the space given to the illustration. This is
+observed compliance with the added instruction on that brief. The shared
+phrasing leaves open whether the guidance generalizes.
 
-All 15 receipts have independently recorded answers. The evaluations use
-one run per brief, guidance version, and cue setting. [Per-run judgments and
+The ordinary overview and cinema brief each ran uncued against the baseline
+and the first follow-up. All four logs show successful reads of `SKILL.md`.
+Each project supplied one local skill and the CLI ignored user configuration.
+These observations cover discovery in that setup. Selection among competing
+installed skills remains unmeasured.
+
+The collaborative, ambiguous-feedback, and protected-edit cases were last
+run against the first revision. The current guidance asks for a material
+compromise when the artifact shows one. In a new pocket-map brief, both the
+mandatory and conditional versions named costs of schematic representation.
+The conditional run told readers to use the printed numbers because equal
+drawn spans represented walks of different lengths. That demonstrates a
+different kind of tradeoff on one brief. The same run's title clipped slightly
+at the right edge. In the repeated cinema brief, the conditional handoff gave
+its rationale but omitted that the headline and artwork pushed showtimes
+further down the page.
+
+The assessment covers 18 completed runs. [Per-run judgments, coverage, and
 guidance hashes](behavioral-review.md).
