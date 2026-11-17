@@ -1,6 +1,6 @@
 # Install Ingenium
 
-Download the [0.2.0-alpha.3 guidance ZIP](https://github.com/ajhcs/Ingenium/releases/download/v0.2.0-alpha.3/ingenium-guidance-0.2.0-alpha.3.zip) from the [release](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.3). It contains creative instructions, supporting references and an original editable responsive HTML starter. Preserve the `assets/` directory when copying it. Your client supplies its model and tools; Ingenium requires no server, API key or renderer. The [downloads page](https://ajhcs.github.io/Ingenium/downloads/) explains the separate optional helpers, resource packs and editable studies.
+Download the [0.2.0-alpha.4 guidance ZIP](https://github.com/ajhcs/Ingenium/releases/download/v0.2.0-alpha.4/ingenium-guidance-0.2.0-alpha.4.zip) from the [release](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.4). It contains creative instructions, supporting references, an editable responsive HTML starter, and the standalone Common Measure score. Preserve the `assets/` directory when copying it. Your client supplies its model and tools; Ingenium requires no server, API key or renderer. The [downloads page](https://ajhcs.github.io/Ingenium/downloads/) explains the separate optional helpers, resource packs and editable studies.
 
 The release includes `artifacts.json` and `SHA256SUMS` for checking archive identity. `ingenium/RELEASE.md` inside the guidance ZIP records its version, source commit and build. Keep the complete folder, including references and notices.
 
@@ -63,12 +63,12 @@ For chat uploads, replace or disable the uploaded skill in that client's managem
 
 ## Optional released helpers
 
-Use these only when your task needs their capabilities. Guidance does not contain the helper runtime, resource data or example generators. The release supplies [core-tools-0.2.0-alpha.3.tgz](https://github.com/ajhcs/Ingenium/releases/download/v0.2.0-alpha.3/core-tools-0.2.0-alpha.3.tgz) for continuation, records, resources and delivery, and [inspection-tools-0.2.0-alpha.3.tgz](https://github.com/ajhcs/Ingenium/releases/download/v0.2.0-alpha.3/inspection-tools-0.2.0-alpha.3.tgz) for scoped browser inspection. No npm registry publication is claimed.
+Use these only when your task needs their capabilities. Guidance does not contain the helper runtime, resource data or example generators. The release supplies [core-tools-0.2.0-alpha.4.tgz](https://github.com/ajhcs/Ingenium/releases/download/v0.2.0-alpha.4/core-tools-0.2.0-alpha.4.tgz) for continuation, records, resources and delivery, and [inspection-tools-0.2.0-alpha.4.tgz](https://github.com/ajhcs/Ingenium/releases/download/v0.2.0-alpha.4/inspection-tools-0.2.0-alpha.4.tgz) for scoped browser inspection. No npm registry publication is claimed.
 
 After downloading and verifying an archive, use Node 22+ and npm in a selected consumer directory:
 
 ```sh
-npm install --prefix /path/to/consumer --offline --ignore-scripts --omit=optional /absolute/path/to/core-tools-0.2.0-alpha.3.tgz
+npm install --prefix /path/to/consumer --offline --ignore-scripts --omit=optional /absolute/path/to/core-tools-0.2.0-alpha.4.tgz
 /path/to/consumer/node_modules/.bin/ingenium version --json
 ```
 

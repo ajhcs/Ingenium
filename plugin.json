@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ingenium",
-  "version": "0.2.0-alpha.3",
+  "version": "0.2.0-alpha.4",
   "description": "Create and revise editable engineering graphics, documents and websites with lightweight creative guidance and optional local tools.",
   "author": {
     "name": "ajhcs"
