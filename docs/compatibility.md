@@ -1,10 +1,9 @@
 # Observed client compatibility
 
-Observations below were made on 2026-11-14. Client support is specific to a
-route, client version, environment and identified bytes. The current distribution is
-[0.2.0-alpha.3](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.3);
-its release notes carry the subsequent publication and installation verification.
-The retained observations below identify their own source or release explicitly.
+Client support is specific to a route, client version, environment and
+identified bytes. The current distribution is
+[0.2.0-alpha.4](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.4).
+The observations below identify the dates and source or release they cover.
 Package extraction and helper tests do not establish agent discovery.
 The basic guidance remains independently usable; optional helpers require their
 separately documented capabilities.
@@ -13,7 +12,7 @@ separately documented capabilities.
 | --- | --- | --- |
 | Codex CLI, project-local `.agents/skills/ingenium` | CLI 0.169.0 on Ubuntu 24.04 x86-64, observed 2026-11-14. Actual fresh discovery, invocation, editable output, two title-only edits in separate sessions, changed-source candidate upgrade, removal and fresh discovery absence were observed. User outputs survived upgrade/removal unchanged. | Evidence qualifies the manual project-local copy route with ephemeral CLI sessions and existing authentication. A prepared release-package upgrade is still distinct from the observed source-candidate upgrade. |
 | Codex desktop, project-local skill | This development conversation is not a desktop lifecycle receipt. | Observe a selected actual desktop session against the candidate, including fresh discovery, upgrade and removal. Tracked in [issue 13](https://github.com/ajhcs/Ingenium/issues/13). |
-| Codex CLI, BuilderBob local plugin catalog | Observed with CLI 0.169.0 on Ubuntu 24.04 x86-64: enabled `ingenium@ingenium-local-review` upgraded to released 0.2.0-alpha.2 using the supported CLI. All 1,049 source/cache files matched the selected release composition. A fresh external-project session discovered the installed guidance, edited only a requested title and acquired an offline crosshatch texture with the requested density. | This qualifies the selected local catalog and fresh CLI session, not a public marketplace or desktop lifecycle. See the current release notes for the alpha.3 upgrade and readback. Removal of the user's global installation was not exercised. |
+| Codex CLI, BuilderBob local plugin catalog | Observed with CLI 0.169.0 on Ubuntu 24.04 x86-64: enabled `ingenium@ingenium-local-review` upgraded to released 0.2.0-alpha.2 using the supported CLI. All 1,049 source/cache files matched the selected release composition. A fresh external-project session discovered the installed guidance, edited only a requested title and acquired an offline crosshatch texture with the requested density. | This qualifies the selected local catalog and fresh CLI session, not a public marketplace or desktop lifecycle. See the [alpha.3 release notes](https://github.com/ajhcs/Ingenium/releases/tag/v0.2.0-alpha.3) for that upgrade and readback. Removal of the user's global installation was not exercised. |
 | Claude Code, project-local skill | No authenticated Claude Code environment was available. | Exercise discovery, invocation, edits, upgrade and removal in an existing accessible client/account and disposable project. Tracked in [issue 12](https://github.com/ajhcs/Ingenium/issues/12). |
 | ChatGPT chat, guidance paste/upload | Not run; no selected chat upload/session-control route is available to the evaluation harness. | Observe guidance loading, file creation, preview and later persistence separately in an accessible actual chat. Tracked in [issue 14](https://github.com/ajhcs/Ingenium/issues/14). |
 | Claude chat, guidance paste/upload | Not run; no selected Claude chat upload/session-control route is available. | Observe guidance loading, file creation, preview and later persistence separately in an accessible actual chat. Tracked in [issue 14](https://github.com/ajhcs/Ingenium/issues/14). |

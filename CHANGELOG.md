@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0-alpha.4 — prerelease
+
+- Clarify the guidance for ordinary briefs, delegated art direction, collaborative exploration, and protected edits. Delegated handoffs name a material compromise when the artifact shows one.
+- Add Common Measure, an offline interactive percussion score with a readable strike list and editable SVG export.
+- Make evaluation cues and reasoning effort configurable. Preserve producer receipts separately from independent judgments and return a failure status when the client run fails.
+- Correct the CLI help for selected resource acquisition and show how to choose the exact schematic connector.
+
+The [independent review](docs/behavioral-review.md) records the observed model outputs and their limitations. The uncued runs used one local skill with user configuration ignored. They establish discovery in that setup. The exploration rerun found different typography in the supplied PNG previews and Chromium renders of the editable SVGs.
+
 ## 0.2.0-alpha.3 — prerelease
 
 Closes the seven selected CSE live-text handoffs with pinned fonts, complete notices and editable standalone SVG derivatives. Original masters remain byte-identical. Five originals name Arial without a recorded binary; their explicitly authored derivatives use Liberation Sans. Two retain their named DejaVu families. Qualification identifies the derivative scope and binds font bytes and notices, so changed dependencies cannot keep a current qualification.
