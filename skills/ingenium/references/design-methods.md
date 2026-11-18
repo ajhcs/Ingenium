@@ -1,6 +1,6 @@
 # Choose a study for the uncertainty
 
-Use the smallest useful artifact. These methods are selectable, combinable and optional; they do not prescribe a sequence, visual identity or product. Read the [shared study contract](methods/contract.md), then only the leaf needed for the current question. For consequential interactions, retain the [connected-sketch workflow](interaction-sketches.md).
+Make the smallest artifact that answers the current question. These methods are optional and combinable; they don't prescribe a sequence, visual identity or product. Read the [shared study contract](methods/contract.md), then only the leaf you need. For consequential interactions, also use the [connected-sketch workflow](interaction-sketches.md).
 
 | Question | Selected method |
 | --- | --- |
@@ -13,6 +13,8 @@ Use the smallest useful artifact. These methods are selectable, combinable and o
 | Which coordinated colors support the same roles? | [Palette families](methods/palette-families.md) |
 | Which type treatment supports identical reading content? | [Fontplate / type specimen](methods/fontplate.md) |
 
-For a diagram whose representation is still open, use [Diagram meaning](diagram-meaning.md) to distinguish relationships, messages, states, handoffs and service visibility.
+If the diagram's representation itself is still open, use [Diagram meaning](diagram-meaning.md) to choose between relationships, messages, states, handoffs and service visibility.
 
-Keep representative content, settled choices and project editing policy. Identify static specification versus exercised prototype behavior. Native source/model obligations apply only when an authoritative binding is supplied; an original fixture remains a fixture. Deliver editable source and verified exports separately, with exact evidence and honest omissions. Rendering, deterministic checks and model critique do not establish taste, user acceptance, complete accessibility or engineering adequacy.
+If you're comparing several methods or directions that don't depend on each other, use subagents as needed to build them in parallel, then review them together against the same question.
+
+Each leaf says what to make, what the person will look for, and when it's done. Across all of them: keep representative content, settled choices and the project's editing policy; say whether behavior is a static specification or an exercised prototype; treat an original fixture as a fixture unless an authoritative binding is supplied; and deliver editable source and verified exports separately with honest omissions. Rendering, deterministic checks and model critique don't establish taste, user acceptance, complete accessibility or engineering adequacy.

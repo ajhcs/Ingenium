@@ -2,11 +2,12 @@
 
 **Question:** How can the person perform a connected task across a dense workspace?
 
-Use one representative desktop frame with purposeful panes: navigation, working surface, relevant tools and context as needed. Show the active selection and who owns the selected values. Trace a small task through that frame, with a second state or callout where needed. State the target viewport and what resizes, collapses, scrolls or remains anchored. Keep the main task legible instead of filling every pane with decorative detail.
+**Make:** One representative desktop frame with purposeful panes (navigation, working surface, relevant tools and context as needed). Show the active selection and who owns the selected values. Trace a small task through the frame, with a second state or callout where needed, plus a short storyboard or event trace and a ledger for selection, focus owner, editing owner, raw draft, working revision and pending operation. State the target viewport and what resizes, collapses, scrolls or stays anchored. Keep the main task legible rather than filling every pane with decorative detail.
 
-**Review:** Follow selection and edits across panes. Check stale context, competing commands and duplicate entry. Preserve free navigation when requested; pane layout does not imply locking or save-before-navigation. A desktop study does not establish narrow-screen support, keyboard behavior or implementation readiness.
+Shared subject or field editors transfer one editing session; don't copy domain entities or create independent drafts. Show which panes project raw versus applied values and which diagnostics they display. Specify what happens to work on selection change and where focus returns. Keep the existing automatic edit policy; don't add global Apply/Discard gates.
 
+**Review it for:** Follow selection and edits across panes. Look for stale context, competing commands and duplicate entry. Preserve free navigation when requested; a pane layout doesn't imply locking or save-before-navigation.
 
-Add a small storyboard or event trace plus a ledger for selection, focus owner, editing owner, raw draft, working revision and pending operation. Shared subject/field editors transfer one editing session; do not copy domain entities or create independent drafts. Show which panes project raw versus applied values and which diagnostics they display. Specify selection-change preservation and focus restoration. Preserve existing automatic edit policy; do not add global Apply/Discard gates. Keyboard alternatives to dragging, minimum resizing and collapse/reopen behavior remain explicit unknowns until tested.
+**Done when:** The task can be followed end to end in the frame and the ledger. Keyboard alternatives to dragging, minimum sizes and collapse/reopen behavior stay listed as unknowns until tested; a desktop study doesn't establish narrow-screen support or implementation readiness.
 
 Use the [shared study contract](contract.md). Consequential interactions also use [connected sketches](../interaction-sketches.md).
