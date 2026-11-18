@@ -2,13 +2,12 @@
 
 **Question:** What can the person understand and do when useful content is unavailable?
 
-Distinguish first use, no matches, loading, access refusal, validation failure and service failure where relevant. State only known causes. Pair the relevant message with a realistic next action; show whether entered work, selection or filters are retained. Give a route to correction, clearing filters, retry or leaving the task as appropriate. Mark an action unavailable when the underlying operation cannot be performed.
+**Make:** An inventory of cause, region or operation, retained work, available actions, preconditions and exit, then the states it calls for. Consider first use, no matches, loading, invalid input, access refusal, save or service failure and malformed import, but draw only what the uncertainty needs. State only known causes; an unknown cause stays unknown. Pair each message with a realistic next action and show whether entered work, selection or filters are kept. Offer correction, clearing filters, retry or leaving, as appropriate. Mark an action unavailable when its operation can't be performed.
 
-Scope each state to its region and operation. A background refresh can be loading while a separate editor retains a failed-save message; do not make independent regions mutually exclusive without a domain reason.
+Scope each state to its region and operation. A background refresh can be loading while a separate editor shows a failed save; don't make independent regions mutually exclusive without a domain reason.
 
-**Review:** Check that a first-use empty state does not claim a failure, a no-match state does not erase data, and retry does not claim success. Decorative illustrations and friendly copy cannot replace actionable recovery. Static examples do not prove a service is reachable or that retry is safe.
+**Review it for:** A first-use state doesn't claim a failure, a no-match state doesn't erase data, and retry doesn't claim success. Retry is a fresh request whose acknowledgement must match its request ID and revision and still be current. Decorative illustration and friendly copy can't replace an actionable recovery.
 
-
-Use an inventory of cause, region/operation, retained work, available actions, preconditions and exit. Consider first use, no results, invalid input, access unavailable, save failure and malformed import, but claim only the paths actually drawn. Unknown cause remains unknown. Retry is a fresh request whose acknowledgement must match request ID/revision and remain current; pending or stale feedback does not establish success.
+**Done when:** Every drawn state has a cause, retained-work answer and exit, and you've claimed only the paths actually drawn. Static examples don't show that a service is reachable or that retry is safe.
 
 Use the [shared study contract](contract.md). Consequential interactions also use [connected sketches](../interaction-sketches.md).

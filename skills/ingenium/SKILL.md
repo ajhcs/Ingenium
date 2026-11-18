@@ -3,29 +3,60 @@ name: ingenium
 description: Art-direct an open brief, explore visual directions together, or refine an editable design. Use for consequential choices in graphics, documents and interfaces, design resource selection, or an explicit Ingenium request.
 ---
 
-Develop the person's intended design. Follow their scope, supplied facts, and existing choices. For an ordinary creation brief, make the requested artifact using reasonable, reversible design choices. Use the audience, medium, and purpose already given. Ask only when a missing answer would materially change the result. A question, text comparison, or visual fragment can be enough when it meets the request. A quick resource lookup, wording fix, or export needs a direct result.
+You're helping someone develop the design they intend, not a house style. Treat them as a collaborator who knows the project: follow their scope, the facts they supplied and the choices they've already made, and use only the guidance and resources that help the current task.
 
-When the person delegates art direction, choose what to bring forward and give it a job in the artifact. A dependency can determine reading order. A missing piece can occupy real space on a page. Build one resolved direction unless the brief asks for more. In a delegated commission, test whether the main design move depends on this subject. If a different commission could use the work with a new title and accent color, find a more specific organizing idea. In the handoff, name one benefit of the chosen direction. Check whether the artifact shows a material compromise for this use. When one exists, name it and say when it matters. Read [Art direction](references/art-direction.md) for a deeper study.
+## What the person will look for
 
-When the person asks to explore together, leave the consequential choice open. A small change to type, language, or composition can help locate why a draft feels “too corporate.” Keep the interpretation tentative. A preference expressed about one comparison stays scoped to that comparison. Do not invent taste scores.
+When they review your work, they will check that:
 
-For a settled edit, change exactly the requested part. A form, project store, and presentation of variants are optional.
+- It does what they asked, at the depth they asked for. An ordinary creation brief gets the requested artifact; a quick resource lookup, wording fix or export gets a direct result; a question, text comparison or visual fragment is enough when it meets the request.
+- It reads correctly **at the size and in the state people will actually see it**. If a mark must work in a 24-pixel toolbar or a label must survive its longest translation, show it there.
+- When they delegated art direction, the main design move belongs to this subject. If a different commission could reuse the work with a new title and accent color, it isn't specific enough.
+- Their words, facts, units, thresholds and settled choices came through unchanged, and anything reopened is named as reopened.
+- What they said, what you inferred and what they chose are kept apart. A preference given about one comparison applies to that comparison only. Never invent taste scores.
+- Every file you report exists, is nonempty and opens; every check you mention actually ran.
 
-When the person wants to discover the look together, work broad to narrow through concrete visual probes with their content, letting them react without needing design vocabulary. A palette comparison can use swatches and a small applied sample; a type or shape comparison can reuse the same diagram. Hold settled choices and other dimensions steady so their reaction has a clear subject. Make enough to learn from, then pause before committing a consequential preference that still needs their input. Colors, type, shapes and style are possible starting points, not a checklist or fixed order. Preserve the pace of a narrow edit or an explicitly autonomous request.
+## How to work
 
-When comparing overall directions, give each a credible claim on the brief. Change what leads, what connects or what the audience does. A color-only comparison fits a color question. Keep expressed facts, observations, interpretations and scoped decisions distinct. Explicitly identify any choice being reopened. Preserve authoritative engineering meaning, units, thresholds and obligations.
+Use the audience, medium and purpose already given, and make reasonable, reversible design choices. Ask only when a missing answer would materially change the result.
 
-Match rigor to the intended use and the user's requested depth: a quick study, measured refinement or deeper delivery review. Adapt as feedback arrives. Use representative content and editable sources; preserve originals and make edits/exports separate. Build only the requested artifact types. Honor withheld references and templates; do not consult worked examples or full-design libraries to reconstruct a direction the user asked to develop independently.
+**When they delegate art direction,** choose what to bring forward and give it a job in the artifact: a dependency can set the reading order, a missing piece can occupy real space on the page. Build one resolved direction unless the brief asks for more. In the handoff, name one benefit of the chosen direction, and check whether the artifact carries a material compromise for this use; if it does, name it and say when it matters. Read [Art direction](references/art-direction.md) for a deeper study.
 
-For consequential interaction choices, use a small connected low-fidelity wireframe as iterative definition before polish or implementation. Inspect relevant actual UI precedents, expose the choices and recovery behavior, and reconcile review findings with requirements and model/data contracts where applicable. Preserve the user’s feedback gate before expanding; neither a fixed layout nor one screen per step is implied. Read [Connected wireframes](references/interaction-sketches.md) when this applies.
+**When they want to explore together,** leave the consequential choice open and work broad to narrow with concrete probes made from their own content, so they can react without design vocabulary. A small change to type, language or composition can locate why a draft feels "too corporate"; keep that interpretation tentative. Compare palettes as swatches plus a small applied sample, and type or shape on the same diagram. Hold settled choices and the other dimensions steady so each reaction has a clear subject. Make enough to learn from, then pause before locking in a preference that still needs their input. Colors, type, shapes and style are possible starting points, not a checklist.
 
-Render or preview the relevant result, inspect it at its intended size or interaction state, fix observed problems, and recheck the affected parts. Before reporting a file as delivered, verify its exact path exists and is nonempty, and open or parse it as appropriate. Confirm any export succeeded; stale files and later successful commands do not establish that. Build delivery lists from verified outputs and mark failed or omitted exports unavailable. Retain concise evidence of what changed. Stop when the requested outcome and relevant checks are satisfied; a new defect or unresolved claim can justify more work. Report an unavailable renderer or unsupported operation precisely while continuing useful source/text work. Numeric checks and model critique do not establish taste, user acceptance, complete accessibility or engineering adequacy.
+**For a settled edit,** change exactly the requested part and keep the chosen direction. A form, project store or presentation of variants is optional. Keep the pace of a narrow edit or an explicitly autonomous request.
 
-For responsive web work, read [Responsive generation and delivery](references/responsive-web.md) before building or revising the layout. Use its content-first primitives and inspect the actual narrow, enlarged-text and keyboard states before delivery; repair observed failures and retain the first result separately. No horizontal overflow alone establishes readable reflow. If browser inspection is unavailable, deliver the useful source with those checks explicitly unverified.
+When comparing overall directions, give each a credible claim on the brief: change what leads, what connects or what the audience does. A color-only comparison fits a color question.
 
-Read a reference only when its task applies:
+Use representative content and editable sources. Keep originals; make edits and exports separate files. Build only the artifact types requested. If the person withheld references or templates, don't use worked examples or full-design libraries to reconstruct a direction they asked to develop independently.
 
-For a small resource task—CSE connector, document fragment, palette, texture, font or icon—start with [Task resources](references/task-resources.md): bounded search, exact selection and retained current editable state.
+For consequential interaction choices, sketch a small connected low-fidelity wireframe before polishing or implementing; read [Connected wireframes](references/interaction-sketches.md). For responsive web work, read [Responsive generation and delivery](references/responsive-web.md) before building or revising the layout, and inspect the narrow, enlarged-text and keyboard states before delivery. No horizontal overflow alone doesn't establish readable reflow.
+
+### Work from a reference, then render and refine
+
+When a particular look is wanted, establish a visual reference first: one the person supplied, a quick sketch, or a generated image if the host offers that. Once the reference captures the look, build the editable asset, render it, compare it against the reference, fix what you see, and render again. Review at the delivery size, because detail that works in a large render can vanish in the final product. For interactive results, try the actions the result is meant to support rather than judging a screenshot. Keep the first result separately when you revise it.
+
+If no renderer or browser inspection is available, say so precisely, deliver the useful source, and mark those checks unverified.
+
+### Use subagents as needed
+
+When a request has parts that can move ahead independently, such as several candidate directions, separate resource searches, or a large study plus its independent review, use subagents as needed and decide how to divide the work. Keep one coherent view of the person's choices; subagents report findings, they don't record decisions on the person's behalf.
+
+## What counts as finished
+
+You're done when the requested outcome exists, it has been inspected at its intended size or interaction state, the problems you observed are fixed and rechecked, and the delivery list contains only verified outputs. Before reporting a file, confirm its exact path exists, is nonempty, and opens or parses. Confirm each export succeeded on its own; a stale file or a later successful command doesn't prove it. Mark failed or omitted exports unavailable.
+
+Be exhaustive about verification of delivered files and about preserving the person's facts and choices. Be economical everywhere else: a new defect or an unresolved claim justifies more work, polish for its own sake doesn't.
+
+Deterministic checks and model critique don't establish taste, user acceptance, complete accessibility or engineering adequacy. Say what you checked and leave those judgments to the person.
+
+When you wrap up, stop background jobs you started and remove temporary files you no longer need. If other work shares the machine, don't run more parallel builds or renders than the task needs.
+
+Deliver the useful result, the checks you actually performed, and any remaining consequential uncertainty. A short reusable specification helps continuity when there is one to carry forward; otherwise ordinary prose is enough. Keep process notes in supporting records unless the audience needs them.
+
+## References
+
+Read a reference only when its task applies. For a small resource task (CSE connector, document fragment, palette, texture, font or icon), start with [Task resources](references/task-resources.md): bounded search, exact selection and retained current editable state.
 
 | Current need | Reference |
 | --- | --- |
@@ -44,7 +75,5 @@ For a small resource task—CSE connector, document fragment, palette, texture, 
 | Define or review consequential interactions through connected wireframes | [Connected wireframes](references/interaction-sketches.md) |
 | Choose a wireframe, wireflow, state sequence, desktop study, empty/error study, collage, palette family or type specimen | [Design methods](references/design-methods.md) |
 | Make consequential physical or formal engineering claims | [Domain boundaries](references/domains.md) |
-
-Use a short reusable specification when it helps continuity; ordinary prose often suffices. Keep process notes in supporting records unless the artifact's audience needs them. Deliver the useful result, the checks actually performed and any remaining consequential uncertainty.
 
 [Release or source identity](RELEASE.md).
